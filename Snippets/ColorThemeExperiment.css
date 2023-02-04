@@ -56,6 +56,7 @@ html {
 /*Sidebar*/
 .childWrapper-1j_1ub,
 .circleIconButton-1VxDrg {
+    color: var(--bg-overlay-1,var(--status-green-600));
     background: var(--bg-overlay-6,var(--background-primary));
 }
 .folder-241Joy {
@@ -102,7 +103,7 @@ html {
 }
 .recentMentionsPopout-2bI1ZN .size32-1NLMUP:hover,
 .recentMentionsPopout-2bI1ZN .friendRequestsButton-77veU7:hover {
-    background: var(--bg-overlay-5,var(--background-primary));
+    background: var(--bg-overlay-5,var(--background-floating));
 }
 .recentMentionsPopout-2bI1ZN .friendRequestsButton-77veU7 .numberBadge-37OJ3S {
     background: var(--bg-overlay-3,var(--background-primary));
@@ -189,12 +190,91 @@ html {
     background: var(--bg-overlay-5,var(--background-tertiary));
 }
 
+/*Home Page*/
+.interactiveCard-2iMtdk,
+.container-2Hi7Km,
+.container-xwOzwi,
+.container-3rZ3XA {
+    background: var(--bg-overlay-3,var(--background-primary));
+}
+.icon-2IDTxf {
+    border: 0;
+}
+.iconContainer-2R-3M1 {
+    background: var(--bg-overlay-4,var(--background-tertiary));
+}
+.container-3HMTms:hover {
+    background: var(--bg-overlay-5,var(--background-secondary));
+}
+
+/*Channels & Roles Page*/
+#app-mount .container-2IKOsH {
+    background: var(--bg-overlay-1,var(--background-secondary-alt));
+}
+.prompt-1sE27N,
+.profileCard-2gVmvm,
+.channelRow-4X_3fi {
+    background: var(--bg-overlay-3,var(--background-primary));
+}
+.optionButton-1W9f7G.selected-KQBgNS {
+    background: var(--bg-overlay-4,var(--background-tertiary));
+}
+.search-kg4MrS.container-2oNtJn {
+    background: var(--bg-overlay-4,var(--background-tertiary));
+}
+
 /*Popouts*/
-.layer-1Ixpg3 > .focusLock-2tveLW .root-g14mjS {
+.layer-1Ixpg3 > .focusLock-2tveLW .root-g14mjS,
+.layer-1Ixpg3 > .focusLock-2tveLW .header-1sd0RU,
+.focusLock-2tveLW .container-3eB5yh {
     background: var(--bg-overlay-1,var(--modal-background));
+}
+.focusLock-2tveLW .eventCard-2ZL9GD {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+.focusLock-2tveLW .eventCard-2ZL9GD:hover {
+    background: var(--bg-overlay-3,var(--background-secondary-alt));
 }
 .layer-1Ixpg3 > .focusLock-2tveLW .footer-31IekZ {
     background: var(--bg-overlay-3,var(--modal-footer-background));
+}
+
+/*Buttons*/
+.button-1EGGcP,
+.colorPrimary-2AuQVo {
+    position: relative;
+    z-index: 1;
+}
+.button-1EGGcP.buttonColor-3bP3fX,
+.button-1EGGcP .buttonColor-3bP3fX,
+.lookOutlined-3yKVGo.colorPrimary-2AuQVo {
+    background: transparent !important;
+}
+button.buttonColor-3bP3fX:after,
+button .buttonColor-3bP3fX:after,
+button.colorPrimary-2AuQVo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg-overlay-6,var(--background-primary));
+    border-radius: 3px;
+    transition: opacity .17s ease;
+    z-index: -1;
+}
+button.buttonColor-3bP3fX:after,
+button .buttonColor-3bP3fX:after {
+    opacity: .6;
+}
+button.colorPrimary-2AuQVo:after {
+    opacity: 0;
+}
+.button-1EGGcP.buttonColor-3bP3fX:hover:after,
+.button-1EGGcP .buttonColor-3bP3fX:hover:after,
+button.colorPrimary-2AuQVo:hover:after {
+    opacity: 1;
 }
 
 /*Settings*/

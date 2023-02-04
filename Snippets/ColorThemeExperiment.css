@@ -131,6 +131,7 @@ html {
 .scroller-kQBbkU::-webkit-scrollbar-track,
 .peopleList-2VBrVI::-webkit-scrollbar-track,
 .scroller-3j5xK2::-webkit-scrollbar-track,
+.auto-2K3UW5::-webkit-scrollbar-track,
 .contentRegionScroller-2_GT_N::-webkit-scrollbar-track {
     background-image: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-3))),var(--custom-theme-background);
 }
@@ -156,6 +157,20 @@ html {
 }
 .menu-1QACrS {
     background: var(--bg-overlay-3,var(--background-floating));
+}
+
+/*Forum Channel*/
+.mainCard-3KBsBI {
+    background: var(--bg-overlay-3,var(--background-primary));
+}
+.matchingPostsRow-2IiEQ1 {
+    background: var(--bg-overlay-4,var(--background-secondary));
+}
+.popout-2vZMlk {
+    background: var(--bg-overlay-4,var(--background-secondary));
+}
+.uploadInput-3fblkw {
+    background: var(--bg-overlay-5,var(--background-secondary-alt));
 }
 
 /*Memberlist*/

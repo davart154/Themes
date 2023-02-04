@@ -243,6 +243,7 @@ html {
 
 /*Popouts*/
 .layer-1Ixpg3 > .focusLock-2tveLW .root-g14mjS,
+.layer-1Ixpg3 form .focusLock-2tveLW .root-g14mjS,
 .layer-1Ixpg3 > .focusLock-2tveLW .header-1sd0RU,
 .focusLock-2tveLW .container-3eB5yh {
     background: var(--bg-overlay-1,var(--modal-background));
@@ -253,7 +254,8 @@ html {
 .focusLock-2tveLW .eventCard-2ZL9GD:hover {
     background: var(--bg-overlay-3,var(--background-secondary-alt));
 }
-.layer-1Ixpg3 > .focusLock-2tveLW .footer-31IekZ {
+.layer-1Ixpg3 > .focusLock-2tveLW .footer-31IekZ,
+.layer-1Ixpg3 form .focusLock-2tveLW .modalFooter-2XY3GW {
     background: var(--bg-overlay-3,var(--modal-footer-background));
 }
 

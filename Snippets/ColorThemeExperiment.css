@@ -170,6 +170,9 @@ html {
 .mainCard-3KBsBI {
     background: var(--bg-overlay-3,var(--background-primary));
 }
+.form-25Aujy .input-3O04eu {
+    background: transparent;
+}
 .matchingPostsRow-2IiEQ1 {
     background: var(--bg-overlay-4,var(--background-secondary));
 }

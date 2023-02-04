@@ -231,6 +231,9 @@ html {
 .container-3HMTms:hover {
     background: var(--bg-overlay-5,var(--background-secondary));
 }
+.parentContainer-1BJf98 {
+    background: var(--bg-overlay-4,var(--background-floating));
+}
 
 /*Channels & Roles Page*/
 #app-mount .container-2IKOsH {

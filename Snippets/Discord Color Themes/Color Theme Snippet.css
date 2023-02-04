@@ -10,10 +10,10 @@
 @import url(https://davart154.github.io/Themes/Snippets/Discord%20Color%20Themes/ColorThemeExperiment.css);
 
 .theme-dark {
-    --custom-theme-background: var(--);
+    --custom-theme-background: var();
     --theme-angle: 0deg;
 
-/*Replace the variable above with a label below to change the theme:
+/*Place a name below inside var() to change the theme:
     --sunset
     --neon-glow
     --deep-forest
@@ -25,10 +25,10 @@
 */
 }
 .theme-light {
-    --custom-theme-background: var(--);
+    --custom-theme-background: var();
     --theme-angle: 0deg;
 
-/*Replace the variable above with a label below to change the theme:
+/*Place a name below inside var() to change the theme:
     --cotton-candy
     --mint-apple
     --citrus-sherbert

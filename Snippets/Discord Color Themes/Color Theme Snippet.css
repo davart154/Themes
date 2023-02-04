@@ -26,7 +26,7 @@
 }
 .theme-light {
     --custom-theme-background: var(--);
-    --theme-angle: 180deg;
+    --theme-angle: 0deg;
 
 /*Replace the variable above with a label below to change the theme:
     --cotton-candy

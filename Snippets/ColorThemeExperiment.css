@@ -55,7 +55,7 @@ html {
 
 /*Sidebar*/
 .tutorialContainer-1pL9QS:not(nth-child(1) .circleIconButton-1VxDrg,
-.tutorialContainer-1pL9QS:not(nth-child(1) ~ .listItem-3SmSlK .circleIconButton-1VxDrg, {
+.tutorialContainer-1pL9QS:not(nth-child(1) ~ .listItem-3SmSlK .circleIconButton-1VxDrg {
     color: var(--bg-overlay-1,var(--status-green-600));
     background: var(--bg-overlay-6,var(--background-primary));
 }

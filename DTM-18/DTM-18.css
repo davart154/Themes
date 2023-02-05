@@ -203,6 +203,17 @@ mask > use[href$="lower_badge_masks"] {
     font-weight: 500;
     line-height: 12px;
 }
+.newBadge-1LcB6t {
+    background-color: transparent !important;
+    border: 1px solid var(--brand-experiment);
+    color: var(--brand-experiment);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    border-radius: 3px;
+    height: unset !important;
+    padding: 2px 4px !important;
+}
 /*Beta Badge*/
 .base-3IDx3L[style*="background-color: var(--brand-500)"] {
     background-color: var(--brand-experiment) !important;
@@ -5647,27 +5658,18 @@ div.groupStart-3Mlgv1 {
 
 /*Channel/Mention Chip*/
 /*Mention*/
-.mention.wrapper-1ZcZW-:not(.iconMentionText-1_WCtN) {
+.mention.wrapper-1ZcZW- {
     border-radius: 0;
     color: var(--brand-experiment);
-    background: var(--brand-experiment-10a);
-    padding: 1px 2px;
+    background-color: var(--brand-experiment-10a);
     transition: .1s ease;
 }
-.mention.wrapper-1ZcZW-:not(.iconMentionText-1_WCtN):hover {
+.wrapper-1ZcZW-:hover {
     color: #fff;
     background: var(--brand-experiment-70a);
 }
-.theme-light .mention.wrapper-1ZcZW-:not(.iconMentionText-1_WCtN):hover {
-    background: var(--brand-experiment);
-}
-.message-2CShn3.mentioned-Tre-dv .contents-2MsGLg .markup-eYLPri .mention.wrapper-1ZcZW-:not(.iconMentionText-1_WCtN) {
+.message-2CShn3.mentioned-Tre-dv .mention:not(.channelMention) {
     color: var(--brand-experiment);
-    background: none !important;
-    padding: 0;
-}
-/*Role Mention*/
-.message-2CShn3.mentioned-Tre-dv .roleMention-11Aaqi {
     background: none !important;
     padding: 0;
 }
@@ -5675,19 +5677,27 @@ div.groupStart-3Mlgv1 {
     text-decoration: underline;
 }
 /*Server Channel*/
-.wrapper-1ZcZW-.iconMentionText-1_WCtN {
-    border-radius: 0;
-    color: var(--brand-experiment);
-    background: var(--brand-experiment-10a);
-    padding: 1px 2px 1px 1.2rem;
-}
-.wrapper-1ZcZW-.iconMentionText-1_WCtN:hover {
-    color: var(--brand-experiment-100);
-    background: var(--brand-experiment);
+.wrapper-1ZcZW-.channelMention:hover {
     text-decoration: none !important;
 }
-.theme-light .wrapper-1ZcZW-.iconMentionText-1_WCtN:hover {
+.theme-light .wrapper-1ZcZW-.channelMention:hover {
     background: var(--brand-experiment);
+}
+/*Voice Icon*/
+.channelIcon-3I2O7O [d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
+    d: path("M 14 3 L 14 5.06 C 16.89 5.92 19 8.6 19 11.77 C 19 14.94 16.89 17.61 14 18.47 L 14 20.54 C 18 19.63 21 16.05 21 11.77 C 21 7.49 18 3.91 14 3 L 14 3 Z M 16.5 11.77 C 16.5 10 15.5 8.48 14 7.74 L 14 15.77 C 15.5 15.06 16.5 13.53 16.5 11.77 L 16.5 11.77 Z M 3 8.77 L 3 14.77 L 7 14.77 L 12 19.77 L 12 3.77 L 7 8.77 L 3 8.77 L 3 8.77 Z");
+}
+/*Voice Locked Out Icon*/
+.channelIcon-3I2O7O [d="M17 11V7C17 4.243 14.756 2 12 2C9.242 2 7 4.243 7 7V11C5.897 11 5 11.896 5 13V20C5 21.103 5.897 22 7 22H17C18.103 22 19 21.103 19 20V13C19 11.896 18.103 11 17 11ZM12 18C11.172 18 10.5 17.328 10.5 16.5C10.5 15.672 11.172 15 12 15C12.828 15 13.5 15.672 13.5 16.5C13.5 17.328 12.828 18 12 18ZM15 11H9V7C9 5.346 10.346 4 12 4C13.654 4 15 5.346 15 7V11Z"] {
+    d: path("M 16.2 10.5 L 16.2 8.25 C 16.2 6.15 14.1 4.5 12 4.5 C 9.9 4.5 7.8 6.15 7.8 8.25 L 7.8 10.5 C 6.9 10.5 6 11.4 6 12.3 L 6 17.55 C 6 18.6 6.9 19.5 7.8 19.5 L 16.05 19.5 C 17.1 19.5 18 18.6 18 17.7 L 18 12.45 C 18 11.4 17.1 10.5 16.2 10.5 Z M 14.25 10.5 L 9.75 10.5 L 9.75 8.25 C 9.75 7.05 10.8 6.3 12 6.3 C 13.2 6.3 14.25 7.05 14.25 8.25 L 14.25 10.5 Z");
+}
+/*Stage Channel Icon*/
+.channelIcon-3I2O7O [d="M14 13C14 14.1 13.1 15 12 15C10.9 15 10 14.1 10 13C10 11.9 10.9 11 12 11C13.1 11 14 11.9 14 13ZM8.5 20V19.5C8.5 17.8 9.94 16.5 12 16.5C14.06 16.5 15.5 17.8 15.5 19.5V20H8.5ZM7 13C7 10.24 9.24 8 12 8C14.76 8 17 10.24 17 13C17 13.91 16.74 14.75 16.31 15.49L17.62 16.25C18.17 15.29 18.5 14.19 18.5 13C18.5 9.42 15.58 6.5 12 6.5C8.42 6.5 5.5 9.42 5.5 13C5.5 14.18 5.82 15.29 6.38 16.25L7.69 15.49C7.26 14.75 7 13.91 7 13ZM2.5 13C2.5 7.75 6.75 3.5 12 3.5C17.25 3.5 21.5 7.75 21.5 13C21.5 14.73 21.03 16.35 20.22 17.75L21.51 18.5C22.45 16.88 23 15 23 13C23 6.93 18.07 2 12 2C5.93 2 1 6.93 1 13C1 15 1.55 16.88 2.48 18.49L3.77 17.74C2.97 16.35 2.5 14.73 2.5 13Z"] {
+    d: path("M4.8 6.9143C7.3114 6.9143 9.3936 6.0705 10.2 4.8609L11.3146 6.6033 8.3424 11.2429 3.2131 6.7933C3.7142 6.8711 4.247 6.9143 4.8 6.9143ZM12.8784 15.1828 21.743 22.8695 15.407 12.9882 12.8784 15.1828ZM19.2 6.9143C16.6886 6.9143 14.6064 6.0705 13.8 4.8609L2.257 22.8695 20.7869 6.7962C20.2858 6.8711 19.753 6.9143 19.2 6.9143ZM9.408 3.7463C9.408 2.793 7.5158 1.7303 4.8 1.7303 2.0842 1.7303.192 2.793.192 3.7463.192 4.6996 2.0842 5.7623 4.8 5.7623 7.5158 5.7623 9.408 4.6996 9.408 3.7463ZM19.2 1.7303C16.4842 1.7303 14.592 2.793 14.592 3.7463 14.592 4.6996 16.4842 5.7623 19.2 5.7623 21.9158 5.7623 23.808 4.6996 23.808 3.7463 23.808 2.793 21.9158 1.7303 19.2 1.7303Z");
+}
+/*Forum Channel Icon*/
+.channelIcon-3I2O7O [d="M6.56929 14.6869H2.34375C1.97079 14.6869 1.61311 14.5387 1.34938 14.275C1.08566 14.0113 0.9375 13.6536 0.9375 13.2806V8.12437C0.9375 6.38389 1.6289 4.7147 2.85961 3.484C4.09032 2.25329 5.75951 1.56189 7.49999 1.56189C9.24047 1.56189 10.9097 2.25329 12.1404 3.484C12.6953 4.03895 13.1406 4.68307 13.4623 5.38267C14.9101 5.5973 16.2513 6.29124 17.2655 7.36251C18.4194 8.58133 19.0625 10.1959 19.0625 11.8744V17.0306C19.0625 17.4036 18.9144 17.7613 18.6506 18.025C18.3869 18.2887 18.0292 18.4369 17.6563 18.4369H12.5C11.1428 18.4369 9.81899 18.0162 8.71072 17.2328C7.7871 16.58 7.05103 15.7019 6.56929 14.6869ZM4.18544 4.80982C5.06451 3.93075 6.25679 3.43689 7.49999 3.43689C8.74319 3.43689 9.93549 3.93075 10.8146 4.80983C11.6936 5.6889 12.1875 6.88119 12.1875 8.12439C12.1875 9.36759 11.6936 10.5599 10.8146 11.439C9.93549 12.318 8.74321 12.8119 7.50001 12.8119H7.20268C7.19767 12.8118 7.19266 12.8118 7.18764 12.8119H2.8125V8.12438C2.8125 6.88118 3.30636 5.6889 4.18544 4.80982ZM8.672 14.5814C8.97763 15.0132 9.35591 15.3928 9.79299 15.7017C10.5847 16.2614 11.5305 16.5619 12.5 16.5619H17.1875V11.8744C17.1875 10.6755 16.7281 9.52219 15.9039 8.65159C15.3804 8.09865 14.735 7.68644 14.027 7.44246C14.0506 7.66798 14.0625 7.89557 14.0625 8.12439C14.0625 9.86487 13.3711 11.5341 12.1404 12.7648C11.1896 13.7156 9.97697 14.3445 8.672 14.5814Z"] {
+    d: path("M16.8 1.68H3.36C2.436 1.68 1.68 2.436 1.68 3.36V18.48L5.04 15.12H16.8C17.724 15.12 18.48 14.364 18.48 13.44V3.36C18.48 2.436 17.724 1.68 16.8 1.68Z");
 }
 
 /*Replying to Messages*/
@@ -5917,6 +5927,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     border-color: #f6f6f7;
 }
 .wrapperAudio-1Bzv_Z {
+    padding: 10px !important;
     width: 520px !important;
 }
 .audioMetadata-1Hrt8T:before {
@@ -5926,13 +5937,16 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     background-size: 26px 38px;
     max-width: 520px;
 }
-.audioMetadata-1Hrt8T .metadataIcon-3QMhu9 {
-    color: #4f545c;
+.hoverButtonGroup-2yZIzC {
+    top: 10px;
+    right: 10px;
+    background: transparent !important;
+    outline: 0;
 }
-.audioMetadata-1Hrt8T .metadataIcon-3QMhu9:hover {
-    color: #72767d;
-    opacity: 0.6;
+.hoverButton-36QWJk {
+    background: transparent !important;
 }
+
 
 .videoButton-3NM9Tc {
     height: unset;
@@ -5958,14 +5972,17 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     font-family: SourceCodePro;
     font-weight: 500;
 }
-.metadataIcon-3QMhu9 {
+.metadataIcon-3QMhu9,
+.downloadHoverButtonIcon-16xasX {
     color: #fff;
     opacity: 0.6;
 }
-.metadataIcon-3QMhu9:hover {
+.metadataIcon-3QMhu9:hover,
+.downloadHoverButtonIcon-16xasX:hover {
     opacity: 1;
 }
-.metadataIcon-3QMhu9 [d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"] {
+.metadataIcon-3QMhu9 [d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"],
+.downloadHoverButtonIcon-16xasX path {
     d: path("M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z");
 }
 .volumeButton-3IDSX- [d="M11.383 3.07904C11.009 2.92504 10.579 3.01004 10.293 3.29604L6 8.00204H3C2.45 8.00204 2 8.45304 2 9.00204V15.002C2 15.552 2.45 16.002 3 16.002H6L10.293 20.71C10.579 20.996 11.009 21.082 11.383 20.927C11.757 20.772 12 20.407 12 20.002V4.00204C12 3.59904 11.757 3.23204 11.383 3.07904ZM14 5.00195V7.00195C16.757 7.00195 19 9.24595 19 12.002C19 14.759 16.757 17.002 14 17.002V19.002C17.86 19.002 21 15.863 21 12.002C21 8.14295 17.86 5.00195 14 5.00195ZM14 9.00195C15.654 9.00195 17 10.349 17 12.002C17 13.657 15.654 15.002 14 15.002V13.002C14.551 13.002 15 12.553 15 12.002C15 11.451 14.551 11.002 14 11.002V9.00195Z"] {
@@ -5978,6 +5995,36 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .controlIcon-10O-4h [d="M3,5v5H5V5h5V3H5A2,2,0,0,0,3,5Z"],
 .controlIcon-10O-4h [d="M5,14H3v5a2,2,0,0,0,2,2h5V19H5Z"] {
     display: none;
+}
+
+.attachment-1PZZB2 {
+    padding: 10px !important;
+    padding-right: 40px !important;
+    border-radius: 3px !important;
+    max-width: 520px !important;
+    width: 100% !important;
+}
+.attachment-1PZZB2 + .hoverButtonGroup-2yZIzC,
+.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC {
+    opacity: 1 !important;
+}
+.attachment-1PZZB2 + .hoverButtonGroup-2yZIzC .anchor-1MIwyf,
+.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC .anchor-1MIwyf {
+    padding: 0;
+}
+.audioMetadata-1Hrt8T .metadataIcon-3QMhu9,
+.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC .downloadHoverButtonIcon-16xasX,
+.attachment-1PZZB2 + .hoverButtonGroup-2yZIzC .downloadHoverButtonIcon-16xasX {
+    color: #4f545c;
+    height: 24px;
+    width: 24px;
+    background: transparent !important;
+}
+.audioMetadata-1Hrt8T .metadataIcon-3QMhu9:hover,
+.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC .downloadHoverButtonIcon-16xasX:hover,
+.attachment-1PZZB2 + .hoverButtonGroup-2yZIzC .downloadHoverButtonIcon-16xasX:hover {
+    color: #72767d;
+    opacity: 0.6;
 }
 /*PDF*/
 .messageAttachment-CZp8Iv img[src="/assets/325421cb49d6e0717b8c7b9dfa2d4bdc.svg"] {
@@ -6003,8 +6050,9 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 .icon.icon-file.sketch {
     background-image: url(/assets/f812168e543235a62b9f6deb2b094948.svg)
 }
-.icon.icon-file.ai {
-    background-image: url(/assets/03ad68e1f4d47f2671d629cfeac048ef.svg)
+/*Adobe Illustrator*/
+img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
+    content: url(/assets/03ad68e1f4d47f2671d629cfeac048ef.svg)
 }
 .icon.icon-file.archive {
     background-image: url(/assets/73d212e3701483c36a4660b28ac15b62.svg)
@@ -6067,7 +6115,22 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
     background-image: url(/assets/92fc72e47a5854ae12c1167e69573d77.svg);
 }
 
+/*Remove Media Mosaic*/
+.mediaAttachmentsContainer-1WGRWy {
+    max-width: 400px;
+    border-radius: 3px;
+}
+.oneByOneGridSingle-2ss-Zx {
+    border-radius: 3px;
+}
+
 /*Server Invites*/
+.inviteSplash-2nkLRX {
+    margin: -10px -10px 10px;
+    width: calc(100% + 24px);
+    border-radius: 3px 3px 0 0;
+    -webkit-mask-image: linear-gradient(#000 0%, transparent 100%);
+}
 .wrapper-1HIH0j {
     background-color: rgba(47,49,54,.6);
     border: 1px solid rgba(47,49,54,.9);
@@ -6091,7 +6154,6 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 .wrapper-1HIH0j .headerLine-2AIsUj {
     gap: 0;
-    flex: 0 auto;
     overflow: hidden;
 }
 .wrapper-1HIH0j .guildIcon-3ZfRfI {
@@ -7025,6 +7087,19 @@ img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
 }
 .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
     background-color: var(--button-secondary-background-hover);
+}
+/*Pin Icon*/
+.pinIcon-3I5-gm {
+    background: transparent;
+}
+.pinIcon-3I5-gm svg {
+    width: 24px;
+    height: 24px;
+}
+.pinIcon-3I5-gm path {
+    d: path("M15 15V6h-4v9h-.50899482C10.22788048 15 10 15.2238576 10 15.5c0 .2680664.2198305.5.49100518.5h5.01798964C15.77211952 16 16 15.7761424 16 15.5c0-.2680664-.2198305-.5-.49100518-.5H15zm2-9h1V4H8v2h1v8l-2 2v2h5.2v4h1.6v-4H19v-2l-2-2V6z");
+    fill: var(--brand-500);
+    fill-rule: evenodd;
 }
 
 /*Messages Failed to Load*/

@@ -306,6 +306,27 @@ button.colorPrimary-2AuQVo:after {
 button.colorPrimary-2AuQVo:hover:after {
     opacity: 1;
 }
+.expandButton-16yJoR {
+    z-index: 1;
+    position: relative;
+    background: transparent !important;
+}
+.expandButton-16yJoR:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg-overlay-6,var(--background-primary));
+    border-radius: 50%;
+    opacity: .8;
+    transition: opacity .2s ease;
+    z-index: -1;
+}
+.expandButton-16yJoR:hover:after {
+    opacity: 1;
+}
 
 /*Settings*/
 .sidebarRegionScroller-FXiQOh {

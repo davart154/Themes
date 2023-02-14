@@ -130,11 +130,6 @@
     border-top-color: #000;
 }
 
-/*Blurple Button Hover*/
-.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background-color: var(--brand-experiment-530);
-}
-
 /*Indicators*/
 /*Mention Counter Indicator*/
 .numberBadge-37OJ3S {
@@ -877,7 +872,7 @@ mask > use[href$="lower_badge_masks"] {
     line-height: 20px;
     font-weight: 400;
     font-style: italic;
-    content: "Readying the easter eggs";
+    content: "Gathering the easter eggs";
 }
 .tipTitle-3FYEQp:after {
     color: #72767d;
@@ -1454,7 +1449,8 @@ img[src="/assets/f90fca70610c4898bc57b58bce92f587.png"],
 img[src="/assets/3cb840d03313467838d658bbec801fcd.png"],
 img[src="/assets/e2779af34b8d9126b77420e5f09213ce.png"],
 img[src="/assets/f7e38ac976a2a696161c923502a8345b.png"],
-img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"] {
+img[src="/assets/c6851bd0b03f1cca5a8c1e720ea6ea17.png"],
+img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     content: url("https://cdn.discordapp.com/attachments/733624227378495488/930750396517982248/f046e2247d730629309457e902d5c5b3.svg");
 }
 
@@ -6905,9 +6901,6 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 
 /*Forum Channel*/
-.mainCard-3KBsBI {
-    border-radius: 4px;
-}
 /*Search Bar*/
 .collapsed-23aTv6 .prefixElement-1U4XhR,
 .collapsed-23aTv6 .formContainer-1zrOWf + .form-25Aujy,
@@ -7074,7 +7067,7 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 .submitIcon-E3Vuaz {
     display: none;
 }
-.submitButton-3B-dZd .text-md-semibold-3xVVGu {
+.submitButton-3B-dZd [class*='text'] {
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -7088,6 +7081,27 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
     background-color: var(--button-secondary-background-hover);
 }
+
+/*Cards*/
+.mainCard-3KBsBI {
+    border-radius: 4px;
+}
+.card-2JNtco:not(.headerRow-1MKoR-) .mainCard-3KBsBI {
+    background: var(--background-primary);
+    border: 2px solid rgba(28, 36, 43, 0.6);
+    transition: border-color 0.2s;
+    transform: none !important;
+    box-shadow: none !important;
+}
+.card-2JNtco:not(.headerRow-1MKoR-) .mainCard-3KBsBI:hover {
+    border-color: rgba(28, 36, 43, 0.8);
+}
+.theme-light .card-2JNtco:not(.headerRow-1MKoR-) .mainCard-3KBsBI {
+    border-color: rgba(28, 36, 43, 0.06);
+}
+.theme-light .card-2JNtco:not(.headerRow-1MKoR-) .mainCard-3KBsBI:hover {
+    border-color: rgba(28, 36, 43, 0.12);
+}
 /*Pin Icon*/
 .pinIcon-3I5-gm {
     background: transparent;
@@ -7100,6 +7114,26 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     d: path("M15 15V6h-4v9h-.50899482C10.22788048 15 10 15.2238576 10 15.5c0 .2680664.2198305.5.49100518.5h5.01798964C15.77211952 16 16 15.7761424 16 15.5c0-.2680664-.2198305-.5-.49100518-.5H15zm2-9h1V4H8v2h1v8l-2 2v2h5.2v4h1.6v-4H19v-2l-2-2V6z");
     fill: var(--brand-500);
     fill-rule: evenodd;
+}
+
+/*New Post Bar*/
+.newPostsButton-UaBhcU {
+    background-color: var(--brand-experiment);
+    border: 0;
+    border-radius: 4px;
+    text-shadow: none;
+    text-transform: uppercase;
+    padding: 3px 8px !important;
+    height: unset;
+    min-width: 16px !important;
+    opacity: .9;
+}
+.newPostsButton-UaBhcU:active {
+    transform: translateX(50%) translateY(1px);
+}
+.newPostsButton-UaBhcU [class*="text"] {
+    font-size: 13px;
+    color: #fff !important;
 }
 
 /*Messages Failed to Load*/
@@ -7553,6 +7587,50 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     width: 25px;
     height: 25px;
 }
+/*Staff*/
+[src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994010653545209907/badges_staff.svg?);
+}
+/*Partnered*/
+[src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994010900535201893/badges_partner.svg);
+}
+/*Moderator Programs Alumni*/
+[src="/assets/b945002f0e0fd7f11990d800e98b5504.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994011249270599811/badge_death.svg);
+}
+/*Hypesquad Events*/
+[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994012035438346301/badge_hsevents.svg);
+}
+/*Hypesquad Bravery*/
+[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994012512787906703/badge_hsbravery.svg);
+}
+/*Hypesquad Brilliance*/
+[src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994012580907585746/badge_hsbrilliance.svg);
+}
+/*Hypesquad Balance*/
+[src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994012710469648434/badge_hsbalance.svg);
+}
+/*Developer Something*/
+[src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/1053615671252095086/adb.svg?);
+}
+/*Nitro*/
+[src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/994012938165821530/badge_nobitches.svg?);
+}
+/*Supports Commands*/
+[src="/assets/498591d63b352256a1bf18061eff9d57.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/1053615838256701522/hsc.svg?);
+}
+/*Active Developer*/
+[src="/assets/26c7a60fb1654315e0be26107bd47470.svg"] {
+  content: url(https://cdn.discordapp.com/attachments/733624227378495488/1053614339086614568/adb.svg?);
+}
 
 /*Overlay Background*/
 .userPopoutOverlayBackground-dKOOda {
@@ -7573,9 +7651,13 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 
 /*Header Text*/
-.eyebrow-Ejf06y {
+.eyebrow-1Shfyi {
     color: var(--header-secondary);
     font-weight: 700;
+}
+.section-3FmfOT:has(.markup-eYLPri) .eyebrow-1Shfyi,
+.section-3FmfOT:has(.memberSinceContainer-3biwiY) .eyebrow-1Shfyi {
+    color: var(--play-primary);
 }
 
 /*Username*/
@@ -7617,9 +7699,6 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 .scrollerSeparator-3MxsAq {
   box-shadow: none;
 }
-.eyebrow-Ejf06y {
-    padding: 0;
-}
 
 .userPopoutOuter-3AVBmJ .section-3FmfOT:has(.markup-eYLPri),
 .userPopoutOuter-3AVBmJ .section-3FmfOT:has(.memberSinceContainer-3biwiY) {
@@ -7627,13 +7706,19 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 
 /*Bot Option Buttons*/
+.userPopoutOuter-3AVBmJ .section-3FmfOT:has(.buttonsContainer-2_Qu-e) {
+    background: var(--play-460);
+}
 .buttonsContainer-2_Qu-e {
     display: flex;
     flex-direction: column;
+    pointer-events: none;
+    width: 100%;
+    align-items: center;
 }
 .buttonsContainer-2_Qu-e button {
     justify-content: center;
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     min-height: unset;
     margin: 0;
@@ -7642,7 +7727,7 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     color: var(--text-link) !important;
     background: transparent !important;
     border-radius: 0;
-    pointer-events: none;
+    pointer-events: all;
 }
 .buttonsContainer-2_Qu-e button:hover {
     text-decoration: underline;
@@ -7699,8 +7784,8 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) {
     --play: var(--brand-experiment);
     --play-460: var(--brand-experiment-460);
-    --play-primary: #fff;
-    --text-link: #fff;
+    --play-primary: #fff !important;
+    --text-link: #fff !important;
 }
 .userPopoutOuter-3AVBmJ .activity-E0U09Y .buttonColor-XIRMbp {
     background: transparent !important;
@@ -7714,6 +7799,62 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 .userPopoutOuter-3AVBmJ .activity-E0U09Y .buttonColor-XIRMbp:not(:disabled):active {
     border-color: #fff;
+}
+/*Partnered*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
+    filter: brightness(100);
+}
+/*Moderator Programs Alumni*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/b945002f0e0fd7f11990d800e98b5504.svg"] {
+    filter: brightness(100);
+}
+/*Hypesquad Events*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
+    filter: brightness(100);
+}
+/*Hypesquad Bravery*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
+    filter: brightness(100);
+}
+/*Hypesquad Brilliance*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
+    filter: brightness(100);
+}
+/*Hypesquad Balance*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
+    filter: brightness(100);
+}
+/*Developer Something*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"] {
+    filter: brightness(100);
+}
+/*Nitro*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {
+    content: url("data:image/svg+xml,%3Csvg fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M2.98966977,9.35789159 C2.98966977,9.77582472 2.63442946,10.1240466 2.20807287,10.1240466 L1.78171628,10.1240466 C1.35535969,10.1240466 0.999948837,9.77582472 0.999948837,9.35789159 C0.999948837,8.93995846 1.35535969,8.59173658 1.78171628,8.59173658 L2.20807287,8.59173658 C2.63442946,8.59173658 2.98966977,8.93995846 2.98966977,9.35789159 Z M22.2467643,9.14892503 C24.0942527,12.9800344 22.3888264,17.5772989 18.3384388,19.3882867 C14.4302837,21.1297305 9.74036124,19.457998 7.9638186,15.6268886 C7.60857829,14.8607335 7.3954,14.0248673 7.32428372,13.189001 L5.76091938,13.189001 C5.33456279,13.189001 4.97932248,12.840612 4.97932248,12.4226788 C4.97932248,12.0047457 5.33456279,11.6565238 5.76091938,11.6565238 L8.03493488,11.6565238 C8.46129147,11.6565238 8.81653178,11.3083019 8.81653178,10.8903688 C8.81653178,10.4724357 8.46129147,10.1240466 8.03493488,10.1240466 L4.41090388,10.1240466 C3.98454729,10.1240466 3.62913643,9.77582472 3.62913643,9.35789159 C3.62913643,8.93995846 3.98454729,8.59173658 4.41090388,8.59173658 L9.45606667,8.59173658 C9.88242326,8.59173658 10.2376636,8.24334752 10.2376636,7.82541439 C10.2376636,7.40748126 9.88242326,7.05925937 9.45606667,7.05925937 L7.3954,7.05925937 C6.75586512,7.05925937 6.18727597,6.57161499 6.18727597,5.87517123 C6.18727597,5.24827153 6.68474884,4.69091591 7.3954,4.69091591 L15.4250589,4.69091591 C18.267493,4.8303384 20.9676946,6.43235968 22.2467643,9.14892503 Z M13.2662961,8.38056332 C11.0193969,9.3919615 10.0341721,11.9973566 11.065955,14.1998642 C12.097738,16.4023718 14.755645,17.3681317 17.0025442,16.3567335 C19.249614,15.3453354 20.2346682,12.7399402 19.2028853,10.5374326 C18.1711023,8.33492503 15.5131953,7.36916515 13.2662961,8.38056332 Z M16.8462589,9.84548582 L18.2673907,12.2138293 C18.338507,12.3530846 18.338507,12.4227958 18.2673907,12.5620512 L16.8462589,14.9303946 C16.7751426,15.0696499 16.6330806,15.0696499 16.5619643,15.0696499 L13.7906465,15.0696499 C13.6485845,15.0696499 13.5774682,14.9999387 13.5065225,14.9303946 L12.0852202,12.5620512 C12.0142744,12.4227958 12.0142744,12.3530846 12.0852202,12.2138293 L13.5065225,9.84548582 C13.5774682,9.7062305 13.7197008,9.7062305 13.7906465,9.7062305 L16.5619643,9.7062305 C16.7041969,9.63651925 16.7751426,9.7062305 16.8462589,9.84548582 Z'/%3E%3C/svg%3E");
+}
+/*Early Supporter*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/b802e9af134ff492276d94220e36ec5c.svg"] {
+    filter: grayscale(100%);
+}
+/*Boosting Since*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/4a2618502278029ce88adeea179ed435.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/0599f90e32c15b532647163edd72f70a.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/e07c08cdc72bcc78b69c76d2c7ceb344.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/c7f26927db5e7806790f4e968038630a.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/c6d88d1d12afe03bdc4ebb747f8d196b.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/d96ed283b74de75692487b7499fb8d09.svg"] {
+    filter: grayscale(100%);
+}
+/*Supports Commands*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/498591d63b352256a1bf18061eff9d57.svg"] {
+    filter: brightness(100);
+}
+/*Active Developer*/
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/26c7a60fb1654315e0be26107bd47470.svg"] {
+    filter: brightness(100);
 }
 
 /*Listening to Spotify*/
@@ -8536,6 +8677,15 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     display: none;
 }
 
+/*Buttons*/
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    color: var(--white-500);
+    background-color: var(--brand-experiment);
+}
+.lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+    background-color: var(--brand-experiment-530);
+}
+
 
 /*Settings*/
 /*Main Settings*/
@@ -8963,29 +9113,29 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 
 /*Individual Settings Pages*/
 /*My Account*/
-.accountProfileCard-lbN7n- {
+#my-account-tab .accountProfileCard-lbN7n- {
     background-color: var(--background-secondary-alt);
     border-radius: 5px;
     border: 1px solid var(--background-tertiary);
 }
-.background-3d_SjE {
+#my-account-tab .background-3d_SjE {
     border-radius: inherit;
     background-color: inherit;
     padding: 20px;
     margin: 0;
     height: fit-content;
 }
-.profileCardUsernameRow-1bb6fi,
-.sidebar-nqHbhN .container-1gYwHN,
-.userInfo-regn9W .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+#my-account-tab .profileCardUsernameRow-1bb6fi,
+#my-account-tab .sidebar-nqHbhN .container-1gYwHN,
+#my-account-tab .userInfo-regn9W .lookFilled-yCfaCM.colorBrand-I6CyqQ,
 #my-account-tab .badgeList-b3Ajmk {
     display: none;
 }
-.userInfo-regn9W {
+#my-account-tab .userInfo-regn9W {
     height: 0;
     padding: 0;
 }
-.userInfo-regn9W .avatar-3mTjvZ {
+#my-account-tab .userInfo-regn9W .avatar-3mTjvZ {
     top: 20px;
     left: 20px;
     border: none;
@@ -8995,40 +9145,39 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     width: 100px;
     height: 100px;
 }
-.userInfo-regn9W .avatar-3mTjvZ foreignObject[mask="url(#svg-mask-avatar-status-round-80)"] {
+#my-account-tab .userInfo-regn9W .avatar-3mTjvZ foreignObject[mask="url(#svg-mask-avatar-status-round-80)"] {
     width: 100%;
     height: 100%;
     mask: none;
     border-radius: 50%;
 }
-.userInfo-regn9W .avatar-3mTjvZ .pointerEvents-9SZWKj {
+#my-account-tab .userInfo-regn9W .avatar-3mTjvZ .pointerEvents-9SZWKj {
     display: none;
 }
-.fieldList-in8WkP {
+#my-account-tab .fieldList-in8WkP {
     margin-left: 120px;
     background-color: inherit;
 }
-.background-3d_SjE .lookLink-15mFoz.colorLink-1Md3RZ {
+#my-account-tab .background-3d_SjE .lookLink-13iF2K {
     --text-link: var(--brand-experiment);
 }
-.field-21XZwa .h5-2feg8J {
+#my-account-tab .field-21XZwa .h5-2feg8J {
     color: var(--text-muted);
 }
-.field-21XZwa.text-md-normal-2rFCH3:nth-child(1) {
+#my-account-tab .field-21XZwa.text-md-normal-2rFCH3:nth-child(1) {
     color: var(--text-normal) !important;
 }
-.usernameInnerRow-1-STdK .text-md-normal-2rFCH3:nth-child(2) {
+#my-account-tab .usernameInnerRow-1-STdK .text-md-normal-2rFCH3:nth-child(2) {
     color: var(--text-muted) !important;
 }
-.field-21XZwa .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+#my-account-tab .field-21XZwa .lookFilled-1H2Jvj.colorPrimary-2-Lusz {
     background-color: var(--brand-experiment);
 }
-.field-21XZwa .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
+#my-account-tab .field-21XZwa .lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover {
     background-color: var(--brand-experiment-530);
 }
-#my-account-tab .divider-_0um2u:nth-of-type(2) {
-    display: none;
-}
+#my-account-tab .divider-_0um2u:nth-of-type(2),
+#my-account-tab .accountProfileCard-lbN7n- .colorBrand-2M3O3N,
 #my-account-tab .bannerSVGWrapper-qc0szY {
     display: none;
 }
@@ -9689,10 +9838,10 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 #discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB:hover {
     border-color: rgba(220,221,222,.6);
 }
-#discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB .contents-3ca1mk {
+#discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB .contents-3NembX {
     margin-right: 24px;
 }
-#discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB .contents-3ca1mk:after {
+#discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB .contents-3NembX:after {
     position: absolute;
     content: "";
     right: 10px;
@@ -9704,7 +9853,7 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     background-position: top 50% left;
     transition: background-position .2s ease;
 }
-#discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB:hover .contents-3ca1mk:after {
+#discord-nitro-tab .tier2-qNjKTW .shinyButton-2Q9MDB:hover .contents-3NembX:after {
     background-position: top 50% left 3px;
 }
 
@@ -10577,7 +10726,7 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --status-orange-900: hsl(24,calc(var(--saturation-factor, 1)*71.4%),2.7%);
     --play: unset;
     --play-460: var(--background-tertiary);
-    --play-primary: #fff;
+    --play-primary: var(--header-secondary);
     --play-secondary: hsla(240,calc(var(--saturation-factor, 1)*5.9%),96.7%, 0.6);
     --skype: hsl(196,calc(var(--saturation-factor, 1)*100%),42.2%);
     --battlenet: hsl(200,calc(var(--saturation-factor, 1)*100%),44.9%);
@@ -10654,34 +10803,34 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --status-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     --status-positive: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
     --status-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
-    --button-danger-background: var(--status-red-530);
-    --button-danger-background-hover: var(--status-red-600);
-    --button-danger-background-active: var(--status-red-630);
-    --button-danger-background-disabled: var(--status-red-530);
-    --button-positive-background: var(--status-green-660);
-    --button-positive-background-hover: var(--status-green-730);
-    --button-positive-background-active: var(--status-green-760);
-    --button-positive-background-disabled: var(--status-green-660);
-    --button-secondary-background: hsl(217,calc(var(--saturation-factor, 1)*7.6%),33.5%);
-    --button-secondary-background-hover: #686d73;
-    --button-secondary-background-active: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
-    --button-secondary-background-disabled: hsl(217,calc(var(--saturation-factor, 1)*7.6%),33.5%);
-    --button-outline-danger-text: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-    --button-outline-danger-border: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --button-danger-background: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-danger-background-hover: hsl(0,calc(var(--saturation-factor, 1)*66.1%),54.9%);
+    --button-danger-background-active: hsl(0,calc(var(--saturation-factor, 1)*54.2%),48.8%);
+    --button-danger-background-disabled: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-positive-background: hsl(153,calc(var(--saturation-factor, 1)*46.0%),48.6%);
+    --button-positive-background-hover: hsl(153,calc(var(--saturation-factor, 1)*46.2%),43.7%);
+    --button-positive-background-active: hsl(152,calc(var(--saturation-factor, 1)*45.7%),39.0%);
+    --button-positive-background-disabled: hsl(153,calc(var(--saturation-factor, 1)*46.0%),48.6%);
+    --button-secondary-background: hsl(214,calc(var(--saturation-factor, 1)*9.9%),50.4%);
+    --button-secondary-background-hover: hsl(214,calc(var(--saturation-factor, 1)*10.0%),45.3%);
+    --button-secondary-background-active: hsl(213,calc(var(--saturation-factor, 1)*9.7%),40.4%);
+    --button-secondary-background-disabled: hsl(214,calc(var(--saturation-factor, 1)*9.9%),50.4%);
+    --button-outline-danger-text: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border: hsla(0,calc(var(--saturation-factor, 1)*84.9%),61.0%,0.3);
     --button-outline-danger-background: hsla(0,0%,100%,0);
-    --button-outline-danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-outline-danger-text-hover: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-danger-border-hover: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-outline-danger-background-active: hsl(359,calc(var(--saturation-factor, 1)*56.7%),48%);
-    --button-outline-danger-text-active: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-danger-border-active: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
+    --button-outline-danger-background-hover: hsla(0,0%,100%,0);
+    --button-outline-danger-text-hover: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border-hover: hsla(0,calc(var(--saturation-factor, 1)*84.9%),61.0%,0.6);
+    --button-outline-danger-background-active: hsla(0,0%,100%,0);
+    --button-outline-danger-text-active: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border-active: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
     --button-outline-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --button-outline-positive-border: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
     --button-outline-positive-background: hsla(0,0%,100%,0);
-    --button-outline-positive-background-hover: hsl(139,calc(var(--saturation-factor, 1)*47.1%),33.3%);
+    --button-outline-positive-background-hover: hsla(0,0%,100%,0);
     --button-outline-positive-text-hover: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --button-outline-positive-border-hover: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
-    --button-outline-positive-background-active: hsl(153,calc(var(--saturation-factor, 1)*46.2%),43.7%);
+    --button-outline-positive-background-active: hsla(0,0%,100%,0);
     --button-outline-positive-text-active: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --button-outline-positive-border-active: hsl(153,calc(var(--saturation-factor, 1)*46.2%),43.7%);
     --button-outline-brand-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);

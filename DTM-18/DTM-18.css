@@ -7,127 +7,6 @@
 * @source https://github.com/davart154/DTM-18/blob/main/dtm-18.css
 */
 
-/*Testing Stuff*/
-/*Codeblock Colors*/
-.markup-eYLPri pre {
-    border-radius: 5px;
-}
-.markup-eYLPri code {
-    font-size: 0.875rem;
-    line-height: 1rem;
-    text-indent: 0;
-    border: 2px solid var(--background-secondary-alt);
-    border-radius: inherit;
-    color: hsl(186,calc(var(--saturation-factor, 1)*8.3%),55.1%);;
-}
-.theme-light .hljs-comment,
-.theme-light .hljs-quote {
-  color: #586e75;
-}
-.theme-light .hljs-addition,
-.theme-light .hljs-keyword,
-.theme-light .hljs-selector-tag {
-  color: #859900;
-}
-.theme-light .hljs-doctag,
-.theme-light .hljs-literal,
-.theme-light .hljs-meta .hljs-meta-string,
-.theme-light .hljs-number,
-.theme-light .hljs-regexp,
-.theme-light .hljs-string {
-  color: #2aa198;
-}
-.theme-light .hljs-name,
-.theme-light .hljs-section,
-.theme-light .hljs-selector-class,
-.theme-light .hljs-selector-id,
-.theme-light .hljs-title {
-  color: #268bd2;
-}
-.theme-light .hljs-attr,
-.theme-light .hljs-attribute,
-.theme-light .hljs-class .hljs-title,
-.theme-light .hljs-template-variable,
-.theme-light .hljs-type,
-.theme-light .hljs-variable {
-  color: #b58900;
-}
-.theme-light .hljs-bullet,
-.theme-light .hljs-link,
-.theme-light .hljs-meta,
-.theme-light .hljs-meta .hljs-keyword,
-.theme-light .hljs-selector-attr,
-.theme-light .hljs-selector-pseudo,
-.theme-light .hljs-subst,
-.theme-light .hljs-symbol {
-  color: #cb4b16;
-}
-.theme-light .hljs-built_in,
-.theme-light .hljs-deletion {
-  color: #dc322f;
-}
-.theme-light .hljs-emphasis {
-  font-style: italic;
-}
-.theme-light .hljs-strong {
-  font-weight: 700;
-}
-.theme-dark .hljs-comment,
-.theme-dark .hljs-quote {
-  color: #586e75;
-}
-.theme-dark .hljs-addition,
-.theme-dark .hljs-keyword,
-.theme-dark .hljs-selector-tag {
-  color: #859900;
-}
-.theme-dark .hljs-doctag,
-.theme-dark .hljs-literal,
-.theme-dark .hljs-meta .hljs-meta-string,
-.theme-dark .hljs-number,
-.theme-dark .hljs-regexp,
-.theme-dark .hljs-string {
-  color: #2aa198;
-}
-.theme-dark .hljs-name,
-.theme-dark .hljs-section,
-.theme-dark .hljs-selector-class,
-.theme-dark .hljs-selector-id,
-.theme-dark .hljs-title {
-  color: #268bd2;
-}
-.theme-dark .hljs-attr,
-.theme-dark .hljs-attribute,
-.theme-dark .hljs-class .hljs-title,
-.theme-dark .hljs-template-variable,
-.theme-dark .hljs-type,
-.theme-dark .hljs-variable {
-  color: #b58900;
-}
-.theme-dark .hljs-bullet,
-.theme-dark .hljs-link,
-.theme-dark .hljs-meta,
-.theme-dark .hljs-meta .hljs-keyword,
-.theme-dark .hljs-selector-attr,
-.theme-dark .hljs-selector-pseudo,
-.theme-dark .hljs-subst,
-.theme-dark .hljs-symbol {
-  color: #cb4b16;
-}
-.theme-dark .hljs-built_in,
-.theme-dark .hljs-deletion {
-  color: #dc322f;
-}
-.theme-dark .hljs-formula {
-  background: #073642;
-}
-.theme-dark .hljs-emphasis {
-  font-style: italic;
-}
-.theme-dark .hljs-strong {
-  font-weight: 700;
-}
-
 @font-face {
   font-family: SourceCodePro;
   font-style: normal;
@@ -288,7 +167,7 @@ mask > use[href$="lower_badge_masks"] {
     right: -2px;
 }
 /*New Feature Indicator*/
-.newBadge-1bHewI,
+.newBadge-3OVXIk,
 .side-2ur1Qk .base-3IDx3L[style*="background-color: var(--status-danger)"] {
     background-clip: padding-box;
     background-color: var(--text-warning) !important;
@@ -312,6 +191,12 @@ mask > use[href$="lower_badge_masks"] {
     font-size: 12px;
     font-weight: 500;
     line-height: 12px;
+}
+.label-2gNW3x {
+    overflow: unset;
+}
+.label-2gNW3x [class*="newBadge"] {
+    transform: translateY(2px);
 }
 /*New User Made Content Indicator*/
 .eventStatusContainer-3K6TiP .newBadge-3QiMZJ {
@@ -1507,11 +1392,10 @@ img.icon-3AqZ2e {
 }
 #guild-header-popout .separator-1So4YB {
     margin: 0;
-    background: #f5f5f5;
     border-color: #f5f5f5;
 }
 .theme-dark #guild-header-popout .separator-1So4YB {
-    background: rgba(245, 245, 245, 0.08);
+    border-color: rgba(245, 245, 245, 0.08);
 }
 #guild-header-popout #guild-header-popout-premium-subscribe {
     color: #FF73FA;
@@ -6343,13 +6227,31 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 
 /*Remove Media Mosaic Experiment*/
+.mediaAttachmentsContainer-1WGRWy {
+    width: auto;
+    border-radius: 3px;
+}
+[class*="Grid"] {
+    border-radius: 3px;
+    display: flex;
+    min-height: unset;
+    max-height: unset;
+    flex-direction: column;
+}
+[class*="Grid"] .lazyImg-ewiNCh, [class*="Grid"] .lazyImgContainer-3k3gRy {
+    aspect-ratio: auto;
+}
+[class*="Grid"] [class*="Wrapper"] img,
+[class*="Grid"] [class*="Wrapper"] video {
+    max-height: 400px !important;
+    border-radius: 3px;
+    margin-bottom: 4px;
+}
 .message-2CShn3 .imageWrapper-oMkQl4 {
     max-width: 400px;
     border-radius: 3px;
 }
-.oneByOneGridSingle-2ss-Zx {
-    border-radius: 3px;
-}
+
 
 /*Server Invites*/
 .inviteSplash-2nkLRX {
@@ -6402,19 +6304,125 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     color: var(--channel-text-area-placeholder);
 }
 
-/*Codeblocks
+/*Codeblocks*/
 .markup-eYLPri pre {
     border-radius: 5px;
 }
-.markup-eYLPri code {
+.markup-eYLPri .hljs {
     font-size: 0.875rem;
     line-height: 1rem;
     text-indent: 0;
     border: 2px solid var(--background-secondary-alt);
     border-radius: inherit;
-    --header-secondary: hsl(186,calc(var(--saturation-factor, 1)*8.3%),55.1%);;
+    color: hsl(186,calc(var(--saturation-factor, 1)*8.3%),55.1%);;
 }
-*/
+.theme-light .hljs-comment,
+.theme-light .hljs-quote {
+    color: #586e75;
+}
+.theme-light .hljs-addition,
+.theme-light .hljs-keyword,
+.theme-light .hljs-selector-tag {
+    color: #859900;
+}
+.theme-light .hljs-doctag,
+.theme-light .hljs-literal,
+.theme-light .hljs-meta .hljs-meta-string,
+.theme-light .hljs-number,
+.theme-light .hljs-regexp,
+.theme-light .hljs-string {
+    color: #2aa198;
+}
+.theme-light .hljs-name,
+.theme-light .hljs-section,
+.theme-light .hljs-selector-class,
+.theme-light .hljs-selector-id,
+.theme-light .hljs-title {
+    color: #268bd2;
+}
+.theme-light .hljs-attr,
+.theme-light .hljs-attribute,
+.theme-light .hljs-class .hljs-title,
+.theme-light .hljs-template-variable,
+.theme-light .hljs-type,
+.theme-light .hljs-variable {
+    color: #b58900;
+}
+.theme-light .hljs-bullet,
+.theme-light .hljs-link,
+.theme-light .hljs-meta,
+.theme-light .hljs-meta .hljs-keyword,
+.theme-light .hljs-selector-attr,
+.theme-light .hljs-selector-pseudo,
+.theme-light .hljs-subst,
+.theme-light .hljs-symbol {
+    color: #cb4b16;
+}
+.theme-light .hljs-built_in,
+.theme-light .hljs-deletion {
+    color: #dc322f;
+}
+.theme-light .hljs-emphasis {
+    font-style: italic;
+}
+.theme-light .hljs-strong {
+    font-weight: 700;
+}
+.theme-dark .hljs-comment,
+.theme-dark .hljs-quote {
+    color: #586e75;
+}
+.theme-dark .hljs-addition,
+.theme-dark .hljs-keyword,
+.theme-dark .hljs-selector-tag {
+    color: #859900;
+}
+.theme-dark .hljs-doctag,
+.theme-dark .hljs-literal,
+.theme-dark .hljs-meta .hljs-meta-string,
+.theme-dark .hljs-number,
+.theme-dark .hljs-regexp,
+.theme-dark .hljs-string {
+    color: #2aa198;
+}
+.theme-dark .hljs-name,
+.theme-dark .hljs-section,
+.theme-dark .hljs-selector-class,
+.theme-dark .hljs-selector-id,
+.theme-dark .hljs-title {
+    color: #268bd2;
+}
+.theme-dark .hljs-attr,
+.theme-dark .hljs-attribute,
+.theme-dark .hljs-class .hljs-title,
+.theme-dark .hljs-template-variable,
+.theme-dark .hljs-type,
+.theme-dark .hljs-variable {
+    color: #b58900;
+}
+.theme-dark .hljs-bullet,
+.theme-dark .hljs-link,
+.theme-dark .hljs-meta,
+.theme-dark .hljs-meta .hljs-keyword,
+.theme-dark .hljs-selector-attr,
+.theme-dark .hljs-selector-pseudo,
+.theme-dark .hljs-subst,
+.theme-dark .hljs-symbol {
+    color: #cb4b16;
+}
+.theme-dark .hljs-built_in,
+.theme-dark .hljs-deletion {
+    color: #dc322f;
+}
+.theme-dark .hljs-formula {
+    background: #073642;
+}
+.theme-dark .hljs-emphasis {
+    font-style: italic;
+}
+.theme-dark .hljs-strong {
+    font-weight: 700;
+}
 
 /*New Messages Bar*/
 .barBase-3xxDXu {
@@ -7765,7 +7773,7 @@ rect[mask*="dnd"],
     position: unset;
     background: var(--play-460);
     border-radius: 0;
-    margin: auto;
+    width: 230px;
     padding: 0 10px;
     max-width: unset;
     justify-content: center;
@@ -10089,6 +10097,7 @@ rect[mask*="dnd"],
 #discord-nitro-tab {
     background-image: url(https://discord.com/assets/00be7f6ca68f1915a80ae01f061718e5.svg);
     background-repeat: no-repeat;
+    padding-bottom: 200px;
 }
 .theme-light #discord-nitro-tab {
     background-image: url(https://discord.com/assets/ec594c6768af37f96532258288f443b6.svg);
@@ -10420,7 +10429,83 @@ rect[mask*="dnd"],
 }
 
 /*Nitro Perks List*/
+.smallPerkCardContainer-X9-c92 {
+    grid-gap: unset;
+    display: flex;
+    flex-direction: column;
+}
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_-- {
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    height: 80px;
+    border-radius: 0;
+    padding: 5px 5px 5px 140px;
+    background: none;
+    border-bottom: solid 1px #f6f6f7;
+    align-items: unset;
+}
+.theme-dark .bigPerkCard-1uwmWV,
+.theme-dark .smallPerkCard-2sX_-- {
+    border-color: #ffffff0f;
+}
+.smallPerkCard-2sX_--:last-of-type {
+    border: 0;
+}
+.bigPerkCard-1uwmWV img,
+.smallPerkCard-2sX_-- img {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994475433028493403/nitro_dark.svg?);
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    margin: 0;
+}
+.bigPerkCard-1uwmWV [src="/assets/0b396e6928f366dc5714e92e47d6bf8a.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994477562229166150/filesize_dark.svg?);
+}
+.bigPerkCard-1uwmWV [src="/assets/c91e7e0f91c148e7521a985f018554e6.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994477810372579358/screenshare_dark.svg?);
+}
+.bigPerkCard-1uwmWV [src="/assets/4275f4f043390fa1db37efe36e7a79aa.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994478299889799168/emoji_dark.svg);
+}
+.bigPerkCard-1uwmWV [src="/assets/82b046ceb00c38dcc1e22bcfff78faaf.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994480902904234044/boost.svg);
+}
+.smallPerkCard-2sX_-- [src="/assets/9b1958f667a4a342ff8396b2b7afd0a5.png"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994478063528202301/animatedavatar_dark.svg?);
+}
+.smallPerkCard-2sX_-- > div:not([class]) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bigPerkCard-1uwmWV {
+    justify-content: center;
+}
+.bigPerkCard-1uwmWV .bigPerkCardHeading-2A9bsX,
+.smallPerkCard-2sX_-- > div:not([class]) * {
+    text-align: unset;
+}
+.bigPerkCard-1uwmWV .bigPerkCardHeading-2A9bsX,
+.smallPerkCard-2sX_-- > div:not([class]) h2 {
+    font-size: 20px;
+    margin: 0 0 8px 0;
+    color: var(--header-primary);
+    font-weight: 300;
+}
+.smallPerkCard-2sX_-- > div:not([class]) div {
+    color: #72767d;
+    font-size: 16px;
+}
 
+.planComparisonTable-3NX-qt {
+    display: none;
+}
 
 /*Nitro Basic Menu*/
 #discord-nitro-tab .tier0-17mYUd {

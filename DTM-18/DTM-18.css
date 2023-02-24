@@ -2928,7 +2928,7 @@ foreignObject[mask*="offline"] .status-2DiCMd {
 .title-31SJ6t [d="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 22 12C22 6.487 17.514 2 12 2ZM12 18.25C11.31 18.25 10.75 17.691 10.75 17C10.75 16.31 11.31 15.75 12 15.75C12.69 15.75 13.25 16.31 13.25 17C13.25 17.691 12.69 18.25 12 18.25ZM13 13.875V15H11V12H12C13.104 12 14 11.103 14 10C14 8.896 13.104 8 12 8C10.896 8 10 8.896 10 10H8C8 7.795 9.795 6 12 6C14.205 6 16 7.795 16 10C16 11.861 14.723 13.429 13 13.875Z"], .container-ZMc96U [d="M12 2C6.486 2 2 6.487 2 12C2 17.515 6.486 22 12 22C17.514 22 22 17.515 22 12C22 6.487 17.514 2 12 2ZM12 18.25C11.31 18.25 10.75 17.691 10.75 17C10.75 16.31 11.31 15.75 12 15.75C12.69 15.75 13.25 16.31 13.25 17C13.25 17.691 12.69 18.25 12 18.25ZM13 13.875V15H11V12H12C13.104 12 14 11.103 14 10C14 8.896 13.104 8 12 8C10.896 8 10 8.896 10 10H8C8 7.795 9.795 6 12 6C14.205 6 16 7.795 16 10C16 11.861 14.723 13.429 13 13.875Z"] {
     d: path("M7 8.32584C7 9.06742 7.61644 9.68539 8.35616 9.68539C9.09589 9.68539 9.71233 9.06742 9.71233 8.32584C9.71233 6.8427 11.3151 6.7809 11.5 6.7809C11.6849 6.7809 13.2877 6.8427 13.2877 8.32584V8.63483C13.2877 9.25281 12.9795 9.74719 12.4247 10.0562L11.1918 10.736C10.5137 11.1067 10.1438 11.7865 10.1438 12.5281V13.6404C10.1438 14.382 10.7603 15 11.5 15C12.2397 15 12.8562 14.382 12.8562 13.6404V12.9607L13.7192 12.5281C15.137 11.7865 16 10.3034 16 8.69663V8.32584C16 5.48315 13.7192 4 11.5 4C9.21918 4 7 5.48315 7 8.32584ZM11.5 16C9.5 16 9.5 19 11.5 19C13.5 19 13.5 16 11.5 16Z");
 }
-.anchor-1MIwyf .iconWrapper-2awDjA {
+.anchor-1X4H4q .iconWrapper-2awDjA {
     margin: 0 8px 0 4px;
 }
 .toolbar-3_r2xA > .iconWrapper-2awDjA {
@@ -3973,7 +3973,7 @@ content: "#";
     --header-secondary: hsl(214,calc(var(--saturation-factor, 1)*9.6%),57.1%);
     pointer-events: none;
 }
-.subtitle-3tY4DQ .anchor-1MIwyf {
+.subtitle-3tY4DQ .anchor-1X4H4q {
     text-decoration: none !important;
 }
 .subtitle-3tY4DQ.noChildren-lXOXyJ {
@@ -3989,197 +3989,197 @@ content: "#";
     margin-top: -9px;
     filter: saturate(var(--saturation-factor,1));
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:before {
+.subtitle-3tY4DQ .anchor-1X4H4q:before {
     font-size: 15px;
     line-height: 150%;
     color: hsl(214,calc(var(--saturation-factor, 1)*9.6%),57.1%);
     font-weight: 700;
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:after {
+.subtitle-3tY4DQ .anchor-1X4H4q:after {
     font-size: 15px;
     line-height: 150%;
     color: hsl(214,calc(var(--saturation-factor, 1)*9.6%),57.1%);
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(DA):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(DA):before {
     content: "Lær om Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(DA):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(DA):after {
     content: " i dit eget tempo ved at udforske de flydende quest-indikatorer.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(DE):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(DE):before {
     content: "Lerne mehr über Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(DE):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(DE):after {
     content: " in deinem eigenen Tempo, indem du die Hinweise anklickst.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(EN):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(EN):before {
     content: "Learn about Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(EN):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(EN):after {
     content: " at your own pace by exploring the floating quest indicators.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(en-PT):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(en-PT):before {
     content: "Learn about Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(en-PT):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(en-PT):after {
     content: " at ye own rate by uncoverin' th' floatin' quest indicators.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(ES):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(ES):before {
     content: "Aprende sobre Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(ES):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(ES):after {
     content: " a tu propio ritmo, dale click a cada indicador flotante amarillo de misión.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(FR):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(FR):before {
     content: "Découvrez Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(FR):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(FR):after {
     content: " à votre propre rythme en cliquant sur les indicateurs de quête.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(HR):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(HR):before {
     content: "Saznaj više o Discordu";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(HR):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(HR):after {
     content: " vlastitim tempom, istražujući plutajuće uskličnike.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(IT):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(IT):before {
     content: "Impara a usare Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(IT):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(IT):after {
     content: " al tuo ritmo cliccando sui punti esclamativi fluttuanti.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(LT):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(LT):before {
     content: "Sužinokite apie Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(LT):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(LT):after {
     content: " tyrinėdami iššokusius '?' ženkliukus kada norite.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(HU):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(HU):before {
     content: "Tudj meg többet a Discordról";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(HU):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(HU):after {
     content: " a saját tempódban a lebegő küldetés mutatókkal.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(NL):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(NL):before {
     content: "Leer meer over Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(NL):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(NL):after {
     content: " door op je eigen tempo op de uitroeptekens te klikken.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(NO):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(NO):before {
     content: "Lær om Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(NO):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(NO):after {
     content: " i ditt eget tempo ved å utforske de flytende oppdragsindikatorene.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(PL):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(PL):before {
     content: "Dowiedz się więcej o Discordzie";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(PL):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(PL):after {
     content: " w swoim tempie zapoznając się z wyskakującymi podpowiedziami.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(PT):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(PT):before {
     content: "Aprenda a usar o Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(PT):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(PT):after {
     content: " no seu próprio ritmo, clicando nos pontos de exclamação flutuantes.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(RO):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(RO):before {
     content: "Află despre Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(RO):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(RO):after {
     content: " în ritmul propriu prin explorarea indicatorilor plutitori.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(FI):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(FI):before {
     content: "Opi lisää Discordista";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(FI):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(FI):after {
     content: " omaan tahtiisi tutkimalla leijuvia tehtävämerkkejä.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(SV):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(SV):before {
     content: "Lär dig mer om Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(SV):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(SV):after {
     content: " i din egen takt genom att utforska det flytande märkena.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(VI):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(VI):before {
     content: "Tự tìm hiểu về Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(VI):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(VI):after {
     content: " thông qua việc khám phá các chỉ báo nhiệm vụ di động.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(TR):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(TR):before {
     font-weight: 400;
     content: "Süzülen görev göstergelerini keşfederek istediğin tempoda ";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(TR):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(TR):after {
     font-weight: 700;
     content: "Discord hakkında bilgi edin.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(CS):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(CS):before {
     content: "Nauč se s Discordem";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(CS):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(CS):after {
     content: " vlastním tempem průzkumem plovoucích úkolových indikátorů.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(EL):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(EL):before {
     content: "Μάθετε για το Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(EL):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(EL):after {
     content: " στο δικό σας ρυθμό με την εξερεύνηση των αιωρούμενων ενδείξεων.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(BG):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(BG):before {
     content: "Разучете функциите на Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(BG):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(BG):after {
     content: " чрез индикаторите из интерфейса на приложението.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(RU):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(RU):before {
     content: "Познакомьтесь с Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(RU):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(RU):after {
     content: " не торопясь. В процессе обучения вам будут помогать всплывающие индикаторы.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(UK):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(UK):before {
     content: "Познайомтесь з Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(UK):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(UK):after {
     content: " не поспішаючи, слідуючи за спливаючими вказівниками.";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(HI):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(HI):before {
     content: "के बारे में जानना Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(HI):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(HI):after {
     content: " फ़्लोटिंग खोज संकेतकों की खोज करके अपनी गति से।";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(TH):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(TH):before {
     content: "เรียนรู้เกี่ยวกับ Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(TH):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(TH):after {
     content: " สำรวจสิ่งต่างๆด้วยตัวคุณเอง โดยการทำตามแบบฝึกสอน";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(ZH-CN):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(ZH-CN):before {
     content: "了解 Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(ZH-CN):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(ZH-CN):after {
     content: " 浮动小贴士将帮助您轻松使用 Discord。";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(JA):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(JA):before {
     content: "Discordについて学ぼう";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(JA):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(JA):after {
     content: " 浮き上がってくる案内表示を追うことであなたのペースで学べます。";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(ZH-TW):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(ZH-TW):before {
     content: "了解 Discord";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(ZH-TW):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(ZH-TW):after {
     content: " 您只要觀看浮動式說明就可以輕鬆體驗使用 Discord。";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(KO):before {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(KO):before {
     content: "Discord 사용법을 알고 싶다면";
 }
-.subtitle-3tY4DQ .anchor-1MIwyf:lang(KO):after {
+.subtitle-3tY4DQ .anchor-1X4H4q:lang(KO):after {
     content: " 주변의 느낌표를 눌러보세요.";
 }
 
@@ -6129,8 +6129,8 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC {
     opacity: 1 !important;
 }
-.attachment-1PZZB2 + .hoverButtonGroup-2yZIzC .anchor-1MIwyf,
-.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC .anchor-1MIwyf {
+.attachment-1PZZB2 + .hoverButtonGroup-2yZIzC .anchor-1X4H4q,
+.wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC .anchor-1X4H4q {
     padding: 0;
 }
 .hoverButton-36QWJk {
@@ -6544,27 +6544,29 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 
 /*Reactions*/
-.reaction-3vwAF2 {
+.reaction-3vwAF2,
+.reaction-3vwAF2:hover {
     border-radius: 3px;
-    background: var(--background-modifier-accent) !important;
-    border: none;
+    background: rgba(220, 221, 222, 0.1);
+    border: 0;
     margin: 0px 4px 4px 0;
+}
+.theme-light .reaction-3vwAF2,
+.theme-light .reaction-3vwAF2:hover {
+    background: rgba(227, 231, 248, 0.6);
 }
 .reaction-3vwAF2 .emoji {
     width: 16px;
     height: 16px;
 }
-.mentioned-Tre-dv .reaction-3vwAF2,
-.mentioned-Tre-dv .reaction-3vwAF2:hover {
-    background-color: var(--background-modifier-accent);
-}
-.reaction-3vwAF2 .reactionCount-26U4As {
-    color: var(--text-normal);
-    opacity: 0.3;
-    font-size: 14px;
-}
-.theme-light .reaction-3vwAF2 .reactionCount-26U4As {
-    opacity: 1;
+.reaction-3vwAF2 .reactionCount-26U4As,
+.reaction-3vwAF2:hover .reactionCount-26U4As {
+    color: #72767d;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.00813rem;
+    margin-left: 6px;
+    text-align: center;
 }
 .reaction-3vwAF2 .reactionInner-YJjOtT {
     padding: 1px .375rem;
@@ -6572,15 +6574,12 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 
 /*Self reactions*/
 .reaction-3vwAF2.reactionMe-1PwQAc .reactionCount-26U4As,
-.reaction-3vwAF2:hover.reactionMe-1PwQAc .reactionCount-26U4As,
-.reaction-3vwAF2:active.reactionMe-1PwQAc .reactionCount-26U4As {
-  color: var(--brand-experiment) !important;
-  opacity: 1;
+.reaction-3vwAF2.reactionMe-1PwQAc:hover .reactionCount-26U4As {
+    color: var(--brand-experiment);
 }
-.mentioned-Tre-dv .reaction-3vwAF2.reactionMe-1PwQAc,
-.mentioned-Tre-dv .reactionMe-1PwQAc.reaction-3vwAF2:hover,
-.reaction-3vwAF2.reactionMe-1PwQAc {
-    background: var(--brand-experiment-30a) !important;
+.reaction-3vwAF2.reactionMe-1PwQAc,
+.reaction-3vwAF2.reactionMe-1PwQAc:hover {
+    background: var(--brand-experiment-30a);
 }
 
 /*Add Reaction Button*/
@@ -10476,8 +10475,24 @@ rect[mask*="dnd"],
 .bigPerkCard-1uwmWV [src="/assets/82b046ceb00c38dcc1e22bcfff78faaf.svg"] {
     content: url(https://cdn.discordapp.com/attachments/733624227378495488/994480902904234044/boost.svg);
 }
+.smallPerkCard-2sX_-- [src="/assets/13c1f0a9d8c8a7fda8bff0a53eeb040c.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793380231917710/sub_rocket_dark.svg?);
+}
 .smallPerkCard-2sX_-- [src="/assets/9b1958f667a4a342ff8396b2b7afd0a5.png"] {
     content: url(https://cdn.discordapp.com/attachments/733624227378495488/994478063528202301/animatedavatar_dark.svg?);
+}
+.smallPerkCard-2sX_-- [src="/assets/d6dd0062aa55ff9373dc966f0571c1b2.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793340914503781/sub_message_dark.svg?);
+}
+
+.theme-light .smallPerkCard-2sX_-- [src="/assets/13c1f0a9d8c8a7fda8bff0a53eeb040c.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793393683058798/sub_rocket_light.svg?);
+}
+.theme-light .smallPerkCard-2sX_-- [src="/assets/9ed6f350f410a40008ca9a035ace58e1.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1078165959526862910/1078166609702694912/animated_light.svg?);
+}
+.theme-light .smallPerkCard-2sX_-- [src="/assets/3aac09a07dc0bded22c6c7af3e7ad99c.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793354382409838/sub_message_light.svg?);
 }
 
 
@@ -10590,7 +10605,6 @@ rect[mask*="dnd"],
 /*Appearance Tab*/
 #appearance-tab .preview-QJ3OG3 {
     height: 175px;
-    background: none;
 }
 #appearance-tab .cardPrimaryOutline-1ofwVz {
     border-color: rgba(32, 34, 37, 0.6);
@@ -11335,147 +11349,161 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --deprecated-text-input-prefix: hsl(210,calc(var(--saturation-factor, 1)*2.9%),86.7%);
 }
 
-.theme-amoled,.theme-amoled .theme-dark {
-    --header-primary:var(--white-500);
-    --header-secondary:var(--primary-dark-300);
-    --text-normal:var(--primary-dark-200);
-    --text-muted:var(--primary-dark-330);
-    --text-link:var(--link-500);
-    --text-link-low-saturation:var(--link-low-saturation-500);
-    --text-positive:var(--status-green-560);
-    --text-warning:var(--status-yellow-500);
-    --text-danger:var(--status-red-360);
-    --text-brand:var(--brand-360);
-    --interactive-normal:var(--primary-dark-300);
-    --interactive-hover:var(--primary-dark-200);
-    --interactive-active:var(--white-500);
-    --interactive-muted:var(--primary-dark-500);
-    --background-primary:var(--primary-dark-900);
-    --background-secondary:var(--primary-light-860);
-    --background-secondary-alt:var(--primary-dark-800);
-    --background-tertiary:var(--primary-dark-860);
-    --background-accent:var(--primary-dark-760);
-    --background-floating:var(--primary-dark-830);
-    --background-nested-floating:var(--primary-dark-830);
-    --background-mobile-primary:var(--black-500);
-    --background-mobile-secondary:var(--primary-dark-860);
-    --chat-background:var(--black-500);
-    --chat-border:var(--primary-dark-700);
-    --chat-input-container-background:var(--primary-dark-600);
-    --background-modifier-hover:rgba(var(--primary-dark-560-rgb),0.4);
-    --background-modifier-active:rgba(var(--primary-dark-560-rgb),0.48);
-    --background-modifier-selected:rgba(var(--primary-dark-560-rgb),0.6);
-    --background-modifier-accent:rgba(var(--primary-dark-560-rgb),0.48);
-    --info-positive-background:rgba(var(--status-green-600-rgb),0.1);
-    --info-positive-foreground:var(--status-green-600);
-    --info-positive-text:var(--white-500);
-    --info-warning-background:rgba(var(--status-yellow-500-rgb),0.1);
-    --info-warning-foreground:var(--status-yellow-500);
-    --info-warning-text:var(--white-500);
-    --info-danger-background:rgba(var(--status-red-500-rgb),0.1);
-    --info-danger-foreground:var(--status-red-500);
-    --info-danger-text:var(--white-500);
-    --info-help-background:rgba(var(--link-500-rgb),0.1);
-    --info-help-foreground:var(--link-500);
-    --info-help-text:var(--white-500);
-    --status-positive-background:var(--status-green-660);
-    --status-positive-text:var(--white-500);
-    --status-warning-background:var(--status-yellow-500);
-    --status-warning-text:var(--black-500);
-    --status-danger-background:var(--status-red-500);
-    --status-danger-text:var(--white-500);
-    --status-danger:var(--status-red-500);
-    --status-positive:var(--status-green-600);
-    --status-warning:var(--status-yellow-500);
-    --button-danger-background:var(--status-red-530);
-    --button-danger-background-hover:var(--status-red-600);
-    --button-danger-background-active:var(--status-red-630);
-    --button-danger-background-disabled:var(--status-red-530);
-    --button-positive-background:var(--status-green-660);
-    --button-positive-background-hover:var(--status-green-730);
-    --button-positive-background-active:var(--status-green-760);
-    --button-positive-background-disabled:var(--status-green-660);
-    --button-secondary-background:var(--primary-dark-500);
-    --button-secondary-background-hover:var(--primary-dark-430);
-    --button-secondary-background-active:var(--primary-dark-400);
-    --button-secondary-background-disabled:var(--primary-dark-500);
-    --button-outline-danger-text:var(--white-500);
-    --button-outline-danger-border:var(--status-red-500);
-    --button-outline-danger-background:rgba(var(--white-500-rgb),0);
-    --button-outline-danger-background-hover:var(--status-red-530);
-    --button-outline-danger-text-hover:var(--white-500);
-    --button-outline-danger-border-hover:var(--status-red-530);
-    --button-outline-danger-background-active:var(--status-red-560);
-    --button-outline-danger-text-active:var(--white-500);
-    --button-outline-danger-border-active:var(--status-red-530);
-    --button-outline-positive-text:var(--white-500);
-    --button-outline-positive-border:var(--status-green-600);
-    --button-outline-positive-background:rgba(var(--white-500-rgb),0);
-    --button-outline-positive-background-hover:var(--status-green-660);
-    --button-outline-positive-text-hover:var(--white-500);
-    --button-outline-positive-border-hover:var(--status-green-660);
-    --button-outline-positive-background-active:var(--status-green-730);
-    --button-outline-positive-text-active:var(--white-500);
-    --button-outline-positive-border-active:var(--status-green-730);
-    --button-outline-brand-text:var(--white-500);
-    --button-outline-brand-border:var(--brand-500);
-    --button-outline-brand-background:rgba(var(--white-500-rgb),0);
-    --button-outline-brand-background-hover:var(--brand-500);
-    --button-outline-brand-text-hover:var(--white-500);
-    --button-outline-brand-border-hover:var(--brand-500);
-    --button-outline-brand-background-active:var(--brand-560);
-    --button-outline-brand-text-active:var(--white-500);
-    --button-outline-brand-border-active:var(--brand-560);
-    --button-outline-primary-text:var(--white-500);
-    --button-outline-primary-border:var(--primary-dark-500);
-    --button-outline-primary-background:rgba(var(--white-500-rgb),0);
-    --button-outline-primary-background-hover:var(--primary-dark-500);
-    --button-outline-primary-text-hover:var(--white-500);
-    --button-outline-primary-border-hover:var(--primary-dark-500);
-    --button-outline-primary-background-active:var(--primary-dark-430);
-    --button-outline-primary-text-active:var(--white-500);
-    --button-outline-primary-border-active:var(--primary-dark-430);
-    --modal-background:var(--primary-dark-600);
-    --modal-footer-background:var(--primary-dark-630);
-    --scrollbar-thin-thumb:var(--primary-dark-700);
-    --scrollbar-thin-track:rgba(var(--black-500-rgb),0);
-    --scrollbar-auto-thumb:var(--primary-dark-600);
-    --scrollbar-auto-track:var(--status-grey-860);
-    --scrollbar-auto-scrollbar-color-thumb:var(--primary-dark-700);
-    --scrollbar-auto-scrollbar-color-track:var(--primary-dark-630);
-    --input-background:var(--primary-dark-700);
-    --input-placeholder-text:var(--input-placeholder-text-dark);
-    --logo-primary:var(--white-500);
-    --focus-primary:var(--focus-primary-500);
-    --control-brand-foreground:var(--brand-360);
-    --control-brand-foreground-new:var(--brand-new-360);
-    --background-mentioned:rgba(var(--status-yellow-500-rgb),0.1);
-    --background-mentioned-hover:rgba(var(--status-yellow-500-rgb),0.08);
-    --background-message-hover:rgba(var(--primary-dark-900-rgb),0.07);
-    --background-message-automod:rgba(var(--status-red-500-rgb),0.05);
-    --background-message-automod-hover:rgba(var(--status-red-500-rgb),0.1);
-    --background-message-highlight:rgba(var(--brand-360-rgb),0.08);
-    --background-message-highlight-hover:rgba(var(--brand-360-rgb),0.06);
-    --channels-default:var(--primary-dark-345);
-    --channel-icon:var(--primary-dark-360);
-    --channel-text-area-placeholder:var(--primary-dark-400);
-    --channeltextarea-background:var(--primary-dark-800);
-    --activity-card-background:var(--primary-dark-700);
-    --textbox-markdown-syntax:var(--primary-dark-360);
-    --spoiler-revealed-background:var(--primary-dark-660);
-    --spoiler-hidden-background:var(--primary-dark-700);
-    --android-navigation-bar-background:var(--primary-dark-830);
-    --android-ripple:rgba(var(--white-500-rgb),0.07);
-    --deprecated-card-bg:rgba(var(--primary-dark-700-rgb),0.6);
-    --deprecated-card-editable-bg:rgba(var(--primary-dark-700-rgb),0.3);
-    --deprecated-store-bg:var(--primary-dark-600);
-    --deprecated-quickswitcher-input-background:var(--primary-dark-400);
-    --deprecated-quickswitcher-input-placeholder:rgba(var(--white-500-rgb),0.3);
-    --deprecated-text-input-bg:var(--primary-dark-700);
-    --deprecated-text-input-border:rgba(var(--black-500-rgb),0.3);
-    --deprecated-text-input-border-hover:var(--primary-dark-900);
-    --deprecated-text-input-border-disabled:var(--primary-dark-700);
-    --deprecated-text-input-prefix:var(--primary-dark-200);
+.theme-amoled,
+.theme-amoled .theme-dark,
+.theme-amoled .userPopoutOuter-3AVBmJ,
+.theme-amoled .theme-dark .userPopoutOuter-3AVBmJ {
+    --header-primary: var(--primary-130);
+    --header-secondary: var(--primary-345);
+    --text-normal: var(--primary-300);
+    --text-muted: var(--primary-345);
+    --text-link: var(--blue-345);
+    --text-link-low-saturation: var(--blue-330);
+    --text-positive: var(--green-330);
+    --text-warning: var(--yellow-300);
+    --text-danger: var(--red-345);
+    --text-brand: var(--brand-360);
+    --interactive-normal: var(--primary-345);
+    --interactive-hover: var(--primary-230);
+    --interactive-active: var(--primary-130);
+    --interactive-muted: var(--primary-500);
+    --mention-foreground: var(--brand-260);
+    --mention-background: hsl(var(--brand-500-hsl)/0.3);
+    --background-primary: var(--primary-900);
+    --background-secondary: var(--primary-830);
+    --background-secondary-alt: var(--primary-800);
+    --background-tertiary: var(--primary-860);
+    --background-accent: var(--primary-760);
+    --background-floating: var(--primary-830);
+    --background-nested-floating: var(--primary-830);
+    --background-mobile-primary: var(--black-500);
+    --background-mobile-secondary: var(--primary-860);
+    --home-background: var(--primary-760);
+    --chat-background: var(--black-500);
+    --chat-border: var(--primary-700);
+    --chat-input-container-background: var(--primary-600);
+    --background-modifier-hover: hsl(var(--primary-560-hsl)/0.4);
+    --background-modifier-active: hsl(var(--primary-560-hsl)/0.48);
+    --background-modifier-selected: hsl(var(--primary-560-hsl)/0.6);
+    --background-modifier-accent: hsl(var(--primary-560-hsl)/0.48);
+    --info-positive-background: hsl(var(--green-360-hsl)/0.1);
+    --info-positive-foreground: var(--green-360);
+    --info-positive-text: var(--white-500);
+    --info-warning-background: hsl(var(--yellow-300-hsl)/0.1);
+    --info-warning-foreground: var(--yellow-300);
+    --info-warning-text: var(--white-500);
+    --info-danger-background: hsl(var(--red-400-hsl)/0.1);
+    --info-danger-foreground: var(--red-400);
+    --info-danger-text: var(--white-500);
+    --info-help-background: hsl(var(--blue-345-hsl)/0.1);
+    --info-help-foreground: var(--blue-345);
+    --info-help-text: var(--white-500);
+    --status-positive-background: var(--green-430);
+    --status-positive-text: var(--white-500);
+    --status-warning-background: var(--yellow-300);
+    --status-warning-text: var(--black-500);
+    --status-danger-background: var(--red-400);
+    --status-danger-text: var(--white-500);
+    --status-danger: var(--red-400);
+    --status-positive: var(--green-360);
+    --status-warning: var(--yellow-300);
+    --button-danger-background: var(--red-430);
+    --button-danger-background-hover: var(--red-500);
+    --button-danger-background-active: var(--red-530);
+    --button-danger-background-disabled: var(--red-430);
+    --button-positive-background: var(--green-430);
+    --button-positive-background-hover: var(--green-530);
+    --button-positive-background-active: var(--green-530);
+    --button-positive-background-disabled: var(--green-430);
+    --button-secondary-background: var(--primary-500);
+    --button-secondary-background-hover: var(--primary-430);
+    --button-secondary-background-active: var(--primary-400);
+    --button-secondary-background-disabled: var(--primary-500);
+    --button-outline-danger-text: var(--white-500);
+    --button-outline-danger-border: var(--red-400);
+    --button-outline-danger-background: hsl(var(--white-500-hsl)/0);
+    --button-outline-danger-background-hover: var(--red-430);
+    --button-outline-danger-text-hover: var(--white-500);
+    --button-outline-danger-border-hover: var(--red-430);
+    --button-outline-danger-background-active: var(--red-460);
+    --button-outline-danger-text-active: var(--white-500);
+    --button-outline-danger-border-active: var(--red-430);
+    --button-outline-positive-text: var(--white-500);
+    --button-outline-positive-border: var(--green-360);
+    --button-outline-positive-background: hsl(var(--white-500-hsl)/0);
+    --button-outline-positive-background-hover: var(--green-430);
+    --button-outline-positive-text-hover: var(--white-500);
+    --button-outline-positive-border-hover: var(--green-430);
+    --button-outline-positive-background-active: var(--green-530);
+    --button-outline-positive-text-active: var(--white-500);
+    --button-outline-positive-border-active: var(--green-530);
+    --button-outline-brand-text: var(--white-500);
+    --button-outline-brand-border: var(--brand-500);
+    --button-outline-brand-background: hsl(var(--white-500-hsl)/0);
+    --button-outline-brand-background-hover: var(--brand-500);
+    --button-outline-brand-text-hover: var(--white-500);
+    --button-outline-brand-border-hover: var(--brand-500);
+    --button-outline-brand-background-active: var(--brand-560);
+    --button-outline-brand-text-active: var(--white-500);
+    --button-outline-brand-border-active: var(--brand-560);
+    --button-outline-primary-text: var(--white-500);
+    --button-outline-primary-border: var(--primary-500);
+    --button-outline-primary-background: hsl(var(--white-500-hsl)/0);
+    --button-outline-primary-background-hover: var(--primary-500);
+    --button-outline-primary-text-hover: var(--white-500);
+    --button-outline-primary-border-hover: var(--primary-500);
+    --button-outline-primary-background-active: var(--primary-430);
+    --button-outline-primary-text-active: var(--white-500);
+    --button-outline-primary-border-active: var(--primary-430);
+    --modal-background: var(--primary-600);
+    --modal-footer-background: var(--primary-630);
+    --scrollbar-thin-thumb: var(--primary-700);
+    --scrollbar-thin-track: hsl(var(--black-500-hsl)/0);
+    --scrollbar-auto-thumb: var(--primary-600);
+    --scrollbar-auto-track: var(--primary-860);
+    --scrollbar-auto-scrollbar-color-thumb: var(--primary-700);
+    --scrollbar-auto-scrollbar-color-track: var(--primary-630);
+    --input-background: var(--primary-700);
+    --input-placeholder-text: var(--input-placeholder-text-dark);
+    --logo-primary: var(--white-500);
+    --focus-primary: var(--blue-345);
+    --control-brand-foreground: var(--brand-360);
+    --control-brand-foreground-new: var(--brand-360);
+    --background-mentioned: hsl(var(--yellow-300-hsl)/0.1);
+    --background-mentioned-hover: hsl(var(--yellow-300-hsl)/0.08);
+    --background-message-hover: hsl(var(--primary-900-hsl)/0.06);
+    --background-message-automod: hsl(var(--red-400-hsl)/0.05);
+    --background-message-automod-hover: hsl(var(--red-400-hsl)/0.1);
+    --background-message-highlight: hsl(var(--brand-360-hsl)/0.08);
+    --background-message-highlight-hover: hsl(var(--brand-360-hsl)/0.06);
+    --channels-default: var(--primary-360);
+    --channel-icon: var(--primary-400);
+    --channel-text-area-placeholder: var(--primary-400);
+    --channeltextarea-background: var(--primary-800);
+    --activity-card-background: var(--primary-700);
+    --textbox-markdown-syntax: var(--primary-360);
+    --spoiler-revealed-background: var(--primary-660);
+    --spoiler-hidden-background: var(--primary-700);
+    --android-navigation-bar-background: var(--primary-830);
+    --android-ripple: hsl(var(--white-500-hsl)/0.07);
+    --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6);
+    --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3);
+    --deprecated-store-bg: var(--primary-600);
+    --deprecated-quickswitcher-input-background: var(--primary-400);
+    --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3);
+    --deprecated-text-input-bg: var(--primary-700);
+    --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3);
+    --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5);
+    --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6);
+    --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8);
+    --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9);
+    --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6);
+    --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
+    --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5);
+    --info-box-background: hsl(var(--blue-345-hsl)/0.1);
+    --deprecated-text-input-border-hover: var(--primary-900);
+    --deprecated-text-input-border-disabled: var(--primary-700);
+    --deprecated-text-input-prefix: var(--primary-200);
 }
 
 .theme-light,

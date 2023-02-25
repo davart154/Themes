@@ -6233,25 +6233,28 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     width: auto;
     border-radius: 3px;
 }
-[class*="Grid"] {
+.imageWrapper-oMkQl4,
+.imageWrapper-oMkQl4 * {
+    width: unset !important;
+}
+.mediaAttachmentsContainer-1WGRWy [class*="Grid"] {
     border-radius: 3px;
     display: flex;
     min-height: unset;
     max-height: unset;
     flex-direction: column;
 }
-[class*="Grid"] .lazyImg-ewiNCh, [class*="Grid"] .lazyImgContainer-3k3gRy {
+.mediaAttachmentsContainer-1WGRWy [class*="Grid"] .lazyImg-ewiNCh,
+.mediaAttachmentsContainer-1WGRWy [class*="Grid"] .lazyImgContainer-3k3gRy {
     aspect-ratio: auto;
 }
-[class*="Grid"] [class*="Wrapper"] img,
-[class*="Grid"] [class*="Wrapper"] video {
-    max-height: 400px !important;
+.mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] img,
+.mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] video {
+    max-height: 350px !important;
+    max-width: 400px !important;
     border-radius: 3px;
     margin-bottom: 4px;
-}
-.message-2CShn3 .imageWrapper-oMkQl4 {
-    max-width: 400px;
-    border-radius: 3px;
+    object-fit: contain !important;
 }
 
 /*Server Invites*/

@@ -6232,12 +6232,14 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 
 /*Remove Media Mosaic Experiment*/
-.mediaAttachmentsContainer-1WGRWy {
-    width: auto;
-    border-radius: 3px;
+.messageAttachmentMediaMosaic-2ic1yt {
+    width: fit-content !important;
 }
-.messageAttachment-CZp8Iv * {
+.imageWrapper-oMkQl4 {
     width: unset !important;
+}
+.mediaAttachmentsContainer-1WGRWy {
+    border-radius: 3px;
 }
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] {
     border-radius: 3px;
@@ -6252,9 +6254,8 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 }
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] img,
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] video {
-    max-height: 400px !important;
+    max-height: 350px !important;
     max-width: 400px !important;
-    width: unset !important; 
     border-radius: 3px;
     margin-bottom: 4px;
     object-fit: contain !important;

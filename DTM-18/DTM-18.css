@@ -6085,13 +6085,16 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     pointer-events: none;
 }
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.hoverButtonGroup-2yZIzC):hover:before,
-.messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:hover .hoverButtonGroup-2yZIzC,
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.iconWrapper-XpfprW):before,
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.iconWrapper-XpfprW) .hoverButtonGroup-2yZIzC,
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.videoButton-3NM9Tc [d="M6.01053 2.82974C5.01058 2.24153 3.75 2.96251 3.75 4.12264V13.8774C3.75 15.0375 5.01058 15.7585 6.01053 15.1703L14.3021 10.2929C15.288 9.71294 15.288 8.28709 14.3021 7.70711L6.01053 2.82974Z"]):before,
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.videoButton-3NM9Tc [d="M6.01053 2.82974C5.01058 2.24153 3.75 2.96251 3.75 4.12264V13.8774C3.75 15.0375 5.01058 15.7585 6.01053 15.1703L14.3021 10.2929C15.288 9.71294 15.288 8.28709 14.3021 7.70711L6.01053 2.82974Z"]) .hoverButtonGroup-2yZIzC,
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.videoButton-3NM9Tc [d="M12,5 L12,1 L7,6 L12,11 L12,7 C15.31,7 18,9.69 18,13 C18,16.31 15.31,19 12,19 C8.69,19 6,16.31 6,13 L4,13 C4,17.42 7.58,21 12,21 C16.42,21 20,17.42 20,13 C20,8.58 16.42,5 12,5 L12,5 Z"]):before,
 .messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:has(.videoButton-3NM9Tc [d="M12,5 L12,1 L7,6 L12,11 L12,7 C15.31,7 18,9.69 18,13 C18,16.31 15.31,19 12,19 C8.69,19 6,16.31 6,13 L4,13 C4,17.42 7.58,21 12,21 C16.42,21 20,17.42 20,13 C20,8.58 16.42,5 12,5 L12,5 Z"]) .hoverButtonGroup-2yZIzC {
+    opacity: 1;
+    transform: none;
+}
+.messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:hover .hoverButtonGroup-2yZIzC {
     opacity: 1;
     transform: none;
 }
@@ -8262,9 +8265,11 @@ rect[mask*="dnd"],
     border: 0;
     border-top: 1px solid hsla(0, 0%, 100%, 0.1);
 }
+
 .listScroller-XCVa1H,
 .infoScroller-3MqKC5 {
     padding: 0;
+    height: 240px;
     background: var(--background-secondary);
 }
 .divider-1NpGam,

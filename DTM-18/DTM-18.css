@@ -140,30 +140,6 @@
     
 }
 
-.caret-1TZU-U {
-    background: currentColor;
-    transform: translate(8px,0.5px);
-    clip-path: path("M3.1114 9.63171L7.1114 5.69573C7.50193 5.31145 7.50193 4.68842 7.1114 4.30414L3.1114 0.368134C2.72088 -0.0161415 2.08771 -0.0161415 1.69719 0.368134C1.30667 0.752411 1.30667 1.37544 1.69719 1.75972L4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993L1.69719 8.24014C1.30667 8.62442 1.30667 9.24744 1.69719 9.63171C2.08771 10.016 2.72088 10.016 3.1114 9.63171Z M4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993Z");
-}
-.caret-1TZU-U polygon {
-    display: none;
-}
-[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0 {
-    font-size: 0;
-}
-[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0:before {
-    font-size: 16px;
-    content: "OFFICIAL BALLS MIC";
-}
-[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .lookFilled-GPyucw.select-Zz0IcO .icons-2ibyma:before {
-    background: var(--brand-500);
-    padding: 3px;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 3px;
-    content: "CERTIFIED (REAL)";
-}
-
 /*Indicators*/
 /*Mention Counter Indicator*/
 .numberBadge-37OJ3S {

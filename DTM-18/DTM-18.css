@@ -140,6 +140,30 @@
     
 }
 
+.caret-1TZU-U {
+    background: currentColor;
+    transform: translate(8px,0.5px);
+    clip-path: path("M3.1114 9.63171L7.1114 5.69573C7.50193 5.31145 7.50193 4.68842 7.1114 4.30414L3.1114 0.368134C2.72088 -0.0161415 2.08771 -0.0161415 1.69719 0.368134C1.30667 0.752411 1.30667 1.37544 1.69719 1.75972L4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993L1.69719 8.24014C1.30667 8.62442 1.30667 9.24744 1.69719 9.63171C2.08771 10.016 2.72088 10.016 3.1114 9.63171Z M4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993Z");
+}
+.caret-1TZU-U polygon {
+    display: none;
+}
+[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0 {
+    font-size: 0;
+}
+[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0:before {
+    font-size: 16px;
+    content: "OFFICIAL BALLS MIC";
+}
+[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .lookFilled-GPyucw.select-Zz0IcO .icons-2ibyma:before {
+    background: var(--brand-500);
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    content: "CERTIFIED (REAL)";
+}
+
 /*Indicators*/
 /*Mention Counter Indicator*/
 .numberBadge-37OJ3S {
@@ -6775,26 +6799,26 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     min-width: 200px;
     padding: 8px;
 }
-#channel-attach.menu-2TXYjN .subtext-2GlkbE {
+#channel-attach.menu-2TXYjN .subtext-1mqKVB {
     display: none;
 }
-#channel-attach.menu-2TXYjN .labelContainer-2vJzYL {
+#channel-attach.menu-2TXYjN .labelContainer-35-WEd {
     color: #fff;
     border-radius: 3px;
     cursor: pointer;
     padding: 8px;
     transition: background-color 0.2s ease;
 }
-#channel-attach.menu-2TXYjN .labelContainer-2vJzYL:hover {
+#channel-attach.menu-2TXYjN .labelContainer-35-WEd:hover {
     background-color: #36393f;
 }
 .theme-light #channel-attach.menu-2TXYjN {
     background-color: #f6f6f7;
 }
-.theme-light #channel-attach.menu-2TXYjN .labelContainer-2vJzYL {
+.theme-light #channel-attach.menu-2TXYjN .labelContainer-35-WEd {
     color: #36393f;
 }
-.theme-light #channel-attach.menu-2TXYjN .labelContainer-2vJzYL:hover {
+.theme-light #channel-attach.menu-2TXYjN .labelContainer-35-WEd:hover {
     background-color: rgba(220, 221, 222, 0.6);
 }
 #channel-attach.menu-2TXYjN .optionIcon-1Ft8w0 {
@@ -6803,7 +6827,7 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     opacity: 0.8;
     transition: opacity 0.2s ease;
 }
-#channel-attach.menu-2TXYjN .labelContainer-2vJzYL:hover .optionIcon-1Ft8w0 {
+#channel-attach.menu-2TXYjN .labelContainer-35-WEd:hover .optionIcon-1Ft8w0 {
     opacity: 1;
 }
 #channel-attach.menu-2TXYjN [d="M11.8 14a6.1 6.1 0 0 0 0 6H3v-2c0-2.7 5.3-4 8-4h.8zm-.8-2c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm6 1c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4zm-1 6.2l3-2.2-3-2.2v4.4z"] {
@@ -9080,7 +9104,8 @@ rect[mask*="dnd"],
     width: 218px;
     padding: 60px 6px 60px 20px;
 }
-.side-2ur1Qk .item-3XjbnG svg {
+.side-2ur1Qk .item-3XjbnG svg,
+.side-2ur1Qk .item-3XjbnG img {
     display: none;
 }
 .sidebar-nqHbhN .side-2ur1Qk > .selected-g-kMVV.item-3XjbnG,
@@ -9114,6 +9139,21 @@ rect[mask*="dnd"],
 }
 .side-2ur1Qk .premiumTab-39eQzY.themed-2-lozF.item-3XjbnG:hover {
     background-color: var(--brand-experiment-10a);
+}
+/*Party Mode Button*/
+@keyframes pog {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+.side-2ur1Qk .themed-2-lozF.item-3XjbnG:has(.poggermodeIcon-3Z9uYf) {
+    animation: pog 4s linear infinite;
+}
+.side-2ur1Qk .themed-2-lozF:not(.selected-g-kMVV).item-3XjbnG:has(.poggermodeIcon-3Z9uYf) {
+    color: var(--brand-experiment);
 }
 /*Server Subscriptions Button*/
 .side-2ur1Qk .themed-2-lozF.item-3XjbnG:not(.selected-g-kMVV)[aria-label="Server Subscriptions"] {

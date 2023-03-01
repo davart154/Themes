@@ -2133,23 +2133,23 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 .iconContainerLeft-2NHJgN foreignObject {
     mask: none;
 }
-.status-2DiCMd {
+.status-3cqfT9 {
     border-radius: 50%;
     background-size: 12px;
     background-repeat: no-repeat;
 }
-foreignObject[mask*="online"] .status-2DiCMd {
+foreignObject[mask*="online"] .status-3cqfT9 {
     background-color: var(--status-positive) !important;
 }
-foreignObject[mask*="idle"] .status-2DiCMd {
+foreignObject[mask*="idle"] .status-3cqfT9 {
     background-color: var(--status-warning) !important;
     background-image: url(https://discord.com/assets/2cd083e5b360930c23ca95ab6a6073a0.svg);
 }
-foreignObject[mask*="dnd"] .status-2DiCMd {
+foreignObject[mask*="dnd"] .status-3cqfT9 {
     background-color: var(--status-danger) !important;
     background-image: url(https://discord.com/assets/5e6b9355e62148b7f463465fd029ab92.svg);
 }
-foreignObject[mask*="offline"] .status-2DiCMd {
+foreignObject[mask*="offline"] .status-3cqfT9 {
     background-color: #747f8d !important;
     background-image: url(https://discord.com/assets/7026428ff08042eb805e579bd9aea182.svg);
 }
@@ -9297,40 +9297,40 @@ rect[mask*="dnd"],
         filter: hue-rotate(360deg);
     }
 }
+.side-1lrxIh .themed-qqoYp3:not(.selected-1sf9UK).item-2GWPIy:has(.poggermodeIcon-3Z9uYf) {
+    color: var(--brand-experiment);
+}
 .side-1lrxIh .themed-qqoYp3.item-2GWPIy:has(.poggermodeIcon-3Z9uYf) {
     animation: pog 4s linear infinite;
 }
-.side-1lrxIh .themed-2-lozF:not(.selected-1sf9UK).item-2GWPIy:has(.poggermodeIcon-3Z9uYf):hover {
+.side-1lrxIh .themed-qqoYp3:not(.selected-1sf9UK).item-2GWPIy:has(.poggermodeIcon-3Z9uYf):hover {
     background-color: var(--brand-experiment-10a);
 }
-.side-1lrxIh .themed-2-lozF:not(.selected-1sf9UK).item-2GWPIy:has(.poggermodeIcon-3Z9uYf) {
-    color: var(--brand-experiment);
-}
 /*Server Subscriptions Button*/
-.side-1lrxIh .themed-2-lozF.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Server Subscriptions"] {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Server Subscriptions"] {
     color: var(--creator-revenue-end);
 }
-.side-1lrxIh .themed-2-lozF.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Server Subscriptions"]:hover {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Server Subscriptions"]:hover {
     background-color: hsla(198, calc(var(--saturation-factor, 1)*81.5%),46.7%, 0.1);
 }
 /*Server Boost Status Button*/
-.side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Server Boost Status"] {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Server Boost Status"] {
     color: var(--brand-experiment);
 }
-.side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Server Boost Status"]:hover {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Server Boost Status"]:hover {
     background-color: var(--brand-experiment-10a);
 }
 /*Log Out and Delete Server Buttons*/
-:lang(DA) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Log ud"],
-:lang(DE) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Abmelden"],
-:lang(EN) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Log Out"],
-:lang(EN) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Delete Server"] {
+:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log ud"],
+:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"],
+:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"],
+:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Delete Server"] {
     color: var(--status-red-530);
 }
-:lang(DA) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Log ud"]:hover,
-:lang(DE) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Abmelden"]:hover,
-:lang(EN) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Log Out"]:hover,
-:lang(EN) .side-1lrxIh .themed-2-lozF.item-2GWPIy[aria-label="Delete Server"]:hover {
+:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log ud"]:hover,
+:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"]:hover,
+:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"]:hover,
+:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Delete Server"]:hover {
     background-color: var(--status-red-10a);
 }
 
@@ -9734,7 +9734,7 @@ rect[mask*="dnd"],
     mask: none;
     border-radius: 50%;
 }
-#my-account-tab .userInfo-regn9W .avatar-3mTjvZ .pointerEvents-9SZWKj {
+#my-account-tab .userInfo-regn9W .avatar-3mTjvZ .pointerEvents-2KjWnj {
     display: none;
 }
 #my-account-tab .fieldList-in8WkP {
@@ -11015,7 +11015,7 @@ rect[mask*="dnd"],
 #roles-tab .row-LoqnA5.item-2GWPIy {
     margin-bottom: 2px;
 }
-#roles-tab .row-LoqnA5.themed-2-lozF.selected-1sf9UK.item-2GWPIy {
+#roles-tab .row-LoqnA5.themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
     background: none;
 }
 #roles-tab .row-LoqnA5 .roleCircle-3TFUOr {

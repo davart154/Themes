@@ -10678,7 +10678,7 @@ rect[mask*="dnd"],
 }
 .bigPerkCard-1uwmWV img,
 .smallPerkCard-2sX_-- img {
-    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994475433028493403/nitro_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880686367510668/sub_nitro_dark.svg?);
     width: 120px;
     height: 80px;
     position: absolute;
@@ -10686,39 +10686,63 @@ rect[mask*="dnd"],
     left: 0;
     margin: 0;
 }
+.theme-light .smallPerkCard-2sX_-- img {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880700586209440/sub_nitro_light.svg?);
+}
 .bigPerkCard-1uwmWV [src="/assets/0b396e6928f366dc5714e92e47d6bf8a.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994477562229166150/filesize_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880078226985020/sub_filesize_dark.svg?);
 }
 .bigPerkCard-1uwmWV [src="/assets/c91e7e0f91c148e7521a985f018554e6.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994477810372579358/screenshare_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880172749832222/sub_screenshare_dark.svg?);
 }
 .bigPerkCard-1uwmWV [src="/assets/4275f4f043390fa1db37efe36e7a79aa.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994478299889799168/emoji_dark.svg);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880300067926066/sub_emoji_dark.svg?);
 }
 .bigPerkCard-1uwmWV [src="/assets/82b046ceb00c38dcc1e22bcfff78faaf.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994480902904234044/boost.svg);
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994480902904234044/boost.svg?);
 }
 .smallPerkCard-2sX_-- [src="/assets/13c1f0a9d8c8a7fda8bff0a53eeb040c.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793380231917710/sub_rocket_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880373648588880/sub_rocket_dark.svg?);
+}
+.smallPerkCard-2sX_-- [src="/assets/360ca22059b6b674a018547e8e18acdc.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880481723232256/sub_animated_dark.svg?);
 }
 .smallPerkCard-2sX_-- [src="/assets/9b1958f667a4a342ff8396b2b7afd0a5.png"] {
-    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994478063528202301/animatedavatar_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880601458028594/sub_animatedavatar_dark.svg?);
 }
 .smallPerkCard-2sX_-- [src="/assets/317438b1df555820dfaffad6074dbf72.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1079876924131791019/sub_videobackground_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880662208315434/sub_videobackground_dark.svg?);
 }
 .smallPerkCard-2sX_-- [src="/assets/d6dd0062aa55ff9373dc966f0571c1b2.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793340914503781/sub_message_dark.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880714020552734/sub_message_dark.svg?);
 }
 
+.theme-light .bigPerkCard-1uwmWV [src="/assets/0b396e6928f366dc5714e92e47d6bf8a.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880113454948424/sub_filesize_light.svg?);
+}
+.theme-light .bigPerkCard-1uwmWV [src="/assets/c91e7e0f91c148e7521a985f018554e6.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880186783957073/sub_screenshare_light.svg?);
+}
+.theme-light .bigPerkCard-1uwmWV [src="/assets/4275f4f043390fa1db37efe36e7a79aa.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880315184189500/sub_emoji_light.svg?);
+}
+.theme-light .bigPerkCard-1uwmWV [src="/assets/82b046ceb00c38dcc1e22bcfff78faaf.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/994480902904234044/boost.svg?);
+}
 .theme-light .smallPerkCard-2sX_-- [src="/assets/13c1f0a9d8c8a7fda8bff0a53eeb040c.svg"] {
     content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793393683058798/sub_rocket_light.svg?);
 }
 .theme-light .smallPerkCard-2sX_-- [src="/assets/9ed6f350f410a40008ca9a035ace58e1.svg"] {
     content: url(https://cdn.discordapp.com/attachments/1078165959526862910/1078166609702694912/animated_light.svg?);
 }
+.theme-light .smallPerkCard-2sX_-- [src="/assets/9b1958f667a4a342ff8396b2b7afd0a5.png"] {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880611578875974/sub_animatedavatar_light.svg?);
+}
+.theme-light .smallPerkCard-2sX_-- [src="/assets/8d6f03201e293295b0d17a7a15f98488.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880674321473616/sub_videobackground_light.svg?);
+}
 .theme-light .smallPerkCard-2sX_-- [src="/assets/3aac09a07dc0bded22c6c7af3e7ad99c.svg"] {
-    content: url(https://cdn.discordapp.com/attachments/1078700830548578485/1078793354382409838/sub_message_light.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080878957508968448/1080880724334346280/sub_message_light.svg?);
 }
 
 

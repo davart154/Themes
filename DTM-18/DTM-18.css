@@ -147,6 +147,9 @@
     height: 20px;
     content: url(/assets/f98fe1aef65b144ddb4dbc7eedfac860.svg);
 }
+.theme-light [id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .lookFilled-GPyucw.select-Zz0IcO .icons-2ibyma:before {
+    filter: invert(100%);
+}
 
 /*Indicators*/
 /*Mention Counter Indicator*/
@@ -6418,7 +6421,7 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     aspect-ratio: auto;
 }
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] img,
-.mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] video {
+.mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] .wrapper-1FP9YQ:not([style*="background"]) video {
     max-height: 350px !important;
     max-width: 400px !important;
     border-radius: 3px;

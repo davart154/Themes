@@ -234,14 +234,14 @@ mask > use[href$="lower_badge_masks"] {
     padding: 2px 4px !important;
 }
 /*Beta Badge*/
-.base-3IDx3L[style*="background-color: var(--brand-500)"] {
+.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv {
     background-color: var(--brand-experiment) !important;
     height: 16px;
     font-weight: 600;
     border-radius: 3px;
     padding: 0 3px;
 }
-.selected-1sf9UK.item-2GWPIy .base-3IDx3L[style*="background-color: var(--brand-500)"] {
+.selected-1sf9UK.item-2GWPIy .textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv {
     background-color: var(--header-primary) !important;
     color: var(--brand-experiment);
 }

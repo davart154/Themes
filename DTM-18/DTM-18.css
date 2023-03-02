@@ -135,29 +135,17 @@
 /*Spinning Circle
 -  Add this later*/
 
-
-.caret-1TZU-U {
-    background: currentColor;
-    transform: translate(8px,0.5px);
-    clip-path: path("M3.1114 9.63171L7.1114 5.69573C7.50193 5.31145 7.50193 4.68842 7.1114 4.30414L3.1114 0.368134C2.72088 -0.0161415 2.08771 -0.0161415 1.69719 0.368134C1.30667 0.752411 1.30667 1.37544 1.69719 1.75972L4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993L1.69719 8.24014C1.30667 8.62442 1.30667 9.24744 1.69719 9.63171C2.08771 10.016 2.72088 10.016 3.1114 9.63171Z M4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993Z");
-}
-.caret-1TZU-U polygon {
-    display: none;
-}
 [id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0 {
     font-size: 0;
 }
-[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0:before {
+[id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .deviceOptionLabel-1KhAS0:after {
     font-size: 16px;
     content: "OFFICIAL BALLS MIC";
 }
 [id="voice-&-video-tab"] .flexChild-3PzYmX:nth-child(1) .lookFilled-GPyucw.select-Zz0IcO .icons-2ibyma:before {
-    background: var(--brand-500);
-    padding: 3px;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 3px;
-    content: "CERTIFIED";
+    width: 84px;
+    height: 20px;
+    content: url(/assets/f98fe1aef65b144ddb4dbc7eedfac860.svg);
 }
 
 /*Indicators*/
@@ -939,17 +927,6 @@ mask > use[href$="lower_badge_masks"] {
 
 
 /*Guild List*/
-.platform-osx .guilds-2JjMmN:before,
-.platform-win .guilds-2JjMmN:before {
-    content: "";
-    z-index: 1;
-    position: absolute;
-    top: -6px;
-    left: 5px;
-    width: calc(100% - 10px);
-    height: 6px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
-}
 .guilds-2JjMmN {
     width: 70px;
     background-color: var(--background-tertiary);
@@ -957,6 +934,30 @@ mask > use[href$="lower_badge_masks"] {
 .platform-osx .scroller-3X7KbA,
 .platform-win .scroller-3X7KbA {
     padding-top: 10px;
+}
+
+/*New Bar*/
+.unreadMentionsBar-ZXXoOH {
+    background-clip: padding-box;
+    background-color: var(--text-danger);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 60%) !important;
+    color: #fff;
+    font-size: 11px;
+    font-weight: inherit;
+    line-height: 12px;
+    height: 14px !important;
+    padding: 3px 4px !important;
+    text-shadow: none;
+    text-transform: uppercase;
+    min-width: 16px !important;
+    width: 50px !important;
+    opacity: .9;
+    left: -2px;
+}
+.unreadMentionsIndicatorTop-2bTgUU .unreadMentionsBar-ZXXoOH.unread-2wipsx {
+    transform: translateY(-150%) !important;
+    transition: transform .1s ease;
 }
 
 /*Discord Logo*/
@@ -1846,24 +1847,6 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     min-width: 14px !important;
     width: auto !important;
     opacity: .9;
-} 
-.unreadMentionsBar-ZXXoOH {
-    background-clip: padding-box;
-    background-color: var(--text-danger);
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgb(0 0 0 / 60%);
-    color: #fff;
-    font-size: 11px;
-    font-weight: inherit;
-    line-height: 12px;
-    height: 14px !important;
-    padding: 3px 4px !important;
-    text-shadow: none;
-    text-transform: uppercase;
-    min-width: 16px !important;
-    width: 50px !important;
-    opacity: .9;
-    left: -2px;
 }
 .unread-2wipsx {
     background-clip: padding-box;
@@ -3312,7 +3295,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 .expandedInboxHeader-HkRSug {
     display: none;
 }
-.topPill-3DJJNV .item-2GWPIy {
+.topPill-2vcLsa .item-2GWPIy {
     border-radius: 0;
     padding: 0;
 }
@@ -7218,6 +7201,14 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 .menu-2TXYjN .groupLabel-16o1xl.labelContainer-2vJzYL {
   pointer-events: none;
   font-size: 12px;
+}
+.caret-1TZU-U {
+    background: currentColor;
+    transform: translate(8px,0.5px);
+    clip-path: path("M3.1114 9.63171L7.1114 5.69573C7.50193 5.31145 7.50193 4.68842 7.1114 4.30414L3.1114 0.368134C2.72088 -0.0161415 2.08771 -0.0161415 1.69719 0.368134C1.30667 0.752411 1.30667 1.37544 1.69719 1.75972L4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993L1.69719 8.24014C1.30667 8.62442 1.30667 9.24744 1.69719 9.63171C2.08771 10.016 2.72088 10.016 3.1114 9.63171Z M4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993Z");
+}
+.caret-1TZU-U polygon {
+    display: none;
 }
 .menu-2TXYjN .wrapper--nA0oy {
     display: none;

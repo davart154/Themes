@@ -8280,7 +8280,9 @@ rect[mask*="dnd"],
     filter: grayscale(100%);
 }
 /*Boosting Since*/
-.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"],
+.userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"] {
+    content: url(/assets/df26f079738a4dcd07cbce6eb3c957f1.svg?);
+}
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/22f99ed6e34eaca48950254c70f8fe8d.svg"],
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/4a2618502278029ce88adeea179ed435.svg"],
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/fbafa6adb7c49a6a2c3822521ff2af2f.svg"],
@@ -9784,20 +9786,23 @@ rect[mask*="dnd"],
 [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl"] .text-md-medium-2n7Vn5 {
     color: var(--radio-bar-accent-color);
 }
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(145.38,65%,39.22%)"] {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="var"] .text-md-medium-2n7Vn5 {
+    color: var(--radio-bar-accent-color);
+}
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="green"] {
     --radio-bar-accent-color: var(--info-positive-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(39.02,74.43%,42.94%)"] {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="yellow"] {
     --radio-bar-accent-color: var(--info-warning-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] {
     --radio-bar-accent-color: var(--info-danger-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5 {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5 {
     font-size: 0;
     line-height: unset;
 }
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v {
     font-size: 0;
     line-height: unset;
 }
@@ -9805,186 +9810,186 @@ rect[mask*="dnd"],
     color: #fff;
 }
 /*Do not scan Text Replacement*/
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     font-size: 16px;
     line-height: 20px;
 }
-[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+[id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     font-size: 14px;
     line-height: 18px;
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Jeg bor på kanten";
 }
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(DA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Slå dette fra. Scan ikke noget. Gå direkte til den mørke side.";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Ich lebe am Limit";
 }
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(DE) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "I live on the edge";
 }
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(EN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Turn this off. Don't scan anything. Go straight to the dark side.";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Vivo al límite";
 }
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(ES) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Desactiva esto. No compruebes nada. Ve directo al lado oscuro.";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Je vis dangereusement";
 }
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(FR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Désactiver cette option. Ne rien analyser. Allons tout droit vers le côté obscur.";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Živim na rubu";
 }
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(HR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Ugasi ovo. Nemoj ništa skenirati. Idi ravno na mračnu stranu.";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Mi piace rischiare";
 }
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(IT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Disattiva del tutto il controllo dei messaggi diretti. Da grandi rischi derivano grandi responsabilità.";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Aš gyvenu ant krašto";
 }
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(LT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Išjunk. Nieko neskenuok. Eik tiesiai į tamsiąją pusę.";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Veszélyesen élek";
 }
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(HU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Kapcsold ki. Ne ellenőrizz semmit. Állj át a sötét oldalra.";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Ik woon aan de rand";
 }
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(NL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Schakel dit uit. Scan niets. Ga direct naar de donkere kant.";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Jeg bor på kanten";
 }
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(NO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Slå av dette. Ikke skann noe. Gå rett til den mørke siden.";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Żyję na krawędzi";
 }
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(PL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Wyłącz to. Nic nie skanuj. Przejdź prosto na ciemną stronę mocy.";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Eu sou vida louca";
 }
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(PT) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Desative isso. Não analise nada. Vá direto para o lado negro da força.";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Trăiesc la limită";
 }
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(RO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Oprește-l. Nu scana nimic. Du-te direct de partea răului.";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Olen reunalla eläjä";
 }
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(FI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Kytke tämä pois. Älä tarkista mitään. Siirry pimeälle puolelle.";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Jag gillar att leva farligt";
 }
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(SV) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Inaktivera detta. Skanna ingenting. Gå över till den mörka sidan.";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Tôi thuộc kiểu ưa phiêu lưu";
 }
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(VI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Tắt tính năng này. Không quét gì cả. Đi thẳng đến mặt tối.";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Tehlike içinde yaşıyorum";
 }
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(TR) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Bunu kapat. Hiçbir şeyi tarama. Direkt karanlık tarafa geç.";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Bydlím na okraji";
 }
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(CS) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Vypněte to. Nic neskenujte. Jděte přímo na temnou stranu.";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Ζω στα άκρα";
 }
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(EL) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Απενεργοποίησέ το. Μην ελέγχεις τίποτα. Πήγαινε κατευθείαν στη σκοτεινή πλευρά.";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Живея на ръба";
 }
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(BG) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Изключете това. Не сканирайте нищо. Отидете направо на тъмната страна.";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Я рисковый человек";
 }
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(RU) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Выключите это. Не надо ничего проверять. Отправляюсь на темную сторону.";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "Я ризикова людина";
 }
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(UK) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "Вимкніть це. Не треба нічого перевіряти. Відправляюсь на темну сторону.";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "मैं किनारे पर रहता हूँ";
 }
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(HI) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "इसे बंद कर दें। कुछ भी स्कैन न करें। सीधे डार्क साइड पर जाएं।";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "ฉันชอบความท้าทาย";
 }
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(TH) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "ไม่ต้องคัดกรองข้อความใดๆทั้งสิ้น มุ่งหน้าสู่ด้านมืด!";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "我活在社会边缘";
 }
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "关闭此功能。不扫描任何东西。直走到黑暗的一面。";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "そんなの平気さ";
 }
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(JA) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "機能をオフにします。一切スキャンしません。闇に堕ちるがいい。";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "我活在社會邊緣";
 }
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "關閉此功能。 不掃描任何東西。 直到黑暗的那一邊。";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-md-medium-2n7Vn5:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-md-medium-2n7Vn5:before {
     content: "나는 가장자리에 산다";
 }
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="hsl(358.66,87.32%,59.8%)"] .text-sm-normal-AEQz4v:before {
+:lang(KO) [id="privacy-&-safety-tab"] .radioBar-1XgZqD[style*="red"] .text-sm-normal-AEQz4v:before {
     content: "이 기능을 끕니다. 아무것도 스캔하지 마십시오. 어두운 면으로 바로 가십시오.";
 }
 
@@ -11931,18 +11936,4 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --deprecated-text: -input-border-hover: #b9bbbe;
     --deprecated-text-input-border-disabled: #dcddde;
     --deprecated-text-input-prefix: #b9bbbe;
-}
-
-.radioBar-1XgZqD[style*="green"] {
-    --radio-bar-accent-color: #43b581 !important;
-}
-.radioBar-1XgZqD[style*="yellow"] {
-    --info-warning-foreground: #faa61a !important;
-}
-.radioBar-1XgZqD[style*="red"] {
-    --radio-bar-accent-color: #f04747 !important;
-}
-
-.liveIndicator-TJKS7N {
-    background: var(--status-positive-background);
 }

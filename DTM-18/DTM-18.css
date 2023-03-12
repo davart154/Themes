@@ -967,7 +967,7 @@ mask > use[href$="lower_badge_masks"] {
 .childWrapper-1j_1ub {
     background-color: var(--background-secondary);
 }
-.homeIcon-r0w4ny path {
+[d="M23.0212 1.67671C21.3107 0.879656 19.5079 0.318797 17.6584 0C17.4062 0.461742 17.1749 0.934541 16.9708 1.4184C15.003 1.12145 12.9974 1.12145 11.0283 1.4184C10.819 0.934541 10.589 0.461744 10.3368 0.00546311C8.48074 0.324393 6.67795 0.885118 4.96746 1.68231C1.56727 6.77853 0.649666 11.7538 1.11108 16.652C3.10102 18.1418 5.3262 19.2743 7.69177 20C8.22338 19.2743 8.69519 18.4993 9.09812 17.691C8.32996 17.3997 7.58522 17.0424 6.87684 16.6135C7.06531 16.4762 7.24726 16.3387 7.42403 16.1847C11.5911 18.1749 16.408 18.1749 20.5763 16.1847C20.7531 16.3332 20.9351 16.4762 21.1171 16.6135C20.41 17.0369 19.6639 17.3997 18.897 17.691C19.3052 18.4993 19.7718 19.2689 20.3021 19.9945C22.6677 19.2689 24.8929 18.1364 26.8828 16.6466H26.8893C27.43 10.9731 25.9665 6.04728 23.0212 1.67671ZM9.68041 13.6383C8.39754 13.6383 7.34085 12.4453 7.34085 10.994C7.34085 9.54272 8.37155 8.34973 9.68041 8.34973C10.9893 8.34973 12.0395 9.54272 12.0187 10.994C12.0187 12.4453 10.9828 13.6383 9.68041 13.6383ZM18.3161 13.6383C17.0332 13.6383 15.9765 12.4453 15.9765 10.994C15.9765 9.54272 17.0124 8.34973 18.3161 8.34973C19.6184 8.34973 20.6751 9.54272 20.6543 10.994C20.6543 12.4453 19.6184 13.6383 18.3161 13.6383Z"] {
     d: path('M 34.8511 36.0025 L 34.8511 36.255 Z M 20.7053 19.9378 C 20.7053 19.9378 19.8437 18.9268 19.1256 18.0334 C 22.2611 17.1634 23.4579 15.2355 23.4579 15.2355 C 22.4765 15.8703 21.5431 16.317 20.7053 16.6227 C 19.5086 17.1164 18.3597 17.4456 17.2347 17.6337 C 14.9369 18.0569 12.8306 17.9393 11.0355 17.6102 C 9.6712 17.3515 8.4983 16.9754 7.517 16.5992 C 6.9665 16.3876 6.3681 16.1289 5.7697 15.7998 C 5.6979 15.7527 5.6261 15.7292 5.5543 15.6822 C 5.5064 15.6587 5.4825 15.6352 5.4585 15.6117 C 5.0277 15.3765 4.7884 15.212 4.7884 15.212 C 4.7884 15.212 5.9373 17.0929 8.9771 17.9864 C 8.259 18.8798 7.3734 19.9378 7.3734 19.9378 C 2.0836 19.7733 0.0731 16.364 0.0731 16.364 C 0.0731 8.7932 3.5197 2.6567 3.5197 2.6567 C 6.9665 0.1174 10.2456 0.1879 10.2456 0.1879 L 10.4849 0.4701 C 6.1767 1.6927 4.19 3.5501 4.19 3.5501 C 4.19 3.5501 4.7166 3.268 5.6022 2.8683 C 8.1632 1.7632 10.1978 1.4575 11.0355 1.387 C 11.1791 1.3635 11.2988 1.34 11.4424 1.34 C 12.9024 1.1519 14.554 1.1049 16.2773 1.293 C 18.5512 1.5516 20.9925 2.2099 23.4818 3.5501 C 23.4818 3.5501 21.5909 1.7867 17.5219 0.5641 L 17.857 0.1879 C 17.857 0.1879 21.1362 0.1174 24.5828 2.6567 C 24.5828 2.6567 28.0295 8.7932 28.0295 16.364 C 28.0295 16.364 25.995 19.7733 20.7053 19.9378 Z M 9.5754 8.9578 C 8.2111 8.9578 7.134 10.1334 7.134 11.5676 C 7.134 13.0019 8.235 14.1774 9.5754 14.1774 C 10.9397 14.1774 12.0168 13.0019 12.0168 11.5676 C 12.0407 10.1334 10.9397 8.9578 9.5754 8.9578 M 18.3118 8.9578 C 16.9475 8.9578 15.8704 10.1334 15.8704 11.5676 C 15.8704 13.0019 16.9714 14.1774 18.3118 14.1774 C 19.6761 14.1774 20.7532 13.0019 20.7532 11.5676 C 20.7532 10.1334 19.6761 8.9578 18.3118 8.9578');
 }
 .homeIcon-r0w4ny {
@@ -3716,45 +3716,73 @@ content: "#";
 
 /*People Wrapper*/
 .peopleColumn-1wMU14 .searchBar-2aylmZ {
-  background: var(--deprecated-text-input-bg);
-  border: solid 1px var(--deprecated-text-input-border);
-  transition: 0.3s border-color;
-  border-radius: 3px;
+    background: var(--deprecated-text-input-bg);
+    border: solid 1px var(--deprecated-text-input-border);
+    transition: 0.3s border-color;
+    border-radius: 3px;
 }
 .peopleColumn-1wMU14 .searchBar-2aylmZ:hover, .peopleColumn-1wMU14 .searchBar-2aylmZ:active {
-  border-color: var(--deprecated-text-input-border-hover);
+    border-color: var(--deprecated-text-input-border-hover);
 }
 .peopleColumn-1wMU14 .searchBar-2aylmZ:focus, .peopleColumn-1wMU14 .searchBar-2aylmZ:focus-within {
-  border-color: var(--blurple);
+    border-color: var(--blurple);
+}
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:nth-child(2) {
+    border: 0;
 }
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF {
-  border-radius: 3px;
+    border-radius: 3px;
 }
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh, .peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover {
-  background: #414449;
-  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh,
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover {
+    background: rgba(79,84,92,.3);
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
 }
-.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh, .theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover {
-  background: #99aab533;
+.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF.active-2UF8Zh,
+.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF:hover {
+    background: rgba(153,170,181,.2);
+}
+#all-tab .peopleListItem-u6dGxF .actions-YHvpIT,
+#online-tab .peopleListItem-u6dGxF .actions-YHvpIT {
+    opacity: 0;
+}
+#all-tab .peopleListItem-u6dGxF:hover .actions-YHvpIT,
+#online-tab .peopleListItem-u6dGxF:hover .actions-YHvpIT {
+    opacity: 1;
 }
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x- {
-  border-radius: 3px;
-  transition: 0.3s;
-  background: var(--background-secondary-alt);
+    border-radius: 3px;
+    transition: 0.3s;
+    background: var(--background-secondary-alt);
+    color: #fff;
+}
+.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x- {
+    background: var(--button-secondary-background);
 }
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-:hover {
-  background: var(--background-tertiary);
+    background: #4f545c;
 }
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-.actionDeny-1pQVuZ:hover {
-  background: var(--status-danger);
-  color: #fff;
+.theme-light .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-:hover {
+    background: var(--button-secondary-background-hover);
 }
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF .actionButton-3-B2x-.actionAccept-2nmnLv:hover {
-  background: var(--status-positive);
-  color: #fff;
+    background: var(--status-positive);
+    color: #fff;
+}
+#pending-tab .actionButton-3-B2x-.actionAccept-2nmnLv svg,
+#pending-tab .actionButton-3-B2x-.actionDeny-1pQVuZ svg,
+#blocked-tab .actionButton-3-B2x-.actionDeny-1pQVuZ svg {
+    width: 24px;
+    height: 24px;
+}
+#blocked-tab .actionButton-3-B2x-.actionDeny-1pQVuZ:hover {
+    background: var(--status-danger);
 }
 .actionButton-3-B2x- [d="M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z"] {
     d: path("M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z");
+}
+#blocked-tab .actionButton-3-B2x-.actionDeny-1pQVuZ path {
+    d: path("M10 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm9.3073999-3.5066333l1.6724326-1.67243255c.124596-.12459606.39675-.3967501-.0040202-.79752037-.4007703-.40077028-.6769006-.1325925-.8014967-.00799643l-1.6724325 1.67243252-1.636821-1.636821c-.1236964-.12369646-.4297191-.42971917-.8344657-.02497265-.4047465.40474653-.0995039.7115494.0241925.83524585l1.636821 1.63682103-1.6258273 1.6258273c-.1236965.1236965-.4385989.4465514-.0378286.8473217.4007703.4007702.6792282.1223123.8029247-.0013842l1.666248-1.666248 1.6540174 1.6540173c.1241462.1241463.4199216.4183614.8246682.0136149.4047465-.4047466.1097512-.6997418-.014395-.8238881l-1.6540174-1.6540173z");
 }
 
 /*setTimeout(function(){debugger;}, 1000)*/
@@ -7218,24 +7246,6 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
     display: none;
 }
 
-/*Follow News Channel Popout*/
-#app-mount .header-13P3fr {
-    background: transparent;
-    flex-direction: column;
-}
-#app-mount .header-13P3fr.separator-3C440w {
-    box-shadow: none;
-}
-.header-13P3fr .icon-1zKOXL {
-    margin-bottom: 16px;
-}
-.header-13P3fr .channelContainer-3YAhb_,
-.header-13P3fr .channelContainer-3YAhb_ * {
-    margin-left: 0;
-    background: transparent !important;
-    max-width: unset;
-}
-
 /*Blocked NSFW Channel Prompt*/
 .gatedContent-31-gID {
     overflow: hidden;
@@ -7973,15 +7983,16 @@ rect[mask*="dnd"],
 }
 .userPopoutOuter-3AVBmJ .container-5SvbtF {
     min-height: unset;
+    gap: 4px;
 }
 .userPopoutOuter-3AVBmJ .profileBadge22-3OAigE {
     object-fit: contain;
+    height: 20px;
+    width: 20px;
 }
 /*Staff*/
 [src="/assets/48d5bdcffe9e7848067c2e187f1ef951.svg"] {
     content: url(https://discord.com/assets/4358ad1fb423b346324516453750f569.svg?);
-    width: 18px;
-    padding: 0 2px;
 }
 /*Partnered*/
 [src="/assets/34306011e46e87f8ef25f3415d3b99ca.svg"] {
@@ -7994,26 +8005,18 @@ rect[mask*="dnd"],
 /*Hypesquad Events*/
 [src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
     content: url(https://discord.com/assets/6c73f47daf179ffade99f501bfc5101b.svg?);
-    width: 18px;
-    padding: 0 2px;
 }
 /*Hypesquad Bravery*/
 [src="/assets/efcc751513ec434ea4275ecda4f61136.svg"] {
     content: url(https://discord.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg?);
-    width: 18px;
-    padding: 0 2px;
 }
 /*Hypesquad Brilliance*/
 [src="/assets/ec8e92568a7c8f19a052ef42f862ff18.svg"] {
     content: url(https://discord.com/assets/48cf0556d93901c8cb16317be2436523.svg?);
-    width: 18px;
-    padding: 0 2px;
 }
 /*Hypesquad Balance*/
 [src="/assets/9f00b18e292e10fc0ae84ff5332e8b0b.svg"] {
     content: url(https://discord.com/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg?);
-    width: 18px;
-    padding: 0 2px;
 }
 /*Developer Something*/
 [src="/assets/4441e07fe0f46b3cb41b79366236fca6.svg"] {
@@ -8022,12 +8025,14 @@ rect[mask*="dnd"],
 /*Nitro*/
 [src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {
     content: url(https://discord.com/assets/386884eecd36164487505ddfbac35a9d.svg?);
-    width: 26px;
+    width: 26px !important;
+    transform: translateY(1px);
 }
 /*Early Supporter*/
 [src="/assets/b802e9af134ff492276d94220e36ec5c.svg"] {
     content: url(https://discord.com/assets/23e59d799436a73c024819f84ea0b627.svg?);
-    width: 26px;
+    width: 26px !important;
+    transform: translateY(1px);
 }
 /*Supports Commands*/
 [src="/assets/498591d63b352256a1bf18061eff9d57.svg"] {
@@ -8273,11 +8278,11 @@ rect[mask*="dnd"],
 }
 /*Nitro*/
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/24d05f3b46a110e538674edbac0db4cd.svg"] {
-    content: url("https://discord.com/assets/379d2b3171722ef8be494231234da5d1.svg?");
+    content: url(https://discord.com/assets/379d2b3171722ef8be494231234da5d1.svg?);
 }
 /*Early Supporter*/
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/b802e9af134ff492276d94220e36ec5c.svg"] {
-    filter: grayscale(100%);
+    content: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg?);
 }
 /*Boosting Since*/
 .userPopoutOuter-3AVBmJ:has(.activity-E0U09Y) [src="/assets/ca18353be0e57a2b3b3132fa1c08d6b4.svg"] {
@@ -9025,21 +9030,34 @@ rect[mask*="dnd"],
 }
 
 /*Popout Containers*/
-.focusLock-bHVOlV [data-text-variant*="heading"][class*="heading"] {
+.focusLock-bHVOlV .header-1ffhsl [data-text-variant*="heading"][class*="heading"] {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     text-transform: uppercase !important;
 }
+.theme-dark .separator-3C440w {
+    box-shadow: 0 1px 0 0 rgba(24,25,28,.3),0 1px 2px 0 rgba(24,25,28,.3);
+}
 .focusLock-bHVOlV .guildName-1kreI8 {
     font-size: 12px;
+    line-height: 16px;
 }
 .headerTop-1LeawG {
     position: unset;
 }
-.focusLock-bHVOlV .closeIcon-11LhXr {
-    width: 16px;
-    height: 16px;
+.focusLock-bHVOlV .button-ejjZWC.close-A4ZfTI {
+    height: 18px;
+}
+.focusLock-bHVOlV .button-ejjZWC.close-A4ZfTI:hover {
+    background-color: rgba(220,221,222,.05);
+}
+.focusLock-bHVOlV .button-ejjZWC.close-A4ZfTI svg {
+    width: 18px;
+    height: 18px;
+}
+.focusLock-bHVOlV .button-ejjZWC.close-A4ZfTI path {
+    d: path("M19 6.41 17.59 5 12 10.59 6.41 5l-1.41 1.41L10.59 12 5 17.59l1.41 1.41L12 13.41 17.59 19l1.41-1.41L13.41 12");
 }
 /*Change username*/
 .focusLock-bHVOlV .header-1kWa4s {
@@ -9073,19 +9091,6 @@ rect[mask*="dnd"],
 /*Nitro*/
 .focusLock-bHVOlV .tier2HeaderBackground-2XINxm {
     background-image: linear-gradient(90deg, #b473f5, #e292aa);
-}
-.focusLock-bHVOlV .tier2HeaderBackground-2XINxm .close-1mLglB {
-    height: 16px;
-    position: absolute;
-    top: 22px;
-    right: 21px;
-}
-.focusLock-bHVOlV .tier2HeaderBackground-2XINxm .close-1mLglB {
-    opacity: 0.75;
-    fill: #f6f6f7;
-}
-.focusLock-bHVOlV .tier2HeaderBackground-2XINxm .close-1mLglB:hover {
-    opacity: 1;
 }
 /*Nitro Basic*/
 /*Create Channel*/
@@ -10783,7 +10788,7 @@ rect[mask*="dnd"],
     line-height: unset;
 }
 .bigPerkCard-1uwmWV .bigPerkCardHeading-2A9bsX:before {
-    content: "fuck off";
+    content: "unnamed nitro perk";
     line-height: 24px;
 }
 
@@ -10906,6 +10911,28 @@ rect[mask*="dnd"],
 }
 #appearance-tab .children-2C96Ex .marginTop8-24uXGp:nth-child(2) .item-1TA5qI:nth-child(2)[aria-checked="true"] .text-md-medium-2n7Vn5:after {
     color: #fff;
+}
+#appearance-tab .children-2C96Ex .marginTop20-2T8ZJx:nth-child(4) .slider-1mmyV6 {
+    margin-left: 26px;
+    margin-right: 37px;
+    color: var(--text-normal);
+}
+#appearance-tab .children-2C96Ex .marginTop20-2T8ZJx:nth-child(4) .slider-1mmyV6:before {
+    content: "Aa";
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    left: -26px;
+    font-size: 14px;
+}
+#appearance-tab .children-2C96Ex .marginTop20-2T8ZJx:nth-child(4) .slider-1mmyV6:after {
+    content: "Aa";
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    right: -37px;
+    font-size: 24px;
 }
 
 /*Voice and Video Tab*/
@@ -11503,7 +11530,7 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
     --text-positive: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
     --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
-    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --text-danger: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
     --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
     --interactive-normal: hsla(0,calc(var(--saturation-factor, 1)*0%),100%, 0.6);
     --interactive-hover: hsla(0,calc(var(--saturation-factor, 1)*0%),100%, 0.8);
@@ -11531,8 +11558,8 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --info-warning-background: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
     --info-warning-foreground: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --info-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --info-danger-background: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
-    --info-danger-foreground: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --info-danger-background: hsla(0,calc(var(--saturation-factor, 1)*0%),100%,0.1);
+    --info-danger-foreground: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --info-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
     --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
@@ -11543,7 +11570,7 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --status-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --status-danger-background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     --status-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --status-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --status-danger: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
     --status-positive: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
     --status-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --button-danger-background: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
@@ -11673,66 +11700,66 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --background-modifier-active: hsl(var(--primary-560-hsl)/0.48);
     --background-modifier-selected: hsl(var(--primary-560-hsl)/0.6);
     --background-modifier-accent: hsl(var(--primary-560-hsl)/0.48);
-    --info-positive-background: hsl(var(--green-360-hsl)/0.1);
-    --info-positive-foreground: var(--green-360);
-    --info-positive-text: var(--white-500);
-    --info-warning-background: hsl(var(--yellow-300-hsl)/0.1);
-    --info-warning-foreground: var(--yellow-300);
-    --info-warning-text: var(--white-500);
-    --info-danger-background: hsl(var(--red-400-hsl)/0.1);
-    --info-danger-foreground: var(--red-400);
-    --info-danger-text: var(--white-500);
-    --info-help-background: hsl(var(--blue-345-hsl)/0.1);
-    --info-help-foreground: var(--blue-345);
-    --info-help-text: var(--white-500);
-    --status-positive-background: var(--green-430);
-    --status-positive-text: var(--white-500);
-    --status-warning-background: var(--yellow-300);
-    --status-warning-text: var(--black-500);
-    --status-danger-background: var(--red-400);
-    --status-danger-text: var(--white-500);
-    --status-danger: var(--red-400);
-    --status-positive: var(--green-360);
-    --status-warning: var(--yellow-300);
-    --button-danger-background: var(--red-430);
-    --button-danger-background-hover: var(--red-500);
-    --button-danger-background-active: var(--red-530);
-    --button-danger-background-disabled: var(--red-430);
-    --button-positive-background: var(--green-430);
-    --button-positive-background-hover: var(--green-530);
-    --button-positive-background-active: var(--green-530);
-    --button-positive-background-disabled: var(--green-430);
-    --button-secondary-background: var(--primary-500);
-    --button-secondary-background-hover: var(--primary-430);
-    --button-secondary-background-active: var(--primary-400);
-    --button-secondary-background-disabled: var(--primary-500);
-    --button-outline-danger-text: var(--white-500);
-    --button-outline-danger-border: var(--red-400);
-    --button-outline-danger-background: hsl(var(--white-500-hsl)/0);
-    --button-outline-danger-background-hover: var(--red-430);
-    --button-outline-danger-text-hover: var(--white-500);
-    --button-outline-danger-border-hover: var(--red-430);
-    --button-outline-danger-background-active: var(--red-460);
-    --button-outline-danger-text-active: var(--white-500);
-    --button-outline-danger-border-active: var(--red-430);
-    --button-outline-positive-text: var(--white-500);
-    --button-outline-positive-border: var(--green-360);
-    --button-outline-positive-background: hsl(var(--white-500-hsl)/0);
-    --button-outline-positive-background-hover: var(--green-430);
-    --button-outline-positive-text-hover: var(--white-500);
-    --button-outline-positive-border-hover: var(--green-430);
-    --button-outline-positive-background-active: var(--green-530);
-    --button-outline-positive-text-active: var(--white-500);
-    --button-outline-positive-border-active: var(--green-530);
-    --button-outline-brand-text: var(--white-500);
-    --button-outline-brand-border: var(--brand-500);
-    --button-outline-brand-background: hsl(var(--white-500-hsl)/0);
-    --button-outline-brand-background-hover: var(--brand-500);
-    --button-outline-brand-text-hover: var(--white-500);
-    --button-outline-brand-border-hover: var(--brand-500);
-    --button-outline-brand-background-active: var(--brand-560);
-    --button-outline-brand-text-active: var(--white-500);
-    --button-outline-brand-border-active: var(--brand-560);
+    --info-positive-background: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%, 0.1);
+    --info-positive-foreground: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --info-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --info-warning-background: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --info-warning-foreground: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --info-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --info-danger-background: hsla(0,calc(var(--saturation-factor, 1)*0%),100%,0.1);
+    --info-danger-foreground: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --info-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --status-positive-background: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --status-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --status-warning-background: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --status-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --status-danger-background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --status-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+    --status-danger: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --status-positive: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --status-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --button-danger-background: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-danger-background-hover: hsl(0,calc(var(--saturation-factor, 1)*66.1%),54.9%);
+    --button-danger-background-active: hsl(0,calc(var(--saturation-factor, 1)*54.2%),48.8%);
+    --button-danger-background-disabled: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-positive-background: hsl(153,calc(var(--saturation-factor, 1)*46.0%),48.6%);
+    --button-positive-background-hover: hsl(153,calc(var(--saturation-factor, 1)*46.2%),43.7%);
+    --button-positive-background-active: hsl(152,calc(var(--saturation-factor, 1)*45.7%),39.0%);
+    --button-positive-background-disabled: hsl(153,calc(var(--saturation-factor, 1)*46.0%),48.6%);
+    --button-secondary-background: hsl(214,calc(var(--saturation-factor, 1)*9.9%),50.4%);
+    --button-secondary-background-hover: hsl(214,calc(var(--saturation-factor, 1)*10.0%),45.3%);
+    --button-secondary-background-active: hsl(213,calc(var(--saturation-factor, 1)*9.7%),40.4%);
+    --button-secondary-background-disabled: hsl(214,calc(var(--saturation-factor, 1)*9.9%),50.4%);
+    --button-outline-danger-text: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border: hsla(0,calc(var(--saturation-factor, 1)*84.9%),61.0%,0.3);
+    --button-outline-danger-background: hsla(0,0%,100%,0);
+    --button-outline-danger-background-hover: hsla(0,0%,100%,0);
+    --button-outline-danger-text-hover: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border-hover: hsla(0,calc(var(--saturation-factor, 1)*84.9%),61.0%,0.6);
+    --button-outline-danger-background-active: hsla(0,0%,100%,0);
+    --button-outline-danger-text-active: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border-active: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-positive-text: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-positive-border: hsla(154,calc(var(--saturation-factor, 1)*49.6%),47.5%,0.3);
+    --button-outline-positive-background: hsla(0,0%,100%,0);
+    --button-outline-positive-background-hover: hsla(0,0%,100%,0);
+    --button-outline-positive-text-hover: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-positive-border-hover: hsla(154,calc(var(--saturation-factor, 1)*49.6%),47.5%,0.6);
+    --button-outline-positive-background-active: hsla(0,0%,100%,0);
+    --button-outline-positive-text-active: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-positive-border-active: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-brand-text: var(--brand-experiment);
+    --button-outline-brand-border: var(--brand-experiment-30a);
+    --button-outline-brand-background: hsla(0,0%,100%,0);
+    --button-outline-brand-background-hover: hsla(0,0%,100%,0);
+    --button-outline-brand-text-hover: var(--brand-experiment);
+    --button-outline-brand-border-hover: var(--brand-experiment-60a);
+    --button-outline-brand-background-active: hsla(0,0%,100%,0);
+    --button-outline-brand-text-active: var(--brand-experiment);
+    --button-outline-brand-border-active: var(--brand-experiment);
     --button-outline-primary-text: var(--white-500);
     --button-outline-primary-border: var(--primary-500);
     --button-outline-primary-background: hsl(var(--white-500-hsl)/0);
@@ -11831,60 +11858,60 @@ body, .userPopoutOuter-3AVBmJ, .theme-dark {
     --info-warning-background: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
     --info-warning-foreground: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --info-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --info-danger-background: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
-    --info-danger-foreground: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --info-danger-background: hsla(0,calc(var(--saturation-factor, 1)*0%),100%,0.1);
+    --info-danger-foreground: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --info-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
     --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
     --info-help-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --status-positive-background: hsl(139,calc(var(--saturation-factor, 1)*47.1%),33.3%);
+    --status-positive-background: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
     --status-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --status-warning-background: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --status-warning-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
     --status-danger-background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     --status-danger-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --status-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-    --status-positive: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    --status-danger: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --status-positive: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
     --status-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
-    --button-danger-background: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*56.3%),40.4%);
-    --button-danger-background-active: hsl(359,calc(var(--saturation-factor, 1)*56.4%),35.1%);
-    --button-danger-background-disabled: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-positive-background: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-danger-background: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-danger-background-hover: hsl(0,calc(var(--saturation-factor, 1)*66.1%),54.9%);
+    --button-danger-background-active: hsl(0,calc(var(--saturation-factor, 1)*54.2%),48.8%);
+    --button-danger-background-disabled: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-positive-background: hsl(153,calc(var(--saturation-factor, 1)*46.0%),48.6%);
     --button-positive-background-hover: hsl(153,calc(var(--saturation-factor, 1)*46.2%),43.7%);
     --button-positive-background-active: hsl(152,calc(var(--saturation-factor, 1)*45.7%),39.0%);
-    --button-positive-background-disabled: hsl(139,calc(var(--saturation-factor, 1)*47.1%),33.3%);
-    --button-secondary-background: #4f545c;
-    --button-secondary-background-hover: #686d73;
-    --button-secondary-background-active: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
-    --button-secondary-background-disabled: #4f545c;
-    --button-outline-danger-text: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-    --button-outline-danger-border: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --button-positive-background-disabled: hsl(153,calc(var(--saturation-factor, 1)*46.0%),48.6%);
+    --button-secondary-background: #99aab5;
+    --button-secondary-background-hover: #8a99a3;
+    --button-secondary-background-active: hsl(213,calc(var(--saturation-factor, 1)*9.7%),40.4%);
+    --button-secondary-background-disabled: #99aab5;
+    --button-outline-danger-text: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border: hsla(0,calc(var(--saturation-factor, 1)*84.9%),61.0%,0.3);
     --button-outline-danger-background: hsla(0,0%,100%,0);
-    --button-outline-danger-background-hover: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-outline-danger-text-hover: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-danger-border-hover: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-outline-danger-background-active: hsl(359,calc(var(--saturation-factor, 1)*56.7%),48%);
-    --button-outline-danger-text-active: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-danger-border-active: hsl(359,calc(var(--saturation-factor, 1)*66.7%),54.1%);
-    --button-outline-positive-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-positive-border: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    --button-outline-danger-background-hover: hsla(0,0%,100%,0);
+    --button-outline-danger-text-hover: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border-hover: hsla(0,calc(var(--saturation-factor, 1)*84.9%),61.0%,0.6);
+    --button-outline-danger-background-active: hsla(0,0%,100%,0);
+    --button-outline-danger-text-active: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-danger-border-active: hsl(0,calc(var(--saturation-factor, 1)*84.9%),61.0%);
+    --button-outline-positive-text: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-positive-border: hsla(154,calc(var(--saturation-factor, 1)*49.6%),47.5%,0.3);
     --button-outline-positive-background: hsla(0,0%,100%,0);
-    --button-outline-positive-background-hover: hsl(139,calc(var(--saturation-factor, 1)*47.1%),33.3%);
-    --button-outline-positive-text-hover: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-positive-border-hover: hsl(139,calc(var(--saturation-factor, 1)*47.1%),33.3%);
-    --button-outline-positive-background-active: hsl(138,calc(var(--saturation-factor, 1)*46.8%),24.3%);
-    --button-outline-positive-text-active: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-positive-border-active: hsl(138,calc(var(--saturation-factor, 1)*46.8%),24.3%);
-    --button-outline-brand-text: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-brand-border: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    --button-outline-positive-background-hover: hsla(0,0%,100%,0);
+    --button-outline-positive-text-hover: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-positive-border-hover: hsla(154,calc(var(--saturation-factor, 1)*49.6%),47.5%,0.6);
+    --button-outline-positive-background-active: hsla(0,0%,100%,0);
+    --button-outline-positive-text-active: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-positive-border-active: hsl(154,calc(var(--saturation-factor, 1)*49.6%),47.5%);
+    --button-outline-brand-text: var(--brand-experiment);
+    --button-outline-brand-border: var(--brand-experiment-30a);
     --button-outline-brand-background: hsla(0,0%,100%,0);
-    --button-outline-brand-background-hover: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
-    --button-outline-brand-text-hover: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-brand-border-hover: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
-    --button-outline-brand-background-active: hsl(235,calc(var(--saturation-factor, 1)*51.4%),52.4%);
-    --button-outline-brand-text-active: hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
-    --button-outline-brand-border-active: hsl(235,calc(var(--saturation-factor, 1)*51.4%),52.4%);
+    --button-outline-brand-background-hover: hsla(0,0%,100%,0);
+    --button-outline-brand-text-hover: var(--brand-experiment);
+    --button-outline-brand-border-hover: var(--brand-experiment-60a);
+    --button-outline-brand-background-active: hsla(0,0%,100%,0);
+    --button-outline-brand-text-active: var(--brand-experiment);
+    --button-outline-brand-border-active: var(--brand-experiment);
     --button-outline-primary-text: #000;
     --button-outline-primary-border: #6a7480;
     --button-outline-primary-background: hsla(0,0%,100%,0);

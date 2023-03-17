@@ -1,7 +1,7 @@
 /**
 * @name DTM-18
 * @author dav#8444
-* @version 0.1 Beta
+* @version 0.1 Open Beta
 * @description Aims to recreate the 2018 Discord style.
 * @authorId 490604571824226306
 * @source https://github.com/davart154/DTM-18/blob/main/dtm-18.css
@@ -2451,6 +2451,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     margin-top: 6px;
     padding: 0;
     z-index: 0;
+    overflow: visible;
 }
 .container-1Lk8p7 .header-1c1AhF:before {
     content: "";
@@ -2599,7 +2600,8 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 :lang(DE) .templatesList-uohY49 .container-x8Y1ix:before,
 :lang(ES) .templatesList-uohY49 .container-x8Y1ix:before,
-:lang(FR) .templatesList-uohY49 .container-x8Y1ix:before {
+:lang(FR) .templatesList-uohY49 .container-x8Y1ix:before,
+:lang(HR) .templatesList-uohY49 .container-x8Y1ix:before {
     background-position: bottom 72px left 50%;
 }
 
@@ -2634,6 +2636,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 :lang(FR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:before {
     content: "Créer";
 }
+:lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:before {
+    content: "Napravi";
+}
 
 /*Description*/
 .templatesList-uohY49 .container-x8Y1ix .text-PdAsFQ:after {
@@ -2660,6 +2665,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 :lang(FR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:after {
     content: "Créez un nouveau serveur et invitez vos amis. C'est gratuit !";
+}
+:lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:after {
+    content: "Napravi novi server i pozovi svoje prijatelje. Besplatno je!";
 }
 
 /*Create Button*/
@@ -2698,7 +2706,11 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 :lang(FR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1):after {
     bottom: -20px;
-    content: "Crear un servidor";
+    content: "Créer un serveur";
+}
+:lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1):after {
+    bottom: -20px;
+    content: "Stvorite poslužitelj";
 }
 
 /*Or*/
@@ -2765,6 +2777,81 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 :lang(ES) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
     content: "Unirse";
 }
+:lang(FR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "Rejoindre";
+}
+:lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "Pridruži se";
+}
+:lang(IT) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(LT) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(HU) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(NL) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(NO) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(PL) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(pt-BR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(RO) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(FI) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(SV) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(VI) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(TR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(CS) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(EL) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(BG) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(RU) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(UK) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(HI) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(TH) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(ZH-CN) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(JA) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(ZH-TW) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
+:lang(KO) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:before {
+    content: "";
+}
 
 /*Description*/
 :lang(DA) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
@@ -2778,6 +2865,81 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 :lang(ES) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
     content: "Introduce una invitación instantánea y únete al servidor de tu amigo.";
+}
+:lang(FR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "Entrez une invitation et rejoignez le serveur de votre ami.";
+}
+:lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "Unesi instant pozivnicu i pridruži se serveru tvojih prijatelja.";
+}
+:lang(IT) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(LT) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(HU) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(NL) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(NO) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(PL) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(pt-BR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(RO) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(FI) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(SV) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(VI) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(TR) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(CS) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(EL) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(BG) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(RU) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(UK) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(HI) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(TH) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(ZH-CN) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(JA) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(ZH-TW) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
+}
+:lang(KO) .templatesList-uohY49 .container-x8Y1ix:nth-child(3) .text-PdAsFQ:after {
+    content: "";
 }
 
 /*Join Button*/
@@ -2793,7 +2955,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     background: rgba(0,0,0,0) !important;
 }
 :lang(DE) .templatesList-uohY49 + .footer-3ie9JP,
-:lang(ES) .templatesList-uohY49 + .footer-3ie9JP {
+:lang(ES) .templatesList-uohY49 + .footer-3ie9JP,
+:lang(FR) .templatesList-uohY49 + .footer-3ie9JP,
+:lang(HR) .templatesList-uohY49 + .footer-3ie9JP {
     height: 310px;
 }
 .footerTitle-3Bslxi {
@@ -2830,6 +2994,81 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 :lang(ES) .templatesList-uohY49 + .footer-3ie9JP:after {
     content: "Únete a un servidor";
+}
+:lang(FR) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "Rejoindre un serveur";
+}
+:lang(HR) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "Pridružite se poslužitelju";
+}
+:lang(IT) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(LT) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(HU) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(NL) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(NO) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(PL) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(pt-BR) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(RO) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(FI) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(SV) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(VI) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(TR) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(CS) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(EL) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(BG) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(RU) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(UK) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(HI) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(TH) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(ZH-CN) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(JA) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(ZH-TW) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
+}
+:lang(KO) .templatesList-uohY49 + .footer-3ie9JP:after {
+    content: "";
 }
 .footerButton-24QPis {
     position: absolute;
@@ -2872,8 +3111,92 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 .header-oub2Vc .text-sm-normal-AEQz4v:before {
     font-size: 18px;
 }
+:lang(DA) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "Indtast en Invitation nedenunder for at forbinde til en eksisterende server. Invitationen vil se nogenlunde sådan her ud:";
+}
+:lang(DE) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "Gib unten eine Soforteinladung ein, um einem existierenden Server beizutreten. Die Einladung sieht ungefähr wie folgt aus:";
+}
 :lang(EN) .header-oub2Vc .text-sm-normal-AEQz4v:before {
     content: "Enter an Instant Invite below to join an existing server. The invite will look something like these:";
+}
+:lang(ES) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "Introducir una Invitación Instantánea para unirse a un servidor existente. La invitación se parecerá a algo como esto:";
+}
+:lang(FR) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "Entrez une invitation ci-dessous pour rejoindre un serveur existant. L'invitation ressemble à celles-ci:";
+}
+:lang(HR) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "Unesi instant pozivnicu ispod da bi se pridružio/la nekom serveru. Pozivnica će izgledati otprilike ovako:";
+}
+:lang(IT) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(LT) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(HU) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(NL) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(NO) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(PL) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(pt-BR) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(RO) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(FI) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(SV) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(VI) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(TR) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(CS) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(EL) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(BG) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(RU) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(UK) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(HI) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(TH) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(ZH-CN) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(JA) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(ZH-TW) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
+}
+:lang(KO) .header-oub2Vc .text-sm-normal-AEQz4v:before {
+    content: "";
 }
 
 .container-1Lk8p7 .content-1OG56Q[style*="padding-right"] {
@@ -2895,13 +3218,13 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     font-size: 14px;
 }
 .container-1Lk8p7 .sampleLink-5BWNy9:nth-last-child(3):before {
-    content: "https://discord.gg/bigforeheadsonly";
+    content: "https://discord.gg/discord-developers";
 }
 .container-1Lk8p7 .sampleLink-5BWNy9:nth-last-child(2):before {
-    content: "bigforeheadsonly";
+    content: "https://discord.gg/bigforeheadsonly";
 }
 .container-1Lk8p7 .sampleLink-5BWNy9:nth-last-child(1):before {
-    content: "discord.gg/bigforeheadsonly";
+    content: "bigforeheadsonly";
 }
 
 .container-1Lk8p7 .inputForm-3RoxXV {
@@ -2937,9 +3260,96 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     margin-top: 4px;
     font-size: 11px;
     font-weight: 400;
-    content: "Enter an Instant Invite";
     color: hsl(204,calc(var(--saturation-factor, 1)*15.9%),65.5%) !important;
 }
+:lang(DA) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "Indtast en Invitation";
+}
+:lang(DE) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "Gib eine Soforteinladung ein";
+}
+:lang(EN) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "Enter an Instant Invite";
+}
+:lang(ES) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "Introduzca una Invitación Instantánea";
+}
+:lang(FR) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "Entrez une invitation";
+}
+:lang(HR) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "Unesi instant pozivnicu";
+}
+:lang(IT) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(LT) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(HU) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(NL) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(NO) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(PL) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(pt-BR) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(RO) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(FI) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(SV) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(VI) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(TR) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(CS) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(EL) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(BG) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(RU) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(UK) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(HI) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(TH) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(ZH-CN) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(JA) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(ZH-TW) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+:lang(KO) .layer-fP3xEz .theme-light .container-1Lk8p7 .inputForm-3RoxXV .inputWrapper-2K8ds1:after {
+    content: "";
+}
+
 
 .container-1Lk8p7 .footer-3_2BuU {
     position: absolute;
@@ -12157,7 +12567,6 @@ rect[mask*="dnd"],
 }
 
 body, .userPopoutOuter-3AVBmJ, .theme-dark {
-    --font-primary: Whitney,"gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-display: var(--font-primary);
     --blurpledot-15a: url("data:image/svg+xml,%3Csvg fill='rgb(114, 137, 218, 0.15)' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M12 2C6.486 2 2 6.487 2 12 2 17.515 6.486 22 12 22 17.514 22 22 17.515 22 12 22 6.487 17.514 2 12 2Z'/%3E%3C/svg%3E");
     --blurpledot-40a: url("data:image/svg+xml,%3Csvg fill='rgb(114, 137, 218, 0.4)' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M12 2C6.486 2 2 6.487 2 12 2 17.515 6.486 22 12 22 17.514 22 22 17.515 22 12 22 6.487 17.514 2 12 2Z'/%3E%3C/svg%3E");

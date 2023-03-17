@@ -12304,28 +12304,6 @@ rect[mask*="dnd"],
 #appearance-tab .cardPrimaryOutline-1ofwVz {
     border-color: rgba(32, 34, 37, 0.6);
 }
-#appearance-tab .children-2C96Ex .marginTop8-24uXGp:nth-child(2) .item-1TA5qI:nth-child(2) .text-md-medium-2n7Vn5 {
-    font-size: 0;
-    line-height: 0;
-    display: flex;
-    flex-direction: column;
-}
-#appearance-tab .children-2C96Ex .marginTop8-24uXGp:nth-child(2) .item-1TA5qI:nth-child(2) .text-md-medium-2n7Vn5:before {
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 5px;
-    content: "The theme that nearly nobody uses"
-}
-#appearance-tab .children-2C96Ex .marginTop8-24uXGp:nth-child(2) .item-1TA5qI:nth-child(2) .text-md-medium-2n7Vn5:after {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    color: var(--text-muted);
-    content: "This one's unfinished lol."
-}
-#appearance-tab .children-2C96Ex .marginTop8-24uXGp:nth-child(2) .item-1TA5qI:nth-child(2)[aria-checked="true"] .text-md-medium-2n7Vn5:after {
-    color: #fff;
-}
 #appearance-tab .children-2C96Ex .marginTop20-2T8ZJx:nth-child(4) .slider-1mmyV6 {
     margin-left: 26px;
     margin-right: 37px;

@@ -1184,6 +1184,22 @@ img.icon-3AqZ2e {
     padding: 4px;
 }
 
+[src*='/icons/86004744966914048'],
+[style*='/icons/86004744966914048'] {
+    content: url('https://cdn.discordapp.com/attachments/1080670289693769728/1086109612706631770/servericon_betterdiscord.png');
+    background: unset !important;
+}
+[src*='/icons/613425648685547541'],
+[style*='/icons/613425648685547541'] {
+    content: url('https://cdn.discordapp.com/attachments/1080670289693769728/1086145515261009970/servericon_ddevs.png');
+    background: unset !important;
+}
+[src*='/icons/96230004047740928'],
+[style*='/icons/96230004047740928'] {
+    content: url('https://cdn.discordapp.com/attachments/1080670289693769728/1086146662013079652/servericon_linux.png');
+    background: unset !important;
+}
+
 /*Bottom Buttons*/
 .circleIconButton-1VxDrg {
     color: var(--text-muted);
@@ -1215,7 +1231,7 @@ img.icon-3AqZ2e {
 }
 .platform-web.theme-light .tutorialContainer-2jwoiB ~ .listItem-3SmSlK:nth-last-child(2) .circleIcon-3489FI {
     background-image: url("data:image/svg+xml,%3Csvg role='img' fill='hsla(0,0%,0%,.5)' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M4 22v2h16v-2'/%3E%3C/svg%3E");
-    }
+}
 .listItem-3SmSlK [d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"] {
     d: path("M18.59 10.59 13 16.17V0h-2v16.17l-5.58-5.59L4 12l8 8 8-8");
     fill: var(--status-positive);
@@ -1964,6 +1980,9 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 .icons-2mwuFp [d="M6.16204 15.0065C6.10859 15.0022 6.05455 15 6 15H4V12C4 7.588 7.589 4 12 4C13.4809 4 14.8691 4.40439 16.0599 5.10859L17.5102 3.65835C15.9292 2.61064 14.0346 2 12 2C6.486 2 2 6.485 2 12V19.1685L6.16204 15.0065Z"] {
     d: path("M3.57 7.84C3.2 8.82 3 9.89 3 11L3 19C3 20.6569 5 21 5 21L9 21 9 13.27 15 19.27 15 21 16.73 21 19.23 23.5 20.5 22.22 2.78 4.5 1.5 5.77 3.57 7.84ZM12 2C9.47 2 7.18 3.04 5.55 4.72L6.96 6.14C8.23 4.82 10 4 12 4 15.866 4 19 7.134 19 11L19 13 15 13 15 14.18 20.5 19.67C20.81 19.19 21 18.62 21 18L21 11C21 6.0294 16.9706 2 12 2L12 2ZM5 13 5 11C5 10.46 5.06 9.94 5.17 9.44L8.73 13 5 13Z");
 }
+.icons-2mwuFp [d="M21.526 8.149C21.231 7.966 20.862 7.951 20.553 8.105L18 9.382V7C18 5.897 17.103 5 16 5H4C2.897 5 2 5.897 2 7V17C2 18.104 2.897 19 4 19H16C17.103 19 18 18.104 18 17V14.618L20.553 15.894C20.694 15.965 20.847 16 21 16C21.183 16 21.365 15.949 21.526 15.851C21.82 15.668 22 15.347 22 15V9C22 8.653 21.82 8.332 21.526 8.149Z"] {
+    d: path("M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z");
+}
 .icons-2mwuFp [d="M6.7 11H5C5 12.19 5.34 13.3 5.9 14.28L7.13 13.05C6.86 12.43 6.7 11.74 6.7 11Z"],
 .icons-2mwuFp [d="M11.7237 16.0927L10.9632 16.8531L10.2533 17.5688C10.4978 17.633 10.747 17.6839 11 17.72V22H13V17.72C16.28 17.23 19 14.41 19 11H17.3C17.3 14 14.76 16.1 12 16.1C11.9076 16.1 11.8155 16.0975 11.7237 16.0927Z"],
 .icons-2mwuFp [d="M21 4.27L19.73 3L3 19.73L4.27 21L8.46 16.82L9.69 15.58L11.35 13.92L14.99 10.28L21 4.27Z"],
@@ -2167,6 +2186,9 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 }
 
 /*Bottom VC Panel*/
+.container-1zzFcN {
+    position: relative;
+}
 .rtcConnectionStatus-c5A6Av .ping-2IpLcU path {
     display: none;
 }
@@ -2187,6 +2209,77 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 }
 .rtcConnectionStatus-c5A6Av.rtcConnectionQualityBad-3fxsmZ .ping-2IpLcU {
     background-image: url(https://cdn.discordapp.com/attachments/1084888922389237810/1084889753863860304/iconping-3.svg?);
+}
+.rtcConnectionStatusLabel-Nodt6L {
+    font-size: 14px;
+    font-weight: 500;
+}
+.container-1zzFcN .actionButtons-2vEOUh {
+    position: absolute;
+    right: 72px;
+    top: 4px;
+    display: flex;
+    gap: 0;
+    justify-content: end;
+    background: var(--background-secondary-alt);
+    box-shadow: -4px 0 4px 2px var(--background-secondary-alt);
+    opacity: 0;
+    transition: opacity .2s ease;
+}
+.container-1zzFcN:hover .actionButtons-2vEOUh {
+    opacity: 1;
+}
+.container-1zzFcN .lookFilled-1H2Jvj.colorBrand-2M3O3N,
+.disabledButtonWrapper-1m0hYZ {
+    background: transparent;
+    color: var(--interactive-normal);
+    width: 32px;
+    height: 32px;
+    min-width: unset;
+    padding: 0;
+    font-size: 0;
+    transition: none;
+}
+.container-1zzFcN .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+    color: var(--interactive-active);
+    background-color: #25272a;
+}
+.container-1zzFcN .lookFilled-1H2Jvj.colorBrand-2M3O3N svg {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+}
+
+/*Noise Suppresion Popout*/
+.noiseCancellationPopout-2-e5Xz {
+    box-shadow: 0 0 1px rgba(0,0,0,.82),0 1px 4px rgba(0,0,0,.1);
+    background: var(--background-primary);
+    padding: 0;
+    width: 250px;
+}
+.noiseCancellationPopout-2-e5Xz .labelRow-NnoUIp {
+    background: var(--background-secondary);
+    padding: 13px;
+    width: unset;
+}
+.noiseCancellationPopout-2-e5Xz .title-2yADjX {
+    font-size: 14px !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.noiseCancellationPopout-2-e5Xz .note-3SS3a9 {
+    padding: 14px 20px 0;
+}
+.noiseCancellationPopout-2-e5Xz .container-18g_gN,
+.noiseCancellationPopout-2-e5Xz > .h5-2feg8J {
+    padding: 0 20px;
+}
+.noiseCancellationPopout-2-e5Xz .flex-2S1XBF {
+    padding: 0 20px 14px;
+}
+.noiseCancellationPopout-2-e5Xz .krispLink-1g44vn {
+    font-size: 12px;
+    font-weight: 500;
 }
 
 /*User Info*/
@@ -2269,6 +2362,14 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 /*Gear*/
 .panels-3wFtMD .button-12Fmur [d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"] {
     d: path("M12.8741 2.66675H11.1262C10.4826 2.66675 9.96093 3.18908 9.96093 3.83341V5.30341C8.94233 5.61523 8.00835 6.15593 7.23029 6.88425L5.95626 6.1473C5.68845 5.99242 5.37014 5.95048 5.07142 6.03071C4.77271 6.11095 4.51811 6.30679 4.36371 6.57508L3.48975 8.09175C3.33505 8.35987 3.29316 8.67857 3.3733 8.97764C3.45344 9.2767 3.64905 9.5316 3.91702 9.68619L5.18912 10.4212C4.94769 11.4606 4.94769 12.5415 5.18912 13.5809L3.91702 14.3159C3.64905 14.4705 3.45344 14.7254 3.3733 15.0245C3.29316 15.3235 3.33505 15.6422 3.48975 15.9104L4.36371 17.4251C4.51811 17.6934 4.77271 17.8892 5.07142 17.9694C5.37014 18.0497 5.68845 18.0077 5.95626 17.8529L7.23029 17.1159C8.00835 17.8442 8.94233 18.3849 9.96093 18.6967V20.1667C9.96093 20.8111 10.4826 21.3334 11.1262 21.3334H12.8741C13.5177 21.3334 14.0394 20.8111 14.0394 20.1667V18.6967C15.058 18.3849 15.992 17.8442 16.77 17.1159L18.0441 17.8529C18.3119 18.0077 18.6302 18.0497 18.9289 17.9694C19.2276 17.8892 19.4822 17.6934 19.6366 17.4251L20.5106 15.9104C20.6653 15.6422 20.7072 15.3235 20.627 15.0245C20.5469 14.7254 20.3513 14.4705 20.0833 14.3159L18.8112 13.5809C19.0526 12.5415 19.0526 11.4606 18.8112 10.4212L20.0833 9.68619C20.3513 9.5316 20.5469 9.2767 20.627 8.97764C20.7072 8.67857 20.6653 8.35987 20.5106 8.09175L19.6366 6.57703C19.4822 6.30873 19.2276 6.11289 18.9289 6.03266C18.6302 5.95242 18.3119 5.99436 18.0441 6.14925L16.77 6.88619C15.9922 6.15718 15.0582 5.6158 14.0394 5.30341V3.83341C14.0394 3.18908 13.5177 2.66675 12.8741 2.66675ZM14.6668 12.0001C14.6668 13.4728 13.4729 14.6667 12.0002 14.6667C10.5274 14.6667 9.3335 13.4728 9.3335 12.0001C9.3335 10.5273 10.5274 9.33341 12.0002 9.33341C12.7074 9.33341 13.3857 9.61437 13.8858 10.1145C14.3859 10.6146 14.6668 11.2928 14.6668 12.0001Z");
+}
+/*Camera*/
+.container-1zzFcN .lookFilled-1H2Jvj.colorBrand-2M3O3N [d="M21.526 8.149C21.231 7.966 20.862 7.951 20.553 8.105L18 9.382V7C18 5.897 17.103 5 16 5H4C2.897 5 2 5.897 2 7V17C2 18.104 2.897 19 4 19H16C17.103 19 18 18.104 18 17V14.618L20.553 15.894C20.694 15.965 20.847 16 21 16C21.183 16 21.365 15.949 21.526 15.851C21.82 15.668 22 15.347 22 15V9C22 8.653 21.82 8.332 21.526 8.149Z"] {
+    d: path("M17,10.5V7A1,1 0 0,0 16,6H4A1,1 0 0,0 3,7V17A1,1 0 0,0 4,18H16A1,1 0 0,0 17,17V13.5L21,17.5V6.5L17,10.5Z");
+}
+/*Screenshare*/
+.container-1zzFcN .lookFilled-1H2Jvj.colorBrand-2M3O3N [d="M2 4.5C2 3.397 2.897 2.5 4 2.5H20C21.103 2.5 22 3.397 22 4.5V15.5C22 16.604 21.103 17.5 20 17.5H13V19.5H17V21.5H7V19.5H11V17.5H4C2.897 17.5 2 16.604 2 15.5V4.5ZM13.2 14.3375V11.6C9.864 11.6 7.668 12.6625 6 15C6.672 11.6625 8.532 8.3375 13.2 7.6625V5L18 9.6625L13.2 14.3375Z"] {
+    d: path("M20.475 2.925 2.925 2.925C1.8428 2.925.975 3.7928.975 4.875L.975 16.575C.975 17.6475 1.8428 18.525 2.925 18.525L7.8 18.525 7.8 20.475 15.6 20.475 15.6 18.525 20.475 18.525C21.5475 18.525 22.4153 17.6475 22.4153 16.575L22.425 4.875C22.425 3.7928 21.5475 2.925 20.475 2.925ZM20.475 16.575 2.925 16.575 2.925 4.875 20.475 4.875 20.475 16.575Z");
 }
 /*Hang Up*/
 .panels-3wFtMD .button-12Fmur [d="M21.1169 1.11603L22.8839 2.88403L19.7679 6.00003L22.8839 9.11603L21.1169 10.884L17.9999 7.76803L14.8839 10.884L13.1169 9.11603L16.2329 6.00003L13.1169 2.88403L14.8839 1.11603L17.9999 4.23203L21.1169 1.11603ZM18 22H13C6.925 22 2 17.075 2 11V6C2 5.447 2.448 5 3 5H7C7.553 5 8 5.447 8 6V10C8 10.553 7.553 11 7 11H6C6.063 14.938 9 18 13 18V17C13 16.447 13.447 16 14 16H18C18.553 16 19 16.447 19 17V21C19 21.553 18.553 22 18 22Z"] {
@@ -2639,6 +2740,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 :lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:before {
     content: "Napravi";
 }
+:lang(IT) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:before {
+    content: "Crea";
+}
 
 /*Description*/
 .templatesList-uohY49 .container-x8Y1ix .text-PdAsFQ:after {
@@ -2668,6 +2772,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 :lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:after {
     content: "Napravi novi server i pozovi svoje prijatelje. Besplatno je!";
+}
+:lang(IT) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:after {
+    content: "Crea un nuovo server e invita gli amici. È gratis!";
 }
 
 /*Create Button*/
@@ -2711,6 +2818,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 :lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1):after {
     bottom: -20px;
     content: "Stvorite poslužitelj";
+}
+:lang(IT) .templatesList-uohY49 .container-x8Y1ix:nth-child(1):after {
+    content: "Crea un server";
 }
 
 /*Or*/
@@ -12529,7 +12639,7 @@ rect[mask*="dnd"],
     border-radius: 0 7px 7px 0;
 }
 
-/*Temporary BD BETA Tag*/
+/*Temporary DTM-18 BETA Tag*/
 #DTM-18-card .bd-version {
     display: none;
 }
@@ -12541,6 +12651,14 @@ rect[mask*="dnd"],
     border-radius: 3px;
     padding: 0 3px;
     margin-right: 4px;
+}
+#DTM-18-card .bd-description {
+    display: flex;
+    flex-direction: column;
+}
+#DTM-18-card .bd-description:after {
+    margin-top: 8px;
+    content: ' Please Note that this is still in beta. If you have any questions, please let me know.'
 }
 
 /*Emoji*/

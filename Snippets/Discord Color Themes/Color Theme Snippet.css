@@ -1,8 +1,8 @@
 /**
-* @name Discord Color Themes
+* @name Nitro Color Themes
 * @author dav#8444
 * @version 1
-* @description Customizable theme that lets Discord use a variety of colored backgrounds. OPEN CSS FILE TO EDIT.
+* @description Customizable theme that lets you use a variety of colored backgrounds. OPEN CSS FILE TO EDIT.
 * @authorId 490604571824226306
 * @source https://github.com/davart154/Themes/blob/main/Snippets/Discord%20Color%20Themes/Color%20Theme%20Snippet.css
 */
@@ -10,18 +10,30 @@
 @import url(https://davart154.github.io/Themes/Snippets/Discord%20Color%20Themes/ColorThemeExperiment.css);
 
 .theme-dark {
-    --custom-theme-background: var();
+    --custom-theme-background: var(--old-sunset-2);
     --theme-angle: 0deg;
 
 /*Place a name below inside var() to change the theme:
-    --sunset
-    --neon-glow
-    --deep-forest
-    --dies-alone
-    --dusk
-    --midnight-blurple
+* Adjustible Theme Angle
+    --old-sunset
+    --old-neon-glow
+    --old-deep-forest
+    --old-dies-alone
+    --old-dusk
+    --old-midnight-blurple
     --dune
     --twilight-metro
+
+* Preset Angle
+    --old-sunset-2
+    --sunset
+    --chroma-glow
+    --forest
+    --crimson-moon
+    --blood-moon
+    --midnight-blurple
+    --dusk-2
+    --under-the-sea
 */
 }
 .theme-light {
@@ -29,13 +41,22 @@
     --theme-angle: 0deg;
 
 /*Place a name below inside var() to change the theme:
-    --cotton-candy
-    --mint-apple
-    --citrus-sherbert
-    --hanami
+* Adjustable Theme Angle  
+    --old-cotton-candy
+    --old-mint-apple
     --periwinkle-daydreams
     --rosy-blush
-    --sunrise
+    --old-sunrise
     --city-pop
+
+* Preset Angle
+    --mint-apple
+    --citrus-sherbert
+    --retro-raincloud
+    --hanami
+    --sunrise
+    --cotton-candy
+    --lofi-vibes
+    --desert-khaki
 */
 }

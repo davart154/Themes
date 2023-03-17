@@ -10,7 +10,7 @@
 @import url(https://davart154.github.io/Themes/Snippets/Discord%20Color%20Themes/ColorThemeExperiment.css);
 
 .theme-dark {
-    --custom-theme-background: var(--old-sunset-2);
+    --custom-theme-background: var();
     --theme-angle: 0deg;
 
 /*Place a name below inside var() to change the theme:

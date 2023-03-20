@@ -139,11 +139,8 @@ html {
 }
 
 /*Call UI*/
-.container-1zzFcN {
-    background: var(--bg-overlay-1,var(--background-secondary-alt));
-}
 .wrapper-1gVUIN.minimum-fXpVNc {
-    background: var(--bg-overlay-3,var(--background-floating));
+    background: var(--bg-overlay-1,var(--background-floating));
 }
 
 /*Popouts*/

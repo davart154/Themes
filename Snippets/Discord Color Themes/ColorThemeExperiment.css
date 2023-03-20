@@ -148,23 +148,23 @@ html {
 .recentMentionsPopout-2bI1ZN .header-145e10,
 .header-3_zmOb,
 .messagesPopoutWrap-3zryHW .footer-5ji8u1 {
-    background: var(--bg-overlay-3,var(--background-tertiary));
+    background: var(--bg-overlay-4,var(--background-tertiary));
 }
 .header-3_zmOb .searchBox-3IjAC1 {
-    background: var(--bg-overlay-4,var(--background-secondary));
+    background: var(--bg-overlay-3,var(--background-secondary));
 }
 .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI,
 .recentMentionsPopout-2bI1ZN .scroller-145h9c,
 .recentMentionsPopout-2bI1ZN .container-1A0qQO,
 .list-3YHPPb,
 .container-2c4_8A {
-    background: var(--bg-overlay-2,var(--background-secondary));
+    background: var(--bg-overlay-3,var(--background-secondary));
 }
 .messageGroupWrapper-1jf_7C,
 .messageContainer-3VTXBC,
 .messages-23can0,
 .container-2rzKKA {
-    background: var(--bg-overlay-1,var(--background-primary));
+    background: var(--bg-overlay-chat,var(--background-primary));
 }
 .recentMentionsPopout-2bI1ZN .size32-1NLMUP,
 .recentMentionsPopout-2bI1ZN .friendRequestsButton-77veU7 {

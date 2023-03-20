@@ -2768,7 +2768,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     content: "Crea un nuevo servidor e invita a tus amigos. ¡Es gratis!";
 }
 :lang(FR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:after {
-    content: "Créez un nouveau serveur et invitez vos amis. C'est gratuit !";
+    content: "Créez un nouveau serveur et invitez vos amis. C'est gratuit !";
 }
 :lang(HR) .templatesList-uohY49 .container-x8Y1ix:nth-child(1) .text-PdAsFQ:after {
     content: "Napravi novi server i pozovi svoje prijatelje. Besplatno je!";
@@ -7188,7 +7188,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .audioMetadata-1Hrt8T:before {
     width: 30px;
     height: 40px;
-    background-image: url(/assets/5b0da31dc2b00717c1e35fb1f84f9b9b.svg?);
+    background-image: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080884007618740345/metaaudio_small.svg?);
     background-size: 26px 38px;
     max-width: 520px;
 }
@@ -7340,27 +7340,31 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     background: transparent !important;
     padding: 0;
 }
+/*Default*/
+img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080883936890191992/meta_small.svg?);
+}
+/*Acrobat*/
+.icon.icon-file.acrobat {
+    background-image: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080883955575828500/metaacrobat_small.svg?)
+}
 /*PDF*/
 .messageAttachment-CZp8Iv img[src="/assets/325421cb49d6e0717b8c7b9dfa2d4bdc.svg"] {
-    content: url(/assets/f167b4196f02faf2dc2e7eb266a24275.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080884073762926632/metapdf_small.svg?);
+}
+/*Video*/
+.icon.icon-file.video {
+    background: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080884149038096455/metavideo_small.svg?)
 }
 /*Zip*/
 .messageAttachment-CZp8Iv img[src="/assets/157ccfe93c91db60adddd48a75b69205.svg"] {
-    content: url(/assets/73d212e3701483c36a4660b28ac15b62.svg?);
+    content: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080884218621607966/metazip_small.svg?);
 }
-/*Unknown*/
-img[src="/assets/7b3a37fa249a857b0ff136db0a73f44c.svg"] {
-    content: url(/assets/985ea67d2edab4424c62009886f12e44.svg?);
-}
-.icon.icon-file.video {
-    background: url(/assets/83a157e8720aa50957c4338e10d01c80.svg?)
-}
-.icon.icon-file.acrobat {
-    background-image: url(/assets/f167b4196f02faf2dc2e7eb266a24275.svg?)
-}
+/*After Effects*/
 .icon.icon-file.ae {
-    background-image: url(/assets/982bd8aedd89b0607f492d1175b3b3a5.svg?)
+    background-image: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080883972977991800/metaae_small.svg?)
 }
+/*Sketch*/
 .icon.icon-file.sketch {
     background-image: url(/assets/f812168e543235a62b9f6deb2b094948.svg?)
 }
@@ -7383,8 +7387,9 @@ img[src="/assets/ad55c3f2f2354618478e36f2a10f2ea3.svg"] {
 .icon.icon-file.spreadsheet {
     background-image: url(/assets/85f7a4063578f6e0e2c73f60bca0fcce.svg?)
 }
-.icon.icon-file.webcode {
-    background-image: url(/assets/a11e895b46cde503a094dd31641060a6.svg?)
+/*Webcode*/
+img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
+    content: url(https://cdn.discordapp.com/attachments/1080883750226899014/1080884199063556096/metawebcode_small.svg?)
 }
 
 /*Upload Modal*/

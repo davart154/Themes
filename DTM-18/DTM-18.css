@@ -7172,6 +7172,20 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   right: 6px;
 }
 
+/*Uploading File*/
+.metadata-1E7Z4i {
+    color: #72767d;
+    margin-right: 8px;
+}
+.progress-24WBU3 {
+    background-color: rgb(233, 231, 231) !important;
+}
+.cancelButton-oOSTov {
+    color: #4f545c;
+}
+.cancelButton-oOSTov:hover {
+    color: rgba(114,118,125,.6);
+}
 /*File Attatchments*/
 .theme-dark .wrapperAudio-1Bzv_Z {
     background-color: rgba(47,49,54,.3);
@@ -7312,12 +7326,16 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 
 .attachment-1PZZB2 {
     padding: 10px !important;
-    padding-right: 40px !important;
     border-radius: 3px !important;
     width: 520px !important;
     max-width: 100% !important;
     background-color: rgba(47,49,54,.3);
     border: 1px solid rgba(47,49,54,.6);
+}
+.metadataContent-lalfZ3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 40px;
 }
 .theme-light .attachment-1PZZB2 {
     background-color: transparent;
@@ -8047,25 +8065,68 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 [d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5ZM16.8995 8.41419L15.4853 6.99998L7 15.4853L8.41421 16.8995L16.8995 8.41419Z"] {
     d: path("M18 3.48 15.7695 3 6 20.52 8.2305 21");
 }
-.source-3HVB4H {
-    display: none;
+
+/*File Attachment Popout*/
+#app-mount .uploadModal-2ie9O_ {
+    background-color: var(--brand-experiment);
 }
-.wrapper-1IOU8a {
-    height: unset;
+#app-mount .uploadModal-2ie9O_ .footer-VCsJQY {
+    background-color: var(--brand-experiment-560);
+    box-shadow: none;
+    padding: 10px;
 }
-.infoWrapper-33i2RS {
-    flex-direction: unset;
+.uploadModal-2ie9O_ .inner-rBP-MS {
+    margin: 10px;
+    border: 2px dashed #aab8e8;
+    border-radius: 10px 10px 0 0;
 }
-.title-158kHv {
-    font-size: 14px;
+.uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .description-2AJi-V {
+    padding: 22px 22px 0 0;
+    height: 78px;
 }
-.description-1T7FK8 {
-    margin-top: 0;
-    margin-left: auto;
-    padding-left: 16px;
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 70%;
+.uploadModal-2ie9O_ .inner-rBP-MS .file-163EuR .description-2AJi-V .filename-1r50Xu {
+    font-size: 18px;
+    font-weight: 500;
+    height: 18px;
+}
+.uploadModal-2ie9O_ .inner-rBP-MS .comment-1kpwc5 .label-21vOgf {
+    color: #fff;
+}
+.uploadModal-2ie9O_ .input-3O04eu {
+    color: hsla(0,0%,100%,.7);
+    background-color: var(--brand-experiment-400);
+}
+.uploadModal-2ie9O_ .checkboxWrapper-3zdYym {
+    position: absolute;
+    z-index: 2;
+    bottom: 16px;
+    left: 10px;
+    margin: 0;
+}
+.uploadModal-2ie9O_ .checkbox-1LuCGM {
+    border-color: #fff;
+    border-radius: 3px;
+}
+.uploadModal-2ie9O_ .label-9XOJcX .text-sm-normal-AEQz4v {
+    color: #fff;
+    font-size: 16px;
+}
+.uploadModal-2ie9O_ .lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    color: var(--brand-experiment);
+    background-color: var(--brand-experiment-100);
+}
+.uploadModal-2ie9O_ .lookFilled-1H2Jvj.colorBrand-2M3O3N:hover {
+    background-color: var(--brand-experiment-130);
+}
+/*Failure*/
+.icon-HW4tZ-.one-NzgGbt {
+    background-image: url(https://cdn.discordapp.com/attachments/1087238630562607166/1087238664741994597/failureone.svg?);
+}
+.icon-HW4tZ-.two-1t2_74 {
+    background-image: url(https://cdn.discordapp.com/attachments/1087238630562607166/1087238675135467640/failuretwo.svg?);
+}
+.icon-HW4tZ-.three-fZYihQ {
+    background-image: url(https://cdn.discordapp.com/attachments/1087238630562607166/1087238690717323264/failurethree.svg?);
 }
 
 /*Alternate Bottom Layout for Read Only Channels*/

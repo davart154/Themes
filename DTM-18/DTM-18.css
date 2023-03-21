@@ -195,9 +195,11 @@ mask > use[href$="lower_badge_masks"] {
     font-weight: 500;
     line-height: 12px;
 }
-.newBadge-1LcB6t {
+.newBadge-1LcB6t,
+.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv:is(.newChannel-3q3LPr) {
     background-color: transparent !important;
     border: 1px solid var(--brand-experiment);
+    box-shadow: none;
     color: var(--brand-experiment);
     font-size: 12px;
     font-weight: 500;
@@ -206,8 +208,11 @@ mask > use[href$="lower_badge_masks"] {
     height: unset !important;
     padding: 2px 4px !important;
 }
+.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv:is(.newChannel-3q3LPr) {
+    margin-left: 4px;
+}
 /*Beta Badge*/
-.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv[style*="brand"] {
+.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv {
     background-color: var(--brand-experiment) !important;
     height: 16px;
     font-weight: 600;
@@ -12706,7 +12711,7 @@ rect[mask*="dnd"],
 }
 #DTM-18-card .bd-description:after {
     margin-top: 8px;
-    content: ' Please Note that this is still in beta. If you have any questions, please let me know.'
+    content: 'Please Note that this is still in beta. If you have any questions, please let me know.'
 }
 
 /*Emoji*/

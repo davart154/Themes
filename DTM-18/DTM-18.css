@@ -149,8 +149,7 @@ mask > use[href$="lower_badge_masks"] {
     right: -2px;
 }
 /*New Feature Indicator*/
-.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv:is([class*="new"]),
-.mainContent-20q_Hp .textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv:is([class*="newChannel"]) {
+.textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv:is([class*="new"]) {
     background-clip: padding-box;
     background-color: var(--text-warning) !important;
     border-radius: 3px;

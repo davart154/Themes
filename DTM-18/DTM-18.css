@@ -9475,7 +9475,7 @@ rect[mask*="dnd"],
     text-align: center;
 }
 .userPopoutOuter-1OHwPL .userTagNoNickname-h9Bh88,
-.nickname-2rimyL {
+.nickname-3P1RuO {
     font-size: 16px;
     line-height: 17px;
 }
@@ -9493,7 +9493,7 @@ rect[mask*="dnd"],
 }
 
 /*Bot Tag*/
-.userPopoutOuter-1OHwPL .headerBotTag-OHqqn- {
+.userPopoutOuter-1OHwPL .headerBotTag-jx4sKt {
     margin-top: 0 !important;
 }
 .theme-light .userPopoutOuter-1OHwPL .botTagRegular-kpctgU {
@@ -9522,6 +9522,9 @@ rect[mask*="dnd"],
 .memberSinceContainer-2CBD23 .divider-MZkkle {
     background-color: var(--play-tertiary);
 }
+.memberSinceContainer-2CBD23 .icon-1zKOXL {
+    border-radius: 4px;
+}
 
 /*Divider Spacing*/
 .divider-1QVlfF {
@@ -9543,6 +9546,9 @@ rect[mask*="dnd"],
 }
 
 /*Bot Option Buttons*/
+.section-28YDOf:has(.buttonsContainer-3iOFIV) {
+    padding: 10px 10px 0;
+}
 .buttonsContainer-3iOFIV {
     display: flex;
     flex-direction: column;

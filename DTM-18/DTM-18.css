@@ -10939,97 +10939,13 @@ rect[mask*="dnd"],
         filter: hue-rotate(360deg);
     }
 }
-:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Party-tilstand"],
-:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Party-Modus"],
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Party Mode"],
-:lang(ES) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Modo Fiesta"],
-:lang(FR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Mode festif"],
-:lang(HR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Način rada Party"],
-:lang(IT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Modalità party"],
-:lang(LT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Vakarėlio režimas"],
-:lang(HU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Buli mód"],
-:lang(NL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Partymodus"],
-:lang(NO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Party-modus"],
-:lang(PL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Tryb imprezowy"],
-:lang(pt-BR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Modo festa"],
-:lang(RO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Mod petrecere"],
-:lang(FI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Juhlatila"],
-:lang(SV) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Partyläge"],
-:lang(VI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Chế độ Tiệc tùng"],
-:lang(TR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Parti Modu"],
-:lang(CS) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Party režim"],
-:lang(EL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Λειτουργία πάρτι"],
-:lang(BG) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Режим за парти"],
-:lang(RU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Праздничный режим"],
-:lang(UK) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Святковий режим"],
-:lang(HI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="पार्टी मोड"],
-:lang(TH) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="โหมดปาร์ตี้"],
-:lang(ZH-CN) .side-1lrxIh .premiumTab-39eQzY ~ .separator-2N511j:nth-child(16) + .header-2F5_LB + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy,
-:lang(JA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="パーティーモード"],
-:lang(ZH-TW) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="狂歡模式"],
-:lang(KO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="파티 모드"] {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has(.poggermodeIcon-3Z9uYf) {
     animation: pog 4s linear infinite;
 }
-:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party-tilstand"],
-:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party-Modus"],
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party Mode"],
-:lang(ES) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Modo Fiesta"],
-:lang(FR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Mode festif"],
-:lang(HR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Način rada Party"],
-:lang(IT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Modalità party"],
-:lang(LT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Vakarėlio režimas"],
-:lang(HU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Buli mód"],
-:lang(NL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Partymodus"],
-:lang(NO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party-modus"],
-:lang(PL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Tryb imprezowy"],
-:lang(pt-BR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Modo festa"],
-:lang(RO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Mod petrecere"],
-:lang(FI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Juhlatila"],
-:lang(SV) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Partyläge"],
-:lang(VI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Chế độ Tiệc tùng"],
-:lang(TR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Parti Modu"],
-:lang(CS) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party režim"],
-:lang(EL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Λειτουργία πάρτι"],
-:lang(BG) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Режим за парти"],
-:lang(RU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Праздничный режим"],
-:lang(UK) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Святковий режим"],
-:lang(HI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="पार्टी मोड"],
-:lang(TH) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="โหมดปาร์ตี้"],
-:lang(ZH-CN) .side-1lrxIh .premiumTab-39eQzY ~ .separator-2N511j:nth-child(16) + .header-2F5_LB + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK),
-:lang(JA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="パーティーモード"],
-:lang(ZH-TW) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="狂歡模式"],
-:lang(KO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="파티 모드"] {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has(.poggermodeIcon-3Z9uYf):not(.selected-1sf9UK) {
     color: var(--brand-experiment);
 }
-:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party-tilstand"]:hover,
-:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party-Modus"]:hover,
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party Mode"]:hover,
-:lang(ES) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Modo Fiesta"]:hover,
-:lang(FR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Mode festif"]:hover,
-:lang(HR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Način rada Party"]:hover,
-:lang(IT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Modalità party"]:hover,
-:lang(LT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Vakarėlio režimas"]:hover,
-:lang(HU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Buli mód"]:hover,
-:lang(NL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Partymodus"]:hover,
-:lang(NO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party-modus"]:hover,
-:lang(PL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Tryb imprezowy"]:hover,
-:lang(pt-BR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Modo festa"]:hover,
-:lang(RO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Mod petrecere"]:hover,
-:lang(FI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Juhlatila"]:hover,
-:lang(SV) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Partyläge"]:hover,
-:lang(VI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Chế độ Tiệc tùng"]:hover,
-:lang(TR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Parti Modu"]:hover,
-:lang(CS) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Party režim"]:hover,
-:lang(EL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Λειτουργία πάρτι"]:hover,
-:lang(BG) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Режим за парти"]:hover,
-:lang(RU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Праздничный режим"]:hover,
-:lang(UK) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="Святковий режим"]:hover,
-:lang(HI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="पार्टी मोड"]:hover,
-:lang(TH) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="โหมดปาร์ตี้"]:hover,
-:lang(ZH-CN) .side-1lrxIh .premiumTab-39eQzY ~ .separator-2N511j:nth-child(16) + .header-2F5_LB + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK):hover,
-:lang(JA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="パーティーモード"]:hover,
-:lang(ZH-TW) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="狂歡模式"]:hover,
-:lang(KO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy:not(.selected-1sf9UK)[aria-label="파티 모드"]:hover {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has(.poggermodeIcon-3Z9uYf):not(.selected-1sf9UK):hover {
     background-color: var(--brand-experiment-10a);
 }
 /*Server Subscriptions Button*/
@@ -11047,68 +10963,12 @@ rect[mask*="dnd"],
     background-color: var(--brand-experiment-10a);
 }
 /*Log Out and Delete Buttons*/
-:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log ud"],
-:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"],
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"],
-:lang(ES) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Cerrar sesión"],
-:lang(FR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Déconnexion"],
-:lang(HR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Odjava"],
-:lang(IT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Esci"],
-:lang(LT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Atsijungti"],
-:lang(HU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Kijelentkezés"],
-:lang(NL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Afmelden"],
-:lang(NO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Logg ut"],
-:lang(PL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Wyloguj"],
-:lang(pt-BR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Sair"],
-:lang(RO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Deconectează-te"],
-:lang(FI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Kirjaudu ulos"],
-:lang(SV) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Logga ut"],
-:lang(VI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Đăng Xuất"],
-:lang(TR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Çıkış Yap"],
-:lang(CS) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Odhlásit se"],
-:lang(EL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Αποσύνδεση"],
-:lang(BG) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Отписване"],
-:lang(RU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Выйти"],
-:lang(UK) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Вийти"],
-:lang(HI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="लॉग आउट करें"],
-:lang(TH) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="ออกจากระบบ"],
-:lang(ZH-CN) .side-1lrxIh .premiumTab-39eQzY ~ .separator-2N511j + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .separator-2N511j + .themed-qqoYp3.item-2GWPIy,
-:lang(JA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="ログアウト"],
-:lang(ZH-TW) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="登出"],
-:lang(KO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="로그아웃"],
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Delete Server"] {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11.991L11.708 16.706L10.292 15.294L12.582 13H5V20C5 21.103 5.897 22 7 22H18C19.103 22 20 21.103 20 20V4C20 2.898 19.103 2 18 2Z"]),
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z"]) {
     color: var(--status-red-530);
 }
-:lang(DA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log ud"]:hover,
-:lang(DE) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Abmelden"]:hover,
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Log Out"]:hover,
-:lang(ES) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Cerrar sesión"]:hover,
-:lang(FR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Déconnexion"]:hover,
-:lang(HR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Odjava"]:hover,
-:lang(IT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Esci"]:hover,
-:lang(LT) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Atsijungti"]:hover,
-:lang(HU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Kijelentkezés"]:hover,
-:lang(NL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Afmelden"]:hover,
-:lang(NO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Logg ut"]:hover,
-:lang(PL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Wyloguj"]:hover,
-:lang(pt-BR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Sair"]:hover,
-:lang(RO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Deconectează-te"]:hover,
-:lang(FI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Kirjaudu ulos"]:hover,
-:lang(SV) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Logga ut"]:hover,
-:lang(VI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Đăng Xuất"]:hover,
-:lang(TR) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Çıkış Yap"]:hover,
-:lang(CS) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Odhlásit se"]:hover,
-:lang(EL) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Αποσύνδεση"]:hover,
-:lang(BG) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Отписване"]:hover,
-:lang(RU) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Выйти"]:hover,
-:lang(UK) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Вийти"]:hover,
-:lang(HI) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="लॉग आउट करें"]:hover,
-:lang(TH) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="ออกจากระบบ"]:hover,
-:lang(ZH-CN) .side-1lrxIh .premiumTab-39eQzY ~ .separator-2N511j + .themed-qqoYp3.item-2GWPIy + .themed-qqoYp3.item-2GWPIy + .separator-2N511j + .themed-qqoYp3.item-2GWPIy:hover,
-:lang(JA) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="ログアウト"]:hover,
-:lang(ZH-TW) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="登出"]:hover,
-:lang(KO) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="로그아웃"]:hover,
-:lang(EN) .side-1lrxIh .themed-qqoYp3.item-2GWPIy[aria-label="Delete Server"]:hover {
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M18 2H7C5.897 2 5 2.898 5 4V11H12.59L10.293 8.708L11.706 7.292L16.414 11.991L11.708 16.706L10.292 15.294L12.582 13H5V20C5 21.103 5.897 22 7 22H18C19.103 22 20 21.103 20 20V4C20 2.898 19.103 2 18 2Z"]):hover,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:has([d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z"]):hover {
     background-color: var(--status-red-10a);
 }
 
@@ -12902,40 +12762,6 @@ rect[mask*="dnd"],
 }
 
 /*BD Settings*/
-/*Sidebar*/
-.bd-sidebar-header {
-    flex-direction: column;
-    align-items: unset;
-}
-.bd-changelog-button {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-bottom: 4px;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 16px;
-    height: unset !important;
-    pointer-events: none;
-}
-.bd-changelog-button:before {
-    color: var(--channels-default);
-    content: "BD v1.8.4 by Zerebos";
-}
-.bd-changelog-button:after {
-    color: var(--brand-experiment);
-    content: "View Changelog";
-}
-.bd-sidebar-header .bd-icon {
-    pointer-events: auto;
-    position: absolute;
-    bottom: 0;
-    left: -10px;
-    width: 100% !important;
-    opacity: 0;
-}
-
 /*Plugin and Theme Box*/
 .bd-addon-list .bd-addon-card {
     background: var(--background-secondary-alt);
@@ -13026,10 +12852,6 @@ rect[mask*="dnd"],
 #DTM-18-card .bd-description {
     display: flex;
     flex-direction: column;
-}
-#DTM-18-card .bd-description:after {
-    margin-top: 8px;
-    content: 'Please Note that this is still in beta. If you have any questions, please let me know.'
 }
 
 /*Nitro Brew*/

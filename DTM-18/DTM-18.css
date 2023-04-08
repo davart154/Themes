@@ -5187,11 +5187,6 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 
 /*Beginning of Channel*/
-.emptyChannelIcon-1YdEz2,
-.header-1dhDWV,
-.container-1yy5xN .wrapper-3Un6-K {
-    display: none;
-}
 .container-1yy5xN {
     min-height: 95px;
     background: url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374467466928208/Chat_Header_1.png),url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374495375818852/Chat_Header_2.png);
@@ -7011,6 +7006,10 @@ div.groupStart-3Mlgv1 {
 .cozy-VmLDNB .contents-2MsGLg .avatar-2e8lTP:hover {
     opacity: .8;
 }
+.avatarDecoration-34OC0G {
+    left: calc(36px - 34px*var(--decoration-to-avatar-ratio)/2);
+    margin-top: calc(24px - .125rem - 45px*var(--decoration-to-avatar-ratio)/2);
+}
 
 /*Text Layout*/
 .wrapper-30-Nkg {
@@ -7303,18 +7302,18 @@ div.groupStart-3Mlgv1 {
 
 /*End of Message Margin*/
 main[class^="chatContent"] div[class*="messagesWrapper"] div[class*="scroller"] > div[class*="scrollerSpacer"] {
-  height: calc(var(--f-msg-spacing) / 2);
+    height: calc(var(--f-msg-spacing) / 2);
 }
 
 /*Enable chat while scrolling*/
 main[class^="chatContent"] > div[class*="messagesWrapper"] > div[class^="scrollerWrap"] > div[class^="scroller"][class*="scrolling"]>* {
-  pointer-events: initial;
+    pointer-events: initial;
 }
 
 /*Compact Mode Mentions*/
 div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
-  background-color: var(--background-mentioned);
-  border-radius: 0 3px 3px 0;
+    background-color: var(--background-mentioned);
+    border-radius: 0 3px 3px 0;
 }
 
 /*Embeds*/

@@ -8144,17 +8144,21 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
   transition: 0.1s;
   color: var(--interactive-active);
 }
-.scrollableContainer-15eg7h .button-2fCJ0o:hover:not(:disabled) .buttonWrapper-3YFQGJ {
+.scrollableContainer-15eg7h .button-ejjZWC:hover:not(:disabled) .buttonWrapper-3YFQGJ {
   opacity: 1 !important;
   transform: scale(1.15) !important;
 }
 /*Gift*/
-.scrollableContainer-15eg7h .buttons-uaqb-5 [d="M16.886 7.999H20C21.104 7.999 22 8.896 22 9.999V11.999H2V9.999C2 8.896 2.897 7.999 4 7.999H7.114C6.663 7.764 6.236 7.477 5.879 7.121C4.709 5.951 4.709 4.048 5.879 2.879C7.012 1.746 8.986 1.746 10.121 2.877C11.758 4.514 11.979 7.595 11.998 7.941C11.9991 7.9525 11.9966 7.96279 11.9941 7.97304C11.992 7.98151 11.99 7.98995 11.99 7.999H12.01C12.01 7.98986 12.0079 7.98134 12.0058 7.97287C12.0034 7.96282 12.0009 7.95286 12.002 7.942C12.022 7.596 12.242 4.515 13.879 2.878C15.014 1.745 16.986 1.746 18.121 2.877C19.29 4.049 19.29 5.952 18.121 7.121C17.764 7.477 17.337 7.764 16.886 7.999ZM7.293 5.707C6.903 5.316 6.903 4.682 7.293 4.292C7.481 4.103 7.732 4 8 4C8.268 4 8.519 4.103 8.707 4.292C9.297 4.882 9.641 5.94 9.825 6.822C8.945 6.639 7.879 6.293 7.293 5.707ZM14.174 6.824C14.359 5.941 14.702 4.883 15.293 4.293C15.481 4.103 15.732 4 16 4C16.268 4 16.519 4.103 16.706 4.291C17.096 4.682 17.097 5.316 16.707 5.707C16.116 6.298 15.057 6.642 14.174 6.824ZM3 13.999V19.999C3 21.102 3.897 21.999 5 21.999H11V13.999H3ZM13 13.999V21.999H19C20.104 21.999 21 21.102 21 19.999V13.999H13Z"] {
+.scrollableContainer-15eg7h .buttons-uaqb-5 [d^="M16.886 7.999H20C21.104"] {
     d: path("M 19.3214 8.3153 L 20.55 8.3153 C 21.1962 8.3153 21.72 8.8443 21.72 9.4968 L 21.72 11.86 L 3 11.86 L 3 9.4968 C 3 8.8443 3.5238 8.3153 4.17 8.3153 L 5.3157 8.3153 C 4.1909 6.9026 4.2991 4.8309 5.6155 3.5472 C 7.01 2.1872 9.232 2.2264 10.5786 3.6346 C 11.2754 4.3633 11.9296 5.4493 12.3305 6.5625 C 12.7295 5.431 13.3932 4.3224 14.1009 3.5824 C 15.4475 2.1741 17.6696 2.1349 19.0641 3.4949 C 20.3968 4.7946 20.4912 6.9019 19.3214 8.3153 Z M 15.444 8.35 C 15.5593 8.3074 15.6797 8.2587 15.804 8.204 C 16.6347 7.8384 17.5281 7.2511 17.8813 6.8759 C 18.3306 6.3987 18.3177 5.6381 17.8523 5.1772 C 17.387 4.7163 16.6455 4.7295 16.1961 5.2068 C 15.8429 5.582 15.3018 6.5182 14.9746 7.3824 C 14.836 7.7484 14.7425 8.081 14.7 8.35 L 15.444 8.35 Z M 9.1441 8.35 L 10.02 8.35 C 9.9739 8.0868 9.8835 7.769 9.7537 7.4215 C 9.4256 6.544 8.8831 5.5934 8.529 5.2125 C 8.0785 4.7278 7.3351 4.7144 6.8686 5.1824 C 6.402 5.6504 6.3891 6.4226 6.8396 6.9073 C 7.1937 7.2882 8.0893 7.8845 8.9221 8.2557 C 8.9976 8.2894 9.0717 8.3208 9.1441 8.35 Z M 4.17 14.2 L 11.19 14.2 L 11.19 21.22 L 5.34 21.22 C 4.6938 21.22 4.17 20.6962 4.17 20.05 L 4.17 14.2 Z M 13.53 14.2 L 20.55 14.2 L 20.55 20.05 C 20.55 20.6962 20.0262 21.22 19.38 21.22 L 13.53 21.22 L 13.53 14.2 Z");
 }
 /*GIF*/
-.scrollableContainer-15eg7h .buttons-uaqb-5 [d="m2 2c-1.1046 0-2 0.89543-2 2v16c0 1.1046 0.89543 2 2 2h20c1.1046 0 2-0.8954 2-2v-16c0-1.1046-0.8954-2-2-2h-20zm2.4846 13.931c0.55833 0.375 1.2 0.5625 1.925 0.5625 0.96667 0 1.6958-0.3333 2.1875-1l0.2375 0.825h1.475v-4.9h-3.7625v1.625h1.9875v1.075c-0.15833 0.225-0.38333 0.4042-0.675 0.5375-0.28333 0.125-0.59583 0.1875-0.9375 0.1875-0.76667 0-1.3542-0.2458-1.7625-0.7375-0.40833-0.4916-0.6125-1.1916-0.6125-2.1 0-0.9 0.20417-1.5958 0.6125-2.0874 0.40833-0.5 0.99583-0.75 1.7625-0.75 0.84167 0 1.475 0.39166 1.9 1.175l1.4125-1.0124c-0.30003-0.575-0.74586-1.0208-1.3375-1.3375-0.58333-0.31667-1.2458-0.475-1.9875-0.475-0.875 0-1.6292 0.19166-2.2625 0.575-0.625 0.38333-1.1042 0.9125-1.4375 1.5875-0.325 0.67495-0.4875 1.45-0.4875 2.325 0 0.8834 0.15417 1.6667 0.4625 2.35 0.30833 0.675 0.74167 1.2 1.3 1.575zm7.4509 0.3875h1.825v-8.625h-1.825v8.625zm3.5767 0h1.825v-3.275h3.2v-1.65h-3.2v-2.05h3.9375v-1.65h-5.7625v8.625z"] {
+.scrollableContainer-15eg7h .buttons-uaqb-5 [d^="m2"] {
     d: path("M3 3H21C22.6569 3 24 4.34315 24 6V18C24 19.6569 22.6569 21 21 21H3C1.34315 21 0 19.6569 0 18V6C0 4.34315 1.34315 3 3 3V3ZM11 8V16H13V8H11ZM8 8H4C3.28 8 3 8.33333 3 9V15C3 15.6667 3.28 16 4 16H8C8.72 16 9 15.6667 9 15V11H6V13H7V14H5V10H9V9C9 8.33333 8.72 8 8 8ZM21 10V8H15V16H17V13H20V11H17V10H21Z");
+}
+/*Sticker*/
+.scrollableContainer-15eg7h .buttons-uaqb-5 [d^="M12.0002 0.662583V5.40204C12.0002"] {
+    d: path("M12.0006.6627V5.403C12.0006 6.8409 13.1612 8.0012 14.5995 8.0012H19.341C19.9263 8.0012 20.2238 7.2971 19.8073 6.8806L13.1215.1966C12.7049-.2199 12.0006.0677 12.0006.6627ZM14.5768 10.0299C12.0341 10.0299 9.97 7.9658 9.97 5.423V.0583H1.9927C.8958.0583-.0016.9558-.0016 2.0526V18.0072C-.0016 19.104.8958 20.0015 1.9927 20.0015H17.9472C19.0442 20.0015 19.9415 19.104 19.9415 18.0072V10.0299H14.5768ZM13.0003 11.6667C13.0003 13.3235 11.6571 14.6667 10.0003 14.6667 8.3434 14.6667 7.0003 13.3235 7.0003 11.6667H5.0003C5.0003 14.4282 7.2388 16.6667 10.0003 16.6667 12.7617 16.6667 15.0003 14.4282 15.0003 11.6667H13.0003Z");
 }
 /*Emoji*/
 .emojiButton-3FRTuj {
@@ -11707,7 +11711,116 @@ rect[mask*="dnd"],
     border-radius: 5px;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
 }
-.connection-YOVI9j .defaultColor-24IHKz.text-sm-semibold-3TWn25,
+.connection-YOVI9j:has([alt="Battle.net"]) {
+    background-color: var(--battlenet);
+}
+.connection-YOVI9j:has([alt=Crunchyroll]) {
+    background-color: var(--crunchyroll);
+}
+.connection-YOVI9j:has([alt="Epic Games"]) {
+    background-color: var(--epic-games);
+}
+.connection-YOVI9j:has([alt=eBay]) {
+    background-color: var(--ebay);
+}
+.connection-YOVI9j:has([alt=Facebook]) {
+    background-color: var(--facebook);
+}
+.connection-YOVI9j:has([alt=GitHub]) {
+    background-color: var(--github);
+}
+.connection-YOVI9j:has([alt=Instagram]) {
+    background-color: var(--c);
+}
+.connection-YOVI9j:has([alt="League of Legends"]) {
+    background-color: #ae914b;
+}
+.connection-YOVI9j:has([alt=PayPal]) {
+    background-color: var(--paypal);
+}
+.connection-YOVI9j:has([alt="PlayStation Network"]) {
+    background-color: var(--playstation);
+}
+.connection-YOVI9j:has([alt=Reddit]) {
+    background-color: var(--reddit); /*#5f99cf*/
+}
+.connection-YOVI9j:has([alt="Riot Games"]) {
+    background-color: var(--riot-games);
+}
+.connection-YOVI9j:has([alt=Skype]) {
+    background-color: var(--skype);
+}
+.connection-YOVI9j:has([alt=Spotify]) {
+    background-color: var(--spotify);
+}
+.connection-YOVI9j:has([alt=Steam]) {
+    background-color: var(--steam);
+}
+.connection-YOVI9j:has([alt=Twitch]) {
+    background-color: var(--twitch);
+}
+.connection-YOVI9j:has([alt=Twitter]) {
+    background-color: var(--twitter);
+}
+.connection-YOVI9j:has([alt=Xbox]) {
+    background-color: var(--xbox);
+}
+.connection-YOVI9j:has([alt=YouTube]) {
+    background-color: var(--youtube);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Battle.net"] {
+    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763309125742/3a257c4cab129e956b05bd50047eb0f9.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Crunchyroll] {
+    background-color: var(--crunchyroll);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=eBay] {
+    background-color: var(--ebay);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Epic Games"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/992547546570428466/db9e2406158133f91e1fe24bb56425c2.svg?);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Facebook] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208530325534/c926e69c482dac25b8e940db74496813.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=GitHub] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763602739321/9e2893717851c493b4bff518f8b63ee7.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="League of Legends"] {
+    background-color: #ae914b;
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208224112750/fbbd224a0d94747c102515090682bbe1.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="PlayStation Network"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/931884586940657664/4282c3f55c9c6d0c310ebc927d8a278c.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Reddit] {
+    background-color: #5f99cf;
+    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763938275428/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Riot Games"] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/1007053668836720710/991f3682123857c83ad3252a30023b1a.svg?);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Skype] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039642452048/de5fb9e860729912c65048c1c657e1a3.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Spotify] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764324167770/fe3770614c2658a07dea3ecb286ce745.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Steam] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764575805510/baf4bdd36b7ef74e8f34b402e66f81f4.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Twitch] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Twitter] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Xbox] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039139147826/850ed4fcf5839b7a32651f5959e8511e.png);
+}
+.connection-YOVI9j .connectionHeader-Ixbb1s [alt=YouTube] {
+    content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039340466276/0ef81742942677bcef0bebdfb7061d29.png);
+}
 .connection-YOVI9j .connectionAccountValue-YkFI6F .connectionAccountLabelContainer-1KuLS6 {
     font-size: 16px;
     margin-top: 4px;
@@ -11717,7 +11830,6 @@ rect[mask*="dnd"],
 .connection-YOVI9j .metadataContainer-35U-On,
 .connection-YOVI9j .upsellWrapper-2jvKpl {
     position: relative;
-    z-index: 10;
     background: #0004;
     border: solid 1px #0004;
     border-radius: 3px;
@@ -11761,16 +11873,8 @@ rect[mask*="dnd"],
     padding: 10px;
 }
 .connection-YOVI9j .connectionHeader-Ixbb1s {
-    background: #0000;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s:after {
-    content: "";
-    position: absolute;
-    width: 660px;
-    height: 73px;
     background: rgba(0, 0, 0, 0.1);
     border-bottom: solid 1px rgba(0, 0, 0, 0.15);
-    pointer-events: none;
 }
 .connection-YOVI9j .connectionOptionsWrapper-3aVWcp *, .connection-YOVI9j .connectionDelete-3YgMVq, .connection-YOVI9j .integrationsWrapper-3a2pGd, .connection-YOVI9j .integrationsWrapper-3a2pGd *, .connection-YOVI9j .connectedAccountSeparator-2gWsUP {
     z-index: 50;
@@ -11830,86 +11934,16 @@ rect[mask*="dnd"],
     fill: #fff;
     transform: scale(1.1);
 }
-.connection-YOVI9j .container-2nx-BQ {
+.connection-YOVI9j .container-1QtPKm {
     background: none !important;
 }
-.connection-YOVI9j .container-2nx-BQ .input-2XRLou:before {
+.connection-YOVI9j .container-1QtPKm .input-125oad:before {
     background: #0000;
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
-.connection-YOVI9j .container-2nx-BQ .input-2XRLou:checked:before {
+.connection-YOVI9j .container-1QtPKm .input-125oad:checked:before {
     background: rgba(255, 255, 255, 0.3);
     box-shadow: none;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt] {
-    margin: -572px -610px -4500px -16px;
-    padding: 2000px 330px;
-    background-color: var(--brand-experiment);
-    background-repeat: no-repeat;
-    background-size: 32px 32px;
-    background-position: 20px 20px;
-    border-radius: 5px;
-    pointer-events: none;
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Battle.net"] {
-    background-color: #009AE5;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763309125742/3a257c4cab129e956b05bd50047eb0f9.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=GitHub] {
-    background-color: #191717;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763602739321/9e2893717851c493b4bff518f8b63ee7.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Reddit] {
-    background-color: #5f99cf;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763938275428/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Spotify] {
-    background-color: var(--spotify-460);
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764324167770/fe3770614c2658a07dea3ecb286ce745.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Steam] {
-    background-color: #182332;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764575805510/baf4bdd36b7ef74e8f34b402e66f81f4.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Twitch] {
-    background-color: var(--twitch-460);
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Twitter] {
-    background-color: #1DA1F2;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Xbox] {
-    background-color: var(--xbox-460);
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039139147826/850ed4fcf5839b7a32651f5959e8511e.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=YouTube] {
-    background-color: var(--youtube-460);
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039340466276/0ef81742942677bcef0bebdfb7061d29.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Skype] {
-    background-color: #009dd7;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039642452048/de5fb9e860729912c65048c1c657e1a3.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="League of Legends"] {
-    background-color: #ae914b;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208224112750/fbbd224a0d94747c102515090682bbe1.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt=Facebook] {
-    background-color: #3d4e84;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208530325534/c926e69c482dac25b8e940db74496813.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="PlayStation Network"] {
-    background-color: var(--playstation-460);
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/931884586940657664/4282c3f55c9c6d0c310ebc927d8a278c.png);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Epic Games"] {
-    background-color: #3C3935;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/992547546570428466/db9e2406158133f91e1fe24bb56425c2.svg?);
-}
-.connection-YOVI9j .connectionHeader-Ixbb1s [alt="Riot Games"] {
-    background-color: #af1924;
-    background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/1007053668836720710/991f3682123857c83ad3252a30023b1a.svg?);
 }
 
 /*Nitro Tab*/

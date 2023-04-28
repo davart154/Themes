@@ -7852,6 +7852,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 .newMessagesBar-1hF-9G {
     border-radius: 0px 0px 4px 4px;
     margin: 0px 4px 0px 4px;
+    height: unset;
 }
 .newMessagesBar-1hF-9G > .barButtonAlt-TQoCdZ {
     text-transform: uppercase;
@@ -7868,6 +7869,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     border-radius: 4px 4px 0px 0px;
     padding-bottom: 0px;
     margin: 0px 4px 0px 4px;
+    background-color: var(--button-secondary-background);
 }
 .jumpToPresentBar-1cEnH0 > .barButtonAlt-TQoCdZ {
     text-transform: uppercase;
@@ -11129,10 +11131,17 @@ rect[mask*="dnd"],
 }
 
 /*On Off Toggle*/
+.container-1QtPKm {
+  background: #0000 !important;
+  pointer-events: none;
+}
 .container-1QtPKm .input-125oad {
   opacity: 1;
   width: 0;
-  background: #0000 !important;
+  pointer-events: all;
+}
+.container-1QtPKm .slider-HJFN2i {
+    display: none;
 }
 .container-1QtPKm .input-125oad:before,
 .container-1QtPKm .input-125oad:after {
@@ -11146,7 +11155,6 @@ rect[mask*="dnd"],
   width: 42px;
   height: 24px;
   background: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
-  margin-top: -3px;
   margin-left: -6px;
 }
 .container-1QtPKm .input-125oad:hover:before {
@@ -11156,7 +11164,7 @@ rect[mask*="dnd"],
   position: absolute;
   width: 18px;
   height: 18px;
-  top: 0px;
+  top: 3px;
   left: -3px;
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -11168,7 +11176,7 @@ rect[mask*="dnd"],
   background: var(--button-positive-background);
 }
 .container-1QtPKm .input-125oad:checked:hover:before {
-  background: var(--brand-experiment-530);
+  background: var(--brand-experiment-460);
 }
 .permissionsWrapper-34gbP6 .container-1QtPKm .input-125oad:checked:hover:before {
   background: var(--button-positive-background-hover);
@@ -11177,7 +11185,7 @@ rect[mask*="dnd"],
   transform: translate3d(18px, 0, 0);
 }
 .container-1QtPKm .input-125oad:active:before {
-  background: var(--blurple-active);
+  background: #80848A;
 }
 .permissionsWrapper-34gbP6 .container-1QtPKm .input-125oad:active:before {
   background: var(--button-positive-background-active);

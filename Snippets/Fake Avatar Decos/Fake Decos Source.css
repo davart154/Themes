@@ -1,3 +1,7 @@
+#floating-editor-window {
+    z-index: 9999;
+}
+
 .contents-2MsGLg [src] + .header-2jRmjb {
     overflow: unset;
 }

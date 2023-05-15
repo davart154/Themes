@@ -71,6 +71,25 @@
     clip-path: path("M0 0h96v96H0ZM81.3632 54H70.64S62 54 62 62.64V81.36S62 90 70.64 90H81.3632S90.0032 90 90.0032 81.36V62.64S90.0032 54 81.3632 54Z");
 }
 
+.avatarHint-k7pYop {
+    overflow: unset;
+    contain: unset;
+}
+.avatarHint-k7pYop foreignObject {
+    mask: none;
+}
+.avatarHintInner-2HUAWj {
+    clip-path: path("M0 0h96v96H0ZM61.9968 76.0032a13.9968 13.9968 90 1028.0032 0 13.9968 13.9968 90 10-28.0032 0");
+    inset: calc((.5 - var(--decoration-to-avatar-ratio)/2)*100%);
+    padding: 0;
+    width: unset;
+    height: unset;
+    position: absolute;
+    border-radius: 38.4px;
+}
+.userPopoutOuter-1OHwPL:has(.pointerEvents-2KjWnj[height="24"]) .avatarHintInner-2HUAWj {
+    clip-path: path("M96 0h-96v96H96ZM70.6368 54h10.7232s8.64 0 8.64 8.64v18.72s0 8.64-8.64 8.64h-10.7232s-8.64 0-8.64-8.64v-18.72s0-8.64 8.64-8.64");
+}
 
 /*Users*/
 .contents-2MsGLg [src*='490604571824226306'] + .header-2jRmjb:after,

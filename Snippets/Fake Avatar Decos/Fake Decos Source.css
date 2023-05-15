@@ -1,7 +1,3 @@
-#floating-editor-window {
-    z-index: 9999;
-}
-
 .contents-2MsGLg [src] + .header-2jRmjb {
     overflow: unset;
 }
@@ -80,7 +76,7 @@
 .contents-2MsGLg [src*='490604571824226306'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='490604571824226306']):after,
 [style*='490604571824226306'] .imageUploaderFileInput-18YkLC:after {
-    background-image: var(--deco-pc-green);
+    background-image: var(--deco-interface-green);
 }
 
 .contents-2MsGLg [src*='536958289641078804'] + .header-2jRmjb:after,
@@ -167,6 +163,25 @@ html {
     --deco-dogs-lightbrown: url(https://cdn.discordapp.com/attachments/1101517369353969694/1101520222831267940/Dogs_Light_Brown.webp);
     --deco-dogs-mediumbrown: url(https://cdn.discordapp.com/attachments/1101517369353969694/1101520232251658401/Dogs_Medium_Brown.webp);
     --deco-dogs-darkbrown: url(https://cdn.discordapp.com/attachments/1101517369353969694/1101520213763182602/Dogs_Dark_Brown.webp);
+    --deco-headphones-blue: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709226949824583/Headphones_Blue.webp);
+    --deco-headphones-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709243215331468/Headphones_Pink.webp);
+    --deco-headphones-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709235606847578/Headphones_Green.webp);
+    --deco-interface-blue: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709294922694718/Interface_Blue.webp);
+    --deco-interface-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709313658650645/Interface_Pink.webp);
+    --deco-interface-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709301159628850/Interface_Green.webp);
+    --deco-helmetwarp-blue: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709274932658246/Helmet_Warp_Blue.webp);
+    --deco-helmetwarp-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709287259713697/Helmet_Warp_Pink.webp);
+    --deco-helmetwarp-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709281593213079/Helmet_Warp_Green.webp);
+    --deco-helmetshine-blue: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709249385152582/Helmet_Shine_Blue.webp);
+    --deco-helmetshine-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709265843593316/Helmet_Shine_Pink.webp);
+    --deco-helmetshine-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709258646171718/Helmet_Shine_Green.webp);
+    --deco-orbit-blue: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709324412850236/Orbit_Blue.webp);
+    --deco-orbit-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709340699340890/Orbit_Pink.webp);
+    --deco-orbit-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709331652235344/Orbit_Green.webp);
+    --deco-smoke-blue: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709344641994782/Smoke_Blue.webp);
+    --deco-smoke-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709375612731464/Smoke_Pink.webp);
+    --deco-smoke-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709373058383903/Smoke_Green.webp);
+    --deco-gearspin: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709222885539890/Gear_Spin.webp);
 }
 
 /*Avatar Dynamic Shadow*/

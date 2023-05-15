@@ -68,7 +68,7 @@
     clip-path: path("M0 0h96v96H0ZM61.9968 76.0032a13.9968 13.9968 90 1028.0032 0 13.9968 13.9968 90 10-28.0032 0");
 }
 :is(.userPopoutOuter-1OHwPL, .userInfo-regn9W) .wrapper-3Un6-K:has(.pointerEvents-2KjWnj[height="24"]):after {
-    clip-path: path("M0 0h96v96H0ZM81.3632 54H70.64S62 54 62 62.64V81.36S62 90 70.64 90H81.3632S90.0032 90 90.0032 81.36V62.64S90.0032 54 81.3632 54Z");
+    clip-path: path("M96 0h-96v96H96ZM70.6368 54h10.7232s8.64 0 8.64 8.64v18.72s0 8.64-8.64 8.64h-10.7232s-8.64 0-8.64-8.64v-18.72s0-8.64 8.64-8.64");
 }
 
 .avatarHint-k7pYop {

@@ -57,9 +57,13 @@
 .layout-1qmrhw .wrapper-3Un6-K:after {
     clip-path: path("M0 0h38v38H0ZM21.9678 29.887a7.9154 7.9154 90 1015.8346 0 7.9154 7.9154 90 10-15.8346 0");
 }
-.layout-1LjVue .wrapper-3Un6-K:has(rect[width="10"]):after
-.layout-1qmrhw .wrapper-3Un6-K:has(rect[width="10"]):after {
+.layout-1LjVue .wrapper-3Un6-K:has(.pointerEvents-2KjWnj[width="10"]):after,
+.layout-1qmrhw .wrapper-3Un6-K:has(.pointerEvents-2KjWnj[width="10"]):after {
     clip-path: path("M0 0h38v38H0ZM21.9678 29.887a7.9154 7.9154 90 1015.8346 0 7.9154 7.9154 90 10-15.8346 0");
+}
+.layout-1LjVue .wrapper-3Un6-K:has(.pointerEvents-2KjWnj[height="15"]):after,
+.layout-1qmrhw .wrapper-3Un6-K:has(.pointerEvents-2KjWnj[height="15"]):after {
+    clip-path: path("M38 0h-38v38H38ZM26.9572 17.0202h5.8596s4.9894 0 4.9894 4.9894v10.8072s0 4.9894-4.9856 4.9894h-5.8596s-4.9856 0-4.9856-4.9856v-10.8072s0-4.9856 4.9894-4.9856");
 }
 .layout-1qmrhw .wrapper-3Un6-K:has(.dots-1k2MxY):after {
     clip-path: path("M0 0V38H38V0ZM17.9208 21.9678H38V37.8024H17.9208S14.5464 37.8024 14.5464 34.428V25.3422S14.5464 21.9678 17.9208 21.9678Z") !important;
@@ -96,6 +100,12 @@
 .wrapper-3Un6-K:has([src*='490604571824226306']):after,
 [style*='490604571824226306'] .imageUploaderFileInput-18YkLC:after {
     background-image: var(--deco-interface-green);
+}
+
+.contents-2MsGLg [src*='723015866308100116'] + .header-2jRmjb:after,
+.wrapper-3Un6-K:has([src*='723015866308100116']):after,
+[style*='723015866308100116'] .imageUploaderFileInput-18YkLC:after {
+    background-image: var(--deco-pc);
 }
 
 .contents-2MsGLg [src*='536958289641078804'] + .header-2jRmjb:after,
@@ -217,4 +227,7 @@ html {
 }
 .userPopoutOuter-1OHwPL[style] {
     --profile-filter-color: var(--profile-avatar-border-color);
+}
+.avatarWrapper-eenWra {
+    
 }

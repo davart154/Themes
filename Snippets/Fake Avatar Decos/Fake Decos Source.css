@@ -102,12 +102,6 @@
     background-image: var(--deco-interface-green);
 }
 
-.contents-2MsGLg [src*='723015866308100116'] + .header-2jRmjb:after,
-.wrapper-3Un6-K:has([src*='723015866308100116']):after,
-[style*='723015866308100116'] .imageUploaderFileInput-18YkLC:after {
-    background-image: var(--deco-pc);
-}
-
 .contents-2MsGLg [src*='536958289641078804'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='536958289641078804']):after,
 [style*='536958289641078804'] .imageUploaderFileInput-18YkLC:after {

@@ -165,6 +165,7 @@ html:has([class^="bd"].selected-1sf9UK) .contentColumnDefault-3eyv5o {
 }
 .bd-switch input:checked+.bd-switch-body {
     --switch-color: #3ECC9C;
+    background-color: var(--switch-color) !important;
 }
 .bd-settings-title {
     color: #3ECC9C;

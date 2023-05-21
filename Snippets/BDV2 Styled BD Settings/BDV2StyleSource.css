@@ -283,3 +283,44 @@ html:has(#plugins-tab, #themes-tab):not(:has(.bd-addon-card:hover)) .tooltip-33J
 .bd-addon-list .bd-footer {
     padding-top: 20px;
 }
+
+/*Theme Support*/
+/*ClearVision v6*/
+html:has(#ClearVision_v6-theme-container):not(:has([class^="bd"].selected-1sf9UK)) .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-1lrxIh .bd-settings-tab:before,
+html:has(#ClearVision_v6-theme-container):not(:has([class^="bd"].selected-1sf9UK)) .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-1lrxIh .bd-settings-tab:after {
+    position: unset;
+}
+html:has(#ClearVision_v6-theme-container):not(:has([class^="bd"].selected-1sf9UK)) .standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-1lrxIh .bd-settings-tab:before {
+    line-height: 26px;
+}
+html:has(#ClearVision_v6-theme-container) .sidebar-nqHbhN:not(:has([class^="bd"].selected-1sf9UK)) .bd-settings-tab:before {
+    opacity: 1;
+}
+
+html:has(#ClearVision_v6-theme-container) .bd-changelog-button {
+    padding: 8px 0 8px 20px;
+    color: rgba(255,255,255,.4);
+    margin: 0;
+    transition: all .15s ease-in-out;
+}
+html:has(#ClearVision_v6-theme-container) .sidebarRegionScroller-FXiQOh:has([class^="bd"].selected-1sf9UK) {
+    background-color: #0C281FC0;
+    -webkit-mask-image: none;
+    margin: 0;
+    box-shadow: 0 16px 16px 16px #0C281FB3;
+}
+html:has(#ClearVision_v6-theme-container):has([class^="bd"].selected-1sf9UK) .contentColumnDefault-3eyv5o {
+    background: #06140F70;
+}
+
+html:has(#ClearVision_v6-theme-container) .bd-addon-card {
+    border-radius: 5px;
+    border: 0;
+}
+html:has(#ClearVision_v6-theme-container) .bd-addon-header {
+    padding-top: 16px;
+}
+
+html:has(#ClearVision_v6-theme-container):has([class^="bd"].selected-1sf9UK) .closeButton-PCZcma:after {
+    left: 1040px;
+}

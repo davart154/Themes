@@ -208,7 +208,7 @@ html {
 }
 
 /*Avatar Dynamic Shadow*/
-.userPopoutOuter-1OHwPL .wrapper-3Un6-K,
+.userPopoutOuter-1OHwPL .clickable-GKg4Qy .wrapper-3Un6-K,
 .userPopoutOuter-1OHwPL .imageUploader-1X7wVc {
     filter: var(--profile-shadow);
 }

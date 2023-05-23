@@ -277,5 +277,5 @@ html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH [ari
 html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH [aria-label^="deco-requests"]) .channelTextArea-1VQBuV:after {
     padding: 0 16px 8px;
     border-radius: 0;
-    content: "• Look in #decos and write the name of the one you want here." "\a" "• Either post an image of the deco or write down the name of it." "\a" "   ○ For writing something like 'Gear Spin' you could either write 'Gear Spin' or 'Gear Spin.png,' any format works." "\a" "   ○ For posting an image of the deco, you can either take a screenshot from one of the images in #decos, or if you have the link to the deco itself, you can post that one too.";    
+    content: "• Look in #decos and write the name of the one you want here. \a • Either post an image of the deco or write down the name of it. \a    ○ For writing something like 'Gear Spin' you could either write 'Gear Spin' or 'Gear Spin.png,' any format works. \a    ○ For posting an image of the deco, you can either take a screenshot from one of the images in #decos, or if you have the link to the deco itself, you can post that one too. \a \a If your deco got accepted but you don't see it, you may need to cut and repaste the snippet, or refresh your client.";    
 }

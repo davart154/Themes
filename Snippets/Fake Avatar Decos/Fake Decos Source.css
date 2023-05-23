@@ -224,11 +224,11 @@ html {
 }
 
 /*Support Server Sticky Message*/
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV {
     display: flex;
     flex-direction: column;
 }
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:before {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:before {
     display: flex;
     background: var(--background-tertiary);
     padding: 10px 16px 8px;
@@ -240,7 +240,7 @@ html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-reque
     white-space: pre-wrap;
     order: -2;
 }
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:after {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:after {
     display: flex;
     background: var(--background-tertiary);
     padding: 10px 16px 8px;
@@ -251,24 +251,24 @@ html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-reque
     white-space: pre-wrap;
     order: -1;
 }
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .scrollableContainer-15eg7h {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .scrollableContainer-15eg7h {
     border-radius: 0 0 8px 8px;
 }
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])):has(.hasConnectedBar-1vN2JH) .channelTextArea-1VQBuV:before {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])):has(.hasConnectedBar-1vN2JH) .channelTextArea-1VQBuV:before {
     margin-bottom: 3px;
 }
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .attachedBars-2BCP3l {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .attachedBars-2BCP3l {
     border-radius: 0;
 }
 
-html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:after {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:after {
     content: "• Send a message to #deco-requests with the name or picture of the decoration. \a • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";
 }
-html:has(.modeSelected-3DmyhH [aria-label^="deco-requests"]) .channelTextArea-1VQBuV:before {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH [aria-label^="deco-requests"]) .channelTextArea-1VQBuV:before {
     padding: 10px 16px 4px;
     content: "Submitting a deco:";
 }
-html:has(.modeSelected-3DmyhH [aria-label^="deco-requests"]) .channelTextArea-1VQBuV:after {
+html:has(.container-1NXEtd[aria-label="cord (server)"] .modeSelected-3DmyhH [aria-label^="deco-requests"]) .channelTextArea-1VQBuV:after {
     padding: 0 16px 8px;
     border-radius: 0;
     content: "• Look in #decos and write the name of the one you want here." "\a" "• Either post an image of the deco or write down the name of it." "\a" "   ○ For writing something like 'Gear Spin' you could either write 'Gear Spin' or 'Gear Spin.png,' any format works." "\a" "   ○ For posting an image of the deco, you can either take a screenshot from one of the images in #decos, or if you have the link to the deco itself, you can post that one too.";    

@@ -262,7 +262,7 @@ html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-reque
 }
 
 html:has(.modeSelected-3DmyhH :is([aria-label^="decos"],[aria-label^="deco-requests"])) .channelTextArea-1VQBuV:after {
-    content: "Getting your deco request accepted may take from a couple of minutes to some hours. Please be patient when making a request, as each request won't be taken in instantly.";
+    content: "• Send a message to #deco-requests with the name or picture of the decoration. \a • Please wait at least 24 hours for requests to be fulfilled. Requests will not always be taken in instantly.";
 }
 html:has(.modeSelected-3DmyhH [aria-label^="deco-requests"]) .channelTextArea-1VQBuV:before {
     padding: 10px 16px 4px;

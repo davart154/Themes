@@ -252,6 +252,12 @@
     background-image: var(--deco-blossom-softpink);
 }
 
+.contents-2MsGLg [src*='1031935188550291506'] + .header-2jRmjb:after,
+.wrapper-3Un6-K:has([src*='1031935188550291506']):after,
+[style*='1031935188550291506'] .imageUploaderFileInput-18YkLC:after {
+    background-image: var(--deco-snek);
+}
+
 .contents-2MsGLg [src*='885066908301393951'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='885066908301393951']):after,
 [style*='885066908301393951'] .imageUploaderFileInput-18YkLC:after {

@@ -1032,6 +1032,9 @@ mask > use[href$="lower_badge_masks"] {
 .notice-2HEN-u.colorWarning-3oV0Ge button:hover {
     color: #f26522;
 }
+.app-2CXKsg:has(.standardSidebarView-E9Pc3j) > .notice-2HEN-u {
+    display: none;
+}
 
 /*Guild List*/
 .guilds-2JjMmN {
@@ -1283,12 +1286,20 @@ img.icon-3AqZ2e {
 }
 
 /*Bottom Buttons*/
+.guilds-2JjMmN .scroller-3X7KbA {
+    display: flex;
+    flex-direction: column;
+}
+.scroller-3X7KbA > div:has(.circleIconButton-1VxDrg) {
+    order: 1;
+}
 .circleIconButton-1VxDrg {
     color: var(--text-muted);
     background: none !important;
     border: 1px dashed var(--text-muted);
     border-radius: 50%;
     transition: .25s ease;
+    order: 1;
 }
 .circleIconButton-1VxDrg:hover {
     color: var(--text-normal);
@@ -1318,21 +1329,9 @@ img.icon-3AqZ2e {
     d: path("M18.59 10.59 13 16.17V0h-2v16.17l-5.58-5.59L4 12l8 8 8-8");
     fill: var(--status-positive);
 }
-
-
-/*Channel and Chat Content*/
-.content-1SgpWY {
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    min-width: 0;
-    min-height: 0;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
+.guildsError-2gzNaD {
+    background-color: #413338;
+    transition: background-color .2s ease-out;
 }
 
 /*Windows Radius*/
@@ -1365,42 +1364,6 @@ img.icon-3AqZ2e {
 }
 .notice-2HEN-u {
     border-radius: 6px 0 0;
-}
-
-.privateChannels-oVe7HL {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow: hidden;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    background-color: var(--background-secondary);
-}
-.container-1NXEtd {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-    min-height: 0;
-    position: relative;
-    background-color: var(--background-secondary);
 }
 
 /*Find or start a conversation*/
@@ -5209,11 +5172,17 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 /*Battlerite*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/352378924317147156"]) .header-3jUeHi:before {
     background-image: url("https://cdn.discordapp.com/app-icons/352378924317147156/9eac24c05b9303526731b7fa6125260a.png?size=1024&keep_aspect_ratio=true");
 }
+/*Counter-Strike: Global Offense*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/356875057940791296"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/356875057940791296/84096ee7cf9b0b4c8b08f373f2312576.png?size=1024&keep_aspect_ratio=true");
+}
 /*Clustertruck*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/363431307629559808"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/363431307629559808/75787d9cba10bdbdbda467413382359f.png?size=1024&keep_aspect_ratio=true");
 }
 /*DARK SOULS II: Scholar of the First Sin*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/363426741269692416"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/363426741269692416/a1dfd3ac27487ad01bf08c166266c430.png?size=1024&keep_aspect_ratio=true");
+}
+/*Destiny 2*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/372438022647578634"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/372438022647578634/2d646423539ce9fa89f06a5c1ae8cfcc.png?size=1024&keep_aspect_ratio=true");
 }
 /*Divinity - Original Sin 2*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/349134787773988865"]) .header-3jUeHi:before {
     background-image: url("https://cdn.discordapp.com/app-icons/349134787773988865/0fa583149b3927add1aad7cb2337b953.png?size=1024&keep_aspect_ratio=true");
@@ -5223,6 +5192,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 /*Duelist*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/357706468843061258"]) .header-3jUeHi:before {
     background-image: url("https://cdn.discordapp.com/app-icons/357706468843061258/fbe9ccde48bec8794893f4ed039d230b.png?size=1024&keep_aspect_ratio=true");
+}
+/*Fallout 4*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/359509759642042378"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/359509759642042378/82fd3394dedb4e6ae8178f0dee40dfb6.png?size=1024&keep_aspect_ratio=true");
 }
 /*Fortnite*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/432980957394370572"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/432980957394370572/b82e4ce1bb3835f5adfd9a1e766844ae.png?size=1024&keep_aspect_ratio=true");
@@ -5236,6 +5208,12 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 /*Garry's Mod*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/356879032584896512"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/356879032584896512/df179a691e75ad59389974454187e7fe.png?size=1024&keep_aspect_ratio=true");
 }
+/*Geometry Dash*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/356942674672091136"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/356942674672091136/cb3735ab8d02aa2ecd78ede3f06aee1e.png?size=1024&keep_aspect_ratio=true");
+}
+/*Grand Theft Auto IV*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/450005834672373760"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/450005834672373760/df0e8cce8495b5c314f14e7bcebd3b6a.png?size=1024&keep_aspect_ratio=true");
+}
 /*Grand Theft Auto V*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/356876176465199104"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/356876176465199104/6063707ba43224ee22f9de7bf0339aa1.png?size=1024&keep_aspect_ratio=true");
 }
@@ -5248,11 +5226,20 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 /*Hellion*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/349114016968474626"]) .header-3jUeHi:before {
     background-image: url("https://cdn.discordapp.com/app-icons/349114016968474626/30e50d475a085e4ba167a9a8741e3a23.png?size=1024&keep_aspect_ratio=true");
 }
+/*Hollow Knight*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/363431029484027904"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/363431029484027904/a2a790eb5754e91c9520b9a9780d3996.png?size=1024&keep_aspect_ratio=true");
+}
 /*Holodrive*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/346729383693778944"]) .header-3jUeHi:before {
     background-image: url("https://cdn.discordapp.com/app-icons/346729383693778944/6cdb4aa7c56e6b92f226888ebfe32a17.png?size=1024&keep_aspect_ratio=true");
 }
+/*Insurgency: Sandstorm*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/484892481452769290"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/484892481452769290/fb066d6e3673b510ff0d8b0e0c53a6fd.png?size=1024&keep_aspect_ratio=true");
+}
 /*METAL GEAR RISING: REVENGEANCE*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/460788999880179722"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/460788999880179722/51458eeaebd9b36e5afb745376985205.png?size=1024&keep_aspect_ratio=true");
+}
+/*METAL GEAR SOLID V: THE PHANTOM PAIN*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/363425113879609344"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/363425113879609344/e4dc09c5e238c00d3a140ce0fe3f240a.png?size=1024&keep_aspect_ratio=true");
 }
 /*Minecraft*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/356875570916753438"]) .header-3jUeHi:before {
     background-image: url("https://cdn.discordapp.com/attachments/1120528558255779882/1120544713007710318/minecraft.png");
@@ -5283,6 +5270,9 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 /*Stardew Valley*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/359509387670192128"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/359509387670192128/81ff372fbd0557b8908331db0ae94524.png?size=1024&keep_aspect_ratio=true");
+}
+/*Stick Fight: The Game*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/488693576314650634"]) .header-3jUeHi:before {
+    background-image: url("http://cdn.discordapp.com/app-icons/488693576314650634/569d516313c9535527d7a88314f56686.png?size=1024&keep_aspect_ratio=true");
 }
 /*Team Fortress 2*/.nowPlayingColumn-1eCBCN .itemCard-3Etziu:has([src*="/app-icons/356888577310851072"]) .header-3jUeHi:before {
     background-image: url("http://cdn.discordapp.com/app-icons/356888577310851072/a109376e705e71ab44e7d2d966cecc35.png?size=1024&keep_aspect_ratio=true");
@@ -9156,6 +9146,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 }
 .participantsWrapperAnimated-2Wdxe1 .tile-2TcwiO {
     border-radius: 3px;
+    overflow: visible;
 }
 
 .participantsWrapperAnimated-2Wdxe1 .tile-2TcwiO .avatarWrapper-24Rbpj,
@@ -9167,11 +9158,12 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     mask: none;
 }
 
-.participantsWrapperAnimated-2Wdxe1 .overlay-2RIWoZ {
-    top: 0;
+.participantsWrapperAnimated-2Wdxe1 .overlayBottom-3aKRJM {
+    top: -5px;
     bottom: unset;
     left: unset;
-    padding: 2px;
+    right: -5px;
+    padding: 0;
 }
 .participantsWrapperAnimated-2Wdxe1 .overlayTitle-2efoIF,
 .participantsWrapperAnimated-2Wdxe1 .liveIndicator-1_RyZS {
@@ -9181,17 +9173,26 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     d: path("M17,10.5 L17,7 C17,6.45 16.55,6 16,6 L4,6 C3.45,6 3,6.45 3,7 L3,17 C3,17.55 3.45,18 4,18 L16,18 C16.55,18 17,17.55 17,17 L17,13.5 L21,17.5 L21,6.5 L17,10.5 Z");
     fill: var(--interactive-hover);
 }
-.status-15kcmy {
+.participantsWrapperAnimated-2Wdxe1 .content-3u3YYB {
+    overflow: visible;
+}
+.participantsWrapperAnimated-2Wdxe1 .background-L8lGH6 {
+    background: transparent !important;
+}
+.participantsWrapperAnimated-2Wdxe1 .content-3u3YYB .avatarStack-3Bjmsl img {
+    border-radius: 4px;
+}
+
+.participantsWrapperAnimated-2Wdxe1 .status-15kcmy {
     width: 16px;
     height: 16px;
 }
-.border-2Vy6FN {
-    display: none;
-    box-shadow: inset 0 0 0 2px var(--brand-500);
+.participantsWrapperAnimated-2Wdxe1 .border-2Vy6FN {
+    box-shadow: inset 0 0 0 2px var(--brand-experiment);
     transition: .4s ease !important;
 }
 .border-2Vy6FN.speaking-7QZEkv {
-    box-shadow: inset 0 0 0 2px var(--status-green-600);
+    box-shadow: inset 0 0 0 2px var(--status-positive);
 }
 .participantsWrapperAnimated-2Wdxe1 .border-2Vy6FN {
     display: unset;

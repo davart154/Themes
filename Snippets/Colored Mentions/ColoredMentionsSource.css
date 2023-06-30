@@ -36,6 +36,6 @@
     background: currentColor;
     opacity: 0.1;
 }
-.roleMention-11Aaqi ~ [class*="ention"]:before, .roleMention-11Aaqi ~ [class*="ention"].roleMention-11Aaqi:after, .repliedMessage-3Z6XBG [class*="ention"]:before, .repliedMessage-3Z6XBG [class*="ention"]:after, .hasReply-2Cr4KE .mention:before, .hasReply-2Cr4KE .mention:after, .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:before, .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:after, .mentioned-Tre-dv:has([class*="mention"]):before, .mentioned-Tre-dv:has([class*="ention"]):after {
-    content: unset;
+.roleMention-11Aaqi ~ [class*="ention"]:before, .roleMention-11Aaqi ~ [class*="ention"].roleMention-11Aaqi:after, .repliedMessage-3Z6XBG [class*="ention"]:before, .repliedMessage-3Z6XBG [class*="ention"]:after, .hasReply-2Cr4KE .mention:before, .hasReply-2Cr4KE .mention:after, .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:before, .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:after, .mentioned-Tre-dv:has([class*="ention"]):before, .mentioned-Tre-dv:has([class*="ention"]):after {
+    content: unset !important;
 }

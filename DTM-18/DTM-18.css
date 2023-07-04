@@ -11389,18 +11389,50 @@ rect[mask*="dnd"],
 .tools-kIrEGr {
     z-index: 101;
 }
-.sidebar-nqHbhN::before {
+@keyframes errorNoticeSidebarAnim {
+    0% {
+        transform: translateY(70px);
+    }
+    33% {
+        transform: translateY(-10px);
+    }
+    75% {
+        transform: translateY(5px);
+    }
+    to {
+        transform: none;
+    }
+}
+.standardSidebarView-E9Pc3j::before {
+    animation: errorNoticeSidebarAnim .42s 1s ease forwards;
+    transform: translateY(70px);
     content: "Hang tight, Vencord and Replugged users! Something went wrong with the sidebar, and a fix will be pushed out soon.";
-    background-color: var(--info-warning-background);
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: var(--background-secondary-alt);
     border: 1px solid var(--info-warning-foreground);
     border-radius: 4px;
-    padding: 8px;
-    margin-bottom: 20px;
+    padding: 16px;
     color: var(--info-warning-text);
     font-size: 13px;
     line-height: 16px;
     font-weight: 500;
     display: block;
+    z-index: 9998;
+    transition: opacity .4s ease;
+    pointer-events: none;
+}
+.toolsContainer-25FL6V + div {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px !important;
+    bottom: 20px;
+    pointer-events: all !important;
+}
+.standardSidebarView-E9Pc3j:has(.toolsContainer-25FL6V + div:hover)::before {
+    opacity: 0.4;
 }
 /*Tabs*/
 .side-1lrxIh:has(.item-2GWPIy:is([aria-label="Min konto"],[aria-label="Mein Account"],[aria-label="My Account"],[aria-label="Mi cuenta"],[aria-label="Mon compte"],[aria-label="Moj račun"],[aria-label="Il mio account"],[aria-label="Mano Paskyra"],[aria-label="Saját fiók"],[aria-label="Mijn account"],[aria-label="Min konto"],[aria-label="Moje konto"],[aria-label="Minha conta"],[aria-label="Contul meu"],[aria-label="Tilini"],[aria-label="Mitt konto"],[aria-label="Tài Khoản Của Tôi"],[aria-label="Hesabım"],[aria-label="Můj účet"],[aria-label="Ο λογαριασμός μου"],[aria-label="Моят акаунт"],[aria-label="Моя учётная запись"],[aria-label="Мій акаунт"],[aria-label="मेरा अकाउंट"],[aria-label="บัญชีของฉัน"],[aria-label="我的账号"],[aria-label="マイアカウント"],[aria-label="我的帳號"],[aria-label="내 계정"])) .header-2F5_LB:nth-child(1) {

@@ -11389,6 +11389,19 @@ rect[mask*="dnd"],
 .tools-kIrEGr {
     z-index: 101;
 }
+.sidebar-nqHbhN::before {
+    content: "Hang tight, Vencord and Replugged users! Something went wrong with the sidebar, and a fix will be pushed out soon.";
+    background-color: var(--info-warning-background);
+    border: 1px solid var(--info-warning-foreground);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 0 0 20px 10px;
+    color: var(--info-warning-text);
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    display: block;
+}
 /*Tabs*/
 .side-1lrxIh:has(.item-2GWPIy:is([aria-label="Min konto"],[aria-label="Mein Account"],[aria-label="My Account"],[aria-label="Mi cuenta"],[aria-label="Mon compte"],[aria-label="Moj račun"],[aria-label="Il mio account"],[aria-label="Mano Paskyra"],[aria-label="Saját fiók"],[aria-label="Mijn account"],[aria-label="Min konto"],[aria-label="Moje konto"],[aria-label="Minha conta"],[aria-label="Contul meu"],[aria-label="Tilini"],[aria-label="Mitt konto"],[aria-label="Tài Khoản Của Tôi"],[aria-label="Hesabım"],[aria-label="Můj účet"],[aria-label="Ο λογαριασμός μου"],[aria-label="Моят акаунт"],[aria-label="Моя учётная запись"],[aria-label="Мій акаунт"],[aria-label="मेरा अकाउंट"],[aria-label="บัญชีของฉัน"],[aria-label="我的账号"],[aria-label="マイアカウント"],[aria-label="我的帳號"],[aria-label="내 계정"])) .header-2F5_LB:nth-child(1) {
     order: 1;
@@ -11538,9 +11551,6 @@ html:is(.platform-win,.platform-linux) .side-1lrxIh:not(:has(.poggermodeIcon-3Z9
 html:is(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy {
     order: 33;
 }
-.separator-2N511j:has(+ .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]) {
-    order: 993;
-}
 /*BetterDiscord*/.separator-2N511j:has(+ [class^="bd"]) {
     order: 800;
 }
@@ -11552,6 +11562,9 @@ html:is(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermode
 }
 .themerepo-tab {
     order: 803;
+}
+.separator-2N511j:has(+ .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]) {
+    order: 993;
 }
 /*Changelog*/.side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]) {
     order: 994;

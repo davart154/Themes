@@ -11395,7 +11395,7 @@ rect[mask*="dnd"],
     border: 1px solid var(--info-warning-foreground);
     border-radius: 4px;
     padding: 8px;
-    margin: 0 0 20px 10px;
+    margin-bottom: 20px;
     color: var(--info-warning-text);
     font-size: 13px;
     line-height: 16px;

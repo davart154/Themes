@@ -1,7 +1,7 @@
 /**
 * @name DTM-18
 * @author dav#8444
-* @version 1 Open Beta
+* @version 1
 * @description Aims to recreate the 2018 Discord style.
 * @authorId 490604571824226306
 * @source https://github.com/davart154/DTM-18/blob/main/dtm-18.css
@@ -177,6 +177,12 @@ body:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-
 }
 #app-mount:has(.layer-fP3xEz .theme-light .container-1Lk8p7 .error-30KkHs + .input-m1-Y7Q .input-3O04eu[value="playstation 2"]) .focusLock-bHVOlV {
     animation: egg_ps2_focusLock 17s, egg_ps2_focusLockrotate 13.6s ease-in;
+}
+
+.preview-QJ3OG3:after {
+    background: url(https://cdn.discordapp.com/attachments/1127830821903007776/1127830873350352937/luigi_dance.gif);
+    background-size: 100% 173px;
+    z-index: 1;
 }
 
 /*Tooltip*/
@@ -965,14 +971,237 @@ mask > use[href$="lower_badge_masks"] {
     line-height: 20px;
     font-weight: 400;
     font-style: italic;
-    content: "Gathering the easter eggs";
+    content: "";
 }
 .tipTitle-3FYEQp:after {
     color: #72767d;
     font-size: 12px;
     line-height: 14px;
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Gathering the easter eggs";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by dav#8444";
 }
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "*Elevator Music Plays*";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Luminosity48";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "A brawl is surely brewing!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MemeMasterMeme";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "A brawl is surely brewing!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MemeMasterMeme";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Wobbling to 299%";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @belchicola";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "DISCORD REQUIRES MORE MINERALS";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @LeAwesomeRohan";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "TIME'S UP - LET'S DO THIS!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @RobertAWing";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#g"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "They see me loading, They waiting";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#g"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @boomer_cherry";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#h"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Start your engines";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#h"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @CollegeCarball";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#i"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Skipping cutscenes";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#i"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @TOOMANYENEMIES";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#j"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Shuffling the deck";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#j"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MrSwats";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#k"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Reviving dead memes";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#k"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Fqdez_Awqy";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#l"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Returning the slab";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#l"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @megoon_pleb";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#m"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Recombobulating Discombobulators";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#m"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @HelixVexium";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#n"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "now with scratch and sniff";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#n"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @hahahahahapizza";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#o"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Looking for the power button";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#o"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Skizz289";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#p"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Look behind you";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#p"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Lyemug";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#q"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Locating Wumpus";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#q"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @BetaAnalysis";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#r"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Calibrating flux capacitors";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#r"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @ItsChiefGrief";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#s"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "LOADING 001: ARP 303 Saw";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#s"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @VITICZ";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#t"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Are we there yet?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#t"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @HeadlessHorror";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#u"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Assembling Voltron";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#u"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @ash_10saller";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#v"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Buckle up!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#v"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @wulf_tfk";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#w"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Charging Limit Break";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#w"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @ChronWriter3511";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#x"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Charging spirit bomb";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#x"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @marou_sama";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#y"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Disconnecting from Reality";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#y"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @HeyitWilliamHYT";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#z"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Discord is my city";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#z"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @SniperHeat112";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Opening the loading bay doors";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @PizzablawkCP";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Do you even notice these?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Bion234";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Loading Simulation";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Jehbrielle";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Jumping to hyperspace";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Canton_NS";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Is this thing on?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Ahzzey_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Initiating launch sequence";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Steven_Fix";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "I swear it's around here somewhere...";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Pyrdrex_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "i need healing";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @tearybunnie";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "how do i turn this thing on";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @asdfghjklibbyx";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Loading machine broke";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @BOOK_FREE_";
+}
+
 .tip-1AwED_ {
     font-size: 0;
     line-height: 0;
@@ -1750,40 +1979,40 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     opacity: 0.4 !important;
 }
 /*Mini Age Restricted Icon*/
-[d="M19.8914 3.80204L22.2438 8.55654C22.5726 9.22119 22.0891 9.99999 21.3475 10L16.6179 10C15.8745 10 15.391 9.21769 15.7235 8.55279L18.1007 3.79829C18.4701 3.05951 19.5251 3.06172 19.8914 3.80204ZM18.4998 5H19.4999V7.5H18.4999L18.4998 5ZM18.4998 8.49887C18.4998 8.77589 18.7238 9 18.9998 9C19.2759 9 19.4999 8.77589 19.4999 8.49887C19.4999 8.22224 19.2759 7.99773 18.9998 7.99773C18.7238 7.99773 18.4998 8.22224 18.4998 8.49887Z"],
-[d="M22.8093 8.55658L20.4681 3.80208C20.1036 3.06176 19.0536 3.05954 18.686 3.79833L16.3201 8.55283C15.9893 9.21773 16.4705 10 17.2103 10L21.9173 10C22.6553 10 23.1365 9.22122 22.8093 8.55658ZM20.0785 5.00004H19.0832L19.0833 7.50004H20.0785V5.00004ZM19.5808 9.00004C19.3061 9.00004 19.0832 8.77593 19.0832 8.49891C19.0832 8.22228 19.3061 7.99777 19.5808 7.99777C19.8555 7.99777 20.0785 8.22228 20.0785 8.49891C20.0785 8.77593 19.8555 9.00004 19.5808 9.00004Z"],
-[d="M19.8916 3.80204L22.2439 8.55654C22.5728 9.22119 22.0892 9.99999 21.3476 10L16.618 10C15.8746 10 15.3912 9.21769 15.7236 8.55279L18.1008 3.79829C18.4702 3.05951 19.5253 3.06172 19.8916 3.80204ZM18.4999 5H19.5V7.5H18.5L18.4999 5ZM18.4999 8.49887C18.4999 8.77589 18.724 9 19 9C19.276 9 19.5 8.77589 19.5 8.49887C19.5 8.22224 19.276 7.99773 19 7.99773C18.724 7.99773 18.4999 8.22224 18.4999 8.49887Z"],
-[d="M20.4683 4.76211L22.8094 9.51661C23.1366 10.1813 22.6554 10.9601 21.9174 10.9601L17.2104 10.9601C16.4706 10.9601 15.9894 10.1778 16.3203 9.51286L18.6861 4.75836C19.0537 4.01957 20.1037 4.02179 20.4683 4.76211ZM19.0833 5.96007H20.0786V8.46007H19.0834L19.0833 5.96007ZM19.0833 9.45894C19.0833 9.73596 19.3063 9.96007 19.5809 9.96007C19.8556 9.96007 20.0786 9.73596 20.0786 9.45894C20.0786 9.18231 19.8556 8.9578 19.5809 8.9578C19.3063 8.9578 19.0833 9.18231 19.0833 9.45894Z"],
-[d="M20.4681 4.76205L22.8092 9.51655C23.1365 10.1812 22.6552 10.96 21.9172 10.96L17.2103 10.96C16.4705 10.96 15.9893 10.1777 16.3201 9.5128L18.686 4.75829C19.0536 4.01951 20.1036 4.02173 20.4681 4.76205ZM19.0832 5.96001H20.0785V8.46001H19.0832L19.0832 5.96001ZM19.0832 9.45888C19.0832 9.7359 19.3061 9.96001 19.5808 9.96001C19.8555 9.96001 20.0784 9.7359 20.0784 9.45888C20.0784 9.18225 19.8555 8.95774 19.5808 8.95774C19.3061 8.95774 19.0832 9.18225 19.0832 9.45888Z"] {
+.link-1_kTxV [d="M19.8914 3.80204L22.2438 8.55654C22.5726 9.22119 22.0891 9.99999 21.3475 10L16.6179 10C15.8745 10 15.391 9.21769 15.7235 8.55279L18.1007 3.79829C18.4701 3.05951 19.5251 3.06172 19.8914 3.80204ZM18.4998 5H19.4999V7.5H18.4999L18.4998 5ZM18.4998 8.49887C18.4998 8.77589 18.7238 9 18.9998 9C19.2759 9 19.4999 8.77589 19.4999 8.49887C19.4999 8.22224 19.2759 7.99773 18.9998 7.99773C18.7238 7.99773 18.4998 8.22224 18.4998 8.49887Z"],
+.link-1_kTxV [d="M22.8093 8.55658L20.4681 3.80208C20.1036 3.06176 19.0536 3.05954 18.686 3.79833L16.3201 8.55283C15.9893 9.21773 16.4705 10 17.2103 10L21.9173 10C22.6553 10 23.1365 9.22122 22.8093 8.55658ZM20.0785 5.00004H19.0832L19.0833 7.50004H20.0785V5.00004ZM19.5808 9.00004C19.3061 9.00004 19.0832 8.77593 19.0832 8.49891C19.0832 8.22228 19.3061 7.99777 19.5808 7.99777C19.8555 7.99777 20.0785 8.22228 20.0785 8.49891C20.0785 8.77593 19.8555 9.00004 19.5808 9.00004Z"],
+.link-1_kTxV [d="M19.8916 3.80204L22.2439 8.55654C22.5728 9.22119 22.0892 9.99999 21.3476 10L16.618 10C15.8746 10 15.3912 9.21769 15.7236 8.55279L18.1008 3.79829C18.4702 3.05951 19.5253 3.06172 19.8916 3.80204ZM18.4999 5H19.5V7.5H18.5L18.4999 5ZM18.4999 8.49887C18.4999 8.77589 18.724 9 19 9C19.276 9 19.5 8.77589 19.5 8.49887C19.5 8.22224 19.276 7.99773 19 7.99773C18.724 7.99773 18.4999 8.22224 18.4999 8.49887Z"],
+.link-1_kTxV [d="M20.4683 4.76211L22.8094 9.51661C23.1366 10.1813 22.6554 10.9601 21.9174 10.9601L17.2104 10.9601C16.4706 10.9601 15.9894 10.1778 16.3203 9.51286L18.6861 4.75836C19.0537 4.01957 20.1037 4.02179 20.4683 4.76211ZM19.0833 5.96007H20.0786V8.46007H19.0834L19.0833 5.96007ZM19.0833 9.45894C19.0833 9.73596 19.3063 9.96007 19.5809 9.96007C19.8556 9.96007 20.0786 9.73596 20.0786 9.45894C20.0786 9.18231 19.8556 8.9578 19.5809 8.9578C19.3063 8.9578 19.0833 9.18231 19.0833 9.45894Z"],
+.link-1_kTxV [d="M20.4681 4.76205L22.8092 9.51655C23.1365 10.1812 22.6552 10.96 21.9172 10.96L17.2103 10.96C16.4705 10.96 15.9893 10.1777 16.3201 9.5128L18.686 4.75829C19.0536 4.01951 20.1036 4.02173 20.4681 4.76205ZM19.0832 5.96001H20.0785V8.46001H19.0832L19.0832 5.96001ZM19.0832 9.45888C19.0832 9.7359 19.3061 9.96001 19.5808 9.96001C19.8555 9.96001 20.0784 9.7359 20.0784 9.45888C20.0784 9.18225 19.8555 8.95774 19.5808 8.95774C19.3061 8.95774 19.0832 9.18225 19.0832 9.45888Z"] {
     d: path("M14.625 12 22.875 12 22.875 12C23.4963 12 24 11.4963 24 10.875L24 10.0749 24 10.0749C24 9.8608 23.9542 9.6491 23.8655 9.4542L20.6497 2.3793 20.6497 2.3793C20.4063 1.8438 19.8723 1.5 19.2841 1.5L18.2159 1.5 18.2159 1.5C17.6277 1.5 17.0937 1.8438 16.8503 2.3793L13.6345 9.4542 13.6345 9.4542C13.5458 9.6491 13.5 9.8608 13.5 10.0749L13.5 10.875 13.5 10.875C13.5 11.4963 14.0037 12 14.625 12ZM19.5 10.5 18 10.5 18 9 19.5 9 19.5 10.5ZM19.5 7.4418 18 7.4418 18 4.5 19.5 4.5 19.5 7.4418Z");
     opacity: 0.4 !important;
 }
 /*Mini Thread Icon*/
-[d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z"],
-[d="M13.44 12.9599C12.9098 12.9599 12.48 13.3897 12.48 13.9199V20.2212C12.48 20.7514 12.9098 21.1812 13.44 21.1812H14.4C14.5326 21.1812 14.64 21.2886 14.64 21.4212V23.4597C14.64 23.6677 14.8866 23.7772 15.0409 23.6377L17.4859 21.4289C17.6623 21.2694 17.8917 21.1812 18.1294 21.1812H22.56C23.0902 21.1812 23.52 20.7514 23.52 20.2212V13.9199C23.52 13.3897 23.0902 12.9599 22.56 12.9599H13.44Z"],
-[d="M12.48 13.92C12.48 13.3898 12.9098 12.96 13.44 12.96H22.56C23.0902 12.96 23.52 13.3898 23.52 13.92V20.2213C23.52 20.7515 23.0902 21.1813 22.56 21.1813H18.1294C17.8917 21.1813 17.6623 21.2695 17.4859 21.4289L15.0409 23.6378C14.8866 23.7773 14.64 23.6677 14.64 23.4597V21.4213C14.64 21.2887 14.5326 21.1813 14.4 21.1813H13.44C12.9098 21.1813 12.48 20.7515 12.48 20.2213V13.92Z"],
-[d="M12.48 13.92C12.48 13.3898 12.9098 12.96 13.44 12.96H22.56C23.0901 12.96 23.52 13.3898 23.52 13.92V20.2213C23.52 20.7514 23.0901 21.1813 22.56 21.1813H18.1294C17.8916 21.1813 17.6623 21.2695 17.4858 21.4289L15.0408 23.6378C14.8865 23.7772 14.64 23.6677 14.64 23.4597V21.4213C14.64 21.2887 14.5325 21.1813 14.4 21.1813H13.44C12.9098 21.1813 12.48 20.7514 12.48 20.2213V13.92Z"],
-[d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5326 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8866 23.7773 15.0409 23.6378L17.4859 21.4289C17.6623 21.2695 17.8917 21.1813 18.1294 21.1813H22.56C23.0902 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0902 12.96 22.56 12.96H13.44Z"],
-[d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5325 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6623 21.2695 17.8916 21.1813 18.1294 21.1813H22.56C23.0901 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0901 12.96 22.56 12.96H13.44Z"] {
+.link-1_kTxV [d="M13.4399 12.96C12.9097 12.96 12.4799 13.3898 12.4799 13.92V20.2213C12.4799 20.7515 12.9097 21.1813 13.4399 21.1813H14.3999C14.5325 21.1813 14.6399 21.2887 14.6399 21.4213V23.4597C14.6399 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6622 21.2695 17.8916 21.1813 18.1294 21.1813H22.5599C23.0901 21.1813 23.5199 20.7515 23.5199 20.2213V13.92C23.5199 13.3898 23.0901 12.96 22.5599 12.96H13.4399Z"],
+.link-1_kTxV [d="M13.44 12.9599C12.9098 12.9599 12.48 13.3897 12.48 13.9199V20.2212C12.48 20.7514 12.9098 21.1812 13.44 21.1812H14.4C14.5326 21.1812 14.64 21.2886 14.64 21.4212V23.4597C14.64 23.6677 14.8866 23.7772 15.0409 23.6377L17.4859 21.4289C17.6623 21.2694 17.8917 21.1812 18.1294 21.1812H22.56C23.0902 21.1812 23.52 20.7514 23.52 20.2212V13.9199C23.52 13.3897 23.0902 12.9599 22.56 12.9599H13.44Z"],
+.link-1_kTxV [d="M12.48 13.92C12.48 13.3898 12.9098 12.96 13.44 12.96H22.56C23.0902 12.96 23.52 13.3898 23.52 13.92V20.2213C23.52 20.7515 23.0902 21.1813 22.56 21.1813H18.1294C17.8917 21.1813 17.6623 21.2695 17.4859 21.4289L15.0409 23.6378C14.8866 23.7773 14.64 23.6677 14.64 23.4597V21.4213C14.64 21.2887 14.5326 21.1813 14.4 21.1813H13.44C12.9098 21.1813 12.48 20.7515 12.48 20.2213V13.92Z"],
+.link-1_kTxV [d="M12.48 13.92C12.48 13.3898 12.9098 12.96 13.44 12.96H22.56C23.0901 12.96 23.52 13.3898 23.52 13.92V20.2213C23.52 20.7514 23.0901 21.1813 22.56 21.1813H18.1294C17.8916 21.1813 17.6623 21.2695 17.4858 21.4289L15.0408 23.6378C14.8865 23.7772 14.64 23.6677 14.64 23.4597V21.4213C14.64 21.2887 14.5325 21.1813 14.4 21.1813H13.44C12.9098 21.1813 12.48 20.7514 12.48 20.2213V13.92Z"],
+.link-1_kTxV [d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5326 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8866 23.7773 15.0409 23.6378L17.4859 21.4289C17.6623 21.2695 17.8917 21.1813 18.1294 21.1813H22.56C23.0902 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0902 12.96 22.56 12.96H13.44Z"],
+.link-1_kTxV [d="M13.44 12.96C12.9098 12.96 12.48 13.3898 12.48 13.92V20.2213C12.48 20.7515 12.9098 21.1813 13.44 21.1813H14.4C14.5325 21.1813 14.64 21.2887 14.64 21.4213V23.4597C14.64 23.6677 14.8865 23.7773 15.0408 23.6378L17.4858 21.4289C17.6623 21.2695 17.8916 21.1813 18.1294 21.1813H22.56C23.0901 21.1813 23.52 20.7515 23.52 20.2213V13.92C23.52 13.3898 23.0901 12.96 22.56 12.96H13.44Z"] {
     d: path("M15 15.06C15 14.22 15.675 13.5 16.35 13.5H22.5375C23.5701 13.5 24 14.22 24 14.94V20.06C24 20.78 23.5701 21.5 22.5375 21.5H18.1294C17.8916 21.6813 17.6623 21.7695 17.4858 21.9289L15 24.5V15.06Z");
     opacity: 0.4 !important;
 }
 
 /*Text Icon*/
 /*Is Locked or ARC*/
-[d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 10.1845 3 9.87344 3H8.88907C8.64664 3 8.43914 3.17391 8.39677 3.41262L7.76001 7H4.18011C3.93722 7 3.72946 7.17456 3.68759 7.41381L3.51259 8.41381C3.45905 8.71977 3.69449 9 4.00511 9H7.41001L6.35001 15H2.77011C2.52722 15 2.31946 15.1746 2.27759 15.4138L2.10259 16.4138C2.04905 16.7198 2.28449 17 2.59511 17H6.00001L5.39427 20.4126C5.3399 20.7189 5.57547 21 5.88657 21H6.87094C7.11337 21 7.32088 20.8261 7.36325 20.5874L8.00001 17H14L13.3943 20.4126C13.3399 20.7189 13.5755 21 13.8866 21H14.8709C15.1134 21 15.3209 20.8261 15.3632 20.5874L16 17H19.5799C19.8228 17 20.0306 16.8254 20.0724 16.5862L20.2474 15.5862C20.301 15.2802 20.0655 15 19.7549 15H16.35L16.6758 13.1558C16.7823 12.5529 16.3186 12 15.7063 12C15.2286 12 14.8199 12.3429 14.7368 12.8133L14.3504 15H8.35045L9.41045 9H13C13.5523 9 14 8.55228 14 8Z"] {
+.link-1_kTxV [d="M14 8C14 7.44772 13.5523 7 13 7H9.76001L10.3657 3.58738C10.4201 3.28107 10.1845 3 9.87344 3H8.88907C8.64664 3 8.43914 3.17391 8.39677 3.41262L7.76001 7H4.18011C3.93722 7 3.72946 7.17456 3.68759 7.41381L3.51259 8.41381C3.45905 8.71977 3.69449 9 4.00511 9H7.41001L6.35001 15H2.77011C2.52722 15 2.31946 15.1746 2.27759 15.4138L2.10259 16.4138C2.04905 16.7198 2.28449 17 2.59511 17H6.00001L5.39427 20.4126C5.3399 20.7189 5.57547 21 5.88657 21H6.87094C7.11337 21 7.32088 20.8261 7.36325 20.5874L8.00001 17H14L13.3943 20.4126C13.3399 20.7189 13.5755 21 13.8866 21H14.8709C15.1134 21 15.3209 20.8261 15.3632 20.5874L16 17H19.5799C19.8228 17 20.0306 16.8254 20.0724 16.5862L20.2474 15.5862C20.301 15.2802 20.0655 15 19.7549 15H16.35L16.6758 13.1558C16.7823 12.5529 16.3186 12 15.7063 12C15.2286 12 14.8199 12.3429 14.7368 12.8133L14.3504 15H8.35045L9.41045 9H13C13.5523 9 14 8.55228 14 8Z"] {
     d: path("M11.88 7 9.76 7 10.47 3 8.47 3 7.76 7 3.76 7 3.41 9 7.41 9 6.35 15 2.35 15 2 17 6 17 5.29 21 7.29 21 8 17 14 17 13.29 21 15.29 21 16 17 20 17 20.35 15 18.35 15 13.115 15 8.35 15 9.41 9 11.88 9 11.88 7Z");
     opacity: 0.15 !important;
 }
 /*Has Thread*/
-[d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z"] {
+.link-1_kTxV [d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z"] {
     d: path("M5.4331 21C5.3584 21 5.3019 20.9325 5.3149 20.859L5.9999 17H2.1427C2.0682 17 2.0117 16.9327 2.0245 16.8593L2.3325 15.0993C2.3426 15.0419 2.3924 15 2.4507 15H6.3499L7.4099 9H3.5527C3.4782 9 3.4217 8.9327 3.4345 8.8593L3.7425 7.0993C3.7526 7.0419 3.8024 7 3.8607 7H7.7599L8.4523 3.099C8.4625 3.0417 8.5123 3 8.5705 3H10.3267C10.4014 3 10.4579 3.0675 10.4449 3.141L9.7599 7H15.7599L16.4523 3.099C16.4625 3.0417 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.0675 18.4449 3.141L17.7599 7H21.6171C21.6916 7 21.7481 7.0672 21.7353 7.1407L21.4273 8.9007C21.4172 8.9581 21.3674 9 21.3091 9H9.4103L8.3504 15H12V17H7.9999L7.3075 20.901C7.2973 20.9583 7.2475 21 7.1893 21H5.4331Z");
 }
 .link-1_kTxV [d="M5.43309 21C5.35842 21 5.30189 20.9325 5.31494 20.859L5.99991 17H2.14274C2.06819 17 2.01168 16.9327 2.02453 16.8593L2.33253 15.0993C2.34258 15.0419 2.39244 15 2.45074 15H6.34991L7.40991 9H3.55274C3.47819 9 3.42168 8.93274 3.43453 8.85931L3.74253 7.09931C3.75258 7.04189 3.80244 7 3.86074 7H7.75991L8.45234 3.09903C8.46251 3.04174 8.51231 3 8.57049 3H10.3267C10.4014 3 10.4579 3.06746 10.4449 3.14097L9.75991 7H15.7599L16.4523 3.09903C16.4625 3.04174 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.06746 18.4449 3.14097L17.7599 7H21.6171C21.6916 7 21.7481 7.06725 21.7353 7.14069L21.4273 8.90069C21.4172 8.95811 21.3674 9 21.3091 9H17.4099L17.0495 11.04H15.05L15.4104 9H9.41035L8.35035 15H10.5599V17H7.99991L7.30749 20.901C7.29732 20.9583 7.24752 21 7.18934 21H5.43309Z"] {
     opacity: 0.15 !important;
 }
 /*Has Locked / ARC and Thread*/
-[d="M15.44 6.99992C15.5725 6.99992 15.68 7.10737 15.68 7.23992V8.75992C15.68 8.89247 15.5725 8.99992 15.44 8.99992H9.41045L8.35045 14.9999H10.56V16.9999H8.00001L7.36325 20.5873C7.32088 20.826 7.11337 20.9999 6.87094 20.9999H5.88657C5.57547 20.9999 5.3399 20.7189 5.39427 20.4125L6.00001 16.9999H2.59511C2.28449 16.9999 2.04905 16.7197 2.10259 16.4137L2.27759 15.4137C2.31946 15.1745 2.52722 14.9999 2.77011 14.9999H6.35001L7.41001 8.99992H4.00511C3.69449 8.99992 3.45905 8.71969 3.51259 8.41373L3.68759 7.41373C3.72946 7.17448 3.93722 6.99992 4.18011 6.99992H7.76001L8.39677 3.41254C8.43914 3.17384 8.64664 2.99992 8.88907 2.99992H9.87344C10.1845 2.99992 10.4201 3.28099 10.3657 3.58731L9.76001 6.99992H15.44Z"] {
+.link-1_kTxV [d="M15.44 6.99992C15.5725 6.99992 15.68 7.10737 15.68 7.23992V8.75992C15.68 8.89247 15.5725 8.99992 15.44 8.99992H9.41045L8.35045 14.9999H10.56V16.9999H8.00001L7.36325 20.5873C7.32088 20.826 7.11337 20.9999 6.87094 20.9999H5.88657C5.57547 20.9999 5.3399 20.7189 5.39427 20.4125L6.00001 16.9999H2.59511C2.28449 16.9999 2.04905 16.7197 2.10259 16.4137L2.27759 15.4137C2.31946 15.1745 2.52722 14.9999 2.77011 14.9999H6.35001L7.41001 8.99992H4.00511C3.69449 8.99992 3.45905 8.71969 3.51259 8.41373L3.68759 7.41373C3.72946 7.17448 3.93722 6.99992 4.18011 6.99992H7.76001L8.39677 3.41254C8.43914 3.17384 8.64664 2.99992 8.88907 2.99992H9.87344C10.1845 2.99992 10.4201 3.28099 10.3657 3.58731L9.76001 6.99992H15.44Z"] {
     d: path("M11.88 7 9.76 7 10.47 3 8.47 3 7.76 7 3.76 7 3.41 9 7.41 9 6.35 15 2.35 15 2 17 6 17 5.29 21 7.29 21 8 17 12 17 12 15 8.35 15 9.41 9 11.88 9 11.88 7Z");
     opacity: 0.15 !important;
 }
@@ -1917,8 +2146,8 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 }
 
 /*VC Tab BG*/
-.wrapper-NhbLHG:has([d^="M11.383 3.07904C11.009 2.92504"], [d^="M15 12C15 12.0007 15 12.0013"]):hover:not(:active) .link-1_kTxV,
-.voiceUser-3nRK-K:hover:not(:active) .content-1Tgc42 {
+.wrapper-NhbLHG:has([d^="M11.383 3.07904C11.009 2.92504"], [d^="M15 12C15 12.0007 15 12.0013"]):not(:active) .link-1_kTxV,
+.voiceUser-3nRK-K:not(:active) .content-1Tgc42 {
     background: none !important;
 }
  

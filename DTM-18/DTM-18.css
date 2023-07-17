@@ -6,7 +6,6 @@
 * @authorId 490604571824226306
 * @source https://github.com/davart154/DTM-18/blob/main/dtm-18.css
 */
-
 /*Easter Eggs
    - Move These Somewhere else
 */
@@ -958,6 +957,220 @@ mask > use[href$="lower_badge_masks"] {
 /*QR Code*/
 
 /*Loading Screen*/
+.ready-3BZNWT {
+    display: none;
+}
+.container-2RRFHK .content-3AIQZv:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background: url(https://cdn.discordapp.com/attachments/1129536164362203266/1129585706038198302/loadingframes_dark.png);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    mix-blend-mode: lighten;
+    animation: logoSpin 1.06666667s infinite linear;
+    -webkit-mask: linear-gradient(90deg, transparent 40px, black 40px, black calc(100% - 40px), transparent calc(100% - 40px));
+}
+@keyframes logoSpin {
+    0%, 1.5624% {
+        background-position: 0 0;
+    }
+    1.5625%, 3.1249% {
+        background-position: -200px 0;
+    }
+    3.125%, 4.6874% {
+        background-position: -400px 0;
+    }
+    4.6875%, 6.2499% {
+        background-position: -600px 0;
+    }
+    6.25%, 7.8124% {
+        background-position: -800px 0;
+    }
+    7.8125%, 9.3749% {
+        background-position: -1000px 0;
+    }
+    9.375%, 10.9374% {
+        background-position: -1200px 0;
+    }
+    10.9375%, 12.4999% {
+        background-position: -1400px 0;
+    }
+    12.5%, 14.0624% {
+        background-position: 0 -200px;
+    }
+    14.0625%, 15.624% {
+        background-position: -200px -200px;
+    }
+    15.625%, 17.1874% {
+        background-position: -400px -200px;
+    }
+    17.1875%, 18.7499% {
+        background-position: -600px -200px;
+    }
+    18.75%, 20.3124% {
+        background-position: -800px -200px;
+    }
+    20.3125%, 21.8749% {
+        background-position: -1000px -200px;
+    }
+    21.875%, 23.4374% {
+        background-position: -1200px -200px;
+    }
+    23.4375%, 24.9999% {
+        background-position: -1400px -200px;
+    }
+    25%, 26.5624% {
+        background-position: 0 -400px;
+    }
+    26.5625%, 28.1249% {
+        background-position: -200px -400px;
+    }
+    28.125%, 29.6874% {
+        background-position: -400px -400px;
+    }
+    29.6875%, 31.2499% {
+        background-position: -600px -400px;
+    }
+    31.25%, 32.8124% {
+        background-position: -800px -400px;
+    }
+    32.8125%, 34.3749% {
+        background-position: -1000px -400px;
+    }
+    34.375%, 35.9374% {
+        background-position: -1200px -400px;
+    }
+    35.9375%, 37.4999% {
+        background-position: -1400px -400px;
+    }
+    37.5%, 39.0624% {
+        background-position: 0 -600px;
+    }
+    39.0625%, 40.6249% {
+        background-position: -200px -600px;
+    }
+    40.625%, 42.1874% {
+        background-position: -400px -600px;
+    }
+    42.1875%, 43.7499% {
+        background-position: -600px -600px;
+    }
+    43.75%, 45.3124% {
+        background-position: -800px -600px;
+    }
+    45.3125%, 46.8749% {
+        background-position: -1000px -600px;
+    }
+    46.875%, 48.4374% {
+        background-position: -1200px -600px;
+    }
+    48.4375%, 49.9999% {
+        background-position: -1400px -600px;
+    }
+    50%, 51.5624% {
+        background-position: 0 -800px;
+    }
+    51.5625%, 53.1249% {
+        background-position: -200px -800px;
+    }
+    53.125%, 54.6874% {
+        background-position: -400px -800px;
+    }
+    54.6875%, 56.2499% {
+        background-position: -600px -800px;
+    }
+    56.25%, 57.8124% {
+        background-position: -800px -800px;
+    }
+    57.8125%, 59.3749% {
+        background-position: -1000px -800px;
+    }
+    59.375%, 60.9374% {
+        background-position: -1200px -800px;
+    }
+    60.9375%, 62.4999% {
+        background-position: -1400px -800px;
+    }
+    62.5%, 64.0624% {
+        background-position: 0 -1000px;
+    }
+    64.0625%, 65.6249% {
+        background-position: -200px -1000px;
+    }
+    65.625%, 67.1874% {
+        background-position: -400px -1000px;
+    }
+    67.1875%, 68.7499% {
+        background-position: -600px -1000px;
+    }
+    68.75%, 70.3124% {
+        background-position: -800px -1000px;
+    }
+    70.3125%, 71.8749% {
+        background-position: -1000px -1000px;
+    }
+    71.875%, 73.4374% {
+        background-position: -1200px -1000px;
+    }
+    73.4375%, 74.9999% {
+        background-position: -1400px -1000px;
+    }
+    75%, 76.5624% {
+        background-position: 0 -1200px;
+    }
+    76.5625%, 78.1249% {
+        background-position: -200px -1200px;
+    }
+    78.125%, 79.6874% {
+        background-position: -400px -1200px;
+    }
+    79.6875%, 81.2499% {
+        background-position: -600px -1200px;
+    }
+    81.25%, 82.8124% {
+        background-position: -800px -1200px;
+    }
+    82.8125%, 84.3749% {
+        background-position: -1000px -1200px;
+    }
+    84.375%, 85.9374% {
+        background-position: -1200px -1200px;
+    }
+    85.9375%, 87.4999% {
+        background-position: -1400px -1200px;
+    }
+    87.5%, 89.0624% {
+        background-position: 0 -1400px;
+    }
+    89.0625%, 90.6249% {
+        background-position: -200px -1400px;
+    }
+    90.625%, 92.1874% {
+        background-position: -400px -1400px;
+    }
+    92.1875%, 93.7499% {
+        background-position: -600px -1400px;
+    }
+    93.75%, 95.3124% {
+        background-position: -800px -1400px;
+    }
+    95.3125%, 96.8749% {
+        background-position: -1000px -1400px;
+    }
+    96.875%, 98.4374% {
+        background-position: -1200px -1400px;
+    }
+    98.4375%, 99.9999% {
+        background-position: -1400px -1400px;
+    }
+    to {
+        background-position: 0 0;
+    }
+}
+
 .tipTitle-3FYEQp {
     display: flex;
     flex-direction: column;
@@ -979,229 +1192,793 @@ mask > use[href$="lower_badge_masks"] {
     line-height: 14px;
     content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#aa"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Gathering the easter eggs";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#aa"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by dav#8444";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ab"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "*Elevator Music Plays*";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ab"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @Luminosity48";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ac"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "A brawl is surely brewing!";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ac"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @MemeMasterMeme";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "A brawl is surely brewing!";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ad"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Abnoramalzing Some of the Matrices";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @MemeMasterMeme";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ad"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Wobbling to 299%";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ae"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Abstracting the Rummage Disc";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @belchicola";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ae"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "DISCORD REQUIRES MORE MINERALS";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ae"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Achieving Nirvana";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @LeAwesomeRohan";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ae"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "TIME'S UP - LET'S DO THIS!";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#af"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Activating Witch Time...";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @RobertAWing";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#af"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @GingeraleDragon";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#g"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "They see me loading, They waiting";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Additive Parsing the Load";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#g"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @boomer_cherry";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#h"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Start your engines";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "And now for something completely different";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#h"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @CollegeCarball";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#i"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Skipping cutscenes";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#i"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @TOOMANYENEMIES";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#j"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Shuffling the deck";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#j"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @MrSwats";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#k"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Reviving dead memes";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#k"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Fqdez_Awqy";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#l"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Returning the slab";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#l"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @megoon_pleb";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#m"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Recombobulating Discombobulators";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#m"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @HelixVexium";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#n"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "now with scratch and sniff";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#n"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @hahahahahapizza";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#o"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Looking for the power button";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#o"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Skizz289";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#p"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Look behind you";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#p"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Lyemug";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#q"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Locating Wumpus";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#q"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @BetaAnalysis";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#r"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Calibrating flux capacitors";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#r"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @ItsChiefGrief";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#s"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "LOADING 001: ARP 303 Saw";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#s"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @VITICZ";
-}
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#t"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Are we there yet?";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#t"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @HeadlessHorror";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#u"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Assembling Voltron";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#u"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @ash_10saller";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#v"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Bastening the Game Turkey";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Buckle up!";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#v"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @wulf_tfk";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#w"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Buffing before the raid.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Building Lore";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @AloeSnackbar";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Calibrating flux capacitors";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @ItsChiefGrief";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Caution: Contents Spicy";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#a9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @DinosParkour";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ba"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Charging Limit Break";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#w"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ba"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @ChronWriter3511";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#x"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Charging spirit bomb";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#x"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @marou_sama";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#y"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Cheat Code Activated";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Cheat Code Activated";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#be"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Clicking circles (to the beat!)";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#be"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Chippum_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bf"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Commence Monosaturated Goodening";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#bf"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Constructing additional pylons.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "DISCORD REQUIRES MORE MINERALS";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @LeAwesomeRohan";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Decrypting Engrams";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Did they just walk up slowly and load?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @NoWayRyanTatum";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Disconnecting from Reality";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#y"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @HeyitWilliamHYT";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#z"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "DISCORD A-GO-GO BABY";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Discord is my city";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#z"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @SniperHeat112";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Opening the loading bay doors";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Dispatching carrier pigeons";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @PizzablawkCP";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MatazaNz";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Do you even notice these?";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @Bion234";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Loading Simulation";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Dropping in Pochinki";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Jehbrielle";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#b9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @ThatGuySolace";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Jumping to hyperspace";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ca"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Dusting the cobwebs";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Canton_NS";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ca"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @glennanderson42";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Is this thing on?";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Ensuring dankest memes.";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Ahzzey_";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "Initiating launch sequence";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Entering cheat codes";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Steven_Fix";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Error 404: Joke Not Found";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @KrakkenGuides";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ce"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Finishing this senta...";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ce"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @ParksterW33";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cf"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Generating terrain...";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#cf"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @RandomizedIntel";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Get ready for a surprise!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @strauberrybrony";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Getting dunked.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Good News Everyone!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @dinobuttz";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "I swear it's around here somewhere...";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @Pyrdrex_";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Pydrex_";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "i need healing";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "If you are reading this, you can read";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @tearybunnie";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @alex_shannessy";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
-    content: "how do i turn this thing on";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Initializing socialization";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @asdfghjklibbyx";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Craig_Brunet";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Initiating launch sequence";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Steven_Fix";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Insert Coin to Continue";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @fenixdg";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Is this thing on..?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MarocFAYS";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Is this thing on?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#c9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Ahzzey_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#da"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Jumping to hyperspace";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#da"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Canton_NS";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#db"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Kick Off the Multi-Core Widening";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#db"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#dc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "LOADING 001: ARP 303 Saw";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#dc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @VITICZ";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#dd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Leeeeeeroy jenkins!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#dd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#de"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Loading Lines in 2023 LUL";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#de"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Mushroom3691";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#df"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Loading Simulation";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#df"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Jehbrielle";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
     content: "Loading machine broke";
 }
-.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @BOOK_FREE_";
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @BOOK_FREE";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Loading your digital hug";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Rainbeww";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Locating Wumpus";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @BetaAnalysis";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Look behind you";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Lyemug";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Looking for the power button";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Skizz289";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Managing Inventory";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Now with 100% more Screenshare!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Lehtinen_a_Niko";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Opening the loading bay doors";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @PizzablawkCP";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Optimizing the People";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "PK Load Î©";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#d9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @SirLemonYT";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ea"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Postrefragmenting the Widget Layer";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ea"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#eb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Preparing Final Form";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#eb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @KairiHawk";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ec"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Preparing for a team fight.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ec"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ed"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Pressing random buttons";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ed"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ee"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Procedurally generating buttons.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ee"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ef"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Proclaigerizing the Network";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ef"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Ready Player One";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Psycho_Wendigo";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Readying the felines.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Recombobulating Discombobulators";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @HelixVexium";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Recruiting robot hamsters.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Reloading the R8.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Removing pen from pineapple";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @DolipranZ";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Researching cheat codes";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Enderfoo_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Resetting Run";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @EntropeyTV";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Resurrecting dead memes";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @DiaSwordPlay";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#e9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Returning the slab";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fa"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @megoon_pleb";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fa"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Reviving dead memes";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Fqdez_Awqy";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fb"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Rushing B";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fc"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Satisfying the Constraints";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fd"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Scaling Bananas";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fe"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#fe"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Shuffling the deck";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ff"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MrSwats";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#ff"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Skipping cutscenes";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @TOOMANYENEMIES";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f0"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Start your engines";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @CollegeCarball";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f1"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Stopping to smell the flowers";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f2"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Suh dud";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f3"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @therealbrastos";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Summoning unnecessarily dramatic encounters.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f4"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Switching sides";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f5"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MrMishkaTheBear";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "TIME'S UP - LET'S DO THIS!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f6"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @RobertAWing";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "They see me loading, They waiting";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f7"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @boomer_cherry";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "This loading is a line";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f8"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @AirDur";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Top decking lethal.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#f9"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Traveling to Hanamura";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @AstroNoot88";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "ULTIMATE IS READY!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @IHellMasker";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Unbenching the Kench.";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Undecerealenizing the Process";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Untap, Upkeep, Draw";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @MRautmann";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Upsorbing the Contents";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#0f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#00"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "We at pumpkin hill, you ready?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#00"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @Kevinisnotseven";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#01"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "We don't need a healder for this, right?";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#01"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @AlexisTheory";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#02"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Wizard needs food badly";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#02"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#03"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Wobbling to 299%";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#03"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "belchicola";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#04"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Wubba Lubba Dub Dub";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#04"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by _Apace_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#05"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "[A MEME]";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#05"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @zix7_";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#06"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "how do i turn this thing on";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#06"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @asdfghjklibbyx";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#07"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "i need healing";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#07"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @tearybunnie";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#08"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "i solemnly swear that i am up to no good";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#08"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @nintencrow";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#09"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "l o a d i n g a e s t h e t i c s";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#09"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "now with scratch and sniff";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1a"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @hahahahahapizza";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "spinning to win";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1b"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "dear dtm18 user I wish you very pleasant evening";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1c"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @gupitaro";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "if i bake 1 cake im not a baker";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1d"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @mayosunshine";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "lag kill yourse";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1e"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @themoyaiman";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "i need loading messages";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#1f"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#10"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "IT'S WIZARD TIME! FIREBALL!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#10"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#11"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Uninstalling MSN";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#11"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @11pixels";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#12"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Uninstalling AOL";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#12"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @11pixels";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#13"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Uninstalling Skype";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#13"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @11pixels";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#14"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Uninstalling Guilded";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#14"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @11pixels";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#15"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Uninstalling Revolt";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#15"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @11pixels";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#16"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Words, words, words, saying more words";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#16"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.platform-win .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Only Windows users can see this one :)";
+}
+.platform-win .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.platform-osx .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Only Mac users can see this one :)";
+}
+.platform-osx .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.platform-linux .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Only Linux users can see this one :)";
+}
+.platform-linux .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.platform-web .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "Only Web users can see this one :)";
+}
+.platform-web .app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#17"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#18"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:before { 
+    content: "FRICKIN' SWEET!";
+}
+.app-3xd6d0:has(.guilds-2JjMmN .tutorialContainer-2jwoiB [mask^="url\(#18"] > [data-list-item-id="guildsnav___create-join-button"]) .tipTitle-3FYEQp:after {
+    content: "";
 }
 
+.text-2bYgPB {
+    position: unset;
+}
+.tip-1AwED_, .tipTitle-3FYEQp {
+    max-width: 600px;
+}
 .tip-1AwED_ {
     font-size: 0;
     line-height: 0;
@@ -1214,6 +1991,9 @@ mask > use[href$="lower_badge_masks"] {
     line-height: 14px;
     content: "Connecting";
 }
+.platform-win:has(.withBackgroundOverride-gzmZco) .tip-1AwED_:before {
+    content: "Ready";
+}
 .tip-1AwED_ div {
     display: none;
 }
@@ -1221,6 +2001,128 @@ mask > use[href$="lower_badge_masks"] {
     color: #72767d;
     font-size: 14px;
     margin-bottom: 8px;
+}
+
+/*NOTICE OF MESSAGES NEEDED*/
+.avatarWrapper-1B9FTW {
+    min-width: unset;
+    max-width: 88px;
+}
+.sidebar-1tnWFu {
+    overflow: visible !important;
+}
+.container-YkUktl .directionRow-2Iu2A9 {
+    position: relative;
+}
+.container-YkUktl .directionRow-2Iu2A9 button {
+    position: unset;
+}
+.container-YkUktl .directionRow-2Iu2A9:after {
+    content: "";
+    display: block;
+    top: 8px;
+    right: 72px;
+    width: 32px;
+    height: 32px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Crect width='18' height='18'/%3E%3Cpath fill='rgba(255, 255, 255, 0.6)' d='M7.3636 5.7273 9 5.7273 9 4.0909 7.3636 4.0909 7.3636 5.7273ZM8.1818 14.7273C4.5736 14.7273 1.6364 11.79 1.6364 8.1818 1.6364 4.5736 4.5736 1.6364 8.1818 1.6364 11.79 1.6364 14.7273 4.5736 14.7273 8.1818 14.7273 11.79 11.79 14.7273 8.1818 14.7273L8.1818 14.7273ZM8.1818 0C3.6631-0 0 3.6631 0 8.1818-0 10.3518.862 12.4328 2.3964 13.9672 3.9308 15.5016 6.0119 16.3636 8.1818 16.3636 10.3518 16.3636 12.4328 15.5016 13.9672 13.9672 15.5016 12.4328 16.3636 10.3518 16.3636 8.1818 16.3636 6.0119 15.5016 3.9308 13.9672 2.3964 12.4328.862 10.3518 0 8.1818 0L8.1818 0ZM7.3636 12.2727 9 12.2727 9 7.3636 7.3636 7.3636 7.3636 12.2727 7.3636 12.2727Z'/%3E%3C/g%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 7.5px 7.5px;
+    border-radius: 3px;
+    pointer-events: all;
+    cursor: pointer;
+}
+.container-YkUktl .directionRow-2Iu2A9:hover:not(:has(button:hover)):after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Crect width='18' height='18'/%3E%3Cpath fill='%23FFFFFF' d='M7.3636 5.7273 9 5.7273 9 4.0909 7.3636 4.0909 7.3636 5.7273ZM8.1818 14.7273C4.5736 14.7273 1.6364 11.79 1.6364 8.1818 1.6364 4.5736 4.5736 1.6364 8.1818 1.6364 11.79 1.6364 14.7273 4.5736 14.7273 8.1818 14.7273 11.79 11.79 14.7273 8.1818 14.7273L8.1818 14.7273ZM8.1818 0C3.6631-0 0 3.6631 0 8.1818-0 10.3518.862 12.4328 2.3964 13.9672 3.9308 15.5016 6.0119 16.3636 8.1818 16.3636 10.3518 16.3636 12.4328 15.5016 13.9672 13.9672 15.5016 12.4328 16.3636 10.3518 16.3636 8.1818 16.3636 6.0119 15.5016 3.9308 13.9672 2.3964 12.4328.862 10.3518 0 8.1818 0L8.1818 0ZM7.3636 12.2727 9 12.2727 9 7.3636 7.3636 7.3636 7.3636 12.2727 7.3636 12.2727Z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #25272a;
+}
+.container-YkUktl .directionRow-2Iu2A9:before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 22px;
+    right: 0;
+    top: -10px;
+    background-image: url("data:image/svg+xml,%3Csvg enable-background='new 0 0 9 22' viewBox='0 0 9 22' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='m6.005.366c-2.148-.578-4.28.416-5.259 4.088-.979 3.671-.454 17.333-.454 17.333s7.253-11.567 8.232-15.239-.372-5.604-2.519-6.182z' fill='%23faa61b' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    animation: exclaim-loop-oqpIqG 1.5s ease-in-out infinite forwards;
+    pointer-events: none;
+}
+.container-YkUktl .directionRow-2Iu2A9 button:before {
+    pointer-events: none;
+}
+.container-YkUktl .directionRow-2Iu2A9 button:nth-child(1):before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 6px;
+    top: 14px;
+    background-image: url("data:image/svg+xml,%3Csvg enable-background='new 0 0 7.997 7.997' viewBox='0 0 7.997 7.997' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle clip-rule='evenodd' cx='3.997' cy='3.997' fill='%23faa61b' fill-rule='evenodd' r='3.999'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    animation: dot-loop-2RbJY7 1.5s ease-in-out infinite forwards;
+}
+.container-YkUktl .directionRow-2Iu2A9 button:nth-child(2):before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -6px;
+    top: 3px;
+    background-image: url("data:image/svg+xml,%3Csvg enable-background='new 0 0 17 17' viewBox='0 0 17 17' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m8.495 2c.566 0 1.133.075 1.687.223 3.461.928 5.522 4.498 4.595 7.958-.761 2.838-3.34 4.819-6.272 4.819-.566 0-1.134-.075-1.687-.223-1.677-.449-3.078-1.524-3.946-3.027s-1.098-3.254-.649-4.931c.761-2.838 3.339-4.819 6.272-4.819m0-2c-3.752 0-7.186 2.504-8.203 6.301-1.215 4.533 1.475 9.193 6.009 10.408.736.197 1.476.291 2.204.291 3.752 0 7.186-2.504 8.203-6.301 1.215-4.533-1.476-9.193-6.009-10.408-.736-.197-1.476-.291-2.204-.291z' fill='%23faa61b'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    animation: inner-circle-loop-high-priority-18Cy96 1.5s infinite;
+}
+.container-YkUktl .directionRow-2Iu2A9 button:nth-child(3):before {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: -9px;
+    top: 0;
+    background-image: url("data:image/svg+xml,%3Csvg enable-background='new 0 0 20 20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m9.994 1c.784 0 1.569.104 2.335.309 4.792 1.284 7.646 6.228 6.362 11.02-1.053 3.928-4.624 6.671-8.685 6.671-.784 0-1.57-.104-2.335-.309-2.322-.622-4.262-2.111-5.463-4.192-1.202-2.081-1.521-4.506-.899-6.828 1.053-3.928 4.624-6.671 8.685-6.671m0-1c-4.414 0-8.454 2.946-9.651 7.412-1.429 5.333 1.736 10.815 7.069 12.244.867.233 1.738.344 2.594.344 4.414 0 8.454-2.946 9.651-7.412 1.429-5.333-1.736-10.815-7.069-12.244-.867-.233-1.738-.344-2.594-.344z' fill='%23faa61b'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    animation: outer-circle-loop-high-priority-1Z32o- 1.5s infinite;
+}
+.panels-3wFtMD {
+    display: flex;
+    flex-direction: column;
+}
+.panels-3wFtMD:has(.container-YkUktl .directionRow-2Iu2A9:hover):before {
+    content: "I need loading messages";
+    display: block;
+    order: -2;
+    color: var(--interactive-active);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 200px 0 10px;
+    margin-left: 20px;
+    background-image: url(https://cdn.discordapp.com/attachments/1129536164362203266/1129585706038198302/loadingframes_dark.png);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    mix-blend-mode: lighten;
+    animation: logoSpin 1.06666667s infinite linear;
+    pointer-events: none;
+}
+.panels-3wFtMD:has(.container-YkUktl .directionRow-2Iu2A9:hover):after {
+    content: "Loading messages are being added to DTM-18! But to fill in every message slot, we're gonna need some new ones. You have a chance to see your message appear on the app startup! \a \a To request your message, send a message request to @dav154 on Discord with your ideas for loading messages.";
+    display: block;
+    order: -1;
+    color: #87909c;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    white-space: pre-wrap;
+    padding: 0 10px 20px;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    pointer-events: none;
+}
+.panels-3wFtMD:has(.container-YkUktl .directionRow-2Iu2A9 button:hover):before,
+.panels-3wFtMD:has(.container-YkUktl .directionRow-2Iu2A9 button:hover):after {
+    content: unset;
 }
 
 /*Notice Header*/
@@ -8336,34 +9238,15 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 }
 
 /*Remove Media Mosaic Experiment*/
-.messageAttachmentMediaMosaic-2ic1yt {
-    width: fit-content !important;
-}
-.imageWrapper-oMkQl4 {
-    width: unset !important;
-}
 .mediaAttachmentsContainer-1WGRWy {
     border-radius: 3px;
 }
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] {
     border-radius: 3px;
-    display: flex;
-    min-height: unset;
-    max-height: unset;
-    flex-direction: column;
-}
-.mediaAttachmentsContainer-1WGRWy [class*="Grid"] .lazyImg-ewiNCh,
-.mediaAttachmentsContainer-1WGRWy [class*="Grid"] .lazyImgContainer-3k3gRy {
-    aspect-ratio: auto;
-    object-fit: contain !important;
 }
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] img,
 .mediaAttachmentsContainer-1WGRWy [class*="Grid"] [class*="Wrapper"] .wrapper-1FP9YQ:not([style*="background"]) video {
-    max-height: 350px !important;
-    max-width: 400px !important;
     border-radius: 3px;
-    margin-bottom: 4px;
-    object-fit: contain !important;
 }
 
 /*Server Invites*/
@@ -10506,6 +11389,7 @@ rect[mask*="dnd"],
 }
 
 /*Add more when you're not lazy*/
+/*I don't feel like it*/
 
 /*Remove Scrollbar*/
 .scroller-15bIdk::-webkit-scrollbar {
@@ -11686,10 +12570,10 @@ rect[mask*="dnd"],
     order: 9;
 }
 /*Family Center*/
-.separator-2N511j:nth-child(9), .separator-2N511j:nth-child(10) {
+.side-1lrxIh .separator-2N511j:has(+ .header-2F5_LB + .premiumTab-39eQzY) {
     order: 11;
 }
-.header-2F5_LB:nth-child(10), .header-2F5_LB:nth-child(11) {
+.header-2F5_LB:has(+ .premiumTab-39eQzY) {
     order: 12;
     display: none;
 }
@@ -11733,10 +12617,10 @@ rect[mask*="dnd"],
 /*Hypesquad*/.side-1lrxIh .item-2GWPIy:has(+ .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]) {
     order: 18;
 }
-.separator-2N511j:nth-child(16), .separator-2N511j:nth-child(17) {
+.separator-2N511j:has(+ .header-2F5_LB + .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"])) {
     order: 19;
 }
-.header-2F5_LB:nth-child(17), .header-2F5_LB:nth-child(18) {
+.header-2F5_LB:has(+ .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"])) {
     order: 20;
 }
 /*Voice & Video*/.side-1lrxIh .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy {
@@ -11760,20 +12644,21 @@ html:is(.platform-win,.platform-linux) .side-1lrxIh:not(:has(.poggermodeIcon-3Z9
 html:is(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div {
     display: none;
 }
-/*Games (Activity Privacy)*/html:not(.platform-win,.platform-linux) .side-1lrxIh:not(:has(.poggermodeIcon-3Z9uYf)) .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy,
-html:not(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy,
-html:is(.platform-win,.platform-linux) .side-1lrxIh:not(:has(.poggermodeIcon-3Z9uYf)) .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy,
-html:is(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy {
+/*Games (Activity Privacy)*/.platform-web .side-1lrxIh .item-2GWPIy:has(+ .separator-2N511j + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+html:not(.platform-win,.platform-web) .side-1lrxIh:not(:has([class^="bd"])) .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+.platform-win .side-1lrxIh:not(:has([class^="bd"])) .item-2GWPIy:has(+ .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+html:not(.platform-win,.platform-web) .side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + [class^="bd"]),
+.platform-win .side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy + .item-2GWPIy + .separator-2N511j + [class^="bd"]) {
     order: 24;
 }
-/*Registered Games*/html:not(.platform-win,.platform-linux) .side-1lrxIh:not(:has(.poggermodeIcon-3Z9uYf)) .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy + .item-2GWPIy,
-html:not(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy + .item-2GWPIy,
-html:is(.platform-win,.platform-linux) .side-1lrxIh:not(:has(.poggermodeIcon-3Z9uYf)) .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy + .item-2GWPIy,
-html:is(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy + .item-2GWPIy {
+/*Registered Games*/html:not(.platform-win,.platform-web) .side-1lrxIh:not(:has([class^="bd"])) .item-2GWPIy:has(+ .separator-2N511j + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+.platform-win .side-1lrxIh:not(:has([class^="bd"])) .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+html:not(.platform-win,.platform-web) .side-1lrxIh .item-2GWPIy:has(+ .separator-2N511j + [class^="bd"]),
+.platform-win .side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + [class^="bd"]) {
     order: 25;
 }
-/*Overlay*/.platform-win .side-1lrxIh:not(:has(.poggermodeIcon-3Z9uYf)) .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy,
-.platform-win .side-1lrxIh .item-2GWPIy:has(.poggermodeIcon-3Z9uYf) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + div + div + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy {
+/*Overlay*/.platform-win .side-1lrxIh:not(:has([class^="bd"])) .item-2GWPIy:has(+ .separator-2N511j + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+.platform-win .side-1lrxIh .item-2GWPIy:has(+ .separator-2N511j + [class^="bd"]) {
     order: 26;
 }
 /*Text & Images*/.side-1lrxIh:not(:has(.poggermodeIcon-3Z9uYf)) .item-2GWPIy:is([aria-label="Udseende"],[aria-label="Erscheinungsbild"],[aria-label="Appearance"],[aria-label="Apariencia"],[aria-label="Apparence"],[aria-label="Izgled"],[aria-label="Aspetto"],[aria-label="Išvaizda"],[aria-label="Megjelenés"],[aria-label="Weergave"],[aria-label="Utseende"],[aria-label="Wygląd"],[aria-label="Aparência"],[aria-label="Aspect"],[aria-label="Ulkoasu"],[aria-label="Utseende"],[aria-label="Hiển thị"],[aria-label="Görünüm"],[aria-label="Vzhled"],[aria-label="Εμφάνιση"],[aria-label="Външен вид"],[aria-label="Внешний вид"],[aria-label="Зовнішній вигляд"],[aria-label="अपीरंस"],[aria-label="หน้าตา"],[aria-label="外观"],[aria-label="テーマ"],[aria-label="外觀"],[aria-label="디스플레이"]) + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy,

@@ -2107,7 +2107,7 @@ mask > use[href$="lower_badge_masks"] {
     pointer-events: none;
 }
 .panels-3wFtMD:has(.container-YkUktl .directionRow-2Iu2A9:hover):after {
-    content: "Loading messages are being added to DTM-18! But to fill in every message slot, we're gonna need some new ones. You have a chance to see your message appear on the app startup! \a \a To request your message, send a message request to @dav154 on Discord with your ideas for loading messages.";
+    content: "Loading messages are being added to DTM-18! But to fill in every message slot, we're gonna need some new ones. You have a chance to see your message appear on the app startup! \a \a To request your message, send a DM to @dav154 on Discord with your ideas for loading messages.";
     display: block;
     order: -1;
     color: #87909c;

@@ -114,12 +114,6 @@
     background-image: var(--deco-iceCube);
 }
 
-.contents-2MsGLg [src*='421975731724222465'] + .header-2jRmjb:after,
-.wrapper-3Un6-K:has([src*='421975731724222465']):after,
-[style*='421975731724222465'] .imageUploaderFileInput-18YkLC:after {
-    background-image: var(--deco-gearspin);
-}
-
 .contents-2MsGLg [src*='682317162010247184'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='682317162010247184']):after,
 [style*='682317162010247184'] .imageUploaderFileInput-18YkLC:after {

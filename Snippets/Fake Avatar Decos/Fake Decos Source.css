@@ -469,6 +469,48 @@ html {
     --deco-smoke-pink: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709375612731464/Smoke_Pink.webp);
     --deco-smoke-green: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709373058383903/Smoke_Green.webp);
     --deco-gearspin: url(https://cdn.discordapp.com/attachments/1107709160839188542/1107709222885539890/Gear_Spin.webp);
+    --deco-a-radiate-purple: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869256221405214/Anime_Radiating_Energy_Purple.webp);
+    --deco-a-radiate-yellow: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869266287722516/Anime_Radiating_Energy_Yellow.webp);
+    --deco-a-radiate-blue: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869241381957662/Anime_Radiating_Energy_Blue.webp);
+    --deco-a-lightningblast-yellow: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869340522709052/Anime_Super_Lightning_Blast_Yellow.webp);
+    --deco-a-lightningblast-green: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869322600452198/Anime_Super_Lightning_Blast_Green.webp);
+    --deco-a-lightningblast-red: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869330921951264/Anime_Super_Lightning_Blast_Red.webp);
+    --deco-a-lightningblast-blue: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869312949370880/Anime_Super_Lightning_Blast_Blue.webp);
+    --deco-a-soulleavingbody: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869286583971860/Anime_Soul_Leaving_Body.webp);
+    --deco-a-sweatdrop: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869349234290768/Anime_Sweat_Drop.webp);
+    --deco-a-starryeyed: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869304422346752/Anime_Starry_Eyed.webp);
+    --deco-a-love: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869227024855071/Anime_In_Love.webp);
+    --deco-a-shock: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869275523596448/Anime_Shock.webp);
+    --deco-a-angry: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869208624443422/Anime_Angry.webp);
+    --deco-a-speedy: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869296629321738/Anime_Speedy.webp);
+    --deco-de-smile: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869516582826056/Digital_Expressions_Smile.webp);
+    --deco-de-scream: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869507124674652/Digital_Expressions_Scream.webp);
+    --deco-de-lick: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869496479522816/Digital_Expressions_Lick.webp);
+    --deco-de-sweat: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869526787559515/Digital_Expressions_Sweat.webp);
+    --deco-b-coffee-good: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869384336429106/Breakfast_Coffee_Good_Day.webp);
+    --deco-b-coffee-bad: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869375612256286/Breakfast_Coffee_Bad_Day.webp);
+    --deco-b-donutjellydrizzle: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869400526422106/Breakfast_Donut_Jelly_Drizzle.webp);
+    --deco-b-donutsprinkle: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869410106220634/Breakfast_Donut_Sprinkle.webp);
+    --deco-b-eggslide: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869416791945336/Breakfast_Egg_Slide.webp);
+    --deco-b-pancakestack: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869444340129842/Breakfast_Pancake_Stack.webp);
+    --deco-b-jam-blueberry: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869427726491699/Breakfast_Jam_Blueberry.webp);
+    --deco-b-jam-orange: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869435452403802/Breakfast_Jam_Orange.webp);
+    --deco-b-toast: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869469392711761/Breakfast_Toast.webp);
+    --deco-b-toastburnt: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869459032789002/Breakfast_Toast_Burnt.webp);
+    --deco-burp-green: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869478364332172/Burp_Green.webp);
+    --deco-burp-orange: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869487491125268/Burp_Orange.webp);
+    --deco-gum-blurple: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869569334575125/Gum_Blurple.webp);
+    --deco-gum-green: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869579530948719/Gum_Green.webp);
+    --deco-fart-purple: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869551814967306/Fart_Purple.webp);
+    --deco-fart-green: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869534228267008/Fart_Green.webp);
+    --deco-lizard-orange: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869606579998809/Lizard_Orange.webp);
+    --deco-lizard-pink: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869616998658059/Lizard_Pink.webp);
+    --deco-frog: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869560635600936/Frog.webp);
+    --deco-tentacles: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869624451944570/Tentacles.webp);
+    --deco-heart-blurple: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869589324628009/Heart_Blurple.webp);
+    --deco-heart-red: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869597977481227/Heart_Red.webp);
+    --deco-beam-red: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869367479521383/Beam_Red.webp);
+    --deco-beam-blue: url(https://cdn.discordapp.com/attachments/1141869153125400656/1141869358562410686/Beam_Blue.webp);
 }
 
 /*Avatar Dynamic Shadow*/

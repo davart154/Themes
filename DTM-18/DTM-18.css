@@ -5267,26 +5267,16 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     display: flex;
 }
 /*New Group DM*/
+.inviteToolbar-2k2nqz {
+    align-items: center;
+}
+.divider-q3P9HC {
+    height: 22px;
+    margin: 0 4px;
+    width: 1px;
+}
 [d^="M20.998 0V3H23.998V5H20.998V8H18.998V5H15.998V3H18.998V0H20.998ZM2.99805"] {
     d: path("M12 6 12 4 5.7778 4C4.7959 4 4 4.7959 4 5.7778L4 18.2222C4 19.2041 4.7959 20 5.7778 20L18.2222 20C19.2 20 20 19.2089 20 18.2222L20 12 18 12 18 18 6 18 6 6 12 6ZM10 12.1549 15.4277 6.7273 17.2727 8.5723 11.8451 14 10 14 10 12.1549ZM19.86 5.879 19.0117 6.7273 17.2727 4.9883 18.121 4.14C18.2992 3.9533 18.5961 3.9533 18.7742 4.14L19.86 5.2258C20.0467 5.4039 20.0467 5.7008 19.86 5.879L19.86 5.879Z");
-}
-.notAppAsidePanel-3yzkgB:has(.iconWrapper-2awDjA:hover [d^="M20.998 0V3H23.998V5H20.998V8H18.998V5H15.998V3H18.998V0H20.998ZM2.99805"]) .tooltip-33Jwqe {
-    translate: -5px 0;
-    transition-delay: 0s;
-}
-.container-2cd8Mz .iconWrapper-2awDjA {
-    display: flex;
-    margin: 0 4px;
-}
-.container-2cd8Mz .inviteToolbar-2k2nqz .iconWrapper-2awDjA:after {
-    content: "";
-    border-right: 1px solid hsla(0,0%,85%,.1);
-    padding-left: 8px;
-    height: 22px;
-    margin-top: 2px;
-}
-.theme-light .container-2cd8Mz .inviteToolbar-2k2nqz .iconWrapper-2awDjA:after {
-    border-right: 1px solid hsla(218,5%,47%,.3);
 }
 
 /*Update Ready*/
@@ -5847,7 +5837,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 .container-2cd8Mz .children-3xh0VB .iconWrapper-2awDjA:nth-child(1),
 .container-2cd8Mz .title-17SveM,
-.container-2cd8Mz .divider-q3P9HC {
+.children-3xh0VB .divider-q3P9HC {
     display: none;
 }
 .container-ZMc96U .tabBar-ra-EuL .item-3mHhwr {
@@ -5859,6 +5849,10 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     padding: 2px 8px;
     min-width: 56px;
     text-align: center;
+    position: relative;
+}
+.container-ZMc96U .tabBar-ra-EuL .item-3mHhwr:hover {
+    background-color: var(--background-secondary) !important;
 }
 .container-ZMc96U .tabBar-ra-EuL .item-3mHhwr.selected-1sf9UK {
     color: var(--background-floating) !important;
@@ -5872,10 +5866,6 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     padding: 0;
     margin: 0;
     order: -2;
-}
-/*All Button*/
-.container-ZMc96U .tabBar-ra-EuL .item-3mHhwr:nth-child(2) {
-    order: -1;
 }
 .container-ZMc96U .tabBar-ra-EuL .item-3mHhwr:nth-child(5) span {
     background: var(--brand-experiment) !important;
@@ -5899,6 +5889,23 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     width: 1px;
     height: 100%;
     background-color: rgba(114, 118, 125, 0.3);
+}
+/*All Button*/
+.container-ZMc96U .tabBar-ra-EuL .item-3mHhwr:nth-child(2) {
+    order: -1;
+}
+/*Blocked Button*/
+.container-ZMc96U .tabBar-ra-EuL .item-3mHhwr:nth-child(4) {
+    overflow: visible;
+}
+.container-ZMc96U .tabBar-ra-EuL .item-3mHhwr:nth-child(4):before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    width: 1px;
+    height: 18px;
+    background-color: rgba(114, 118, 125, 0.3);
+    pointer-events: none;
 }
 
 /*Empty State*/
@@ -9280,9 +9287,10 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .controlIcon-10O-4h [d="M19,3H14V5h5v5h2V5A2,2,0,0,0,19,3Z"] {
     d: path("M7,14 L5,14 L5,19 L10,19 L10,17 L7,17 L7,14 L7,14 Z M5,10 L7,10 L7,7 L10,7 L10,5 L5,5 L5,10 L5,10 Z M17,17 L14,17 L14,19 L19,19 L19,14 L17,14 L17,17 L17,17 Z M14,5 L14,7 L17,7 L17,10 L19,10 L19,5 L14,5 L14,5 Z");
 }
-.controlIcon-10O-4h [d="M19,19H14v2h5a2,2,0,0,0,2-2V14H19Z"],
-.controlIcon-10O-4h [d="M3,5v5H5V5h5V3H5A2,2,0,0,0,3,5Z"],
-.controlIcon-10O-4h [d="M5,14H3v5a2,2,0,0,0,2,2h5V19H5Z"] {
+.controlIcon-10O-4h [d="M16,8V3H14V8a2,2,0,0,0,2,2h5V8Z"] {
+    d: path("M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z");
+}
+.controlIcon-10O-4h path:is([d="M19,19H14v2h5a2,2,0,0,0,2-2V14H19Z"], [d="M3,5v5H5V5h5V3H5A2,2,0,0,0,3,5Z"], [d="M5,14H3v5a2,2,0,0,0,2,2h5V19H5Z"], [d="M14,16v5h2V16h5V14H16A2,2,0,0,0,14,16Z"], [d="M8,8H3v2H8a2,2,0,0,0,2-2V3H8Z"], [d="M8,14H3v2H8v5h2V16A2,2,0,0,0,8,14Z"]) {
     display: none;
 }
 

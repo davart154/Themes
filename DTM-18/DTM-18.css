@@ -10558,6 +10558,123 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     display: none;
 }
 
+/*Settings Cog Right Click*/
+#user-settings-cog .scroller-nxCRu_ {
+    display: flex;
+    flex-direction: column;
+}
+#user-settings-cog #user-settings-cog-My_Account {
+    order: 1;
+}
+#user-settings-cog #user-settings-cog-Profile_Customization {
+    order: 2;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Privacy___Safety {
+    order: 3;
+}
+#user-settings-cog #user-settings-cog-Family_Center {
+    order: 4;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Authorized_Apps {
+    order: 5;
+}
+#user-settings-cog #user-settings-cog-Sessions {
+    order: 6;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Connections {
+    order: 7;
+}
+#user-settings-cog #user-settings-cog-Friend_Requests {
+    order: 8;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Billing {
+    order: 9;
+}
+#user-settings-cog #user-settings-cog-Discord_Nitro {
+    order: 10;
+    font-size: 0;
+}
+#user-settings-cog #user-settings-cog-Discord_Nitro:before {
+    content: "Discord Nitro";
+    font-size: 13px;
+}
+#user-settings-cog #user-settings-cog-Nitro_Server_Boost {
+    order: 11;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Subscriptions {
+    order: 12;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Library_Inventory {
+    order: 13;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Powermode_Settings {
+    order: 14;
+}
+#user-settings-cog #user-settings-cog-Hypesquad_Online {
+    order: 15
+}
+#user-settings-cog #user-settings-cog-Billing + div:not([class]) + div:not([class]) + div:not([class]):has(#user-settings-cog-Voice___Video) {
+    order: 16;
+}
+#user-settings-cog #user-settings-cog-Notifications {
+    order: 17;
+}
+#user-settings-cog #user-settings-cog-Keybinds {
+    order: 18;
+}
+#user-settings-cog #user-settings-cog-Activity_Privacy {
+    order: 19;
+}
+#user-settings-cog #user-settings-cog-Game_Activity {
+    order: 20;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Overlay {
+    order: 21;
+    display: none;
+}
+#user-settings-cog #user-settings-cog-Billing + div:not([class]) + div:not([class]) + div:not([class]) + div:not([class]):has(#user-settings-cog-Text___Images), #user-settings-cog #user-settings-cog-Powermode_Settings + div:not([class]):has(#user-settings-cog-Text___Images) {
+    order: 22;
+}
+#user-settings-cog #user-settings-cog-Billing + div:not([class]):has(#user-settings-cog-Appearance) {
+    order: 23;
+}
+#user-settings-cog #user-settings-cog-Billing + div:not([class]) + div:not([class]):has(#user-settings-cog-Accessibility) {
+    order: 24;
+    display: none;
+}
+#user-settings-cog div:not([class]):has(+ #user-settings-cog-Advanced) {
+    order: 25;
+}
+#user-settings-cog #user-settings-cog-Settings_Clips {
+    order: 26;
+}
+#user-settings-cog #user-settings-cog-Language {
+    order: 27;
+}
+#user-settings-cog :is(#user-settings-cog-Windows, #user-settings-cog-Linux) {
+    order: 28;
+}
+#user-settings-cog #user-settings-cog-Advanced {
+    order: 29;
+}
+#user-settings-cog #user-settings-cog-VencordSettings {
+    order: 30;
+}
+#user-settings-cog [id^="user-settings-cog-Vencord"]:not(#user-settings-cog-VencordSettings) {
+    display: none;
+}
+#user-settings-cog #user-settings-cog-changelog {
+    order: 31;
+}
+
 /*Blocked NSFW Channel Prompt*/
 .gatedContent-31-gID {
     overflow: hidden;

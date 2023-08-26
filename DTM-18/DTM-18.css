@@ -11245,7 +11245,7 @@ rect[mask*="dnd"],
 }
 /*Boosting Since*/
 :is([src$="/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png"], [src$="/badge-icons/0e4080d1d333bc7ad29ef6528b6f2fb7.png"], [src$="/badge-icons/72bed924410c304dbe3d00a6e593ff59.png"], [src$="/badge-icons/df199d2050d3ed4ebf84d64ae83989f8.png"], [src$="/badge-icons/996b3e870e8a22ce519b3a50e6bdd52f.png"], [src$="/badge-icons/991c9f39ee33d7537d9f408c3e53141e.png"], [src$="/badge-icons/cb3ae83c15e970e8f3d410bc62cb8b99.png"], [src$="/badge-icons/7142225d31238f6387d9f09efaa02759.png"], [src$="/badge-icons/ec92202290b48d0879b7413d2dde3bab.png"]) {
-   scale: 1.5;
+   scale: 1.3;
 }
 [src$="/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png"] {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24'%3E%3Cpath d='m12 4-10 16h20zm0 5.66 4.59 7.34h-9.18z' fill='%23ff6bfa'/%3E%3Cpath d='m7.40991 17 4.58999-7.34003 4.59 7.34003z' fill='%23ffdef9'/%3E%3Cpath d='m12 4v5.66l4.59 7.34 5.41 3z' fill='%23ffb0ff'/%3E%3C/svg%3E");

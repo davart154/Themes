@@ -8785,10 +8785,10 @@ img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
 .groupStart-3Mlgv1:not(.backgroundFlash-1X5jVs), .systemMessage-1H1Z20, .divider-IqmEqJ + .messageListItem-ZZ7v6g .wrapper-30-Nkg {
     padding-top: calc(var(--f-msg-spacing) / 2) !important;
 }
-.messageListItem-ZZ7v6g:has(+ :is(.messageListItem-ZZ7v6g, .backgroundFlash-1X5jVs) :is(.groupStart-3Mlgv1, .systemMessage-1H1Z20), + .divider-IqmEqJ) .wrapper-30-Nkg {
+:is(.messageListItem-ZZ7v6g, .backgroundFlash-1X5jVs):has(+ :is(.messageListItem-ZZ7v6g, .backgroundFlash-1X5jVs) :is(.groupStart-3Mlgv1, .systemMessage-1H1Z20), + .divider-IqmEqJ) .wrapper-30-Nkg {
     padding-bottom: calc(var(--f-msg-spacing) / 2);
 }
-.messageListItem-ZZ7v6g:has(+ :is(.messageListItem-ZZ7v6g, .backgroundFlash-1X5jVs) :is(.groupStart-3Mlgv1, .systemMessage-1H1Z20)):after {
+:is(.messageListItem-ZZ7v6g, .backgroundFlash-1X5jVs):has(+ :is(.messageListItem-ZZ7v6g, .backgroundFlash-1X5jVs) :is(.groupStart-3Mlgv1, .systemMessage-1H1Z20)):after {
     content: "";
     display: block;
     border-bottom: 1px solid hsla(0,0%,100%,.04);

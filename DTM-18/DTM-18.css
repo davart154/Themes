@@ -2123,18 +2123,125 @@ mask > use[href$="lower_badge_masks"] {
     border-color: #fff !important;
 }
 .colorDefault-1e8tQv,
-.notice-2HEN-u.colorWarning-3oV0Ge {
+.colorWarning-3oV0Ge,
+.notice-2HEN-u:has(.iconApple-3GcJtX, .iconAndroid-2DSyPS, .iconWindows-1o_-54) {
     background-color: #f26522;
     color: #fff;
 }
-.notice-2HEN-u.colorWarning-3oV0Ge button:hover {
+.notice-2HEN-u.colorWarning-3oV0Ge button:hover,
+.notice-2HEN-u:has(.iconApple-3GcJtX, .iconAndroid-2DSyPS, .iconWindows-1o_-54) button:hover {
     color: #f26522;
 }
-.notice-2HEN-u.colorPremiumTier2-3R4qYN {
-    background-image: linear-gradient(90deg,var(--premium-tier-2-purple),var(--premium-tier-2-pink));
+.colorPremiumTier0-3ZuHST {
+    background-image: linear-gradient(270deg,var(--premium-tier-0-purple),var(--premium-tier-0-blue));
+}
+.colorPremiumTier1-2r-LRg {
+    background-image: linear-gradient(270deg,var(--premium-tier-1-blue),var(--premium-tier-1-purple));
+}
+.colorPremiumTier2-3R4qYN {
+    background-image: linear-gradient(270deg,var(--premium-tier-2-pink),var(--premium-tier-2-purple));
 }
 .app-2CXKsg:has(.standardSidebarView-E9Pc3j) > .notice-2HEN-u {
     display: none;
+}
+
+.notice-2HEN-u.colorStreamerMode-8uoRWd {
+    font-size: 0;
+    line-height: 0;
+}
+.notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    font-size: 14px;
+    line-height: 36px;
+}
+:lang(DA) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamer Mode er aktiv. Pas på dig selv."
+}
+:lang(DE) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamer-Modus ist aktiviert. Sei vorsichtig, Freund.";
+}
+:lang(EN) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamer Mode is enabled. Stay safe, friend.";
+}
+:lang(en-PT) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamer Mode be enabled. Stay safe, scallywag."
+}
+:lang(ES) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "El Modo Streamer está habilitado. Ten cuidado, amigo.";
+}
+:lang(FR) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Le Mode Streamer est activé. Soyez prudent l'ami.";
+}
+:lang(HR) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamer Mode je uključen. Čuvaj se, prijatelju.";
+}
+:lang(IT) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Modalità streamer attivata. Resta protetto!";
+}
+:lang(LT) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Tiesioginių transliacijų rėžimas yra įjungtas. Lik saugus, drauge.";
+}
+:lang(HU) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Közvetítési mód engedélyezve. Sok sikert.";
+}
+:lang(NL) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamermodus is ingeschakeld. Wees veilig, vriend.";
+}
+:lang(NO) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Strømmemodus er aktivert. Vær trygg, min venn.";
+}
+:lang(PL) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Tryb streamowania włączony. Bezpiecznego show, brachu.";
+}
+:lang(pt-BR) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "O modo streamer está ativo. Se cuide, hein.";
+}
+:lang(RO) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Modul Streaming este activat. Rămâi în siguranță, prietene.";
+}
+:lang(FI) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Lähetystila on käytössä. Pysy turvassa, ystävä.";
+}
+:lang(SV) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamer-läge är aktiverat. Var säker, kompis.";
+}
+:lang(VI) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Chế độ streamer đã được bật. Hãy cẩn thận nhé, bạn tôi.";
+}
+:lang(TR) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Yayıncı Modu etkinleştirildi. Kendine dikkat et, dostum.";
+}
+:lang(CS) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Streamovací režim povolen. Dávej na sebe pozor, příteli.";
+}
+:lang(EL) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Η λειτουργία ζωντανής μετάδοσης είναι ενεργοποιημένη. Μείνε ήσυχος, φίλε.";
+}
+:lang(BG) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Режим за стриймъри е включен. Играй безопасно, приятел.";
+}
+:lang(RU) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Режим «стримера» включён. Ты в безопасности, друг.";
+}
+:lang(UK) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "Режим стрімера увімкнено. Залишайся в безпеці, друже.";
+}
+:lang(HI) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "स्ट्रीमर मोड ऑन है. स्टे सेफ फ्रेंड.";
+}
+:lang(TH) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "โหมดถ่ายทอดสดกำลังเปิดใช้งานอยู่ ระวังตัวด้วยนะเพื่อน";
+}
+:lang(ZH-CN) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "主播模式已启用。注意安全，朋友。";
+}
+:lang(JA) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "配信モードが有効です。ただフレンドには気をつけてくださいね";
+}
+:lang(ZH-TW) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "實況者模式正在啟用。 這樣很安全，朋友。";
+}
+:lang(KO) .notice-2HEN-u.colorStreamerMode-8uoRWd:before {
+    content: "방송모드가 활성화 됐습니다, 정보노출 조심하세요!";
 }
 
 /*Guild List*/
@@ -16956,26 +17063,26 @@ body {
     --premium-tier-0-purple-hsl:235 calc(var(--saturation-factor, 1)*85.6%) 64.7%;
     --premium-tier-0-purple-for-gradients:hsl(var(--premium-tier-0-purple-for-gradients-hsl)/1);
     --premium-tier-0-purple-for-gradients-hsl:235 calc(var(--saturation-factor, 1)*85.6%) 64.7%;
-    --premium-tier-1-blue:hsl(var(--premium-tier-1-blue-hsl)/1);
-    --premium-tier-1-blue-hsl:228 calc(var(--saturation-factor, 1)*86.7%) 70.6%;
-    --premium-tier-1-blue-for-gradients:hsl(var(--premium-tier-1-blue-for-gradients-hsl)/1);
-    --premium-tier-1-blue-for-gradients-hsl:235 calc(var(--saturation-factor, 1)*85.6%) 64.7%;
-    --premium-tier-1-dark-blue-for-gradients:hsl(var(--premium-tier-1-dark-blue-for-gradients-hsl)/1);
-    --premium-tier-1-dark-blue-for-gradients-hsl:235 calc(var(--saturation-factor, 1)*68.5%) 52.7%;
-    --premium-tier-1-purple:hsl(var(--premium-tier-1-purple-hsl)/1);
-    --premium-tier-1-purple-hsl:244 calc(var(--saturation-factor, 1)*100%) 84.1%;
-    --premium-tier-2-pink:hsl(var(--premium-tier-2-pink-hsl)/1);
-    --premium-tier-2-pink-hsl:342 calc(var(--saturation-factor, 1)*58%) 72.9%;
-    --premium-tier-2-pink-for-gradients:hsl(var(--premium-tier-2-pink-for-gradients-hsl)/1);
-    --premium-tier-2-pink-for-gradients-hsl:325 calc(var(--saturation-factor, 1)*31.7%) 51.8%;
-    --premium-tier-2-pink-for-gradients-2:hsl(var(--premium-tier-2-pink-for-gradients-2-hsl)/1);
-    --premium-tier-2-pink-for-gradients-2-hsl:295 calc(var(--saturation-factor, 1)*51.4%) 50%;
-    --premium-tier-2-purple:hsl(var(--premium-tier-2-purple-hsl)/1);
-    --premium-tier-2-purple-hsl:270 calc(var(--saturation-factor, 1)*86.7%) 70.6%;
-    --premium-tier-2-purple-for-gradients:hsl(var(--premium-tier-2-purple-for-gradients-hsl)/1);
-    --premium-tier-2-purple-for-gradients-hsl:269 calc(var(--saturation-factor, 1)*52.7%) 52.7%;
-    --premium-tier-2-purple-for-gradients-2:hsl(var(--premium-tier-2-purple-for-gradients-2-hsl)/1);
-    --premium-tier-2-purple-for-gradients-2-hsl:296 calc(var(--saturation-factor, 1)*50%) 51.4%;
+    --premium-tier-1-blue: hsl(var(--premium-tier-1-blue-hsl)/1);
+    --premium-tier-1-blue-hsl: 228 calc(var(--saturation-factor, 1)*86.7%) 70.6%;
+    --premium-tier-1-blue-for-gradients: hsl(var(--premium-tier-1-blue-for-gradients-hsl)/1);
+    --premium-tier-1-blue-for-gradients-hsl: 235 calc(var(--saturation-factor, 1)*85.6%) 64.7%;
+    --premium-tier-1-dark-blue-for-gradients: hsl(var(--premium-tier-1-dark-blue-for-gradients-hsl)/1);
+    --premium-tier-1-dark-blue-for-gradients-hsl: 235 calc(var(--saturation-factor, 1)*68.5%) 52.7%;
+    --premium-tier-1-purple: hsl(var(--premium-tier-1-purple-hsl)/1);
+    --premium-tier-1-purple-hsl: 244 calc(var(--saturation-factor, 1)*100%) 84.1%;
+    --premium-tier-2-pink: hsl(var(--premium-tier-2-pink-hsl)/1);
+    --premium-tier-2-pink-hsl: 342 calc(var(--saturation-factor, 1)*58%) 72.9%;
+    --premium-tier-2-pink-for-gradients: hsl(var(--premium-tier-2-pink-for-gradients-hsl)/1);
+    --premium-tier-2-pink-for-gradients-hsl: 325 calc(var(--saturation-factor, 1)*31.7%) 51.8%;
+    --premium-tier-2-pink-for-gradients-2: hsl(var(--premium-tier-2-pink-for-gradients-2-hsl)/1);
+    --premium-tier-2-pink-for-gradients-2-hsl: 295 calc(var(--saturation-factor, 1)*51.4%) 50%;
+    --premium-tier-2-purple: hsl(var(--premium-tier-2-purple-hsl)/1);
+    --premium-tier-2-purple-hsl: 270 calc(var(--saturation-factor, 1)*86.7%) 70.6%;
+    --premium-tier-2-purple-for-gradients: hsl(var(--premium-tier-2-purple-for-gradients-hsl)/1);
+    --premium-tier-2-purple-for-gradients-hsl: 269 calc(var(--saturation-factor, 1)*52.7%) 52.7%;
+    --premium-tier-2-purple-for-gradients-2: hsl(var(--premium-tier-2-purple-for-gradients-2-hsl)/1);
+    --premium-tier-2-purple-for-gradients-2-hsl: 296 calc(var(--saturation-factor, 1)*50%) 51.4%;
     --play: var(--background-tertiary);
     --play-primary: var(--header-primary);
     --play-secondary: var(--header-secondary);

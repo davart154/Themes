@@ -1,3 +1,13 @@
+.tutorialContainer-1pL9QS .numberBadge-37OJ3S:before {
+    content: "4K+";
+    font-size: 12px;
+    line-height: 12px;
+}
+.tutorialContainer-1pL9QS .numberBadge-37OJ3S {
+    font-size: 0;
+    line-height: 0;
+}
+
 /**
 * @name DTM-18
 * @author dav#8444
@@ -306,6 +316,7 @@ mask > use[href$="lower_badge_masks"] {
 }
 .textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv:is(.newChannel-3q3LPr) {
     margin-left: 4px;
+    margin-top: 2px;
 }
 /*Beta Badge*/
 .textBadge-1fdDPJ.base-3IDx3L.eyebrow-132Xza.baseShapeRound-3epLEv {
@@ -2887,7 +2898,7 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     content: url(https://cdn.discordapp.com/attachments/1080670289693769728/1084889183648235630/groupchat.svg?);
 }
 
-/*Group Chat*/
+/*DM / Group*/
 .name-2m3Cms {
     font-size: 15px;
     line-height: 20px;
@@ -2898,13 +2909,112 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     line-height: 12px;
     opacity: .7;
 }
-.layout-1LjVue {
-    height: 40px;
+.layout-1LjVue .avatar-1HDIsL {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    position: relative;
 }
-/*.layout-1LjVue .wrapper-3Un6-K {
+.layout-1LjVue .wrapper-3Un6-K {
     width: 30px !important;
     height: 30px !important;
-}*/
+}
+.layout-1LjVue .wrapper-3Un6-K svg {
+    contain: unset;
+    overflow: unset;
+}
+.layout-1LjVue .wrapper-3Un6-K foreignObject{
+    mask: none;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50%;
+}
+
+.layout-1LjVue .svg-1G_H_8 > :is(rect, svg) {
+    opacity: 0;
+}
+.layout-1LjVue .svg-1G_H_8 .pointerEvents-2KjWnj {
+    width: 10px;
+    height: 10px;
+    x: 22px;
+    y: 22px;
+    mask: none;
+}
+.layout-1LjVue .cursorDefault-2M8ZNp rect {
+    width: 10px;
+    height: 10px;
+    x: 7.5;
+    y: 5;
+    rx: 5;
+    mask: none;
+}
+.layout-1LjVue .wrapper-3Un6-K:has(.dots-1k2MxY) .pointerEvents-2KjWnj {
+    width: 28px;
+    x: 13px;
+}
+.layout-1LjVue .cursorDefault-2M8ZNp:has(.dots-1k2MxY) rect {
+    width: 28px;
+    x: -1.5;
+}
+.layout-1LjVue .dots-1k2MxY {
+    display: none;
+}
+.layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:before, .layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:after, .layout-1LjVue:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    animation: spinner-pulsing-ellipsis 1.4s infinite ease;
+    opacity: .3;
+    bottom: 1px;
+    right: 7px;
+    z-index: 2;
+    pointer-events: none;
+}
+.layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:after {
+    right: 1px;
+    animation-delay: .2s;
+}
+.layout-1LjVue:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+    right: -5px;
+    animation-delay: .4s;
+}
+.layout-1LjVue .wrapper-3Un6-K:has(.pointerEvents-2KjWnj):before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    right: -4px;
+    bottom: -4px;
+    border: 2px solid var(--background-secondary);
+    transition: background .2s ease, width .2s ease, right .2s ease;
+}
+.layout-1LjVue .wrapper-3Un6-K:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]):before {
+    background-color: var(--status-positive);
+}
+.layout-1LjVue .wrapper-3Un6-K:is([aria-label$="Inaktiv"],[aria-label$="Abwesend"],[aria-label$="Idle"],[aria-label$="Ausente"],[aria-label$="Inactif"],[aria-label$="U mirovanju"],[aria-label$="Inattivo"],[aria-label$="Pasitraukęs"],[aria-label$="Tétlen"],[aria-label$="Inactief"],[aria-label$="Inaktiv"],[aria-label$="Zaraz wracam"],[aria-label$="Ausente"],[aria-label$="Inactiv"],[aria-label$="Toimeton"],[aria-label$="Inaktiv"],[aria-label$="Chờ"],[aria-label$="Nečinný"],[aria-label$="Boşta"],[aria-label$="Αδρανής"],[aria-label$="Не се използва"],[aria-label$="Неактивен"],[aria-label$="Відійшов"],[aria-label$="एक्टिव नहीं"],[aria-label$="ไม่อยู่"],[aria-label$="闲置"],[aria-label$="退席中"],[aria-label$="閒置"],[aria-label$="자리 비움"]):before {
+    background-color: var(--status-warning);
+    background-image: var(--colorblind-idle);
+}
+.layout-1LjVue .wrapper-3Un6-K:is([aria-label$="Vil ikke forstyrres"],[aria-label$="Bitte nicht stören"],[aria-label$="Do Not Disturb"],[aria-label$="No molestar"],[aria-label$="Ne pas déranger"],[aria-label$="Ne uznemiravaj"],[aria-label$="Non disturbare"],[aria-label$="Netrukdyti"],[aria-label$="Elfoglalt"],[aria-label$="Niet storen"],[aria-label$="Ikke forstyrr"],[aria-label$="Nie przeszkadzać"],[aria-label$="Não perturbar"],[aria-label$="Nu deranja"],[aria-label$="Älä häiritse"],[aria-label$="Stör ej"],[aria-label$="Vui Lòng Không Làm Phiền"],[aria-label$="Rahatsız Etmeyin"],[aria-label$="Nerušit"],[aria-label$="Μην ενοχλείτε"],[aria-label$="Не ме безпокой"],[aria-label$="Не беспокоить"],[aria-label$="Не турбувати"],[aria-label$="डिस्टर्ब न करें"],[aria-label$="ห้ามรบกวน"],[aria-label$="请勿打扰"],[aria-label$="取り込み中"],[aria-label$="請勿打擾"],[aria-label$="다른 용무 중"]):before {
+    background-color: var(--status-danger);
+    background-image: var(--colorblind-dnd);
+}
+.layout-1LjVue .wrapper-3Un6-K:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"]):before {
+    background-color: #747f8d;
+    background-image: var(--colorblind-offline);
+}
+.layout-1LjVue .wrapper-3Un6-K:has(.dots-1k2MxY):before {
+    width: 28px;
+    right: -13px;
+    background-image: none !important;
+}
+
 .closeButton-mupH76 {
     background: url(https://cdn.discordapp.com/attachments/1084888922389237810/1084889476913963088/groupchat_close.svg?) 50% no-repeat;
     background-size: 18px 18px;
@@ -2925,6 +3035,10 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     display: none;
 }
 
+/*Onboarding Channel*/
+.content-2V2neN {
+    align-items: center;
+}
 /*Text Channel*/
 .unreadRelevant-2f-VSK {
     background-color: #acadaf;
@@ -3271,9 +3385,9 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 }
 
 /*Popout Buttons*/
-.mention-3XBnnZ {
+.bar-2eAyLE {
     background-clip: padding-box;
-    background-color: var(--text-danger);
+    background-color: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,.2);
     color: #fff;
@@ -3289,53 +3403,30 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     width: auto !important;
     opacity: .9;
 }
-.unread-2wipsx {
-    background-clip: padding-box;
-    background-color: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);
-    color: #fff;
-    font-size: 11px;
-    font-weight: inherit;
-    line-height: 12px;
-    height: 14px !important;
-    padding: 3px 4px !important;
-    text-shadow: none;
-    text-transform: uppercase;
-    padding-left: 2px;
-    min-width: 16px !important;
-    width: auto !important;
-    opacity: .9;
+.bar-2eAyLE.mention-3XBnnZ {
+    background-color: var(--text-danger);
 }
-
-/*Bar Arrow*/
-.unreadMentionsBar-ZXXoOH .text-2GsXbW:after {
-    margin-left: 1px;
+.bar-2eAyLE .text-2GsXbW {
+    display: flex;
+    align-items: center;
 }
-.unreadTop-1DJtGv .text-2GsXbW:after,
-.unreadMentionsIndicatorTop-2bTgUU .text-2GsXbW:after {
+.bar-2eAyLE .text-2GsXbW:after {
     content: "";
     display: inline-block;
-    width: 15px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background: url("data:image/svg+xml,%3Csvg role='img' fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8'/%3E%3C/svg%3E");
+    background-position-y: -0.5px;
     background-repeat: no-repeat;
-    background-position: top 1px left 3px;
     background-size: 12px;
 }
 .unreadBottom-3Ojk6R .text-2GsXbW:after,
 .unreadMentionsIndicatorBottom-3RJMnQ .text-2GsXbW:after {
-    content: "";
-    display: inline-block;
-    width: 15px;
-    height: 10px;
-    background: url("data:image/svg+xml,%3Csvg role='img' fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M13 4.16 11 4.16 11 16.16 5.5 10.66 4.08 12.08 12 20 19.92 12.08 18.5 10.66 13 16.16'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: top 0 left 3px;
-    background-size: 12px;
+    transform: rotate(180deg);
+    background-position-y: unset;
 }
 
-/*Bar Redesign Experiment*/
+/*Unread Bar Onboarding*/
 .bar-wDIGjg {
     width: 224px;
     height: 20px;
@@ -3355,6 +3446,7 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 }
 .barText-1eIsLx {
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
     color: #fff !important;
@@ -3369,18 +3461,23 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 .container-24rGVp .bar-wDIGjg .voiceChannelsIcon-2smmeE + [class*="text"] {
     background: var(--button-positive-background);
 }
+.barText-1eIsLx:after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("data:image/svg+xml,%3Csvg role='img' fill='white' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M13 20 11 20 11 8 5.5 13.5 4.08 12.08 12 4.16 19.92 12.08 18.5 13.5 13 8'/%3E%3C/svg%3E");
+    background-position-y: -0.5px;
+    background-repeat: no-repeat;
+    background-size: 12px;
+}
+.bottom-29W7pW .barText-1eIsLx:after {
+    transform: rotate(180deg);
+    background-position-y: unset;
+}
 
 /*Bottom Layout*/
 /*Bottom VC Panel*/
-.theme-dark:not(.theme-amoled) .container-1zzFcN {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background: #2B2C31;
-}
-.theme-light .container-1zzFcN {
-    background-color: #e4e4e4;
-}
 .connection-3k9QeF {
     padding-bottom: 0;
 }
@@ -3531,22 +3628,10 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 }
 
 /*Regular*/
-.theme-dark:not(.theme-amoled) .panels-3wFtMD,
-.theme-dark:not(.theme-amoled) .container-YkUktl {
-    background-color: #2B2C31;
-}
-.theme-light .panels-3wFtMD,
-.theme-light .container-YkUktl {
-    background-color: #e4e4e4;
-}
 .container-YkUktl {
-    -webkit-box-align: center;
-    align-items: center;
-    height: 52px;
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px;
-    margin-bottom: 1px;
 }
 
 /*Avatar Wrapper*/
@@ -3563,23 +3648,27 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 .panels-3wFtMD .wrapper-3Un6-K:hover {
     opacity: .8;
 }
-.panels-3wFtMD .mask-1y0tyc {
+.panels-3wFtMD .wrapper-3Un6-K .mask-1y0tyc {
     width: unset;
     height: unset;
 }
-.panels-3wFtMD foreignObject {
+.panels-3wFtMD .wrapper-3Un6-K foreignObject {
     mask: none;
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    -webkit-mask: url(/assets/bbefc7dbdacf4d38891b2ce9acdbe763.svg);
+    -webkit-mask-size: 100%;
+    -webkit-mask-type: luminance;
 }
-.panels-3wFtMD rect {
+.panels-3wFtMD .wrapper-3Un6-K rect {
     mask: none;
     width: 10px;
     height: 10px;
     rx: 10;
     x: 7.5px;
     y: 5px;
+    display: none;
 }
 .panels-3wFtMD .pointerEvents-2KjWnj {
     x: 22px;
@@ -3593,22 +3682,27 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    right: -2px;
-    bottom: -2px;
-    box-shadow: 0 0 0 2px #2f3136;
+    right: -4px;
+    bottom: -4px;
+    border: 2px solid var(--background-secondary-alt);
+    transition: background .4s ease;
 }
-.theme-light .sidebar-1tnWFu:not(.theme-dark) .panels-3wFtMD .container-YkUktl .wrapper-3Un6-K:before {
-    box-shadow: 0 0 0 2px #DFE0E2;
+.panels-3wFtMD .wrapper-3Un6-K:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"]):before {
+    background-color: var(--status-positive);
 }
-.panels-3wFtMD .wrapper-3Un6-K:has([fill*="f0b232"]):before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
+.panels-3wFtMD .wrapper-3Un6-K:is([aria-label$="Inaktiv"],[aria-label$="Abwesend"],[aria-label$="Idle"],[aria-label$="Ausente"],[aria-label$="Inactif"],[aria-label$="U mirovanju"],[aria-label$="Inattivo"],[aria-label$="Pasitraukęs"],[aria-label$="Tétlen"],[aria-label$="Inactief"],[aria-label$="Inaktiv"],[aria-label$="Zaraz wracam"],[aria-label$="Ausente"],[aria-label$="Inactiv"],[aria-label$="Toimeton"],[aria-label$="Inaktiv"],[aria-label$="Chờ"],[aria-label$="Nečinný"],[aria-label$="Boşta"],[aria-label$="Αδρανής"],[aria-label$="Не се използва"],[aria-label$="Неактивен"],[aria-label$="Відійшов"],[aria-label$="एक्टिव नहीं"],[aria-label$="ไม่อยู่"],[aria-label$="闲置"],[aria-label$="退席中"],[aria-label$="閒置"],[aria-label$="자리 비움"]):before {
+    background-color: var(--status-warning);
+    background-image: var(--colorblind-idle);
 }
-.panels-3wFtMD .wrapper-3Un6-K:has([fill*="f23f43"]):before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
+.panels-3wFtMD .wrapper-3Un6-K:is([aria-label$="Vil ikke forstyrres"],[aria-label$="Bitte nicht stören"],[aria-label$="Do Not Disturb"],[aria-label$="No molestar"],[aria-label$="Ne pas déranger"],[aria-label$="Ne uznemiravaj"],[aria-label$="Non disturbare"],[aria-label$="Netrukdyti"],[aria-label$="Elfoglalt"],[aria-label$="Niet storen"],[aria-label$="Ikke forstyrr"],[aria-label$="Nie przeszkadzać"],[aria-label$="Não perturbar"],[aria-label$="Nu deranja"],[aria-label$="Älä häiritse"],[aria-label$="Stör ej"],[aria-label$="Vui Lòng Không Làm Phiền"],[aria-label$="Rahatsız Etmeyin"],[aria-label$="Nerušit"],[aria-label$="Μην ενοχλείτε"],[aria-label$="Не ме безпокой"],[aria-label$="Не беспокоить"],[aria-label$="Не турбувати"],[aria-label$="डिस्टर्ब न करें"],[aria-label$="ห้ามรบกวน"],[aria-label$="请勿打扰"],[aria-label$="取り込み中"],[aria-label$="請勿打擾"],[aria-label$="다른 용무 중"]):before {
+    background-color: var(--status-danger);
+    background-image: var(--colorblind-dnd);
 }
-.panels-3wFtMD .wrapper-3Un6-K:has([fill*="80848e"]):before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%232f3136' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
+.panels-3wFtMD .wrapper-3Un6-K:is([aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
+    background-color: #747f8d;
+    background-image: var(--colorblind-offline);
 }
+
 .nameTag-sc-gpq {
     padding: 0 !important;
     transform: translateY(1px);
@@ -3701,9 +3795,6 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
     d: path("M12.8741 2.66675H11.1262C10.4826 2.66675 9.96093 3.18908 9.96093 3.83341V5.30341C8.94233 5.61523 8.00835 6.15593 7.23029 6.88425L5.95626 6.1473C5.68845 5.99242 5.37014 5.95048 5.07142 6.03071C4.77271 6.11095 4.51811 6.30679 4.36371 6.57508L3.48975 8.09175C3.33505 8.35987 3.29316 8.67857 3.3733 8.97764C3.45344 9.2767 3.64905 9.5316 3.91702 9.68619L5.18912 10.4212C4.94769 11.4606 4.94769 12.5415 5.18912 13.5809L3.91702 14.3159C3.64905 14.4705 3.45344 14.7254 3.3733 15.0245C3.29316 15.3235 3.33505 15.6422 3.48975 15.9104L4.36371 17.4251C4.51811 17.6934 4.77271 17.8892 5.07142 17.9694C5.37014 18.0497 5.68845 18.0077 5.95626 17.8529L7.23029 17.1159C8.00835 17.8442 8.94233 18.3849 9.96093 18.6967V20.1667C9.96093 20.8111 10.4826 21.3334 11.1262 21.3334H12.8741C13.5177 21.3334 14.0394 20.8111 14.0394 20.1667V18.6967C15.058 18.3849 15.992 17.8442 16.77 17.1159L18.0441 17.8529C18.3119 18.0077 18.6302 18.0497 18.9289 17.9694C19.2276 17.8892 19.4822 17.6934 19.6366 17.4251L20.5106 15.9104C20.6653 15.6422 20.7072 15.3235 20.627 15.0245C20.5469 14.7254 20.3513 14.4705 20.0833 14.3159L18.8112 13.5809C19.0526 12.5415 19.0526 11.4606 18.8112 10.4212L20.0833 9.68619C20.3513 9.5316 20.5469 9.2767 20.627 8.97764C20.7072 8.67857 20.6653 8.35987 20.5106 8.09175L19.6366 6.57703C19.4822 6.30873 19.2276 6.11289 18.9289 6.03266C18.6302 5.95242 18.3119 5.99436 18.0441 6.14925L16.77 6.88619C15.9922 6.15718 15.0582 5.6158 14.0394 5.30341V3.83341C14.0394 3.18908 13.5177 2.66675 12.8741 2.66675ZM14.6668 12.0001C14.6668 13.4728 13.4729 14.6667 12.0002 14.6667C10.5274 14.6667 9.3335 13.4728 9.3335 12.0001C9.3335 10.5273 10.5274 9.33341 12.0002 9.33341C12.7074 9.33341 13.3857 9.61437 13.8858 10.1145C14.3859 10.6146 14.6668 11.2928 14.6668 12.0001Z");
 }
 /*Build Override Gear*/
-.panels-3wFtMD .button-12Fmur [d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"] {
-    d: path("M12.8741 2.66675H11.1262C10.4826 2.66675 9.96093 3.18908 9.96093 3.83341V5.30341C8.94233 5.61523 8.00835 6.15593 7.23029 6.88425L5.95626 6.1473C5.68845 5.99242 5.37014 5.95048 5.07142 6.03071C4.77271 6.11095 4.51811 6.30679 4.36371 6.57508L3.48975 8.09175C3.33505 8.35987 3.29316 8.67857 3.3733 8.97764C3.45344 9.2767 3.64905 9.5316 3.91702 9.68619L5.18912 10.4212C4.94769 11.4606 4.94769 12.5415 5.18912 13.5809L3.91702 14.3159C3.64905 14.4705 3.45344 14.7254 3.3733 15.0245C3.29316 15.3235 3.33505 15.6422 3.48975 15.9104L4.36371 17.4251C4.51811 17.6934 4.77271 17.8892 5.07142 17.9694C5.37014 18.0497 5.68845 18.0077 5.95626 17.8529L7.23029 17.1159C8.00835 17.8442 8.94233 18.3849 9.96093 18.6967V20.1667C9.96093 20.8111 10.4826 21.3334 11.1262 21.3334H12.8741C13.5177 21.3334 14.0394 20.8111 14.0394 20.1667V18.6967C15.058 18.3849 15.992 17.8442 16.77 17.1159L18.0441 17.8529C18.3119 18.0077 18.6302 18.0497 18.9289 17.9694C19.2276 17.8892 19.4822 17.6934 19.6366 17.4251L20.5106 15.9104C20.6653 15.6422 20.7072 15.3235 20.627 15.0245C20.5469 14.7254 20.3513 14.4705 20.0833 14.3159L18.8112 13.5809C19.0526 12.5415 19.0526 11.4606 18.8112 10.4212L20.0833 9.68619C20.3513 9.5316 20.5469 9.2767 20.627 8.97764C20.7072 8.67857 20.6653 8.35987 20.5106 8.09175L19.6366 6.57703C19.4822 6.30873 19.2276 6.11289 18.9289 6.03266C18.6302 5.95242 18.3119 5.99436 18.0441 6.14925L16.77 6.88619C15.9922 6.15718 15.0582 5.6158 14.0394 5.30341V3.83341C14.0394 3.18908 13.5177 2.66675 12.8741 2.66675ZM14.6668 12.0001C14.6668 13.4728 13.4729 14.6667 12.0002 14.6667C10.5274 14.6667 9.3335 13.4728 9.3335 12.0001C9.3335 10.5273 10.5274 9.33341 12.0002 9.33341C12.7074 9.33341 13.3857 9.61437 13.8858 10.1145C14.3859 10.6146 14.6668 11.2928 14.6668 12.0001Z");
-}
 .panels-3wFtMD .container-YkUktl .buildOverrideButton-1cRvTc > svg.hasBuildOverride-3V9MZN {
     width: 9px;
     height: 9px;
@@ -3757,7 +3848,11 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
     display: none !important;
 }
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-dKOOda {
+.accountProfilePopoutWrapper-3GskID .userProfileOuterThemed-2BgJCM {
+    width: 220px !important;
+    padding: 0 !important;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
     background: transparent !important;
 }
 .accountProfilePopoutWrapper-3GskID {
@@ -3827,24 +3922,15 @@ foreignObject[mask*="online"] .status-3cqfT9 {
 }
 foreignObject[mask*="idle"] .status-3cqfT9 {
     background-color: var(--status-warning) !important;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
+    background-image: var(--colorblind-idle);
 }
 foreignObject[mask*="dnd"] .status-3cqfT9 {
     background-color: var(--status-danger) !important;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
+    background-image: var(--colorblind-dnd);
 }
 foreignObject[mask*="offline"] .status-3cqfT9 {
     background-color: #747f8d !important;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%232f3136' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
-}
-.theme-light foreignObject[mask*="idle"] .status-3cqfT9 {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
-}
-.theme-light foreignObject[mask*="dnd"] .status-3cqfT9 {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
-}
-.theme-light foreignObject[mask*="offline"] .status-3cqfT9 {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23f6f6f7' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
+    background-image: var(--colorblind-offline);
 }
 #account-set-custom-status .iconContainerLeft-1Kr6X4 {
     display: none;
@@ -6171,7 +6257,8 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     padding-bottom: 20px;
 }
 
-.peopleColumn-1wMU14 .peopleListItem-u6dGxF:nth-child(2) {
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF:nth-child(1),
+.peopleColumn-1wMU14 .content-yjf30S .peopleListItem-u6dGxF:nth-child(2) {
     border: 0;
 }
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF {
@@ -11113,6 +11200,21 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 }
 
 /*Memberlist*/
+@keyframes spinner-pulsing-ellipsis {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: .3;
+        transform: scale(.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .membersGroup-2eiWxl.container-q97qHp {
     padding: 0 16px;
     margin: 22px 0 2px 0;
@@ -11139,7 +11241,110 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 }
 .layout-1qmrhw .avatar-6qzftW {
     margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
 }
+.layout-1qmrhw :is(.wrapper-3Un6-K, .avatarStack-3Bjmsl) {
+    width: 30px !important;
+    height: 30px !important;
+}
+.layout-1qmrhw .wrapper-3Un6-K svg {
+    contain: unset;
+    overflow: unset;
+}
+.layout-1qmrhw .wrapper-3Un6-K foreignObject {
+    mask: none !important;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.layout-1qmrhw .svg-1G_H_8 > :is(rect, svg) {
+    opacity: 0;
+}
+.layout-1qmrhw .svg-1G_H_8 .pointerEvents-2KjWnj {
+    width: 10px;
+    height: 10px;
+    x: 22px;
+    y: 22px;
+    mask: none;
+}
+.layout-1qmrhw .cursorDefault-2M8ZNp rect {
+    width: 10px;
+    height: 10px;
+    x: 7.5;
+    y: 5;
+    rx: 5;
+    mask: none;
+}
+.layout-1qmrhw .wrapper-3Un6-K:has(.dots-1k2MxY) .pointerEvents-2KjWnj {
+    width: 28px;
+    x: 13px;
+}
+.layout-1qmrhwe .cursorDefault-2M8ZNp:has(.dots-1k2MxY) rect {
+    width: 28px;
+    x: -1.5;
+}
+.layout-1qmrhw .dots-1k2MxY {
+    display: none;
+}
+.layout-1qmrhw:has(.dots-1k2MxY) .avatar-6qzftW:before, .layout-1qmrhw:has(.dots-1k2MxY) .avatar-6qzftW:after, .layout-1qmrhw:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    animation: spinner-pulsing-ellipsis 1.4s infinite ease;
+    opacity: .3;
+    bottom: 1px;
+    right: 7px;
+    z-index: 2;
+    pointer-events: none;
+}
+.layout-1qmrhw:has(.dots-1k2MxY) .avatar-6qzftW:after {
+    right: 1px;
+    animation-delay: .2s;
+}
+.layout-1qmrhw:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+    right: -5px;
+    animation-delay: .4s;
+}
+.layout-1qmrhw .wrapper-3Un6-K:has(.pointerEvents-2KjWnj):before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    right: -4px;
+    bottom: -4px;
+    border: 2px solid var(--background-secondary);
+    transition: background .2s ease, width .2s ease, right .2s ease;
+}
+.layout-1qmrhw .wrapper-3Un6-K:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]):before {
+    background-color: var(--status-positive);
+}
+.layout-1qmrhw .wrapper-3Un6-K:is([aria-label$="Inaktiv"],[aria-label$="Abwesend"],[aria-label$="Idle"],[aria-label$="Ausente"],[aria-label$="Inactif"],[aria-label$="U mirovanju"],[aria-label$="Inattivo"],[aria-label$="Pasitraukęs"],[aria-label$="Tétlen"],[aria-label$="Inactief"],[aria-label$="Inaktiv"],[aria-label$="Zaraz wracam"],[aria-label$="Ausente"],[aria-label$="Inactiv"],[aria-label$="Toimeton"],[aria-label$="Inaktiv"],[aria-label$="Chờ"],[aria-label$="Nečinný"],[aria-label$="Boşta"],[aria-label$="Αδρανής"],[aria-label$="Не се използва"],[aria-label$="Неактивен"],[aria-label$="Відійшов"],[aria-label$="एक्टिव नहीं"],[aria-label$="ไม่อยู่"],[aria-label$="闲置"],[aria-label$="退席中"],[aria-label$="閒置"],[aria-label$="자리 비움"]):before {
+    background-color: var(--status-warning);
+    background-image: var(--colorblind-idle);
+}
+.layout-1qmrhw .wrapper-3Un6-K:is([aria-label$="Vil ikke forstyrres"],[aria-label$="Bitte nicht stören"],[aria-label$="Do Not Disturb"],[aria-label$="No molestar"],[aria-label$="Ne pas déranger"],[aria-label$="Ne uznemiravaj"],[aria-label$="Non disturbare"],[aria-label$="Netrukdyti"],[aria-label$="Elfoglalt"],[aria-label$="Niet storen"],[aria-label$="Ikke forstyrr"],[aria-label$="Nie przeszkadzać"],[aria-label$="Não perturbar"],[aria-label$="Nu deranja"],[aria-label$="Älä häiritse"],[aria-label$="Stör ej"],[aria-label$="Vui Lòng Không Làm Phiền"],[aria-label$="Rahatsız Etmeyin"],[aria-label$="Nerušit"],[aria-label$="Μην ενοχλείτε"],[aria-label$="Не ме безпокой"],[aria-label$="Не беспокоить"],[aria-label$="Не турбувати"],[aria-label$="डिस्टर्ब न करें"],[aria-label$="ห้ามรบกวน"],[aria-label$="请勿打扰"],[aria-label$="取り込み中"],[aria-label$="請勿打擾"],[aria-label$="다른 용무 중"]):before {
+    background-color: var(--status-danger);
+    background-image: var(--colorblind-dnd);
+}
+.layout-1qmrhw .wrapper-3Un6-K:is([aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
+    background-color: #747f8d;
+    background-image: var(--colorblind-offline);
+}
+.layout-1qmrhw .wrapper-3Un6-K:has(.dots-1k2MxY):before {
+    width: 28px;
+    right: -13px;
+    background-image: none !important;
+}
+
 .name-3Vmqxm {
     line-height: 18px;
 }
@@ -11175,7 +11380,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 }
 
 /*Active on Mobile*/
-.member-2gU6Ar:has([mask*="mobile"]) .name-3Vmqxm {
+.member-2gU6Ar:has(.wrapper-3Un6-K:is([aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"])) .name-3Vmqxm {
     padding-right: 18px;
     background: url("data:image/svg+xml,%3Csvg role='img' fill='hsl(218, 4.6%, 46.9%)' viewBox='0 0 24 33' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M15.5 3.75h-8C6.12 3.75 5 4.87 5 6.25v17C5 24.63 6.12 25.75 7.5 25.75h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 4.87 16.88 3.75 15.5 3.75zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V6.75h9v14z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -11383,6 +11588,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     width: 18.5px;
     mask: none;
     rx: 50%;
+    opacity: 0;
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra rect[x="60"] {
     x: 70.5;
@@ -11391,19 +11597,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     width: 18.5px;
     mask: none;
     rx: 50%;
-}
-rect[mask*="online"],
-.wrapper-3Un6-K rect[fill*="23a55a"],
-.wrapper-3Un6-K rect[fill*="23a45a"] {
-    fill: var(--status-positive);
-}
-rect[mask*="idle"],
-.wrapper-3Un6-K rect[fill*="f0b232"] {
-    fill: var(--status-warning);
-}
-rect[mask*="dnd"],
-.wrapper-3Un6-K rect[fill*="f23f43"] {
-    fill: var(--status-danger);
+    opacity: 0;
 }
 .userPopoutOuter-1OHwPL .wrapper-3Un6-K:before {
     position: absolute;
@@ -11421,32 +11615,27 @@ rect[mask*="dnd"],
     background-repeat: no-repeat;
     right: 3px;
     bottom: 3px;
+    transition: background .4s ease;
 }
-.userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-idle)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
+.userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]):before {
+    background-color: var(--status-positive);
 }
-.userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-dnd)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
+.userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K:is([aria-label$="Inaktiv"],[aria-label$="Abwesend"],[aria-label$="Idle"],[aria-label$="Ausente"],[aria-label$="Inactif"],[aria-label$="U mirovanju"],[aria-label$="Inattivo"],[aria-label$="Pasitraukęs"],[aria-label$="Tétlen"],[aria-label$="Inactief"],[aria-label$="Inaktiv"],[aria-label$="Zaraz wracam"],[aria-label$="Ausente"],[aria-label$="Inactiv"],[aria-label$="Toimeton"],[aria-label$="Inaktiv"],[aria-label$="Chờ"],[aria-label$="Nečinný"],[aria-label$="Boşta"],[aria-label$="Αδρανής"],[aria-label$="Не се използва"],[aria-label$="Неактивен"],[aria-label$="Відійшов"],[aria-label$="एक्टिव नहीं"],[aria-label$="ไม่อยู่"],[aria-label$="闲置"],[aria-label$="退席中"],[aria-label$="閒置"],[aria-label$="자리 비움"]):before {
+    background-color: var(--status-warning);
+    background-image: var(--colorblind-idle);
+}
+.userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K:is([aria-label$="Vil ikke forstyrres"],[aria-label$="Bitte nicht stören"],[aria-label$="Do Not Disturb"],[aria-label$="No molestar"],[aria-label$="Ne pas déranger"],[aria-label$="Ne uznemiravaj"],[aria-label$="Non disturbare"],[aria-label$="Netrukdyti"],[aria-label$="Elfoglalt"],[aria-label$="Niet storen"],[aria-label$="Ikke forstyrr"],[aria-label$="Nie przeszkadzać"],[aria-label$="Não perturbar"],[aria-label$="Nu deranja"],[aria-label$="Älä häiritse"],[aria-label$="Stör ej"],[aria-label$="Vui Lòng Không Làm Phiền"],[aria-label$="Rahatsız Etmeyin"],[aria-label$="Nerušit"],[aria-label$="Μην ενοχλείτε"],[aria-label$="Не ме безпокой"],[aria-label$="Не беспокоить"],[aria-label$="Не турбувати"],[aria-label$="डिस्टर्ब न करें"],[aria-label$="ห้ามรบกวน"],[aria-label$="请勿打扰"],[aria-label$="取り込み中"],[aria-label$="請勿打擾"],[aria-label$="다른 용무 중"]):before {
+    background-color: var(--status-danger);
+    background-image: var(--colorblind-dnd);
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-streaming)"]) .wrapper-3Un6-K:before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23bdafd5' points='3 1.5 3 8.5 8.5 5'/%3E%3C/svg%3E");
 }
-.userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-offline)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%232f3136' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
+.userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"]):before {
+    background-color: #80848e;
+    background-image: var(--colorblind-offline);
     background-size: 22px;
     background-position: -4px -4px;
-}
-.theme-light .userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-idle)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
-}
-.theme-light .userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-dnd)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
-}
-.theme-light .userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-streaming)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23ded7ea' points='3 1.5 3 8.5 8.5 5'/%3E%3C/svg%3E");
-}
-.theme-light .userPopoutOuter-1OHwPL .avatarWrapper-eenWra:has([mask="url(#svg-mask-status-offline)"]) .wrapper-3Un6-K:before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23f6f6f7' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
 }
 
 /*Badges*/
@@ -13247,10 +13436,6 @@ rect[mask*="dnd"],
 }
 /*Server Boost*/.side-1lrxIh .premiumTab-39eQzY + .item-2GWPIy {
     order: 14;
-    color: var(--guild-boosting-pink);
-}
-.side-1lrxIh .premiumTab-39eQzY + .item-2GWPIy.selected-1sf9UK {
-    background-color: var(--guild-boosting-pink) !important;
 }
 /*Subscriptions*/.side-1lrxIh .item-2GWPIy:is([aria-label="Abonnementer"],[aria-label="Abonnements"],[aria-label="Subscriptions"],[aria-label="Suscripciones"],[aria-label="Abonnements"],[aria-label="Pretplate"],[aria-label="Abbonamenti"],[aria-label="Prenumeratos"],[aria-label="Előfizetések"],[aria-label="Abonnementen"],[aria-label="Abonnementer"],[aria-label="Subskrypcje"],[aria-label="Assinaturas"],[aria-label="Abonamente"],[aria-label="Tilaukset"],[aria-label="Prenumerationer"],[aria-label="Đăng Ký"],[aria-label="Abonelikler"],[aria-label="Předplatné"],[aria-label="Συνδρομές"],[aria-label="Абонаменти"],[aria-label="Подписки"],[aria-label="Передплати"],[aria-label="सब्सक्रिप्शन"],[aria-label="การสมัครสมาชิก"],[aria-label="订阅"],[aria-label="購読"],[aria-label="訂閱"],[aria-label="구독"]) {
     order: 15;
@@ -14589,7 +14774,7 @@ html:is(.platform-web, .platform-osx) .standardSidebarView-E9Pc3j:has(.contentCo
 #my-account-tab .usernameInnerRow-1-STdK .text-md-normal-2rFCH3:nth-child(2) {
     color: var(--text-muted) !important;
 }
-#my-account-tab .usernameInnerRow-1-STdK .text-md-normal-2rFCH3:not(:has(:nth-child(2))):before {
+#my-account-tab .usernameInnerRow-1-STdK:not(:has(:nth-child(2))) .text-md-normal-2rFCH3:before {
     content: "@";
     color: var(--text-muted);
 }
@@ -17278,6 +17463,25 @@ body {
     --puttparty: hsl(253,calc(var(--saturation-factor, 1)*72.5%),27.1%);
     --pokernight: hsl(228,calc(var(--saturation-factor, 1)*39.9%),32%);
     --garticphone: hsl(308,calc(var(--saturation-factor, 1)*67.5%),38.6%);
+}
+
+.theme-dark {
+    --colorblind-idle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
+    --colorblind-dnd: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
+    --colorblind-offline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%232f3136' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
+    --callinfo-normal: ;
+    --callinfo-hover: ;
+    --callredirect-normal: ;
+    --callredirect-hover: ;
+}
+.theme-light {
+    --colorblind-idle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
+    --colorblind-dnd: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
+    --colorblind-offline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23f6f6f7' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
+    --callinfo-normal: ;
+    --callinfo-hover: ;
+    --callredirect-normal: ;
+    --callredirect-hover: ;
 }
 
 .theme-dark {

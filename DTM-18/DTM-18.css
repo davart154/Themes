@@ -5498,6 +5498,13 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     d: path("M15.7721 13.6792C15.5472 13.4535 15.2979 13.244 15.03 13.05C15.38 13.02 15.71 13 16 13C18.33 13 23 14.17 23 16.5V19H19V18C19 16.1183 17.5923 14.677 15.7721 13.6792V13.6792ZM14.3335 5.50332C14.8098 5.18525 15.3828 5 16 5C17.66 5 18.99 6.34 18.99 8C18.99 9.66 17.66 11 16 11C15.3828 11 14.8099 10.8148 14.3336 10.4967C14.7575 9.76214 15 8.90956 15 8.00007C15 7.09054 14.7575 6.23792 14.3335 5.50332V5.50332ZM9 12C11.21 12 13 10.21 13 8C13 5.79 11.21 4 9 4C6.79 4 5 5.79 5 8C5 10.21 6.79 12 9 12ZM9 14C6.33 14 1 15.34 1 18V20H17V18C17 15.34 11.67 14 9 14Z");
     display: flex;
 }
+/*User Profile*/
+.title-31SJ6t [d^="M12 22C12.4883 22"] {
+    d: path("M14 19.5C14 17.5 15.1 15.7 16.7 14.8C15.4 14.3 13.8 14 12 14C7.6 14 4 15.8 4 18V20H14V19.5M19.5 16C17.6 16 16 17.6 16 19.5S17.6 23 19.5 23 23 21.4 23 19.5 21.4 16 19.5 16M16 8C16 10.2 14.2 12 12 12S8 10.2 8 8 9.8 4 12 4 16 5.8 16 8Z");
+}
+.title-31SJ6t [d^="M12 22C12.4883 22"] + path {
+    display: none;
+}
 /*New Group DM*/
 .inviteToolbar-2k2nqz {
     align-items: center;
@@ -13629,10 +13636,10 @@ html:is(.platform-win,.platform-linux) .side-1lrxIh .item-2GWPIy:has(.poggermode
     order: 806;
 }
 /*Plugin Repo*/.side-1lrxIh .pluginrepo-tab {
-    order: 802;
+    order: 807;
 }
 /*Theme Repo*/.side-1lrxIh .themerepo-tab {
-    order: 803;
+    order: 808;
 }
 /*Vencord (At the very top)*/.side-1lrxIh:has(.vc-settings:nth-child(2)) div:is(.header-2F5_LB:has(+ .vc-settings), [class^="vc"]) {
     order: -1;

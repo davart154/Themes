@@ -3489,6 +3489,10 @@ img[src="/assets/7ba11ffb1900fa2b088cb31324242047.png"] {
 
 /*Bottom Layout*/
 /*Bottom VC Panel*/
+.container-1zzFcN {
+    display: flex;
+    flex-direction: column;
+}
 .connection-3k9QeF {
     padding-bottom: 0;
 }
@@ -10137,7 +10141,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     padding: 1px .375rem;
 }
 .burstGlow-3AZMzF {
-    border-radius: 3px;
+    display: none;
 }
 
 /*Self reactions*/

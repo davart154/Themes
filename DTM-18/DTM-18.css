@@ -3644,26 +3644,26 @@ img.icon-3AqZ2e {
 .panelSubtextContainer-7hU_Cm .subtext-2HDqJ7 {
     overflow: visible;
 }
-.hoverRoll-2XwpoF {
+.panels-3wFtMD .hoverRoll-2XwpoF {
     contain: unset;
 }
-.hoverRoll-2XwpoF .default-rFvAvS {
+.panels-3wFtMD .hoverRoll-2XwpoF .default-rFvAvS {
     transform: none !important;
 }
-.hoverRoll-2XwpoF .default-rFvAvS:not(:has(.customStatus-1UAQAK)) {
+.panels-3wFtMD .hoverRoll-2XwpoF .default-rFvAvS:not(:has(.customStatus-1UAQAK)) {
     display: none;
 }
-.hoverRoll-2XwpoF .hovered-20u3oh {
+.panels-3wFtMD .hoverRoll-2XwpoF .hovered-20u3oh {
     transform: none;
     position: unset;
     opacity: .4 !important;
     overflow: visible;
 }
-.theme-light .hoverRoll-2XwpoF .hovered-20u3oh {
+.theme-light .panels-3wFtMD .hoverRoll-2XwpoF .hovered-20u3oh {
     opacity: .8 !important;
 }
 
-.hoverRoll-2XwpoF .default-rFvAvS {
+.panels-3wFtMD .hoverRoll-2XwpoF .default-rFvAvS {
     overflow: visible;
     box-sizing: border-box;
     position: absolute;
@@ -3678,7 +3678,7 @@ img.icon-3AqZ2e {
     transition: opacity 0.1s ease;
     transition-delay: 0s !important;
 }
-.hoverRoll-2XwpoF .default-rFvAvS:before {
+.panels-3wFtMD .hoverRoll-2XwpoF .default-rFvAvS:before {
     content: "";
     position: absolute;
     bottom: -5px;

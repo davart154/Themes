@@ -3851,19 +3851,57 @@ img.icon-3AqZ2e {
 .accountProfilePopoutWrapper-3GskID .avatarWrapper-eenWra,
 .accountProfilePopoutWrapper-3GskID .profileBadges-2pItdR,
 .accountProfilePopoutWrapper-3GskID .userProfileInner-1ngKnf:before,
-.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz div:not(.menu-2TXYjN, .menu-2TXYjN *),
+.accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz > div:not(.section-28YDOf.usernameSection-3FppkT, .menu-2TXYjN, .menu-2TXYjN *),
 .accountProfilePopoutWrapper-3GskID [id="account-divider-1"] {
     display: none !important;
 }
-.accountProfilePopoutWrapper-3GskID .userProfileOuterThemed-2BgJCM {
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL {
     width: 220px !important;
     padding: 0 !important;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgb(0 0 0 / 82%), 0 1px 4px rgb(0 0 0 / 10%);
 }
 .accountProfilePopoutWrapper-3GskID .userPopoutOverlayBackground-3A0Pcz {
     background: transparent !important;
 }
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userProfileInner-1ngKnf {
+    width: 220px;
+    background: #282b30;
+}
 .accountProfilePopoutWrapper-3GskID {
     left: unset;
+}
+.accountProfilePopoutWrapper-3GskID .section-28YDOf.usernameSection-3FppkT {
+    background: #282b30;
+    line-height: 18px;
+    padding: 10px 14px;
+    margin: 2px 0;
+}
+.clickTarget-2uXro4 {
+    width: fit-content;
+}
+.childWrapper-2wlp_S {
+    flex: unset;
+}
+.childWrapper-2wlp_S + div {
+    display: none;
+}
+.accountProfilePopoutWrapper-3GskID .section-28YDOf.usernameSection-3FppkT .userText-1_v2Cq {
+    text-align: unset;
+    margin: unset;
+}
+.accountProfilePopoutWrapper-3GskID .nickname-3P1RuO {
+    color: hsla(0, 0%, 100%, .6);
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.accountProfilePopoutWrapper-3GskID .userTag-3A4Fw4 {
+    font-size: 12px;
+    line-height: 16px;
+}
+.accountProfilePopoutWrapper-3GskID .userPopoutOuter-1OHwPL .userTagUsernameBase-267ALn {
+    color: rgba(153,170,181,.8);
 }
 #account .separator-12G2Op {
     border-color: #383b3f;
@@ -3881,9 +3919,18 @@ img.icon-3AqZ2e {
 #account.menu-2TXYjN,
 #account .submenu-3ycVEH.menu-2TXYjN {
     background: #282b30;
-    border-radius: 5px;
+    border-radius: 0;
     width: 220px;
-    box-shadow: 0 0 1px rgb(0 0 0 / 82%), 0 1px 4px rgb(0 0 0 / 10%);
+    box-shadow: none;
+}
+#account .submenu-3ycVEH.menu-2TXYjN {
+    border-radius: 5px;
+}
+#account.menu-2TXYjN .scroller-nxCRu_:before {
+    content: "";
+    display: block;
+    width: 100%;
+    border-top: 1px solid #383b3f;
 }
 #account.menu-2TXYjN .labelContainer-35-WEd,
 .submenu-3ycVEH.menu-2TXYjN .statusItem-38ArJn {
@@ -3903,6 +3950,8 @@ img.icon-3AqZ2e {
     margin-left: 3px;
 }
 .description-1Dd2kv {
+    font-size: 12px;
+    line-height: 16px;
     color: rgba(153,170,181,.8);
 }
 .icon-eUBS01 {

@@ -7122,7 +7122,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 /*Beginning of Channel*/
 .container-1yy5xN {
     min-height: 95px;
-    background: url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374467466928208/Chat_Header_1.png),url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374495375818852/Chat_Header_2.png);
+    background: url(https://cdn.discordapp.com/attachments/1129048812300800062/1129048992119001159/header1_dark.png),url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049014696955975/header2_dark.png);
     background-position: 0 100%,100% 100%;
     background-repeat: no-repeat,no-repeat;
     background-size: 192px 80px,216px 64px;
@@ -7130,7 +7130,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     padding-bottom: 14px;
 }
 .theme-light .container-1yy5xN {
-    background: url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374624333889576/Chat_Header_1.png),url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374646156853358/Chat_Header_2.png);
+    background: url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049003993071637/header1_light.png),url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049027342762176/header2_light.png);
     background-position: 0 100%,100% 100%;
     background-repeat: no-repeat,no-repeat;
     background-size: 192px 80px,216px 64px;
@@ -10513,7 +10513,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     display: none;
 }
 .wrapper-2SplAX {
-    background-image: url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374522487816292/Chat_Footer_1.png),url(https://cdn.discordapp.com/attachments/1011371685980684308/1011374544684068994/Chat_Footer_2.png);
+    background-image: url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049041179787405/footer1_dark.png),url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049062059016292/footer2_dark.png);
     background-position: 0 100%,100% 100%;
     background-repeat: no-repeat,no-repeat;
     background-size: 187px 39px;
@@ -10525,7 +10525,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     padding: 0;
 }
 .theme-light .wrapper-2SplAX {
-    background-image: url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374664037191710/Chat_Footer_1.png),url(https://cdn.discordapp.com/attachments/1011371707136749682/1011374682882199653/Chat_Footer_2.png);
+    background-image: url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049051975917688/footer1_light.png),url(https://cdn.discordapp.com/attachments/1129048812300800062/1129049062059016292/footer2_dark.png);
 }
 .title-Do_30w {
     color: hsla(0,0%,100%,.3);

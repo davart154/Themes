@@ -261,7 +261,7 @@
 .contents-2MsGLg [src*='261744277154037762'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='261744277154037762']):after,
 [style*='261744277154037762'] .imageUploaderFileInput-18YkLC:after {
-    background-image: var(--deco-blossom-yellow);
+    background-image: var(--deco-b-donutjellydrizzle);
 }
 
 .contents-2MsGLg [src*='234478733296140291'] + .header-2jRmjb:after,
@@ -388,6 +388,12 @@
 .wrapper-3Un6-K:has([src*='845348166521585665']):after,
 [style*='845348166521585665'] .imageUploaderFileInput-18YkLC:after {
     background-image: var(--deco-a-love);
+}
+
+.contents-2MsGLg [src*='139559909879578624'] + .header-2jRmjb:after,
+.wrapper-3Un6-K:has([src*='139559909879578624']):after,
+[style*='139559909879578624'] .imageUploaderFileInput-18YkLC:after {
+    background-image: var(--deco-lightning);
 }
 
 html {

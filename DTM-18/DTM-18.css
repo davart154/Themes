@@ -16059,7 +16059,52 @@ html:is(.platform-web, .platform-osx) .standardSidebarView-E9Pc3j:has(.contentCo
     font-size: 16px;
 }
 
-/*BD Settings*/
+/*BD*/
+/*Error Modal*/
+.bd-modal-header {
+    padding: 0;
+    z-index: 1;
+    overflow: visible;
+}
+.bd-modal-header .bd-header-primary {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: unset !important;
+    margin-bottom: 0 !important;
+    padding: 20px;
+    box-shadow: var(--elevation-high);
+    z-index: 1;
+}
+.bd-modal-header .bd-tab-bar {
+    height: 60px;
+    padding: 0 20px;
+    gap: 20px;
+    background: var(--background-secondary);
+    box-shadow: 0 5px 5px 0 #0001;
+}
+.bd-modal-header .bd-tab-item {
+    color: var(--interactive-normal);
+    font-size: 18px;
+    background: none !important;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+.bd-modal-header .bd-tab-item:hover {
+    color: var(--interactive-hover);
+    border-color: var(--interactive-normal);
+}
+.bd-modal-header .bd-tab-item.selected {
+    color: var(--interactive-active);
+    border-color: var(--interactive-active);
+}
+.bd-addon-error-header .bd-header-primary {
+    font-weight: 700;
+}
+.bd-modal-footer .bd-button-medium {
+    min-width: 70px;
+}
 /*Plugin and Theme Box*/
 .bd-addon-list .bd-addon-card {
     background: var(--background-secondary-alt);

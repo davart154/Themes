@@ -1920,7 +1920,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*NOTICE OF MESSAGES NEEDED*/
 .base-2jDfDU:before {
-    content: "Performance updates are being made. Some features may be missing.";
+    content: "A new theme changelog is available in User Settings. ";
     background-color: #4a90e2;
     color: #fff;
     font-size: 14px;
@@ -17004,6 +17004,160 @@ html:is(.platform-web, .platform-osx) .standardSidebarView-E9Pc3j:has(.contentCo
 }
 
 
+/*Built-in Changelog Experiment*/
+.footer-1gMODG {
+    width: 100%;
+    align-items: center;
+}
+.socialLink-1qjJIk + .defaultColor-1EVLSt {
+    margin-left: auto;
+    color: #fff;
+    background-color: var(--brand-experiment);
+    transition: background .2s ease;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0;
+    line-height: 0;
+    cursor: pointer;
+}
+.socialLink-1qjJIk + .defaultColor-1EVLSt:hover {
+    background-color: var(--brand-experiment-560);
+}
+.socialLink-1qjJIk + .defaultColor-1EVLSt:before {
+    content: "Switch to DTM-18 Change Log";
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+.side-1lrxIh:not(:has(.item-2GWPIy[aria-label="Merch"])):has(.item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]) .item-2GWPIy:has(+ .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]),
+.side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy[aria-label="Merch"]) {
+    position: relative;
+    padding-bottom: 40px;
+}
+.side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]):after,
+.side-1lrxIh:not(:has(.item-2GWPIy[aria-label="Merch"])):has(.item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]) .item-2GWPIy:has(+ .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .item-2GWPIy + .separator-2N511j + .item-2GWPIy [d^="M18 2H7C5.897"]):after,
+.side-1lrxIh .item-2GWPIy:has(+ .item-2GWPIy[aria-label="Merch"]):after {
+    content: "+ DTM-18 Change Log";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 10px;
+}
+
+.focusLock-bHVOlV .title-2ftWWc {
+    transition: all var(--changelog-delay) ease;
+}
+.focusLock-bHVOlV .title-2ftWWc:before {
+    white-space: pre;
+    font-size: 0px;
+    line-height: 0px;
+    max-width: 0;
+    transition: all var(--changelog-delay) ease;
+    z-index: 1;
+    background: var(--background-primary) !important;
+    filter: drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary))drop-shadow(0 0 0.5px var(--background-primary));
+    padding-left: 16px;
+    margin-left: -16px;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) .title-2ftWWc {
+    transition: all 0s;
+    font-size: 0px;
+    line-height: 0px;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) .title-2ftWWc:before {
+    transition: all 0s;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.image-ZPv20Y {
+    transition: height 0s ease;
+    transition-delay: var(--changelog-delay);
+}
+.focusLock-bHVOlV .content-FDHp32 > [aria-label]:before {
+    content: "";
+    display: block;
+    width: 451px;
+    height: 0px;
+    aspect-ratio: 16 / 9;
+    border-radius: 5px;
+    transition: height 0s ease, margin-bottom 0s ease;
+    transition-delay: var(--changelog-delay);
+    background-image: url("https://cdn.discordapp.com/attachments/1148969555591442522/1148969697069518848/changelog_whitneyannounce.png");
+    background-size: contain;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) .image-ZPv20Y {
+    height: 0px;
+    transition-delay: 0s;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) .content-FDHp32 > [aria-label]:before {
+    height: 254px;
+    margin-bottom: -15px;
+    transition-delay: 0s;
+}
+img + .title-2ftWWc + ul > li {
+    margin-top: -120px;
+}
+img + .title-2ftWWc + ul > li:before {
+    margin-top: 117px;
+}
+img + .title-2ftWWc:before {
+    content: "New day, old stuff.";
+}
+img + .title-2ftWWc + ul strong:before {
+    content: "Did you miss it? Whitney has been re-added to DTM-18. If you're one of those who misses the classic font, you'll sure love to see its return. \a \a Status icons have been fully reverted to their original form. For those who didn't know, the original colorblind mode was toggleable in the \"Appearance\" settings tab. With BetterDiscord's introduction of Theme Settings, you'll once again be able to toggle the mode on or off. So you get to pick whether or not you want icons or basic circles. \a \a The panel for uploading files has a reworked design. For the longest time it went unstyled, and now it's been given a blurple makeover to look closer to its original modal counterpart. This design is not final and changes may occur in the near future. \a \a The settings tab reorder has once again been updated. With it includes support for the Vencord tab section being placed different areas of the sidebar (via. Settings Plugin), and more precise selectors for Replugged's settings section (add unique classes pls).";
+    font-weight: 400;
+}
+img + .title-2ftWWc + ul + .title-2ftWWc:before {
+    content: "We need more FPS";
+}
+img + .title-2ftWWc + ul + .title-2ftWWc + ul strong:before {
+    content: "For those who've noticed issues regarding lag or a slower client when using the theme, the issue is being looked into. DTM-18 is currently undergoing a performance check to better optimize Discord for its users. Some features that contributed to the lag may be missing during this time period, so please be patient as alternative methods for including these features are being looked into.";
+    font-weight: 400;
+}
+img + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc:before {
+    content: "Support on the way";
+}
+img + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc + ul strong:before {
+    content: "In the coming weeks, expect some plugins to be slightly styled to better suit the theme. Rollout may either be completely random or baesd on popularity, most likely depending on what comes up first.";
+    font-weight: 400;
+}
+
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li,
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li:before,
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li > *,
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li :before,
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li :after {
+    transition: all var(--changelog-delay) ease;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li :before,
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) li :after {
+    line-height: 0px;
+    font-size: 0;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) li {
+    transition: margin-top 0s;
+    margin-top: 0;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) li > * {
+    transition: all 0s;
+    line-height: 0px;
+    font-size: 0;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) li :before,
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) li :after {
+    transition: all 0s;
+    line-height: 20px;
+    font-size: 16px;
+}
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) li:before {
+    transition: margin-top 0s;
+    margin-top: -3px;
+}
+
+
 body {
     --font-primary: "Whitney Asset","Whitney Data","gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-display: var(--font-primary);
@@ -17328,6 +17482,7 @@ body {
 }
 
 :root {
+    --changelog-delay: 9999999s;
     --skype: hsl(196,calc(var(--saturation-factor, 1)*100%),42.2%);
     --battlenet: hsl(200,calc(var(--saturation-factor, 1)*100%),44.9%);
     --steam: hsl(215,calc(var(--saturation-factor, 1)*35.1%),14.5%);

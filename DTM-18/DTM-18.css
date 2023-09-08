@@ -2839,7 +2839,7 @@ img.icon-3AqZ2e {
 .layout-1LjVue .dots-1k2MxY {
     display: none;
 }
-.layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:before, .layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:after, .layout-1LjVue:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+.layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:before, .layout-1LjVue:has(.dots-1k2MxY) :is(.avatar-1HDIsL, .wrapper-3Un6-K):after {
     content: "";
     position: absolute;
     width: 4px;
@@ -2853,11 +2853,11 @@ img.icon-3AqZ2e {
     z-index: 2;
     pointer-events: none;
 }
-.layout-1LjVue:has(.dots-1k2MxY) .avatar-1HDIsL:after {
+.layout-1LjVue .avatar-1HDIsL:after {
     right: 1px;
     animation-delay: .2s;
 }
-.layout-1LjVue:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+.layout-1LjVue .wrapper-3Un6-K:after {
     right: -5px;
     animation-delay: .4s;
 }
@@ -9022,11 +9022,17 @@ img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
 
 /*Channel/Mention Chip*/
 /*Mention*/
+.icon-2Ph-Lv {
+    vertical-align: unset;
+    margin-bottom: 0;
+    transform: translateY(2px);
+}
 .wrapper-1ZcZW- {
     border-radius: 0;
     color: var(--brand-experiment);
     background-color: var(--brand-experiment-10a);
     transition: .1s ease;
+    align-items: center;
 }
 .wrapper-1ZcZW-:hover {
     color: #fff;
@@ -11279,7 +11285,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 .layout-1qmrhw .dots-1k2MxY {
     display: none;
 }
-.layout-1qmrhw:has(.dots-1k2MxY) .avatar-6qzftW:before, .layout-1qmrhw:has(.dots-1k2MxY) .avatar-6qzftW:after, .layout-1qmrhw:has(.dots-1k2MxY) .wrapper-3Un6-K:after {
+.layout-1qmrhw:has(.dots-1k2MxY) .avatar-6qzftW:before, .layout-1qmrhw:has(.dots-1k2MxY) :is(.avatar-6qzftW, .wrapper-3Un6-K):after {
     content: "";
     position: absolute;
     width: 4px;

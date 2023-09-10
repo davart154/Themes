@@ -6219,31 +6219,31 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 /*All Tab*/
 #all-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/330e9ef5f4803d08baae91a861e3264f.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500828537425993/friendsall_dark.png) !important;
 }
 .theme-light #all-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/02f8bf2a04474c1a7cf33c2be911e91b.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500840696721578/friendsall_light.png) !important;
 }
 /*Online Tab*/
 #online-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/12ce59260e50f1f80302bb73f06cc8c0.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500873638781031/friendsonline_dark.png) !important;
 }
 .theme-light #online-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/e52f6b5dcfa283a43b78312fa3511460.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500885793869955/friendsonline_light.png) !important;
 }
 /*Pending Tab*/
 #pending-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/895c4e785aea2c4ce6d05abdef6936cd.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500897307238571/friendspending_dark.png) !important;
 }
 .theme-light #pending-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/8b2623dcfd6bbf07e6a6b8f8402cd21f.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500908136923248/friendspending_light.png) !important;
 }
 /*Blocked Tab*/
 #blocked-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/3fc1e006a5e1857cdaeff54204a3dd72.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500852260405418/friendsblocked_dark.png) !important;
 }
 .theme-light #blocked-tab .emptyStateContainer-1NHrfT .image-20MDYu {
-    background-image: url(/assets/fed3c2dcbbb79837d568cb8d648c86d6.png) !important;
+    background-image: url(https://cdn.discordapp.com/attachments/1150500629924548718/1150500863203360842/friendsblocked_light.png) !important;
 }
 
 /*List Layout*/

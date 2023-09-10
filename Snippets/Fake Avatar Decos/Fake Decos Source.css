@@ -393,7 +393,7 @@
 .contents-2MsGLg [src*='139559909879578624'] + .header-2jRmjb:after,
 .wrapper-3Un6-K:has([src*='139559909879578624']):after,
 [style*='139559909879578624'] .imageUploaderFileInput-18YkLC:after {
-    background-image: var(--deco-lightning);
+    background-image: var(--deco-orbit-pink);
 }
 
 html {

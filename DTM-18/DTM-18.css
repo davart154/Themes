@@ -17153,7 +17153,8 @@ html:is(.platform-web, .platform-osx) .standardSidebarView-E9Pc3j:has(.contentCo
     line-height: 20px;
 }
 
-.image-ZPv20Y {
+.image-ZPv20Y, .video-8B-TdZ {
+    overflow: hidden;
     transition: height 0s ease;
     transition-delay: var(--changelog-delay);
 }
@@ -17169,39 +17170,48 @@ html:is(.platform-web, .platform-osx) .standardSidebarView-E9Pc3j:has(.contentCo
     background-image: url("https://cdn.discordapp.com/attachments/1148969555591442522/1148969697069518848/changelog_whitneyannounce.png");
     background-size: contain;
 }
-.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) .image-ZPv20Y {
-    height: 0px;
+.focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) :is(.image-ZPv20Y, .video-8B-TdZ) {
+    height: 0px !important;
     transition-delay: 0s;
 }
 .focusLock-bHVOlV:has(.socialLink-1qjJIk + .defaultColor-1EVLSt:active) .content-FDHp32 > [aria-label]:before {
     height: 254px;
-    margin-bottom: -15px;
     transition-delay: 0s;
 }
-img + .title-2ftWWc + ul > li {
-    margin-top: -120px;
+.focusLock-bHVOlV:has(.socialLink-1qjJIk) .content-1OG56Q > div[role="region"] {
+    display: flex;
+    flex-direction: column;
 }
-img + .title-2ftWWc + ul > li:before {
-    margin-top: 117px;
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc:before {
+    content: "Did you miss it?";
 }
-img + .title-2ftWWc:before {
-    content: "New day, old stuff.";
-}
-img + .title-2ftWWc + ul strong:before {
-    content: "Did you miss it? Whitney has been re-added to DTM-18. If you're one of those who misses the classic font, you'll sure love to see its return. \a \a Status icons have been fully reverted to their original form. For those who didn't know, the original colorblind mode was toggleable in the \"Appearance\" settings tab. With BetterDiscord's introduction of Theme Settings, you'll once again be able to toggle the mode on or off. So you get to pick whether or not you want icons or basic circles. \a \a The panel for uploading files has a reworked design. For the longest time it went unstyled, and now it's been given a blurple makeover to look closer to its original modal counterpart. This design is not final and changes may occur in the near future. \a \a The settings tab reorder has once again been updated. With it includes support for the Vencord tab section being placed different areas of the sidebar (via. Settings Plugin), and more precise selectors for Replugged's settings section (add unique classes pls).";
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul strong:before {
+    content: "Whitney has been re-added to DTM-18. If you're one of those who misses the classic font, you'll sure love to see its return.";
     font-weight: 400;
 }
-img + .title-2ftWWc + ul + .title-2ftWWc:before {
-    content: "We need more FPS";
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc:before {
+    content: "New day, old stuff.";
 }
-img + .title-2ftWWc + ul + .title-2ftWWc + ul strong:before {
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc + ul > li:first-child > strong:before {
+    content: "Status icons have been fully reverted to their original form. For those who didn't know, the original colorblind mode was toggleable in the \"Appearance\" settings tab. With BetterDiscord's introduction of Theme Settings, you'll once again be able to toggle the mode on or off. So you get to pick whether or not you want icons or basic circles.";
+    font-weight: 400;
+}
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc + ul > li:nth-child(2) > strong:before {
+    content: "The panel for uploading files has a reworked design. For the longest time it went unstyled, and now it's been given a blurple makeover to look closer to its original modal counterpart. This design is not final and changes may occur in the near future.";
+    font-weight: 400;
+}
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc + ul > li:last-child > strong:before {
+    content: "The settings tab reorder has once again been updated. With it includes support for the Vencord tab section being placed different areas of the sidebar (via. Settings Plugin), and more precise selectors for Replugged's settings section (add unique classes pls).";
+    font-weight: 400;
+}
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc:before {
+    content: "More improvements on the way";
+}
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc + ul > li:first-child strong:before {
     content: "For those who've noticed issues regarding lag or a slower client when using the theme, the issue is being looked into. DTM-18 is currently undergoing a performance check to better optimize Discord for its users. Some features that contributed to the lag may be missing during this time period, so please be patient as alternative methods for including these features are being looked into.";
     font-weight: 400;
 }
-img + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc:before {
-    content: "Support on the way";
-}
-img + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc + ul strong:before {
+.focusLock-bHVOlV :is(img, .video-8B-TdZ) + .title-2ftWWc + ul + .title-2ftWWc + ul + .title-2ftWWc + ul > li:last-child strong:before {
     content: "In the coming weeks, expect some plugins to be slightly styled to better suit the theme. Rollout may either be completely random or based on popularity, most likely depending on what comes up first.";
     font-weight: 400;
 }

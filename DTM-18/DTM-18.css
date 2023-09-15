@@ -2860,12 +2860,12 @@ img.icon-3AqZ2e {
     pointer-events: none;
 }
 .layout-1LjVue .avatar-1HDIsL:after {
-    right: 1px;
-    animation-delay: .2s;
+    right: 1px !important;
+    animation-delay: .2s !important;
 }
 .layout-1LjVue .wrapper-3Un6-K:after {
-    right: -5px;
-    animation-delay: .4s;
+    right: -5px !important;
+    animation-delay: .4s !important;
 }
 .layout-1LjVue .wrapper-3Un6-K[aria-label]:before {
     content: "";
@@ -8888,7 +8888,8 @@ img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
     content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374423401574530/Avatar4.png")
 }
 /*Clyde*/
-:is(.avatar-2e8lTP,.avatar-31d8He):is([src="/assets/6024f311af925206143919b880e34a30.png"],[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) {
+[src*="/avatars/1/clyde"],
+[src*="/avatars/1081004946872352958"] {
     content: url("/assets/f78426a064bc9dd24847519259bc42af.png");
 }
 
@@ -11565,9 +11566,12 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     mask: none;
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K foreignObject {
+    mask: none;
+    clip-path: path("M74.6124 60.0625C78.0383 54.165 80 47.3116 80 40 80 17.9086 62.0914 0 40 0 17.9086 0 0 17.9086 0 40 0 62.0914 17.9086 80 40 80 47.3116 80 54.165 78.0383 60.0625 74.6124 59.1743 73.0558 58.6667 71.2538 58.6667 69.3333 58.6667 63.4423 63.4423 58.6667 69.3333 58.6667 71.2538 58.6667 73.0558 59.1743 74.6124 60.0625Z");
+}
+.userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K foreignObject:not([mask="url(#svg-mask-avatar-default)"]) {
     width: 92px !important;
     height: 92px !important;
-    mask: none;
     clip-path: path("M85.8043 69.0719C89.744 62.2897 92 54.4083 92 46 92 20.5949 71.4051 0 46 0 20.5949 0 0 20.5949 0 46 0 71.4051 20.5949 92 46 92 54.4083 92 62.2897 89.744 69.0719 85.8043 68.0504 84.0142 67.4667 81.9419 67.4667 79.7333 67.4667 72.9586 72.9586 67.4667 79.7333 67.4667 81.9419 67.4667 84.0142 68.0504 85.8043 69.0719Z");
 }
 .userPopoutOuter-1OHwPL .avatarHint-k7pYop {
@@ -11654,9 +11658,12 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     right: 3px;
     bottom: 3px;
     transition: background .4s ease;
+    background-color: var(--brand-experiment);
+    background-image: var(--colorblind-unknown);
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]):before {
     background-color: var(--status-positive);
+    background-image: none;
 }
 .userPopoutOuter-1OHwPL .avatarWrapper-eenWra .wrapper-3Un6-K:is([aria-label$="Streamer"],[aria-label$="Streamt"],[aria-label$="Streaming"],[aria-label$="Transmitiendo"],[aria-label$="En direct"],[aria-label$="Streaming"],[aria-label$="In diretta"],[aria-label$="Transliuojama"],[aria-label$="Közvetítés"],[aria-label$="Streamt"],[aria-label$="Strømmer"],[aria-label$="Streamowanie"],[aria-label$="Transmitindo"],[aria-label$="Transmite live"],[aria-label$="Striimaa"],[aria-label$="Streamar"],[aria-label$="Đang stream"],[aria-label$="Yayın Yapıyor"],[aria-label$="Streamuje"],[aria-label$="Ζωντανά"],[aria-label$="Стрийминг"],[aria-label$="Стримит"],[aria-label$="Трансляція"],[aria-label$="स्ट्रीम हो रहा है"],[aria-label$="ถ่ายทอดสด"],[aria-label$="正在直播"],[aria-label$="配信"],[aria-label$="直播中"],[aria-label$="방송 중"]):before {
     background-color: var(--twitch);
@@ -17614,6 +17621,7 @@ html {
     --colorblind-streaming: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23bdafd5' points='3 1.5 3 8.5 8.5 5'/%3E%3C/svg%3E");
 }
 .theme-dark {
+    --colorblind-unknown: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%232f3136' d='M2.6 3.3071C2.6 3.7026 2.9287 4.0322 3.3232 4.0322 3.7178 4.0322 4.0465 3.7026 4.0465 3.3071 4.0465 2.516 4.9013 2.4831 5 2.4831 5.0986 2.4831 5.9533 2.516 5.9533 3.3071V3.4718C5.9533 3.8014 5.789 4.0651 5.4932 4.23L4.8356 4.5924C4.4739 4.7902 4.2767 5.1527 4.2767 5.5482V6.1415C4.2767 6.537 4.6055 6.8666 5 6.8666 5.3945 6.8666 5.7233 6.537 5.7233 6.1415V5.779L6.1835 5.5482C6.9397 5.1527 7.4 4.3618 7.4 3.5048V3.3071C7.4 1.7909 6.1835 1 5 1 3.7835 1 2.6 1.7909 2.6 3.3071ZM5 7.4C3.9332 7.4 3.9332 9 5 9 6.0666 9 6.0666 7.4 5 7.4Z'/%3E%3C/svg%3E");
     --colorblind-idle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
     --colorblind-dnd: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%232f3136' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
     --colorblind-offline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%232f3136' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");
@@ -17624,6 +17632,7 @@ html {
     --happybubble: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' name='HappyBubble' class='customStatusIcon-1zyfPx' aria-hidden='false' width='24' height='24' viewBox='0 0 18 18'%3E%3Cpath d='M14.9985 1.5H2.99853C2.17054 1.5 1.49854 2.17125 1.49854 3V12C1.49854 12.828 2.17054 13.5 2.99853 13.5H3.74853V16.5L6.74853 13.5H14.9985C15.8273 13.5 16.4985 12.828 16.4985 12V3C16.4985 2.17125 15.8273 1.5 14.9985 1.5ZM11.2485 4.3125C11.7653 4.3125 12.186 4.7325 12.186 5.25C12.186 5.7675 11.766 6.1875 11.2485 6.1875C10.7318 6.1875 10.311 5.7675 10.311 5.25C10.311 4.7325 10.7318 4.3125 11.2485 4.3125ZM6.74853 4.3125C7.26528 4.3125 7.68603 4.7325 7.68603 5.25C7.68603 5.7675 7.26528 6.1875 6.74853 6.1875C6.23178 6.1875 5.81103 5.7675 5.81103 5.25C5.81103 4.7325 6.23178 4.3125 6.74853 4.3125ZM8.99853 10.5C7.46103 10.5 6.14403 9.573 5.56503 8.25H12.432C11.853 9.573 10.536 10.5 8.99853 10.5Z' fill='hsla(0,calc(var(--saturation-factor, 1)*0%25),100%25, 0.7)'%3E%3C/path%3E%3C/svg%3E");
 }
 .theme-light {
+    --colorblind-unknown: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23f6f6f7' d='M2.6 3.3071C2.6 3.7026 2.9287 4.0322 3.3232 4.0322 3.7178 4.0322 4.0465 3.7026 4.0465 3.3071 4.0465 2.516 4.9013 2.4831 5 2.4831 5.0986 2.4831 5.9533 2.516 5.9533 3.3071V3.4718C5.9533 3.8014 5.789 4.0651 5.4932 4.23L4.8356 4.5924C4.4739 4.7902 4.2767 5.1527 4.2767 5.5482V6.1415C4.2767 6.537 4.6055 6.8666 5 6.8666 5.3945 6.8666 5.7233 6.537 5.7233 6.1415V5.779L6.1835 5.5482C6.9397 5.1527 7.4 4.3618 7.4 3.5048V3.3071C7.4 1.7909 6.1835 1 5 1 3.7835 1 2.6 1.7909 2.6 3.3071ZM5 7.4C3.9332 7.4 3.9332 9 5 9 6.0666 9 6.0666 7.4 5 7.4Z'/%3E%3C/svg%3E");
     --colorblind-idle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='5.254 5.093 8.337 6.922 7.578 8.167 3.758 5.875 3.758 1.5 5.254 1.5'/%3E%3C/svg%3E");
     --colorblind-dnd: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23f6f6f7' points='9 5.8 1 5.8 1 4.2 9 4.2'/%3E%3C/svg%3E");
     --colorblind-offline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23f6f6f7' d='M5,8 C6.65685425,8 8,6.65685425 8,5 C8,3.34314575 6.65685425,2 5,2 C3.34314575,2 2,3.34314575 2,5 C2,6.65685425 3.34314575,8 5,8 Z'/%3E%3C/svg%3E");

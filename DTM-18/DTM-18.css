@@ -1918,9 +1918,9 @@ mask > use[href$="lower_badge_masks"] {
     margin-bottom: 8px;
 }
 
-/*NOTICE OF MESSAGES NEEDED*/
-.base-2jDfDU:before {
-    content: "A new theme changelog is available in User Settings. ";
+/*Custom Notice*/
+/*.base-2jDfDU:before {
+    content: "";
     background-color: #4a90e2;
     color: #fff;
     font-size: 14px;
@@ -1962,7 +1962,7 @@ mask > use[href$="lower_badge_masks"] {
         position: fixed;
         transform: translateY(-100vh);
     }
-}
+}*/
 
 /*Notice Header*/
 .notice-2HEN-u .closeButton-30b1gR {

@@ -1043,7 +1043,7 @@ mask > use[href$="lower_badge_masks"] {
     flex-direction: column;
     font-size: 0;
     line-height: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 .tipTitle-3FYEQp:before {
     color: var(--interactive-active);
@@ -1051,19 +1051,21 @@ mask > use[href$="lower_badge_masks"] {
     line-height: 20px;
     font-weight: 400;
     font-style: italic;
-    content: "";
+    content: "DM @dav154 to submit a message";
+    margin-bottom: 10px;
 }
 .tipTitle-3FYEQp:after {
     color: #72767d;
     font-size: 12px;
     line-height: 14px;
-    content: "";
+    margin-bottom: 10px;
+    margin-top: -10px;
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="aa"]) .tipTitle-3FYEQp:before { 
     content: "Gathering the easter eggs";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="aa"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by dav#8444";
+    content: "Submitted by @dav154";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="ab"]) .tipTitle-3FYEQp:before { 
     content: "*Elevator Music Plays*";
@@ -1080,110 +1082,83 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="ad"]) .tipTitle-3FYEQp:before { 
     content: "Abnoramalzing Some of the Matrices";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ad"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="ae"]) .tipTitle-3FYEQp:before { 
     content: "Abstracting the Rummage Disc";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ae"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="ae"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="af"]) .tipTitle-3FYEQp:before { 
     content: "Achieving Nirvana";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ae"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="af"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a0"]) .tipTitle-3FYEQp:before { 
     content: "Activating Witch Time...";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="af"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="a0"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @GingeraleDragon";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a0"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a1"]) .tipTitle-3FYEQp:before { 
     content: "Additive Parsing the Load";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a0"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="a1"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a2"]) .tipTitle-3FYEQp:before { 
     content: "And now for something completely different";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a1"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="a2"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a3"]) .tipTitle-3FYEQp:before { 
     content: "Are we there yet?";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a2"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="a3"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @HeadlessHorror";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a3"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a4"]) .tipTitle-3FYEQp:before { 
     content: "Assembling Voltron";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a3"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="a4"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @ash_10saller";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a4"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a5"]) .tipTitle-3FYEQp:before { 
     content: "Bastening the Game Turkey";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a4"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="a5"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a6"]) .tipTitle-3FYEQp:before { 
     content: "Buckle up!";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a5"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="a6"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @wulf_tfk";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a6"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a7"]) .tipTitle-3FYEQp:before { 
     content: "Buffing before the raid.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a6"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="a7"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a8"]) .tipTitle-3FYEQp:before { 
     content: "Building Lore";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a7"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="a8"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @AloeSnackbar";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a8"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="a9"]) .tipTitle-3FYEQp:before { 
     content: "Calibrating flux capacitors";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a8"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="a9"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @ItsChiefGrief";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a9"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="ba"]) .tipTitle-3FYEQp:before { 
     content: "Caution: Contents Spicy";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="a9"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="ba"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @DinosParkour";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ba"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="bb"]) .tipTitle-3FYEQp:before { 
     content: "Charging Limit Break";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ba"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="bb"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @ChronWriter3511";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="bb"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="bc"]) .tipTitle-3FYEQp:before { 
     content: "Charging spirit bomb";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="bb"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @marou_sama";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="bc"]) .tipTitle-3FYEQp:before { 
-    content: "Cheat Code Activated";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="bc"]) .tipTitle-3FYEQp:after {
-    content: "";
+    content: "Submitted by @marou_sama";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="bd"]) .tipTitle-3FYEQp:before { 
     content: "Cheat Code Activated";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="bd"]) .tipTitle-3FYEQp:after {
-    content: "";
+    content: "Submitted via Facebook";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="be"]) .tipTitle-3FYEQp:before { 
     content: "Clicking circles (to the beat!)";
@@ -1194,14 +1169,8 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="bf"]) .tipTitle-3FYEQp:before { 
     content: "Commence Monosaturated Goodening";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="bf"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="b0"]) .tipTitle-3FYEQp:before { 
     content: "Constructing additional pylons.";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="b0"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="b1"]) .tipTitle-3FYEQp:before { 
     content: "DISCORD REQUIRES MORE MINERALS";
@@ -1211,9 +1180,6 @@ mask > use[href$="lower_badge_masks"] {
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="b2"]) .tipTitle-3FYEQp:before { 
     content: "Decrypting Engrams";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="b2"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="b3"]) .tipTitle-3FYEQp:before { 
     content: "Did they just walk up slowly and load?";
@@ -1231,7 +1197,7 @@ mask > use[href$="lower_badge_masks"] {
     content: "DISCORD A-GO-GO BABY";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="b5"]) .tipTitle-3FYEQp:after {
-    content: "";
+    content: "Submitted via Facebook";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="b6"]) .tipTitle-3FYEQp:before { 
     content: "Discord is my city";
@@ -1266,14 +1232,11 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="cb"]) .tipTitle-3FYEQp:before { 
     content: "Ensuring dankest memes.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="cb"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="cc"]) .tipTitle-3FYEQp:before { 
     content: "Entering cheat codes";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="cc"]) .tipTitle-3FYEQp:after {
-    content: "";
+    content: "Submitted via Facebook";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="cd"]) .tipTitle-3FYEQp:before { 
     content: "Error 404: Joke Not Found";
@@ -1301,9 +1264,6 @@ mask > use[href$="lower_badge_masks"] {
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="c1"]) .tipTitle-3FYEQp:before { 
     content: "Getting dunked.";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="c1"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="c2"]) .tipTitle-3FYEQp:before { 
     content: "Good News Everyone!";
@@ -1362,9 +1322,6 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="db"]) .tipTitle-3FYEQp:before { 
     content: "Kick Off the Multi-Core Widening";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="db"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="dc"]) .tipTitle-3FYEQp:before { 
     content: "LOADING 001: ARP 303 Saw";
 }
@@ -1373,9 +1330,6 @@ mask > use[href$="lower_badge_masks"] {
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="dd"]) .tipTitle-3FYEQp:before { 
     content: "Leeeeeeroy jenkins!";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="dd"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="de"]) .tipTitle-3FYEQp:before { 
     content: "Loading Lines in 2023 LUL";
@@ -1422,9 +1376,6 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="d5"]) .tipTitle-3FYEQp:before { 
     content: "Managing Inventory";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="d5"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="d6"]) .tipTitle-3FYEQp:before { 
     content: "Now with 100% more Screenshare!";
 }
@@ -1440,9 +1391,6 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="d8"]) .tipTitle-3FYEQp:before { 
     content: "Optimizing the People";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="d8"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="d9"]) .tipTitle-3FYEQp:before { 
     content: "PK Load Î©";
 }
@@ -1451,9 +1399,6 @@ mask > use[href$="lower_badge_masks"] {
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="ea"]) .tipTitle-3FYEQp:before { 
     content: "Postrefragmenting the Widget Layer";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="ea"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="eb"]) .tipTitle-3FYEQp:before { 
     content: "Preparing Final Form";
@@ -1464,26 +1409,17 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="ec"]) .tipTitle-3FYEQp:before { 
     content: "Preparing for a team fight.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ec"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="ed"]) .tipTitle-3FYEQp:before { 
     content: "Pressing random buttons";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="ed"]) .tipTitle-3FYEQp:after {
-    content: "";
+    content: "Submitted via Facebook";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="ee"]) .tipTitle-3FYEQp:before { 
     content: "Procedurally generating buttons.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ee"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="ef"]) .tipTitle-3FYEQp:before { 
     content: "Proclaigerizing the Network";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="ef"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="e0"]) .tipTitle-3FYEQp:before { 
     content: "Ready Player One";
@@ -1494,9 +1430,6 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="e1"]) .tipTitle-3FYEQp:before { 
     content: "Readying the felines.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="e1"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="e2"]) .tipTitle-3FYEQp:before { 
     content: "Recombobulating Discombobulators";
 }
@@ -1506,14 +1439,8 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="e3"]) .tipTitle-3FYEQp:before { 
     content: "Recruiting robot hamsters.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="e3"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="e4"]) .tipTitle-3FYEQp:before { 
     content: "Reloading the R8.";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="e4"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="e5"]) .tipTitle-3FYEQp:before { 
     content: "Removing pen from pineapple";
@@ -1536,160 +1463,133 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="e8"]) .tipTitle-3FYEQp:before { 
     content: "Resurrecting dead memes";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="e9"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="e8"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @DiaSwordPlay";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="e9"]) .tipTitle-3FYEQp:before { 
     content: "Returning the slab";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="fa"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="e9"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @megoon_pleb";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="fa"]) .tipTitle-3FYEQp:before { 
     content: "Reviving dead memes";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="fb"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="fa"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @Fqdez_Awqy";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="fb"]) .tipTitle-3FYEQp:before { 
     content: "Rushing B";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="fc"]) .tipTitle-3FYEQp:after {
-    content: "";
+#app-mount:has(>svg>linearGradient:first-child[id^="fb"]) .tipTitle-3FYEQp:after {
+    content: "Submitted via Facebook";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="fc"]) .tipTitle-3FYEQp:before { 
     content: "Satisfying the Constraints";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="fd"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="fd"]) .tipTitle-3FYEQp:before { 
     content: "Scaling Bananas";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="fe"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="fe"]) .tipTitle-3FYEQp:before { 
     content: "Shuffling the deck";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="ff"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="fe"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @MrSwats";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="ff"]) .tipTitle-3FYEQp:before { 
     content: "Skipping cutscenes";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f0"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="ff"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @TOOMANYENEMIES";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="f0"]) .tipTitle-3FYEQp:before { 
     content: "Start your engines";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f1"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f0"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @CollegeCarball";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="f1"]) .tipTitle-3FYEQp:before { 
     content: "Stopping to smell the flowers";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f2"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="f3"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f2"]) .tipTitle-3FYEQp:before { 
     content: "Suh dud";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f3"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f2"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @therealbrastos";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f4"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f3"]) .tipTitle-3FYEQp:before { 
     content: "Summoning unnecessarily dramatic encounters.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f4"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="f5"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f4"]) .tipTitle-3FYEQp:before { 
     content: "Switching sides";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f5"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f4"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @MrMishkaTheBear";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f6"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f5"]) .tipTitle-3FYEQp:before { 
     content: "TIME'S UP - LET'S DO THIS!";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f6"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f5"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @RobertAWing";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f7"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f6"]) .tipTitle-3FYEQp:before { 
     content: "They see me loading, They waiting";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f7"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f6"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @boomer_cherry";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f8"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f7"]) .tipTitle-3FYEQp:before { 
     content: "This loading is a line";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f8"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f7"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @AirDur";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f9"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f8"]) .tipTitle-3FYEQp:before { 
     content: "Top decking lethal.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="f9"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="0a"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="f9"]) .tipTitle-3FYEQp:before { 
     content: "Traveling to Hanamura";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0a"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="f9"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @AstroNoot88";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0b"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="0a"]) .tipTitle-3FYEQp:before { 
     content: "ULTIMATE IS READY!";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0b"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="0a"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @IHellMasker";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0c"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="0b"]) .tipTitle-3FYEQp:before { 
     content: "Unbenching the Kench.";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0c"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="0d"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="0c"]) .tipTitle-3FYEQp:before { 
     content: "Undecerealenizing the Process";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0d"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="0e"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="0d"]) .tipTitle-3FYEQp:before { 
     content: "Untap, Upkeep, Draw";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0e"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="0d"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @MRautmann";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0f"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="0e"]) .tipTitle-3FYEQp:before { 
     content: "Upsorbing the Contents";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="0f"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="00"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="0f"]) .tipTitle-3FYEQp:before { 
     content: "We at pumpkin hill, you ready?";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="00"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="0f"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @Kevinisnotseven";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="01"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="00"]) .tipTitle-3FYEQp:before { 
     content: "We don't need a healder for this, right?";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="01"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="00"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @AlexisTheory";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="02"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="01"]) .tipTitle-3FYEQp:before { 
     content: "Wizard needs food badly";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="02"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="03"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="02"]) .tipTitle-3FYEQp:before { 
     content: "Wobbling to 299%";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="03"]) .tipTitle-3FYEQp:after {
@@ -1728,9 +1628,6 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="09"]) .tipTitle-3FYEQp:before { 
     content: "l o a d i n g a e s t h e t i c s";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="09"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="1a"]) .tipTitle-3FYEQp:before { 
     content: "now with scratch and sniff";
 }
@@ -1741,19 +1638,19 @@ mask > use[href$="lower_badge_masks"] {
     content: "spinning to win";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="1b"]) .tipTitle-3FYEQp:after {
-    content: "";
+    content: "Submitted via Facebook";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:before { 
-    content: "dear dtm18 user I wish you very pleasant evening";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @gupitaro";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:before { 
     content: "if i bake 1 cake im not a baker";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @mayosunshine";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:before { 
+    content: "dear dtm18 user I wish you very pleasant evening";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @gupitaro";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="1e"]) .tipTitle-3FYEQp:before { 
     content: "lag kill yourse";
@@ -1764,14 +1661,8 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="1f"]) .tipTitle-3FYEQp:before { 
     content: "i need loading messages";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1f"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="10"]) .tipTitle-3FYEQp:before { 
     content: "IT'S WIZARD TIME! FIREBALL!";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="10"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="11"]) .tipTitle-3FYEQp:before { 
     content: "Uninstalling MSN";
@@ -1806,38 +1697,20 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:before { 
     content: "Words, words, words, saying more words";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 .platform-win #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
     content: "Only Windows users can see this one :)";
-}
-.platform-win #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 .platform-osx #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
     content: "Only Mac users can see this one :)";
 }
-.platform-osx #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 .platform-linux #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
     content: "Only Linux users can see this one :)";
-}
-.platform-linux #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 .platform-web #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
     content: "Only Web users can see this one :)";
 }
-.platform-web #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:after {
-    content: "";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="18"]) .tipTitle-3FYEQp:before { 
     content: "FRICKIN' SWEET!";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="18"]) .tipTitle-3FYEQp:after {
-    content: "";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="19"]) .tipTitle-3FYEQp:before { 
     content: "It's Dangerous to Go Alone, Take This Loading Screen!";
@@ -1864,7 +1737,7 @@ mask > use[href$="lower_badge_masks"] {
     content: "Submitted by @lorygames";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2d"]) .tipTitle-3FYEQp:before { 
-    content: "Starting up Discord";
+    content: "Starting up Discordo";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2d"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @copy.floppy";
@@ -1875,17 +1748,14 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="2da"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @copy.floppy";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="2e"]) .tipTitle-3FYEQp:before { 
-    content: "Starting up Discordo";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="2e"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @copy.floppy";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="2f"]) .tipTitle-3FYEQp:before { 
     content: "fortnite";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2f"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @copy.floppy";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="20"]) .tipTitle-3FYEQp:before { 
+    content: "ERROR: NEED MORE BOOLETS";
 }
 
 .text-2bYgPB {
@@ -6380,13 +6250,12 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     background: var(--status-positive);
     color: #fff;
 }
-#pending-tab .actionButton-3-B2x-.actionAccept-2nmnLv svg,
-#pending-tab .actionButton-3-B2x-.actionDeny-1pQVuZ svg,
-#blocked-tab .actionButton-3-B2x-.actionDeny-1pQVuZ svg {
+#pending-tab .actionButton-3-B2x-:is(.actionAccept-2nmnLv, .actionDeny-1pQVuZ) svg,
+#blocked-tab .actionButton-3-B2x- svg {
     width: 24px;
     height: 24px;
 }
-#blocked-tab .actionButton-3-B2x-.actionDeny-1pQVuZ:hover {
+#blocked-tab .actionButton-3-B2x-:hover {
     background: var(--status-danger);
 }
 #blocked-tab .actionButton-3-B2x-.actionDeny-1pQVuZ path {

@@ -9223,12 +9223,27 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 /*Media Option Buttons*/
-
-.messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c:hover .hoverButtonGroup-2yZIzC {
+.messageAttachment-CZp8Iv:has(.hoverButtonGroup-2yZIzC):before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-image: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.9));
+    border-radius: 3px 3px 0 0;
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: opacity .2s ease, transform .2s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+.messageAttachment-CZp8Iv:has(.hoverButtonGroup-2yZIzC):hover:before,
+.messageAttachment-CZp8Iv:hover .hoverButtonGroup-2yZIzC {
     opacity: 1;
     transform: none;
 }
-.messageAttachment-CZp8Iv.messageAttachmentNoJustify-lIzP9c .hoverButtonGroup-2yZIzC {
+.messageAttachment-CZp8Iv .hoverButtonGroup-2yZIzC {
     transform: translateY(-40px);
     top: 16px;
     transition: opacity .2s ease, transform .2s ease;
@@ -9267,11 +9282,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .wrapperAudio-1Bzv_Z + .hoverButtonGroup-2yZIzC .hoverButton-36QWJk:hover svg,
 .attachment-1PZZB2 + .hoverButtonGroup-2yZIzC .hoverButton-36QWJk:hover svg {
     color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
-}
-
-.metadataIcon-3QMhu9 [d="M16.293 9.293L17.707 10.707L12 16.414L6.29297 10.707L7.70697 9.293L11 12.586V2H13V12.586L16.293 9.293ZM18 20V18H20V20C20 21.102 19.104 22 18 22H6C4.896 22 4 21.102 4 20V18H6V20H18Z"],
-.downloadHoverButtonIcon-16xasX path {
-    d: path("M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z");
 }
 .hoverButton-36QWJk [d="M15 3.999V2H9V3.999H3V5.999H21V3.999H15Z"] {
     d: path("M6 18A2 2 0 008 20H16A2 2 0 0018 18V6H6V18M8.46 10.88 9.87 9.47 12 11.59 14.12 9.47 15.53 10.88 13.41 13 15.53 15.12 14.12 16.53 12 14.41 9.88 16.53 8.47 15.12 10.59 13 8.46 10.88M15.5 3 14.5 2H9.5L8.5 3H5V5H19V3H15.5Z");
@@ -15327,6 +15337,9 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 /*Message Option*/.message-2CShn3 .buttonContainer-1502pf .button-3bklZh [d="M7 12.001C7 10.8964 6.10457 10.001 5 10.001C3.89543 10.001 3 10.8964 3 12.001C3 13.1055 3.89543 14.001 5 14.001C6.10457 14.001 7 13.1055 7 12.001ZM14 12.001C14 10.8964 13.1046 10.001 12 10.001C10.8954 10.001 10 10.8964 10 12.001C10 13.1055 10.8954 14.001 12 14.001C13.1046 14.001 14 13.1055 14 12.001ZM19 10.001C20.1046 10.001 21 10.8964 21 12.001C21 13.1055 20.1046 14.001 19 14.001C17.8954 14.001 17 13.1055 17 12.001C17 10.8964 17.8954 10.001 19 10.001Z"] {
     d: path("M12 16C13.1046 16 14 16.8954 14 18C14 19.1046 13.1046 20 12 20C10.8954 20 10 19.1046 10 18C10 16.8954 10.8954 16 12 16ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10ZM12 4C13.1046 4 14 4.89543 14 6C14 7.10457 13.1046 8 12 8C10.8954 8 10 7.10457 10 6C10 4.89543 10.8954 4 12 4Z");
 }
+/*Download*/[d^="M16.293 9.293L17.707 10.707L12 16.414L6.29297"] {
+    d: path("M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z");
+}
 /*Volume Dim*/[d^="M10.293"] {
     d: path("M16.5 11.77C16.5 10 15.5 8.48 14 7.74L14 15.77C15.5 15.06 16.5 13.53 16.5 11.77L16.5 11.77ZM3 8.77 3 14.77 7 14.77 12 19.77 12 3.77 7 8.77 3 8.77 3 8.77Z");
 }
@@ -15336,7 +15349,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 [d^="M19.73 9L21"] + path {
     display: none;
 }
-/*Update Ready*/[d^="M16.293 9.293L17.707 10.707L12 16.414L6.29297"] {
+/*Update Ready*/.toolbar-3_r2xA [d^="M16.293 9.293L17.707 10.707L12 16.414L6.29297"] {
     d: path("M12 17L8 13H11V3H13V13H16L12 17Z M4 19H20V21H4V19Z");
     fill: var(--status-positive);
 }

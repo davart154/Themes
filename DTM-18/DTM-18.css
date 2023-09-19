@@ -1757,6 +1757,9 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="2f"]) .tipTitle-3FYEQp:before { 
     content: "ERROR: NEED MORE BOOLETS";
 }
+#app-mount:has(>svg>linearGradient:first-child[id^="20"]) .tipTitle-3FYEQp:before { 
+    content: "Tell them to bring out the whole ocean";
+}
 
 .text-2bYgPB {
     position: unset;

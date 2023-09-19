@@ -2958,10 +2958,6 @@ img.icon-3AqZ2e {
     opacity: 0.4;
 }
 
-.wrapper-NhbLHG:hover .link-1_kTxV {
-
-}
-
 /*Mini Lock Icon*/
 [d^="M21.025 5V4C21.025"],
 [d^="M22.545 4.91992V3.91992C22.545"],
@@ -3123,7 +3119,10 @@ img.icon-3AqZ2e {
     color: var(--header-secondary) !important;
 }
 
-/*VC Tab BG*/
+/*VC Tab*/
+.linkBottom-128lIB {
+    margin-left: 20px;
+}
  
 /*Action Buttons*/
 /*Create Invite*/

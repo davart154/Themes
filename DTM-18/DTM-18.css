@@ -11648,7 +11648,8 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     font-size: 16px;
     line-height: 17px;
 }
-.userPopoutOuter-1OHwPL .userTagUsernameNoNickname-2lKUnI {
+.userPopoutOuter-1OHwPL .userTagUsernameNoNickname-2lKUnI,
+.nickname-3P1RuO {
     color: var(--play-primary);
 }
 .userPopoutOuter-1OHwPL .userTagDiscriminatorNoNickname-3dioAe {
@@ -11698,6 +11699,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 
 .pronouns-17_QV6 {
     text-align: center;
+    color: var(--play-secondary);
 }
 
 .customStatus-19KW6v {

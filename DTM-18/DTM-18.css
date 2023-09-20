@@ -177,7 +177,7 @@ mask > use[href$="lower_badge_masks"] {
 }
 /*Beta Badge*/
 .textBadge-1fdDPJ.base-3IDx3L {
-    background-color: var(--brand-experiment);
+    background-color: var(--brand-experiment) !important;
     height: 16px;
     font-weight: 600;
     border-radius: 3px;
@@ -1593,172 +1593,172 @@ mask > use[href$="lower_badge_masks"] {
 #app-mount:has(>svg>linearGradient:first-child[id^="02"]) .tipTitle-3FYEQp:before { 
     content: "Wobbling to 299%";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="03"]) .tipTitle-3FYEQp:after {
-    content: "belchicola";
+#app-mount:has(>svg>linearGradient:first-child[id^="02"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by belchicola";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="04"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="03"]) .tipTitle-3FYEQp:before { 
     content: "Wubba Lubba Dub Dub";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="04"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="03"]) .tipTitle-3FYEQp:after {
     content: "Submitted by _Apace_";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="05"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="04"]) .tipTitle-3FYEQp:before { 
     content: "[A MEME]";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="05"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="04"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @zix7_";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="06"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="05"]) .tipTitle-3FYEQp:before { 
     content: "how do i turn this thing on";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="06"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="05"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @asdfghjklibbyx";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="07"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="06"]) .tipTitle-3FYEQp:before { 
     content: "i need healing";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="07"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="06"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @tearybunnie";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="08"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="07"]) .tipTitle-3FYEQp:before { 
     content: "i solemnly swear that i am up to no good";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="08"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="07"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @nintencrow";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="09"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="08"]) .tipTitle-3FYEQp:before { 
     content: "l o a d i n g a e s t h e t i c s";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1a"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="09"]) .tipTitle-3FYEQp:before { 
     content: "now with scratch and sniff";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1a"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="09"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @hahahahahapizza";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1b"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="1a"]) .tipTitle-3FYEQp:before { 
     content: "spinning to win";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1b"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="1a"]) .tipTitle-3FYEQp:after {
     content: "Submitted via Facebook";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="1b"]) .tipTitle-3FYEQp:before { 
     content: "if i bake 1 cake im not a baker";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="1b"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @mayosunshine";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:before { 
     content: "dear dtm18 user I wish you very pleasant evening";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="1c"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @gupitaro";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1e"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:before { 
     content: "lag kill yourse";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1e"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="1d"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @themoyaiman";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="1f"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="1e"]) .tipTitle-3FYEQp:before { 
     content: "i need loading messages";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="10"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="1f"]) .tipTitle-3FYEQp:before { 
     content: "IT'S WIZARD TIME! FIREBALL!";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="11"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="10"]) .tipTitle-3FYEQp:before { 
     content: "Uninstalling MSN";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="10"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @11pixels";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="11"]) .tipTitle-3FYEQp:before { 
+    content: "Uninstalling AOL";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="11"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @11pixels";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="12"]) .tipTitle-3FYEQp:before { 
-    content: "Uninstalling AOL";
+    content: "Uninstalling Skype";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="12"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @11pixels";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="13"]) .tipTitle-3FYEQp:before { 
-    content: "Uninstalling Skype";
+    content: "Uninstalling Guilded";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="13"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @11pixels";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="14"]) .tipTitle-3FYEQp:before { 
-    content: "Uninstalling Guilded";
+    content: "Uninstalling Revolt";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="14"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @11pixels";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="15"]) .tipTitle-3FYEQp:before { 
-    content: "Uninstalling Revolt";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="15"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @11pixels";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:before { 
     content: "Words, words, words, saying more words";
 }
-.platform-win #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
+.platform-win #app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:before { 
     content: "Only Windows users can see this one :)";
 }
-.platform-osx #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
+.platform-osx #app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:before { 
     content: "Only Mac users can see this one :)";
 }
-.platform-linux #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
+.platform-linux #app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:before { 
     content: "Only Linux users can see this one :)";
 }
-.platform-web #app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
+.platform-web #app-mount:has(>svg>linearGradient:first-child[id^="16"]) .tipTitle-3FYEQp:before { 
     content: "Only Web users can see this one :)";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="18"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="17"]) .tipTitle-3FYEQp:before { 
     content: "FRICKIN' SWEET!";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="19"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="18"]) .tipTitle-3FYEQp:before { 
     content: "It's Dangerous to Go Alone, Take This Loading Screen!";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="18"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @fishingforpie";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="19"]) .tipTitle-3FYEQp:before { 
+    content: "Do people actually read these?";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="19"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @fishingforpie";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2a"]) .tipTitle-3FYEQp:before { 
-    content: "Do people actually read these?";
+    content: "This message will never appear, isn't that weird?";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2a"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @fishingforpie";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2b"]) .tipTitle-3FYEQp:before { 
-    content: "This message will never appear, isn't that weird?";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="2b"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @fishingforpie";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="2c"]) .tipTitle-3FYEQp:before { 
     content: "Loading e-girl conversations";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="2c"]) .tipTitle-3FYEQp:after {
+#app-mount:has(>svg>linearGradient:first-child[id^="2b"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @lorygames";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="2d"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="2c"]) .tipTitle-3FYEQp:before { 
     content: "Starting up Discordo";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="2c"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @copy.floppy";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="2ca"]) .tipTitle-3FYEQp:before { 
+    content: "Starting up Discordo!";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="2ca"]) .tipTitle-3FYEQp:after {
+    content: "Submitted by @copy.floppy";
+}
+#app-mount:has(>svg>linearGradient:first-child[id^="2d"]) .tipTitle-3FYEQp:before { 
+    content: "fortnite";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="2d"]) .tipTitle-3FYEQp:after {
     content: "Submitted by @copy.floppy";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="2da"]) .tipTitle-3FYEQp:before { 
-    content: "Starting up Discordo!";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="2da"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @copy.floppy";
-}
 #app-mount:has(>svg>linearGradient:first-child[id^="2e"]) .tipTitle-3FYEQp:before { 
-    content: "fortnite";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="2e"]) .tipTitle-3FYEQp:after {
-    content: "Submitted by @copy.floppy";
-}
-#app-mount:has(>svg>linearGradient:first-child[id^="2f"]) .tipTitle-3FYEQp:before { 
     content: "ERROR: NEED MORE BOOLETS";
 }
-#app-mount:has(>svg>linearGradient:first-child[id^="20"]) .tipTitle-3FYEQp:before { 
+#app-mount:has(>svg>linearGradient:first-child[id^="2f"]) .tipTitle-3FYEQp:before { 
     content: "Tell them to bring out the whole ocean";
 }
 
@@ -2318,6 +2318,81 @@ img.icon-3AqZ2e {
 }
 .notice-2HEN-u {
     border-radius: 6px 0 0;
+}
+
+/*Upsell Tooltip*/
+.upsellTooltipWrapper-1wqikQ.caretLeftCenter-3auzi7:after, .upsellTooltipWrapper-1wqikQ.caretRightCenter-3tHkVD:after {
+    top: 30px;
+}
+.upsellTooltipWrapper-1wqikQ {
+    max-width: unset;
+    width: 400px;
+    padding: 0;
+    background-color: hsla(0, 0%, 100%, .98);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.upsellTooltipHeader-28hJ7J {
+    display: flex;
+    align-items: center;
+    text-align: unset;
+    padding: 18px;
+    margin-bottom: 18px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--brand-experiment);
+    background-image: url(https://cdn.discordapp.com/attachments/1154110577082372116/1154110744930041876/tutorial_header.png);
+    background-repeat: no-repeat;
+    background-size: 400px 60px;
+    background-position: 0 100%;
+}
+.content-3aT_vH {
+    text-align: unset;
+    padding: 0 18px 20px;
+    font-size: 14px;
+    color: hsl(216,calc(var(--saturation-factor, 1) * 4.5%),56.1%) !important;
+    --text-link: currentColor;
+}
+.content-31LLip {
+    text-align: inherit;
+}
+.upsellButtonsContainer-1RUYlp {
+    margin: 0;
+    padding: 18px;
+    flex-direction: unset;
+    justify-content: space-between;
+    align-items: end;
+}
+.upsellButtonsContainer-1RUYlp button {
+    width: auto;
+    height: unset;
+    min-width: unset;
+    min-height: unset;
+    line-height: unset;
+    margin-bottom: 0 !important;
+}
+.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj {
+    padding: 0;
+    height: fit-content;
+    background: transparent !important;
+    font-size: 12px;
+    color: var(--brand-experiment) !important;
+}
+.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj:hover {
+    text-decoration: underline;
+}
+.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB {
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    background-color: var(--brand-experiment);
+    color: #fff;
+}
+.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB:hover {
+    background-color: var(--brand-experiment-530);
 }
 
 /*Find or start a conversation*/

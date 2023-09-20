@@ -6770,26 +6770,28 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 .videoGridWrapper-2WpXPj {
     height: 100%;
 }
-.listItems-6eZzQ1 {
-    position: absolute;
-    inset: unset !important;
-    height: fit-content;
-    width: 100%;
-    padding: 20px 0;
-}
 .videoGrid-1tZm-F {
     display: flex;
     align-items: center;
 }
-.row-jreWvj {
-    height: 90px;
-    margin: 0 auto;
+.videoGrid-1tZm-F .listItems-6eZzQ1 {
+    position: unset;
+    inset: unset !important;
+    height: fit-content;
+    width: 100%;
+    margin: 78px 0 50px;
 }
-.listHeight-3LiElf {
+.row-jreWvj {
+    margin: 0 auto;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.videoGrid-1tZm-F .listHeight-3LiElf {
     height: 200px !important;
 }
 .tile-3GyaDQ {
     width: 160px !important;
+    margin: 0;
 }
 .tileSizer-4EltaN {
     padding: 0 !important;

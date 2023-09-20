@@ -6106,7 +6106,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     border: 0;
 }
 .peopleListItem-u6dGxF {
-    border-radius: 3px;
+    border-radius: 3px !important;
 }
 .peopleListItem-u6dGxF.active-2UF8Zh,
 .peopleListItem-u6dGxF:hover {
@@ -6161,6 +6161,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     align-items: unset;
 }
 .alignPomelo-1oVAy7 .username-Qpc78p {
+    width: inherit;
     margin-bottom: -8px;
     transition: margin .2s ease;
 }

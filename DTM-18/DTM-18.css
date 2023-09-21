@@ -13127,6 +13127,27 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     justify-content: end;
 }
 
+.botPermissions-1j4evs {
+    max-height: var(--custom-o-auth-2-page-oauth-2-max-width);
+    overflow: hidden scroll;
+}
+.botPermissions-1j4evs::-webkit-scrollbar {
+    width: 16px;
+}
+.botPermissions-1j4evs::-webkit-scrollbar-track {
+    background: var(--background-secondary-alt);
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+}
+.botPermissions-1j4evs::-webkit-scrollbar-thumb {
+    background: var(--background-tertiary);
+    border-radius: 8px;
+    border: 4px solid var(--background-primary);
+    background-clip: padding-box;
+}
+
 /*Web Download Apps Modal*/
 .layerContainer-2lfOPe:has(.downloadApps-14IgKV) .backdrop-2ByYRN {
     background: #0000 !important;

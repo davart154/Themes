@@ -2318,7 +2318,10 @@ img.icon-3AqZ2e {
 }
 
 /*Upsell Tooltip*/
-.caretBottomCenter-4XccL3:after, .caretBottomLeft-27xdm4:after {
+.bottomPointer-1sVqrd {
+    left: 140px;
+}
+.caretBottomCenter-4XccL3:after, .caretBottomLeft-27xdm4:after, .bottomPointer-1sVqrd, .leftPointer-1VRQpy {
     border-top-color: hsla(0, 0%, 100%, .98) !important;
 }
 .caretLeftCenter-3auzi7:after {
@@ -2327,13 +2330,17 @@ img.icon-3AqZ2e {
 .caretRightCenter-3tHkVD:after {
     border-left-color: hsla(0, 0%, 100%, .98) !important;;
 }
-.upsellTooltipWrapper-1wqikQ {
+.upsellTooltipWrapper-1wqikQ, .contentPremium-_Y0-cX {
     max-width: unset;
     width: 400px;
     padding: 0;
     background-color: hsla(0, 0%, 100%, .98);
+    background-image: unset;
     border-radius: 3px;
-    overflow: hidden;
+}
+.contentPremium-_Y0-cX {
+    padding-top: 76px;
+    gap: unset;
 }
 .upsellTooltipHeader-28hJ7J {
     display: flex;
@@ -2351,12 +2358,39 @@ img.icon-3AqZ2e {
     background-size: 400px 60px;
     background-position: 0 100%;
 }
-.content-3aT_vH {
-    text-align: unset;
+.header-NO2fDd {
+    text-indent: unset;
+}
+.header-NO2fDd {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 18px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+    background: url(https://cdn.discordapp.com/attachments/1154110577082372116/1154110744930041876/tutorial_header.png), linear-gradient(270deg,var(--premium-tier-2-pink),var(--premium-tier-2-purple));
+    background-repeat: no-repeat;
+    background-size: 400px 60px, 100%;
+    background-position: 0 100%;
+}
+.header-NO2fDd .premiumIcon-hLV4L9 {
+    margin: 0 4px 0 0;
+}
+.content-3aT_vH, .body-3xQeA6 .text-sm-normal-AEQz4v {
+    text-align: start;
     padding: 0 18px;
     font-size: 14px;
     color: hsl(216,calc(var(--saturation-factor, 1) * 4.5%),56.1%) !important;
     --text-link: currentColor;
+}
+.body-3xQeA6 .text-sm-normal-AEQz4v {
+    padding-top: 18px;
 }
 .content-3aT_vH p {
     text-align: start;
@@ -2365,44 +2399,59 @@ img.icon-3AqZ2e {
 .content-31LLip {
     text-align: inherit;
 }
-.upsellButtonsContainer-1RUYlp {
+.upsellButtonsContainer-1RUYlp, .contentPremium-_Y0-cX .buttonContainerHorizontal-2U7CBw {
     margin: 0;
     padding: 18px;
     flex-direction: unset;
     justify-content: space-between;
     align-items: end;
 }
-.upsellButtonsContainer-1RUYlp button {
+.upsellButtonsContainer-1RUYlp button, .contentPremium-_Y0-cX button {
     width: auto;
     height: unset;
     min-width: unset;
     min-height: unset;
     line-height: unset;
     margin-bottom: 0 !important;
+    flex: unset !important;
 }
-.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj {
+.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj, .contentPremium-_Y0-cX .lookLink-13iF2K {
     padding: 0;
     height: fit-content;
     background: transparent !important;
     font-size: 12px;
     color: var(--brand-experiment) !important;
 }
-.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj:hover {
+.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj:hover, .contentPremium-_Y0-cX .lookLink-13iF2K:hover {
     text-decoration: underline;
 }
 .upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj .contents-3NembX {
     overflow: visible;
 }
-.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB {
+.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB, .contentPremium-_Y0-cX .lookInverted-2GrLaB {
     padding: 10px 20px;
     font-size: 16px;
     line-height: 16px;
     font-weight: 500;
     background-color: var(--brand-experiment);
     color: #fff;
+    order: 1;
 }
-.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB:hover {
+.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB:hover, .contentPremium-_Y0-cX .lookInverted-2GrLaB:hover {
     background-color: var(--brand-experiment-530);
+}
+
+/*Temporary Shop Upsell*/
+.shopArt-2-esbI {
+    border-radius: 0;
+    height: 120px;
+    background: #0004;
+}
+.logo-14GE_y {
+    display: none;
+}
+.avatar3-MB8wXR {
+    left: 30%;
 }
 
 /*Find or start a conversation*/
@@ -2661,6 +2710,7 @@ img.icon-3AqZ2e {
 }
 
 /*Server/Channel Notice*/
+
 .channelNotice-K4UfZY {
     position: relative;
     margin: 0;

@@ -2318,8 +2318,14 @@ img.icon-3AqZ2e {
 }
 
 /*Upsell Tooltip*/
-.caretBottomCenter-4XccL3:after, .caretBottomLeft-27xdm4:after, .caretLeftCenter-3auzi7:after, .caretRightCenter-3tHkVD:after {
+.caretBottomCenter-4XccL3:after, .caretBottomLeft-27xdm4:after {
     border-top-color: hsla(0, 0%, 100%, .98) !important;
+}
+.caretLeftCenter-3auzi7:after {
+    border-right-color: hsla(0, 0%, 100%, .98) !important;
+}
+.caretRightCenter-3tHkVD:after {
+    border-left-color: hsla(0, 0%, 100%, .98) !important;;
 }
 .upsellTooltipWrapper-1wqikQ {
     max-width: unset;

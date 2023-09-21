@@ -15167,6 +15167,9 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     margin-bottom: 10px !important;
     border-bottom: 1px solid hsla(0,0%,100%,.04);
 }
+.theme-light .vc-rdb-view .wrapper-30-Nkg {
+    border-color: #eceeef;
+}
 .vc-rdb-view .wrapper-30-Nkg:last-child {
     border: 0;
 }

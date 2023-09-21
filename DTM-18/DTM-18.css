@@ -11516,10 +11516,9 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     color: var(--header-secondary) !important;
     font-weight: 700;
 }
-.section-28YDOf:has(.markup-eYLPri) .eyebrow-1Shfyi,
-.section-28YDOf:has(.memberSinceContainer-2CBD23) .eyebrow-1Shfyi,
+.section-28YDOf:has(.markup-eYLPri, .memberSinceContainer-2CBD23) .eyebrow-1Shfyi,
 .activity-3uaYny .overflow-1wOqNV {
-    color: var(--play-secondary-alt);
+    color: var(--play-secondary-alt) !important;
 }
 
 /*Username*/
@@ -11585,7 +11584,7 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     background-color: var(--white-500);
     color: var(--brand-experiment);
 }
-.theme-light .userPopoutOuter-1OHwPL .botTagRegular-kpctgU {
+.theme-light .userPopoutOuter-1OHwPL:not(:has(.activity-3uaYny)) .botTagRegular-kpctgU {
     background-color: var(--brand-experiment);
     color: var(--white-500);
 }
@@ -11607,6 +11606,9 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 .customStatusText-V9aTHE,
 .lineClamp2Plus-2SCQmH {
     color: var(--play-tertiary) !important;
+}
+.section-28YDOf .markup-eYLPri code {
+    background: rgba(0,0,0,.1);
 }
 
 .memberSinceContainer-2CBD23 .discordIcon-32mgeP {

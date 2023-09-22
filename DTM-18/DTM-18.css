@@ -2337,14 +2337,18 @@ img.icon-3AqZ2e {
     background-color: hsla(0, 0%, 100%, .98);
     background-image: unset;
     border-radius: 3px;
+    padding-top: 76px;
 }
 .contentPremium-_Y0-cX {
-    padding-top: 76px;
     gap: unset;
 }
 .upsellTooltipHeader-28hJ7J {
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: unset;
     padding: 18px;
     margin-bottom: 18px;
@@ -2352,6 +2356,7 @@ img.icon-3AqZ2e {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
+    border-radius: 3px 3px 0 0;
     background-color: var(--brand-experiment);
     background-image: url(https://cdn.discordapp.com/attachments/1154110577082372116/1154110744930041876/tutorial_header.png);
     background-repeat: no-repeat;
@@ -2382,6 +2387,12 @@ img.icon-3AqZ2e {
 .header-NO2fDd .premiumIcon-hLV4L9 {
     margin: 0 4px 0 0;
 }
+.upsellTooltipWrapper-1wqikQ img {
+    border-radius: 0;
+    margin-top: 18px;
+    margin-bottom: 0;
+    max-width: calc(100% - 36px);
+}
 .content-3aT_vH, .body-3xQeA6 .text-sm-normal-AEQz4v {
     text-align: start;
     padding: 0 18px;
@@ -2389,7 +2400,7 @@ img.icon-3AqZ2e {
     color: hsl(216,calc(var(--saturation-factor, 1) * 4.5%),56.1%) !important;
     --text-link: currentColor;
 }
-.body-3xQeA6 .text-sm-normal-AEQz4v {
+.upsellTooltipWrapper-1wqikQ .upsellTooltipHeader-28hJ7J + .content-3aT_vH, .body-3xQeA6 .text-sm-normal-AEQz4v {
     padding-top: 18px;
 }
 .content-3aT_vH p {

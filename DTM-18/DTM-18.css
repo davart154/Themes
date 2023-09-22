@@ -8770,24 +8770,23 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 
 
 /*Default pfp*/
-img[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
+img[src="/assets/1f0bfc0865d324c2587920a7d80c609b.png"], [style*="/assets/1f0bfc0865d324c2587920a7d80c609b.png"] {
     content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374345576267827/Avatar0.png");
 }
-img[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
+img[src="/assets/c09a43a372ba81e3018c3151d4ed4773.png"], [style*="/assets/c09a43a372ba81e3018c3151d4ed4773.png"] {
     content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374365205602324/Avatar1.png");
 }
-img[src="/assets/7c8f476123d28d103efe381543274c25.png"] {
+img[src="/assets/7c8f476123d28d103efe381543274c25.png"], [style*="/assets/7c8f476123d28d103efe381543274c25.png"] {
     content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374384390340638/Avatar2.png")
 }
-img[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+img[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"], [style*="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
     content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374402589425754/Avatar3.png")
 }
-img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
+img[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"], [style*="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
     content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374423401574530/Avatar4.png")
 }
 /*Clyde*/
-[src*="/avatars/1/clyde"],
-[src*="/avatars/1081004946872352958"] {
+[src*="/avatars/1/clyde"], [src*="/avatars/1081004946872352958"] {
     content: url("/assets/f78426a064bc9dd24847519259bc42af.png");
 }
 
@@ -11016,9 +11015,17 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
     width: 30px !important;
     height: 30px !important;
 }
-.layout-1qmrhw .wrapper-3Un6-K svg {
+.layout-1qmrhw .wrapper-3Un6-K {
     contain: unset;
     overflow: unset;
+}
+.layout-1qmrhw .wrapper-3Un6-K .avatarDecoration-2Wb1Au foreignObject {
+    width: 38px;
+    height: 38px;
+}
+.layout-1qmrhw .wrapper-3Un6-K .avatarDecoration-2Wb1Au .avatarStack-3Bjmsl {
+    width: 35px !important;
+    height: 35px !important;
 }
 .layout-1qmrhw .wrapper-3Un6-K foreignObject {
     mask: none !important;

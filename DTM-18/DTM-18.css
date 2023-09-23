@@ -2718,8 +2718,7 @@ img.icon-3AqZ2e {
 }
 
 /*Server/Channel Notice*/
-
-.channelNotice-K4UfZY {
+.channelNotice-K4UfZY, .channelNotice-Bfew9I {
     position: relative;
     margin: 0;
     padding: 10px 20px 20px;
@@ -2727,7 +2726,7 @@ img.icon-3AqZ2e {
     box-shadow: inset 0 -1px 3px rgba(0,0,0,.1);
     border: 0;
 }
-.channelNotice-K4UfZY .closeIcon-1AEDhI {
+.closeIcon-1AEDhI, .close-3lLvLs {
     cursor: pointer;
     height: 18px;
     opacity: .3;
@@ -2737,10 +2736,14 @@ img.icon-3AqZ2e {
     width: 18px;
     color: #fff;
 }
+.closeIcon-21uh7S {
+    width: 16px;
+    height: 16px;
+}
 .liveIndicator-TJKS7N {
     background-color: var(--status-positive);
 }
-.channelNotice-K4UfZY button {
+.channelNotice-K4UfZY button, .channelNotice-Bfew9I button {
     background-color: #36393f !important;
     border: 1px solid rgba(0,0,0,.6);
     border-radius: 3px;
@@ -2751,13 +2754,13 @@ img.icon-3AqZ2e {
     padding: 8px 0;
     transition: none;
 }
-.channelNotice-K4UfZY button:active {
+.channelNotice-K4UfZY button:active, .channelNotice-Bfew9I button:active {
     background-color: #313339 !important;
 }
-.theme-light .channelNotice-K4UfZY button {
+.theme-light .channelNotice-K4UfZY button, .theme-light .channelNotice-Bfew9I button {
     background-color: var(--background-secondary) !important;
 }
-.theme-light .channelNotice-K4UfZY button:active {
+.theme-light .channelNotice-K4UfZY button:active, .theme-light .channelNotice-Bfew9I button:active {
     background-color: var(--background-tertiary) !important;
 }
 

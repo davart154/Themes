@@ -2318,9 +2318,6 @@ img.icon-3AqZ2e {
 }
 
 /*Upsell Tooltip*/
-.bottomPointer-1sVqrd {
-    left: 140px;
-}
 .caretBottomCenter-4XccL3:after, .caretBottomLeft-27xdm4:after, .bottomPointer-1sVqrd, .leftPointer-1VRQpy {
     border-top-color: hsla(0, 0%, 100%, .98) !important;
 }
@@ -2330,7 +2327,7 @@ img.icon-3AqZ2e {
 .caretRightCenter-3tHkVD:after {
     border-left-color: hsla(0, 0%, 100%, .98) !important;;
 }
-.upsellTooltipWrapper-1wqikQ, .contentPremium-_Y0-cX {
+.upsellTooltipWrapper-1wqikQ, .content-1rmYE- {
     max-width: unset;
     width: 400px;
     padding: 0;
@@ -2339,10 +2336,10 @@ img.icon-3AqZ2e {
     border-radius: 3px;
     padding-top: 76px;
 }
-.contentPremium-_Y0-cX {
+.content-1rmYE- {
     gap: unset;
 }
-.upsellTooltipHeader-28hJ7J {
+.upsellTooltipHeader-28hJ7J, .header-NO2fDd {
     display: flex;
     align-items: center;
     position: absolute;
@@ -2364,11 +2361,11 @@ img.icon-3AqZ2e {
     background-position: 0 100%;
 }
 .header-NO2fDd {
-    text-indent: unset;
-}
-.header-NO2fDd {
     display: flex;
     align-items: center;
+    text-indent: unset;
+}
+.contentPremium-_Y0-cX .header-NO2fDd {
     position: absolute;
     top: 0;
     left: 0;
@@ -2387,7 +2384,7 @@ img.icon-3AqZ2e {
 .header-NO2fDd .premiumIcon-hLV4L9 {
     margin: 0 4px 0 0;
 }
-.upsellTooltipWrapper-1wqikQ img {
+.upsellTooltipWrapper-1wqikQ img, .content-1rmYE- > :is(.art-fZr6w6, .artInline-39PVgM, .art-2RMQc_) {
     border-radius: 0;
     margin-top: 18px;
     margin-bottom: 0;
@@ -2410,14 +2407,14 @@ img.icon-3AqZ2e {
 .content-31LLip {
     text-align: inherit;
 }
-.upsellButtonsContainer-1RUYlp, .contentPremium-_Y0-cX .buttonContainerHorizontal-2U7CBw {
+.upsellButtonsContainer-1RUYlp, .content-1rmYE- .buttonContainerHorizontal-2U7CBw {
     margin: 0;
     padding: 18px;
     flex-direction: unset;
     justify-content: space-between;
     align-items: end;
 }
-.upsellButtonsContainer-1RUYlp button, .contentPremium-_Y0-cX button {
+.upsellButtonsContainer-1RUYlp button, .content-1rmYE- button {
     width: auto;
     height: unset;
     min-width: unset;
@@ -2426,20 +2423,20 @@ img.icon-3AqZ2e {
     margin-bottom: 0 !important;
     flex: unset !important;
 }
-.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj, .contentPremium-_Y0-cX .lookLink-13iF2K {
+.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj, .content-1rmYE- .lookLink-13iF2K, .content-1rmYE- .colorWhite-Eshn2o + button {
     padding: 0;
     height: fit-content;
     background: transparent !important;
     font-size: 12px;
     color: var(--brand-experiment) !important;
 }
-.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj:hover, .contentPremium-_Y0-cX .lookLink-13iF2K:hover {
+.upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj:hover, .content-1rmYE- .lookLink-13iF2K:hover, .content-1rmYE- .colorWhite-Eshn2o + button:hover {
     text-decoration: underline;
 }
 .upsellButtonsContainer-1RUYlp .lookFilled-1H2Jvj .contents-3NembX {
     overflow: visible;
 }
-.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB, .contentPremium-_Y0-cX .lookInverted-2GrLaB {
+.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB, .content-1rmYE- .lookInverted-2GrLaB, .content-1rmYE- .colorWhite-Eshn2o {
     padding: 10px 20px;
     font-size: 16px;
     line-height: 16px;
@@ -2448,7 +2445,7 @@ img.icon-3AqZ2e {
     color: #fff;
     order: 1;
 }
-.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB:hover, .contentPremium-_Y0-cX .lookInverted-2GrLaB:hover {
+.upsellButtonsContainer-1RUYlp .lookInverted-2GrLaB:hover, .content-1rmYE- .lookInverted-2GrLaB:hover, .content-1rmYE- .colorWhite-Eshn2o:hover {
     background-color: var(--brand-experiment-530);
 }
 

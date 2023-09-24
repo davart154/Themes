@@ -12959,6 +12959,48 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 .focusLock-bHVOlV .tile-3POX2m:has(.selected-1i-g6T) .sourceName-3Wf8QG {
     opacity: 1;
 }
+/*Delete Message*/
+.message-G6O-Wv {
+    background-color: transparent !important;
+    padding: 20px 0;
+}
+/*Report Message*/
+.header-1s4-by, .remediationElementsHeader-2oT-Uv {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+.messagePreviewContainer-1oR1Oc, .userContainer-2lvJe0 {
+    padding: 20px 0;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: var(--legacy-elevation-border),var(--legacy-elevation-high);
+}
+.childButton-3o_dlg {
+    min-height: 48px;
+    background: transparent !important;
+    border: 2px solid rgba(28, 36, 43, 0.06);
+    transition: border-color 0.2s;
+}
+.childButton-3o_dlg:hover {
+    border-color: rgba(28, 36, 43, 0.12);
+}
+.theme-dark .childButton-3o_dlg {
+    border-color: rgba(28, 36, 43, 0.6);
+    background: var(--background-primary);
+}
+.theme-dark .childButton-3o_dlg:hover {
+    border-color: rgba(28, 36, 43, 0.8);
+}
+.childText-1WLJfs {
+    font-weight: 500;
+}
+.userContainer-2lvJe0 {
+    padding: 20px;
+}
 /*Nitro*/
 .focusLock-bHVOlV .tier2HeaderBackground-2XINxm {
     background-image: linear-gradient(90deg, #b473f5, #e292aa);

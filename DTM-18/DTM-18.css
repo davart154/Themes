@@ -11379,6 +11379,7 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 .profileBadge22-3GAYRy, .profileBadge24-sH1efV {
     width: unset;
     aspect-ratio: 1 / 1;
+    object-fit: contain;
 }
 .profileBadge22-3GAYRy {
     height: 20px;

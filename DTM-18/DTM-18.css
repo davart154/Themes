@@ -11293,8 +11293,8 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 
 /*Avatar Deco*/
 .userPopoutOuter-1OHwPL .avatarDecoration-2Wb1Au {
-    width: 121.5px;
-    height: 108px;
+    width: 127px;
+    height: unset;
     contain: none;
 }
 .userPopoutOuter-1OHwPL .avatarDecoration-2Wb1Au foreignObject {
@@ -11302,15 +11302,15 @@ img[src="/assets/6b35b41a1e3a8099667499b71414328b.svg"] {
 }
 
 /*Status*/
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K circle[fill="black"],
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K circle[fill="white"] {
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) .wrapper-3Un6-K circle[fill="black"],
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) .wrapper-3Un6-K circle[fill="white"] {
     fill: none;
     cx: 80;
     cy: 80;
     r: 9;
 }
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K rect[fill="black"],
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K rect[fill="white"] {
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) .wrapper-3Un6-K rect[fill="black"],
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) .wrapper-3Un6-K rect[fill="white"] {
     fill: none;
     height: 18.5px;
     width: 18.5px;
@@ -11327,7 +11327,7 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K r
     rx: 50%;
     opacity: 0;
 }
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) rect[x="60"] {
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) rect[x="60"] {
     x: 70.5;
     y: 70.5;
     height: 18.5px;
@@ -11342,7 +11342,7 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) rect[x="60"] {
     z-index: 1;
     pointer-events: none;
 }
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K:before {
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) .wrapper-3Un6-K:before {
     content: "";
     position: absolute;
     z-index: 1;
@@ -11359,10 +11359,6 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K:b
     transition: background .4s ease;
     background-color: var(--brand-experiment);
     background-image: var(--colorblind-unknown);
-}
-.userProfileModalOuter-2wdWjU .wrapper-3Un6-K:before {
-    right: 1px !important;
-    bottom: 1px !important;
 }
 
 /*Badges*/
@@ -12008,18 +12004,18 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K:b
 .userProfileModalOuter-2wdWjU .header-S25rhB {
     position: unset;
 }
-.userProfileModalOuter-2wdWjU .wrapper-3Un6-K {
+.userProfileModalOuter-2wdWjU  .topSection-13QKHs .wrapper-3Un6-K {
     top: 20px;
     left: 20px;
     width: 90px !important;
     height: 90px !important;
 }
-.userProfileModalOuter-2wdWjU .avatar-13QF_VAYsFQ1 svg {
+.userProfileModalOuter-2wdWjU .topSection-13QKHs .wrapper-3Un6-K svg {
     width: 135px !important;
     height: 135px !important;
     mask: none;
 }
-.userProfileModalOuter-2wdWjU .wrapper-3Un6-K foreignObject {
+.userProfileModalOuter-2wdWjU .topSection-13QKHs .wrapper-3Un6-K foreignObject {
     width: 92px;
     height: 92px;
     mask: none;
@@ -12120,6 +12116,23 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K:b
 .theme-light .listRow-2nO1T6:hover {
     background: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
     color: #36393f;
+}
+.listRow-2nO1T6 .wrapper-3Un6-K foreignObject {
+    border-radius: 50%;
+    mask: none;
+}
+.listRow-2nO1T6 .wrapper-3Un6-K:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid var(--background-secondary);
+    transition: background .2s ease, width .2s ease, right .2s ease;
 }
 
 /*Empty Page*/
@@ -15581,7 +15594,7 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K:b
     background-color: #80848e !important;
     background-image: var(--colorblind-offline) !important;
 }
-div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU) .wrapper-3Un6-K:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
+div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs) .wrapper-3Un6-K:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
     background-size: 22px;
     background-position: -4px -4px;
 }

@@ -2327,6 +2327,13 @@ img.icon-3AqZ2e {
 .caretRightCenter-3tHkVD:after {
     border-left-color: hsla(0, 0%, 100%, .98) !important;;
 }
+.coachmark-2wbauW {
+    margin: 0;
+}
+.coachmark-2wbauW:after {
+    right: 100% !important;
+    border-right-color: var(--brand-experiment) !important;
+}
 .upsellTooltipWrapper-1wqikQ, .content-1rmYE- {
     max-width: unset;
     width: 400px;
@@ -2396,6 +2403,9 @@ img.icon-3AqZ2e {
     font-size: 14px;
     color: hsl(216,calc(var(--saturation-factor, 1) * 4.5%),56.1%) !important;
     --text-link: currentColor;
+}
+.text-sm-normal-AEQz4v > .text-sm-normal-AEQz4v {
+    color: inherit !important;
 }
 .upsellTooltipWrapper-1wqikQ .upsellTooltipHeader-28hJ7J + .content-3aT_vH, .body-3xQeA6 .text-sm-normal-AEQz4v {
     padding-top: 18px;

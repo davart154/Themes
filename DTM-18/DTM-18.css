@@ -15239,15 +15239,15 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 }
 
 /*User Review DB*/
-.section-28YDOf + div:not([class]) {
+.section-28YDOf + div[style*="display: flex"]:not([class]) {
     border-top: 1px solid rgba(185, 187, 190, 0.3);
     padding: 10px;
     margin: 0 !important;
 }
-.theme-dark .section-28YDOf + div:not([class]) {
+.theme-dark .section-28YDOf + div[style*="display: flex"]:not([class]) {
     border-color: rgba(32, 34, 37, 0.3);
 }
-.userProfileOuterThemed-2BgJCM .section-28YDOf + div:not([class]) {
+.userProfileOuterThemed-2BgJCM .section-28YDOf + div[style*="display: flex"]:not([class]) {
     border-color: var(--profile-body-background-color);
 }
 .vc-rdb-view {
@@ -15367,9 +15367,6 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 .vc-addon-card-disabled .vc-plugins-info-button + div:not([class]) {
     display: none;
 }
-
-/*Plugins*/
-/*Review DB*/
 
 /*Nitro Brew
 .sidebar-nqHbhN .premiumLabel-3HPvdB {

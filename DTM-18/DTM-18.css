@@ -45,11 +45,11 @@
     opacity: 0;
 }
 
-.preview-QJ3OG3:after {
+/*.preview-QJ3OG3:after {
     background: url(https://cdn.discordapp.com/attachments/1127830821903007776/1127830873350352937/luigi_dance.gif);
     background-size: 100% 173px;
     z-index: 1;
-}
+}*/
 
 /*Tooltip*/
 .tooltip-33Jwqe {
@@ -14898,6 +14898,73 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 #appearance-tab .cardPrimaryOutline-1ofwVz {
     border-color: rgba(32, 34, 37, 0.6);
 }
+
+#appearance-tab .basicThemeSelectors-2wNKs6 {
+    flex-direction: column;
+    gap: 8px;
+}
+.themeTitle-3WIti0 button {
+    display: none;
+}
+.themeSelectionContainer-3nGXK9 {
+    width: unset;
+    height: fit-content;
+    z-index: 0;
+}
+.themeSelection-2u4ce0 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: var(--interactive-active);
+    background: var(--deprecated-card-editable-bg);
+    border: solid 1px var(--background-tertiary);
+    border-radius: 3px;
+    box-shadow: none;
+}
+.themeSelection-2u4ce0[aria-checked="true"] {
+    background: var(--brand-experiment);
+    border-color: var(--brand-experiment);
+}
+.themeSelection-2u4ce0:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
+    border-radius: 3px;
+}
+.themeSelection-2u4ce0[aria-checked="true"]:before {
+    border-color: transparent;
+}
+.themeSelection-2u4ce0:after {
+    content: attr(aria-label);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.themeSelection-2u4ce0[aria-checked="true"]:after {
+    color: #fff !important;
+}
+.selectionCircle-3s5Uex {
+    top: 12px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background: white;
+    box-shadow: none;
+}
+.checkmarkCircle-2LCcdI circle, .iconWrapper-1EIGUS {
+    display: none;
+}
+.checkmarkCircle-2LCcdI path {
+    d: path("M5.85 12.45 9.7 16.3 18.5 7.5");
+    fill: none;
+    stroke: var(--brand-experiment);
+    stroke-width: 2.2;
+}
+
 #appearance-tab .children-2C96Ex .marginTop20-2T8ZJx:nth-child(4) .slider-1mmyV6 {
     margin-left: 26px;
     margin-right: 37px;

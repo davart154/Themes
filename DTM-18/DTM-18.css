@@ -5366,7 +5366,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
 }
 
 /*Hide Icons*/
-.container-ZMc96U:not(.title-31SJ6t, .header-3xB4vB, .forumOrHome-2VTX6r) .children-3xh0VB .iconWrapper-2awDjA {
+.container-ZMc96U:not(.title-5wgnIa, .header-3xB4vB, .forumOrHome-2VTX6r) .children-3xh0VB .iconWrapper-2awDjA {
     display: none;
 }
 
@@ -6426,7 +6426,7 @@ foreignObject[mask*="offline"] .status-3cqfT9 {
     pointer-events: all;
 }
 
-.container-ZMc96U:not(.title-31SJ6t, .header-3xB4vB, .forumOrHome-2VTX6r) {
+.container-ZMc96U:not(.title-5wgnIa, .header-3xB4vB, .forumOrHome-2VTX6r) {
     box-shadow: var(--elevation-low);
 }
 .container-ZMc96U + .tabBody-2dgbAs:before {

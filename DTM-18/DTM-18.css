@@ -2619,26 +2619,26 @@ img.icon-3AqZ2e {
 }
 
 /*Server Setting Popout*/
-#guild-header-popout.menu-2TXYjN {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) {
     background: #282b30;
     border-radius: 5px;
     width: 220px;
 }
-.theme-light #guild-header-popout.menu-2TXYjN {
+.theme-light .menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) {
     background: #fff;
 }
-#guild-header-popout.menu-2TXYjN .label-3CEiKJ {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .label-3CEiKJ {
     margin-left: 38px;
 }
-#guild-header-popout .iconContainer-Ksy8Oj {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .iconContainer-Ksy8Oj {
     position: absolute;
     left: 8px;
     --interactive-normal: #646E7A;
 }
-.theme-light #guild-header-popout .iconContainer-Ksy8Oj {
+.theme-light .menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .iconContainer-Ksy8Oj {
     --interactive-normal: #8E98A3;
 }
-#guild-header-popout.menu-2TXYjN .item-5ApiZt {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt {
     color: var(--interactive-normal);
     font-size: 15px;
     padding: 10px 8px;
@@ -2646,31 +2646,31 @@ img.icon-3AqZ2e {
     border-radius: 0;
     font-weight: 400;
 }
-#guild-header-popout.menu-2TXYjN .item-5ApiZt:hover,
-#guild-header-popout.menu-2TXYjN .item-5ApiZt.focused-3LIdPu,
-#guild-header-popout.menu-2TXYjN .item-5ApiZt:active {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt:hover,
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt.focused-3LIdPu,
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt:active {
     background: #F9F9F9 !important;
     color: #737f8d !important;
 }
-.theme-dark #guild-header-popout.menu-2TXYjN .item-5ApiZt:hover,
-.theme-dark #guild-header-popout.menu-2TXYjN .item-5ApiZt.focused-3LIdPu,
-.theme-dark #guild-header-popout.menu-2TXYjN .item-5ApiZt:active {
+.theme-dark .menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt:hover,
+.theme-dark .menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt.focused-3LIdPu,
+.theme-dark .menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt:active {
     background: #25282d !important;
     color: #fff !important;
 }
-#guild-header-popout.menu-2TXYjN .item-5ApiZt:hover .iconContainer-1-SsTR,
-#guild-header-popout.menu-2TXYjN .item-5ApiZt.focused-3LIdPu .iconContainer-1-SsTR,
-#guild-header-popout.menu-2TXYjN .item-5ApiZt:active .iconContainer-1-SsTR {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt:hover .iconContainer-1-SsTR,
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt.focused-3LIdPu .iconContainer-1-SsTR,
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .item-5ApiZt:active .iconContainer-1-SsTR {
     color: #737F8D !important;
 }
-#guild-header-popout.menu-2TXYjN .separator-12G2Op {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .separator-12G2Op {
     margin: 0;
     border-color: #f5f5f5;
 }
-.theme-dark #guild-header-popout.menu-2TXYjN .separator-12G2Op {
+.theme-dark .menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) .separator-12G2Op {
     border-color: rgba(245, 245, 245, 0.08);
 }
-#guild-header-popout.menu-2TXYjN path {
+.menu-2TXYjN:is(#guild-header-popout, #favorites-header-popout) path {
     fill: #737F8D;
 }
 #guild-header-popout.menu-2TXYjN #guild-header-popout-premium-subscribe {

@@ -3727,12 +3727,11 @@ img.icon-3AqZ2e {
     position: relative;
     width: 32px;
 }
-.button-12Fmur.enabled-9OeuTA:hover,
-.sidebar-1tnWFu.theme-dark .button-12Fmur.enabled-9OeuTA:hover {
+button.button-12Fmur.enabled-9OeuTA:hover {
     color: var(--interactive-active);
     background-color: #25272a;
 }
-.theme-light .button-12Fmur:hover {
+.theme-light button.button-12Fmur.enabled-9OeuTA:hover {
     background-color: #f6f6f7;
 }
 .panels-3wFtMD .button-12Fmur .contents-3NembX svg {

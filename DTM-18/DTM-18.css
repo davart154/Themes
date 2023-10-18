@@ -2354,7 +2354,7 @@ img.icon-3AqZ2e {
     right: 0;
     text-align: unset;
     padding: 18px;
-    margin-bottom: 18px;
+    margin: 0 !important;
     height: 40px;
     font-size: 20px;
     font-weight: 500;
@@ -2416,7 +2416,7 @@ img.icon-3AqZ2e {
 .content-31LLip {
     text-align: inherit;
 }
-.upsellButtonsContainer-1RUYlp, .content-1rmYE- .buttonContainerHorizontal-2U7CBw {
+.upsellButtonsContainer-1RUYlp, .content-1rmYE- .buttonContainerHorizontal-2U7CBw, .content-1rmYE- .buttonContainerVertical-3aXOP1 {
     margin: 0;
     padding: 18px;
     flex-direction: unset;
@@ -11909,7 +11909,7 @@ div:is(.userPopoutOuter-1OHwPL, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 }
 
 /*Playing on XBOX*/
-.userPopoutOuter-1OHwPL:has([src="/assets/29b4af8bf13fa73258692008d25b4f0d.png"]) {
+.userPopoutOuter-1OHwPL:has([src="/assets/7495b9e83bb676b1224a1ce840d0bf6a.png"]) {
     --play: var(--xbox);
 }
 

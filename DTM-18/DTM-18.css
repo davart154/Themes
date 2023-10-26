@@ -1790,8 +1790,8 @@ mask > use[href$="lower_badge_masks"] {
 }
 
 /*Custom Notice*/
-/*.base-2jDfDU:before {
-    content: "";
+.base__3e6af:before {
+    content: "Classes were redone. Please be patient while a fix is made.";
     background-color: #4a90e2;
     color: #fff;
     font-size: 14px;
@@ -1801,9 +1801,9 @@ mask > use[href$="lower_badge_masks"] {
     border-radius: 8px 0 0;
     -webkit-box-shadow: var(--elevation-low);
     box-shadow: var(--elevation-low);
-    animation: noticeRemove 0s 10s forwards;
+    /*animation: noticeRemove 0s 10s forwards;*/
 }
-.base-2jDfDU:after {
+/*.base__3e6af:after {
     content: "";
     color: #fff;
     font-size: 14px;
@@ -1814,7 +1814,7 @@ mask > use[href$="lower_badge_masks"] {
     right: 12px;
     opacity: 0.5;
     animation: noticeCountdown 10s forwards, noticeRemove 0s 10s forwards;
-}
+}*/
 @keyframes noticeCountdown {
     0% {content: "10s";}
     10% {content: "9s";}
@@ -1833,7 +1833,7 @@ mask > use[href$="lower_badge_masks"] {
         position: fixed;
         transform: translateY(-100vh);
     }
-}*/
+}
 
 /*Notice Header*/
 .notice-2HEN-u .closeButton-30b1gR {

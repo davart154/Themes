@@ -7566,6 +7566,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 .actionBar__3cdab .button_d553e5 {
     padding: 0;
+    margin-left: 0;
     margin-right: 4px;
     width: 16px;
     min-width: 16px;

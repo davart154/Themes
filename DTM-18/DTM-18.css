@@ -7837,6 +7837,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     width: 0;
 }
 .menu_dc52c6 .item__183e8 {
+    position: relative;
     margin: 2px 0;
     color: #9099a4;
     padding: 6px 9px;
@@ -9096,21 +9097,21 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 }
 
 /*Roles*/
-.userPopoutOuter_d739b2 .role__631a3 {
+.role__631a3 {
     position: relative;
-    background: none;
+    background: none !important;
     border: 0;
 }
-.userPopoutOuter_d739b2 .roleRemoveButton__737f2 {
+.roleRemoveButton__737f2 {
     position: static;
 }
-.userPopoutOuter_d739b2 .roleRemoveIcon__7f63d {
+.roleRemoveIcon__7f63d {
     left: 10.5px;
 }
-.userPopoutOuter_d739b2 .roleCircle_bae511 {
+.roleCircle_bae511 {
     margin-left: 1px;
 }
-.userPopoutOuter_d739b2 .roleCircle_bae511:before {
+.roleCircle_bae511:before {
     content: "";
     position: absolute;
     top: 0; right: 0; left: 0; bottom: 0;
@@ -9122,13 +9123,15 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
     -webkit-mask-composite: xor;
     pointer-events: none;
 }
-.userPopoutOuter_d739b2 .addButton_c648bf {
+.addButton_c648bf, .addRoleContainer__23777 {
+    background: none !important;
     border: 1px solid hsl(214,calc(var(--saturation-factor, 1)*8.2%),33.3%);
     border-radius: var(--radius-round);
     width: 22px;
+    height: 22px;
     padding: 0;
 }
-.userPopoutOuter_d739b2 .role__631a3:has(.roleFlowerStar__170d5) {
+.role__631a3:has(.roleFlowerStar__170d5) {
     border: 1px solid var(--header-primary);
     border-radius: 15px;
     padding: 0;

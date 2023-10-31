@@ -9114,10 +9114,10 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 .roleCircle_bae511:before {
     content: "";
     position: absolute;
-    top: 0; right: 0; left: 0; bottom: 0;
+    inset: 0;
     background: inherit;
     border: 1px solid transparent;
-    border-radius: 15px;
+    border-radius: var(--radius-round);
     box-sizing: border-box;
     -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
     -webkit-mask-composite: xor;
@@ -9133,7 +9133,7 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 }
 .role__631a3:has(.roleFlowerStar__170d5) {
     border: 1px solid var(--header-primary);
-    border-radius: 15px;
+    border-radius: var(--radius-round);
     padding: 0;
 }
 

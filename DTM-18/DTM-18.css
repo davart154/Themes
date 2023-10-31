@@ -6524,23 +6524,23 @@ foreignObject[mask*="offline"] .status__1c26d {
     color: var(--header-primary);
     font-weight: 600;
 }
-.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/d1382af8d9e755bc44811b1fd92990a8.svg'] {
-    background-image: url(https://cdn.discordapp.com/attachments/1084942558536421486/1084942746214727742/systemmessage_join.svg?) !important;
+.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/7378a83d74ce97d83380.svg'] {
+    background-image: var(--system-message-icon-join) !important;
 }
-.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/f772d3d7eddcf3c84f710c10999479f0.svg'] {
-    background-image: url(https://cdn.discordapp.com/attachments/1084942558536421486/1084942755559637173/systemmessage_leave.svg?) !important;
+.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/192510ade1abc3149b46.svg'] {
+    background-image: var(--system-message-icon-leave) !important;
 }
-.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/7f75ab26bc5deb393cd8db44d9fe14e7.svg'] {
-    background-image: url(https://cdn.discordapp.com/attachments/1084942558536421486/1084942780482211840/systemmessage_callstarted.svg?) !important;
+.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/9f3b9c1b6e5f77294951.svg'] {
+    background-image: var(--system-message-icon-call-start) !important;
 }
-.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/5e64269a40d5bb745c2f3df29f26738d.svg'] {
-    background-image: url(https://cdn.discordapp.com/attachments/1084942558536421486/1084942790548541510/systemmessage_callended.svg?) !important;
+.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/a1d461025204711133ec.svg'] {
+    background-image: var(--system-message-icon-call-ended) !important;
 }
-.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/1688a01d0e6f27bead9ae6ca9e51dd32.svg'] {
-    background-image: url(https://cdn.discordapp.com/attachments/1084942558536421486/1084942766922027086/systemmessage_edit.svg?) !important;
+.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/d0f62b40a7a6093fb535.svg'] {
+    background-image: var(--system-message-icon-edit) !important;
 }
-.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/1f57f1c100434d1ff6569a495ada213e.svg'] {
-    background-image: url(https://cdn.discordapp.com/attachments/1084942558536421486/1084943424895070259/systemmessage_pin.svg?) !important;
+.scrollerInner__059a5 .isSystemMessage__2ef37 .icon__8c32c[style*='/assets/7ed159b6acb6da5d9593.svg'] {
+    background-image: var(--system-message-icon-bookmark) !important;
 }
 .welcomeCTA__927ef .welcomeCTAButtonOuter_a7da64 {
     color: var(--text-muted) !important;
@@ -9282,87 +9282,71 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
     content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.6' d='M3.43012 5.55012L3.00012 6.39012C2.97767 6.43348 2.9696 6.48286 2.97708 6.53112C2.98456 6.57937 3.0072 6.62399 3.04173 6.65851C3.07626 6.69304 3.12088 6.71568 3.16913 6.72316C3.21738 6.73064 3.26676 6.72257 3.31012 6.70012L4.15012 6.30012C4.18131 6.28507 4.21549 6.27725 4.25012 6.27725C4.28475 6.27725 4.31894 6.28507 4.35012 6.30012L5.19012 6.70012C5.23348 6.72257 5.28286 6.73064 5.33111 6.72316C5.37937 6.71568 5.42398 6.69304 5.45851 6.65851C5.49304 6.62399 5.51568 6.57937 5.52316 6.53112C5.53064 6.48286 5.52257 6.43348 5.50012 6.39012L5.09012 5.55012C5.07506 5.51894 5.06724 5.48475 5.06724 5.45012C5.06724 5.41549 5.07506 5.38131 5.09012 5.35012L5.50012 4.51012C5.51904 4.46712 5.52434 4.41934 5.5153 4.37324C5.50625 4.32713 5.48331 4.28489 5.44954 4.25222C5.41578 4.21954 5.37282 4.19799 5.32644 4.19047C5.28006 4.18294 5.23249 4.1898 5.19012 4.21012L4.35012 4.61012C4.31894 4.62518 4.28475 4.633 4.25012 4.633C4.21549 4.633 4.18131 4.62518 4.15012 4.61012L3.31012 4.21012C3.26776 4.1898 3.22018 4.18294 3.17381 4.19047C3.12743 4.19799 3.08446 4.21954 3.0507 4.25222C3.01693 4.28489 2.99399 4.32713 2.98495 4.37324C2.9759 4.41934 2.9812 4.46712 3.00012 4.51012L3.41012 5.35012C3.42838 5.37977 3.43966 5.41318 3.44312 5.44782C3.44659 5.48247 3.44214 5.51745 3.43012 5.55012Z' fill='white'/%3E%3Cpath opacity='0.6' d='M18.2501 18.2699L18.5601 19.1499C18.5767 19.1935 18.6061 19.231 18.6445 19.2575C18.6829 19.284 18.7284 19.2982 18.7751 19.2982C18.8217 19.2982 18.8673 19.284 18.9057 19.2575C18.9441 19.231 18.9735 19.1935 18.9901 19.1499L19.3001 18.2699C19.3109 18.2372 19.3291 18.2076 19.3535 18.1832C19.3778 18.1589 19.4074 18.1407 19.4401 18.1299L20.3201 17.8199C20.3637 17.8033 20.4012 17.7739 20.4277 17.7355C20.4542 17.6971 20.4684 17.6515 20.4684 17.6049C20.4684 17.5582 20.4542 17.5127 20.4277 17.4743C20.4012 17.4359 20.3637 17.4065 20.3201 17.3899L19.4401 17.0799C19.4081 17.0678 19.3791 17.0491 19.355 17.025C19.3308 17.0008 19.3121 16.9718 19.3001 16.9399L19.0001 16.0599C18.9835 16.0163 18.9541 15.9787 18.9157 15.9523C18.8773 15.9258 18.8317 15.9116 18.7851 15.9116C18.7384 15.9116 18.6929 15.9258 18.6545 15.9523C18.6161 15.9787 18.5867 16.0163 18.5701 16.0599L18.2601 16.9399C18.2481 16.9718 18.2293 17.0008 18.2052 17.025C18.1811 17.0491 18.152 17.0678 18.1201 17.0799L17.2401 17.3899C17.1965 17.4065 17.159 17.4359 17.1325 17.4743C17.106 17.5127 17.0918 17.5582 17.0918 17.6049C17.0918 17.6515 17.106 17.6971 17.1325 17.7355C17.159 17.7739 17.1965 17.8033 17.2401 17.8199L18.1201 18.1299C18.1509 18.1419 18.1786 18.1608 18.2011 18.185C18.2236 18.2093 18.2403 18.2383 18.2501 18.2699Z' fill='white'/%3E%3Cpath opacity='0.55' d='M7.91992 5.62988H13.1499L10.5299 8.23988L7.91992 5.62988Z' fill='white'/%3E%3Cpath opacity='0.55' d='M15.7699 8.23988L13.1499 5.62988H15.7699V8.23988Z' fill='white'/%3E%3Cpath opacity='0.55' d='M10.53 8.23999L13.15 19.82L5.30005 8.23999H10.53Z' fill='white'/%3E%3Cpath opacity='0.55' d='M20.9999 8.23999L13.1499 19.82L15.7699 8.23999H20.9999Z' fill='white'/%3E%3Cpath d='M7.92005 5.62988L5.30005 8.23988H10.53L7.92005 5.62988Z' fill='white'/%3E%3Cpath opacity='0.4' d='M13.15 5.62988L10.53 8.23988H15.77L13.15 5.62988Z' fill='white'/%3E%3Cpath d='M18.38 5.62988L15.77 8.23988H21L18.38 5.62988Z' fill='white'/%3E%3Cpath opacity='0.75' d='M15.77 8.23988V5.62988H18.38L15.77 8.23988Z' fill='white'/%3E%3Cpath opacity='0.75' d='M15.77 8.23999L13.15 19.82L10.53 8.23999H15.77Z' fill='white'/%3E%3Cpath d='M15.77 8.23999V8.24999L11.5 12.51L11.25 11.4L14.4 8.23999H15.77Z' fill='white'/%3E%3Cpath d='M15.02 11.5601L14.62 13.3301L12.23 15.7201L11.97 14.6101L15.02 11.5601Z' fill='white'/%3E%3Cpath d='M6.37993 14.0601H6.36993C6.12693 14.0601 5.92993 14.2571 5.92993 14.5001V15.3901C5.92993 15.6331 6.12693 15.8301 6.36993 15.8301H6.37993C6.62294 15.8301 6.81993 15.6331 6.81993 15.3901V14.5001C6.81993 14.2571 6.62294 14.0601 6.37993 14.0601Z' fill='white'/%3E%3Cpath d='M6.37993 17.6001H6.36993C6.12693 17.6001 5.92993 17.7971 5.92993 18.0401V18.9301C5.92993 19.1731 6.12693 19.3701 6.36993 19.3701H6.37993C6.62294 19.3701 6.81993 19.1731 6.81993 18.9301V18.0401C6.81993 17.7971 6.62294 17.6001 6.37993 17.6001Z' fill='white'/%3E%3Cpath d='M9.03001 16.72V16.71C9.03001 16.467 8.83301 16.27 8.59001 16.27H7.70001C7.457 16.27 7.26001 16.467 7.26001 16.71V16.72C7.26001 16.963 7.457 17.16 7.70001 17.16H8.59001C8.83301 17.16 9.03001 16.963 9.03001 16.72Z' fill='white'/%3E%3Cpath d='M5.48997 16.72V16.71C5.48997 16.467 5.29297 16.27 5.04997 16.27H4.15997C3.91697 16.27 3.71997 16.467 3.71997 16.71V16.72C3.71997 16.963 3.91697 17.16 4.15997 17.16H5.04997C5.29297 17.16 5.48997 16.963 5.48997 16.72Z' fill='white'/%3E%3C/svg%3E%0A");
 }
 
-/*Listening to Spotify*/
-.userPopoutOuter_d739b2:has([src="/assets/eaeac24163b35f7526704a3d9b3c7722.svg"]) {
+.userPopoutOuter_d739b2:has([src="/assets/7231645d01e0b14f58cc.svg"]) {
     --play: var(--spotify);
 }
-
-/*Live on Twitch*/
 .userPopoutOuter_d739b2:has([mask="url(#svg-mask-status-streaming)"]) {
     --play: var(--twitch);
 }
-
-/*Playing on XBOX*/
 .userPopoutOuter_d739b2:has([src="/assets/7495b9e83bb676b1224a1ce840d0bf6a.png"]) {
     --play: var(--xbox);
 }
-
-/*Playing on PlayStation*/
 .userPopoutOuter_d739b2:has([src="/assets/7bab4490382024b0c8c29b5378eeaf8f.svg"]) {
     --play: var(--playstation);
 }
-
-/*Watching Crunchyroll*/
 .userPopoutOuter_d739b2 [alt="Crunchyroll"] {
     display: none;
 }
 .userPopoutOuter_d739b2:has([alt="Crunchyroll"]) {
     --play: var(--crunchyroll);
 }
-
-/*Activities*/
-/*Watch Together*/.userPopoutOuter_d739b2:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
     --play: var(--youtube);
 }
-/*Checkers In The Park*/.userPopoutOuter_d739b2:has([src*="/app-assets/832013003968348200/904775325026750464.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/832013003968348200/904775325026750464.png"]) {
     --play: var(--checkers);
 }
-/*Letter League*/.userPopoutOuter_d739b2:has([src*="/app-assets/879863686565621790/933441342128918588.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/879863686565621790/933441342128918588.png"]) {
     --play: var(--letterleague);
 }
-/*SpellCast*/.userPopoutOuter_d739b2:has([src*="/app-assets/852509694341283871/897822164445700166.png"],[style*="app-icons/852509694341283871"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/852509694341283871/897822164445700166.png"],[style*="app-icons/852509694341283871"]) {
     --play: var(--spellcast);
 }
-/*Land-io*/.userPopoutOuter_d739b2:has([src*="/app-assets/903769130790969345/1134198364146249828.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/903769130790969345/1134198364146249828.png"]) {
     --play: var(--landio);
 }
-/*Bobble League*/.userPopoutOuter_d739b2:has([src*="/app-assets/947957217959759964/978404196254642176.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/947957217959759964/978404196254642176.png"]) {
     --play: var(--bobbleleague);
 }
-/*Know What I Meme*/.userPopoutOuter_d739b2:has([src*="/app-assets/1078728822972764312/1078737439792832682.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/1078728822972764312/1078737439792832682.png"]) {
     --play: var(--knowwhatimeme);
 }
-/*Blazing 8s*/.userPopoutOuter_d739b2:has([src*="/app-assets/832025144389533716/930194685023121459.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/832025144389533716/930194685023121459.png"]) {
     --play: var(--blazing8s);
 }
-/*Chess In The Park*/.userPopoutOuter_d739b2:has([src*="/app-assets/832012774040141894/853007059326992414.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/832012774040141894/853007059326992414.png"]) {
     --play: var(--chess);
 }
-/*Whiteboard*/.userPopoutOuter_d739b2:has([src*="/app-assets/1070087967294631976/1096553638022885476.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/1070087967294631976/1096553638022885476.png"]) {
     --play: var(--whiteboard);
 }
-/*Putt Party*/.userPopoutOuter_d739b2:has([src*="/app-assets/945737671223947305/956618438208536628.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/945737671223947305/956618438208536628.png"]) {
     --play: var(--puttparty);
 }
-/*Poker Night*/.userPopoutOuter_d739b2:has([src*="/app-assets/755827207812677713/839608726894018561.png"]) {
+.userPopoutOuter_d739b2:has([src*="/app-assets/755827207812677713/839608726894018561.png"]) {
     --play: var(--pokernight);
 }
-/*Gartic Phone*/.userPopoutOuter_d739b2:has([style*="/app-icons/1007373802981822582/"]) {
+.userPopoutOuter_d739b2:has([style*="/app-icons/1007373802981822582/"]) {
     --play: var(--garticphone);
 }
-/*Chef Showdown*/[style*="/app-icons/1037680572660727838/"] {
+[style*="/app-icons/1037680572660727838/"] {
     --play: var(--chefshowdown);
 }
 
-/*Add more when you're not lazy*/
-/*I don't feel like it*/
-
-/*Remove Scrollbar*/
 .scroller__83262::-webkit-scrollbar {
     display: none;
 }
 
-/*Dev*/
 .userPopoutOuter_d739b2:has(img[src*="/490604571824226306/"]) .profileBadges__7a7cb:after {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='hsl(154,calc(var(--saturation-factor, 1)*49.6%25),47.5%25)' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
     width: 20px;
@@ -14628,6 +14612,14 @@ body {
     --metaicon-video-large: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns' width='110px' height='140px' viewBox='0 0 110 140' version='1.1'%3E%3C!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon-file-large-video%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='filter-1'%3E%3CfeOffset dx='0' dy='2' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='7' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' type='matrix' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='filter-2'%3E%3CfeOffset dx='-1' dy='3' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='0' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' type='matrix' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg id='Drag-&amp;-Drop' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cg id='Desktop-HD---Drag-&amp;-Drop,-Droplet' sketch:type='MSArtboardGroup' transform='translate(-1029.000000, -867.000000)'%3E%3Cg id='Group' sketch:type='MSLayerGroup' transform='translate(239.000000, 880.000000)'%3E%3Cg id='icon-file-large-video' transform='translate(810.000000, 0.000000)' sketch:type='MSShapeGroup'%3E%3Cg id='Group'%3E%3Cpath d='M0,6.99306484 C0,3.68318653 2.68269472,1 5.99816412,1 L50.3457791,1 C54.8977123,1 70,16.3919735 70,21.0914279 L70,95.0027386 C70,98.3149346 67.3201398,101 64.0015788,101 L5.99842118,101 C2.68558464,101 0,98.312319 0,95.0069352 L0,6.99306484 Z' id='Rectangle-113' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23filter-1)'/%3E%3Cpath d='M12,1 L14,1 L14,101 L12,101 L12,1 Z M56,1 L58,1 L58,101 L56,101 L56,1 Z M0,92 L12,92 L12,94 L0,94 L0,92 Z M58,92 L70,92 L70,94 L58,94 L58,92 Z M0,80 L12,80 L12,82 L0,82 L0,80 Z M58,80 L70,80 L70,82 L58,82 L58,80 Z M0,68 L12,68 L12,70 L0,70 L0,68 Z M58,68 L70,68 L70,70 L58,70 L58,68 Z M0,56 L12,56 L12,58 L0,58 L0,56 Z M58,56 L70,56 L70,58 L58,58 L58,56 Z M0,44 L12,44 L12,46 L0,46 L0,44 Z M58,44 L70,44 L70,46 L58,46 L58,44 Z M0,32 L12,32 L12,34 L0,34 L0,32 Z M58,32 L70,32 L70,34 L58,34 L58,32 Z M0,20 L12,20 L12,22 L0,22 L0,20 Z M58,20 L70,20 L70,22 L58,22 L58,20 Z M0,8 L12,8 L12,10 L0,10 L0,8 Z' id='Rectangle-611' fill='%237289DA'/%3E%3Cpath d='M51,3.99706188 C51,0.684976062 52.8947487,-0.105251323 55.2418213,2.24182129 L68.7581787,15.7581787 C71.1008719,18.1008719 70.3133742,20 67.0029381,20 L54.0013869,20 C52.3437667,20 51,18.6569187 51,16.9986131 L51,3.99706188 Z' id='Path' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23filter-2)'/%3E%3Cpath d='M54,7 L54,14.5023733 C54,15.8817744 55.1096621,17 56.5,17 L59,17' id='Path-157' stroke-opacity='0.6' stroke='%23C9D2F0' stroke-width='2'/%3E%3Cpolygon id='Triangle-1' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' transform='translate(34.952351, 51.000068) rotate(-270.000000) translate(-34.952351, -51.000068) ' points='34.9522836 39.9524194 44.9522836 59.9524194 24.9522836 59.9524194 '/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     --metaicon-webcode-small: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns' width='28px' height='40px' viewBox='0 0 28 40' version='1.1'%3E%3C!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon-file-small-webcode%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='filter-1'%3E%3CfeOffset dx='-1' dy='2' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='0' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' type='matrix' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg id='Drag-&amp;-Drop' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cg id='Desktop-HD---Drag-&amp;-Drop,-Small-Icons---Dark' sketch:type='MSArtboardGroup' transform='translate(-436.000000, -524.000000)'%3E%3Cg id='Group' sketch:type='MSLayerGroup' transform='translate(404.000000, 526.000000)'%3E%3Cg id='icon-file-small-webcode' transform='translate(34.000000, 0.000000)'%3E%3Cg id='Group' stroke-width='2' sketch:type='MSShapeGroup'%3E%3Cpath d='M0,3.00741988 C0,1.34646775 1.34252415,0 2.99998588,0 L15.1166483,0 C17.0807354,0 24,6.91885725 24,8.87457593 L24,33.0035574 C24,34.6584469 22.6582294,36 21.0089096,36 L2.99109042,36 C1.33915679,36 0,34.6544607 0,32.9925801 L0,3.00741988 Z' id='Rectangle-113' stroke='%237289DA' fill='%23F4F6FC'/%3E%3Cpath d='M17,1.09677336 C17,0.542040316 17.3147964,0.407097791 17.7133118,0.80556379 L23.1952031,6.28677654 C23.5891543,6.68067898 23.4552279,7 22.9039575,7 L18.0045574,7 C17.4497557,7 17,6.54676916 17,5.99556698 L17,1.09677336 Z' id='Path' stroke='%237289DA' fill='%23F4F6FC' filter='url(%23filter-1)'/%3E%3Cpath d='M13,3 L4.49710104,3 C3.67027497,3 3,3.66579723 3,4.5 L3,6' id='Path-156' stroke='%23C9D2F0' stroke-linecap='round' stroke-linejoin='round' opacity='0.6'/%3E%3C/g%3E%3Ctext id='/&gt;' opacity='0.800000012' sketch:type='MSTextLayer' font-family='Source Code Pro' font-size='12' font-weight='420' sketch:alignment='middle' line-spacing='18' letter-spacing='-0.300000012' fill='%23697EC4'%3E%3Ctspan x='5.11901409' y='26.4705882'%3E/%3C/tspan%3E%3Ctspan x='12.0190141' y='26.4705882'%3E&gt;%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     --metaicon-webcode-large: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='130' viewBox='0 0 100 130'%3E%3Ctitle%3Eicon-file-large-webcode%3C/title%3E%3Cdefs%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='a'%3E%3CfeOffset dy='2' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='7' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='b'%3E%3CfeOffset dx='-1' dy='3' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 6.993C0 3.683 2.68 1 5.99 1h44.287C54.852 1 70 15.79 70 20.19v74.816c0 3.31-2.68 5.994-5.998 5.994H5.998C2.686 101 0 98.312 0 95.007V6.993z' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23a)' transform='translate(15 12)'/%3E%3Cpath d='M51 3.997c0-3.312 1.895-4.102 4.242-1.755l13.516 13.516C71.1 18.1 70.313 20 67.003 20H54c-1.656 0-3-1.343-3-3V3.996z' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23b)' transform='translate(15 12)'/%3E%3Cpath d='M61 17H22.985c-2.76 0-4.997 2.23-4.997 5.002V29' stroke='%23C9D2F0' stroke-width='2' opacity='.6'/%3E%3Cpath d='M69 19v7.502C69 27.882 70.11 29 71.5 29H74' stroke-opacity='.6' stroke='%23C9D2F0' stroke-width='2'/%3E%3Cpath d='M39.37 89.8h-2.58l9.84-26.1h2.58l-9.84 26.1zm25.06-13.68l-11.31 7.56v-2.79l8.76-5.79v-.12l-8.76-5.79V66.4l11.31 7.56v2.16z' opacity='.8' fill='%23697EC4'/%3E%3C/g%3E%3C/svg%3E");
+}
+:root {
+    --system-message-icon-join: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 0H0v18h18z'/%3E%3Cpath fill='%2343B581' d='M0 8h14.2l-3.6-3.6L12 3l6 6-6 6-1.4-1.4 3.6-3.6H0'/%3E%3C/g%3E%3C/svg%3E");
+    --system-message-icon-leave: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' version='1.1'%3E%3Cg fill='none' fill-rule='evenodd' stroke='none' stroke-width='1'%3E%3Cpath d='M18 0H0v18h18z'/%3E%3Cpath fill='%23F04747' d='M3.8 8l3.6-3.6L6 3 0 9l6 6 1.4-1.4L3.8 10H18V8'/%3E%3C/g%3E%3C/svg%3E");
+    --system-message-icon-call-start: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath fill='%2343B581' fill-rule='evenodd' d='M17.7163041 15.36645368c-.0190957.02699568-1.9039523 2.6680735-2.9957762 2.63320406-3.0676659-.09785935-6.6733809-3.07188394-9.15694343-5.548738C3.08002193 9.9740657.09772497 6.3791404 0 3.3061316v-.024746C0 2.2060575 2.61386252.3152347 2.64082114.2972376c.7110335-.4971705 1.4917101-.3149497 1.80959713.1372281.19320342.2744561 2.19712724 3.2811005 2.42290565 3.6489167.09884826.1608492.14714912.3554431.14714912.5702838 0 .2744561-.07975258.5770327-.23701117.8751101-.1527655.2902036-.65262318 1.1664385-.89862055 1.594995.2673396.3768148.94804468 1.26429792 2.351016 2.66357424 1.39173858 1.39027775 2.28923588 2.07641807 2.67002628 2.34187563.4302146-.2452108 1.3086162-.74238132 1.5972981-.89423205.5447887-.28682915 1.0907006-.31944893 1.4568885-.08661115.3459689.2182151 3.3383754 2.21027167 3.6225641 2.41611376.2695862.19234426.4144887.5399137.4144887.91672846 0 .2969525-.089862.61190215-.2808189.88523346'/%3E%3C/svg%3E");
+    --system-message-icon-call-ended: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h18v18H0z'/%3E%3Cpath fill='%2399AAB5' d='M3.2765961.00034226C6.344262.0982016 9.949977 3.0722262 12.43353953 5.54908026c2.48356254 2.47685405 5.4658595 6.07177934 5.56358447 9.14478814 0 1.1000741-2.61386252 2.9908969-2.64082114 3.008894-.7110335.4971705-1.4917101.3149497-1.80959713-.1372281-.19320342-.2744561-2.19712724-3.2811005-2.42290565-3.6489167-.09884826-.1608492-.14714912-.3554431-.14714912-.5702838 0-.2744561.07975258-.5770327.23701117-.8751101.1527655-.2902036.65262318-1.1664385.89862055-1.594995-.2673396-.3768148-.94804468-1.26429792-2.351016-2.66357424C8.3695281 6.8223767 7.4720308 6.1362364 7.0912404 5.87077883c-.4302146.2452108-1.3086162.74238132-1.5972981.89423205-.5447887.28682915-1.0907006.31944893-1.4568885.08661115C3.6910849 6.63340693.6986784 4.64135036.4144897 4.43550827.1449035 4.243164.000001 3.89559457.000001 3.5187798c0-.29695252.089862-.61190217.2808189-.88523348.0190957-.02699568 1.9039523-2.6680735 2.9957762-2.63320406z'/%3E%3C/g%3E%3C/svg%3E");
+    --system-message-icon-edit: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2399AAB5' d='M0 14.25V18h3.75L14.81 6.94l-3.75-3.75L0 14.25zM17.71 4.04c.39-.39.39-1.02 0-1.41L15.37.29c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z'/%3E%3Cpath d='M0 0h18v18H0'/%3E%3C/g%3E%3C/svg%3E");
+    --system-message-icon-bookmark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M7.970563-6.99999975L24.94112575 9.970563 7.970563 26.94112575-8.99999975 9.970563'/%3E%3Cpath fill='%2399AAB5' d='M7.970563 12.79899012l6.36396103-6.36396103-2.82842712-2.82842716L5.1421359 9.970563l-.3599137-.3599137c-.18605725-.18605725-.5054843-.18890185-.70074648.0063603-.18955157.18955158-.19810974.50899704-.0063603.7007465l3.5482545 3.5482545c.18605727.18605725.50548433.18890186.7007465-.0063603.18955156-.18955157.19810974-.50899704.0063603-.7007465l-.3599137-.35991368zm7.7781746-4.94974746l.70710677.70710678 1.41421357-1.41421356L10.79899012.07106806 9.38477656 1.48528163l.70710678.70710678L4.4350291 7.8492427H1.60660196L.1923884 9.26345622l3.67695527 3.67695526-2.82842713 2.82842713 1.13137086 1.1313709 2.8284271-2.82842713 3.67695526 3.67695526 1.41421356-1.41421356V13.5060969l5.65685425-5.65685424z'/%3E%3C/g%3E%3C/svg%3E");
 }
 :root {
     --radius-none: 0px;

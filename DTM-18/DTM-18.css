@@ -642,7 +642,7 @@
     line-height: 32px;
     margin-bottom: 8px;
 }
-.characterBackground__2820f .title__0a681 + .text-md-normal__6a4eb {
+.characterBackground__2820f .title__0a681 + .text-md-normal__4afad {
     color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%) !important;
     font-size: 18px;
     font-weight: 400;
@@ -5153,7 +5153,7 @@ foreignObject[mask*="offline"] .status__1c26d {
     color: var(--interactive-active);
     border-color: var(--interactive-active);
 }
-.searchResultsWrap__9f374 .totalResults__695d3 .text-md-normal__6a4eb {
+.searchResultsWrap__9f374 .totalResults__695d3 .text-md-normal__4afad {
     font-weight: 500;
     font-size: 14px;
     color: var(--text-muted) !important;
@@ -9919,8 +9919,8 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
     background-repeat: no-repeat;
 }
 
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324 .text-md-normal__6a4eb,
-.premiumContainer__2ebd0 .tier0__2e127 .item__4b324 .text-md-normal__6a4eb {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324 .text-md-normal__4afad,
+.premiumContainer__2ebd0 .tier0__2e127 .item__4b324 .text-md-normal__4afad {
     display: flex;
     flex-direction: column;
     font-size: 0;
@@ -9928,15 +9928,15 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
     width: 68%;
     color: var(--header-primary) !important;
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324 .text-md-normal__6a4eb:before,
-.premiumContainer__2ebd0 .tier0__2e127 .item__4b324 .text-md-normal__6a4eb:before {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324 .text-md-normal__4afad:before,
+.premiumContainer__2ebd0 .tier0__2e127 .item__4b324 .text-md-normal__4afad:before {
     font-size: 28px;
     font-weight: 600;
     line-height: 39px;
     margin-top: 8px;
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324 .text-md-normal__6a4eb:after,
-.premiumContainer__2ebd0 .tier0__2e127 .item__4b324 .text-md-normal__6a4eb:after {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324 .text-md-normal__4afad:after,
+.premiumContainer__2ebd0 .tier0__2e127 .item__4b324 .text-md-normal__4afad:after {
     font-size: 16px;
     line-height: 1.5;
     margin-top: 8px;
@@ -9957,34 +9957,34 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 .premiumContainer__2ebd0 .tier0__2e127 .wumpusImageContainer__5990c {
     animation: 70s nitroContent5 ease infinite !important;
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(6) .text-md-normal__6a4eb:before {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(6) .text-md-normal__4afad:before {
     content: "Nitro now has games";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(6) .text-md-normal__6a4eb:after {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(6) .text-md-normal__4afad:after {
     content: "For a low monthly cost, get unlimited access to a library of in-app games that we think you and your friends should play.";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(5) .text-md-normal__6a4eb:before {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(5) .text-md-normal__4afad:before {
     content: "Putt Party";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(5) .text-md-normal__6a4eb:after {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(5) .text-md-normal__4afad:after {
     content: "Putt Party puts you head-to-head with up to seven other players and keeps you on your toes with special power-ups. It's golf like you've never seen before!";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(4) .text-md-normal__6a4eb:before {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(4) .text-md-normal__4afad:before {
     content: "Sketch Heads";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(4) .text-md-normal__6a4eb:after {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(4) .text-md-normal__4afad:after {
     content: "What am I drawing? One player sketches an image while other players compete to guess what it is first.";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(3) .text-md-normal__6a4eb:before {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(3) .text-md-normal__4afad:before {
     content: "Chess In The Park";
 }
-.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(3) .text-md-normal__6a4eb:after {
+.premiumContainer__2ebd0 .tier2__1364f .item__4b324:nth-last-child(3) .text-md-normal__4afad:after {
     content: "The classic board game available right through Discord. Play head to head against others and take down their king before they get yours.";
 }
-.premiumContainer__2ebd0 .tier0__2e127  .item__4b324:nth-child(3) .text-md-normal__6a4eb:before {
+.premiumContainer__2ebd0 .tier0__2e127  .item__4b324:nth-child(3) .text-md-normal__4afad:before {
     content: "Don't need games?";
 }
-.premiumContainer__2ebd0 .tier0__2e127  .item__4b324:nth-child(3) .text-md-normal__6a4eb:after {
+.premiumContainer__2ebd0 .tier0__2e127  .item__4b324:nth-child(3) .text-md-normal__4afad:after {
     content: "Subscribe to Nitro Basic, a smaller plan with larger file uploads and custom emoji anywhere.";
 }
 
@@ -11213,13 +11213,13 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 #my-account-tab .field__9e8e2 .h5__884a2 {
     color: var(--text-muted);
 }
-#my-account-tab .field__9e8e2.text-md-normal__6a4eb:nth-child(1) {
+#my-account-tab .field__9e8e2.text-md-normal__4afad:nth-child(1) {
     color: var(--text-normal) !important;
 }
-#my-account-tab .usernameInnerRow__7f209 .text-md-normal__6a4eb:nth-child(2) {
+#my-account-tab .usernameInnerRow__7f209 .text-md-normal__4afad:nth-child(2) {
     color: var(--text-muted) !important;
 }
-#my-account-tab .usernameInnerRow__7f209:not(:has(:nth-child(2))) .text-md-normal__6a4eb:before {
+#my-account-tab .usernameInnerRow__7f209:not(:has(:nth-child(2))) .text-md-normal__4afad:before {
     content: "@";
     color: var(--text-muted);
 }

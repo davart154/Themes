@@ -8586,7 +8586,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     content: "Add:";
 }
 
-/*User Popout Profile Skins*/
 .userPopoutOuter_d739b2 {
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%), 0 0 0 1px rgb(32 34 37 / 60%);
 }
@@ -8915,16 +8914,19 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 /*Username*/
 .section__6f61e:is(.usernameSection__53868,.customStatusSection_ce6c27) {
     background: var(--play);
+    justify-content: center;
 }
 .usernameSection__53868 > div:not([class]) {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.userPopoutOuter_d739b2 .userText__3e8b7 {
+.userText__3e8b7 {
     word-break: break-word;
     white-space: normal;
     text-align: center;
+    width: fit-content;
+    margin: auto;
 }
 .userPopoutOuter_d739b2 .userTagNoNickname__6b0db,
 .nickname__3d1d7 {
@@ -8950,10 +8952,6 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 }
 
 /*Active on Mobile*/
-.userText__3e8b7 {
-    width: fit-content;
-    margin: auto;
-}
 .userPopoutOuter_d739b2:has(.wrapper_edb6e0:is([aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"])) .nickname__3d1d7:after {
     content: "";
     display: inline-block;

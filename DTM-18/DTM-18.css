@@ -7,44 +7,6 @@
 * @source https://github.com/davart154/DTM-18
 */
 
-/*Easter Eggs
-   - Move These Somewhere else
-*/
-@keyframes egg_zereZoomHide {
-    4%, 96% {
-        transform: scale(0.75);
-        opacity: 0;
-    }
-}
-@keyframes egg_zereZoomShow {
-    0%, 5%, 95%, 100% {
-        transform: scale(0.75);
-        opacity: 0;
-    }
-    7%, 93% {
-        transform: none;
-        opacity: 1;
-    }
-}
-.layerContainer_d5a653:has(.error__90447 + .input__0c269 .input_d266e7[value="zere zoom"]) .focusLock__10aa5 {
-    animation: egg_zereZoomHide 4s;
-}
-.layerContainer_d5a653:has(.error__90447 + .input__0c269 .input_d266e7[value="zere zoom"]) .layer_ad604d:after {
-    animation: egg_zereZoomShow 4s;
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    background: url('https://cdn.discordapp.com/emojis/477563686765068359.webp?size=96&quality=lossless');
-    background-repeat: no-repeat;
-    background-size: 384px 384px;
-    background-position: center;
-    opacity: 0;
-}
-
 /*.preview-QJ3OG3:after {
     background: url(https://cdn.discordapp.com/attachments/1127830821903007776/1127830873350352937/luigi_dance.gif);
     background-size: 100% 173px;
@@ -13615,17 +13577,6 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter-2wdWjU .topSection-13QKHs
 .upsellButtonsContainer__5873b .lookInverted_ee4261:hover, .content__73f32 .lookInverted_ee4261:hover, .content__73f32 .colorWhite__43488:hover {
     background-color: var(--brand-experiment-530);
 }
-/*Shop Upsell*/.shopArt__2bac7 {
-    border-radius: 0;
-    height: 120px;
-    background: #0004;
-}
-.logo__784f8 {
-    display: none;
-}
-.avatar3_d276d3 {
-    left: 30%;
-}
 
 /*Badge*/
 .base__92a12:not(.iconBadge__2abac), .newBadge__68cd2 {
@@ -13718,6 +13669,42 @@ mask > use[href$="lower_badge_masks"] {
 }
 .textBadge__45d79.base__92a12.live_b195a5:after {
     display: none;
+}
+
+/*Easter Eggs*/
+@keyframes egg_zereZoomHide {
+    4%, 96% {
+        transform: scale(0.75);
+        opacity: 0;
+    }
+}
+@keyframes egg_zereZoomShow {
+    0%, 5%, 95%, 100% {
+        transform: scale(0.75);
+        opacity: 0;
+    }
+    7%, 93% {
+        transform: none;
+        opacity: 1;
+    }
+}
+.layerContainer_d5a653:has(.error__90447 + .input__0c269 .input_d266e7[value="zere zoom"]) .focusLock__10aa5 {
+    animation: egg_zereZoomHide 4s;
+}
+.layerContainer_d5a653:has(.error__90447 + .input__0c269 .input_d266e7[value="zere zoom"]) .layer_ad604d:after {
+    animation: egg_zereZoomShow 4s;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: url('https://cdn.discordapp.com/emojis/477563686765068359.webp?size=96&quality=lossless');
+    background-repeat: no-repeat;
+    background-size: 384px 384px;
+    background-position: center;
+    opacity: 0;
 }
 
 /*Emoji*/

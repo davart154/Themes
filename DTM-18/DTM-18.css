@@ -3124,6 +3124,9 @@ button.button__4f306.enabled__470f0:hover {
 .childWrapper__13f3d + div {
     display: none;
 }
+.accountProfilePopoutWrapper_af829a .section__6f61e.usernameSection__53868 {
+    justify-content: unset;
+}
 .accountProfilePopoutWrapper_af829a .section__6f61e.usernameSection__53868 .userText__3e8b7 {
     text-align: unset;
     margin: unset;

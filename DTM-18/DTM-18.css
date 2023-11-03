@@ -8759,11 +8759,11 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 }
 
 /*Header Text*/
-.eyebrow_e5a66c {
+.eyebrow_f53856 {
     color: var(--header-secondary) !important;
     font-weight: 700;
 }
-.section__6f61e:has(.markup_a7e664, .memberSinceContainer__0a28b) .eyebrow_e5a66c,
+.section__6f61e:has(.markup_a7e664, .memberSinceContainer__0a28b) .eyebrow_f53856,
 .activity__20c1e .overflow__87fe8 {
     color: var(--play-secondary-alt) !important;
 }

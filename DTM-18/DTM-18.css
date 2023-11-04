@@ -9197,8 +9197,11 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 .userPopoutOuter_d739b2:has([style*="/app-icons/1007373802981822582/"]) {
     --play: var(--garticphone);
 }
-[style*="/app-icons/1037680572660727838/"] {
+.userPopoutOuter_d739b2:has([style*="/app-icons/1037680572660727838/"]) {
     --play: var(--chefshowdown);
+}
+.userPopoutOuter_d739b2:has([style*="/app-icons/1011683823555199066/"]) {
+    --play: var(--krunker);
 }
 
 .scroller__83262::-webkit-scrollbar {
@@ -14624,7 +14627,8 @@ html,[data-popout-root] {
     --puttparty: hsl(253,calc(var(--saturation-factor, 1)*72.5%),27.1%);
     --pokernight: hsl(228,calc(var(--saturation-factor, 1)*39.9%),32%);
     --garticphone: hsl(308,calc(var(--saturation-factor, 1)*67.5%),38.6%);
-    --chefshowdown: ;
+    --chefshowdown: hsl(335,calc(var(--saturation-factor, 1)*37.9%),17.1%);
+    --krunker: hsl(198,calc(var(--saturation-factor, 1)*100%),39.8%);
 }
 :root {
     --blurpledot-15a: url("data:image/svg+xml,%3Csvg fill='rgb(114, 137, 218, 0.15)' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M12 2C6.486 2 2 6.487 2 12 2 17.515 6.486 22 12 22 17.514 22 22 17.515 22 12 22 6.487 17.514 2 12 2Z'/%3E%3C/svg%3E");

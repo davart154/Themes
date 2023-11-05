@@ -8464,15 +8464,15 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0 {
     background: var(--play);
     min-height: var(--custom-user-banner-banner-height-popout) !important;
-    border-bottom: calc(var(--user-popout-banner-container) - var(--custom-user-banner-banner-height-popout)) solid transparent;
+    border-bottom: calc(var(--custom-user-banner-container-height-popout) - var(--custom-user-banner-banner-height-popout)) solid transparent;
 }
 .userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0[viewBox="0 0 340 90"] {
     min-height: var(--custom-user-banner-premium-banner-height-no-banner-image-popout) !important;
-    border-bottom-width: calc(var(--user-popout-banner-container) - var(--custom-user-banner-premium-banner-height-no-banner-image-popout));
+    border-bottom-width: calc(var(--custom-user-banner-container-height-popout) - var(--custom-user-banner-premium-banner-height-no-banner-image-popout));
 }
 .userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0[viewBox="0 0 340 120"] {
     min-height: var(--custom-user-banner-premium-wrapper-height-popout) !important;
-    border: calc(var(--user-popout-banner-container) - var(--custom-user-banner-premium-wrapper-height-popout));
+    border: calc(var(--custom-user-banner-container-height-popout) - var(--custom-user-banner-premium-wrapper-height-popout));
 }
 .userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0 foreignObject {
     mask: none;

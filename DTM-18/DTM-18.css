@@ -6653,13 +6653,12 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   right: 6px;
 }
 
-/*Uploading File*/
-.metadata__541c7 {
-    color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
-    margin-right: 8px;
-}
-.progress-24WBU3 {
+/*File Attatchments*/
+.progress_b93712 {
     background-color: rgb(233, 231, 231) !important;
+}
+.progressBar__47525 {
+    background-color: var(--brand-experiment) !important;
 }
 .cancelButton_f76160 {
     color: #4f545c;
@@ -6667,7 +6666,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .cancelButton_f76160:hover {
     color: rgba(114,118,125,.6);
 }
-/*File Attatchments*/
 .theme-dark .wrapperAudio__555ce {
     background-color: rgba(47,49,54,.3);
     border-color: rgba(47,49,54,.6);

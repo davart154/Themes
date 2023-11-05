@@ -9161,49 +9161,49 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 .userPopoutOuter_d739b2:has([alt="Crunchyroll"]) {
     --play: var(--crunchyroll);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/880218394199220334/881026601624694814.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/880218394199220334/881026601624694814.png"],[style*="app-icons/880218394199220334"]) {
     --play: var(--youtube);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/832013003968348200/904775325026750464.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/832013003968348200/904775325026750464.png"]) {
     --play: var(--checkers);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/879863686565621790/933441342128918588.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/879863686565621790/933441342128918588.png"]) {
     --play: var(--letterleague);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/852509694341283871/897822164445700166.png"],[style*="app-icons/852509694341283871"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/852509694341283871/897822164445700166.png"],[style*="app-icons/852509694341283871"]) {
     --play: var(--spellcast);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/903769130790969345/1134198364146249828.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/903769130790969345/1134198364146249828.png"]) {
     --play: var(--landio);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/947957217959759964/978404196254642176.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/947957217959759964/978404196254642176.png"]) {
     --play: var(--bobbleleague);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/1078728822972764312/1078737439792832682.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/1078728822972764312/1078737439792832682.png"]) {
     --play: var(--knowwhatimeme);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/832025144389533716/930194685023121459.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/832025144389533716/930194685023121459.png"]) {
     --play: var(--blazing8s);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/832012774040141894/853007059326992414.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/832012774040141894/853007059326992414.png"]) {
     --play: var(--chess);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/1070087967294631976/1096553638022885476.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/1070087967294631976/1096553638022885476.png"]) {
     --play: var(--whiteboard);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/945737671223947305/956618438208536628.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/945737671223947305/956618438208536628.png"]) {
     --play: var(--puttparty);
 }
-.userPopoutOuter_d739b2:has([src*="/app-assets/755827207812677713/839608726894018561.png"]) {
+.userPopoutOuter_d739b2:has([src*="app-assets/755827207812677713/839608726894018561.png"]) {
     --play: var(--pokernight);
 }
-.userPopoutOuter_d739b2:has([style*="/app-icons/1007373802981822582/"]) {
+.userPopoutOuter_d739b2:has([style*="app-icons/1007373802981822582"]) {
     --play: var(--garticphone);
 }
-.userPopoutOuter_d739b2:has([style*="/app-icons/1037680572660727838/"]) {
+.userPopoutOuter_d739b2:has([style*="app-icons/1037680572660727838"]) {
     --play: var(--chefshowdown);
 }
-.userPopoutOuter_d739b2:has([style*="/app-icons/1011683823555199066/"]) {
+.userPopoutOuter_d739b2:has([style*="app-icons/1011683823555199066"]) {
     --play: var(--krunker);
 }
 

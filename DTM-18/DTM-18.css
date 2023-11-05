@@ -2144,7 +2144,7 @@ img.icon__0cbed, .icon_c48348 {
 }
 
 /*Server/Channel Notice*/
-.channelNotice__8f7b2 {
+.channelNotice_bbc8e6, .channelNotice__8f7b2 {
     position: relative;
     margin: 0;
     padding: 10px 20px 20px;
@@ -2152,7 +2152,7 @@ img.icon__0cbed, .icon_c48348 {
     box-shadow: inset 0 -1px 3px rgba(0,0,0,.1);
     border: 0;
 }
-.closeIcon_d6e2f6, .close-3lLvLs {
+.closeIcon_d6e2f6, .close_bca307 {
     cursor: pointer;
     height: 18px;
     opacity: .3;
@@ -2165,7 +2165,7 @@ img.icon__0cbed, .icon_c48348 {
 .liveIndicator_e64478 {
     background-color: var(--status-positive);
 }
-.channelNotice__8f7b2 button {
+div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button {
     background-color: #36393f !important;
     border: 1px solid rgba(0,0,0,.6);
     border-radius: var(--radius-xxs);
@@ -2176,13 +2176,13 @@ img.icon__0cbed, .icon_c48348 {
     padding: 8px 0;
     transition: none;
 }
-.channelNotice__8f7b2 button:active {
+div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
     background-color: #313339 !important;
 }
-.theme-light .channelNotice__8f7b2 button {
+.theme-light div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button {
     background-color: var(--background-secondary) !important;
 }
-.theme-light .channelNotice__8f7b2 button:active {
+.theme-light div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
     background-color: var(--background-tertiary) !important;
 }
 

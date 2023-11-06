@@ -8989,6 +8989,9 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
     border-top: 1px solid rgba(185, 187, 190, 0.3);
     flex-direction: column;
 }
+.addFriendSection__413d3:empty {
+    display: none;
+}
 .theme-dark .addFriendSection__413d3 {
     border-color: rgba(32, 34, 37, 0.3);
 }

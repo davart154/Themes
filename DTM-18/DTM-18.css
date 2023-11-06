@@ -8952,7 +8952,7 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
     border-top: 1px solid rgba(185, 187, 190, 0.3);
     color: rgba(79, 84, 92, 0.8);
 }
-.section__76155 {
+.theme-dark .section__76155 {
     background-color: var(--background-secondary);
     border-color: rgba(32, 34, 37, 0.3);
 }
@@ -8972,16 +8972,44 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 }
 .userProfileOuterThemed__6eb84 .section__76155 {
     background: none;
-    border-color: var(--profile-body-background-color);
+    border-color: var(--profile-body-background-hover);
 }
 .userProfileOuterThemed__6eb84 .section__76155 .messageInputContainer__768e6 {
-    background: var(--profile-body-background-color);
-    border-color: var(--profile-body-background-color);
+    background: var(--profile-body-background-hover);
+    border-color: var(--profile-body-background-hover);
 }
 .section__76155 .inputDefault__80165 {
     padding: 8px;
     height: unset;
 }
+
+.addFriendSection__413d3 {
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid rgba(185, 187, 190, 0.3);
+    flex-direction: column;
+}
+.theme-dark .addFriendSection__413d3 {
+    border-color: rgba(32, 34, 37, 0.3);
+}
+.userProfileOuterThemed__6eb84 .addFriendSection__413d3 {
+    border-color: var(--profile-body-background-hover);
+}
+.addFriendSection__413d3 button {
+    width: 100%;
+    background-color: #36393f !important;
+    border: 1px solid #23262a;
+    color: var(--header-secondary) !important;
+}
+.theme-light .addFriendSection__413d3 button {
+    background-color: #fbfbfb !important;
+    border-color: #dcddde;
+}
+.userProfileOuterThemed__6eb84 .addFriendSection__413d3 button {
+    background-color: var(--profile-body-background-hover) !important;
+    border-color: var(--profile-body-background-hover);
+}
+
 .wumpusWrapper__243d1 {
     position: unset;
     height: 20px;

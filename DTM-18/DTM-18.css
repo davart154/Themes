@@ -8794,6 +8794,14 @@ div:is(.userPopoutOuter_d739b2, .userProfileModalOuter__3fe6b .topSection-13QKHs
 .section__6f61e .markup_a7e664 code {
     background: rgba(0,0,0,.1);
 }
+.userPopoutOuter_d739b2:has(.activity__20c1e) .wrapper_f46140 {
+    color: #fff;
+    background-color: rgba(255 255 255 / 0.1);
+}
+.userPopoutOuter_d739b2:has(.activity__20c1e) .wrapper_f46140:hover {
+    color: var(--brand-experiment);
+    background-color: #fff;
+}
 
 .memberSinceContainer__0a28b .discordIcon_feeef1 {
     color: var(--play-primary);

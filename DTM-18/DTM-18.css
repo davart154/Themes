@@ -8432,6 +8432,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     mask: none;
 }
 .userPopoutOuter_d739b2 .banner__6d414 {
+    position: relative;
     width: 250px;
     -webkit-mask-image: linear-gradient(0deg, transparent 0%, black 100%);
 }

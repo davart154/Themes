@@ -12573,6 +12573,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 }
 .bd-addon-list .bd-switch {
     height: 24px;
+    margin-top: 0;
 }
 .bd-addon-list .bd-switch input {
     position: unset;

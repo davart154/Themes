@@ -8560,7 +8560,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     border: 2px solid #ffffff4d;
     border-radius: var(--radius-round);
     background-color: var(--brand-experiment);
-    background-image: var(--colorblind-status);
     --colorblind-status: var(--colorblind-unknown);
     background-size: 12px;
     background-position: 1px 1px;

@@ -8559,7 +8559,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     border-radius: var(--radius-round);
     background-color: var(--brand-experiment);
     background-image: var(--colorblind-unknown);
-    background-size: 12px;
+    background-size: calc(var(--colorblind-status) * 12px);
     background-position: 1px 1px;
     background-repeat: no-repeat;
     transition: background .4s ease;

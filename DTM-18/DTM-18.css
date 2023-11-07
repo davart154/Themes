@@ -10965,66 +10965,67 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 
 /*bd On Off Toggle*/
 .bd-switch {
-  margin-right: 40px;
+    margin-right: 40px;
+    margin-top: -16px;
 }
 .bd-switch .bd-switch-body {
-  display: none;
+    display: none;
 }
 .bd-switch input[type=checkbox] {
-  opacity: 1;
-  width: 0;
-  background: #0000 !important;
+    opacity: 1;
+    width: 0;
+    background: #0000 !important;
 }
 .bd-switch input[type=checkbox]:before, .bd-switch input[type=checkbox]:after {
-  transition: 0.1s;
-  content: "";
-  display: block;
-  border-radius: 50px;
+    transition: 0.1s;
+    content: "";
+    display: block;
+    border-radius: 50px;
 }
 .bd-switch input[type=checkbox]:before {
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
-  width: 42px;
-  height: 24px;
-  background: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
-  margin-top: -3px;
-  margin-left: -6px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.15);
+    width: 42px;
+    height: 24px;
+    background: hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
+    margin-top: -3px;
+    margin-left: -6px;
 }
 .bd-switch input[type=checkbox]:hover:before {
-  background: #80848A;
+    background: #80848A;
 }
 .bd-switch input[type=checkbox]:after {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  top: 0px;
-  left: -3px;
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0px;
+    left: -3px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .bd-switch input[type=checkbox]:checked:before {
-  background: var(--brand-experiment);
+    background: var(--brand-experiment);
 }
 .bd-switch input[type=checkbox]:checked:hover:before {
-  background: #8095DE;
+    background: #8095DE;
 }
 .bd-switch input[type=checkbox]:checked:after {
-  transform: translate3d(18px, 0, 0);
+    transform: translate3d(18px, 0, 0);
 }
 .bd-switch input[type=checkbox]:active:before {
-  background: #676a71;
+    background: #676a71;
 }
 .bd-switch input[type=checkbox]:active:after {
-  width: 26px;
+    width: 26px;
 }
 .bd-switch input[type=checkbox]:checked:active:before {
-  background: #6a7dc1;
+    background: #6a7dc1;
 }
 .bd-switch input[type=checkbox]:checked:active:after {
-  left: -11px;
-  width: 26px;
+    left: -11px;
+    width: 26px;
 }
 .bd-switch input[type=checkbox] svg {
-  display: none;
+    display: none;
 }
 
 /*Individual Settings Pages*/
@@ -12617,6 +12618,12 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 }
 .bd-controls>.bd-addon-button:last-of-type {
     border-radius: 0 7px 7px 0;
+}
+.bd-setting-header label[for] + .bd-switch {
+    margin-top: -16px;
+}
+.bd-link:not([href*=":"]) path {
+    d: path("M26.8784 30.5547 26.8784 30.7354ZM16.7604 19.0633C16.7604 19.0633 16.1434 18.3409 15.6302 17.7007 17.8727 17.0783 18.7293 15.6996 18.7293 15.6996 18.0283 16.1538 17.3594 16.4739 16.7604 16.6921 15.9038 17.0462 15.083 17.2804 14.2783 17.4145 12.6348 17.7185 11.1273 17.6345 9.8433 17.3984 8.867 17.2143 8.0283 16.9442 7.3273 16.676 6.9338 16.524 6.5046 16.3398 6.0773 16.1037 6.0254 16.0698 5.9735 16.0537 5.9235 16.0197 5.8895 16.0018 5.8716 15.9857 5.8537 15.9696 5.5461 15.8015 5.3745 15.6835 5.3745 15.6835 5.3745 15.6835 6.1971 17.0283 8.3716 17.6685 7.8584 18.3069 7.2235 19.0633 7.2235 19.0633 3.4396 18.9453 2.0018 16.5079 2.0018 16.5079 2.0018 11.0912 4.4678 6.7028 4.4678 6.7028 6.9338 4.8859 9.2783 4.936 9.2783 4.936L9.4499 5.1381C6.3687 6.0125 4.9471 7.3412 4.9471 7.3412 4.9471 7.3412 5.3244 7.1391 5.9574 6.853 7.7886 6.0626 9.2443 5.8444 9.8433 5.7944 9.9471 5.7765 10.0329 5.7604 10.1348 5.7604 11.1792 5.6263 12.3612 5.5923 13.5933 5.7264 15.2189 5.9124 16.966 6.3827 18.7471 7.3412 18.7471 7.3412 17.3934 6.0805 14.4839 5.206L14.7235 4.936C14.7235 4.936 17.068 4.8859 19.534 6.7028 19.534 6.7028 22 11.0912 22 16.5079 22 16.5079 20.5443 18.9453 16.7604 19.0633ZM8.799 11.2092C7.8226 11.2092 7.0536 12.0497 7.0536 13.0762 7.0536 14.1027 7.8405 14.9432 8.799 14.9432 9.7754 14.9432 10.5461 14.1027 10.5461 13.0762 10.5622 12.0497 9.7754 11.2092 8.799 11.2092M15.049 11.2092C14.0726 11.2092 13.3019 12.0497 13.3019 13.0762 13.3019 14.1027 14.0905 14.9432 15.049 14.9432 16.0236 14.9432 16.7943 14.1027 16.7943 13.0762 16.7943 12.0497 16.0236 11.2092 15.049 11.2092");
 }
 
 /*Vencord*/

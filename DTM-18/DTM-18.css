@@ -2336,7 +2336,6 @@ div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
     bottom: -4px;
     width: 10px;
     height: 10px;
-    background-image: var(--colorblind-status);
     border-radius: 10px;
     border: 2px solid var(--background-secondary);
     transition: background .2s ease, width .2s ease, right .2s ease;
@@ -3131,8 +3130,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 .status__1c26d {
     border-radius: var(--radius-round);
-    background-image: var(--colorblind-status);
-    background-size: 12px;
+    background-size: calc(var(--colorblind-status) * 12px);
     background-repeat: no-repeat;
 }
 foreignObject[mask*="online"] .status__1c26d {

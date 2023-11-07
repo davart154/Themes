@@ -14744,6 +14744,7 @@ html,[data-popout-root] {
     --custom-folder-item-guild-icon-margin: 0;
 }
 :root {
+    --colorblind-status: 1;
     --colorblind-streaming: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon fill='%23bdafd5' points='3 1.5 3 8.5 8.5 5'/%3E%3C/svg%3E");
     --colorblind-unknown: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23f6f6f7' d='M2.6 3.3071C2.6 3.7026 2.9287 4.0322 3.3232 4.0322 3.7178 4.0322 4.0465 3.7026 4.0465 3.3071 4.0465 2.516 4.9013 2.4831 5 2.4831 5.0986 2.4831 5.9533 2.516 5.9533 3.3071V3.4718C5.9533 3.8014 5.789 4.0651 5.4932 4.23L4.8356 4.5924C4.4739 4.7902 4.2767 5.1527 4.2767 5.5482V6.1415C4.2767 6.537 4.6055 6.8666 5 6.8666 5.3945 6.8666 5.7233 6.537 5.7233 6.1415V5.779L6.1835 5.5482C6.9397 5.1527 7.4 4.3618 7.4 3.5048V3.3071C7.4 1.7909 6.1835 1 5 1 3.7835 1 2.6 1.7909 2.6 3.3071ZM5 7.4C3.9332 7.4 3.9332 9 5 9 6.0666 9 6.0666 7.4 5 7.4Z'/%3E%3C/svg%3E");
 }

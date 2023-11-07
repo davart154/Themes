@@ -2840,7 +2840,6 @@ div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
     bottom: -4px;
     width: 10px;
     height: 10px;
-    background-image: var(--colorblind-status);
     border-radius: var(--radius-round);
     border: 2px solid var(--background-secondary-alt);
     transition: background .4s ease;
@@ -8268,7 +8267,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
     bottom: -4px;
     width: 10px;
     height: 10px;
-    background-image: var(--colorblind-status);
     border-radius: 10px;
     border: 2px solid var(--background-secondary);
     transition: background .2s ease, width .2s ease, right .2s ease;
@@ -13335,6 +13333,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 }
 .wrapper_edb6e0:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]):before {
     background-color: var(--status-positive);
+    --colorblind-status: unset;
 }
 .wrapper_edb6e0:is([aria-label$="Streamer"],[aria-label$="Streamt"],[aria-label$="Streaming"],[aria-label$="Transmitiendo"],[aria-label$="En direct"],[aria-label$="Streaming"],[aria-label$="In diretta"],[aria-label$="Transliuojama"],[aria-label$="Közvetítés"],[aria-label$="Streamt"],[aria-label$="Strømmer"],[aria-label$="Streamowanie"],[aria-label$="Transmitindo"],[aria-label$="Transmite live"],[aria-label$="Striimaa"],[aria-label$="Streamar"],[aria-label$="Đang stream"],[aria-label$="Yayın Yapıyor"],[aria-label$="Streamuje"],[aria-label$="Ζωντανά"],[aria-label$="Стрийминг"],[aria-label$="Стримит"],[aria-label$="Трансляція"],[aria-label$="स्ट्रीम हो रहा है"],[aria-label$="ถ่ายทอดสด"],[aria-label$="正在直播"],[aria-label$="配信"],[aria-label$="直播中"],[aria-label$="방송 중"]):before {
     background-color: var(--twitch);

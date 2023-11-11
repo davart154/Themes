@@ -7,7 +7,7 @@
 * @source https://github.com/davart154/DTM-18
 */
 .info__755e1:before {
-  content: "DTM-18 Public V246 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
+  content: "DTM-18 Public V247 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -5661,6 +5661,29 @@ foreignObject[mask*="offline"] .status__1c26d {
 /*Regular Text Channel*/
 .scrollerContent_c73942 {
   min-height: unset;
+}
+.wrapper__3d460 {
+  width: 32px;
+  margin: 4px auto;
+}
+.wrapper__3d460:nth-last-child(2) {
+  height: 48px !important;
+}
+.wrapper__3d460>* {
+  display: none;
+}
+.wrapper__3d460:before, .wrapper__3d460:after {
+  content: "";
+  position: absolute;
+  animation: spinner-wandering-cubes-replica 1.8s infinite ease-in-out;
+  background-color: var(--brand-experiment);
+  height: 10px;
+  left: 0;
+  bottom: 32px;
+  width: 10px;
+}
+.wrapper__3d460:after {
+  animation-delay: -.9s;
 }
 
 /*Group Spacing*/

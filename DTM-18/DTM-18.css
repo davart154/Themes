@@ -6,6 +6,16 @@
 * @authorId 490604571824226306
 * @source https://github.com/davart154/DTM-18
 */
+.info__755e1:before {
+  content: "DTM-18 Public V246 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
+  white-space: pre-wrap;
+  color: var(--text-muted);
+  text-transform: none;
+  font-family: var(--font-primary);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
 
 /*.preview-QJ3OG3:after {
   background: url(https://cdn.discordapp.com/attachments/1127830821903007776/1127830873350352937/luigi_dance.gif);

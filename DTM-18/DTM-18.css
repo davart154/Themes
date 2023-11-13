@@ -12060,7 +12060,10 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 }
 
 /*BD*/
-/*Error Modal*/
+/*Modal*/
+.bd-addon-modal .bd-setting-item:last-child > .bd-setting-divider {
+    display: none;
+}
 .bd-error-modal-header {
   padding: 0;
   z-index: 1;

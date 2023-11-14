@@ -5665,7 +5665,7 @@ foreignObject[mask*="offline"] .status__1c26d {
 .wrapper__3d460:before, .wrapper__3d460:after {
   content: "";
   position: absolute;
-  animation: spinner-wandering-cubes-replica 1.8s infinite ease-in-out;
+  animation: spinner-wandering-cubes 1.8s infinite ease-in-out;
   background-color: var(--brand-experiment);
   height: 10px;
   left: 0;
@@ -5674,23 +5674,6 @@ foreignObject[mask*="offline"] .status__1c26d {
 }
 .wrapper__3d460:after {
   animation-delay: -.9s;
-}
-
-/*Group Spacing*/
-.group-spacing-0 {
-  --f-msg-spacing: 20px;
-}
-.group-spacing-4 {
-  --f-msg-spacing: 25px;
-}
-.group-spacing-8 {
-  --f-msg-spacing: 30px;
-}
-.group-spacing-16 {
-  --f-msg-spacing: 40px;
-}
-.group-spacing-24 {
-  --f-msg-spacing: 50px;
 }
 
 /*First Message*/
@@ -6135,7 +6118,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 .imageLoadingOverlay_fbe6d9:before, .imageLoadingOverlay_fbe6d9:after {
   content: "";
   position: absolute;
-  animation: spinner-wandering-cubes-replica 1.8s infinite ease-in-out;
+  animation: spinner-wandering-cubes 1.8s infinite ease-in-out;
   background-color: var(--brand-experiment);
   height: 10px;
   left: 0;
@@ -12738,7 +12721,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
     transform: translateY(-100vh);
   }
 }
-@keyframes spinner-wandering-cubes-replica {
+@keyframes spinner-wandering-cubes {
   25% {
     -webkit-transform: translateX(22px) rotate(-90deg) scale(.5);
     transform: translateX(22px) rotate(-90deg) scale(.5);
@@ -13260,6 +13243,23 @@ mask > use[href$="lower_badge_masks"] {
 }
 .textBadge__45d79.base__92a12.live_b195a5:after {
   display: none;
+}
+
+/*Message Spacing*/
+.group-spacing-0 {
+  --f-msg-spacing: 20px;
+}
+.group-spacing-4 {
+  --f-msg-spacing: 25px;
+}
+.group-spacing-8 {
+  --f-msg-spacing: 30px;
+}
+.group-spacing-16 {
+  --f-msg-spacing: 40px;
+}
+.group-spacing-24 {
+  --f-msg-spacing: 50px;
 }
 
 /*Easter Eggs*/

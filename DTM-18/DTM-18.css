@@ -5779,6 +5779,10 @@ foreignObject[mask*="offline"] .status__1c26d {
   height: 1px;
 }
 
+/*L*/.nitroAuthorBadgeContainer__0b121 {
+  display: none;
+}
+
 /*Mentioned Messages*/
 .message__80c10.mentioned__58017:before {
   display: none;
@@ -8558,7 +8562,10 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 .userProfileOuterThemed__6eb84 .addFriendSection__413d3 {
   border-color: var(--profile-body-background-hover);
 }
-.addFriendSection__413d3 button {
+.addFriendSection__413d3 > .pendingIncoming_c83b56 {
+  width: 100%;
+}
+.addFriendSection__413d3 button, .addFriendSection__413d3 > .pendingIncoming_c83b56 > button {
   width: 100%;
   background-color: #36393f !important;
   border: 1px solid #23262a;

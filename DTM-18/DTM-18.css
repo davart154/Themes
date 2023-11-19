@@ -1168,26 +1168,26 @@
   border-color: #fff !important;
 }
 .colorDefault__39671,
-.colorWarning-3oV0Ge,
+.colorWarning__216d2,
 .notice__5fd4c:has(.iconApple-3GcJtX, .iconAndroid-2DSyPS, .iconWindows-1o_-54) {
   background-color: #f26522;
   color: #fff;
 }
 .notice__5fd4c.colorDefault__39671 button:hover,
-.notice__5fd4c.colorWarning-3oV0Ge button:hover,
+.notice__5fd4c.colorWarning__216d2 button:hover,
 .notice__5fd4c:has(.iconApple-3GcJtX, .iconAndroid-2DSyPS, .iconWindows-1o_-54) button:hover {
   color: #f26522;
 }
-.colorPremiumTier0-3ZuHST {
+.colorPremiumTier0_cbbfca {
   background-image: linear-gradient(270deg,var(--premium-tier-0-purple),var(--premium-tier-0-blue));
 }
-.colorPremiumTier1-2r-LRg {
+.colorPremiumTier1__43bcd {
   background-image: linear-gradient(270deg,var(--premium-tier-1-blue),var(--premium-tier-1-purple));
 }
-.colorPremiumTier2-3R4qYN {
+.colorPremiumTier2_b5437b {
   background-image: linear-gradient(270deg,var(--premium-tier-2-pink),var(--premium-tier-2-purple));
 }
-.app-2CXKsg:has(.standardSidebarView-E9Pc3j) > .notice__5fd4c {
+.app-2CXKsg:has(.standardSidebarView__1129a) > .notice__5fd4c {
   display: none;
 }
 
@@ -13307,7 +13307,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V249 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
+  content: "DTM-18 Public V252 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -1945,7 +1945,7 @@ div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
 }
 
 /*Forum Post Count 2023*/
-.channelInfo_b7ab2e .text-xs-semibold-GgBYxI {
+.channelInfo_b7ab2e > [data-text-variant="text-xs/semibold"] {
   background-clip: padding-box;
   border-radius: var(--radius-xxs);
   display: inline-block;
@@ -1961,13 +1961,13 @@ div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
   text-align: center;
   width: auto !important;
 }
-.channelInfo_b7ab2e .text-xs-semibold-GgBYxI[style*="muted"] {
+.channelInfo_b7ab2e > [data-text-variant="text-xs/semibold"][style*="muted"] {
   background-color: var(--channel-text-area-placeholder) !important;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
   color: #fff !important;
 }
-.channelInfo_b7ab2e .text-xs-semibold-GgBYxI[style*="brand"] {
+.channelInfo_b7ab2e > [data-text-variant="text-xs/semibold"][style*="brand"] {
   border: 1px solid var(--brand-500);
 }
 
@@ -7643,9 +7643,6 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 /*Messages Failed to Load*/
-.wrapper_b8c724 * {
-  opacity: 0;
-}
 .messagesErrorBar__06c0a {
   top: 16px;
   left: 20px;

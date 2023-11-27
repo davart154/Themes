@@ -1076,6 +1076,9 @@
 #app-mount:has(>svg>linearGradient:first-child[id^="2f"]) .tipTitle_a7615c:before { 
   content: "Tell them to bring out the whole ocean";
 }
+#app-mount:has(>svg>linearGradient:first-child[id^="20"]) .tipTitle_a7615c:before { 
+  content: "Rubbering the room filled with rats";
+}
 
 .text__32559 {
   position: unset;
@@ -5634,16 +5637,18 @@ foreignObject[mask*="offline"] .status__1c26d {
 /*Gray*/img[src="/assets/1697e65656e69f0dbdbd.png"], [style*="/assets/1697e65656e69f0dbdbd.png"] {
   content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374365205602324/Avatar1.png");
 }
-/*Green*/img[], [style*="/assets/7c8f476123d28d103efe381543274c25.png"] {
+/*Green*/img[src="/assets/1aba1e971aefb18a265e.png"], [style*="/assets/1aba1e971aefb18a265e.png"] {
   content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374384390340638/Avatar2.png")
 }
-/*Yellow*/img[src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"], [style*="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+/*Yellow*/img[src="/assets/529459de1dc4c2424a03.png"], [style*="/assets/529459de1dc4c2424a03.png"] {
   content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374402589425754/Avatar3.png")
 }
-/*Red*/img[[src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"]], [style*="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {
+/*Red*/img[src="/assets/edda5bb474d4135b4296.png"], [style*="/assets/edda5bb474d4135b4296.png"] {
   content: url("https://cdn.discordapp.com/attachments/1011374138121789470/1011374423401574530/Avatar4.png")
 }
-/*Pink*/
+/*Pink*/img[src="/assets/c722e74f644b4a758b11.png"], [style*="/assets/c722e74f644b4a758b11.png"] {
+
+}
 /*Clyde*/[src*="/avatars/1/clyde"], [src*="/avatars/1081004946872352958"] {
   content: url("/assets/f78426a064bc9dd24847519259bc42af.png");
 }
@@ -13304,7 +13309,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V252 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
+  content: "DTM-18 Public V254 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

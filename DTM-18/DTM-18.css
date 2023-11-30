@@ -6881,8 +6881,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   min-height: 90px;
   justify-content: end;
 }
-.icon_c2f643,
-.mediaContainer__4d8d9 {
+.uploadContainer__5a7da > .icon_c2f643, .mediaContainer__4d8d9 {
   position: absolute;
   left: 0;
   right: 0;
@@ -7396,159 +7395,11 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   top: 0px !important;
 }
 
-/*Forum Channel*/
-/*Search Bar*/
-.collapsed-23aTv6 .prefixElement-1U4XhR,
-.collapsed-23aTv6 .formContainer-1zrOWf + .form-25Aujy,
-.matchingPostsRow__510be {
-  display: none;
-}
-.collapsed-23aTv6 .formContainer-1zrOWf .form-25Aujy {
-  padding: 10px;
-}
-.collapsed-23aTv6 .title-1v5ZfI {
-  height: 36px;
-  line-height: 36px;
-}
-/*Create Bar*/
-/*Header Box*/
-.headerBorder-jrk0Ic {
-  box-shadow: none;
-}
-.container-JhuCwn {
-  padding: 0;
-}
-.title-1v5ZfI {
-  margin: 0;
-}
-.collapsed-23aTv6.formContainer-1zrOWf + .form-25Aujy {
-  display: none;
-}
-.channelTextAreaInner-2_mflx {
-  background-color: transparent;
-}
-/*Upload Button*/
-.container-3Om6RL {
-  order: -1;
-  display: flex;
-  width: fit-content;
-  height: auto;
-  border-right: 1px solid;
-  border-image: linear-gradient(hsla(0,0%,100%,0) 10%, hsla(0,calc(var(--saturation-factor, 1)*0%),100%,.1) 10%, hsla(0,calc(var(--saturation-factor, 1)*0%),100%,.1) 90%, hsla(0,0%,100%,0) 90%) 1;
-  margin-right: 10px;
-}
-.theme-light .container-3Om6RL {
-  border-image: linear-gradient(hsla(0,0%,100%,0) 10%, hsl(240,calc(var(--saturation-factor, 1)*2%),91%) 10%, hsl(240,calc(var(--saturation-factor, 1)*2%),91%) 90%, hsla(0,0%,100%,0) 90%) 1;
-}
-.uploadInput-3fblkw {
-  width: inherit;
-  height: inherit;
-  background-color: #0000;
-  z-index: 0;
-}
-.uploadIcon-M15owY {
-  opacity: 0.3;
-  transition: 0.1s;
-  padding: 8px 10px;
-  z-index: -1;
-}
-.container-3Om6RL:hover .uploadIcon-M15owY {
-  opacity: 1;
-  transform: scale(1.1);
-}
-.uploadIcon-M15owY [d="M13.2899 2H6C3.79086 2 2 3.79086 2 6V18C2 20.2091 3.79086 22 6 22H18C20.2091 22 22 20.2091 22 18V10.7101C21.3663 10.8987 20.695 11 20 11C16.134 11 13 7.86599 13 4C13 3.30503 13.1013 2.63371 13.2899 2ZM8 6C9.1032 6 10 6.8952 10 8C10 9.1056 9.1032 10 8 10C6.8944 10 6 9.1056 6 8C6 6.8952 6.8944 6 8 6ZM6 18L9 14L11 16L15 11L18 18H6Z"] {
-  d: path("M12 2.00098C6.486 2.00098 2 6.48698 2 12.001C2 17.515 6.486 22.001 12 22.001C17.514 22.001 22 17.515 22 12.001C22 6.48698 17.514 2.00098 12 2.00098ZM17 13.001H13V17.001H11V13.001H7V11.001H11V7.00098H13V11.001H17V13.001Z");
-  fill: var(--interactive-active);
-}
-.uploadIcon-M15owY [d="M21 0V3H24V5H21V8H19V5H16V3H19V0H21Z"] {
-  display: none;
-}
-.prefixElement-1U4XhR {
-  order: 1;
-  margin: 0;
-  width: 24px;
-}
-.contentContainer-2xwoXK {
-  padding-left: 0;
-}
-/*Has Attatchments*/
-.container-3Om6RL .imageSmall__59845 {
-  padding: 8px 10px;
-  margin-right: 3px;
-  height: 50%;
-  visibility: hidden;
-  width: 25px;
-}
-.container-3Om6RL .imageSmall__59845:before {
-  content: "_";
-  font-size: 60px;
-  color: transparent;
-  padding-top: 175%;
-  background: url("data:image/svg+xml,%3Csvg role='img' fill='white' opacity='0.3' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M12 2.00098C6.486 2.00098 2 6.48698 2 12.001C2 17.515 6.486 22.001 12 22.001C17.514 22.001 22 17.515 22 12.001C22 6.48698 17.514 2.00098 12 2.00098ZM17 13.001H13V17.001H11V13.001H7V11.001H11V7.00098H13V11.001H17V13.001Z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: 28px;
-  background-position-y: 50%;
-  visibility: visible;
-}
-.badge-39TqBS {
-  top: calc(50%);
-  right: 8px;
-  background: var(--brand-experiment);
-  border: 0;
-  border-radius: var(--radius-xxs);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15);
-  color: #fff;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  height: unset !important;
-  padding: 3px 4px !important;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
-  text-transform: uppercase;
-}
-.popout-2vZMlk .imageSmall__59845 {
-  padding: 8px 0;
-  margin-left: 0 !important;
-  width: 78px !important;
-  height: 78px !important;
-  visibility: visible;
-}
-.popout-2vZMlk .imageSmall__59845::before {
-  display: none;
-}
-.popoutContainer-26yHc8 {
-  order: -1;
-  position: unset;
-  padding: 4px 0;
-  height: 100%;
-}
-.popout-2vZMlk {
-  flex-direction: row;
-  height: inherit;
-  padding: 0;
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  margin-right: -49px;
-  padding-right: 12px;
-}
-.popout-2vZMlk .uploadInput-3fblkw {
-  margin-right: 8px;
-}
-.uploads-1mYJLm {
-  padding-right: 0px;
-  background-color: var(--background-secondary);
-  border-radius: var(--radius-xxs);
-}
-.popout-2vZMlk .actionBar__3cdab {
-  transform: none;
-}
-
 /*Textarea*/
-.form-25Aujy:first-child {
+.form_c73970:first-child {
   padding: 11px 10px 11px 0;
 }
-.form-25Aujy:last-child {
+.form_c73970:last-child {
   padding: 0 10px 11px 10px;
 }
 .tagsDivider-3LhkLA {
@@ -7556,7 +7407,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 /*Post Button*/
-.form-25Aujy .submitButton-3B-dZd {
+.form_c73970 .submitButton-3B-dZd {
   border-radius: var(--radius-xxs);
   padding: 2px 16px;
 }
@@ -7579,23 +7430,23 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 /*Cards*/
-.mainCard__8a660 {
+.increasedActivityMainCard__916ed {
   border-radius: var(--radius-xs);
 }
-.card-2JNtco:not(.headerRow-1MKoR-) .mainCard__8a660 {
+.card__691f2 .increasedActivityMainCard__916ed {
   background: var(--background-primary);
   border: 2px solid rgba(14, 18, 22, 0.6);
   transition: border-color 0.2s;
   transform: none !important;
   box-shadow: none !important;
 }
-.card-2JNtco:not(.headerRow-1MKoR-) .mainCard__8a660:hover {
+.card__691f2 .increasedActivityMainCard__916ed:hover {
   border-color: rgba(14, 18, 22, 0.8);
 }
-.theme-light .card-2JNtco:not(.headerRow-1MKoR-) .mainCard__8a660 {
+.theme-light .card__691f2 .increasedActivityMainCard__916ed {
   border-color: rgba(28, 36, 43, 0.06);
 }
-.theme-light .card-2JNtco:not(.headerRow-1MKoR-) .mainCard__8a660:hover {
+.theme-light .card__691f2 .increasedActivityMainCard__916ed:hover {
   border-color: rgba(28, 36, 43, 0.12);
 }
 /*Pin Icon*/
@@ -7612,7 +7463,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   fill-rule: evenodd;
 }
 /*New*/
-.card-2JNtco .textBadge__45d79.base__92a12.eyebrow__60985.baseShapeRound__95d0f[style*="brand"] {
+.card__691f2 .textBadge__45d79.base__92a12.eyebrow__60985.baseShapeRound__95d0f[style*="brand"] {
   background-color: transparent !important;
   border: 1px solid var(--brand-experiment);
   box-shadow: none;
@@ -8376,7 +8227,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   border-radius: var(--radius-xs);
 }
 
-.divider__56f26, .divider__2bbbc {
+.divider__2bbbc {
   display: none;
 }
 
@@ -8760,9 +8611,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 .profileBadges__7a7cb:after {
   pointer-events: all;
 }
-.userPopoutOuter_d739b2:has(img[src*="/490604571824226306/"]) a[aria-label*="dav"] {
-  display: none;
-}
 .userPopoutOuter_d739b2:has(img[src*="/490604571824226306/"]):has(.profileBadges__7a7cb:hover):not(:has(.profileBadges__7a7cb a:hover)):before {
   content: "DTM-18 Developer";
   position: absolute;
@@ -8782,8 +8630,27 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 /*Sidebar Profile Popout*/
 .userPanelOuter__880e5 {
 }
+.userPanelInner_eddf4c {
+  background: var(--background-secondary);
+}
 .panelBanner__90b8a {
   -webkit-mask-image: linear-gradient(0deg, transparent 0%, black 100%);
+}
+.badgelistGroup__53eaa {
+  margin: 0 10px;
+}
+.userPanelInner_eddf4c .section__6f61e:has(.memberSinceContainer__0a28b) + .divider__2bbbc {
+  display: unset;
+  margin: 0;
+  height: 10px;
+  background-color: var(--play);
+}
+.userPanelOuter__880e5 .section__6f61e:has(.note_ba0c31) {
+  background-color: var(--background-secondary);
+}
+.profilePanelConnections__3c232 {
+  border-top: 1px solid var(--profile-body-divider-color);
+  background-color: var(--background-secondary);
 }
 
 /*Profile Modal*/
@@ -13316,7 +13183,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V255 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
+  content: "DTM-18 Public V256 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

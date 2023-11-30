@@ -8010,8 +8010,11 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   height: 92px !important;
   clip-path: path("M85.8043 69.0719C89.744 62.2897 92 54.4083 92 46 92 20.5949 71.4051 0 46 0 20.5949 0 0 20.5949 0 46 0 71.4051 20.5949 92 46 92 54.4083 92 62.2897 89.744 69.0719 85.8043 68.0504 84.0142 67.4667 81.9419 67.4667 79.7333 67.4667 72.9586 72.9586 67.4667 79.7333 67.4667 81.9419 67.4667 84.0142 68.0504 85.8043 69.0719Z");
 }
+.avatarHoverTarget__3a360 > div[style] {
+    transform: none !important;
+}
 .userPopoutOuter_d739b2 .avatarDecoration_ae35e3 {
-  width: 127px;
+  width: 112px;
   height: unset;
   contain: none;
 }
@@ -8046,15 +8049,15 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   padding: 4px;
 }
 
-.avatarWrapper_f77579 circle[fill="black"],
-.avatarWrapper_f77579 circle[fill="white"] {
+div:is(.avatarWrapper_f77579, .header__7da4f) circle[fill="black"],
+div:is(.avatarWrapper_f77579, .header__7da4f) circle[fill="white"] {
   fill: none;
   cx: 80;
   cy: 80;
   r: 9;
 }
-.avatarWrapper_f77579 rect[fill="black"],
-.avatarWrapper_f77579 rect[fill="white"] {
+div:is(.avatarWrapper_f77579, .header__7da4f) rect[fill="black"],
+div:is(.avatarWrapper_f77579, .header__7da4f) rect[fill="white"] {
   fill: none;
   height: 18.5px;
   width: 18.5px;
@@ -8062,7 +8065,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   y: 70.5;
   rx: 9;
 }
-.avatarWrapper_f77579 .cursorDefault_e4f616 rect {
+div:is(.avatarWrapper_f77579, .header__7da4f) .cursorDefault_e4f616 rect {
   x: 22.5;
   y: 18.5;
   height: 18.5px;
@@ -8071,7 +8074,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   rx: 50%;
   opacity: 0;
 }
-.avatarWrapper_f77579 rect[x="60"] {
+div:is(.avatarWrapper_f77579, .header__7da4f) rect[x="60"] {
   x: 70.5;
   y: 70.5;
   height: 18.5px;
@@ -8080,7 +8083,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   rx: 50%;
   opacity: 0;
 }
-.avatarWrapper_f77579 .wrapper_edb6e0:before {
+.avatarHoverTarget__3a360 > .wrapper_edb6e0:before, .header__7da4f .wrapper_edb6e0:before  {
   content: "";
   position: absolute;
   right: 3px;
@@ -8099,7 +8102,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   pointer-events: none;
 }
 
-.userPopoutOuter_d739b2 .profileBadges__7a7cb, .badgelistGroup__53eaa {
+.userPopoutOuter_d739b2 .profileBadges__7a7cb {
   box-sizing: border-box;
   position: relative;
   top: 0;
@@ -8113,7 +8116,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   justify-content: center;
   z-index: 1;
 }
-.userPopoutOuter_d739b2 .profileBadges__7a7cb:before, .badgelistGroup__53eaa:before {
+.userPopoutOuter_d739b2 .profileBadges__7a7cb:before {
   content: "";
   position: absolute;
   inset: 0;
@@ -8137,7 +8140,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   height: 20px;
 }
 .profileBadge24_f09696 {
-  height: 20px;
+  height: 24px;
 }
 /*Staff*/
 [src$="/badge-icons/5e74e9b61934fc1f67c65515d1f7e60d.png"] {
@@ -8775,20 +8778,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   border-radius: var(--radius-xsa);
   pointer-events: none;
 }
-.userPopoutOuter_d739b2:has(img[src*="/490604571824226306/"]) .userTagUsernameBase__75fb1 {
-  font-size: 0;
-  line-height: 0;
-}
-.userPopoutOuter_d739b2:has(img[src*="/490604571824226306/"]) .userTagUsernameBase__75fb1:before {
-  content: "dav";
-  font-size: 14px;
-  line-height: 18px;
-}
-.userPopoutOuter_d739b2:has(img[src*="/490604571824226306/"]) .userTagUsernameBase__75fb1:after {
-  content: "#8444";
-  font-size: 14px;
-  line-height: 18px;
-}
 
 /*Sidebar Profile Popout*/
 .userPanelOuter__880e5 {
@@ -8797,35 +8786,47 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   -webkit-mask-image: linear-gradient(0deg, transparent 0%, black 100%);
 }
 
-/*Full Screen Profile Popout*/
-.body-1Ukv50 {
-  flex: 1 1 auto;
+/*Profile Modal*/
+.userProfileModalOuter__3fe6b {
+  box-sizing: border-box;
 }
-.overlayBackground__86b78 {
-  margin: 0;
-  border-radius: 0;
+.userProfileModalInner__7c87d {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.userProfileModalInner__7c87d:before {
+  height: 100%;
+  width: 100%;
+  display: none;
 }
 .userProfileModalOuter__3fe6b .bannerSVGWrapper__3e7b0 {
   display: none;
 }
-.topSection-13QKHs {
+.topSection_dfb73b {
   margin: 0;
 }
 .userProfileModalOuter__3fe6b .header-S25rhB {
   position: unset;
 }
-.userProfileModalOuter__3fe6b  .topSection-13QKHs .wrapper_edb6e0 {
+.topSection_dfb73b .wrapper_edb6e0 {
   top: 20px;
   left: 20px;
   width: 90px !important;
   height: 90px !important;
 }
-.userProfileModalOuter__3fe6b .topSection-13QKHs .wrapper_edb6e0 svg {
+.profileEffects_fd33f6 {
+    display: none;
+}
+.topSection_dfb73b .wrapper_edb6e0 > svg:first-child {
   width: 135px !important;
   height: 135px !important;
   mask: none;
 }
-.userProfileModalOuter__3fe6b .topSection-13QKHs .wrapper_edb6e0 foreignObject {
+.topSection_dfb73b .wrapper_edb6e0 > .avatarDecoration_ae35e3 {
+  width: 122px !important;
+  height: 108px !important;
+}
+.topSection_dfb73b .wrapper_edb6e0 > svg:first-child foreignObject {
   width: 92px;
   height: 92px;
   mask: none;
@@ -8840,42 +8841,57 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   rx: 50%;
   opacity: 0;
 }
-
-.container-3g15px {
+.container_b6b15b {
   min-height: 90px;
   height: fit-content;
   padding: 20px;
   background: var(--play);
   display: flex;
-  flex-direction: column;
   padding-left: 122px;
-  justify-content: center;
-}
-.container-3g15px > div:not([class]) + div:not([class]) {
-  display: none;
-}
-.container-3g15px .discriminator-hnHkyt, .container-3g15px .nameTag-35jqbZ {
-  font-size: 14px;
-  font-weight: 400;
-}
-.container-3g15px .info__40462 .discriminator-hnHkyt:before {
-  content: "@";
-}
-.headerTop-1PNKck {
-  position: absolute;
-  left: 130px;
-  height: 90px;
   align-items: center;
 }
-.badgeList-2aoHPw {
+.container_b6b15b .discriminator_a801dd, .container_b6b15b .nameTag__7814f {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.container_b6b15b .info__40462 .discriminator_a801dd:before {
+  content: "@";
+}
+.pronouns_be950a {
+  padding-top: 0;
+  margin-top: -2px;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--header-secondary);
+}
+.pronouns_be950a:before {
+  content: "• ";
+}
+.headerTop__6628b {
+  position: absolute;
+  left: 122px;
+  height: 96px;
+  align-items: center;
+  pointer-events: none;
+}
+.relationshipButtons__5efdd {
+  pointer-events: all;
+}
+.badgeList_c193e3 {
   padding: 0;
   background: transparent;
-  transform: translateY(32px);
+  transform: translateY(30px);
+  pointer-events: all;
+  gap: 6px;
 }
-.customStatus-3QV7IG {
-  margin-top: 76px;
+.userProfileModalOuter__3fe6b:has(.badgeList_c193e3:not(:empty)) .container_b6b15b > div:not([class]):first-child {
+  transform: translateY(-14px);
 }
-.tabBarContainer-sCZC4w {
+.customStatusText_ee5413,  {
+  display: none;
+}
+.tabBarContainer__63f55 {
   padding: 20px 20px 0;
   margin: 0;
   border: 0;
@@ -8883,20 +8899,21 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   background: var(--play);
 }
 
-.listScroller__92e1a,
-.infoScroller-1QMpon {
+.listScroller__92e1a, .infoScroller__6ec79 {
   padding: 0;
   height: 240px;
   background: var(--background-secondary);
 }
+.userProfileOuterThemed__6eb84 div:is(.listScroller__92e1a, .infoScroller__6ec79) {
+  background: none;
+}
 .listScroller__92e1a {
   padding: 20px 0;
 }
-.divider-SH6OnO,
-.infoScroller-1QMpon::-webkit-scrollbar {
+.divider-SH6OnO, .infoScroller-1QMpon::-webkit-scrollbar {
   display: none;
 }
-.userInfoSection-2u2hir {
+.userInfoSection__1daf8 {
   padding: 0;
   margin: 20px;
 }
@@ -12898,7 +12915,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   background-color: #80848e;
   background-image: var(--colorblind-offline);
 }
-.avatarWrapper_f77579 .wrapper_edb6e0:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
+div:is(.avatarWrapper_f77579, .topSection_dfb73b) .wrapper_edb6e0:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
   background-size: calc(22px / var(--colorblind-status));
   background-position: -4px -4px;
 }
@@ -13309,7 +13326,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V254 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
+  content: "DTM-18 Public V255 \a \a cheese \a i like cheese \a do you like cheese \a what's your favorite cheese \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -8815,7 +8815,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   height: 90px !important;
 }
 .profileEffects_fd33f6 {
-    display: none;
+  display: none;
 }
 .topSection_dfb73b .wrapper_edb6e0 > svg:first-child {
   width: 135px !important;
@@ -8858,16 +8858,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 .container_b6b15b .info__40462 .discriminator_a801dd:before {
   content: "@";
 }
-.pronouns_be950a {
-  padding-top: 0;
-  margin-top: -2px;
-  font-size: 14px;
-  line-height: 18px;
-  color: var(--header-secondary);
-}
-.pronouns_be950a:before {
-  content: "• ";
-}
 .headerTop__6628b {
   position: absolute;
   left: 122px;
@@ -8888,7 +8878,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 .userProfileModalOuter__3fe6b:has(.badgeList_c193e3:not(:empty)) .container_b6b15b > div:not([class]):first-child {
   transform: translateY(-14px);
 }
-.customStatusText_ee5413,  {
+.customStatusText_ee5413, .pronouns_be950a {
   display: none;
 }
 .tabBarContainer__63f55 {

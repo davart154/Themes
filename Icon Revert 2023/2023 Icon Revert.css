@@ -103,7 +103,7 @@ svg {
 svg:has([d^="M9.54"]) {
     background-image: var(--bugnet-net);
 }
-.iconWrapper-2awDjA:hover svg:has([d^="M9.54"]) {
+.iconWrapper_af9215:hover svg:has([d^="M9.54"]) {
     background-image: var(--bugnet-net-hover);
 }
 .selected_be2668 svg:has([d^="M9.54"]) {
@@ -1063,6 +1063,25 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 #app-mount .caret_ce50ce, .count_fe6538 {
     width: 10px;
     height: 10px;
+}
+.profilePanelConnections__3c232 > div > button:has(+ .isCollapsed__54b86) svg {
+    animation: arrowRotate .2s ease forwards;
+}
+.iconWrapper__9d1e6 > svg {
+    animation: arrowRotate .2s ease reverse forwards;
+}
+.iconWrapper__9d1e6 path {
+    d: path("M7 10L12 15 17 10");
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+@keyframes arrowRotate {
+    to {
+        transform: rotate(-90deg);
+    }
 }
 
 .socialLinks_c1fc99 a, .socialLinks_c1fc99 svg {

@@ -1411,7 +1411,7 @@ img.icon__0cbed, .icon_c48348 {
   transition: background-color .15s ease-out;
   background-color: var(--background-secondary);
 }
-.upperBadge_c7cfb3 .base__92a12 {
+.upperBadge_c7cfb3 .iconBadge_fdf33a {
   color: var(--header-primary);
   background-color: var(--background-tertiary);
   width: 24px;
@@ -1455,13 +1455,20 @@ img.icon__0cbed, .icon_c48348 {
   background-color: #413338;
   transition: background-color .2s ease-out;
 }
-.unavailableBadge__1a6f9 {
+.unavailableBadge__93b13 {
   background: #413338;
   color: #fff !important;
   box-shadow: 0 0 0 2px var(--status-danger);
+  margin-top: -2px;
+  margin-right: -2px;
+  align-items: center;
 }
-.unavailableBadge__1a6f9 .icon__92653 {
-  padding: 2px;
+.unavailableBadge__93b13 .icon__92653 {
+  display: none;
+}
+.unavailableBadge__93b13:before {
+    content: "!";
+    display: block;
 }
 
 .platform-win .sidebar_ded4b5 {
@@ -13591,7 +13598,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V261 \a \a are you guys going caroling? \a \a";
+  content: "DTM-18 Public V262 \a \a are you guys going caroling? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

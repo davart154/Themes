@@ -1333,10 +1333,8 @@
 }
 
 /*Custom Notice*/
-/*
-.base__3e6af:before {
-  content: "Discord's default emojis have been replaced. Please be patient while Twemoji gets re-added.";
-  background-color: #4a90e2;
+.base__3e6af:before, .base_c0676e:before {
+  content: "";
   color: #fff;
   font-size: 14px;
   line-height: 36px;
@@ -1345,9 +1343,9 @@
   border-radius: 8px 0 0;
   -webkit-box-shadow: var(--elevation-low);
   box-shadow: var(--elevation-low);
-  animation: noticeRemove 0s 10s forwards;
+  animation: noticeRemove 0s 60s forwards, noticeMsgSwap 30s 2 forwards;
 }
-.base__3e6af:after {
+.base__3e6af:after, .base_c0676e:after {
   content: "";
   color: #fff;
   font-size: 14px;
@@ -1357,9 +1355,23 @@
   top: 0;
   right: 12px;
   opacity: 0.5;
-  animation: noticeCountdown 10s forwards, noticeRemove 0s 10s forwards;
+  animation: noticeCountdown 10s 6 forwards, noticeRemove 0s 60s forwards;
 }
-*/
+@keyframes noticeMsgSwap {
+  0%, 33.332% {
+    content: "Discord's classes were updated, please be patient while a fix is made.";
+    background-color: #f26522;
+  }
+  33.333%, 66.665% {
+    content: "Please note the time the theme gets fixed is dependent on the Discord version being used.";
+  }
+  66.666%, to {
+    content: "Canary will most likely experience a fix before PTB and Stable, due to the fact that it is the client that gets updated the most out of the three.";
+  }
+  33.333%, to {
+    background-color: #4a90e2;
+  }
+}
 
 /*Notice Header*/
 .notice__5fd4c .closeButton_ffc97a {
@@ -13004,7 +13016,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V264 \a \a are you guys going caroling? \a \a";
+  content: "DTM-18 Public V265 \a \a are you guys going caroling? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

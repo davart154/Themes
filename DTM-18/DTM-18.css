@@ -1332,7 +1332,7 @@
   margin-bottom: 8px;
 }
 
-/*Custom Notice*/
+/*Custom Notice
 .base__3e6af:before, .base_c0676e:before {
   content: "";
   color: #fff;
@@ -1372,6 +1372,7 @@
     background-color: #4a90e2;
   }
 }
+*/
 
 /*Notice Header*/
 .notice__5fd4c .closeButton_ffc97a {
@@ -13016,7 +13017,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V265 \a \a are you guys going caroling? \a \a";
+  content: "DTM-18 Public V266 \a \a are you guys going caroling? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -2366,7 +2366,7 @@ div:is(.channelNotice_bbc8e6, .channelNotice__8f7b2) button:active {
 .connection__5bb32 {
   padding-bottom: 0;
 }
-.connection__5bb32:has(+ .actionButtons_b58cbb) {
+.container_d667ff:has(.actionButtons_b58cbb) > .connection__5bb32 {
   margin-bottom: 43px;
 }
 .rtcConnectionStatus__40882 .ping__47992 path {
@@ -12858,7 +12858,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V268 \a \a are you guys going caroling? \a \a";
+  content: "DTM-18 Public V269 \a \a are you guys going caroling? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

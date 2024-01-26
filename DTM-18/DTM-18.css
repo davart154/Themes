@@ -645,7 +645,7 @@
   content: "Leeeeeeroy jenkins!";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="de"]) .tipTitle_a7615c:before { 
-  content: "Loading Lines in 2023 LUL";
+  content: "Loading Lines in 2024 LUL";
 }
 #app-mount:has(>svg>linearGradient:first-child[id^="de"]) .tipTitle_a7615c:after {
   content: "Submitted by @Mushroom3691";
@@ -12954,7 +12954,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V279 \a \a are you guys going trick or treating? \a \a";
+  content: "DTM-18 Public V271 \a \a are you guys going trick or treating? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

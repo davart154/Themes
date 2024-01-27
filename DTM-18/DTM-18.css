@@ -7537,11 +7537,28 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   background-color: rgba(4,4,5,.8);
   color: #fff;
   font-size: 16px;
-  padding: 12px 16px;
+  padding: 0 16px;
+  height: 40px;
   transition: background-color .2s ease-out;
   border-radius: var(--radius-xxs);
+  margin: 0;
 }
-.cta__69e2a [data-text-variant="text-md/semibold"] {
+div + .cta__69e2a:not(:last-child) {
+  border-radius: 3px 0 0 3px;
+}
+div + .cta__69e2a:not(:last-child):before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 8px;
+  height: 24px;
+  width: 1px;
+  background: #fff;
+}
+.cta__69e2a + .cta__69e2a {
+  border-radius: 0 3px 3px 0;
+}
+.cta__69e2a [data-text-variant] {
   font-weight: 500 !important;
   line-height: 16px;
 }
@@ -12954,7 +12971,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V271 \a \a are you guys going trick or treating? \a \a";
+  content: "DTM-18 Public V272 \a \a are you guys going trick or treating? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

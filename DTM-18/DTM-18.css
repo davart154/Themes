@@ -8110,7 +8110,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   clip-path: path("M85.8043 69.0719C89.744 62.2897 92 54.4083 92 46 92 20.5949 71.4051 0 46 0 20.5949 0 0 20.5949 0 46 0 71.4051 20.5949 92 46 92 54.4083 92 62.2897 89.744 69.0719 85.8043 68.0504 84.0142 67.4667 81.9419 67.4667 79.7333 67.4667 72.9586 72.9586 67.4667 79.7333 67.4667 81.9419 67.4667 84.0142 68.0504 85.8043 69.0719Z");
 }
 .avatarHoverTarget__3a360 > div[style] {
-    transform: none !important;
+  transform: none !important;
 }
 .userPopoutOuter_d739b2 .avatarDecoration_ae35e3 {
   width: 112px;
@@ -8126,6 +8126,9 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   width: 90px !important;
   height: 90px !important;
   clip-path: path("M83.9390209,67.5703502 C87.7930646,60.9355756 90,53.2255165 90,45 C90,20.1471863 69.8528137,0 45,0 C20.1471863,0 0,20.1471863 0,45 C0,69.8528137 20.1471863,90 45,90 C53.2255165,90 60.9355756,87.7930646 67.5703502,83.9390209 C66.5710085,82.1878304 66,80.1605983 66,78 C66,71.372583 71.372583,66 78,66 C80.1605983,66 82.1878304,66.5710085 83.9390209,67.5703502 Z");
+}
+.avatarHint__8e5b9 > foreignObject {
+  mask: none;
 }
 .avatarDecorationHint__03e0b {
   top: -10px;
@@ -12971,7 +12974,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V272 \a \a are you guys going trick or treating? \a \a";
+  content: "DTM-18 Public V273 \a \a are you guys going trick or treating? \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

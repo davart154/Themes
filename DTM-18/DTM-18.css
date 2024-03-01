@@ -7,12 +7,6 @@
 * @source https://github.com/davart154/DTM-18
 */
 
-/*.preview-QJ3OG3:after {
-  background: url(https://cdn.discordapp.com/attachments/1127830821903007776/1127830873350352937/luigi_dance.gif);
-  background-size: 100% 173px;
-  z-index: 1;
-}*/
-
 /*Discord Header*/
 .wordmarkWindows__05c46 {
   position: absolute;
@@ -22,12 +16,6 @@
   margin-left: 9px;
   color: var(--header-primary);
   opacity: .6;
-}
-[d^="M3 4.78717H6.89554C7.83025"] {
-  d: path("M3.5764 3.1413 0 3.1413 0 7.2283 2.3807 9.4022 2.3807 5.4348 3.6626 5.4348C4.4705 5.4348 4.8691 5.837 4.8691 6.4674L4.8691 9.5C4.8691 10.1304 4.4921 10.5543 3.6626 10.5543L0 10.5543 0 12.8587 3.5764 12.8587C5.4939 12.8696 7.2929 11.9022 7.2929 9.663L7.2929 6.3913C7.2929 4.1304 5.4939 3.1413 3.5764 3.1413ZM22.3311 9.6739 22.3311 6.3261C22.3311 5.1196 24.464 4.837 25.1104 6.0543L27.0817 5.2391C26.3169 3.5109 24.8949 3 23.7207 3 21.8033 3 19.9073 4.1304 19.9073 6.3261L19.9073 9.6739C19.9073 11.8804 21.8033 13 23.6776 13 24.8841 13 26.3276 12.3913 27.1248 10.8152L25.0134 9.8261C24.4963 11.1739 22.3311 10.8478 22.3311 9.6739ZM15.803 6.7826C15.0598 6.6196 14.5642 6.3478 14.5319 5.8804 14.575 4.75 16.2878 4.7174 17.2896 5.7935L18.8732 4.5543C17.8821 3.3261 16.7618 3 15.5984 3 13.8425 3 12.1404 4 12.1404 5.913 12.1404 7.7717 13.5409 8.7609 15.0813 9 15.8677 9.1087 16.7402 9.4239 16.7187 9.9783 16.6541 11.0217 14.5427 10.9674 13.5839 9.7826L12.065 11.2391C12.9591 12.4022 14.1764 13 15.3183 13 17.0742 13 19.024 11.9674 19.0994 10.087 19.2071 7.6957 17.5051 7.0978 15.803 6.7826ZM8.5963 12.8587 11.0093 12.8587 11.0093 3.1413 8.5963 3.1413 8.5963 12.8587ZM49.2835 3.1413 45.7071 3.1413 45.7071 7.2283 48.0878 9.4022 48.0878 5.4348 49.3589 5.4348C50.1669 5.4348 50.5654 5.837 50.5654 6.4674L50.5654 9.5C50.5654 10.1304 50.1884 10.5543 49.3589 10.5543L45.6963 10.5543 45.6963 12.8587 49.2728 12.8587C51.1902 12.8696 52.9892 11.9022 52.9892 9.663L52.9892 6.3913C53 4.1304 51.201 3.1413 49.2835 3.1413ZM31.7354 3C29.7533 3 27.7819 4.0978 27.7819 6.337L27.7819 9.663C27.7819 11.8913 29.764 13 31.7569 13 33.739 13 35.7104 11.8913 35.7104 9.663L35.7104 6.337C35.7104 4.1087 33.7175 3 31.7354 3ZM33.2866 9.663C33.2866 10.3587 32.511 10.7174 31.7461 10.7174 30.9705 10.7174 30.1949 10.3696 30.1949 9.663L30.1949 6.337C30.1949 5.6196 30.949 5.2391 31.703 5.2391 32.4894 5.2391 33.2866 5.587 33.2866 6.337L33.2866 9.663ZM44.3606 6.337C44.3067 4.0543 42.777 3.1413 40.8057 3.1413L36.9815 3.1413 36.9815 12.8696 39.4268 12.8696 39.4268 9.7717 39.8577 9.7717 42.0768 12.8587 45.0931 12.8587 42.4862 9.5217C43.6496 9.1522 44.3606 8.1413 44.3606 6.337ZM40.8488 7.6522 39.4268 7.6522 39.4268 5.4348 40.8488 5.4348C42.3785 5.4348 42.3785 7.6522 40.8488 7.6522Z");
-}
-[d^="M3 4.78717H6.89554C7.83025"] ~ path {
-  display: none;
 }
 
 /*Login Screen*/
@@ -137,220 +125,6 @@
 }
 
 /*Loading Screen*/
-.ready__61f2f {
-  display: none;
-}
-.container__4bde3 .content__0e954:before {
-  content: "";
-  display: block;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  background: url(https://cdn.discordapp.com/attachments/1129536164362203266/1129585706038198302/loadingframes_dark.png);
-  background-size: 1600px;
-  background-repeat: no-repeat;
-  mix-blend-mode: lighten;
-  animation: logoSpin 1.06666667s infinite linear;
-  -webkit-mask: linear-gradient(90deg, transparent 40px, black 40px, black calc(100% - 40px), transparent calc(100% - 40px));
-}
-@keyframes logoSpin {
-  0%, 1.5624% {
-    background-position: 0 0;
-  }
-  1.5625%, 3.1249% {
-    background-position: -200px 0;
-  }
-  3.125%, 4.6874% {
-    background-position: -400px 0;
-  }
-  4.6875%, 6.2499% {
-    background-position: -600px 0;
-  }
-  6.25%, 7.8124% {
-    background-position: -800px 0;
-  }
-  7.8125%, 9.3749% {
-    background-position: -1000px 0;
-  }
-  9.375%, 10.9374% {
-    background-position: -1200px 0;
-  }
-  10.9375%, 12.4999% {
-    background-position: -1400px 0;
-  }
-  12.5%, 14.0624% {
-    background-position: 0 -200px;
-  }
-  14.0625%, 15.624% {
-    background-position: -200px -200px;
-  }
-  15.625%, 17.1874% {
-    background-position: -400px -200px;
-  }
-  17.1875%, 18.7499% {
-    background-position: -600px -200px;
-  }
-  18.75%, 20.3124% {
-    background-position: -800px -200px;
-  }
-  20.3125%, 21.8749% {
-    background-position: -1000px -200px;
-  }
-  21.875%, 23.4374% {
-    background-position: -1200px -200px;
-  }
-  23.4375%, 24.9999% {
-    background-position: -1400px -200px;
-  }
-  25%, 26.5624% {
-    background-position: 0 -400px;
-  }
-  26.5625%, 28.1249% {
-    background-position: -200px -400px;
-  }
-  28.125%, 29.6874% {
-    background-position: -400px -400px;
-  }
-  29.6875%, 31.2499% {
-    background-position: -600px -400px;
-  }
-  31.25%, 32.8124% {
-    background-position: -800px -400px;
-  }
-  32.8125%, 34.3749% {
-    background-position: -1000px -400px;
-  }
-  34.375%, 35.9374% {
-    background-position: -1200px -400px;
-  }
-  35.9375%, 37.4999% {
-    background-position: -1400px -400px;
-  }
-  37.5%, 39.0624% {
-    background-position: 0 -600px;
-  }
-  39.0625%, 40.6249% {
-    background-position: -200px -600px;
-  }
-  40.625%, 42.1874% {
-    background-position: -400px -600px;
-  }
-  42.1875%, 43.7499% {
-    background-position: -600px -600px;
-  }
-  43.75%, 45.3124% {
-    background-position: -800px -600px;
-  }
-  45.3125%, 46.8749% {
-    background-position: -1000px -600px;
-  }
-  46.875%, 48.4374% {
-    background-position: -1200px -600px;
-  }
-  48.4375%, 49.9999% {
-    background-position: -1400px -600px;
-  }
-  50%, 51.5624% {
-    background-position: 0 -800px;
-  }
-  51.5625%, 53.1249% {
-    background-position: -200px -800px;
-  }
-  53.125%, 54.6874% {
-    background-position: -400px -800px;
-  }
-  54.6875%, 56.2499% {
-    background-position: -600px -800px;
-  }
-  56.25%, 57.8124% {
-    background-position: -800px -800px;
-  }
-  57.8125%, 59.3749% {
-    background-position: -1000px -800px;
-  }
-  59.375%, 60.9374% {
-    background-position: -1200px -800px;
-  }
-  60.9375%, 62.4999% {
-    background-position: -1400px -800px;
-  }
-  62.5%, 64.0624% {
-    background-position: 0 -1000px;
-  }
-  64.0625%, 65.6249% {
-    background-position: -200px -1000px;
-  }
-  65.625%, 67.1874% {
-    background-position: -400px -1000px;
-  }
-  67.1875%, 68.7499% {
-    background-position: -600px -1000px;
-  }
-  68.75%, 70.3124% {
-    background-position: -800px -1000px;
-  }
-  70.3125%, 71.8749% {
-    background-position: -1000px -1000px;
-  }
-  71.875%, 73.4374% {
-    background-position: -1200px -1000px;
-  }
-  73.4375%, 74.9999% {
-    background-position: -1400px -1000px;
-  }
-  75%, 76.5624% {
-    background-position: 0 -1200px;
-  }
-  76.5625%, 78.1249% {
-    background-position: -200px -1200px;
-  }
-  78.125%, 79.6874% {
-    background-position: -400px -1200px;
-  }
-  79.6875%, 81.2499% {
-    background-position: -600px -1200px;
-  }
-  81.25%, 82.8124% {
-    background-position: -800px -1200px;
-  }
-  82.8125%, 84.3749% {
-    background-position: -1000px -1200px;
-  }
-  84.375%, 85.9374% {
-    background-position: -1200px -1200px;
-  }
-  85.9375%, 87.4999% {
-    background-position: -1400px -1200px;
-  }
-  87.5%, 89.0624% {
-    background-position: 0 -1400px;
-  }
-  89.0625%, 90.6249% {
-    background-position: -200px -1400px;
-  }
-  90.625%, 92.1874% {
-    background-position: -400px -1400px;
-  }
-  92.1875%, 93.7499% {
-    background-position: -600px -1400px;
-  }
-  93.75%, 95.3124% {
-    background-position: -800px -1400px;
-  }
-  95.3125%, 96.8749% {
-    background-position: -1000px -1400px;
-  }
-  96.875%, 98.4374% {
-    background-position: -1200px -1400px;
-  }
-  98.4375%, 99.9999% {
-    background-position: -1400px -1400px;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
-
 .tipTitle_a7615c {
   display: flex;
   flex-direction: column;
@@ -8024,17 +7798,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   height: 48px;
 }
 
-/*Store Page*/
-.featureIcon__67ee4 [d="M16.002 8.00598C16.002 10.211 14.208 12.006 12.002 12.006C9.79695 12.006 8.00195 10.211 8.00195 8.00598C8.00195 5.80098 9.79595 4.00598 12.002 4.00598C14.208 4.00598 16.002 5.80098 16.002 8.00598ZM4.00195 19.006C4.00195 15.473 7.29195 13.006 12.002 13.006C16.713 13.006 20.002 15.473 20.002 19.006V20.006H4.00195V19.006Z"] {
-  d: path("M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z");
-}
-.checkmarkIcon_eb34e4 [d="M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z"] {
-  d: path("M4.69 12.73 9.38 17.42 20.1 6.7");
-  fill: none;
-  stroke: var(--status-green-660);
-  stroke-width: 2.5;
-}
-
 /*Popout Containers*/
 .focusLock__10aa5 .header__6d5ea .defaultColor__87d87.heading-lg-semibold__85c17 {
   font-weight: 600;
@@ -9105,7 +8868,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   display: none;
 }
 
-/*Individual Settings Pages*/
 /*My Account*/
 #my-account-tab .accountProfileCard__22589 {
   background-color: var(--background-secondary-alt);
@@ -9187,7 +8949,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   display: none;
 }
 
-/*Two Factor Auth Thing*/
 .userSettingsSecurity__03e70 {
   margin-top: 60px;
 }
@@ -9195,72 +8956,7 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   content: url("data:image/svg+xml,%3Csvg role='img' fill='rgb(61, 181, 129)' fill-rule='evenodd' viewBox='0 0 10 14' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M8 6h-6v-1c0-1.654 1.346-3 3-3s3 1.346 3 3zm-4 6h2v-4h-2zm1-12c-2.762 0-5 2.238-5 5v1 4 2c0 1.104.896 2 2 2h6c1.104 0 2-.896 2-2v-2-4-1c0-2.762-2.238-5-5-5z'/%3E%3C/svg%3E");
 }
 
-/*Profiles*/
-#profile-customization-tab > h2.heading-lg-semibold__85c17:first-child {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  text-transform: uppercase !important;
-  transform: translateY(2px);
-}
-#profile-customization-tab .bioTextArea_a108c9 {
-  background-color: rgba(0,0,0,.1);
-  border: 1px solid rgba(0,0,0,.3);
-}
-#profile-customization-tab .bioTextArea_a108c9:hover {
-  border-color: rgba(0,0,0,1);
-}
-.theme-light #profile-customization-tab .bioTextArea_a108c9 {
-  background-color: rgba(79, 84, 92, 0.02);
-  border-color: rgba(79, 84, 92, 0.3);
-}
-.theme-light #profile-customization-tab .bioTextArea_a108c9:hover {
-  border-color: #b9bbbe;
-}
-#profile-customization-tab .bioTextArea_a108c9:focus-within {
-  border-color: var(--brand-experiment);
-}
-
-.premiumBackground__4ce97 {
-  background: transparent;
-  margin-top: 24px;
-  padding-top: 24px !important;
-  border-top: 1px solid var(--background-modifier-accent);
-}
-.tryItOutSection__0f9fb {
-  width: unset;
-}
-
-.editor_bca4e3 {
-  flex: 1;
-}
-.editor_bca4e3 > div:first-child .heading-xl-extrabold_ce2b9c {
-  display: none;
-}
-#profile-customization-tab .premiumPerksListTitle__0b988, #profile-customization-tab .premiumPerksListTitle__0b988 + button {
-  display: none;
-}
-.customizationSection__7e864:nth-last-child(3) {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-.premiumBackground__4ce97 .h5__884a2 {
-  padding-left: 24px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='premiumIcon__047f7' aria-hidden='true' role='img' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='hsla(240,calc(var(--saturation-factor, 1)*5.9%25),96.7%25, 0.6)' d='M2.98966977,9.35789159 C2.98966977,9.77582472 2.63442946,10.1240466 2.20807287,10.1240466 L1.78171628,10.1240466 C1.35535969,10.1240466 0.999948837,9.77582472 0.999948837,9.35789159 C0.999948837,8.93995846 1.35535969,8.59173658 1.78171628,8.59173658 L2.20807287,8.59173658 C2.63442946,8.59173658 2.98966977,8.93995846 2.98966977,9.35789159 Z M22.2467643,9.14892503 C24.0942527,12.9800344 22.3888264,17.5772989 18.3384388,19.3882867 C14.4302837,21.1297305 9.74036124,19.457998 7.9638186,15.6268886 C7.60857829,14.8607335 7.3954,14.0248673 7.32428372,13.189001 L5.76091938,13.189001 C5.33456279,13.189001 4.97932248,12.840612 4.97932248,12.4226788 C4.97932248,12.0047457 5.33456279,11.6565238 5.76091938,11.6565238 L8.03493488,11.6565238 C8.46129147,11.6565238 8.81653178,11.3083019 8.81653178,10.8903688 C8.81653178,10.4724357 8.46129147,10.1240466 8.03493488,10.1240466 L4.41090388,10.1240466 C3.98454729,10.1240466 3.62913643,9.77582472 3.62913643,9.35789159 C3.62913643,8.93995846 3.98454729,8.59173658 4.41090388,8.59173658 L9.45606667,8.59173658 C9.88242326,8.59173658 10.2376636,8.24334752 10.2376636,7.82541439 C10.2376636,7.40748126 9.88242326,7.05925937 9.45606667,7.05925937 L7.3954,7.05925937 C6.75586512,7.05925937 6.18727597,6.57161499 6.18727597,5.87517123 C6.18727597,5.24827153 6.68474884,4.69091591 7.3954,4.69091591 L15.4250589,4.69091591 C18.267493,4.8303384 20.9676946,6.43235968 22.2467643,9.14892503 Z M13.2662961,8.38056332 C11.0193969,9.3919615 10.0341721,11.9973566 11.065955,14.1998642 C12.097738,16.4023718 14.755645,17.3681317 17.0025442,16.3567335 C19.249614,15.3453354 20.2346682,12.7399402 19.2028853,10.5374326 C18.1711023,8.33492503 15.5131953,7.36916515 13.2662961,8.38056332 Z M16.8462589,9.84548582 L18.2673907,12.2138293 C18.338507,12.3530846 18.338507,12.4227958 18.2673907,12.5620512 L16.8462589,14.9303946 C16.7751426,15.0696499 16.6330806,15.0696499 16.5619643,15.0696499 L13.7906465,15.0696499 C13.6485845,15.0696499 13.5774682,14.9999387 13.5065225,14.9303946 L12.0852202,12.5620512 C12.0142744,12.4227958 12.0142744,12.3530846 12.0852202,12.2138293 L13.5065225,9.84548582 C13.5774682,9.7062305 13.7197008,9.7062305 13.7906465,9.7062305 L16.5619643,9.7062305 C16.7041969,9.63651925 16.7751426,9.7062305 16.8462589,9.84548582 Z'%3E%3C/path%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: 24px 16px;
-}
-
-.banner_b7f1fb {
-  width: 250px;
-  max-height: 98px;
-  -webkit-mask: linear-gradient(0deg, transparent 0%, black 100%);
-}
-
-
 /*Privacy & Safety*/
-/*Radio Bar*/
 [id="privacy-&-safety-tab"] .radioBar__40e1b[style] [data-text-variant="text-md/medium"] {
   color: var(--radio-bar-accent-color);
 }
@@ -9276,199 +8972,8 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] {
   --radio-bar-accent-color: var(--info-danger-foreground) !important;
 }
-[id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"] {
-  font-size: 0;
-  line-height: unset;
-}
-[id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"] {
-  font-size: 0;
-  line-height: unset;
-}
 [id="privacy-&-safety-tab"] .item_b7fb7e[aria-checked="true"] .radioBar__40e1b [data-text-variant="text-md/medium"] {
   color: #fff;
-}
-/*Do not scan Text Replacement*/
-[id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  font-size: 16px;
-  line-height: 20px;
-}
-[id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  font-size: 14px;
-  line-height: 18px;
-}
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Jeg bor på kanten";
-}
-:lang(DA) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Slå dette fra. Scan ikke noget. Gå direkte til den mørke side.";
-}
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Ich lebe am Limit";
-}
-:lang(DE) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Schalte diese Option aus. Durchsuche nichts. Geh direkt zur dunklen Seite.";
-}
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "I live on the edge";
-}
-:lang(EN) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Turn this off. Don't scan anything. Go straight to the dark side.";
-}
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Vivo al límite";
-}
-:lang(ES) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Desactiva esto. No compruebes nada. Ve directo al lado oscuro.";
-}
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Je vis dangereusement";
-}
-:lang(FR) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Désactiver cette option. Ne rien analyser. Allons tout droit vers le côté obscur.";
-}
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Živim na rubu";
-}
-:lang(HR) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Ugasi ovo. Nemoj ništa skenirati. Idi ravno na mračnu stranu.";
-}
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Mi piace rischiare";
-}
-:lang(IT) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Disattiva del tutto il controllo dei messaggi diretti. Da grandi rischi derivano grandi responsabilità.";
-}
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Aš gyvenu ant krašto";
-}
-:lang(LT) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Išjunk. Nieko neskenuok. Eik tiesiai į tamsiąją pusę.";
-}
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Veszélyesen élek";
-}
-:lang(HU) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Kapcsold ki. Ne ellenőrizz semmit. Állj át a sötét oldalra.";
-}
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Ik woon aan de rand";
-}
-:lang(NL) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Schakel dit uit. Scan niets. Ga direct naar de donkere kant.";
-}
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Jeg bor på kanten";
-}
-:lang(NO) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Slå av dette. Ikke skann noe. Gå rett til den mørke siden.";
-}
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Żyję na krawędzi";
-}
-:lang(PL) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Wyłącz to. Nic nie skanuj. Przejdź prosto na ciemną stronę mocy.";
-}
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Eu sou vida louca";
-}
-:lang(PT) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Desative isso. Não analise nada. Vá direto para o lado negro da força.";
-}
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Trăiesc la limită";
-}
-:lang(RO) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Oprește-l. Nu scana nimic. Du-te direct de partea răului.";
-}
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Olen reunalla eläjä";
-}
-:lang(FI) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Kytke tämä pois. Älä tarkista mitään. Siirry pimeälle puolelle.";
-}
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Jag gillar att leva farligt";
-}
-:lang(SV) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Inaktivera detta. Skanna ingenting. Gå över till den mörka sidan.";
-}
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Tôi thuộc kiểu ưa phiêu lưu";
-}
-:lang(VI) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Tắt tính năng này. Không quét gì cả. Đi thẳng đến mặt tối.";
-}
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Tehlike içinde yaşıyorum";
-}
-:lang(TR) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Bunu kapat. Hiçbir şeyi tarama. Direkt karanlık tarafa geç.";
-}
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Bydlím na okraji";
-}
-:lang(CS) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Vypněte to. Nic neskenujte. Jděte přímo na temnou stranu.";
-}
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Ζω στα άκρα";
-}
-:lang(EL) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Απενεργοποίησέ το. Μην ελέγχεις τίποτα. Πήγαινε κατευθείαν στη σκοτεινή πλευρά.";
-}
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Живея на ръба";
-}
-:lang(BG) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Изключете това. Не сканирайте нищо. Отидете направо на тъмната страна.";
-}
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Я рисковый человек";
-}
-:lang(RU) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Выключите это. Не надо ничего проверять. Отправляюсь на темную сторону.";
-}
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "Я ризикова людина";
-}
-:lang(UK) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "Вимкніть це. Не треба нічого перевіряти. Відправляюсь на темну сторону.";
-}
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "मैं किनारे पर रहता हूँ";
-}
-:lang(HI) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "इसे बंद कर दें। कुछ भी स्कैन न करें। सीधे डार्क साइड पर जाएं।";
-}
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "ฉันชอบความท้าทาย";
-}
-:lang(TH) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "ไม่ต้องคัดกรองข้อความใดๆทั้งสิ้น มุ่งหน้าสู่ด้านมืด!";
-}
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "我活在社会边缘";
-}
-:lang(ZH-CN) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "关闭此功能。不扫描任何东西。直走到黑暗的一面。";
-}
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "そんなの平気さ";
-}
-:lang(JA) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "機能をオフにします。一切スキャンしません。闇に堕ちるがいい。";
-}
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "我活在社會邊緣";
-}
-:lang(ZH-TW) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "關閉此功能。 不掃描任何東西。 直到黑暗的那一邊。";
-}
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-md/medium"]:before {
-  content: "나는 가장자리에 산다";
-}
-:lang(KO) [id="privacy-&-safety-tab"] .radioBar__40e1b[style*="red"] [data-text-variant="text-sm/normal"]:before {
-  content: "이 기능을 끕니다. 아무것도 스캔하지 마십시오. 어두운 면으로 바로 가십시오.";
 }
 
 /*Devices Tab*/
@@ -9534,7 +9039,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
   border-radius: var(--radius-xsa);
   padding: 20px;
 }
-
 /*Connection Icons*/
 #connections-tab .inner__51a43,
 .connectionsContainer-crWFPm {
@@ -9942,9 +9446,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 .premiumFeatureBorder__9bbb3 .presets__14d08 {
   display: none;
 }
-
-.title_cd37f6 {
-}
 .title_cd37f6 > [role="button"][aria-label*="Nitro"] {
   order: -1;
 }
@@ -9975,11 +9476,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 /*Voice and Video Tab*/
 #app-mount .notches__065e9 {
   color: var(--background-primary);
-}
-
-/*Party Mode Tab*/
-#powermode-settings-tab {
-  
 }
 
 /*Text and Images Tab*/
@@ -10034,9 +9530,6 @@ div:is(.usernameSection__53868, .container__22d2b) > div:not([class]) {
 .soundRow__20a10:hover .title__28a65 {
   transform: none;
 }
-
-/*Keybinds Tab*/
-
 
 /*Language Tab*/
 /*Radio Bar*/
@@ -10433,6 +9926,12 @@ svg {
 /*DiscordLogo*/[d^="M19.73 4.87a18.2 18.2 0 0 0-4.6-1.44c-.21.4-.4.8-.58 1.21-1.69-.25-3.4-.25-5.1 0-.18-.41-.37-.82-.59-1.2-1.6.27-3.14.75-4.6 1.43A19.04 19.04 0 0 0 .96 17.7a18.43 18.43 0 0 0 5.63 2.87c.46-.62.86-1.28 1.2-1.98-.65-.25-1.29-.55-1.9-.92.17-.12.32-.24.47-.37 3.58 1.7 7.7 1.7 11.28 0l.46.37c-.6.36-1.25.67-1.9.92.35.7.75 1.35 1.2 1.98 2.03-.63 3.94-1.6 5.64-2.87.47-4.87-.78-9.09-3.3-12.83ZM8.3 15.12c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.89 2.27-2 2.27Zm7.4 0c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.88 2.27-2 2.27Z"] {
 	d: path('M17.7123 20.4774C17.7123 20.4774 16.9727 19.6095 16.3562 18.8425 19.0479 18.0957 20.0754 16.4406 20.0754 16.4406 19.2329 16.9856 18.4316 17.3691 17.7123 17.6315 16.685 18.0553 15.6987 18.3379 14.7329 18.4994 12.7603 18.8627 10.9521 18.7618 9.411 18.4792 8.2398 18.2572 7.2329 17.9343 6.3904 17.6113 5.9178 17.4297 5.4041 17.2076 4.8904 16.925 4.8288 16.8846 4.7671 16.8644 4.7055 16.8241 4.6644 16.8039 4.6439 16.7837 4.6233 16.7636 4.2534 16.5617 4.048 16.4204 4.048 16.4204 4.048 16.4204 5.0343 18.0351 7.6439 18.8022 7.0274 19.5692 6.2672 20.4774 6.2672 20.4774 1.726 20.3362 0 17.4094 0 17.4094 0 10.91 2.9588 5.642 2.9588 5.642 5.9178 3.462 8.7329 3.5225 8.7329 3.5225L8.9383 3.7648C5.2398 4.8144 3.5343 6.4089 3.5343 6.4089 3.5343 6.4089 3.9864 6.1668 4.7466 5.8236 6.9452 4.8749 8.6918 4.6125 9.411 4.552 9.5343 4.5318 9.637 4.5116 9.7603 4.5116 11.0137 4.3501 12.4316 4.3098 13.911 4.4713 15.8631 4.6933 17.9589 5.2584 20.0959 6.4089 20.0959 6.4089 18.4726 4.8951 14.9794 3.8455L15.2671 3.5225C15.2671 3.5225 18.0822 3.462 21.0411 5.642 21.0411 5.642 24 10.91 24 17.4094 24 17.4094 22.2534 20.3362 17.7123 20.4774ZM8.1575 11.0513C6.9863 11.0513 6.0616 12.0606 6.0616 13.2918 6.0616 14.5231 7.0068 15.5323 8.1575 15.5323 9.3288 15.5323 10.2534 14.5231 10.2534 13.2918 10.2739 12.0606 9.3288 11.0513 8.1575 11.0513M15.6576 11.0513C14.4863 11.0513 13.5617 12.0606 13.5617 13.2918 13.5617 14.5231 14.5068 15.5323 15.6576 15.5323 16.8288 15.5323 17.7534 14.5231 17.7534 13.2918 17.7534 12.0606 16.8288 11.0513 15.6576 11.0513');
 }
+/*DiscordText*/[d^="M3 4.78717H6.89554C7.83025"] {
+  d: path("M3.5764 3.1413 0 3.1413 0 7.2283 2.3807 9.4022 2.3807 5.4348 3.6626 5.4348C4.4705 5.4348 4.8691 5.837 4.8691 6.4674L4.8691 9.5C4.8691 10.1304 4.4921 10.5543 3.6626 10.5543L0 10.5543 0 12.8587 3.5764 12.8587C5.4939 12.8696 7.2929 11.9022 7.2929 9.663L7.2929 6.3913C7.2929 4.1304 5.4939 3.1413 3.5764 3.1413ZM22.3311 9.6739 22.3311 6.3261C22.3311 5.1196 24.464 4.837 25.1104 6.0543L27.0817 5.2391C26.3169 3.5109 24.8949 3 23.7207 3 21.8033 3 19.9073 4.1304 19.9073 6.3261L19.9073 9.6739C19.9073 11.8804 21.8033 13 23.6776 13 24.8841 13 26.3276 12.3913 27.1248 10.8152L25.0134 9.8261C24.4963 11.1739 22.3311 10.8478 22.3311 9.6739ZM15.803 6.7826C15.0598 6.6196 14.5642 6.3478 14.5319 5.8804 14.575 4.75 16.2878 4.7174 17.2896 5.7935L18.8732 4.5543C17.8821 3.3261 16.7618 3 15.5984 3 13.8425 3 12.1404 4 12.1404 5.913 12.1404 7.7717 13.5409 8.7609 15.0813 9 15.8677 9.1087 16.7402 9.4239 16.7187 9.9783 16.6541 11.0217 14.5427 10.9674 13.5839 9.7826L12.065 11.2391C12.9591 12.4022 14.1764 13 15.3183 13 17.0742 13 19.024 11.9674 19.0994 10.087 19.2071 7.6957 17.5051 7.0978 15.803 6.7826ZM8.5963 12.8587 11.0093 12.8587 11.0093 3.1413 8.5963 3.1413 8.5963 12.8587ZM49.2835 3.1413 45.7071 3.1413 45.7071 7.2283 48.0878 9.4022 48.0878 5.4348 49.3589 5.4348C50.1669 5.4348 50.5654 5.837 50.5654 6.4674L50.5654 9.5C50.5654 10.1304 50.1884 10.5543 49.3589 10.5543L45.6963 10.5543 45.6963 12.8587 49.2728 12.8587C51.1902 12.8696 52.9892 11.9022 52.9892 9.663L52.9892 6.3913C53 4.1304 51.201 3.1413 49.2835 3.1413ZM31.7354 3C29.7533 3 27.7819 4.0978 27.7819 6.337L27.7819 9.663C27.7819 11.8913 29.764 13 31.7569 13 33.739 13 35.7104 11.8913 35.7104 9.663L35.7104 6.337C35.7104 4.1087 33.7175 3 31.7354 3ZM33.2866 9.663C33.2866 10.3587 32.511 10.7174 31.7461 10.7174 30.9705 10.7174 30.1949 10.3696 30.1949 9.663L30.1949 6.337C30.1949 5.6196 30.949 5.2391 31.703 5.2391 32.4894 5.2391 33.2866 5.587 33.2866 6.337L33.2866 9.663ZM44.3606 6.337C44.3067 4.0543 42.777 3.1413 40.8057 3.1413L36.9815 3.1413 36.9815 12.8696 39.4268 12.8696 39.4268 9.7717 39.8577 9.7717 42.0768 12.8587 45.0931 12.8587 42.4862 9.5217C43.6496 9.1522 44.3606 8.1413 44.3606 6.337ZM40.8488 7.6522 39.4268 7.6522 39.4268 5.4348 40.8488 5.4348C42.3785 5.4348 42.3785 7.6522 40.8488 7.6522Z");
+}
+[d^="M3 4.78717H6.89554C7.83025"] ~ path {
+  display: none;
+}
 /*Activities*/[d^="M22 4"] {
   d: path("M4.92871 13.4149L10.5857 19.0709L18.3639 11.2927C19.7781 9.87859 22.6066 6.48376 21.1923 2.80748C17.5153 1.3932 14.1213 4.22173 12.7074 5.63625L4.92871 13.4149ZM16.064 9.93309C17.1686 9.93309 18.064 9.03766 18.064 7.93309C18.064 6.82852 17.1686 5.93309 16.064 5.93309C14.9594 5.93309 14.064 6.82852 14.064 7.93309C14.064 9.03766 14.9594 9.93309 16.064 9.93309Z M3.41357 16.7844C2.34946 17.8496 2.00004 22 2.00004 22C2.00004 22 6.15125 21.6521 7.21627 20.5869C7.71243 20.0915 7.96638 19.4494 8 18.8004L5.21285 18.7866L5.19829 16C4.54947 16.0336 3.90973 16.2881 3.41357 16.7844Z M9.17144 9.17151H3.51459L1.74684 10.9393L6.34302 11.9999L9.17144 9.17151Z M14.8283 14.8283V20.4852L13.0606 22.2529L11.9999 17.6568L14.8283 14.8283Z");
 }
@@ -10790,7 +10289,6 @@ svg {
 /*Headset*/[d^="M12 3a9 9 0 0 0-8.95 10h1.87a5 5 0 0 1 4.1 2.13l1.37 1.97a3.1 3.1 0 0 1-.17 3.78 2.85 2.85 0 0 1-3.55.74 11 11 0 1 1 10.66 0c-1.27.71-2.73.23-3.55-.74a3.1 3.1 0 0 1-.17-3.78l1.38-1.97a5 5 0 0 1 4.1-2.13h1.86A9 9 0 0 0 12 3Z"] {
   d: path("M3 11C3 6 7 2 12 2V4C8.13401 4 5 7.13401 5 11V13H9V21H6C4.34315 21 3 19.6569 3 18V11ZM21 11V18C21 19.6569 19.6569 21 18 21H15V13H19V11C19 7.13401 15.866 4 12 4V2C17 2 21 6 21 11Z");
 }
-/*HeadsetSlashPanel*/
 /*HeadsetSlash*/[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM17.06 2.94a.48.48 0 0 0-.11-.77A11 11 0 0 0 2.18 16.94c.14.3.53.35.76.12l3.2-3.2c.25-.25.15-.68-.2-.76a5 5 0 0 0-1.02-.1H3.05a9 9 0 0 1 12.66-9.2c.2.09.44.05.59-.1l.76-.76ZM20.2 8.28a.52.52 0 0 1 .1-.58l.76-.76a.48.48 0 0 1 .77.11 11 11 0 0 1-4.5 14.57c-1.27.71-2.73.23-3.55-.74a3.1 3.1 0 0 1-.17-3.78l1.38-1.97a5 5 0 0 1 4.1-2.13h1.86a9.1 9.1 0 0 0-.75-4.72ZM10.1 17.9c.25-.25.65-.18.74.14a3.1 3.1 0 0 1-.62 2.84 2.85 2.85 0 0 1-3.55.74.16.16 0 0 1-.04-.25l3.48-3.48Z"] {
   d: path("M3 11C3 9.89 3.2 8.82 3.57 7.84L5.17 9.44C5.06 9.94 5 10.46 5 11V13H8.73L9 13.27V21H5C5 21 3 20.6569 3 19V11ZM15 21V19.27L16.73 21H15Z M12 2C9.47 2 7.18 3.04 5.55 4.72L6.96 6.14C8.23 4.82 10 4 12 4C15.866 4 19 7.13401 19 11V13H15V14.18L20.5 19.67C20.81 19.19 21 18.62 21 18V11C21 6.02944 16.9706 2 12 2Z");
 }
@@ -11492,146 +10990,6 @@ div:is(.avatarWrapper_f77579, .topSection_dfb73b) .wrapper_edb6e0:is([aria-label
 #app-mount .tooltipPrimary_e5c00d .tooltipPointer_a79354 {
   border-top-color: #000;
 }
-/*Upsell*/.caretBottomCenter__9b96e:after, .caretBottomLeft__2b5a3:after, .bottomPointer_f7cd7f, .leftPointer__95323 {
-  border-top-color: hsla(0, 0%, 100%, .98) !important;
-}
-.caretLeftCenter__85989:after {
-  border-right-color: hsla(0, 0%, 100%, .98) !important;
-}
-.caretRightCenter__04179:after {
-  border-left-color: hsla(0, 0%, 100%, .98) !important;;
-}
-.coachmark__1dce6 {
-  margin: 0;
-}
-.coachmark__1dce6:after {
-  right: 100% !important;
-  border-right-color: var(--brand-experiment) !important;
-}
-.upsellTooltipWrapper_df8272, .content__73f32 {
-  max-width: unset;
-  width: 400px;
-  padding: 0;
-  background-color: hsla(0, 0%, 100%, .98);
-  background-image: unset;
-  border-radius: var(--radius-xxs);
-  padding-top: 76px;
-}
-.content__73f32 {
-  gap: unset;
-}
-.upsellTooltipHeader_d74752, .header__7f549 {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: unset;
-  padding: 18px;
-  margin: 0 !important;
-  height: 40px;
-  font-size: 20px;
-  font-weight: 500;
-  color: #fff;
-  border-radius: 3px 3px 0 0;
-  background-color: var(--brand-experiment);
-  background-image: url(https://cdn.discordapp.com/attachments/1154110577082372116/1154110744930041876/tutorial_header.png);
-  background-repeat: no-repeat;
-  background-size: 400px 60px;
-  background-position: 0 100%;
-}
-.header__7f549 {
-  display: flex;
-  align-items: center;
-  text-indent: unset;
-}
-.contentPremium_d38e6e .header__7f549 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 18px;
-  height: 40px;
-  font-size: 20px;
-  font-weight: 500;
-  color: #fff;
-  border-radius: 3px 3px 0 0;
-  background: url(https://cdn.discordapp.com/attachments/1154110577082372116/1154110744930041876/tutorial_header.png), linear-gradient(270deg,var(--premium-tier-2-pink),var(--premium-tier-2-purple));
-  background-repeat: no-repeat;
-  background-size: 400px 60px, 100%;
-  background-position: 0 100%;
-}
-.header__7f549 .premiumIcon_aca97a {
-  margin: 0 4px 0 0;
-}
-.upsellTooltipWrapper_df8272 img, .content__73f32 > div:is(.art_eaee27, .artInline_ec9433, .art__91923, .container__89544) {
-  border-radius: 0;
-  margin-top: 18px;
-  margin-bottom: 0;
-  max-width: calc(100% - 36px);
-}
-.content__904b3, .body__3aff0 [data-text-variant="text-sm/normal"] {
-  text-align: start;
-  padding: 0 18px;
-  font-size: 14px;
-  color: hsl(216,calc(var(--saturation-factor, 1) * 4.5%),56.1%) !important;
-  --text-link: currentColor;
-}
-[data-text-variant="text-sm/normal"] > [data-text-variant="text-sm/normal"] {
-  color: inherit !important;
-}
-.upsellTooltipWrapper_df8272 .upsellTooltipHeader_d74752 + .content__904b3, .body__3aff0 [data-text-variant="text-sm/normal"] {
-  padding-top: 18px;
-}
-.content__904b3 p {
-  text-align: start;
-  margin: 0 0 20px;
-}
-.content_f02134 {
-  text-align: inherit;
-}
-.upsellButtonsContainer__5873b, .content__73f32 .buttonContainerHorizontal__6dfc0, .content__73f32 .buttonContainerVertical__4e562 {
-  margin: 0;
-  padding: 18px;
-  flex-direction: unset;
-  justify-content: space-between;
-  align-items: end;
-}
-.upsellButtonsContainer__5873b button, .content__73f32 button {
-  width: auto;
-  height: unset;
-  min-width: unset;
-  min-height: unset;
-  line-height: unset;
-  margin-bottom: 0 !important;
-  flex: unset !important;
-}
-.upsellButtonsContainer__5873b .lookFilled__19298, .content__73f32 .lookLink__93965, .content__73f32 .colorWhite__43488 + button {
-  padding: 0;
-  height: fit-content;
-  background: transparent !important;
-  font-size: 12px;
-  color: var(--brand-experiment) !important;
-}
-.upsellButtonsContainer__5873b .lookFilled__19298:hover, .content__73f32 .lookLink__93965:hover, .content__73f32 .colorWhite__43488 + button:hover {
-  text-decoration: underline;
-}
-.upsellButtonsContainer__5873b .lookFilled__19298 .contents_fb6220 {
-  overflow: visible;
-}
-.upsellButtonsContainer__5873b .lookInverted_ee4261, .content__73f32 .lookInverted_ee4261, .content__73f32 .colorWhite__43488 {
-  padding: 10px 20px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 500;
-  background-color: var(--brand-experiment);
-  color: #fff;
-  order: 1;
-}
-.upsellButtonsContainer__5873b .lookInverted_ee4261:hover, .content__73f32 .lookInverted_ee4261:hover, .content__73f32 .colorWhite__43488:hover {
-  background-color: var(--brand-experiment-530);
-}
 
 /*Badge*/
 .base__92a12:not(.iconBadge__2abac), .newBadge__68cd2 {
@@ -11729,62 +11087,9 @@ mask > use[href$="lower_badge_masks"] {
   display: none;
 }
 
-/*Message Spacing*/
-.group-spacing-0 {
-  --f-msg-spacing: 20px;
-}
-.group-spacing-4 {
-  --f-msg-spacing: 25px;
-}
-.group-spacing-8 {
-  --f-msg-spacing: 30px;
-}
-.group-spacing-16 {
-  --f-msg-spacing: 40px;
-}
-.group-spacing-24 {
-  --f-msg-spacing: 50px;
-}
-
-/*Easter Eggs*/
-@keyframes egg_zereZoomHide {
-  4%, 96% {
-    transform: scale(0.75);
-    opacity: 0;
-  }
-}
-@keyframes egg_zereZoomShow {
-  0%, 5%, 95%, 100% {
-    transform: scale(0.75);
-    opacity: 0;
-  }
-  7%, 93% {
-    transform: none;
-    opacity: 1;
-  }
-}
-.layerContainer_d5a653:has(.error__90447 + .input__0c269 .input_d266e7[value="zere zoom"]) .focusLock__10aa5 {
-  animation: egg_zereZoomHide 4s;
-}
-.layerContainer_d5a653:has(.error__90447 + .input__0c269 .input_d266e7[value="zere zoom"]) .layer_ad604d:after {
-  animation: egg_zereZoomShow 4s;
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  background: url('https://cdn.discordapp.com/emojis/477563686765068359.webp?size=96&quality=lossless');
-  background-repeat: no-repeat;
-  background-size: 384px 384px;
-  background-position: center;
-  opacity: 0;
-}
-
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V277 \a \a are you guys going trick or treating? \a \a";
+  content: "DTM-18 Public V278 \a \a lame af \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -12765,6 +12070,21 @@ html,[data-popout-root] {
   --metaicon-video-large: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns' width='110px' height='140px' viewBox='0 0 110 140' version='1.1'%3E%3C!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon-file-large-video%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='filter-1'%3E%3CfeOffset dx='0' dy='2' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='7' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' type='matrix' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='filter-2'%3E%3CfeOffset dx='-1' dy='3' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='0' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' type='matrix' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg id='Drag-&amp;-Drop' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cg id='Desktop-HD---Drag-&amp;-Drop,-Droplet' sketch:type='MSArtboardGroup' transform='translate(-1029.000000, -867.000000)'%3E%3Cg id='Group' sketch:type='MSLayerGroup' transform='translate(239.000000, 880.000000)'%3E%3Cg id='icon-file-large-video' transform='translate(810.000000, 0.000000)' sketch:type='MSShapeGroup'%3E%3Cg id='Group'%3E%3Cpath d='M0,6.99306484 C0,3.68318653 2.68269472,1 5.99816412,1 L50.3457791,1 C54.8977123,1 70,16.3919735 70,21.0914279 L70,95.0027386 C70,98.3149346 67.3201398,101 64.0015788,101 L5.99842118,101 C2.68558464,101 0,98.312319 0,95.0069352 L0,6.99306484 Z' id='Rectangle-113' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23filter-1)'/%3E%3Cpath d='M12,1 L14,1 L14,101 L12,101 L12,1 Z M56,1 L58,1 L58,101 L56,101 L56,1 Z M0,92 L12,92 L12,94 L0,94 L0,92 Z M58,92 L70,92 L70,94 L58,94 L58,92 Z M0,80 L12,80 L12,82 L0,82 L0,80 Z M58,80 L70,80 L70,82 L58,82 L58,80 Z M0,68 L12,68 L12,70 L0,70 L0,68 Z M58,68 L70,68 L70,70 L58,70 L58,68 Z M0,56 L12,56 L12,58 L0,58 L0,56 Z M58,56 L70,56 L70,58 L58,58 L58,56 Z M0,44 L12,44 L12,46 L0,46 L0,44 Z M58,44 L70,44 L70,46 L58,46 L58,44 Z M0,32 L12,32 L12,34 L0,34 L0,32 Z M58,32 L70,32 L70,34 L58,34 L58,32 Z M0,20 L12,20 L12,22 L0,22 L0,20 Z M58,20 L70,20 L70,22 L58,22 L58,20 Z M0,8 L12,8 L12,10 L0,10 L0,8 Z' id='Rectangle-611' fill='%237289DA'/%3E%3Cpath d='M51,3.99706188 C51,0.684976062 52.8947487,-0.105251323 55.2418213,2.24182129 L68.7581787,15.7581787 C71.1008719,18.1008719 70.3133742,20 67.0029381,20 L54.0013869,20 C52.3437667,20 51,18.6569187 51,16.9986131 L51,3.99706188 Z' id='Path' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23filter-2)'/%3E%3Cpath d='M54,7 L54,14.5023733 C54,15.8817744 55.1096621,17 56.5,17 L59,17' id='Path-157' stroke-opacity='0.6' stroke='%23C9D2F0' stroke-width='2'/%3E%3Cpolygon id='Triangle-1' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' transform='translate(34.952351, 51.000068) rotate(-270.000000) translate(-34.952351, -51.000068) ' points='34.9522836 39.9524194 44.9522836 59.9524194 24.9522836 59.9524194 '/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   --metaicon-webcode-small: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns' width='28px' height='40px' viewBox='0 0 28 40' version='1.1'%3E%3C!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon-file-small-webcode%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='filter-1'%3E%3CfeOffset dx='-1' dy='2' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='0' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' type='matrix' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg id='Drag-&amp;-Drop' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cg id='Desktop-HD---Drag-&amp;-Drop,-Small-Icons---Dark' sketch:type='MSArtboardGroup' transform='translate(-436.000000, -524.000000)'%3E%3Cg id='Group' sketch:type='MSLayerGroup' transform='translate(404.000000, 526.000000)'%3E%3Cg id='icon-file-small-webcode' transform='translate(34.000000, 0.000000)'%3E%3Cg id='Group' stroke-width='2' sketch:type='MSShapeGroup'%3E%3Cpath d='M0,3.00741988 C0,1.34646775 1.34252415,0 2.99998588,0 L15.1166483,0 C17.0807354,0 24,6.91885725 24,8.87457593 L24,33.0035574 C24,34.6584469 22.6582294,36 21.0089096,36 L2.99109042,36 C1.33915679,36 0,34.6544607 0,32.9925801 L0,3.00741988 Z' id='Rectangle-113' stroke='%237289DA' fill='%23F4F6FC'/%3E%3Cpath d='M17,1.09677336 C17,0.542040316 17.3147964,0.407097791 17.7133118,0.80556379 L23.1952031,6.28677654 C23.5891543,6.68067898 23.4552279,7 22.9039575,7 L18.0045574,7 C17.4497557,7 17,6.54676916 17,5.99556698 L17,1.09677336 Z' id='Path' stroke='%237289DA' fill='%23F4F6FC' filter='url(%23filter-1)'/%3E%3Cpath d='M13,3 L4.49710104,3 C3.67027497,3 3,3.66579723 3,4.5 L3,6' id='Path-156' stroke='%23C9D2F0' stroke-linecap='round' stroke-linejoin='round' opacity='0.6'/%3E%3C/g%3E%3Ctext id='/&gt;' opacity='0.800000012' sketch:type='MSTextLayer' font-family='Source Code Pro' font-size='12' font-weight='420' sketch:alignment='middle' line-spacing='18' letter-spacing='-0.300000012' fill='%23697EC4'%3E%3Ctspan x='5.11901409' y='26.4705882'%3E/%3C/tspan%3E%3Ctspan x='12.0190141' y='26.4705882'%3E&gt;%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   --metaicon-webcode-large: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='130' viewBox='0 0 100 130'%3E%3Ctitle%3Eicon-file-large-webcode%3C/title%3E%3Cdefs%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='a'%3E%3CfeOffset dy='2' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur stdDeviation='7' in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3Cfilter x='-50%25' y='-50%25' width='200%25' height='200%25' filterUnits='objectBoundingBox' id='b'%3E%3CfeOffset dx='-1' dy='3' in='SourceAlpha' result='shadowOffsetOuter1'/%3E%3CfeGaussianBlur in='shadowOffsetOuter1' result='shadowBlurOuter1'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0' in='shadowBlurOuter1' result='shadowMatrixOuter1'/%3E%3CfeMerge%3E%3CfeMergeNode in='shadowMatrixOuter1'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 6.993C0 3.683 2.68 1 5.99 1h44.287C54.852 1 70 15.79 70 20.19v74.816c0 3.31-2.68 5.994-5.998 5.994H5.998C2.686 101 0 98.312 0 95.007V6.993z' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23a)' transform='translate(15 12)'/%3E%3Cpath d='M51 3.997c0-3.312 1.895-4.102 4.242-1.755l13.516 13.516C71.1 18.1 70.313 20 67.003 20H54c-1.656 0-3-1.343-3-3V3.996z' stroke='%237289DA' stroke-width='2' fill='%23F4F6FC' filter='url(%23b)' transform='translate(15 12)'/%3E%3Cpath d='M61 17H22.985c-2.76 0-4.997 2.23-4.997 5.002V29' stroke='%23C9D2F0' stroke-width='2' opacity='.6'/%3E%3Cpath d='M69 19v7.502C69 27.882 70.11 29 71.5 29H74' stroke-opacity='.6' stroke='%23C9D2F0' stroke-width='2'/%3E%3Cpath d='M39.37 89.8h-2.58l9.84-26.1h2.58l-9.84 26.1zm25.06-13.68l-11.31 7.56v-2.79l8.76-5.79v-.12l-8.76-5.79V66.4l11.31 7.56v2.16z' opacity='.8' fill='%23697EC4'/%3E%3C/g%3E%3C/svg%3E");
+}
+.group-spacing-0 {
+  --f-msg-spacing: 20px;
+}
+.group-spacing-4 {
+  --f-msg-spacing: 25px;
+}
+.group-spacing-8 {
+  --f-msg-spacing: 30px;
+}
+.group-spacing-16 {
+  --f-msg-spacing: 40px;
+}
+.group-spacing-24 {
+  --f-msg-spacing: 50px;
 }
 :root {
   --system-message-icon-join: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M18 0H0v18h18z'/%3E%3Cpath fill='%2343B581' d='M0 8h14.2l-3.6-3.6L12 3l6 6-6 6-1.4-1.4 3.6-3.6H0'/%3E%3C/g%3E%3C/svg%3E");

@@ -320,7 +320,7 @@
     transform: none;
 }
 
-.container__11d72 {
+.container__11d72, .wrapper_bd2abe {
     z-index: 1004;
 }
 
@@ -379,17 +379,6 @@
 
 .full-motion .recentMentionsPopout__826a9 {
     animation: recentPanelOpen .5s ease;
-}
-
-@keyframes recentPanelOpen {
-    0% {
-        top: calc(100vh - 72px);
-        min-height: unset;
-    }
-    to {
-        top: 32px;
-        min-height: 200px;
-    }
 }
 
 .submenu_acf564 > .scroller__750f5 > div:not([class]):has(#account-status-picker--dnd) {
@@ -487,16 +476,7 @@
 .full-motion .base__512ed {
     animation: baselineFade .25s ease forwards;
 }
-@keyframes baselineFade {
-    from {
-        opacity: 0;
-        transform: translateY(24px);
-    }
-    to {
-        opacity: 1;
-        transform: none;
-    }
-}
+
 .form__13a2c:before {
     display: none;
 }
@@ -588,6 +568,51 @@
 .tutorialContainer__890ea + .listItem_fa7b36:has(.guildSeparator_dcb3cc) {
     height: 0;
     margin: 0;
+}
+
+@keyframes baselineFade {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes recentPanelOpen {
+    0% {
+        top: calc(100vh - 72px);
+        min-height: unset;
+    }
+    to {
+        top: 32px;
+        min-height: 200px;
+    }
+}
+@keyframes profileWarp {
+    0% {
+        background-position: 0 800px;
+    }
+    to {
+        background-position: 0 0px;
+    }
+}
+@keyframes profileWarpPseudo {
+    0% {
+        min-height: 800px;
+    }
+    to {
+        min-height: 0px;
+    }
+}
+@keyframes profileFade {
+    0% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 :root {
@@ -1304,32 +1329,6 @@
 }
 .accountProfilePopoutWrapper_af829a .profileBadges__7a7cb, .accountProfilePopoutWrapper_af829a .divider__2bbbc, .accountProfilePopoutWrapper_af829a .scroller__83262 {
     display: none;
-}
-
-
-@keyframes profileWarp {
-    0% {
-        background-position: 0 800px;
-    }
-    to {
-        background-position: 0 0px;
-    }
-}
-@keyframes profileWarpPseudo {
-    0% {
-        min-height: 800px;
-    }
-    to {
-        min-height: 0px;
-    }
-}
-@keyframes profileFade {
-    0% {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 .accountProfilePopoutWrapper_af829a .userProfileInner__8065b {

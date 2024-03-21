@@ -13,6 +13,7 @@
 .sidebar_ded4b5 {
     width: 250px;
     min-width: 250px !important;
+    background: var(--bg-overlay-3,var(--background-secondary));
     border-radius: var(--radius-lg) 0 0 var(--radius-lg) !important;
 }
 .sidebar_ded4b5 .scrollerBase_dc3aa9::-webkit-scrollbar-track {
@@ -118,7 +119,8 @@
     left: 0;
     right: 0;
     height: 8px;
-    background: linear-gradient(transparent, var(--background-secondary));
+    background: var(--bg-overlay-3,var(--background-secondary));
+    -webkit-mask-image: linear-gradient(transparent, black);
     z-index: -1;
 }
 .panels__58331 > * {

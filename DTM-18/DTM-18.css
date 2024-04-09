@@ -8897,7 +8897,7 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
 #my-account-tab .usernameInnerRow_c95e17 .text-md-normal__6e567:nth-child(2) {
   color: var(--text-muted) !important;
 }
-#my-account-tab .usernameInnerRow_c95e17:not(:has(:nth-child(2))) .text-md-normal__6e567:before {
+.field__69fa0:nth-child(2) .text-md-normal__6e567:before {
   content: "@";
   color: var(--text-muted);
 }
@@ -11719,6 +11719,7 @@ html,[data-popout-root] {
 :root {
   --font-primary: "Whitney Asset","Whitney Data","gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   --font-display: var(--font-primary);
+  --font-code: Consolas,"Liberation Mono",Menlo,Courier,monospace;
   --yellow: #faa61a;
   --yellow-hover: #e19517;
   --temporary-halloween-orange: hsl(var(--temporary-halloween-orange-hsl) / 1);

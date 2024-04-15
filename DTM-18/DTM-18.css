@@ -1102,6 +1102,32 @@
   font-size: 14px;
   margin-bottom: 8px;
 }
+.links_ab4aa2 > svg {
+  display: none;
+}
+.links_ab4aa2 {
+  font-size: 15px;
+  line-height: 15px;
+  transition: opacity .5s,color .5s;
+}
+.links_ab4aa2:before {
+  display: unset;
+  content: "";
+  display: inline-block;
+  margin-right: 6px;
+  height: 15px;
+  vertical-align: bottom;
+}
+.twitterLink__76f6a:before {
+  background: url("data:image/svg+xml,%3Csvg width='16px' height='12px' viewBox='0 0 16 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'%3E%3C!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon-twitter-status%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs/%3E%3Cg id='Welcome' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cg id='Desktop-HD---Compact' sketch:type='MSArtboardGroup' transform='translate(-614.000000, -949.000000)' fill='%23FFFFFF'%3E%3Cg id='Group' sketch:type='MSLayerGroup' transform='translate(613.000000, 882.000000)'%3E%3Cpath d='M17,68.4205367 C16.4113025,68.6614786 15.7786532,68.824321 15.1146348,68.8975596 C15.7924065,68.522617 16.3128644,67.9289309 16.5579648,67.2215521 C15.9237353,67.5686792 15.2212078,67.8208013 14.4734994,67.9566924 C13.8746772,67.3679212 13.0215663,67 12.0774498,67 C10.2645378,67 8.79475475,68.3563719 8.79475475,70.0293548 C8.79475475,70.2667861 8.8238414,70.4980061 8.87979078,70.7197202 C6.15161491,70.5933891 3.73285782,69.3873291 2.11383738,67.5545284 C1.83128132,68.0019534 1.66940268,68.5223469 1.66940268,69.0775234 C1.66940268,70.1285186 2.24897034,71.0557751 3.12976334,71.5990152 C2.591631,71.5832981 2.08551154,71.447029 1.64289111,71.2201298 C1.64265701,71.2327683 1.64265701,71.2454608 1.64265701,71.2582074 C1.64265701,72.7260035 2.77416877,73.9504271 4.27584769,74.2286905 C4.00037309,74.2979323 3.71038443,74.3349297 3.41097333,74.3349297 C3.19946596,74.3349297 2.99381104,74.3159719 2.79342331,74.2805948 C3.21111233,75.4841703 4.42338783,76.3600086 5.85981199,76.3844755 C4.7363766,77.1969592 3.32096273,77.6812736 1.78305717,77.6812736 C1.51811698,77.6812736 1.2568053,77.6669607 1,77.6389832 C2.45269395,78.4985102 4.17817038,79 6.0319324,79 C12.0697831,79 15.3714986,74.3838634 15.3714986,70.3806407 C15.3714986,70.2492866 15.3683383,70.1186346 15.3620176,69.9887388 C16.0033286,69.5616218 16.5598961,69.0280496 17,68.4205367' id='icon-twitter-status' sketch:type='MSShapeGroup'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") 50% no-repeat;
+  background-size: 16px 12px;
+  width: 16px;
+}
+.statusLink_d5e803:before {
+  background: url("data:image/svg+xml,%3Csvg width='14px' height='14px' viewBox='0 0 14 14' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns'%3E%3C!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch --%3E%3Ctitle%3Eicon-server-status%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cdefs/%3E%3Cg id='Welcome' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cg id='Desktop-HD---Compact' sketch:type='MSArtboardGroup' transform='translate(-716.000000, -948.000000)' fill='%23FFFFFF'%3E%3Cg id='Group' sketch:type='MSLayerGroup' transform='translate(613.000000, 882.000000)'%3E%3Cg transform='translate(8.000000, 65.000000)' id='icon-server-status' sketch:type='MSShapeGroup'%3E%3Cg transform='translate(95.000000, 1.000000)'%3E%3Cpath d='M6.99471698,9.67522659 C8.47108874,9.67522659 9.66792453,8.47748685 9.66792453,7 C9.66792453,5.52251315 8.47108874,4.32477341 6.99471698,4.32477341 C5.51834522,4.32477341 4.32150943,5.52251315 4.32150943,7 C4.32150943,8.47748685 5.51834522,9.67522659 6.99471698,9.67522659 Z M6.99471698,2.67522659 C8.18867925,2.67522659 9.26641509,3.16163142 10.0483019,3.94410876 L11.9396226,2.05135952 C10.6822642,0.782477341 8.92830189,0 6.99471698,0 C3.12754717,0 0,3.14048338 0,7 L2.67320755,7 C2.67320755,4.6102719 4.60679245,2.67522659 6.99471698,2.67522659 Z M11.3267925,7 C11.3267925,9.3897281 9.39320755,11.3247734 7.00528302,11.3247734 C5.81132075,11.3247734 4.73358491,10.8383686 3.94113208,10.0558912 L2.04981132,11.9486405 C3.31773585,13.2175227 5.06113208,14 6.99471698,14 C10.8618868,14 14,10.8595166 14,7 L11.3267925,7 Z'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") 50% no-repeat;
+  background-size: 14px 14px;
+  width: 14px;
+}
 
 /*Custom Notice
 .base_c0676e:before {

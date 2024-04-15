@@ -6935,7 +6935,7 @@ div:is(.avatarWrapper__0cd44, .header_dda341) rect[x="60"] {
 .theme-dark .header__71a82 .eyebrow_b3f8ba {
   color: #72767d !important;
 }
-.section__62b44:has(.markup_a7e664, .memberSinceContainer__16630) .eyebrow_b3f8ba, .activity__88a5f .overflow__993fa {
+.section__62b44:has(.markup_a7e664, .memberSinceContainer__16630) .eyebrow_b3f8ba, .profileMutuals__95dc2 .eyebrow_b3f8ba, .activity__88a5f .overflow__993fa {
   color: var(--play-secondary-alt) !important;
 }
 
@@ -7101,6 +7101,7 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
 /*Mutuals*/
 .profileMutuals__95dc2 {
   background: var(--play);
+  padding: 10px 10px 0;
 }
 
 /*Activity*/

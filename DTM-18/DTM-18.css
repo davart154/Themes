@@ -5736,7 +5736,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 /*Attatch Popout*/
-#channel-attach.menu__088f7 {
+#channel-attach {
   background-color: var(--background-secondary);
   box-shadow: none;
   border-radius: var(--radius-xsa);
@@ -5746,10 +5746,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   padding: 8px;
   width: unset;
 }
-#channel-attach.menu__088f7 .subtext__694e2 {
-  display: none;
-}
-#channel-attach.menu__088f7 .item__183e8 {
+#channel-attach .item__183e8 {
   opacity: 0;
   color: #fff;
   border-radius: var(--radius-xxs);
@@ -5758,57 +5755,63 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   transition: background-color 0.2s ease;
   animation: channelAttach-FadeIn .2s ease forwards;
 }
-#channel-attach.menu__088f7 .item__183e8:nth-last-child(3) {
+#channel-attach .item__183e8:nth-last-child(3) {
   animation-delay: .05s;
 }
-#channel-attach.menu__088f7 .item__183e8:nth-last-child(4) {
+#channel-attach .item__183e8:nth-last-child(4) {
   animation-delay: .1s;
 }
-#channel-attach.menu__088f7 .item__183e8:nth-last-child(5) {
+#channel-attach .item__183e8:nth-last-child(5) {
   animation-delay: .15s;
 }
-#channel-attach.menu__088f7 .item__183e8:nth-last-child(6) {
+#channel-attach .item__183e8:nth-last-child(6) {
   animation-delay: .2s;
 }
-#channel-attach.menu__088f7 .item__183e8:nth-last-child(7) {
+#channel-attach .item__183e8:nth-last-child(7) {
   animation-delay: .25s;
 }
-#channel-attach.menu__088f7 .item__183e8:nth-last-child(8) {
+#channel-attach .item__183e8:nth-last-child(8) {
   animation-delay: .3s;
 }
-#channel-attach.menu__088f7 .item__183e8:hover,
-#channel-attach.menu__088f7 .focused_dcafb9 {
+#channel-attach .item__183e8:nth-last-child(9) {
+  animation-delay: .35s;
+}
+#channel-attach .item__183e8:nth-last-child(10) {
+  animation-delay: .4s;
+}
+#channel-attach .item__183e8:hover,
+#channel-attach .focused_dcafb9 {
   background-color: #36393f !important;
 }
-.theme-light #channel-attach.menu__088f7 {
+.theme-light #channel-attach {
   background-color: #f6f6f7;
 }
-.theme-light #channel-attach.menu__088f7 .item__183e8 {
+.theme-light #channel-attach .item__183e8 {
   color: #36393f;
 }
-.theme-light #channel-attach.menu__088f7 .item__183e8:hover,
-.theme-light #channel-attach.menu__088f7 .focused_dcafb9 {
+.theme-light #channel-attach .item__183e8:hover,
+.theme-light #channel-attach .focused_dcafb9 {
   background-color: rgba(220, 221, 222, 0.6) !important;
 }
-#channel-attach.menu__088f7 .optionIcon__5a169 {
+#channel-attach .optionIcon__5a169 {
   width: 24px;
   height: 24px;
   opacity: 0.8;
   transition: opacity 0.2s ease;
 }
-#channel-attach.menu__088f7 .item__183e8:hover .optionIcon__5a169 {
+#channel-attach .item__183e8:hover .optionIcon__5a169 {
   opacity: 1;
 }
-#channel-attach.menu__088f7 [d^="M25.4655 8.13686L24.0851"] {
+#channel-attach [d^="M25.4655 8.13686L24.0851"] {
   d: path("M19.2919 2.8336H4.7086C3.5483 2.8336 2.4355 3.2946 1.615 4.115.7946 4.9355.3336 6.0483.3336 7.2086V21.7919C.3336 22.9523.7946 24.0651 1.615 24.8855 2.4355 25.7061 3.5483 26.1669 4.7086 26.1669H19.2919C20.4523 26.1669 21.5651 25.7061 22.3855 24.8855 23.2059 24.0651 23.6669 22.9523 23.6669 21.7919V7.2086C23.6669 6.0483 23.2059 4.9355 22.3855 4.115 21.5651 3.2946 20.4523 2.8336 19.2919 2.8336ZM9.1638 10.1253 10.6222 5.7503H14.8368L13.3784 10.1253H9.1638ZM4.7086 5.7503H7.5451L6.0868 10.1253H3.2503V7.2086C3.2503 6.8219 3.4039 6.4509 3.6774 6.1774 3.9509 5.9039 4.3218 5.7503 4.7086 5.7503ZM20.7503 21.7919C20.7503 22.1788 20.5967 22.5496 20.3232 22.8232 20.0496 23.0967 19.6787 23.2503 19.2919 23.2503H4.7086C4.3218 23.2503 3.9509 23.0967 3.6774 22.8232 3.4039 22.5496 3.2503 22.1788 3.2503 21.7919V13.042H20.7503V21.7919ZM20.7503 10.1253H16.4555L17.9138 5.7503H19.2919C19.6787 5.7503 20.0496 5.9039 20.3232 6.1774 20.5967 6.4509 20.7503 6.8219 20.7503 7.2086V10.1253Z");
 }
-#channel-attach.menu__088f7 [d^="M5.43309 21C5.35842 21"] {
+#channel-attach [d^="M5.43309 21C5.35842 21"] {
   d: path("M5.4331 21C5.3584 21 5.3019 20.9325 5.3149 20.859L5.9999 17H2.1427C2.0682 17 2.0117 16.9327 2.0245 16.8593L2.3325 15.0993C2.3426 15.0419 2.3924 15 2.4507 15H6.3499L7.4099 9H3.5527C3.4782 9 3.4217 8.9327 3.4345 8.8593L3.7425 7.0993C3.7526 7.0419 3.8024 7 3.8607 7H7.7599L8.4523 3.099C8.4625 3.0417 8.5123 3 8.5705 3H10.3267C10.4014 3 10.4579 3.0675 10.4449 3.141L9.7599 7H15.7599L16.4523 3.099C16.4625 3.0417 16.5123 3 16.5705 3H18.3267C18.4014 3 18.4579 3.0675 18.4449 3.141L17.7599 7H21.6171C21.6916 7 21.7481 7.0672 21.7353 7.1407L21.4273 8.9007C21.4172 8.9581 21.3674 9 21.3091 9H9.4103L8.3504 15H12V17H7.9999L7.3075 20.901C7.2973 20.9583 7.2475 21 7.1893 21H5.4331Z");
 }
-#channel-attach.menu__088f7 [d^="M13.4399 12.96C12.9097 12.96"] {
+#channel-attach [d^="M13.4399 12.96C12.9097 12.96"] {
   d: path("M15 15.06C15 14.22 15.675 13.5 16.35 13.5H22.5375C23.5701 13.5 24 14.22 24 14.94V20.06C24 20.78 23.5701 21.5 22.5375 21.5H18.1294C17.8916 21.6813 17.6623 21.7695 17.4858 21.9289L15 24.5V15.06Z");
 }
-#channel-attach.menu__088f7 [d="M11.8 14a6.1 6.1 0 0 0 0 6H3v-2c0-2.7 5.3-4 8-4h.8zm-.8-2c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm6 1c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4zm-1 6.2l3-2.2-3-2.2v4.4z"] {
+#channel-attach [d="M11.8 14a6.1 6.1 0 0 0 0 6H3v-2c0-2.7 5.3-4 8-4h.8zm-.8-2c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm6 1c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4zm-1 6.2l3-2.2-3-2.2v4.4z"] {
   d: path("M11.996 6.49C7.3082 6.49 3.878 11.656 3.878 11.656 3.878 11.656 7.3082 16.822 11.996 16.822 16.6838 16.822 20.114 11.656 20.114 11.656 20.114 11.656 16.6838 6.49 11.996 6.49ZM11.996 14.608C10.3658 14.608 9.044 13.287 9.044 11.656 9.044 10.025 10.3658 8.704 11.996 8.704 13.6262 8.704 14.948 10.025 14.948 11.656 14.948 13.287 13.6262 14.608 11.996 14.608M11.996 13.132C12.8112 13.132 13.472 12.4712 13.472 11.656 13.472 10.8408 12.8112 10.18 11.996 10.18 11.1808 10.18 10.52 10.8408 10.52 11.656 10.52 12.4712 11.1808 13.132 11.996 13.132Z");
 }
 /*Autocomplete*/
@@ -11270,7 +11273,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V290 \a \a gm \a \a";
+  content: "DTM-18 Public V292 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

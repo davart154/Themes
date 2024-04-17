@@ -6531,11 +6531,11 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
 }
 
 /*Bot Tag*/
-.botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431) .botText_daff56 {
+.botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56 {
     font-size: 0 !important;
     line-height: 0 !important;
 }
-.botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431) .botText_daff56:before {
+.botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56:before {
     content: "Bot";
     font-size: 0.625rem;
     line-height: 1.3;
@@ -11277,7 +11277,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V293 \a \a gm \a \a";
+  content: "DTM-18 Public V294 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

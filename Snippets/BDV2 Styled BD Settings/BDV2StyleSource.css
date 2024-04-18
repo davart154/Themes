@@ -131,22 +131,23 @@ html:has([class^="bd"].selected_a523ff) .contentColumnDefault__78de3 {
     display: none !important;
 }
 .bd-changelog-button {
-    flex: 1;
-    padding: 6px 10px;
+    height: 32px !important;
+    padding: 6px 10px !important;
     margin-bottom: 2px;
     border-radius: 4px;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
+    background-color: transparent !important;
     color: var(--interactive-normal);
-    cursor: pointer;
+    justify-content: unset;
 }
 .bd-changelog-button:hover {
-    background-color: var(--background-modifier-hover);
+    background-color: var(--background-modifier-hover) !important;
     color: var(--interactive-hover);
 }
 .bd-changelog-button:before {
-    content: attr(aria-label);
+    content: 'Changelog';
 }
 .bd-changelog-button svg {
     display: none;

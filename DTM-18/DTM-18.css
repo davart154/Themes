@@ -7177,6 +7177,10 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   position: relative;
   background: none !important;
   border: 0;
+  border-radius: var(--radius-round);
+}
+.userProfileOuterThemed_a425f3 .role_d81130 {
+  background: var(--profile-body-background-color) !important;
 }
 .roleRemoveButton__20c70 {
   position: static;
@@ -7537,6 +7541,13 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   text-decoration: underline;
 }
 
+/*Activity*/.cardContainer__84569 {
+  background: var(--play);
+  padding: 10px;
+  border: 0;
+  border-radius: 0;
+}
+
 /*Roles*/.container__1f16a {
   padding: 10px;
   gap: 6px;
@@ -7568,6 +7579,9 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   padding: 0 4px;
   display: flex;
   justify-content: center;
+}
+.userProfileOuterThemed_a425f3 .overflowButton_d39c60 {
+  background: var(--profile-body-background-color) !important;
 }
 
 .messageInputContainer__67b4c {

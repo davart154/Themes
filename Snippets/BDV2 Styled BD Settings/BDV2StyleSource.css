@@ -206,10 +206,6 @@ html:has([class^="bd"].selected_a523ff) .contentColumnDefault__78de3 {
     border-radius: 0;
     border-bottom: 2px solid transparent;
 }
-.bd-addon-views .bd-view-button:before {
-    content: attr(aria-label);
-    padding: 0 4px;
-}
 .bd-addon-views .bd-view-button:hover {
     color: var(--interactive-hover);
     border-color: var(--interactive-muted);

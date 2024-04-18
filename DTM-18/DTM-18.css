@@ -6717,7 +6717,7 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   transform: none !important;
 }
 .userPopoutOuter_d67f56 .avatarDecoration_cf681a {
-  width: 112px;
+  width: 127px;
   height: unset;
   contain: none;
 }
@@ -11291,7 +11291,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V296 \a \a gm \a \a";
+  content: "DTM-18 Public V297 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

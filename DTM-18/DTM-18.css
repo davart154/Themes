@@ -6644,15 +6644,15 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   padding: 1px 2px !important;
 }
 
-.textBadge_f05120.base__5ed84.pollBadgeDefault__75cf3 {
+.textBadge_f05120.base__5ed84:is(.pollBadgeDefault__75cf3, .pollBadgeReplied__58763) {
   padding: 1px 2px !important;
   box-shadow: unset;
   text-shadow: unset;
 }
-.pollBadgeDefault__75cf3 svg {
+:is(.pollBadgeDefault__75cf3, .pollBadgeReplied__58763) svg {
   display: none;
 }
-.pollBadgeDefault__75cf3 [data-text-variant] {
+:is(.pollBadgeDefault__75cf3, .pollBadgeReplied__58763) [data-text-variant] {
   font-weight: 500 !important;
   font-size: 0.625rem;
   line-height: 1.5;
@@ -7864,13 +7864,16 @@ img.contentImage__73364 {
   pointer-events: none;
 }
 
-.userPopoutOuter_d67f56:has(.cardContainer__84569) {
+/*Playing Status*/.userPopoutOuter_d67f56:has(.cardContainer__84569) {
   --play: var(--brand-experiment);
   --play-primary: #fff !important;
   --play-secondary: hsla(0,0%,100%,.6) !important;
   --play-secondary-alt: #fff !important;
   --play-tertiary: hsla(0,0%,100%,.8);
   --text-link: #fff !important;
+}
+.userPopoutOuter_d67f56:has([mask="url(#svg-mask-status-streaming)"]) {
+  --play: var(--twitch);
 }
 
 .iconWrapper_de6cd1:has([d^="M23 12.38c-"]), .profilePanel_e2cafe {
@@ -11532,7 +11535,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V301 \a \a that was short lived \a \a";
+  content: "DTM-18 Public V302 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

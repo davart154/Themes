@@ -1422,7 +1422,7 @@ img.icon__11cf1, .icon__94164 {
 .expandedFolderBackground_b1385f {
   position: absolute;
   top: 0;
-  left: 10.5px;
+  left: 10px;
   width: var(--dtm-18-list-items-item-guild-icon-size);
   border-radius: 15px;
   -webkit-transition: background-color .15s ease-out;
@@ -5208,6 +5208,104 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   color: var(--channel-text-area-placeholder);
 }
 
+/*Polls*/
+.pollContainer_cfb8c7 {
+  background-color: #fff;
+  border: 1px solid #f6f6f7;
+  border-radius: 3px;
+}
+.theme-dark .pollContainer_cfb8c7 {
+  background-color: rgba(47,49,54,.3);
+  border-color: rgba(47,49,54,.6);
+}
+.pollContainer_cfb8c7 .header_f34306 .prompt__75afd {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.pollContainer_cfb8c7 .answer__07489 .answerInner_b97752 {
+  border-radius: 3px;
+  padding: 8px 8px 8px 12px;
+  min-height: 42px;
+  outline: none !important;
+  box-shadow: inset 0 0 0 1px var(--background-tertiary);
+  transition: 0s;
+}
+.answerInner_b97752.currentlyVoting__54b47.selected__93ede {
+  box-shadow: inset 0 0 0 1px var(--brand-experiment);
+}
+.pollContainer_cfb8c7 .answer__07489 .answerInner_b97752 .votePercentageBar_ba9103 {
+  background: var(--status-positive);
+}
+.pollContainer_cfb8c7 .answer__07489:is(.votedStyles__57019, .victorStyles_ad1336) .answerInner_b97752 {
+  box-shadow: inset 0 0 0 1px var(--status-positive);
+  color: var(--interactive-active);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+.pollContainer_cfb8c7 .answer__07489.normalStylesDefault__1c2f5 .answerInner_b97752 {
+  color: var(--interactive-active);
+}
+.pollContainer_cfb8c7 .answer__07489.normalStylesDefault__1c2f5 .votePercentageBar_ba9103 {
+  inset: 1px;
+  border-radius: 2px;
+}
+.answerSelectionIcon__262f4 {
+  display: none;
+}
+.answerInner_b97752:after {
+  content: "";
+  min-width: 24px;
+  height: 24px;
+  border: solid 1px #fff;
+  border-radius: var(--radius-xxs);
+  transition: .2s;
+}
+.currentlyVoting__54b47:after {
+  border-color: var(--text-muted);
+}
+:is(.votedStyles__57019, .victorStyles_ad1336) > .answerInner_b97752:has(.answerSelectionIcon__262f4):after {
+  background-color: #fff;
+}
+.answerInner_b97752:before {
+  content: "";
+  position: absolute;
+  margin-top: -2px;
+  right: 17.5px;
+  width: 4px;
+  height: 10px;
+  border-radius: 0;
+  border: 2px solid #0000;
+  border-top-width: 0;
+  border-left-width: 0;
+  transform: rotate(45deg);
+  transition: .2s;
+}
+.selected__93ede:before {
+  border-color: #fff;
+}
+:is(.votedStyles__57019, .victorStyles_ad1336) > .answerInner_b97752:has(.answerSelectionIcon__262f4):before {
+  border-color: var(--status-positive);
+}
+.votesData__6816c {
+  gap: 2px;
+}
+.votesData__6816c [data-text-variant] {
+  padding: 0;
+  font-size: 14px !important;
+  font-weight: 500;
+  line-height: unset;
+  text-shadow: none;
+}
+.votesData__6816c > div:before {
+  content: "(";
+}
+.votesData__6816c > div:after {
+  content: ")";
+}
+.pollContainer_cfb8c7 .bottomBar__1c464 {
+  min-height: unset;
+}
+
 /*Codeblocks*/
 .markup_a7e664 .hljs {
   font-size: 0.875rem;
@@ -7491,24 +7589,27 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   overflow: hidden;
 }
 .wrapper__3abe0 > button {
-    width: 24px;
-    height: 24px;
-    padding: 0;
-    border-radius: 0;
-    background: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border-radius: 0;
+  background: none;
 }
 .wrapper__3abe0 > button:hover {
   background: var(--redesign-button-secondary-overlay-background);
 }
 .wrapper__3abe0 > button:nth-child(2) {
-    order: 1;
+  order: 1;
 }
-.wrapper__3abe0:has(:nth-child(2)):after {
-    content: "";
-    display: block;
-    height: 18px;
-    width: 1px;
-    background: var(--interactive-normal);
+.wrapper__3abe0:has(:nth-child(2)):not(:has([d^="M23.7"])):after {
+  content: "";
+  display: block;
+  height: 18px;
+  width: 1px;
+  background: var(--interactive-normal);
+}
+.wrapper__3abe0 > button:has([d^="M23.7"]) {
+  display: none;
 }
 
 .statusBubbleOutline__07846 {
@@ -7525,16 +7626,16 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   justify-content: center;
 }
 .statusBubbleOutline__07846:before {
-    top: -25px;
-    left: 36.5px;
-    background: var(--profile-gradient-primary-color);
-    border: 1px solid var(--profile-gradient-secondary-color);
+  top: -25px;
+  left: 36.5px;
+  background: var(--profile-gradient-primary-color);
+  border: 1px solid var(--profile-gradient-secondary-color);
 }
 .statusBubbleOutline__07846:after {
-    top: -35px;
-    left: 57.5px;
-    background: var(--profile-gradient-primary-color);
-    border: 1px solid var(--profile-gradient-secondary-color);
+  top: -35px;
+  left: 57.5px;
+  background: var(--profile-gradient-primary-color);
+  border: 1px solid var(--profile-gradient-secondary-color);
 }
 .statusBubble__1a4c3 {
   height: fit-content;
@@ -7584,7 +7685,7 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   line-height: unset;
 }
 .badges__89cab {
-  background: none;
+  background: none !important;
   padding: 10px 10px 0;
 }
 
@@ -10719,6 +10820,12 @@ svg {
 /*NoiseSlash*/[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM6.85 13.15a.5.5 0 0 1-.85-.36V3a1 1 0 0 1 2 0v8.8a.5.5 0 0 1-.15.35l-1 1ZM11 17.2v.8a1 1 0 1 0 2 0v-1.8a.5.5 0 0 0-.85-.35l-1 1a.5.5 0 0 0-.15.36ZM11 7.8V6a1 1 0 1 1 2 0v.8a.5.5 0 0 1-.15.35l-1 1a.5.5 0 0 1-.85-.36ZM17.15 10.85a.5.5 0 0 1 .85.36V19a1 1 0 1 1-2 0v-6.8a.5.5 0 0 1 .15-.35l1-1ZM2 7a1 1 0 0 0-1 1v8a1 1 0 1 0 2 0V8a1 1 0 0 0-1-1ZM21 9a1 1 0 1 1 2 0v6a1 1 0 1 1-2 0V9Z"] {
   d: path("M15.3333 12.4822 17.5556 10.2599V15.5C17.5556 16.0523 17.1078 16.5 16.5556 16.5H16.3333C15.781 16.5 15.3333 16.0523 15.3333 15.5V12.4822ZM13.1112 7.0732V4C13.1112 3.4477 12.6635 3 12.1112 3H11.8889C11.3367 3 10.8889 3.4477 10.8889 4V9.2953L13.1112 7.0732ZM10.8889 16.9272 10.9627 16.8528 13.1112 14.7043V20C13.1112 20.5523 12.6635 21 12.1112 21H11.8889C11.3367 21 10.8889 20.5523 10.8889 20V16.9272ZM8.6666 11.5177 6.4444 13.74V6.25C6.4444 5.6977 6.8921 5.25 7.4444 5.25H7.6666C8.2189 5.25 8.6666 5.6977 8.6666 6.25V11.5177ZM4.2222 14.375C4.2222 14.9273 3.7745 15.375 3.2222 15.375H3C2.4477 15.375 2 14.9273 2 14.375V9.625C2 9.0727 2.4477 8.625 3 8.625H3.2222C3.7745 8.625 4.2222 9.0727 4.2222 9.625L4.2222 14.375ZM22.0001 13.25C22.0001 13.8023 21.5524 14.25 21.0001 14.25H20.7779C20.2255 14.25 19.7779 13.8023 19.7779 13.25V10.75C19.7779 10.1977 20.2255 9.75 20.7779 9.75H21.0001C21.5524 9.75 22.0001 10.1977 22.0001 10.75V13.25ZM21 4.27 19.73 3 3 19.73 4.27 21 8.46 16.82 9.69 15.58 11.35 13.92 14.99 10.28 21 4.27Z");
 }
+/*Note*/[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h9c.1 0 .12-.11.04-.15a3 3 0 0 1-2.03-3.16c.04-.34-.2-.69-.55-.69H6a1 1 0 1 1 0-2h9.5a.5.5 0 0 0 .5-.5V15a3 3 0 0 1 .19-1.05c.15-.4-.11-.95-.54-.95H6a1 1 0 1 1 0-2h12a1 1 0 0 1 .88.52c.13.24.35.48.62.52A3 3 0 0 1 21.83 14v.02c.02.06.17.05.17-.02V5a3 3 0 0 0-3-3H5Zm1 4a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2H6Z"] {
+  d: path("M1.3335 20.8891V16.4446L15.3424 2.48908C15.6802 2.13352 16.2491 2.13352 16.6046 2.48908L19.7335 5.61797C20.0891 5.97352 20.0891 6.52463 19.7335 6.88019L5.72461 20.8891H1.3335ZM22.6668 20.8891H9.3335L12.8891 17.3335H22.6668V20.8891Z");
+}
+[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h9c.1 0 .12-.11.04-.15a3 3 0 0 1-2.03-3.16c.04-.34-.2-.69-.55-.69H6a1 1 0 1 1 0-2h9.5a.5.5 0 0 0 .5-.5V15a3 3 0 0 1 .19-1.05c.15-.4-.11-.95-.54-.95H6a1 1 0 1 1 0-2h12a1 1 0 0 1 .88.52c.13.24.35.48.62.52A3 3 0 0 1 21.83 14v.02c.02.06.17.05.17-.02V5a3 3 0 0 0-3-3H5Zm1 4a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2H6Z"] + path {
+  display: none;
+}
 /*Object*/[d^="M10.41 3.59 11.6 2.4a2 2 0 0 1 2.82 0l1.3 1.3a1 1 0 0 0 .7.29h4.18a1.41 1.41 0 0 1 1 2.41L14.4 13.6a1.41 1.41 0 0 1-2.41-1V8.4l-3.11 3.12a2 2 0 0 0-.53 1.87L9.9 20H15a1 1 0 1 1 0 2H3a1 1 0 1 1 0-2h4.86L6.4 13.86a4 4 0 0 1 1.06-3.75L10.8 6.8l-.38-.38a2 2 0 0 1 0-2.82Z"] {
   d: path("M18 5.999H17V4.999C17 4.448 16.553 3.999 16 3.999H4C3.447 3.999 3 4.448 3 4.999V12.999C3 14.488 3.47 15.865 4.265 16.999H15.722C16.335 16.122 16.761 15.105 16.92 13.999H18C20.205 13.999 22 12.205 22 9.999C22 7.794 20.205 5.999 18 5.999V5.999ZM18 12H17V8H18C19.104 8 20 8.897 20 10C20 11.102 19.104 12 18 12Z M2 18H18V20H2V18Z");
 }
@@ -11409,7 +11516,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V298 \a \a gm \a \a";
+  content: "DTM-18 Public V299 \a \a one \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

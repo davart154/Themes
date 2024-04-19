@@ -7585,7 +7585,7 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
   background: var(--redesign-button-secondary-overlay-background);
   border-radius: var(--radius-round);
   align-items: center;
-  gap: 0;
+  gap: 1px;
   overflow: hidden;
 }
 .wrapper__3abe0 > button {
@@ -7598,15 +7598,14 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
 .wrapper__3abe0 > button:hover {
   background: var(--redesign-button-secondary-overlay-background);
 }
-.wrapper__3abe0 > button:nth-child(2) {
-  order: 1;
-}
-.wrapper__3abe0:has(:nth-child(2)):not(:has([d^="M23.7"])):after {
+.wrapper__3abe0 > button:not(:first-child):before {
   content: "";
-  display: block;
+  position: absolute;
+  left: -1px;
   height: 18px;
   width: 1px;
   background: var(--interactive-normal);
+  pointer-events: none;
 }
 .wrapper__3abe0 > button:has([d^="M23.7"]) {
   display: none;
@@ -7742,20 +7741,20 @@ img.contentImage__73364 {
   height: 60px !important;
 }
 .infoContainer__07f33>[data-text-variant] {
-    color: var(--play-primary) !important;
+  color: var(--play-primary) !important;
 }
 .activityName_bad7c5, .tabularNumbers__0f2c7 {
-    color: var(--play-tertiary) !important;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: none;
+  color: var(--play-tertiary) !important;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
 }
 .playtimeContainer_d4a1f8 > svg {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 .playtimeContainer_d4a1f8 path {
-    fill: var(--play-tertiary);
+  fill: var(--play-tertiary);
 }
 
 /*Roles*/.container__1f16a {
@@ -11516,7 +11515,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V299 \a \a one \a \a";
+  content: "DTM-18 Public V300 \a \a wow, the 300th public update. what a massive amount of changes. \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

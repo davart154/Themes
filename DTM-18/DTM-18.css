@@ -6628,20 +6628,34 @@ html:not(:is(.mouse-mode, .app-focused)) .layout_bb8e67 :is(.avatar__6337f, .wra
   font-weight: 700;
 }
 
-/*Bot Tag*/
+/*Tag*/
 .botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56 {
-    font-size: 0 !important;
-    line-height: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
 }
 .botTag__4211a:not(.botTagAI__8aa63, .botTagOP_fd6360, .botTagRemix_b2d431, .decorator__2a8bf) .botText_daff56:before {
-    content: "Bot";
-    font-size: 0.625rem;
-    line-height: 1.3;
+  content: "Bot";
+  font-size: 0.625rem;
+  line-height: 1.5;
 }
 .botTag__4211a {
   box-sizing: border-box;
   border-radius: var(--radius-xxs) !important;
   padding: 1px 2px !important;
+}
+
+.textBadge_f05120.base__5ed84.pollBadgeDefault__75cf3 {
+  padding: 1px 2px !important;
+  box-shadow: unset;
+  text-shadow: unset;
+}
+.pollBadgeDefault__75cf3 svg {
+  display: none;
+}
+.pollBadgeDefault__75cf3 [data-text-variant] {
+  font-weight: 500 !important;
+  font-size: 0.625rem;
+  line-height: 1.5;
 }
 
 /*Active on Mobile*/
@@ -10849,6 +10863,9 @@ svg {
 /*Pause*/[d^="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"] {
   d: path("M6 19 10 19 10 5 6 5 6 19 6 19ZM14 5 14 19 18 19 18 5 14 5 14 5Z");
 }
+/*Poll*/[d="M2 5c0-1.1.9-2 2-2h16a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2ZM2 12c0-1.1.9-2 2-2h6a2 2 0 1 1 0 4H4a2 2 0 0 1-2-2ZM4 17a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Z"] {
+  d: path("M6 22H2V8H6V22ZM14 22H10V2H14V22ZM22 22H18V14H22V22Z");
+}
 /*Reaction*/[d^="M12 2C6.477"] {
   d: path("M12 17.5C14.33 17.5 16.3 16.04 17.11 14H6.89C7.69 16.04 9.67 17.5 12 17.5ZM8.5 11C8.89782 11 9.27936 10.842 9.56066 10.5607C9.84196 10.2794 10 9.89782 10 9.5C10 9.10218 9.84196 8.72064 9.56066 8.43934C9.27936 8.15804 8.89782 8 8.5 8C8.10218 8 7.72064 8.15804 7.43934 8.43934C7.15804 8.72064 7 9.10218 7 9.5C7 9.89782 7.15804 10.2794 7.43934 10.5607C7.72064 10.842 8.10218 11 8.5 11ZM15.5 11C15.8978 11 16.2794 10.842 16.5607 10.5607C16.842 10.2794 17 9.89782 17 9.5C17 9.10218 16.842 8.72064 16.5607 8.43934C16.2794 8.15804 15.8978 8 15.5 8C15.1022 8 14.7206 8.15804 14.4393 8.43934C14.158 8.72064 14 9.10218 14 9.5C14 9.89782 14.158 10.2794 14.4393 10.5607C14.7206 10.842 15.1022 11 15.5 11V11ZM12 20C9.87827 20 7.84344 19.1571 6.34315 17.6569C4.84285 16.1566 4 14.1217 4 12C4 9.87827 4.84285 7.84344 6.34315 6.34315C7.84344 4.84285 9.87827 4 12 4C14.1217 4 16.1566 4.84285 17.6569 6.34315C19.1571 7.84344 20 9.87827 20 12C20 14.1217 19.1571 16.1566 17.6569 17.6569C16.1566 19.1571 14.1217 20 12 20V20ZM12 2C6.47 2 2 6.5 2 12C2 14.6522 3.05357 17.1957 4.92893 19.0711C5.85752 19.9997 6.95991 20.7362 8.17317 21.2388C9.38642 21.7413 10.6868 22 12 22C14.6522 22 17.1957 20.9464 19.0711 19.0711C20.9464 17.1957 22 14.6522 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V2Z");
 }
@@ -11515,7 +11532,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V300 \a \a wow, the 300th public update. what a massive amount of changes. \a \a";
+  content: "DTM-18 Public V301 \a \a that was short lived \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -7734,7 +7734,7 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
 
 /*Activity*/.cardContainer__84569 {
   position: relative;
-  background: var(--play);
+  background: var(--play) !important;
   padding: 10px;
   border: 0;
   border-radius: 0;
@@ -11535,7 +11535,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V302 \a \a gm \a \a";
+  content: "DTM-18 Public V303 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

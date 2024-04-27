@@ -6962,7 +6962,7 @@ div:is(.avatarWrapper__0cd44, .header_dda341) rect[x="60"] {
   height: 24px;
 }
 /*Hide*/
-a:has(/*Partnered*/[src$="/badge-icons/3f9748e53446a137a052f3454e2de41e.png"], /*Moderator Programs Alumni*/[src$="/badge-icons/fee1624003e2fee35cb398e125dc479b.png"], /*Hypesquad Houses*/[src$="/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"], [src$="/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"], [src$="/badge-icons/3aa41de486fa12454c3761e8e223442e.png"], /*Early Verified Bot Developer*/[src$="/badge-icons/6df5892e0f35b051f8b61eace34f4967.png"], /*Supports Commands*/[src$="/badge-icons/6f9e37f9029ff57aef81db857890005e.png"], /*Uses Automod*/[src$="/badge-icons/f2459b691ac7453ed6039bbcfaccbfcd.png"], /*Bot Subscription*/[src$="/badge-icons/d2010c413a8da2208b7e4f35bd8cd4ac.png"], /*Active Developer*/[src$="/badge-icons/6bdc42827a38498929a4920da12695d9.png"], /*Bug Hunter*/[src$="/badge-icons/2717692c7dca7289b35297368a940dd0.png"], [src$="/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"], /*Boost*/[src$="/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png"], [src$="/badge-icons/0e4080d1d333bc7ad29ef6528b6f2fb7.png"], [src$="/badge-icons/72bed924410c304dbe3d00a6e593ff59.png"], [src$="/badge-icons/df199d2050d3ed4ebf84d64ae83989f8.png"], [src$="/badge-icons/996b3e870e8a22ce519b3a50e6bdd52f.png"], [src$="/badge-icons/991c9f39ee33d7537d9f408c3e53141e.png"], [src$="/badge-icons/cb3ae83c15e970e8f3d410bc62cb8b99.png"], [src$="/badge-icons/7142225d31238f6387d9f09efaa02759.png"], [src$="/badge-icons/ec92202290b48d0879b7413d2dde3bab.png"], /*Quest Completed*/[src$="/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png"]) {
+div:not([class]):has(> a> img:is([src$="/badge-icons/3f9748e53446a137a052f3454e2de41e.png"], /*Moderator Programs Alumni*/[src$="/badge-icons/fee1624003e2fee35cb398e125dc479b.png"], /*Hypesquad Houses*/[src$="/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"], [src$="/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"], [src$="/badge-icons/3aa41de486fa12454c3761e8e223442e.png"], /*Early Verified Bot Developer*/[src$="/badge-icons/6df5892e0f35b051f8b61eace34f4967.png"], /*Supports Commands*/[src$="/badge-icons/6f9e37f9029ff57aef81db857890005e.png"], /*Uses Automod*/[src$="/badge-icons/f2459b691ac7453ed6039bbcfaccbfcd.png"], /*Bot Subscription*/[src$="/badge-icons/d2010c413a8da2208b7e4f35bd8cd4ac.png"], /*Active Developer*/[src$="/badge-icons/6bdc42827a38498929a4920da12695d9.png"], /*Bug Hunter*/[src$="/badge-icons/2717692c7dca7289b35297368a940dd0.png"], [src$="/badge-icons/848f79194d4be5ff5f81505cbd0ce1e6.png"], /*Boost*/[src$="/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png"], [src$="/badge-icons/0e4080d1d333bc7ad29ef6528b6f2fb7.png"], [src$="/badge-icons/72bed924410c304dbe3d00a6e593ff59.png"], [src$="/badge-icons/df199d2050d3ed4ebf84d64ae83989f8.png"], [src$="/badge-icons/996b3e870e8a22ce519b3a50e6bdd52f.png"], [src$="/badge-icons/991c9f39ee33d7537d9f408c3e53141e.png"], [src$="/badge-icons/cb3ae83c15e970e8f3d410bc62cb8b99.png"], [src$="/badge-icons/7142225d31238f6387d9f09efaa02759.png"], [src$="/badge-icons/ec92202290b48d0879b7413d2dde3bab.png"], /*Quest Completed*/[src$="/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png"])) {
   display: none;
 }
 /*Staff*/
@@ -11720,7 +11720,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V309 \a \a gm \a \a";
+  content: "DTM-18 Public V310 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

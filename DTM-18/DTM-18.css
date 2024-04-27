@@ -10607,6 +10607,7 @@ svg {
   inset: 0;
   background-color: #72767d;
   clip-path: path("M13 0C16.5198 0 19.4422 2.61306 19.9288 6.00063C19.9525 6.00021 19.9762 6 20 6C22.2091 6 24 7.79086 24 10C24 10.7708 23.782 11.4907 23.4043 12.1013C21.9807 10.7964 20.0834 10 18 10C15.0389 10 12.4535 11.6088 11.0703 14H5C2.243 14 0 11.757 0 9C0 6.243 2.243 4 5 4C6.393 4 7.678 4.454 9.175 6.58L9.992 6.004C9.018 4.62 7.987 3.815 7.022 3.357C8.26 1.31 10.49 0 13 0Z");
+  pointer-events: none;
 }
 /*Dropdown*/.icons__374b3 [d^="M5.3 9.3a1 1 0 0 1 1.4 0l5.3 5.29 5.3-5.3a1 1 0 1 1 1.4 1.42l-6 6a1 1 0 0 1-1.4 0l-6-6a1 1 0 0 1 0-1.42Z"] {
   d: path("M12 15L7 10H17L12 15Z");
@@ -11587,7 +11588,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V305 \a \a gm \a \a";
+  content: "DTM-18 Public V306 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -8988,22 +8988,79 @@ img.contentImage__73364 {
 }
 
 /*Dropdown Box*/
-.lookFilled__9c1ef.select_fe2671 {
+.select_fe2671.lookFilled__9c1ef {
+  position: relative;
   background-color: rgba(0,0,0,.1);
   border: 1px solid rgba(0,0,0,.3);
   transition: .15s ease;
 }
-.lookFilled__9c1ef.select_fe2671:hover,
+.select_fe2671.lookFilled__9c1ef:hover,
 .open_cd27aa.lookFilled__9c1ef {
   border-color: rgba(0,0,0,1);
 }
-.theme-light .lookFilled__9c1ef.select_fe2671 {
+.theme-light .select_fe2671.lookFilled__9c1ef {
   background-color: rgba(79, 84, 92, 0.02);
   border-color: rgba(79, 84, 92, 0.3);
 }
-.theme-light .lookFilled__9c1ef.select_fe2671:hover,
+.theme-light .select_fe2671.lookFilled__9c1ef:hover,
 .theme-light .open_cd27aa.lookFilled__9c1ef {
   border-color: #b9bbbe;
+}
+
+.select_fe2671.lookFilled__9c1ef:before {
+  content: "";
+  position: absolute;
+  right: 12.5px;
+  top: calc(50% - 1.5px);
+  border-style: solid;
+  border-width: 5px 5px 2.5px;
+  border-color: #dcddde transparent transparent;
+  display: inline-block;
+  height: 0;
+  width: 0;
+}
+.select_fe2671.lookFilled__9c1ef:hover:before {
+  border-color: #4f545c transparent transparent;
+}
+.select_fe2671.open_cd27aa.lookFilled__9c1ef:before {
+  border-color: transparent transparent #4f545c;
+  border-width: 0 5px 5px;
+}
+.theme-dark .select_fe2671.lookFilled__9c1ef:before {
+  border-color: #72767d transparent transparent;
+}
+.theme-dark .select_fe2671.lookFilled__9c1ef:hover:before {
+  border-color: #f6f6f7 transparent transparent;
+}
+.theme-dark .select_fe2671.open_cd27aa.lookFilled__9c1ef:before {
+  border-color: transparent transparent #f6f6f7;
+  border-width: 0 5px 5px;
+}
+
+.icons__374b3 {
+  color: #999;
+  margin-right: 25px !important;
+}
+.theme-dark .icons__374b3 {
+  color: #72767d;
+}
+.icons__374b3 svg {
+  display: none;
+}
+.icons__374b3 > div {
+  opacity: .5;
+}
+:is(.select_fe2671.lookFilled__9c1ef:hover, .select_fe2671.open_cd27aa.lookFilled__9c1ef) .icons__374b3 > div {
+  opacity: 1;
+}
+.icons__374b3 > div:hover {
+  color: #d0021b;
+}
+.icons__374b3 > div:not([aria-controls]):before {
+  font-family: var(--font-primary);
+  font-size: 18px;
+  line-height: 1;
+  content: "×";
 }
 
 /*Radio Bar*/
@@ -11663,7 +11720,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V308 \a \a gm \a \a";
+  content: "DTM-18 Public V309 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -7651,6 +7651,7 @@ div:is(.usernameSection_dd6196, .container__1c2eb) > div:not([class]) {
 .statusBubbleOuter__7e51b {
   top: unset;
   min-width: 52px;
+  max-width: 250px;
   border-radius: var(--radius-xsa) /*xsa or md*/;
   box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
 }
@@ -11720,7 +11721,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V310 \a \a gm \a \a";
+  content: "DTM-18 Public V311 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

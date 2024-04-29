@@ -7878,7 +7878,7 @@ img.contentImage__73364 {
   overflow: hidden;
 }
 .rolesHeader__23273 {
-  align-items: unset;
+  align-items: flex-start;
 }
 .container_badb01:not(:has(.root__076be)) > .rolesHeader__23273 > h1 {
   visibility: hidden;
@@ -11780,7 +11780,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V312 \a \a gm \a \a";
+  content: "DTM-18 Public V313 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

@@ -4146,6 +4146,11 @@ foreignObject[mask*="offline"] .status__1c26d {
   min-width: unset;
 }
 
+.partyMember__7fbef {
+  border-radius: var(--radius-round);
+  overflow: hidden;
+}
+
 .activitySection__8173d {
   display: flex;
   grid-gap: unset;
@@ -11782,7 +11787,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info__755e1:before {
-  content: "DTM-18 Public V322 \a \a gm \a \a";
+  content: "DTM-18 Public V323 \a \a gm \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

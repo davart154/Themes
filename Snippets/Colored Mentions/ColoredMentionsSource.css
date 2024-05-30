@@ -11,7 +11,7 @@
     position: unset;
     filter: none;
 }
-.hasReply__602e2.mentioned_fa6fd2:not(:has(.roleMention_d441cd[style])):before,
+.hasReply__602e2.mentioned_fa6fd2:not(:has([class*="ention"])):before,
 .mentioned_fa6fd2 .mention:before,
 .mentioned_fa6fd2 .roleMention_d441cd:before {
     content: "";
@@ -23,7 +23,7 @@
     background-color: var(--info-warning-foreground);
     filter: saturate(var(--saturation-factor,1));
 }
-.hasReply__602e2.mentioned_fa6fd2:not(:has(.roleMention_d441cd[style])):after,
+.hasReply__602e2.mentioned_fa6fd2:not(:has([class*="ention"])):after,
 .mentioned_fa6fd2 .mention:after,
 .mentioned_fa6fd2 .roleMention_d441cd:after {
     content: "";
@@ -50,5 +50,5 @@
 .roleMention_d441cd ~ [class*="ention"]:after,
 .mentioned_fa6fd2:before,
 .mentioned_fa6fd2:after {
-    content: unset !important;
+    content: unset;
 }

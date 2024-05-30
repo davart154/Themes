@@ -12,7 +12,7 @@
     filter: none;
 }
 .hasReply__602e2.mentioned_fa6fd2:not(:has(.roleMention_d441cd[style])):before,
-.mention:before,
+.mentioned_fa6fd2 .mention:before,
 .mentioned_fa6fd2 .roleMention_d441cd:before {
     content: "";
     position: absolute;
@@ -24,7 +24,7 @@
     filter: saturate(var(--saturation-factor,1));
 }
 .hasReply__602e2.mentioned_fa6fd2:not(:has(.roleMention_d441cd[style])):after,
-.mention:after,
+.mentioned_fa6fd2 .mention:after,
 .mentioned_fa6fd2 .roleMention_d441cd:after {
     content: "";
     position: absolute;
@@ -40,8 +40,8 @@
     background: currentColor;
     opacity: 0.1;
 }
-.mentioned_fa6fd2:has(.roleMention_d441cd):before,
-.mentioned_fa6fd2:has(.roleMention_d441cd):after,
+.mentioned_fa6fd2:before,
+.mentioned_fa6fd2:after,
 .repliedMessage__636d2 [class*="ention"]:before,
 .repliedMessage__636d2 [class*="ention"]:after,
 .mention ~ [class*="ention"]:before,

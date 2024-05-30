@@ -1,17 +1,19 @@
-.mentioned-Tre-dv {
+.mentioned_fa6fd2 {
     background: none;
 }
-.message-2CShn3:hover {
-    background-color: var(--background-message-hover) !important;
+.message_ccca67:hover, .message_ccca67.selected_e3bc5d {
+    background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
 }
-.messageContent-2t3eCI, .compact-2Nkcau .contents-2MsGLg {
+.messageContent_abea64, .compact_eda3c8 .contents_d3ae0d {
     position: unset !important;
 }
-.mention, .roleMention-11Aaqi {
+.mention, .roleMention_d441cd {
     position: unset;
     filter: none;
 }
-.hasReply-2Cr4KE.mentioned-Tre-dv:not(:has(.roleMention-11Aaqi[style])):before, .mentioned-Tre-dv:before, .mentioned-Tre-dv .roleMention-11Aaqi:before {
+.hasReply__602e2.mentioned_fa6fd2:not(:has(.roleMention_d441cd[style])):before,
+.mention:before,
+.mentioned_fa6fd2 .roleMention_d441cd:before {
     content: "";
     position: absolute;
     top: 0;
@@ -21,7 +23,9 @@
     background-color: var(--info-warning-foreground);
     filter: saturate(var(--saturation-factor,1));
 }
-.hasReply-2Cr4KE.mentioned-Tre-dv:not(:has(.roleMention-11Aaqi[style])):after, .mentioned-Tre-dv:after, .mentioned-Tre-dv .roleMention-11Aaqi:after {
+.hasReply__602e2.mentioned_fa6fd2:not(:has(.roleMention_d441cd[style])):after,
+.mention:after,
+.mentioned_fa6fd2 .roleMention_d441cd:after {
     content: "";
     position: absolute;
     inset: 0;
@@ -29,13 +33,22 @@
     z-index: -1;
     filter: saturate(var(--saturation-factor,1));
 }
-.roleMention-11Aaqi[style]:before {
+.roleMention_d441cd[style]:before {
     background-color: currentColor;
 }
-.roleMention-11Aaqi[style]:after {
+.roleMention_d441cd[style]:after {
     background: currentColor;
     opacity: 0.1;
 }
-.roleMention-11Aaqi ~ [class*="ention"]:before, .roleMention-11Aaqi ~ [class*="ention"].roleMention-11Aaqi:after, .repliedMessage-3Z6XBG [class*="ention"]:before, .repliedMessage-3Z6XBG [class*="ention"]:after, .hasReply-2Cr4KE .mention:before, .hasReply-2Cr4KE .mention:after, .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:before, .messageContent-2t3eCI:has(.roleMention-11Aaqi) .mention:after, .mentioned-Tre-dv:has([class*="ention"]):before, .mentioned-Tre-dv:has([class*="ention"]):after {
+.mentioned_fa6fd2:has(.roleMention_d441cd):before,
+.mentioned_fa6fd2:has(.roleMention_d441cd):after,
+.repliedMessage__636d2 [class*="ention"]:before,
+.repliedMessage__636d2 [class*="ention"]:after,
+.mention ~ [class*="ention"]:before,
+.mention ~ [class*="ention"]:after,
+.roleMention_d441cd ~ [class*="ention"]:before,
+.roleMention_d441cd ~ [class*="ention"]:after,
+.mentioned_fa6fd2:before,
+.mentioned_fa6fd2:after {
     content: unset !important;
 }

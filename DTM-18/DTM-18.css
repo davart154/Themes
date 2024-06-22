@@ -1129,9 +1129,9 @@
   width: 14px;
 }
 
-/*Custom Notice
+/*Custom Notice*/
 .base_a4d4d9:before {
-  content: "";
+  content: "I am rewriting the theme to fix bugs and hopefully improve performance. Please be patient.";
   color: #fff;
   background-color: #f26522;
   font-size: 14px;
@@ -1141,7 +1141,7 @@
   border-radius: 8px 0 0;
   -webkit-box-shadow: var(--elevation-low);
   box-shadow: var(--elevation-low);
-  animation: noticeRemove 0s 10s forwards;
+  animation: noticeRemove 0s 20s forwards;
 }
 .base_a4d4d9:after {
   content: "";
@@ -1153,9 +1153,8 @@
   top: 0;
   right: 12px;
   opacity: 0.5;
-  animation: noticeCountdown 10s forwards, noticeRemove 0s 10s forwards;
+  animation: noticeCountdown 20s forwards, noticeRemove 0s 20s forwards;
 }
-*/
 
 /*Notice Header*/
 .notice_be03aa .closeButton_be03aa {
@@ -11282,16 +11281,26 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 @keyframes noticeCountdown {
-  0% {content: "10s";}
-  10% {content: "9s";}
-  20% {content: "8s";}
-  30% {content: "7s";}
-  40% {content: "6s";}
-  50% {content: "5s";}
-  60% {content: "4s";}
-  70% {content: "3s";}
-  80% {content: "2s";}
-  90% {content: "1s";}
+  0% {content: "20s";}
+  5% {content: "19s";}
+  10% {content: "18s";}
+  15% {content: "17s";}
+  20% {content: "16s";}
+  25% {content: "15s";}
+  30% {content: "14s";}
+  35% {content: "13s";}
+  40% {content: "12s";}
+  45% {content: "11s";}
+  50% {content: "10s";}
+  55% {content: "9s";}
+  60% {content: "8s";}
+  65% {content: "7s";}
+  70% {content: "6s";}
+  75% {content: "5s";}
+  80% {content: "4s";}
+  85% {content: "3s";}
+  90% {content: "2s";}
+  95% {content: "1s";}
   to {content: "0s";}
 }
 @keyframes noticeRemove {
@@ -12113,7 +12122,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V327 \a \a messy code be like erm what the scallop \a \a";
+  content: "DTM-18 Public V328 \a \a messy code be like erm what the scallop \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

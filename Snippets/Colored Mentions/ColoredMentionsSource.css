@@ -1,54 +1,57 @@
-.mentioned_fa6fd2 {
-    background: none;
+.mentioned_d5deea {
+  background: none;
+  z-index: 0;
 }
-.message_ccca67:hover, .message_ccca67.selected_e3bc5d {
-    background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
+.message_d5deea:hover, .message_d5deea.selected_d5deea {
+  background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
 }
-.messageContent_abea64, .compact_eda3c8 .contents_d3ae0d {
-    position: unset !important;
+.messageContent_ec86aa, .compact_ec86aa .contents_ec86aa {
+  position: unset !important;
 }
-.mention, .roleMention_d441cd {
-    position: unset;
-    filter: none;
+.mention, .roleMention_d6076c {
+  position: unset;
+  filter: none;
 }
-.hasReply__602e2.mentioned_fa6fd2:not(:has([class*="ention"])):before,
-.mentioned_fa6fd2 .mention:before,
-.mentioned_fa6fd2 .roleMention_d441cd:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: var(--info-warning-foreground);
-    filter: saturate(var(--saturation-factor,1));
+.hasReply_ec86aa.mentioned_d5deea:not(:has([class*="ention"])):before,
+.mentioned_d5deea .mention:before,
+.mentioned_d5deea .roleMention_d6076c:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--info-warning-foreground);
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
 }
-.hasReply__602e2.mentioned_fa6fd2:not(:has([class*="ention"])):after,
-.mentioned_fa6fd2 .mention:after,
-.mentioned_fa6fd2 .roleMention_d441cd:after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: var(--background-mentioned);
-    z-index: -1;
-    filter: saturate(var(--saturation-factor,1));
+.hasReply_ec86aa.mentioned_d5deea:not(:has([class*="ention"])):after,
+.mentioned_d5deea .mention:after,
+.mentioned_d5deea .roleMention_d6076c:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--background-mentioned);
+  z-index: -1;
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
 }
-.roleMention_d441cd[style]:before {
-    background-color: currentColor;
+.roleMention_d6076c[style]:before {
+  background-color: currentColor;
 }
-.roleMention_d441cd[style]:after {
-    background: currentColor;
-    opacity: 0.1;
+.roleMention_d6076c[style]:after {
+  background: currentColor;
+  opacity: 0.1;
 }
-.mentioned_fa6fd2:before,
-.mentioned_fa6fd2:after,
-.repliedMessage__636d2 [class*="ention"]:before,
-.repliedMessage__636d2 [class*="ention"]:after,
+.mentioned_d5deea:before,
+.mentioned_d5deea:after,
+.repliedMessage_ec86aa [class*="ention"]:before,
+.repliedMessage_ec86aa [class*="ention"]:after,
 .mention ~ [class*="ention"]:before,
 .mention ~ [class*="ention"]:after,
-.roleMention_d441cd ~ [class*="ention"]:before,
-.roleMention_d441cd ~ [class*="ention"]:after,
-.mentioned_fa6fd2:before,
-.mentioned_fa6fd2:after {
-    content: unset;
+.roleMention_d6076c ~ [class*="ention"]:before,
+.roleMention_d6076c ~ [class*="ention"]:after,
+.mentioned_d5deea:before,
+.mentioned_d5deea:after {
+  content: unset;
 }

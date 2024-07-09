@@ -1131,7 +1131,7 @@
 
 /*Custom Notice*/
 .base_a4d4d9:before {
-  content: "I am rewriting the theme to fix bugs and hopefully improve performance. Please be patient.";
+  content: "V1 is broken. Please wait for V1.1 or V2 to be finished before using the theme.";
   color: #fff;
   background-color: #f26522;
   font-size: 14px;
@@ -12118,7 +12118,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V1.0.330 \a \a messy code be like erm what the scallop \a \a";
+  content: "DTM-18 Public V1.0.331 \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

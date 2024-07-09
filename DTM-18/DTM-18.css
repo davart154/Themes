@@ -5116,7 +5116,7 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
 }
 
 /*Media Option Buttons*/
-.messageAttachmentNoJustify__9df5b:has(.hoverButtonGroup__304b2):before {
+.messageAttachmentNoJustify__9df5b:has(.hoverButtonGroup_ab8b23):before {
   content: "";
   position: absolute;
   top: -10px;
@@ -5131,17 +5131,17 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   z-index: 1;
   pointer-events: none;
 }
-.messageAttachmentNoJustify__9df5b:has(.hoverButtonGroup__304b2):hover:before,
-.messageAttachmentNoJustify__9df5b:hover .hoverButtonGroup__304b2 {
+.messageAttachmentNoJustify__9df5b:has(.hoverButtonGroup_ab8b23):hover:before,
+.messageAttachmentNoJustify__9df5b:hover .hoverButtonGroup_ab8b23 {
   opacity: 1;
   transform: none;
 }
-.messageAttachmentNoJustify__9df5b .hoverButtonGroup__304b2 {
+.messageAttachmentNoJustify__9df5b .hoverButtonGroup_ab8b23 {
   transform: translateY(-40px);
   top: 16px;
   transition: opacity .2s ease, transform .2s ease;
 }
-.hoverButtonGroup__304b2 {
+.hoverButtonGroup_ab8b23 {
   top: 10px;
   right: 10px;
   background: transparent !important;
@@ -5158,22 +5158,22 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   width: 24px;
   height: 24px;
 }
-.imageWrapper_d4597d + .hoverButtonGroup__304b2 .hoverButton_be4802 {
+.imageWrapper_d4597d + .hoverButtonGroup_ab8b23 .hoverButton_be4802 {
   color: #fff;
   opacity: 0.6;
   transition: opacity .5s;
 }
-.imageWrapper_d4597d + .hoverButtonGroup__304b2 .hoverButton_be4802:hover {
+.imageWrapper_d4597d + .hoverButtonGroup_ab8b23 .hoverButton_be4802:hover {
   opacity: 1;
 }
 .audioMetadata_f316dd .metadataIcon_f316dd,
-.wrapperAudio_f316dd + .hoverButtonGroup__304b2 svg,
-.attachment_a4623d + .hoverButtonGroup__304b2 svg {
+.wrapperAudio_f316dd + .hoverButtonGroup_ab8b23 svg,
+.attachment_a4623d + .hoverButtonGroup_ab8b23 svg {
   color: #4f545c;
 }
 .audioMetadata_f316dd .metadataIcon_f316dd:hover,
-.wrapperAudio_f316dd + .hoverButtonGroup__304b2 .hoverButton_be4802:hover svg,
-.attachment_a4623d + .hoverButtonGroup__304b2 .hoverButton_be4802:hover svg {
+.wrapperAudio_f316dd + .hoverButtonGroup_ab8b23 .hoverButton_be4802:hover svg,
+.attachment_a4623d + .hoverButtonGroup_ab8b23 .hoverButton_be4802:hover svg {
   color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
 }
 .attachment_a4623d {
@@ -5193,15 +5193,15 @@ div[class*="compact"][class*="mentioned"] > div[class*="contents"] {
   background-color: transparent;
   border-color: #f6f6f7;
 }
-.attachment_a4623d + .hoverButtonGroup__304b2,
-.wrapperAudio_f316dd + .hoverButtonGroup__304b2 {
+.attachment_a4623d + .hoverButtonGroup_ab8b23,
+.wrapperAudio_f316dd + .hoverButtonGroup_ab8b23 {
   opacity: 1 !important;
 }
-.attachment_a4623d + .hoverButtonGroup__304b2 {
+.attachment_a4623d + .hoverButtonGroup_ab8b23 {
   margin-top: 8px;
 }
-.attachment_a4623d + .hoverButtonGroup__304b2 .anchor_af404b,
-.wrapperAudio_f316dd + .hoverButtonGroup__304b2 .anchor_af404b {
+.attachment_a4623d + .hoverButtonGroup_ab8b23 .anchor_af404b,
+.wrapperAudio_f316dd + .hoverButtonGroup_ab8b23 .anchor_af404b {
   padding: 0;
 }
 .hoverButton_be4802 {
@@ -7250,7 +7250,7 @@ div:is(.usernameSection_d2b491, .container_c9ccf6) > div:not([class]) {
   border: 0;
   border-radius: var(--radius-round);
 }
-.roleRemoveButton_e4010c, .roleRemoveButton_f9575e {
+.roleRemoveButton_f9575e, .roleRemoveButton_f9575e {
   position: static;
 }
 .roleRemoveIcon_e4010c {
@@ -12118,7 +12118,7 @@ mask > use[href$="lower_badge_masks"] {
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V329 \a \a messy code be like erm what the scallop \a \a";
+  content: "DTM-18 Public V1.0.330 \a \a messy code be like erm what the scallop \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;

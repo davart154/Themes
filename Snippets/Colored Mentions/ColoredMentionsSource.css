@@ -5,16 +5,16 @@
 .message_d5deea:hover, .message_d5deea.selected_d5deea {
   background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
 }
-.messageContent_ec86aa, .compact_ec86aa .contents_ec86aa {
+.messageContent_f9f2ca, .compact_f9f2ca .contents_f9f2ca {
   position: unset !important;
 }
-.mention, .roleMention_d6076c {
+.mention, .roleMention_f8f345 {
   position: unset;
   filter: none;
 }
-.hasReply_ec86aa.mentioned_d5deea:not(:has([class*="ention"])):before,
+.hasReply_f9f2ca.mentioned_d5deea:not(:has([class*="ention"])):before,
 .mentioned_d5deea .mention:before,
-.mentioned_d5deea .roleMention_d6076c:before {
+.mentioned_d5deea .roleMention_f8f345:before {
   content: "";
   position: absolute;
   top: 0;
@@ -25,9 +25,9 @@
   filter: saturate(var(--saturation-factor,1));
   pointer-events: none;
 }
-.hasReply_ec86aa.mentioned_d5deea:not(:has([class*="ention"])):after,
+.hasReply_f9f2ca.mentioned_d5deea:not(:has([class*="ention"])):after,
 .mentioned_d5deea .mention:after,
-.mentioned_d5deea .roleMention_d6076c:after {
+.mentioned_d5deea .roleMention_f8f345:after {
   content: "";
   position: absolute;
   inset: 0;
@@ -36,21 +36,21 @@
   filter: saturate(var(--saturation-factor,1));
   pointer-events: none;
 }
-.roleMention_d6076c[style]:before {
+.roleMention_f8f345[style]:before {
   background-color: currentColor;
 }
-.roleMention_d6076c[style]:after {
+.roleMention_f8f345[style]:after {
   background: currentColor;
   opacity: 0.1;
 }
 .mentioned_d5deea:before,
 .mentioned_d5deea:after,
-.repliedMessage_ec86aa [class*="ention"]:before,
-.repliedMessage_ec86aa [class*="ention"]:after,
+.repliedMessage_f9f2ca [class*="ention"]:before,
+.repliedMessage_f9f2ca [class*="ention"]:after,
 .mention ~ [class*="ention"]:before,
 .mention ~ [class*="ention"]:after,
-.roleMention_d6076c ~ [class*="ention"]:before,
-.roleMention_d6076c ~ [class*="ention"]:after,
+.roleMention_f8f345 ~ [class*="ention"]:before,
+.roleMention_f8f345 ~ [class*="ention"]:after,
 .mentioned_d5deea:before,
 .mentioned_d5deea:after {
   content: unset;

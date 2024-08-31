@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.0 Beta \a \a";
+  content: "DTM-18 Public V2.0.1 Beta \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -21,7 +21,7 @@
 
 /*Beta Version*/
 .form_a7d72e:after {
-  content: "DTM-18 Public Beta v2.0.0. Designs are not final or may be broken.";
+  content: "DTM-18 Public Beta v2.0.1. Designs are not final or may be broken.";
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -721,7 +721,7 @@
   opacity: 1;
 }
 .peopleColumn_c2739c .peopleListItem_d51464 .actionButton_e01b91 {
-  border-radius: var(--radius-xxs);
+  border-radius: 3px;
   transition: 0.3s;
   background: var(--background-secondary-alt);
   color: #fff;
@@ -5126,7 +5126,7 @@ svg+.botText_a9e77f:before {
   position: relative;
   background: #0004;
   border: solid 1px #0004;
-  border-radius: var(--radius-xxs);
+  border-radius: 3px;
 }
 .connection_e2a436 .upsellWrapper_e2a436 {
   border-radius: 0px;
@@ -5134,7 +5134,7 @@ svg+.botText_a9e77f:before {
   border-right: 0;
 }
 .connection_e2a436 .metadataContainer_e2a436 .connectedAccountVanityMetadataTag_a1f026 {
-  border-radius: var(--radius-xxs);
+  border-radius: 3px;
   background: none;
   border: solid 1px #fff3;
 }
@@ -5202,7 +5202,7 @@ svg+.botText_a9e77f:before {
   position: relative;
   background: #0000001a;
   border: 1px solid #0000004d;
-  border-radius: var(--radius-xxs);
+  border-radius: 3px;
   padding: 10px;
 }
 .connection_e2a436 .integration_e2a436 .button_f9af59.lookFilled-yCfaCM {

@@ -2351,7 +2351,7 @@ button.button_adca65 {
 .message_d5deea:before {
   display: none;
 }
-.cozy_f9f2ca.mentioned_d5deea :is(.messageContent_f9f2ca, .contents_f9f2ca:not(:has(.messageContent_f9f2ca)) + .container_b558d0) {
+.cozy_f9f2ca.mentioned_d5deea :is(.messageContent_f9f2ca, &:has(.messageContent_f9f2ca:empty) .container_b558d0) {
   background-color: var(--background-mentioned);
   border-radius: 3px;
   margin: -.1rem -.2rem .1rem;
@@ -2361,7 +2361,7 @@ button.button_adca65 {
   padding-left: calc(6px + .2rem);
   position: relative;
 }
-.cozy_f9f2ca.mentioned_d5deea :is(.messageContent_f9f2ca, .contents_f9f2ca:not(:has(.messageContent_f9f2ca)) + .container_b558d0):after {
+.cozy_f9f2ca.mentioned_d5deea :is(.messageContent_f9f2ca, &:has(.messageContent_f9f2ca:empty) .container_b558d0):after {
   position: absolute;
   top: 0;
   left: 0;

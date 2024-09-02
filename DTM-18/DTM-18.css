@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.2 Beta \a \a";
+  content: "DTM-18 Public V2.0.3 Beta \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -21,7 +21,7 @@
 
 /*Beta Version*/
 .form_a7d72e:after {
-  content: "DTM-18 Public Beta v2.0.2. Designs are not final or may be broken.";
+  content: "DTM-18 Public Beta v2.0.3. Designs are not final or may be broken.";
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -4269,18 +4269,18 @@ svg+.botText_a9e77f:before {
   border-top: 1px solid var(--userPopout-footer-borderColor);
   border-radius: 0px;
 }
-.inner_dc0b43 {
+.footer_b07019 .inner_d0696b {
   height: unset;
   background-color: var(--userPopout-footer-input-bgColor);
   border: 1px solid var(--userPopout-footer-input-borderColor);
   border-radius: 3px;
 }
-.userPopoutOuter_c69a7b .inner_dc0b43 .markup_f8f345, .userPopoutOuter_c69a7b .placeholder_a552a6 {
+.userPopoutOuter_c69a7b .inner_d0696b .markup_f8f345, .userPopoutOuter_c69a7b .placeholder_a552a6 {
   font-size: 14px;
   line-height: 18px;
   padding: 8px 10px;
 }
-.userProfileOuterThemed_c69a7b .inner_dc0b43 .markup_f8f345, .userProfileOuterThemed_c69a7b .placeholder_a552a6 {
+.userProfileOuterThemed_c69a7b .inner_d0696b .markup_f8f345, .userProfileOuterThemed_c69a7b .placeholder_a552a6 {
   color: var(--header-primary);
 }
 .footer_b07019 .buttons_d0696b {

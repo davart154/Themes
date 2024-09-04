@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.3 Beta \a \a";
+  content: "DTM-18 Public V2.0.4 Beta \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -21,7 +21,7 @@
 
 /*Beta Version*/
 .form_a7d72e:after {
-  content: "DTM-18 Public Beta v2.0.3. Designs are not final or may be broken.";
+  content: "DTM-18 Public Beta v2.0.4. Designs are not final or may be broken.";
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -1562,7 +1562,7 @@ button.button_adca65 {
 .accountProfilePopoutWrapper_b2ca13 {
   left: unset;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.wrapper_cb78f1, .header_b07019, .pronounsTooltip_c32acf, .container_e5a42d, .card_ae1fa2) {
+.accountProfilePopoutWrapper_b2ca13 :is(.wrapper_cb78f1, .header_b8cc6d, .pronounsTooltip_c32acf, .container_b64375, .card_ae1fa2) {
   display: none;
 }
 .accountProfilePopoutWrapper_b2ca13 .userProfileInner_c69a7b:after {
@@ -3640,10 +3640,10 @@ svg+.botText_a9e77f:before {
   height: 130px;
 }
 
-.header_b07019 {
+.header_b8cc6d {
   min-height: 120px !important;
 }
-.body_b07019 {
+.body_b8cc6d {
   position: unset;
   gap: 0;
   padding: 0 !important;
@@ -3652,36 +3652,36 @@ svg+.botText_a9e77f:before {
     display: none;
   }
 }
-.footer_b07019 {
+.footer_b8cc6d {
   padding: 0;
 }
 
-.mask_c3e427 {
+.mask_d5fdb1 {
   position: absolute;
   top: 0;
   z-index: 1;
   min-height: var(--custom-user-banner-banner-height-popout) !important;
 }
-.mask_c3e427 foreignObject {
+.mask_d5fdb1 foreignObject {
   mask: none;
 }
-.userPopoutOuter_c69a7b .banner_c3e427 {
+.userPopoutOuter_c69a7b .banner_d5fdb1 {
   position: relative;
   width: var(--userPopout-banner-width);
   border-radius: 0px;
   -webkit-mask-image: linear-gradient(0deg, transparent 0%, black 100%);
 }
-.banner_c3e427:before {
+.banner_d5fdb1:before {
   display: none;
 }
-.fullSizeOuter_c69a7b .banner_c3e427 {
+.fullSizeOuter_c69a7b .banner_d5fdb1 {
   height: unset !important;
   min-height: 130px !important;
   opacity: .5;
   -webkit-mask-image: radial-gradient(100% 100% at top left,hsla(0,0%,100%,.6) 0,hsla(0,0%,100%,0) 100%);
 }
 
-.fullSizeOuter_c69a7b .headerButtons_bc9cc2 + div {
+.fullSizeOuter_c69a7b .headerButtons_b9fccc + div {
   display: none;
 }
 .statusBubbleOuter_d0a252, .statusBubbleOuter_e6ac4a {
@@ -3800,7 +3800,7 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.footer_b07019 > button {
+.footer_b8cc6d > button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -3960,7 +3960,7 @@ svg+.botText_a9e77f:before {
   margin-right: 0;
   padding: 0;
 }
-.container_e5a42d {
+.container_b64375 {
   background: none !important;
   border: 0 !important;
   gap: 2px;
@@ -3971,24 +3971,24 @@ svg+.botText_a9e77f:before {
   width: fit-content;
 }
 
-.mutuals_dc9488 {
+.mutuals_fc9b46 {
   background: var(--userPopout-play);
   padding: 0 10px 10px;
   justify-content: center;
 }
-.section_dc9488 {
+.section_fc9b46 {
   gap: 0;
 }
-.mutuals_dc9488 .avatars_ccc074 {
+.mutuals_fc9b46 .avatars_ccc074 {
   display: none;
 }
-.mutuals_dc9488 [data-text-variant] {
+.mutuals_fc9b46 [data-text-variant] {
   color: var(--userPopout-play-secondary) !important;
   font-size: 12px;
   font-weight: 700;
   padding: 0;
 }
-.spacer_dc9488 {
+.spacer_fc9b46 {
   background-color: var(--userPopout-play-secondary);
 }
 
@@ -3996,14 +3996,14 @@ svg+.botText_a9e77f:before {
   display: none;
 }
 
-.buttons_e274c3 {
+.buttons_ce21cc {
   align-items: center;
   background: var(--userPopout-play);
   flex-direction: column;
   gap: 4px;
   padding: 0 10px 10px;
 }
-.button_e274c3 {
+.button_ce21cc {
   justify-content: center;
   width: fit-content;
   height: fit-content;
@@ -4024,38 +4024,37 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.body_b07019 > div:not([class], [style]) {
+.body_b8cc6d > div:not([class], [style]) {
   background: var(--userPopout-play);
   padding: 0 10px 10px;
 }
-.descriptionClamp_fc5c48 [data-text-variant] {
+.descriptionClamp_abaf7d [data-text-variant] {
   color: var(--userPopout-play-tertiary) !important;
 }
-.viewFullBio_fc5c48 [data-text-variant] {
+.viewFullBio_abaf7d [data-text-variant] {
   color: var(--text-link) !important;
 }
-.viewFullBio_fc5c48:hover [data-text-variant] {
+.viewFullBio_abaf7d:hover [data-text-variant] {
   text-decoration: underline;
 }
 
-.activity_cd74cc, .card_ae1fa2 {
+.card_ae1fa2 {
   position: relative;
   background: var(--userPopout-play) !important;
   padding: 10px;
   border: 0;
   border-radius: 0px;
   z-index: 0;
-
-  &:before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgb(0 0 0 / .05);
-    pointer-events: none;
-    z-index: -1;
-  }
 }
-.headerText_c1d9fd.headerText_c1d9fd, .headerText_ae1fa2 {
+.userPopoutOuter_c69a7b .card_ae1fa2:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(0 0 0 / .05);
+  pointer-events: none;
+  z-index: -1;
+}
+.headerText_ae1fa2 {
   color: var(--white-500);
   font-size: 12px;
   line-height: 16px;
@@ -4212,7 +4211,7 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.body_b07019 > div:has(>.root_c83b44) {
+.body_b8cc6d > div:has(>.root_e6f2d0) {
   background: transparent;
   padding: 10px;
   gap: 6px;
@@ -4222,17 +4221,17 @@ svg+.botText_a9e77f:before {
   padding: 10px;
   gap: 8px;
 }
-.heading_ba4d80 {
+.headings_ba4d80>[data-text-variant][style] {
   color: var(--userPopout-header-color) !important;
   font-size: 12px;
   font-weight: 700;
   line-height: unset;
   text-transform: uppercase;
 }
-.root_c83b44, .root_f88b1e {
+.root_e6f2d0, .root_f88b1e {
   gap: 0;
 }
-.expandButton_c83b44, .collapseButton_c83b44 {
+.expandButton_e6f2d0, .collapseButton_e6f2d0 {
   background: var(--userPopout-biteSized-roleHeader-bgColor) !important;
   border: 1px solid var(--userPopout-role-BorderColor) !important;
   border-radius: var(--radius-round);
@@ -4262,14 +4261,14 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.footer_b07019 .channelTextArea_d0696b {
+.footer_b8cc6d .channelTextArea_d0696b {
   box-sizing: border-box;
   padding: 10px;
   background-color: var(--userPopout-biteSized-footer-bgColor);
   border-top: 1px solid var(--userPopout-footer-borderColor);
   border-radius: 0px;
 }
-.footer_b07019 .inner_d0696b {
+.footer_b8cc6d .inner_d0696b {
   height: unset;
   background-color: var(--userPopout-footer-input-bgColor);
   border: 1px solid var(--userPopout-footer-input-borderColor);
@@ -4283,12 +4282,12 @@ svg+.botText_a9e77f:before {
 .userProfileOuterThemed_c69a7b .inner_d0696b .markup_f8f345, .userProfileOuterThemed_c69a7b .placeholder_a552a6 {
   color: var(--header-primary);
 }
-.footer_b07019 .buttons_d0696b {
+.footer_b8cc6d .buttons_d0696b {
   display: none;
 }
 
 /*Command*/
-.list_fa6679 {
+.list_b6fd3d {
   gap: 4px;
 
   button {
@@ -4351,11 +4350,11 @@ svg+.botText_a9e77f:before {
   height: fit-content;
   max-height: 85vh;
 }
-.body_bc9cc2 {
+.body_b9fccc {
   gap: 0;
   margin: 0;
 }
-.headerInner_bc9cc2 {
+.headerInner_b9fccc {
   align-items: center;
   display: flex;
   height: 90px;
@@ -4372,13 +4371,13 @@ svg+.botText_a9e77f:before {
     pointer-events: all;
   }
 }
-.headerButtons_bc9cc2 button {
+.headerButtons_b9fccc button {
   background: transparent !important;
   color: var(--userPopout-play-primary) !important;
   border: 1px solid transparent;
   transition: border .2s ease !important;
 }
-.fullSizeOuter_c69a7b.theme-dark .headerButtons_bc9cc2 button {
+.fullSizeOuter_c69a7b.theme-dark .headerButtons_b9fccc button {
   border-color: #ffffff4d;
 
   &:hover {
@@ -4388,7 +4387,7 @@ svg+.botText_a9e77f:before {
     border-color: #fff;
   }
 }
-.theme-light .headerButtons_bc9cc2 button {
+.theme-light .headerButtons_b9fccc button {
   border-color: #0000004d;
 
   &:hover {
@@ -4399,7 +4398,7 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.body_bc9cc2 > .container_c32acf {
+.body_b9fccc > .container_c32acf {
   align-items: unset;
   background: transparent;
   flex-shrink: 0;
@@ -4407,22 +4406,22 @@ svg+.botText_a9e77f:before {
   justify-content: center;
   padding: 20px 20px 20px 130px;
 }
-.body_bc9cc2 .tags_c32acf {
+.body_b9fccc .tags_c32acf {
   align-items: unset;
 }
-.body_bc9cc2 .container_e5a42d {
+.body_b9fccc .container_b64375 {
   padding: 0;
 }
 
-.overlay_bc9cc2 {
+.overlay_b9fccc {
   background-color: transparent !important;
   border: 0;
   border-radius: 0;
 }
-.container_c1519f {
+.container_ecc04c {
   border-radius: 0;
 }
-.tabBar_c1519f {
+.tabBar_ecc04c {
   background-color: var(--userPopout-play);
   border-bottom: 0;
   border-top: 1px solid hsl(var(--white-500-hsl) / .1);
@@ -4432,7 +4431,7 @@ svg+.botText_a9e77f:before {
   margin: 0;
   padding-left: 20px;
 }
-.tabBarItem_c1519f {
+.tabBarItem_ecc04c {
   display: flex;
   height: unset;
   border-bottom-width: 2px !important;
@@ -4445,7 +4444,7 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.scroller_c2dcc6 {
+.scroller_d53fbd {
   gap: 0;
   min-height: 240px;
   padding: 20px 10px;
@@ -4458,45 +4457,65 @@ svg+.botText_a9e77f:before {
   }
 }
 
-.note_c2dcc6 textarea {
+.note_d53fbd textarea {
   border: 0;
   background: transparent;
 }
 
-.listScroller_e4be58 {
+.scroller_c0721c {
+  padding: 20px !important;
+}
+.scroller_c0721c>.section_ba4d80 {
+  padding: 0;
+  gap: 0;
+}
+.scroller_c0721c::-webkit-scrollbar {
+  display: none;
+}
+.fullSizeOverlayBackground_c69a7b.card_ae1fa2 {
+  background: none !important;
+  border-bottom: 2px solid hsl(var(--white-500-hsl) / 1);
+  padding: 10px 0;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.listScroller_d2d6cb {
   min-height: 240px;
   padding: 20px 0;
 }
-.listScroller_e4be58::-webkit-scrollbar {
+.listScroller_d2d6cb::-webkit-scrollbar {
   width: 14px;
   height: 14px;
 }
-.listScroller_e4be58::-webkit-scrollbar-thumb {
+.listScroller_d2d6cb::-webkit-scrollbar-thumb {
   background-color: var(--background-tertiary);
   border: 3px solid transparent;
   border-radius: 7px;
 }
-.listRow_e4be58 {
+.listRow_d2d6cb {
   margin: 0;
   border-radius: 0px;
   padding: 5px 16px 5px 20px;
   color: #b9bbbe;
 }
-.listRow_e4be58:hover {
+.listRow_d2d6cb:hover {
   background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.05) 90%, hsla(0, 0%, 100%, 0));
 }
-.theme-light .listRow_e4be58 {
+.theme-light .listRow_d2d6cb {
   color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
 }
-.theme-light .listRow_e4be58:hover {
+.theme-light .listRow_d2d6cb:hover {
   background: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
   color: #36393f;
 }
-.listRow_e4be58 .wrapper_c51b4e foreignObject {
+.listRow_d2d6cb .wrapper_c51b4e foreignObject {
   border-radius: var(--radius-round);
   mask: none;
 }
-.listRow_e4be58 .wrapper_c51b4e:before {
+.listRow_d2d6cb .wrapper_c51b4e:before {
   content: "";
   position: absolute;
   z-index: 1;
@@ -4937,7 +4956,7 @@ svg+.botText_a9e77f:before {
 }
 #my-account-tab .divider-_0um2u:nth-of-type(2),
 .accountProfileCard_b69b77 .colorBrand_dd4f85,
-.accountProfileCard_b69b77 .mask_c3e427 {
+.accountProfileCard_b69b77 .mask_d5fdb1 {
   display: none;
 }
 
@@ -4963,7 +4982,7 @@ svg+.botText_a9e77f:before {
   top: calc(50% - 4px);
   left: calc(50% - 4px);
 }
-.header_f4c122 + .body_b07019 .container_c32acf {
+.header_f4c122 + .body_b8cc6d .container_c32acf {
   padding-top: 58px !important;
 }
 
@@ -5285,11 +5304,12 @@ svg {
 /*DiscordLogo*/[d="M19.73 4.87a18.2 18.2 0 0 0-4.6-1.44c-.21.4-.4.8-.58 1.21-1.69-.25-3.4-.25-5.1 0-.18-.41-.37-.82-.59-1.2-1.6.27-3.14.75-4.6 1.43A19.04 19.04 0 0 0 .96 17.7a18.43 18.43 0 0 0 5.63 2.87c.46-.62.86-1.28 1.2-1.98-.65-.25-1.29-.55-1.9-.92.17-.12.32-.24.47-.37 3.58 1.7 7.7 1.7 11.28 0l.46.37c-.6.36-1.25.67-1.9.92.35.7.75 1.35 1.2 1.98 2.03-.63 3.94-1.6 5.64-2.87.47-4.87-.78-9.09-3.3-12.83ZM8.3 15.12c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.89 2.27-2 2.27Zm7.4 0c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.88 2.27-2 2.27Z"] {
 	d: path('M17.7123 20.4774C17.7123 20.4774 16.9727 19.6095 16.3562 18.8425 19.0479 18.0957 20.0754 16.4406 20.0754 16.4406 19.2329 16.9856 18.4316 17.3691 17.7123 17.6315 16.685 18.0553 15.6987 18.3379 14.7329 18.4994 12.7603 18.8627 10.9521 18.7618 9.411 18.4792 8.2398 18.2572 7.2329 17.9343 6.3904 17.6113 5.9178 17.4297 5.4041 17.2076 4.8904 16.925 4.8288 16.8846 4.7671 16.8644 4.7055 16.8241 4.6644 16.8039 4.6439 16.7837 4.6233 16.7636 4.2534 16.5617 4.048 16.4204 4.048 16.4204 4.048 16.4204 5.0343 18.0351 7.6439 18.8022 7.0274 19.5692 6.2672 20.4774 6.2672 20.4774 1.726 20.3362 0 17.4094 0 17.4094 0 10.91 2.9588 5.642 2.9588 5.642 5.9178 3.462 8.7329 3.5225 8.7329 3.5225L8.9383 3.7648C5.2398 4.8144 3.5343 6.4089 3.5343 6.4089 3.5343 6.4089 3.9864 6.1668 4.7466 5.8236 6.9452 4.8749 8.6918 4.6125 9.411 4.552 9.5343 4.5318 9.637 4.5116 9.7603 4.5116 11.0137 4.3501 12.4316 4.3098 13.911 4.4713 15.8631 4.6933 17.9589 5.2584 20.0959 6.4089 20.0959 6.4089 18.4726 4.8951 14.9794 3.8455L15.2671 3.5225C15.2671 3.5225 18.0822 3.462 21.0411 5.642 21.0411 5.642 24 10.91 24 17.4094 24 17.4094 22.2534 20.3362 17.7123 20.4774ZM8.1575 11.0513C6.9863 11.0513 6.0616 12.0606 6.0616 13.2918 6.0616 14.5231 7.0068 15.5323 8.1575 15.5323 9.3288 15.5323 10.2534 14.5231 10.2534 13.2918 10.2739 12.0606 9.3288 11.0513 8.1575 11.0513M15.6576 11.0513C14.4863 11.0513 13.5617 12.0606 13.5617 13.2918 13.5617 14.5231 14.5068 15.5323 15.6576 15.5323 16.8288 15.5323 17.7534 14.5231 17.7534 13.2918 17.7534 12.0606 16.8288 11.0513 15.6576 11.0513');
 }
-/*DiscordText*/[d^="M3 4.78717H6.89554C7.83025"] {
+/*DiscordText*/[d="M3 4.78717H6.89554C7.83025 4.78717 8.62749 4.93379 9.27812 5.22703C9.92875 5.52027 10.4144 5.92348 10.7352 6.44582C11.0559 6.96815 11.2208 7.5638 11.2208 8.24192C11.2208 8.90171 11.0559 9.49736 10.7168 10.038C10.3778 10.5695 9.8646 11.0002 9.17732 11.3118C8.49003 11.6234 7.6378 11.7791 6.6197 11.7791H3V4.78717ZM6.57388 10.0014C7.2071 10.0014 7.69278 9.84559 8.03184 9.52485C8.3709 9.21328 8.54501 8.77343 8.54501 8.23276C8.54501 7.72875 8.38923 7.32555 8.08682 7.02314C7.78442 6.72073 7.32623 6.56495 6.71225 6.56495H5.49255V10.0014H6.57388Z"] {
   d: path("M3.5764 3.1413 0 3.1413 0 7.2283 2.3807 9.4022 2.3807 5.4348 3.6626 5.4348C4.4705 5.4348 4.8691 5.837 4.8691 6.4674L4.8691 9.5C4.8691 10.1304 4.4921 10.5543 3.6626 10.5543L0 10.5543 0 12.8587 3.5764 12.8587C5.4939 12.8696 7.2929 11.9022 7.2929 9.663L7.2929 6.3913C7.2929 4.1304 5.4939 3.1413 3.5764 3.1413ZM22.3311 9.6739 22.3311 6.3261C22.3311 5.1196 24.464 4.837 25.1104 6.0543L27.0817 5.2391C26.3169 3.5109 24.8949 3 23.7207 3 21.8033 3 19.9073 4.1304 19.9073 6.3261L19.9073 9.6739C19.9073 11.8804 21.8033 13 23.6776 13 24.8841 13 26.3276 12.3913 27.1248 10.8152L25.0134 9.8261C24.4963 11.1739 22.3311 10.8478 22.3311 9.6739ZM15.803 6.7826C15.0598 6.6196 14.5642 6.3478 14.5319 5.8804 14.575 4.75 16.2878 4.7174 17.2896 5.7935L18.8732 4.5543C17.8821 3.3261 16.7618 3 15.5984 3 13.8425 3 12.1404 4 12.1404 5.913 12.1404 7.7717 13.5409 8.7609 15.0813 9 15.8677 9.1087 16.7402 9.4239 16.7187 9.9783 16.6541 11.0217 14.5427 10.9674 13.5839 9.7826L12.065 11.2391C12.9591 12.4022 14.1764 13 15.3183 13 17.0742 13 19.024 11.9674 19.0994 10.087 19.2071 7.6957 17.5051 7.0978 15.803 6.7826ZM8.5963 12.8587 11.0093 12.8587 11.0093 3.1413 8.5963 3.1413 8.5963 12.8587ZM49.2835 3.1413 45.7071 3.1413 45.7071 7.2283 48.0878 9.4022 48.0878 5.4348 49.3589 5.4348C50.1669 5.4348 50.5654 5.837 50.5654 6.4674L50.5654 9.5C50.5654 10.1304 50.1884 10.5543 49.3589 10.5543L45.6963 10.5543 45.6963 12.8587 49.2728 12.8587C51.1902 12.8696 52.9892 11.9022 52.9892 9.663L52.9892 6.3913C53 4.1304 51.201 3.1413 49.2835 3.1413ZM31.7354 3C29.7533 3 27.7819 4.0978 27.7819 6.337L27.7819 9.663C27.7819 11.8913 29.764 13 31.7569 13 33.739 13 35.7104 11.8913 35.7104 9.663L35.7104 6.337C35.7104 4.1087 33.7175 3 31.7354 3ZM33.2866 9.663C33.2866 10.3587 32.511 10.7174 31.7461 10.7174 30.9705 10.7174 30.1949 10.3696 30.1949 9.663L30.1949 6.337C30.1949 5.6196 30.949 5.2391 31.703 5.2391 32.4894 5.2391 33.2866 5.587 33.2866 6.337L33.2866 9.663ZM44.3606 6.337C44.3067 4.0543 42.777 3.1413 40.8057 3.1413L36.9815 3.1413 36.9815 12.8696 39.4268 12.8696 39.4268 9.7717 39.8577 9.7717 42.0768 12.8587 45.0931 12.8587 42.4862 9.5217C43.6496 9.1522 44.3606 8.1413 44.3606 6.337ZM40.8488 7.6522 39.4268 7.6522 39.4268 5.4348 40.8488 5.4348C42.3785 5.4348 42.3785 7.6522 40.8488 7.6522Z");
-}
-[d^="M3 4.78717H6.89554C7.83025"] ~ path {
-  display: none;
+
+  ~ path {
+    display: none;
+  }
 }
 /*Activities*/[d^="M22 4"] {
   d: path("M4.92871 13.4149L10.5857 19.0709L18.3639 11.2927C19.7781 9.87859 22.6066 6.48376 21.1923 2.80748C17.5153 1.3932 14.1213 4.22173 12.7074 5.63625L4.92871 13.4149ZM16.064 9.93309C17.1686 9.93309 18.064 9.03766 18.064 7.93309C18.064 6.82852 17.1686 5.93309 16.064 5.93309C14.9594 5.93309 14.064 6.82852 14.064 7.93309C14.064 9.03766 14.9594 9.93309 16.064 9.93309Z M3.41357 16.7844C2.34946 17.8496 2.00004 22 2.00004 22C2.00004 22 6.15125 21.6521 7.21627 20.5869C7.71243 20.0915 7.96638 19.4494 8 18.8004L5.21285 18.7866L5.19829 16C4.54947 16.0336 3.90973 16.2881 3.41357 16.7844Z M9.17144 9.17151H3.51459L1.74684 10.9393L6.34302 11.9999L9.17144 9.17151Z M14.8283 14.8283V20.4852L13.0606 22.2529L11.9999 17.6568L14.8283 14.8283Z");
@@ -6370,58 +6390,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --bg-gradient-under-the-sea-2-hsl: 159 calc(var(--saturation-factor, 1) * 20.4%) 43.3%;
     --bg-gradient-under-the-sea-3: hsl(var(--bg-gradient-under-the-sea-3-hsl) / 1);
     --bg-gradient-under-the-sea-3-hsl: 175 calc(var(--saturation-factor, 1) * 10.9%) 46.7%;
-    --blue-100: hsl(var(--blue-100-hsl) / 1);
-    --blue-100-hsl: 210 calc(var(--saturation-factor, 1) * 80%) 98%;
-    --blue-130: hsl(var(--blue-130-hsl) / 1);
-    --blue-130-hsl: 210 calc(var(--saturation-factor, 1) * 87.5%) 96.9%;
-    --blue-160: hsl(var(--blue-160-hsl) / 1);
-    --blue-160-hsl: 209 calc(var(--saturation-factor, 1) * 87.1%) 93.9%;
-    --blue-200: hsl(var(--blue-200-hsl) / 1);
-    --blue-200-hsl: 206 calc(var(--saturation-factor, 1) * 92.3%) 89.8%;
-    --blue-230: hsl(var(--blue-230-hsl) / 1);
-    --blue-230-hsl: 205 calc(var(--saturation-factor, 1) * 92.5%) 84.3%;
-    --blue-260: hsl(var(--blue-260-hsl) / 1);
-    --blue-260-hsl: 204 calc(var(--saturation-factor, 1) * 94.5%) 78.4%;
-    --blue-300: hsl(var(--blue-300-hsl) / 1);
-    --blue-300-hsl: 203 calc(var(--saturation-factor, 1) * 97.4%) 69.6%;
-    --blue-330: hsl(var(--blue-330-hsl) / 1);
-    --blue-330-hsl: 201 calc(var(--saturation-factor, 1) * 100%) 59%;
-    --blue-345: hsl(var(--blue-345-hsl) / 1);
-    --blue-345-hsl: 200 calc(var(--saturation-factor, 1) * 100%) 49.4%;
-    --blue-360: hsl(var(--blue-360-hsl) / 1);
-    --blue-360-hsl: 203 calc(var(--saturation-factor, 1) * 100%) 47.5%;
-    --blue-400: hsl(var(--blue-400-hsl) / 1);
-    --blue-400-hsl: 207 calc(var(--saturation-factor, 1) * 100%) 46.1%;
-    --blue-430: hsl(var(--blue-430-hsl) / 1);
-    --blue-430-hsl: 212 calc(var(--saturation-factor, 1) * 100%) 45.3%;
-    --blue-460: hsl(var(--blue-460-hsl) / 1);
-    --blue-460-hsl: 214 calc(var(--saturation-factor, 1) * 100%) 41%;
-    --blue-500: hsl(var(--blue-500-hsl) / 1);
-    --blue-500-hsl: 213 calc(var(--saturation-factor, 1) * 100%) 35.7%;
-    --blue-530: hsl(var(--blue-530-hsl) / 1);
-    --blue-530-hsl: 212 calc(var(--saturation-factor, 1) * 100%) 30.4%;
-    --blue-560: hsl(var(--blue-560-hsl) / 1);
-    --blue-560-hsl: 212 calc(var(--saturation-factor, 1) * 100%) 26.7%;
-    --blue-600: hsl(var(--blue-600-hsl) / 1);
-    --blue-600-hsl: 211 calc(var(--saturation-factor, 1) * 100%) 23.1%;
-    --blue-630: hsl(var(--blue-630-hsl) / 1);
-    --blue-630-hsl: 211 calc(var(--saturation-factor, 1) * 100%) 20.8%;
-    --blue-660: hsl(var(--blue-660-hsl) / 1);
-    --blue-660-hsl: 212 calc(var(--saturation-factor, 1) * 100%) 18.6%;
-    --blue-700: hsl(var(--blue-700-hsl) / 1);
-    --blue-700-hsl: 212 calc(var(--saturation-factor, 1) * 100%) 16.7%;
-    --blue-730: hsl(var(--blue-730-hsl) / 1);
-    --blue-730-hsl: 211 calc(var(--saturation-factor, 1) * 100%) 14.1%;
-    --blue-760: hsl(var(--blue-760-hsl) / 1);
-    --blue-760-hsl: 211 calc(var(--saturation-factor, 1) * 100%) 12.4%;
-    --blue-800: hsl(var(--blue-800-hsl) / 1);
-    --blue-800-hsl: 211 calc(var(--saturation-factor, 1) * 100%) 10.6%;
-    --blue-830: hsl(var(--blue-830-hsl) / 1);
-    --blue-830-hsl: 213 calc(var(--saturation-factor, 1) * 100%) 9.4%;
-    --blue-860: hsl(var(--blue-860-hsl) / 1);
-    --blue-860-hsl: 213 calc(var(--saturation-factor, 1) * 100%) 8.4%;
-    --blue-900: hsl(var(--blue-900-hsl) / 1);
-    --blue-900-hsl: 213 calc(var(--saturation-factor, 1) * 100%) 7.1%;
   --brand-100: hsl(var(--brand-100-hsl) / 1);
   --brand-100-hsl: 228 calc(var(--saturation-factor, 1) * 55.6%) 98.2%;
   --brand-130: hsl(var(--brand-130-hsl) / 1);
@@ -6602,58 +6570,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --input-placeholder-text-dark-hsl: 216 calc(var(--saturation-factor, 1) * 2.1%) 53.9%;
     --lol: hsl(var(--lol-hsl) / 1);
     --lol-hsl: 190 calc(var(--saturation-factor, 1) * 89.7%) 7.6%;
-    --orange-100: hsl(var(--orange-100-hsl) / 1);
-    --orange-100-hsl: 18 calc(var(--saturation-factor, 1) * 100%) 98%;
-    --orange-130: hsl(var(--orange-130-hsl) / 1);
-    --orange-130-hsl: 23 calc(var(--saturation-factor, 1) * 100%) 96.5%;
-    --orange-160: hsl(var(--orange-160-hsl) / 1);
-    --orange-160-hsl: 21 calc(var(--saturation-factor, 1) * 93.9%) 93.5%;
-    --orange-200: hsl(var(--orange-200-hsl) / 1);
-    --orange-200-hsl: 21 calc(var(--saturation-factor, 1) * 92.3%) 89.8%;
-    --orange-230: hsl(var(--orange-230-hsl) / 1);
-    --orange-230-hsl: 24 calc(var(--saturation-factor, 1) * 92.5%) 84.3%;
-    --orange-260: hsl(var(--orange-260-hsl) / 1);
-    --orange-260-hsl: 23 calc(var(--saturation-factor, 1) * 94.5%) 78.6%;
-    --orange-300: hsl(var(--orange-300-hsl) / 1);
-    --orange-300-hsl: 25 calc(var(--saturation-factor, 1) * 94.6%) 71.2%;
-    --orange-330: hsl(var(--orange-330-hsl) / 1);
-    --orange-330-hsl: 27 calc(var(--saturation-factor, 1) * 94.7%) 62.7%;
-    --orange-345: hsl(var(--orange-345-hsl) / 1);
-    --orange-345-hsl: 28 calc(var(--saturation-factor, 1) * 87.7%) 55.5%;
-    --orange-360: hsl(var(--orange-360-hsl) / 1);
-    --orange-360-hsl: 26 calc(var(--saturation-factor, 1) * 71.3%) 50.8%;
-    --orange-400: hsl(var(--orange-400-hsl) / 1);
-    --orange-400-hsl: 25 calc(var(--saturation-factor, 1) * 67.5%) 45.9%;
-    --orange-430: hsl(var(--orange-430-hsl) / 1);
-    --orange-430-hsl: 25 calc(var(--saturation-factor, 1) * 69.5%) 39.8%;
-    --orange-460: hsl(var(--orange-460-hsl) / 1);
-    --orange-460-hsl: 24 calc(var(--saturation-factor, 1) * 72.2%) 35.3%;
-    --orange-500: hsl(var(--orange-500-hsl) / 1);
-    --orange-500-hsl: 22 calc(var(--saturation-factor, 1) * 76.1%) 31.2%;
-    --orange-530: hsl(var(--orange-530-hsl) / 1);
-    --orange-530-hsl: 22 calc(var(--saturation-factor, 1) * 77%) 27.3%;
-    --orange-560: hsl(var(--orange-560-hsl) / 1);
-    --orange-560-hsl: 21 calc(var(--saturation-factor, 1) * 77.2%) 24.1%;
-    --orange-600: hsl(var(--orange-600-hsl) / 1);
-    --orange-600-hsl: 23 calc(var(--saturation-factor, 1) * 79.2%) 20.8%;
-    --orange-630: hsl(var(--orange-630-hsl) / 1);
-    --orange-630-hsl: 22 calc(var(--saturation-factor, 1) * 79.2%) 18.8%;
-    --orange-660: hsl(var(--orange-660-hsl) / 1);
-    --orange-660-hsl: 22 calc(var(--saturation-factor, 1) * 78.8%) 16.7%;
-    --orange-700: hsl(var(--orange-700-hsl) / 1);
-    --orange-700-hsl: 22 calc(var(--saturation-factor, 1) * 76.3%) 14.9%;
-    --orange-730: hsl(var(--orange-730-hsl) / 1);
-    --orange-730-hsl: 22 calc(var(--saturation-factor, 1) * 78.8%) 12.9%;
-    --orange-760: hsl(var(--orange-760-hsl) / 1);
-    --orange-760-hsl: 21 calc(var(--saturation-factor, 1) * 78.9%) 11.2%;
-    --orange-800: hsl(var(--orange-800-hsl) / 1);
-    --orange-800-hsl: 21 calc(var(--saturation-factor, 1) * 80%) 9.8%;
-    --orange-830: hsl(var(--orange-830-hsl) / 1);
-    --orange-830-hsl: 20 calc(var(--saturation-factor, 1) * 76.7%) 8.4%;
-    --orange-860: hsl(var(--orange-860-hsl) / 1);
-    --orange-860-hsl: 20 calc(var(--saturation-factor, 1) * 73%) 7.3%;
-    --orange-900: hsl(var(--orange-900-hsl) / 1);
-    --orange-900-hsl: 26 calc(var(--saturation-factor, 1) * 72.4%) 5.7%;
     --partner: hsl(var(--partner-hsl) / 1);
     --partner-hsl: 215 calc(var(--saturation-factor, 1) * 82.8%) 59%;
     --paypal: hsl(var(--paypal-hsl) / 1);
@@ -6834,50 +6750,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --reddit-hsl: 16 calc(var(--saturation-factor, 1) * 100%) 50%;
     --riot-games: hsl(var(--riot-games-hsl) / 1);
     --riot-games-hsl: 349 calc(var(--saturation-factor, 1) * 100%) 45.9%;
-    --role-blue: hsl(var(--role-blue-hsl) / 1);
-    --role-blue-hsl: 204 calc(var(--saturation-factor, 1) * 64.4%) 35.3%;
-    --role-brown: hsl(var(--role-brown-hsl) / 1);
-    --role-brown-hsl: 24 calc(var(--saturation-factor, 1) * 100%) 32.9%;
-    --role-burgundy: hsl(var(--role-burgundy-hsl) / 1);
-    --role-burgundy-hsl: 334 calc(var(--saturation-factor, 1) * 79.3%) 37.8%;
-    --role-dark-blue: hsl(var(--role-dark-blue-hsl) / 1);
-    --role-dark-blue-hsl: 199 calc(var(--saturation-factor, 1) * 18.4%) 40.4%;
-    --role-dark-grey: hsl(var(--role-dark-grey-hsl) / 1);
-    --role-dark-grey-hsl: 200 calc(var(--saturation-factor, 1) * 18.3%) 46.1%;
-    --role-dark-purple: hsl(var(--role-dark-purple-hsl) / 1);
-    --role-dark-purple-hsl: 282 calc(var(--saturation-factor, 1) * 43.7%) 37.6%;
-    --role-dark-teal: hsl(var(--role-dark-teal-hsl) / 1);
-    --role-dark-teal-hsl: 168 calc(var(--saturation-factor, 1) * 76.6%) 28.4%;
-    --role-default: hsl(var(--role-default-hsl) / 1);
-    --role-default-hsl: 204 calc(var(--saturation-factor, 1) * 15.9%) 65.5%;
-    --role-green: hsl(var(--role-green-hsl) / 1);
-    --role-green-hsl: 145 calc(var(--saturation-factor, 1) * 63.5%) 33.3%;
-    --role-grey: hsl(var(--role-grey-hsl) / 1);
-    --role-grey-hsl: 202 calc(var(--saturation-factor, 1) * 4%) 60.8%;
-    --role-light-blue: hsl(var(--role-light-blue-hsl) / 1);
-    --role-light-blue-hsl: 204 calc(var(--saturation-factor, 1) * 15.9%) 65.5%;
-    --role-light-green: hsl(var(--role-light-green-hsl) / 1);
-    --role-light-green-hsl: 145 calc(var(--saturation-factor, 1) * 63.2%) 49%;
-    --role-light-grey: hsl(var(--role-light-grey-hsl) / 1);
-    --role-light-grey-hsl: 184 calc(var(--saturation-factor, 1) * 8.7%) 61.8%;
-    --role-magenta: hsl(var(--role-magenta-hsl) / 1);
-    --role-magenta-hsl: 340 calc(var(--saturation-factor, 1) * 82.2%) 51.6%;
-    --role-orange: hsl(var(--role-orange-hsl) / 1);
-    --role-orange-hsl: 28 calc(var(--saturation-factor, 1) * 79.7%) 51.8%;
-    --role-purple: hsl(var(--role-purple-hsl) / 1);
-    --role-purple-hsl: 283 calc(var(--saturation-factor, 1) * 38.9%) 53.1%;
-    --role-salmon: hsl(var(--role-salmon-hsl) / 1);
-    --role-salmon-hsl: 6 calc(var(--saturation-factor, 1) * 78.1%) 57.1%;
-    --role-sky-blue: hsl(var(--role-sky-blue-hsl) / 1);
-    --role-sky-blue-hsl: 204 calc(var(--saturation-factor, 1) * 69.9%) 53.1%;
-    --role-tan: hsl(var(--role-tan-hsl) / 1);
-    --role-tan-hsl: 37 calc(var(--saturation-factor, 1) * 86.5%) 40.8%;
-    --role-teal: hsl(var(--role-teal-hsl) / 1);
-    --role-teal-hsl: 168 calc(var(--saturation-factor, 1) * 75.7%) 42%;
-    --role-terracotta: hsl(var(--role-terracotta-hsl) / 1);
-    --role-terracotta-hsl: 6 calc(var(--saturation-factor, 1) * 63.6%) 36.7%;
-    --role-yellow: hsl(var(--role-yellow-hsl) / 1);
-    --role-yellow-hsl: 48 calc(var(--saturation-factor, 1) * 89%) 50.2%;
     --samsung: hsl(var(--samsung-hsl) / 1);
     --samsung-hsl: 231 calc(var(--saturation-factor, 1) * 77.8%) 35.3%;
     --skype: hsl(var(--skype-hsl) / 1);
@@ -6886,60 +6758,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --spotify-hsl: 141 calc(var(--saturation-factor, 1) * 72.9%) 42%;
     --steam: hsl(var(--steam-hsl) / 1);
     --steam-hsl: 215 calc(var(--saturation-factor, 1) * 35.1%) 14.5%;
-    --teal-100: hsl(var(--teal-100-hsl) / 1);
-    --teal-100-hsl: 193 calc(var(--saturation-factor, 1) * 69.2%) 97.5%;
-    --teal-130: hsl(var(--teal-130-hsl) / 1);
-    --teal-130-hsl: 192 calc(var(--saturation-factor, 1) * 83.3%) 95.3%;
-    --teal-160: hsl(var(--teal-160-hsl) / 1);
-    --teal-160-hsl: 190 calc(var(--saturation-factor, 1) * 83.3%) 90.6%;
-    --teal-200: hsl(var(--teal-200-hsl) / 1);
-    --teal-200-hsl: 188 calc(var(--saturation-factor, 1) * 85.7%) 83.5%;
-    --teal-230: hsl(var(--teal-230-hsl) / 1);
-    --teal-230-hsl: 188 calc(var(--saturation-factor, 1) * 88.3%) 73.1%;
-    --teal-260: hsl(var(--teal-260-hsl) / 1);
-    --teal-260-hsl: 188 calc(var(--saturation-factor, 1) * 81.9%) 65.3%;
-    --teal-300: hsl(var(--teal-300-hsl) / 1);
-    --teal-300-hsl: 189 calc(var(--saturation-factor, 1) * 72.8%) 58.2%;
-    --teal-330: hsl(var(--teal-330-hsl) / 1);
-    --teal-330-hsl: 189 calc(var(--saturation-factor, 1) * 65.6%) 52.2%;
-    --teal-345: hsl(var(--teal-345-hsl) / 1);
-    --teal-345-hsl: 190 calc(var(--saturation-factor, 1) * 62.8%) 48.4%;
-    --teal-360: hsl(var(--teal-360-hsl) / 1);
-    --teal-360-hsl: 190 calc(var(--saturation-factor, 1) * 64%) 43.5%;
-    --teal-400: hsl(var(--teal-400-hsl) / 1);
-    --teal-400-hsl: 190 calc(var(--saturation-factor, 1) * 63.5%) 38.6%;
-    --teal-430: hsl(var(--teal-430-hsl) / 1);
-    --teal-430-hsl: 190 calc(var(--saturation-factor, 1) * 63%) 33.9%;
-    --teal-460: hsl(var(--teal-460-hsl) / 1);
-    --teal-460-hsl: 191 calc(var(--saturation-factor, 1) * 64.2%) 29.6%;
-    --teal-500: hsl(var(--teal-500-hsl) / 1);
-    --teal-500-hsl: 190 calc(var(--saturation-factor, 1) * 65.2%) 25.9%;
-    --teal-530: hsl(var(--teal-530-hsl) / 1);
-    --teal-530-hsl: 190 calc(var(--saturation-factor, 1) * 66.7%) 22.4%;
-    --teal-560: hsl(var(--teal-560-hsl) / 1);
-    --teal-560-hsl: 190 calc(var(--saturation-factor, 1) * 69.7%) 19.4%;
-    --teal-600: hsl(var(--teal-600-hsl) / 1);
-    --teal-600-hsl: 189 calc(var(--saturation-factor, 1) * 71.8%) 16.7%;
-    --teal-630: hsl(var(--teal-630-hsl) / 1);
-    --teal-630-hsl: 190 calc(var(--saturation-factor, 1) * 73.7%) 14.9%;
-    --teal-660: hsl(var(--teal-660-hsl) / 1);
-    --teal-660-hsl: 188 calc(var(--saturation-factor, 1) * 75.8%) 12.9%;
-    --teal-700: hsl(var(--teal-700-hsl) / 1);
-    --teal-700-hsl: 189 calc(var(--saturation-factor, 1) * 79.3%) 11.4%;
-    --teal-730: hsl(var(--teal-730-hsl) / 1);
-    --teal-730-hsl: 189 calc(var(--saturation-factor, 1) * 80%) 9.8%;
-    --teal-760: hsl(var(--teal-760-hsl) / 1);
-    --teal-760-hsl: 189 calc(var(--saturation-factor, 1) * 81.4%) 8.4%;
-    --teal-800: hsl(var(--teal-800-hsl) / 1);
-    --teal-800-hsl: 188 calc(var(--saturation-factor, 1) * 83.3%) 7.1%;
-    --teal-830: hsl(var(--teal-830-hsl) / 1);
-    --teal-830-hsl: 189 calc(var(--saturation-factor, 1) * 87.1%) 6.1%;
-    --teal-860: hsl(var(--teal-860-hsl) / 1);
-    --teal-860-hsl: 188 calc(var(--saturation-factor, 1) * 85.2%) 5.3%;
-    --teal-900: hsl(var(--teal-900-hsl) / 1);
-    --teal-900-hsl: 189 calc(var(--saturation-factor, 1) * 90.9%) 4.3%;
-    --transparent: hsl(var(--transparent-hsl) / 0);
-    --transparent-hsl: 0 calc(var(--saturation-factor, 1) * 0%) 0%;
     --twitch: hsl(var(--twitch-hsl) / 1);
     --twitch-hsl: 262 calc(var(--saturation-factor, 1) * 46.8%) 39.8%;
     --twitter: hsl(var(--twitter-hsl) / 1);
@@ -6948,6 +6766,53 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --xbox-hsl: 120 calc(var(--saturation-factor, 1) * 77.1%) 27.5%;
     --youtube: hsl(var(--youtube-hsl) / 1);
     --youtube-hsl: 0 calc(var(--saturation-factor, 1) * 72.8%) 46.1%
+}
+
+:root {
+  --amazonmusic: hsl(var(--amazonmusic-hsl) / 1);
+  --amazonmusic-hsl: 184 calc(var(--saturation-factor, 1) * 62.7%) 59.0%;
+  --blazing8s: hsl(var(--blazing8s-hsl) / 1);
+  --blazing8s-hsl: 156 calc(var(--saturation-factor, 1) * 41.4%) 38.8%;
+  --bobblebash: hsl(var(--bobblebash-hsl) / 1);
+  --bobblebash-hsl: 206 calc(var(--saturation-factor, 1) * 76.9%) 25.5%;
+  --bobbleleague: hsl(var(--bobbleleague-hsl) / 1);
+  --bobbleleague-hsl: 9 calc(var(--saturation-factor, 1) * 53.5%) 39.6%;
+  --bopzio: hsl(var(--bopzio-hsl) / 1);
+  --bopzio-hsl: 248 calc(var(--saturation-factor, 1) * 30.2%) 50.6%;
+  --checkers: hsl(var(--checkers-hsl) / 1);
+  --checkers-hsl: 1 calc(var(--saturation-factor, 1) * 56.5%) 51.4%;
+  --chefshowdown: hsl(var(--chefshowdown-hsl) / 1);
+  --chefshowdown-hsl: 335 calc(var(--saturation-factor, 1) * 37.9%) 17.1%;
+  --chess: hsl(var(--chess-hsl) / 1);
+  --chess-hsl: 96 calc(var(--saturation-factor, 1) * 24.2%) 58.6%;
+  --colonist: hsl(var(--colonist-hsl) / 1);
+  --colonist-hsl: 205 calc(var(--saturation-factor, 1) * 76.4%) 55.1%;
+  --colortogether: hsl(var(--colortogether-hsl) / 1);
+  --colortogether-hsl: 201 calc(var(--saturation-factor, 1) * 100%) 65.1%;
+  --garticphone: hsl(var(--garticphone-hsl) / 1);
+  --garticphone-hsl: 305 calc(var(--saturation-factor, 1) * 61.5%) 37.6%;
+  --kwim: hsl(var(--kwim-hsl) / 1);
+  --kwim-hsl: 210 calc(var(--saturation-factor, 1) * 40.0%) 13.7%;
+  --krunker: hsl(var(--krunker-hsl) / 1);
+  --krunker-hsl: 198 calc(var(--saturation-factor, 1) * 100%) 39.8%;
+  --landio: hsl(var(--landio-hsl) / 1);
+  --landio-hsl: 17 calc(var(--saturation-factor, 1) * 89.7%) 15.3%;
+  --letterleague: hsl(var(--letterleague-hsl) / 1);
+  --letterleague-hsl: 22 calc(var(--saturation-factor, 1) * 72.9%) 65.3%;
+  --pokernight: hsl(var(--pokernight-hsl) / 1);
+  --pokernight-hsl: 228 calc(var(--saturation-factor, 1) * 39.9%) 32%;
+  --puttparty: hsl(var(--puttparty-hsl) / 1);
+  --puttparty-hsl: 228 calc(var(--saturation-factor, 1) * 36.9%) 32.9%;
+  --sketchheads: hsl(var(--sketchheads-hsl) / 1);
+  --sketchheads-hsl: 230 calc(var(--saturation-factor, 1) * 67.7%) 57.5%;
+  --spellcast: hsl(var(--spellcast-hsl) / 1);
+  --spellcast-hsl: 238 calc(var(--saturation-factor, 1) * 54.9%) 13.9%;
+  --rythm: hsl(var(--rythm-hsl) / 1);
+  --rythm-hsl: 214 calc(var(--saturation-factor, 1) * 85.3%) 52.0%;
+  --tunein: hsl(var(--tunein-hsl) / 1);
+  --tunein-hsl: 177 calc(var(--saturation-factor, 1) * 71.7%) 47.1%;
+  --whiteboard: hsl(var(--whiteboard-hsl) / 1);
+  --whiteboard-hsl: 236 calc(var(--saturation-factor, 1) * 74.7%) 61.2%;
 }
 
 .theme-dark {
@@ -8492,7 +8357,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-play-secondary: var(--black-500);
   --userPopout-play-tertiary: hsl(var(--black-500-hsl) / .8);
 }
-.userPopoutOuter_c69a7b:has(.activity_cd74cc, .card_ae1fa2) {
+.userPopoutOuter_c69a7b:has(.card_ae1fa2) {
   --userPopout-play: var(--brand-500);
   --userPopout-play-primary: var(--white-500) !important;
   --userPopout-play-secondary: hsl(var(--white-500-hsl) / .6) !important;
@@ -8528,10 +8393,11 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-badge-quest: ;
   --userPopout-badge-dtm18: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23fff' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
 }
+
 .userPopoutOuter_c69a7b:has(.assetsHangStatus_c1d9fd) {
   --userPopout-play: var(--status-positive);
 }
-.userPopoutOuter_c69a7b:has(.platformIcon_c1d9fd[src="/assets/6daf7db5db0d4a895afa.svg"], [style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
+.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
   --userPopout-play: var(--spotify);
 }
 .userPopoutOuter_c69a7b:has([mask="url(#svg-mask-status-streaming)"], .live_ec1c2d) {
@@ -8540,56 +8406,140 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 .userPopoutOuter_c69a7b:has([src="/assets/9109430b0f2514a0c674.png"]) {
   --userPopout-play: var(--xbox);
 }
-.userPopoutOuter_c69a7b:has(.platformIcon_c1d9fd[src="/assets/8fca7fcefaac64787658.svg"]) {
-  --userPopout-play: var(--playstation);
+.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/8fca7fcefaac64787658.svg");']) {
+  --userPopout-play: var(--playstation) !important;
 }
-.userPopoutOuter_c69a7b:has([alt="Crunchyroll"]) {
+.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/24ff5d6c720b110d2792.svg");']) {
   --userPopout-play: var(--crunchyroll);
 }
-.userPopoutOuter_c69a7b:has([src*="app-assets/880218394199220334/881026601624694814.png"],[style*="app-icons/880218394199220334"]) {
+
+.userPopoutOuter_c69a7b:has([src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
   --userPopout-play: var(--youtube);
 }
-.userPopoutOuter_c69a7b:has([src*="app-assets/832013003968348200/904775325026750464.png"]) {
-  --userPopout-play: var(--checkers);
-}
-.userPopoutOuter_c69a7b:has([src*="app-assets/879863686565621790/933441342128918588.png"]) {
-  --userPopout-play: var(--letterleague);
-}
-.userPopoutOuter_c69a7b:has([src*="app-assets/852509694341283871/897822164445700166.png"],[style*="app-icons/852509694341283871"]) {
-  --userPopout-play: var(--spellcast);
-}
-.userPopoutOuter_c69a7b:has([src*="app-assets/903769130790969345/1134198364146249828.png"]) {
-  --userPopout-play: var(--landio);
-}
-.userPopoutOuter_c69a7b:has([src*="app-assets/947957217959759964/978404196254642176.png"]) {
-  --userPopout-play: var(--bobbleleague);
-}
-.userPopoutOuter_c69a7b:has([src*="app-assets/1078728822972764312/1078737439792832682.png"]) {
-  --userPopout-play: var(--knowwhatimeme);
-}
-.userPopoutOuter_c69a7b:has([src*="app-assets/832025144389533716/930194685023121459.png"]) {
+.userPopoutOuter_c69a7b:has([src*="/app-icons/832025144389533716/6fe6e3dda7657b83758693205a833aa1.webp"]) {
   --userPopout-play: var(--blazing8s);
 }
-.userPopoutOuter_c69a7b:has([src*="app-assets/832012774040141894/853007059326992414.png"]) {
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1107689944685748377/fa0a41650eec35aae523f02ea818ab0e.webp"]) {
+  --userPopout-play: var(--bobblebash);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/947957217959759964/b485f75e95e6486a758a4aa5db3352f4.webp"]) {
+  --userPopout-play: var(--bobbleleague);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/832013003968348200/97e50fed67f44802dbb4901d74a6f9a1.webp"]) {
+  --userPopout-play: var(--checkers);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/832012774040141894/3b3981ddf67c8702920fae10b5f123ed.webp"]) {
   --userPopout-play: var(--chess);
 }
-.userPopoutOuter_c69a7b:has([src*="app-assets/1070087967294631976/1096553638022885476.png"]) {
-  --userPopout-play: var(--whiteboard);
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1106787098452832296/2f15038b8c83e221182c3c6fb6ea0814.webp"]) {
+  --userPopout-play: var(--colonist);
 }
-.userPopoutOuter_c69a7b:has([src*="app-assets/945737671223947305/956618438208536628.png"]) {
-  --userPopout-play: var(--puttparty);
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1078728822972764312/6f547114b2979b8bc83e4ba91b4d770d.webp"]) {
+  --userPopout-play: var(--kwim);
 }
-.userPopoutOuter_c69a7b:has([src*="app-assets/755827207812677713/839608726894018561.png"]) {
+.userPopoutOuter_c69a7b:has([src*="/app-icons/903769130790969345/0a6b8f4795c66ba12afbc766dd920bfb.webp"]) {
+  --userPopout-play: var(--landio);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/879863686565621790/0096355142a9b00bc2676ec09b9c8dbc.webp"]) {
+  --userPopout-play: var(--letterleague);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/755827207812677713/e594da3ca4520c7edde5b59948e97cdc.webp"]) {
   --userPopout-play: var(--pokernight);
 }
-.userPopoutOuter_c69a7b:has([style*="app-icons/1007373802981822582"]) {
-  --userPopout-play: var(--garticphone);
+.userPopoutOuter_c69a7b:has([src*="/app-icons/945737671223947305/12ee915c2f75d7f2c7d551819534f158.webp"]) {
+  --userPopout-play: var(--puttparty);
 }
-.userPopoutOuter_c69a7b:has([style*="app-icons/1037680572660727838"]) {
-  --userPopout-play: var(--chefshowdown);
+.userPopoutOuter_c69a7b:has([src*="/app-icons/235088799074484224/8bbffb0f3547424baf6798ecf632831e.webp"]) {
+  --userPopout-play: var(--rythm);
 }
-.userPopoutOuter_c69a7b:has([style*="app-icons/1011683823555199066"]) {
-  --userPopout-play: var(--krunker);
+.userPopoutOuter_c69a7b:has([src*="/app-icons/902271654783242291/05f3ad2c91d157cd1a0bd8e904a3182e.webp"]) {
+  --userPopout-play: var(--sketchheads);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/852509694341283871/9a4a52c760994654a416740ae0b19fbb.webp"]) {
+  --userPopout-play: var(--spellcast);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1196535986226745437/dc0e398eabc17c23b36961825851ed91.webp"]) {
+  --userPopout-play: var(--tunein);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1070087967294631976/9a04eab3b9f50302006577b769354520.webp"]) {
+  --userPopout-play: var(--whiteboard);
+}
+
+.userPopoutOuter_c69a7b:has([src*="/app-icons/504605035162763294/0553b1f1dea19ec0d0cc1bf7d3614330.webp"]) {
+  --userPopout-play: var(--aseprite);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/787443973538971748/e1042cfe3bb845f3c1f4fffd6227f4cf.webp"]) {
+  --userPopout-play: var(--cyberpunk2077);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/946609449680908348/0a0c0a0be069dddfc3f1fbede4e34bfd.webp"]) {
+  --userPopout-play: var(--eldenring);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/425437484735004682/af77eebc7437a63c53969dc197eed6b6.webp"]) {
+  --userPopout-play: var(--f-e-a-r);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/356889262362329098/8fbbc6725f295195c8dd4f390ccd8611.webp"]) {
+  --userPopout-play: var(--finalfantasyxiv);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/432980957394370572/c1864b38910c209afd5bf6423b672022.webp"], [src*="/app-assets/432980957394370572/1169923443119116288.png"]) {
+  --userPopout-play: var(--fortnite);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/356876176465199104/069d9f4871b5ebd2f62bd342ce6ba77f.webp"]) {
+  --userPopout-play: var(--gtav);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1167674267748540516/9a953e0b1e69c913af3d8354e855de41.webp"]) {
+  --userPopout-play: var(--lethalcompany);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/356875570916753438/166fbad351ecdd02d11a3b464748f66b.webp"]) {
+  --userPopout-play: var(--minecraft);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/356869127241072640/5a15a24a3931880801709a32accd0a1d.webp"]) {
+  --userPopout-play: var(--lol);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/1116835216464543946/da31ba4cb53774d3cad25780244ee813.webp"]) {
+  --userPopout-play: var(--phasmophobia);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-assets/445956193924546560/446301881636225042.png"]) {
+  --userPopout-play: var(--rainbowsixsiege);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/643897785271189524/7a1ea902d81d392bfc057e3507498863.webp"]) {
+  --userPopout-play: var(--rdr2);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/363445589247131668/f2b60e350a2097289b3b0b877495e55f.webp"]) {
+  --userPopout-play: var(--roblox);
+}
+.userPopoutOuter_c69a7b:has([src*="/app-icons/700136079562375258/e55fc8259df1548328f977d302779ab7.webp"]) {
+  --userPopout-play: var(--valorant);
+}
+
+:root {
+  --aseprite: hsl(var(--aseprite-hsl) / 1);
+  --aseprite-hsl: 174 calc(var(--saturation-factor, 1) * 54.9%) 29.6%;
+  --cyberpunk2077: hsl(var(--cyberpunk2077-hsl) / 1);
+  --cyberpunk2077-hsl: 174 calc(var(--saturation-factor, 1) * 54.9%) 29.6%;
+  --eldenring: hsl(var(--eldenring-hsl) / 1);
+  --eldenring-hsl: 174 calc(var(--saturation-factor, 1) * 54.9%) 29.6%;
+  --f-e-a-r: hsl(var(--f-e-a-r-hsl) / 1);
+  --f-e-a-r-hsl: 167 calc(var(--saturation-factor, 1) * 62.3%) 19.2%;
+  --finalfantasyxiv: hsl(var(--finalfantasyxiv-hsl) / 1);
+  --finalfantasyxiv-hsl: 352 calc(var(--saturation-factor, 1) * 61.4%) 38.6%;
+  --fortnite: hsl(var(--fortnite-hsl) / 1);
+  --fortnite-hsl: 192 calc(var(--saturation-factor, 1) * 35.3%) 45.5%;
+  --gtav: hsl(var(--gtav-hsl) / 1);
+  --gtav-hsl: 92 calc(var(--saturation-factor, 1) * 59.5%) 29.0%;
+  --lethalcompany: hsl(var(--lethalcompany-hsl) / 1);
+  --lethalcompany-hsl: 16 calc(var(--saturation-factor, 1) * 70.0%) 42.4%;
+  --minecraft: hsl(var(--minecraft-hsl) / 1);
+  --minecraft-hsl: 103 calc(var(--saturation-factor, 1) * 50.7%) 42.2%;
+  --phasmophobia: hsl(var(--phasmophobia-hsl) / 1);
+  --phasmophobia-hsl: 216 calc(var(--saturation-factor, 1) * 30.2%) 24.7%;
+  --rainbowsixsiege: hsl(var(--rainbowsixsiege-hsl) / 1);
+  --rainbowsixsiege-hsl: 220 calc(var(--saturation-factor, 1) * 12.2%) 29.0%;
+  --rdr2: hsl(var(--rdr2-hsl) / 1);
+  --rdr2-hsl: 220 calc(var(--saturation-factor, 1) * 12.2%) 29.0%;
+  --roblox: hsl(var(--roblox-hsl) / 1);
+  --roblox-hsl: 0 calc(var(--saturation-factor, 1) * 78.7%) 55.9%;
+  --valorant: hsl(var(--valorant-hsl) / 1);
+  --valorant-hsl: 355 calc(var(--saturation-factor, 1) * 50.0%) 53.7%;
 }
 
 [src$="/badge-icons/5e74e9b61934fc1f67c65515d1f7e60d.png"] {

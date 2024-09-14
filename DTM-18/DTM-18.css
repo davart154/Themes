@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.7 Beta \a \a";
+  content: "DTM-18 Public V2.0.8 Beta \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -21,7 +21,7 @@
 
 /*Beta Version*/
 .form_a7d72e:after {
-  content: "DTM-18 Public Beta v2.0.7. Designs are not final or may be broken.";
+  content: "DTM-18 Public Beta v2.0.8. Designs are not final or may be broken.";
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -2449,6 +2449,9 @@ button.button_adca65 {
 }
 .replyAvatar_f9f2ca, .executedCommandAvatar_f9f2ca {
   display: none;
+}
+.userJoinSystemMessageIcon_f9f2ca>path {
+  fill: var(--legacy-positive);
 }
 
 .compact_f9f2ca:before, .replying_d5deea:before {

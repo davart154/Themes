@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.11 Beta \a \a";
+  content: "DTM-18 Public V2.0.12 Beta \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -21,7 +21,7 @@
 
 /*Beta Version*/
 .form_a7d72e:after {
-  content: "DTM-18 Public Beta v2.0.11. Designs are not final or may be broken.";
+  content: "DTM-18 Public Beta v2.0.12. Designs are not final or may be broken.";
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -1500,6 +1500,16 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
   background-color: var(--background-tertiary) !important;
 }
 
+.wrapperCommon_a08117 {
+  padding-left: 18px;
+}
+.icon_a08117 {
+  left: 3px;
+}
+.name_a08117 {
+  transition: color .1s ease-out;
+}
+
 .unread_d8bfb3 {
   background-color: hsla(0,0%,100%,.6);
 }
@@ -1581,7 +1591,7 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 .children_d8bfb3>* {
   margin-left: 4px;
 }
-.containerDefault_f6f816:hover .iconItem_f6f816 {
+.containerDefault_f6f816:hover .iconItem_f6f816, .containerDefault_f6f816.selected_f6f816 .iconWithChannelInfo_f6f816 {
   display: block;
 }
 .wrapper_d8bfb3:hover .wrapper_a5bc92 {

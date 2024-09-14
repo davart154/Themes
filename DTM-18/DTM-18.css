@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.12 Beta \a \a";
+  content: "DTM-18 Public V2.0.13 Beta \a \a";
   white-space: pre-wrap;
   color: var(--text-muted);
   text-transform: none;
@@ -21,7 +21,7 @@
 
 /*Beta Version*/
 .form_a7d72e:after {
-  content: "DTM-18 Public Beta v2.0.12. Designs are not final or may be broken.";
+  content: "DTM-18 Public Beta v2.0.13. Designs are not final or may be broken.";
   position: absolute;
   bottom: 1px;
   left: 0;
@@ -650,6 +650,11 @@
 }
 
 /*People List*/
+.peopleList_e0840f {
+  margin-top: 0;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
 .peopleListItem_d51464:nth-child(1),
 .peopleColumn_c2739c .content_eed6a8 .peopleListItem_d51464:nth-child(2) {
   border: 0;
@@ -878,7 +883,7 @@
     content: "";
     position: absolute;
     bottom: -2px;
-    right: -2px;
+    right: -6px;
     width: 10px;
     height: 10px;
     border-radius: var(--radius-round);
@@ -1508,6 +1513,25 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 }
 .name_a08117 {
   transition: color .1s ease-out;
+}
+
+.privateChannelsHeaderContainer_c47fa9 {
+  color: var(--white) !important;
+  font-weight: 500;
+  letter-spacing: unset;
+  opacity: .3;
+}
+.privateChannelRecipientsInviteButtonIcon_c47fa9 {
+  display: none;
+}
+
+.name_ec8679 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.subtext_c91bad {
+  font-size: 10px;
+  line-height: 10px;
 }
 
 .unread_d8bfb3 {

@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.17 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.0.18 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -117,11 +117,12 @@
 }
 .caret_d90b3d {
   background: currentColor;
-  transform: translate(8px,0.5px);
+  transform: translate(8px,4px);
   clip-path: path("M3.1114 9.63171L7.1114 5.69573C7.50193 5.31145 7.50193 4.68842 7.1114 4.30414L3.1114 0.368134C2.72088 -0.0161415 2.08771 -0.0161415 1.69719 0.368134C1.30667 0.752411 1.30667 1.37544 1.69719 1.75972L4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993L1.69719 8.24014C1.30667 8.62442 1.30667 9.24744 1.69719 9.63171C2.08771 10.016 2.72088 10.016 3.1114 9.63171Z M4.99008 4.99993L5.69719 5.69573V4.30414L4.99008 4.99993Z");
-}
-.caret_d90b3d polygon {
+
+  polygon {
   display: none;
+  }
 }
 
 .menu_d90b3d {
@@ -218,7 +219,7 @@
   background: #25282d !important;
   color: #fff !important;
 }
-.menu_d90b3d:is(#guild-header-popout, #favorites-header-popout) .item_d90b3d:hover .iconContainer-1-SsTR,
+.menu_d90b3d:is(#guild-header-popout, #favorites-header-popout) .item_d90b3d:is(.focused_d90b3d,:active) .iconContainer-1-SsTR,
 .menu_d90b3d:is(#guild-header-popout, #favorites-header-popout) .focused_d90b3d .iconContainer-1-SsTR,
 .menu_d90b3d:is(#guild-header-popout, #favorites-header-popout) .item_d90b3d:active .iconContainer-1-SsTR {
   color: #737F8D !important;
@@ -278,6 +279,52 @@
 #guild-header-popout.menu_d90b3d #guild-header-popout-report-raid path {
   d: path("M3 5L12 1L21 5V11C21 16.55 17.16 21.73 12 23C6.84 21.73 3 16.55 3 11V5ZM12 20.92C15.72 19.78 18.47 16.11 19 12V6.3L12 3.19L5 6.3V12C5.53 16.11 8.28 19.78 12 20.92Z");
   fill: var(--text-danger);
+}
+
+#message-actions,
+#message-actions .submenu_d90b3d {
+  min-width: 3.8rem;
+  background: #18191c;
+  padding: 2px 0;
+  width: fit-content;
+  height: fit-content;
+  max-width: unset !important;
+  min-height: unset;
+}
+.theme-light #message-actions {
+  background: var(--white);
+}
+.menu_d90b3d .scroller_d90b3d::-webkit-scrollbar {
+  display: none;
+}
+#message-actions .listItems_d53d65 {
+  inset: 0;
+  contain: unset;
+  position: unset;
+}
+#message-actions .iconContainer_d90b3d {
+  display: none;
+}
+#message-actions .item_d90b3d {
+  color: hsl(var(--white-500-hsl) / .6);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+  margin: 0 2px;
+  min-height: 0;
+  padding: 2px 0;
+  text-align: center;
+}
+.theme-light #message-actions .item_d90b3d {
+  color:hsl(0,calc(var(--saturation-factor, 1)*0%),100%);
+}
+#message-actions .item_d90b3d:is(.focused_d90b3d,:active) {
+  background: #040405 !important;
+  color: var(--white);
+}
+.theme-light #message-actions .item_d90b3d:is(.focused_d90b3d,:active) {
+  background: #040405 !important;
+  color: var(--white);
 }
 
 #channel-attach {
@@ -719,15 +766,15 @@
   transition: background .4s ease;
 }
 .userInfo_f3939d > .wrapper_c51b4e:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]) + .text_f3939d > .subtext_f3939d:before {
-  background-color: var(--status-positive);
+  background-color: var(--status-online);
   background-image: none;
 }
 .userInfo_f3939d > .wrapper_c51b4e:is([aria-label$="Inaktiv"],[aria-label$="Abwesend"],[aria-label$="Idle"],[aria-label$="Ausente"],[aria-label$="Inactif"],[aria-label$="U mirovanju"],[aria-label$="Inattivo"],[aria-label$="Pasitraukęs"],[aria-label$="Tétlen"],[aria-label$="Inactief"],[aria-label$="Inaktiv"],[aria-label$="Zaraz wracam"],[aria-label$="Ausente"],[aria-label$="Inactiv"],[aria-label$="Toimeton"],[aria-label$="Inaktiv"],[aria-label$="Chờ"],[aria-label$="Nečinný"],[aria-label$="Boşta"],[aria-label$="Αδρανής"],[aria-label$="Не се използва"],[aria-label$="Неактивен"],[aria-label$="Відійшов"],[aria-label$="एक्टिव नहीं"],[aria-label$="ไม่อยู่"],[aria-label$="闲置"],[aria-label$="退席中"],[aria-label$="閒置"],[aria-label$="자리 비움"])  + .text_f3939d > .subtext_f3939d:before {
-  background-color: var(--status-warning);
+  background-color: var(--status-idle);
   background-image: var(--colorblind-idle);
 }
 .userInfo_f3939d > .wrapper_c51b4e:is([aria-label$="Vil ikke forstyrres"],[aria-label$="Bitte nicht stören"],[aria-label$="Do Not Disturb"],[aria-label$="No molestar"],[aria-label$="Ne pas déranger"],[aria-label$="Ne uznemiravaj"],[aria-label$="Non disturbare"],[aria-label$="Netrukdyti"],[aria-label$="Elfoglalt"],[aria-label$="Niet storen"],[aria-label$="Ikke forstyrr"],[aria-label$="Nie przeszkadzać"],[aria-label$="Não perturbar"],[aria-label$="Nu deranja"],[aria-label$="Älä häiritse"],[aria-label$="Stör ej"],[aria-label$="Vui Lòng Không Làm Phiền"],[aria-label$="Rahatsız Etmeyin"],[aria-label$="Nerušit"],[aria-label$="Μην ενοχλείτε"],[aria-label$="Не ме безпокой"],[aria-label$="Не беспокоить"],[aria-label$="Не турбувати"],[aria-label$="डिस्टर्ब न करें"],[aria-label$="ห้ามรบกวน"],[aria-label$="请勿打扰"],[aria-label$="取り込み中"],[aria-label$="請勿打擾"],[aria-label$="다른 용무 중"])  + .text_f3939d > .subtext_f3939d:before {
-  background-color: var(--status-danger);
+  background-color: var(--status-dnd);
   background-image: var(--colorblind-dnd);
 }
 
@@ -855,7 +902,7 @@
     content: "";
     position: absolute;
     bottom: -2px;
-    right: -6px;
+    right: -2px;
     width: 10px;
     height: 10px;
     border-radius: var(--radius-round);
@@ -1918,15 +1965,12 @@ button.button_adca65 {
 .menuOverlay_ad5fac {
   background: unset !important;
   border-radius: 0;
+  padding: 0;
 }
-.menuOverlay_ad5fac>.menu_d90b3d {
-  width: 100%;
-  background: unset;
-}
-.menuOverlay_ad5fac .separator_d90b3d {
+.menuDivider_ad5fac {
   display: none;
 }
-.menuOverlay_ad5fac .item_d90b3d {
+.menuItemColor_ad5fac {
   color: hsla(0,0%,100%,.6);
   font-size: 15px;
   line-height: 18px;
@@ -2599,8 +2643,14 @@ button.button_adca65 {
     transition: none;
   }
 }
+.backgroundFlash_d5deea:has(.groupStart_d5deea):before {
+  top: 1.3rem;
+}
+.backgroundFlash_d5deea:has(.hasReply_f9f2ca):before {
+  top: 2.7rem;
+}
 .backgroundFlash_d5deea:has(+ :is(.messageListItem_d5deea, .backgroundFlash_d5deea) :is(.groupStart_d5deea, .systemMessage_d5deea)):before {
-  inset: 0 0 20px 0;
+  bottom: 20px;
 }
 
 .container_d76df7 {
@@ -2765,8 +2815,18 @@ button.button_adca65 {
   fill: var(--legacy-positive);
 }
 
+.markup_f8f345.markup_f8f345 :is(h1:first-child, h2:first-child, ol, ul) {
+  margin-top: 0;
+}
+.markup_f8f345 li {
+  margin: 0;
+}
+
+.replying_d5deea, .highlighted_d5deea {
+  background: var(--background-message-highlight) !important;
+}
 .compact_f9f2ca:before, .replying_d5deea:before {
-  display: none;
+  content: unset;
 }
 .cozy_f9f2ca.mentioned_d5deea {
   &:before {
@@ -2807,7 +2867,7 @@ button.button_adca65 {
   margin-bottom: 2px;
 }
 .cozy_f9f2ca.mentioned_d5deea .messageContent_f9f2ca {
-  margin: 0 -.2rem .1rem;
+  margin: 0 -.2rem .2rem;
   padding: .1rem .2rem;
 }
 .compact_f9f2ca.mentioned_d5deea .contents_f9f2ca {
@@ -2864,7 +2924,7 @@ button.button_adca65 {
   padding: .2em;
 }
 .markup_f8f345 .codeContainer_f8f345 {
-  width: 90%;
+  display: flex;
 }
 .markup_f8f345 code {
   border: 2px solid var(--background-secondary-alt);
@@ -2873,6 +2933,7 @@ button.button_adca65 {
   font-size: 0.875rem;
   line-height: 1rem;
   text-indent: 0;
+  width: 100%;
 }
 .markup_f8f345 .codeActions_f8f345 {
   bottom: 2px;
@@ -2996,7 +3057,6 @@ button.button_adca65 {
 /*Attachment*/
 .visualMediaItemContainer_cda674 {
   border-radius: 0;
-  display: flex;
 }
 .visualMediaItemContainer_cda674>* {
   border-radius: 3px;
@@ -3155,28 +3215,106 @@ button.button_adca65 {
   margin-right: 52px;
 }
 
+/*Voice Msg*/
+.container_d6cb89 {
+  height: 32px;
+  padding: 0;
+  width: 520px;
+}
+.rippleContainer_d6cb89 {
+  background-color: hsl(var(--black-500-hsl)/.6);
+  border-radius: 3px;
+}
+.playButtonContainer_d6cb89 {
+  background: transparent !important;
+  border-radius: 0;
+  height: 24px;
+  margin: 0;
+  padding: 4px;
+  width: 24px;
+}
+.playIcon_d6cb89, .volumeButtonIcon_d6cb89 {
+  height: 24px;
+  width: 24px;
+  color: var(--white) !important;
+  opacity: .6;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.waveform_d6cb89 {
+  margin: 0 8px;
+  order: 1;
+}
+.duration_d6cb89 {
+  color: var(--white);
+  font-family: var(--font-code);
+  font-size: 12px;
+  line-height: 12px;
+  margin: 4px;
+}
+.volumeButton_d6cb89 {
+  margin: 0;
+  order: 2;
+  padding: 4px;
+}
+
+/*Forward Msg*/
+.footerContainer_f66b8e {
+  background: transparent !important;
+  color: var(--brand-500) !important;
+  margin: 0;
+  padding: 0;
+
+  >svg {
+    display: none;
+  }
+}
+.footerText_f66b8e.footerText_f66b8e.footerText_f66b8e {
+  color: inherit;
+}
+.footerContainer_f66b8e:hover .footerText_f66b8e {
+  text-decoration: underline;
+}
+
+.buttonInner_b385c8.buttonInner_b385c8 {
+  background: rgb(220 221 222 / 0.1);
+  border: 0;
+  border-radius: 3px;
+  color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
+  margin: 2px;
+  gap: 2px;
+}
+.active_b385c8.buttonInner_b385c8 {
+  background: var(--brand-30a);
+  color: var(--brand-500);
+}
+
 /*Reactions*/
-.reactions_ec6b19 {
+.reactions_ec6b19, .reactions_f61c73 {
   margin-bottom: 0;
   margin-left: -2px;
   padding-bottom: 0;
 }
-.reaction_ec6b19.reaction_ec6b19 {
+.reaction_ec6b19.reaction_ec6b19, .reaction_f61c73.reaction_f61c73 {
   background: rgb(220 221 222 / 0.1);
   border: 0;
   border-radius: 3px;
   margin: 2px;
 }
-.theme-light .reaction_ec6b19.reaction_ec6b19 {
+.theme-light :is(.reaction_ec6b19.reaction_ec6b19, .reaction_f61c73.reaction_f61c73) {
   background: rgb(227 231 248 / 0.6);
 }
-.reactionInner_ec6b19 {
+.reactionInner_ec6b19, .reactionInner_f61c73 {
   padding: 0 6px;
 }
-.reaction_ec6b19 .emoji {
-  margin: 3px 0;
+.reaction_ec6b19, .reaction_f61c73 {
+  .emoji {
+    margin: 3px 0;
+  }
 }
-.reaction_ec6b19 .reactionCount_ec6b19, .reaction_ec6b19:hover .reactionCount_ec6b19 {
+.reactionCount_ec6b19.reactionCount_ec6b19.reactionCount_ec6b19, .reactionCount_f61c73.reactionCount_f61c73.reactionCount_f61c73 {
   color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
   font-size: 0.875rem;
   font-weight: 500;
@@ -3184,21 +3322,17 @@ button.button_adca65 {
   margin-left: 6px;
   text-align: center;
 }
-.reaction_ec6b19 .reactionInner_f61c73 {
-  padding: 1px .375rem;
-}
-.reaction_ec6b19.reactionMe_ec6b19 .reactionCount_ec6b19,
-.reaction_ec6b19.reactionMe_ec6b19:hover .reactionCount_ec6b19 {
+.reactionMe_ec6b19 .reactionCount_ec6b19.reactionCount_ec6b19.reactionCount_ec6b19,
+.reactionMe_f61c73 .reactionCount_f61c73.reactionCount_f61c73.reactionCount_f61c73 {
   color: var(--brand-500);
 }
-.reaction_ec6b19.reactionMe_ec6b19,
-.reaction_ec6b19.reactionMe_ec6b19:hover {
+.reaction_ec6b19.reactionMe_ec6b19.reactionMe_ec6b19, .reaction_f61c73.reactionMe_f61c73.reactionMe_f61c73 {
   background: var(--brand-30a);
 }
-.reactionMe_ec6b19[style*="background"] {
+:is(.reactionMe_ec6b19, .reactionMe_f61c73)[style*="background"] {
   box-shadow: inset 0 0 0 1px hsl(var(--white-500-hsl) / .5), 0 0 4px 2px hsl(var(--white-500-hsl) / .1);
 }
-.burstGlow_ec6b19 {
+.burstGlow_ec6b19, .burstGlow_f61c73 {
   display: none;
 }
 
@@ -3213,7 +3347,7 @@ button.button_adca65 {
   background-color: var(--background-modifier-hover);
 }
 
-.reactionBtn_ec6b19.reactionBtn_ec6b19 {
+.reactionBtn_ec6b19.reactionBtn_ec6b19, .reactionBtn_f61c73.reactionBtn_f61c73 {
   background: transparent !important;
   border: 0;
   border-radius: 0;
@@ -3223,10 +3357,11 @@ button.button_adca65 {
   margin-bottom: 0;
   margin-left: 6px;
   margin-right: 6px;
+  min-width: unset;
   visibility: visible !important;
   transition: opacity .2s ease;
 }
-.reactionBtn_ec6b19:hover {
+.reactions_ec6b19:hover .reactionBtn_ec6b19.reactionBtn_ec6b19, .reactButtons_b385c8:hover .reactionBtn_f61c73.reactionBtn_f61c73 {
   opacity: 1;
 }
 
@@ -3326,6 +3461,13 @@ button.button_adca65 {
 .channelTextAreaDisabled_d0696b {
   opacity: .5;
 }
+.form_a7d72e:has(.channelAppLauncher_df39bd:hover) .inner_d0696b {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form_a7d72e:has(.channelAppLauncher_df39bd:hover) .channelAttachmentArea_e8c527:before {
+  border-top-right-radius: 0;
+}
 
 .attachedBars_d0696b {
   background: transparent;
@@ -3380,9 +3522,18 @@ button.button_adca65 {
 .theme-light .separator_b11c5e {
   background-color: hsl(var(--black-500-hsl) / .2);
 }
+
+.threadSuggestionBar_b11c5e {
+  /*border: 0;*/
+}
 .threadSuggestionBar_b11c5e > [data-text-variant]:first-child {
   color: var(--text-normal) !important;
   margin-left: 8px;
+}
+.threadSuggestionBar_b11c5e > [data-text-variant]:last-child {
+  color: var(--brand-500) !important;
+  font-weight: inherit;
+  margin-left: 4px;
 }
 
 .scrollableContainer_d0696b {
@@ -3400,6 +3551,7 @@ button.button_adca65 {
   background-color: var(--channeltextarea-background);
   border-radius: 5px;
   pointer-events: all;
+  transition: border-radius .2s ease;
 }
 .divider_c2654d + .inner_d0696b {
   border-radius: 0 0 5px 5px;
@@ -3409,7 +3561,7 @@ button.button_adca65 {
   row-gap: 36px;
   margin: 0;
   margin-top: -48px;
-  padding: 64px 16px 16px;
+  padding: 65px 16px 16px;
   position: relative;
   pointer-events: none;
 
@@ -3423,6 +3575,7 @@ button.button_adca65 {
     right: 0;
     bottom: 0;
     pointer-events: all;
+    transition: border-radius .2s ease;
   }
 }
 .channelAttachmentArea_e8c527::-webkit-scrollbar {
@@ -3665,21 +3818,39 @@ button.button_adca65 {
 }
 
 .channelAppLauncher_df39bd {
-  border-top: 1px solid hsl(var(--white-500-hsl) / 0.06);
-  padding-left: 8px;
-  margin: 0 0 30px 0;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  right: -16px;
+  top: 0;
+  bottom: 0;
+  width: 16px;
+  height: 100%;
+  overflow: hidden;
+}
+.buttonContainer_df39bd {
+  margin-top: 20px;
+  margin-left: -16px;
+  margin-bottom: 30px;
+  transition: margin .2s ease;
+}
+.channelAppLauncher_df39bd:hover .buttonContainer_df39bd {
+  margin-left: 0;
 }
 .button_df39bd {
-  border-radius: var(--radius-xsa);
+  background: var(--background-secondary);
+  border-radius: 0 5px 5px 0;
+  width: 16px;
+  height: 100%;
 }
 .buttonContents_df39bd {
   background: currentColor;
-  clip-path: path("M18 3.48 15.7695 3 6 20.52 8.2305 21");
+  clip-path: path("M9 1.74 7.8848 1.5 3 10.26 4.1152 10.5");
   color: inherit;
-  height: 24px;
+  height: 12px;
   opacity: 0.3;
   transition: 0.1s;
-  width: 24px;
+  width: 12px;
 
   >div {
     display: none !important;
@@ -3690,80 +3861,52 @@ button.button_adca65 {
   transform: scale(1.15);
 }
 
-.themeTitle_a614a7 > button, .basicThemeSelectors_ + section, .selectionGroup_bde965 {
-  display: none;
+.autocomplete_bea0d0 {
+  border-radius: 5px 5px 0 0;
+  bottom: calc(100% - 20px);
+  box-shadow: none;
 }
-.slider_c7a159[aria-valuemin="12"] {
-  margin-left: 26px;
-  margin-right: 37px;
+.autocompleteRow_bcc24e {
+  padding-right: 0;
+}
+.base_bcc24e {
+  padding: 0 8px;
+}
+.contentTitle_bcc24e {
+  color: #72767d;
+  padding: 12px 8px;
+}
+.contentTitle_bcc24e strong {
   color: var(--header-primary);
-
-  &:before {
-    content: "Aa";
-    position: absolute;
-    height: 40px;
-    line-height: 40px;
-    left: -26px;
-    font-size: 14px;
-    white-space: pre;
-  }
-  &:after {
-    content: "Aa";
-    position: absolute;
-    height: 40px;
-    line-height: 40px;
-    top: 0;
-    right: -37px;
-    font-size: 24px;
-  }
-
-  .mark_c7a159 {
-    .markValue_c7a159 {
-        font-size: 0;
-      &:before {
-        font-size: 10px;
-      }
-    }
-
-    &:first-child {
-      .markValue_c7a159:before {
-        content: "70";
-      }
-    }
-    &:nth-child(2) {
-      .markValue_c7a159:before {
-        content: "80";
-      }
-    }
-    &:nth-child(3) {
-      .markValue_c7a159:before {
-        content: "90";
-      }
-    }
-    &:nth-child(4) {
-      .markValue_c7a159:before {
-        content: "100";
-      }
-    }
-    &:nth-child(5) {
-      .markValue_c7a159:before {
-        content: "110";
-      }
-    }
-    &:nth-child(6) {
-      .markValue_c7a159:before {
-        content: "125";
-      }
-    }
-    &:last-child {
-      .markValue_c7a159:before {
-        content: "150";
-      }
-    }
-  }
 }
-.bar_c7a159, .markDash_c7a159 {
-  background-color: var(--primary-500);
+.autocompleteRowContent_bcc24e {
+  padding: 8px 0;
+}
+.autocompleteRowIcon_bcc24e > .wrapper_c51b4e.wrapper_c51b4e {
+  width: 20px !important;
+  height: 20px !important;
+  
+  foreignObject {
+    width: 20px;
+    height: 20px;
+  }
+
+  &:has([mask="url(#svg-mask-status-online)"]):before {
+    background-color: var(--status-online);
+  }
+  &:has([mask="url(#svg-mask-status-idle)"]):before {
+    background-color: var(--status-idle);
+    background-image: var(--colorblind-idle);
+  }
+  &:has([mask="url(#svg-mask-status-dnd)"]):before {
+    background-color: var(--status-dnd);
+    background-image: var(--colorblind-dnd);
+  }
+  &:has([mask="url(#svg-mask-status-offline)"]):before {
+    background-color: var(--global-alternate-300);
+    background-image: var(--colorblind-offline);
+    transform: rotate(45deg);
+  }
 }
 
 /*Member*/
@@ -3827,6 +3970,7 @@ button.button_adca65 {
 }
 .wrapper_c51b4e {
   border-radius: 0px;
+  flex-shrink: 0;
 }
 .wrapper_c51b4e[style="width: 32px; height: 32px;"] {
   height: 30px !important;
@@ -4001,7 +4145,7 @@ button.button_adca65 {
   width: 25%;
 }
 .wrapper_c51b4e:is([aria-label$="Online"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="En línea"],[aria-label$="En ligne"],[aria-label$="Na mreži"],[aria-label$="Online"],[aria-label$="Prisijungęs"],[aria-label$="Online"],[aria-label$="Online"],[aria-label$="Pålogget"],[aria-label$="Dostępny"],[aria-label$="Disponível"],[aria-label$="Online"],[aria-label$="Paikalla"],[aria-label$="Online"],[aria-label$="Trực tuyến"],[aria-label$="Çevrim içi"],[aria-label$="Online"],[aria-label$="Συνδεδεμένος"],[aria-label$="На линия"],[aria-label$="В сети"],[aria-label$="В мережі"],[aria-label$="ऑनलाइन"],[aria-label$="ออนไลน์"],[aria-label$="在线"],[aria-label$="オンライン"],[aria-label$="線上"],[aria-label$="온라인"],[aria-label$="via mobil"],[aria-label$="Via Mobilgerät online"],[aria-label$="via mobile"],[aria-label$="con móvil"],[aria-label$="sur mobile"],[aria-label$="na mobilnom uređaju"],[aria-label$="su dispositivo mobile"],[aria-label$="per mobilųjį įrenginį"],[aria-label$="mobillal"],[aria-label$="via mobiel"],[aria-label$="via mobil"],[aria-label$="mobilnie"],[aria-label$="via dispositivo móvel"],[aria-label$="prin mobil"],[aria-label$="mobiilissa"],[aria-label$="via mobil"],[aria-label$="trên điện thoại"],[aria-label$="Mobil üzerinden çevrimiçi"],[aria-label$="přes mobil"],[aria-label$="μέσω κινητού"],[aria-label$="Онлайн чрез мобилно приложение"],[aria-label$="(моб. устройство)"],[aria-label$="з мобільного"],[aria-label$="मोबाइल से ऑनलाइन आएं"],[aria-label$="ออนไลน์ผ่านโทรศัพท์มือถือ"],[aria-label$="移动端在线"],[aria-label$="モバイル経由のオンライン"],[aria-label$="透過行動裝置上線"],[aria-label$="모바일에서 온라인 접속 중"]):before {
-  background-color: var(--status-positive);
+  background-color: var(--status-online);
   background-image: unset;
 }
 .wrapper_c51b4e:is([aria-label$="Streamer"],[aria-label$="Streamt"],[aria-label$="Streaming"],[aria-label$="Transmitiendo"],[aria-label$="En direct"],[aria-label$="Streaming"],[aria-label$="In diretta"],[aria-label$="Transliuojama"],[aria-label$="Közvetítés"],[aria-label$="Streamt"],[aria-label$="Strømmer"],[aria-label$="Streamowanie"],[aria-label$="Transmitindo"],[aria-label$="Transmite live"],[aria-label$="Striimaa"],[aria-label$="Streamar"],[aria-label$="Đang stream"],[aria-label$="Yayın Yapıyor"],[aria-label$="Streamuje"],[aria-label$="Ζωντανά"],[aria-label$="Стрийминг"],[aria-label$="Стримит"],[aria-label$="Трансляція"],[aria-label$="स्ट्रीम हो रहा है"],[aria-label$="ถ่ายทอดสด"],[aria-label$="正在直播"],[aria-label$="配信"],[aria-label$="直播中"],[aria-label$="방송 중"]):before {
@@ -4009,11 +4153,11 @@ button.button_adca65 {
   background-image: var(--colorblind-streaming);
 }
 .wrapper_c51b4e:is([aria-label$="Inaktiv"],[aria-label$="Abwesend"],[aria-label$="Idle"],[aria-label$="Ausente"],[aria-label$="Inactif"],[aria-label$="U mirovanju"],[aria-label$="Inattivo"],[aria-label$="Pasitraukęs"],[aria-label$="Tétlen"],[aria-label$="Inactief"],[aria-label$="Inaktiv"],[aria-label$="Zaraz wracam"],[aria-label$="Ausente"],[aria-label$="Inactiv"],[aria-label$="Toimeton"],[aria-label$="Inaktiv"],[aria-label$="Chờ"],[aria-label$="Nečinný"],[aria-label$="Boşta"],[aria-label$="Αδρανής"],[aria-label$="Не се използва"],[aria-label$="Неактивен"],[aria-label$="Відійшов"],[aria-label$="एक्टिव नहीं"],[aria-label$="ไม่อยู่"],[aria-label$="闲置"],[aria-label$="退席中"],[aria-label$="閒置"],[aria-label$="자리 비움"]):before {
-  background-color: var(--status-warning);
+  background-color: var(--status-idle);
   background-image: var(--colorblind-idle);
 }
 .wrapper_c51b4e:is([aria-label$="Vil ikke forstyrres"],[aria-label$="Bitte nicht stören"],[aria-label$="Do Not Disturb"],[aria-label$="No molestar"],[aria-label$="Ne pas déranger"],[aria-label$="Ne uznemiravaj"],[aria-label$="Non disturbare"],[aria-label$="Netrukdyti"],[aria-label$="Elfoglalt"],[aria-label$="Niet storen"],[aria-label$="Ikke forstyrr"],[aria-label$="Nie przeszkadzać"],[aria-label$="Não perturbar"],[aria-label$="Nu deranja"],[aria-label$="Älä häiritse"],[aria-label$="Stör ej"],[aria-label$="Vui Lòng Không Làm Phiền"],[aria-label$="Rahatsız Etmeyin"],[aria-label$="Nerušit"],[aria-label$="Μην ενοχλείτε"],[aria-label$="Не ме безпокой"],[aria-label$="Не беспокоить"],[aria-label$="Не турбувати"],[aria-label$="डिस्टर्ब न करें"],[aria-label$="ห้ามรบกวน"],[aria-label$="请勿打扰"],[aria-label$="取り込み中"],[aria-label$="請勿打擾"],[aria-label$="다른 용무 중"]):before {
-  background-color: var(--status-danger);
+  background-color: var(--status-dnd);
   background-image: var(--colorblind-dnd);
 }
 .wrapper_c51b4e:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
@@ -5630,6 +5774,10 @@ h2.title_c46f6a, .title_a26362 {
   display: none;
 }
 
+.bioTextArea_ccf27d, .profileBioInput_d0696b>div {
+  height: unset;
+}
+
 .connectContainer_e2a436 {
   margin-bottom: 20px;
   background-color: var(--background-secondary-alt);
@@ -5932,6 +6080,82 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 .container_cebd1c .input_cebd1c:checked:before {
   background: rgba(255, 255, 255, 0.3);
   box-shadow: none;
+}
+
+.themeTitle_a614a7 > button, .basicThemeSelectors_ + section, .selectionGroup_bde965 {
+  display: none;
+}
+.slider_c7a159[aria-valuemin="12"] {
+  margin-left: 26px;
+  margin-right: 37px;
+  color: var(--header-primary);
+
+  &:before {
+    content: "Aa";
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    left: -26px;
+    font-size: 14px;
+    white-space: pre;
+  }
+  &:after {
+    content: "Aa";
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    right: -37px;
+    font-size: 24px;
+  }
+
+  .mark_c7a159 {
+    .markValue_c7a159 {
+        font-size: 0;
+      &:before {
+        font-size: 10px;
+      }
+    }
+
+    &:first-child {
+      .markValue_c7a159:before {
+        content: "70";
+      }
+    }
+    &:nth-child(2) {
+      .markValue_c7a159:before {
+        content: "80";
+      }
+    }
+    &:nth-child(3) {
+      .markValue_c7a159:before {
+        content: "90";
+      }
+    }
+    &:nth-child(4) {
+      .markValue_c7a159:before {
+        content: "100";
+      }
+    }
+    &:nth-child(5) {
+      .markValue_c7a159:before {
+        content: "110";
+      }
+    }
+    &:nth-child(6) {
+      .markValue_c7a159:before {
+        content: "125";
+      }
+    }
+    &:last-child {
+      .markValue_c7a159:before {
+        content: "150";
+      }
+    }
+  }
+}
+.bar_c7a159, .markDash_c7a159 {
+  background-color: var(--primary-500);
 }
 
 /*Vencord*/
@@ -8960,7 +9184,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-badge-automod: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.2827 5.85887C19.6387 4.38459 18.8423 3.21533 16.0124 3.21533H2.52347C1.62534 3.21533 0.289306 3.79469 0.170111 5.85887C-0.139215 11.2154 -0.018613 14.3665 0.466167 16.7849C0.969637 19.2967 3.42447 20.7846 5.98623 20.7846H21.1273C22.2085 20.7846 23.2821 20.2662 23.6507 19.2498C24.6773 16.4205 23.4075 13.241 20.2827 5.85887Z' fill='url(%23paint0_linear_4157_20108)'/%3E%3Cpath d='M9.1656 16.5725H21.6062C22.431 16.5725 22.7289 16.1601 22.3394 14.8313C21.3622 11.5737 20.1761 8.38246 18.7881 5.27754C17.8259 3.21558 17.1386 3.21558 15.2141 3.21558H2.37012C5.22781 3.21558 5.32698 3.21558 6.64541 14.8313C7.01198 16.5725 7.53893 16.5725 9.1656 16.5725Z' fill='url(%23paint1_linear_4157_20108)'/%3E%3Cpath d='M17.4666 9.35104C18.018 9.16443 18.205 8.24558 17.8845 7.29874C17.564 6.35191 16.8574 5.73561 16.3061 5.92223C15.7547 6.10884 15.5676 7.02768 15.888 7.97453C16.2085 8.92136 16.9153 9.53765 17.4666 9.35104Z' fill='%2357F287'/%3E%3Cpath d='M9.28083 9.38212C9.84072 9.18164 10.018 8.24656 9.67676 7.29355C9.33554 6.34053 8.60503 5.73047 8.04513 5.93095C7.48523 6.13141 7.30796 7.0665 7.6492 8.01952C7.99043 8.97252 8.72093 9.58258 9.28083 9.38212Z' fill='%2357F287'/%3E%3Cpath d='M16.8416 11.3262C16.9102 13.136 16.0168 14.442 14.5046 14.442C12.9926 14.442 11.2972 13.136 10.2891 11.3262H16.8416Z' fill='%2357F287'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_4157_20108' x1='7.02507' y1='25.8486' x2='15.8835' y2='5.51994' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.180208' stop-color='%233442D9'/%3E%3Cstop offset='0.747916' stop-color='%23737FFF'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint1_linear_4157_20108' x1='10.7236' y1='4.53294' x2='13.5233' y2='16.238' gradientUnits='userSpaceOnUse'%3E%3Cstop/%3E%3Cstop offset='0.11' stop-color='%23050409'/%3E%3Cstop offset='0.7' stop-color='%231B1934'/%3E%3Cstop offset='1' stop-color='%23242145'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
   --userPopout-badge-guildSub: url("data:image/svg+xml,%0A%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%2343b581' d='M23 10V4H1V10C2.1 10 3 10.9 3 12C3 13.1 2.1 14 1 14V20H23V14C21.9 14 21 13.1 21 12C21 10.9 21.9 10 23 10ZM13 16V18H11V16H9V14H13C13.27 14 13.5 13.83 13.5 13.62C13.5 12.58 8.5 13.62 8.5 10.37C8.5 9.07 9.62 8 11 8V6H13V8H15V10H11C10.73 10 10.5 10.17 10.5 10.38C10.5 11.42 15.5 10.38 15.5 13.63C15.5 14.93 14.38 16 13 16Z' /%3E%3C/svg%3E%0A");
   --userPopout-badge-pomelo: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.99816 13.5556L10.4698 10.6667H14.0018L13.5302 13.5556H9.99816Z' fill='%237289da'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0ZM11.0995 6.8099C11.1786 6.32539 10.85 5.8685 10.3655 5.78939C9.88095 5.71029 9.42405 6.03893 9.34495 6.52344L8.95875 8.88889H7.33333C6.84241 8.88889 6.44444 9.28686 6.44444 9.77778C6.44444 10.2687 6.84241 10.6667 7.33333 10.6667H8.6685L8.19685 13.5556H6.66667C6.17575 13.5556 5.77778 13.9535 5.77778 14.4444C5.77778 14.9354 6.17575 15.3333 6.66667 15.3333H7.9066L7.56717 17.4123C7.48807 17.8968 7.81671 18.3537 8.30122 18.4328C8.78572 18.5119 9.24262 18.1833 9.32172 17.6988L9.70791 15.3333H13.2399L12.9005 17.4123C12.8214 17.8968 13.15 18.3537 13.6345 18.4328C14.1191 18.5119 14.5759 18.1833 14.6551 17.6988L15.0412 15.3333H16.8889C17.3798 15.3333 17.7778 14.9354 17.7778 14.4444C17.7778 13.9535 17.3798 13.5556 16.8889 13.5556H15.3315L15.8032 10.6667H17.3333C17.8243 10.6667 18.2222 10.2687 18.2222 9.77778C18.2222 9.28686 17.8243 8.88889 17.3333 8.88889H16.0934L16.4328 6.8099C16.5119 6.32539 16.1833 5.8685 15.6988 5.78939C15.2143 5.71029 14.7574 6.03893 14.6783 6.52344L14.2921 8.88889H10.7601L11.0995 6.8099Z' fill='%237289da'/%3E%3C/svg%3E%0A");
-  --userPopout-badge-quest: ;
+  --userPopout-badge-quest: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.8664 1.2012H22.8C23.4636 1.2012 24 1.7388 24 2.4012V7.2012C24 7.566 23.8332 7.9116 23.55 8.1384L17.6352 12.8688C16.5528 14.232 14.988 15.1908 13.2 15.4932V16.8012H15.6C16.2636 16.8012 16.8 17.3388 16.8 18.0012V20.4012H7.2V18.0012C7.2 17.3388 7.7364 16.8012 8.4 16.8012H10.8V15.4932C9.012 15.1908 7.4472 14.232 6.3648 12.8688L.45 8.1384C.1668 7.9116 0 7.566 0 7.2012V2.4012C0 1.7388.5364 1.2012 1.2 1.2012H5.1336C5.55.4872 6.3156.0012 7.2.0012H16.8C17.6856.0012 18.45.4872 18.8664 1.2012ZM2.4 3.6012V6.6252L4.8072 8.5512C4.8072 8.5252 4.8054 8.5002 4.8036 8.4753 4.8018 8.4507 4.8 8.4262 4.8 8.4012V3.6012H2.4ZM19.1928 8.5524 21.6 6.6252V3.6012H19.2V8.4012C19.2 8.4261 19.1982 8.4504 19.1965 8.475 19.1946 8.5002 19.1928 8.5257 19.1928 8.5524ZM6 21.6012H18V24.0012H6V21.6012Z' fill='%23faa61a' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
   --userPopout-badge-dtm18: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='hsl(154,calc(var(--saturation-factor, 1)*49.6%25),47.5%25)' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
 }
 
@@ -9051,7 +9275,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-badge-automod: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_4157_20124)'%3E%3Cmask id='mask0_4157_20124' style='mask-type:luminance' maskUnits='userSpaceOnUse' x='0' y='0' width='24' height='24'%3E%3Cpath d='M24 0H0V24H24V0Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_4157_20124)'%3E%3Cpath d='M9.1656 16.5725H21.6062C22.431 16.5725 22.7289 16.1601 22.3394 14.8313C21.3622 11.5737 20.1761 8.38246 18.7881 5.27754C17.8259 3.21558 17.1386 3.21558 15.2141 3.21558H2.37012C5.22781 3.21558 5.32698 3.21558 6.64541 14.8313C7.01198 16.5725 7.53893 16.5725 9.1656 16.5725Z' fill='white' fill-opacity='0.15'/%3E%3Cpath d='M16.0124 3.21533C18.8423 3.21533 19.6387 4.38459 20.2827 5.85887C23.4075 13.241 24.6773 16.4205 23.6507 19.2498C23.2821 20.2662 22.2085 20.7846 21.1273 20.7846H5.98623C3.42447 20.7846 0.969637 19.2967 0.466167 16.7849C-0.0186131 14.3665 -0.139215 11.2154 0.170111 5.85887C0.287807 3.82065 1.59193 3.23014 2.48938 3.21561C5.23085 3.21789 5.34557 3.37938 6.64541 14.8313C7.01198 16.5725 7.53893 16.5725 9.1656 16.5725H21.6062C22.431 16.5725 22.7289 16.1601 22.3394 14.8313C21.3622 11.5737 20.1761 8.38246 18.7881 5.27754C17.8259 3.21558 17.1386 3.21558 15.2141 3.21558H2.49145C2.50218 3.21541 2.51286 3.21533 2.52347 3.21533H16.0124Z' fill='white' fill-opacity='0.5'/%3E%3Cpath d='M17.4666 9.35104C18.018 9.16443 18.205 8.24558 17.8845 7.29874C17.564 6.35191 16.8574 5.73561 16.3061 5.92223C15.7547 6.10884 15.5676 7.02768 15.888 7.97453C16.2085 8.92136 16.9153 9.53765 17.4666 9.35104Z' fill='white'/%3E%3Cpath d='M9.28083 9.38212C9.84072 9.18164 10.018 8.24656 9.67676 7.29355C9.33554 6.34053 8.60503 5.73047 8.04513 5.93095C7.48523 6.13141 7.30796 7.0665 7.6492 8.01952C7.99043 8.97252 8.72093 9.58258 9.28083 9.38212Z' fill='white'/%3E%3Cpath d='M16.8416 11.3262C16.9102 13.136 16.0168 14.442 14.5046 14.442C12.9926 14.442 11.2972 13.136 10.2891 11.3262H16.8416Z' fill='white'/%3E%3C/g%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_4157_20124'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
   --userPopout-badge-guildSub: url("data:image/svg+xml,%0A%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23fff' d='M23 10V4H1V10C2.1 10 3 10.9 3 12C3 13.1 2.1 14 1 14V20H23V14C21.9 14 21 13.1 21 12C21 10.9 21.9 10 23 10ZM13 16V18H11V16H9V14H13C13.27 14 13.5 13.83 13.5 13.62C13.5 12.58 8.5 13.62 8.5 10.37C8.5 9.07 9.62 8 11 8V6H13V8H15V10H11C10.73 10 10.5 10.17 10.5 10.38C10.5 11.42 15.5 10.38 15.5 13.63C15.5 14.93 14.38 16 13 16Z' /%3E%3C/svg%3E%0A");
   --userPopout-badge-pomelo: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_4488_19832)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 24C18.6274 24 24 18.6274 24 12C24 5.37259 18.6274 0 12 0C5.37259 0 0 5.37259 0 12C0 18.6274 5.37259 24 12 24ZM10.4644 5.82922C10.976 5.91449 11.3216 6.39836 11.2364 6.90997L10.9249 8.77859H14.3524L14.7153 6.60118C14.8006 6.08957 15.2845 5.74395 15.7961 5.82922C16.3077 5.91449 16.6533 6.39836 16.568 6.90997L16.2566 8.77859H17.4191C17.9377 8.77859 18.3582 9.19906 18.3582 9.71773C18.3582 10.2364 17.9377 10.6568 17.4191 10.6568H15.9435L15.4667 13.5179H16.8267C17.3453 13.5179 17.7658 13.9385 17.7658 14.4571C17.7658 14.9758 17.3453 15.3962 16.8267 15.3962H15.1537L14.7908 17.5736C14.7055 18.0853 14.2217 18.4309 13.7101 18.3456C13.1984 18.2603 12.8528 17.7765 12.9381 17.2649L13.2495 15.3962H9.82198L9.45908 17.5736C9.37382 18.0853 8.88994 18.4309 8.37834 18.3456C7.86673 18.2603 7.52111 17.7765 7.60637 17.2649L7.91781 15.3962H6.75543C6.23675 15.3962 5.8163 14.9758 5.8163 14.4571C5.8163 13.9385 6.23675 13.5179 6.75543 13.5179H8.23085L8.70771 10.6568H7.34784C6.82917 10.6568 6.40871 10.2364 6.40871 9.71773C6.40871 9.19906 6.82917 8.77859 7.34784 8.77859H9.02075L9.38366 6.60118C9.46892 6.08957 9.95279 5.74395 10.4644 5.82922ZM14.0394 10.6568L13.5625 13.5179H10.135L10.6119 10.6568H14.0394Z' fill='%23fff'/%3E%3C/g%3E%3C/svg%3E%0A");
-  --userPopout-badge-quest: ;
+  --userPopout-badge-quest: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M18.8664 1.2012H22.8C23.4636 1.2012 24 1.7388 24 2.4012V7.2012C24 7.566 23.8332 7.9116 23.55 8.1384L17.6352 12.8688C16.5528 14.232 14.988 15.1908 13.2 15.4932V16.8012H15.6C16.2636 16.8012 16.8 17.3388 16.8 18.0012V20.4012H7.2V18.0012C7.2 17.3388 7.7364 16.8012 8.4 16.8012H10.8V15.4932C9.012 15.1908 7.4472 14.232 6.3648 12.8688L.45 8.1384C.1668 7.9116 0 7.566 0 7.2012V2.4012C0 1.7388.5364 1.2012 1.2 1.2012H5.1336C5.55.4872 6.3156.0012 7.2.0012H16.8C17.6856.0012 18.45.4872 18.8664 1.2012ZM2.4 3.6012V6.6252L4.8072 8.5512C4.8072 8.5252 4.8054 8.5002 4.8036 8.4753 4.8018 8.4507 4.8 8.4262 4.8 8.4012V3.6012H2.4ZM19.1928 8.5524 21.6 6.6252V3.6012H19.2V8.4012C19.2 8.4261 19.1982 8.4504 19.1965 8.475 19.1946 8.5002 19.1928 8.5257 19.1928 8.5524ZM6 21.6012H18V24.0012H6V21.6012Z' fill='%23fff' fill-rule='evenodd' clip-rule='evenodd'/%3E%3C/svg%3E");
   --userPopout-badge-dtm18: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23fff' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
 }
 
@@ -9332,6 +9556,9 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 [src$="/badge-icons/6de6d34650760ba5551a79732e98ed60.png"] {
   content: var(--userPopout-badge-pomelo);
+}
+[src$="/badge-icons/7d9ae358c8c5e118768335dbe68b4fb8.png"] {
+  content: var(--userPopout-badge-quest);
 }
 
 /*MetaIcons*/

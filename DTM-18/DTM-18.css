@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.18 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.0.19 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -102,6 +102,11 @@
 
 .rowGuildName_a6ae3c {
   align-items: center;
+}
+
+/*Button*/
+.contents_dd4f85 {
+  display: flex;
 }
 
 /*Context Menus*/
@@ -3213,6 +3218,90 @@ button.button_adca65 {
 }
 .attachmentInner_b52bef {
   margin-right: 52px;
+}
+
+/*Server Invites*/
+.inviteSplash_a71a1c {
+  margin: -10px -10px 10px;
+  width: calc(100% + 25px);
+  border-radius: 3px 3px 0 0;
+  -webkit-mask-image: linear-gradient(#000 0%, transparent 100%);
+}
+.wrapper_a71a1c {
+  background-color: rgba(47,49,54,.6);
+  border: 1px solid rgba(47,49,54,.9);
+  border-radius: 3px;
+  padding: 10px 15px 10px 10px;
+  margin-top: 6px;
+  width: 400px;
+  min-width: unset;
+  max-width: unset;
+}
+.theme-light .wrapper_a71a1c {
+  background-color: rgba(246,246,247,.6);
+  border-color: rgba(220,221,222,.3);
+}
+.header_a71a1c {
+  margin-bottom: 8px;
+}
+.content_a71a1c {
+  flex-flow: unset;
+  display: flex;
+}
+.headerLine_bf4cdc {
+  gap: 0;
+  flex-shrink: 1;
+  overflow: hidden;
+}
+.guildIcon_a71a1c {
+  margin-right: 10px;
+}
+.inviteDestination_a71a1c, .inviteDestinationExpired_a71a1c {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.guildDetail_a71a1c {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--channel-text-area-placeholder);
+}
+.statusOnline_a71a1c {
+  background-color: var(--status-online);
+}
+.count_a71a1c {
+  color: inherit;
+}
+.channelIcon_a71a1c {
+  width: 16px;
+  height: 16px;
+  color: var(--channel-text-area-placeholder);
+}
+.button_a71a1c {
+  min-width: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: .17s ease;
+}
+.content_a71a1c:has(.guildInfo_a71a1c > [role="button"]) .button_a71a1c {
+  background: transparent !important;
+  border: 1px solid hsl(var(--white-500-hsl) / .3);
+
+  &:hover {
+    border-color: hsl(var(--white-500-hsl) / .6);
+  }
+  .contents_dd4f85:after {
+    background-color: var(--white);
+    content: "";
+    display: block;
+    height: 18px;
+    margin-left: 8px;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none'%3E%3Cpolyline stroke='currentColor' stroke-width='2' points='3.5 9.5 7 13 15 5'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none'%3E%3Cpolyline stroke='currentColor' stroke-width='2' points='3.5 9.5 7 13 15 5'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
+    width: 18px;
+  }
 }
 
 /*Voice Msg*/

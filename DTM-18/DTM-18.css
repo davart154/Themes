@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.22 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.0.23 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -111,6 +111,50 @@
 }
 
 /*Button*/
+.button_dd4f85 {
+  background-image: none !important;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 2px 16px;
+  transition: var(--custom-button-transition-duration) ease;
+
+  --custom-button-button-xl-width: 148px;
+  --custom-button-button-xl-height: 50px;
+  --custom-button-button-lg-width: 130px;
+  --custom-button-button-lg-height: 44px;
+  --custom-button-button-md-width: 96px;
+  --custom-button-button-md-height: 38px;
+  --custom-button-button-sm-width: 60px;
+  --custom-button-button-sm-height: 32px;
+  --custom-button-button-tn-height: 24px;
+  --custom-button-button-tn-width: 52px;
+  --custom-button-link-underline-width: 1px;
+  --custom-button-link-underline-offset: 1px;
+  --custom-button-link-underline-stop: calc(var(--custom-button-link-underline-width) + var(--custom-button-link-underline-offset));
+  --custom-button-filled-hover: 0.1;
+  --custom-button-filled-active: 0.2;
+  --custom-button-transition-duration: .17s;
+  --custom-modal-min-width-large: 800px;
+}
+.lookBlank_dd4f85 {
+  padding: 0;
+}
+.lookFilled_dd4f85 {
+  transition: .2s ease;
+}
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+  background-color: var(--brand-500);
+  transition: var(--custom-button-transition-duration) ease !important;
+
+  &:hover {
+    background-color: var(--brand-530);
+  }
+  &:active {
+    background-color: var(--brand-560);
+  }
+}
 .contents_dd4f85 {
   display: flex;
 }
@@ -140,6 +184,7 @@
   background-color: #18191c;
   border: 0 !important;
   box-shadow: 0 0 1px rgba(0, 0, 0, 82%), 0 1px 4px rgba(0, 0, 0, 10%);
+  overflow: hidden;
   width: 170px;
 }
 .theme-light .menu_d90b3d {
@@ -296,7 +341,7 @@
 #message-actions .submenu_d90b3d {
   min-width: 3.8rem;
   background: #18191c;
-  padding: 2px 0;
+  padding: 0 0 2px;
   width: fit-content;
   height: fit-content;
   max-width: unset !important;
@@ -336,6 +381,32 @@
 .theme-light #message-actions .item_d90b3d:is(.focused_d90b3d,:active) {
   background: #040405 !important;
   color: var(--white);
+}
+#message-actions .separator_d90b3d {
+  display: none;
+}
+
+.wrapper_a24e84 {
+  border-bottom: 1px solid var(--background-modifier-accent);
+  display: flex;
+  padding: 0;
+  margin-bottom: 2px;
+}
+.customItem_d90b3d {
+  width: 100%;
+}
+.button_a24e84 {
+  background-color: transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  &:hover {
+    background: #040405 !important;
+  }
 }
 
 #channel-attach {
@@ -404,6 +475,84 @@
 }
 #channel-attach .focused_d90b3d .optionIcon_ec5137 {
   opacity: 1;
+}
+
+/*Account*/
+.accountProfilePopoutWrapper_b2ca13 {
+  left: unset;
+}
+.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_d0a252, .container_b64375, .card_ae1fa2, .mask_d5fdb1) {
+  display: none;
+}
+.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b {
+  --userPopout-outer-width: 220px !important;
+}
+.body_ad5fac {
+  padding: 0 !important;
+  gap: 0;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.body_ad5fac .usernameRow_c32acf {
+  position: relative;
+}
+.body_ad5fac .nicknameIcons_c32acf {
+  inset: 0;
+  border-radius: 0;
+  height: 17px;
+  opacity: 0;
+
+  button {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.menus_ad5fac {
+  background: #282b30;
+  gap: 0;
+}
+.menuOverlay_ad5fac {
+  background: transparent !important;
+  padding: 8px;
+
+  &:first-child {
+    padding-top: 12px;
+    background: var(--background-tertiary) !important;
+
+    &:before {
+      content: "";
+      display: block;
+      position: relative;
+      top: -8px;
+      width: 100%;
+      height: 1px;
+      background-color: var(--background-secondary);
+    }
+  }
+}
+.menuItemColor_ad5fac {
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: unset;
+  margin: 0;
+  min-height: 34px;
+  padding: 8px;
+  transition: unset;
+}
+.menuItemColor_ad5fac:hover {
+  background-color: #25282d;
+  color: var(--white);
+}
+.menuItemInner_ad5fac {
+  padding: 0;
+}
+.menuDivider_ad5fac {
+  display: none;
 }
 
 /*Badge*/
@@ -510,8 +659,58 @@ body {
   top: -4px;
   width: 28px;
 }
-.bar_b66418 {
-  display: none !important;
+.bar_b66418.bar_b66418 {
+  width: fit-content;
+  margin-top: -4px;
+}
+.sidebar_b66418.sidebar_b66418, .center_b66418.center_b66418 {
+  display: none;
+}
+
+.right_b66418 {
+  -webkit-app-region: no-drag;
+  margin-left: auto;
+}
+.right_b66418 > * {
+  color: var(--header-primary);
+  display: flex;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 11px;
+  text-decoration: none !important;
+
+  &:not(:last-child):after {
+    content: " •";
+    opacity: .3;
+  }
+}
+.right_b66418 .iconWrapper_fc4f04 {
+  display: flex;
+  height: unset;
+  margin: 0;
+  width: unset;
+
+  &:hover {
+    opacity: 1;
+  }
+  &:before {
+    content: attr(aria-label);
+    opacity: .3;
+  }
+  &:hover:before {
+    opacity: 1;
+  }
+  >svg {
+    display: none;
+  }
+}
+
+.right_b66418 > a + .iconWrapper_fc4f04 {
+  color: var(--status-positive);
+
+  &:before {
+    opacity: .8;
+  }
 }
 
 .content_a4d4d9 {
@@ -1175,7 +1374,6 @@ body {
 /*Guilds*/
 .guilds_a4d4d9.guilds_a4d4d9 {
   background-color: var(--background-tertiary);
-  border-radius: 0 !important;
   width: 70px;
 }
 .visual-refresh .guilds_a4d4d9 {
@@ -1469,9 +1667,6 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
 .platform-win .sidebar_a4d4d9 {
   border-radius: var(--radius-xsa) 0 0 var(--radius-xsa) !important;
 }
-.visual-refresh .sidebar_a4d4d9 {
-  border-radius: 0 !important;
-}
 
 :root {
   --custom-guild-list-width: 70px;
@@ -1489,13 +1684,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   padding-bottom: 0;
 }
 .scroller_c47fa9.scroller_c47fa9 {
-  border: 0;
-  margin: 0;
-}
-.scroller_c43953 > ul:after {
-  content: "";
-  display: block;
-  height: 8px;
+  margin-bottom: 0;
 }
 
 .searchBar_f0963d .searchBarComponent_f0963d {
@@ -1590,7 +1779,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   background-color: var(--status-positive);
 }
 div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button {
-  background-color: #36393f !important;
+  background: #36393f !important;
   border: 1px solid rgba(0,0,0,.6);
   border-radius: 3px;
   color: var(--header-primary) !important;
@@ -1601,13 +1790,13 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button {
   transition: none;
 }
 div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
-  background-color: #313339 !important;
+  background: #313339 !important;
 }
 .theme-light div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button {
-  background-color: var(--background-secondary) !important;
+  background: var(--background-secondary) !important;
 }
 .theme-light div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
-  background-color: var(--background-tertiary) !important;
+  background: var(--background-tertiary) !important;
 }
 
 .wrapperCommon_a08117 {
@@ -1970,9 +2159,14 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
   margin: 0;
   min-width: 0;
   padding: 0;
+  pointer-events: none;
 }
 .avatar_b2ca13 {
   margin-right: 10px;
+  pointer-events: all;
+}
+.avatarWrapper_b2ca13 .avatar_b2ca13:hover {
+  opacity: .8;
 }
 .nameTag_b2ca13.nameTag_b2ca13 {
   padding: 0 !important;
@@ -2015,88 +2209,6 @@ button.button_adca65.button_adca65 {
     background-color: rgb(24 25 28 / .3) !important;
     opacity: 1;
   }
-}
-
-/*PanelPopout*/
-.accountProfilePopoutWrapper_b2ca13 {
-  left: unset;
-}
-.accountProfilePopoutWrapper_b2ca13 :is(.wrapper_cb78f1, .header_b8cc6d, .pronounsTooltip_c32acf, .container_b64375, .card_ae1fa2) {
-  display: none;
-}
-.accountProfilePopoutWrapper_b2ca13 .userProfileInner_c69a7b:after {
-  display: none;
-}
-.body_ad5fac {
-  gap: 0;
-  padding: 0;
-}
-.body_ad5fac::-webkit-scrollbar {
-  display: none;
-}
-
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b {
-  border-radius: var(--radius-xsa);
-  box-shadow: 0 0 1px rgb(0 0 0 / 82%), 0 1px 4px rgb(0 0 0 / 10%);
-  overflow: hidden;
-  padding: 0 !important;
-  width: 220px !important;
-}
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b {
-  background: transparent !important;
-}
-.accountProfilePopoutWrapper_b2ca13 .userProfileInner_c69a7b {
-  width: 220px;
-  background: #282b30 !important;
-}
-.username_ad5fac.username_ad5fac.username_ad5fac {
-  align-items: unset;
-  background: transparent;
-  margin: 2px 0;
-  padding: 10px 14px;
-}
-.username_ad5fac .nickname_c32acf {
-  color: hsla(0, 0%, 100%, .6);
-  font-size: 15px;
-  line-height: 18px;
-  font-weight: 400;
-  height: 18px;
-  overflow: hidden;
-  word-break: unset;
-}
-.username_ad5fac .tags_c32acf {
-  align-items: unset;
-  width: fit-content;
-}
-.username_ad5fac .userTagUsername_c32acf {
-  color: rgba(153,170,181,.8);
-  font-size: 12px;
-  line-height: 16px;
-}
-.username_ad5fac .nicknameIcons_c32acf {
-  top: 10px;
-  left: unset;
-  right: 14px;
-}
-
-.menus_ad5fac {
-  gap: 0;
-}
-.menuOverlay_ad5fac {
-  background: unset !important;
-  border-radius: 0;
-  padding: 0;
-}
-.menuDivider_ad5fac {
-  display: none;
-}
-.menuItemColor_ad5fac {
-  color: hsla(0,0%,100%,.6);
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 14px;
-  border-radius: 0px;
-  font-weight: 400;
 }
 
 /*TopToolbar*/
@@ -2148,6 +2260,9 @@ button.button_adca65.button_adca65 {
     mask: none;
   }
 }
+.right_b66418 > a {
+  text-decoration: unset !important;
+}
 .icon_fc4f04.icon_fc4f04 {
   width: 24px;
   height: 24px;
@@ -2166,7 +2281,7 @@ button.button_adca65.button_adca65 {
   margin: 0 4px 0 8px;
 }
 .search_ff5f90:after {
-  content: "";
+  /*content: "";*/
   border-right: 1px solid hsla(0,0%,85%,.1);
   padding-left: 8px;
   height: 22px;
@@ -2834,6 +2949,7 @@ button.button_adca65.button_adca65 {
   height: 1.3rem;
   line-height: unset;
   min-height: unset;
+  margin-left: unset !important;
   padding: 0 !important;
 }
 .headerText_f9f2ca.headerText_f9f2ca {
@@ -3738,6 +3854,7 @@ button.button_adca65.button_adca65 {
 .emoji_a3b500 {
   width: inherit;
   height: inherit;
+  background-position: 50%;
 }
 .separator_e986d9 {
   height: 16px;
@@ -4580,6 +4697,7 @@ svg+.botText_a9e77f:before {
 .userProfileOuter_c69a7b .botTagRegular_a9e77f {
   background: var(--white-500);
   color: var(--brand-500);
+  display: inline;
 }
 
 /*UserPopout*/
@@ -4918,13 +5036,16 @@ svg+.botText_a9e77f:before {
   padding: 0 10px 10px;
 }
 .usernameRow_c32acf {
+  flex-wrap: wrap;
   gap: 0;
+  justify-content: center;
 }
 .nickname_c32acf {
   color: var(--userPopout-play-primary);
   font-size: 16px;
   font-weight: 600;
   line-height: 17px;
+  text-align: center;
 }
 .tags_c32acf {
   margin: 0;
@@ -5437,6 +5558,9 @@ svg+.botText_a9e77f:before {
   height: 90px;
   justify-content: center;
   padding: 20px 20px 20px 130px;
+}
+.body_b9fccc .usernameRow_c32acf {
+  justify-content: unset;
 }
 .body_b9fccc .tags_c32acf {
   align-items: unset;
@@ -8381,12 +8505,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --autocomplete-bg: var(--primary-100);
     --background-accent: var(--primary-430);
     --background-floating: var(--white-500);
-    --background-mentioned: hsl(var(--yellow-300-hsl) / 0.1);
-    --background-mentioned-hover: hsl(var(--yellow-300-hsl) / 0.2);
-    --background-message-automod: hsl(var(--red-400-hsl) / 0.05);
-    --background-message-automod-hover: hsl(var(--red-400-hsl) / 0.1);
-    --background-message-highlight: hsl(var(--brand-360-hsl) / 0.1);
-    --background-message-highlight-hover: hsl(var(--brand-360-hsl) / 0.2);
+  --background-mentioned: var(--legacy-warning-10a);
+  --background-mentioned-hover: var(--legacy-warning-10a);
+  --background-message-automod: var(--legacy-danger-05a);
+  --background-message-automod-hover: var(--legacy-danger-05a);
+  --background-message-highlight: var(--brand-20a);
+  --background-message-highlight-hover: var(--brand-20a);
     --background-message-hover: hsl(var(--primary-900-hsl) / 0.03);
     --background-mobile-primary: var(--primary-100);
     --background-mobile-secondary: var(--white-500);
@@ -8424,46 +8548,46 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --button-danger-background-active: var(--red-530);
     --button-danger-background-disabled: var(--red-430);
     --button-danger-background-hover: var(--red-500);
-    --button-outline-brand-background: hsl(var(--white-500-hsl) / 0);
-    --button-outline-brand-background-active: var(--brand-560);
-    --button-outline-brand-background-hover: var(--brand-500);
-    --button-outline-brand-border: var(--brand-500);
-    --button-outline-brand-border-active: var(--brand-560);
-    --button-outline-brand-border-hover: var(--brand-500);
-    --button-outline-brand-text: var(--black-500);
-    --button-outline-brand-text-active: var(--white-500);
-    --button-outline-brand-text-hover: var(--white-500);
-    --button-outline-danger-background: hsl(var(--white-500-hsl) / 0);
-    --button-outline-danger-background-active: var(--red-460);
-    --button-outline-danger-background-hover: var(--red-430);
-    --button-outline-danger-border: var(--red-430);
-    --button-outline-danger-border-active: var(--red-430);
-    --button-outline-danger-border-hover: var(--red-430);
-    --button-outline-danger-text: var(--black-500);
-    --button-outline-danger-text-active: var(--white-500);
-    --button-outline-danger-text-hover: var(--white-500);
-    --button-outline-positive-background: hsl(var(--white-500-hsl) / 0);
-    --button-outline-positive-background-active: var(--green-530);
-    --button-outline-positive-background-hover: var(--green-430);
-    --button-outline-positive-border: var(--green-400);
-    --button-outline-positive-border-active: var(--green-530);
-    --button-outline-positive-border-hover: var(--green-430);
-    --button-outline-positive-text: var(--black-500);
-    --button-outline-positive-text-active: var(--white-500);
-    --button-outline-positive-text-hover: var(--white-500);
-    --button-outline-primary-background: hsl(var(--white-500-hsl) / 0);
-    --button-outline-primary-background-active: var(--primary-600);
-    --button-outline-primary-background-hover: var(--primary-530);
+  --button-outline-brand-background: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-border: var(--brand-30a);
+  --button-outline-brand-border-active: var(--brand-500);
+  --button-outline-brand-border-hover: var(--brand-60a);
+  --button-outline-brand-text: var(--brand-500);
+  --button-outline-brand-text-active: var(--brand-500);
+  --button-outline-brand-text-hover: var(--brand-500);
+  --button-outline-danger-background: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-border: var(--legacy-danger-30a);
+  --button-outline-danger-border-active: var(--legacy-danger);
+  --button-outline-danger-border-hover: var(--legacy-danger-60a);
+  --button-outline-danger-text: var(--legacy-danger);
+  --button-outline-danger-text-active: var(--legacy-danger);
+  --button-outline-danger-text-hover: var(--legacy-danger);
+  --button-outline-positive-background: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-border: var(--legacy-positive-30a);
+  --button-outline-positive-border-active: var(--legacy-positive);
+  --button-outline-positive-border-hover: var(--legacy-positive-60a);
+  --button-outline-positive-text: var(--legacy-positive);
+  --button-outline-positive-text-active: var(--legacy-positive);
+  --button-outline-positive-text-hover: var(--legacy-positive);
+  --button-outline-primary-background: hsl(var(--white-500-hsl) / 0);
+  --button-outline-primary-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-primary-background-hover: hsl(var(--white-500-hsl) / 0);
     --button-outline-primary-border: var(--primary-530);
     --button-outline-primary-border-active: var(--primary-600);
     --button-outline-primary-border-hover: var(--primary-530);
     --button-outline-primary-text: var(--black-500);
     --button-outline-primary-text-active: var(--white-500);
     --button-outline-primary-text-hover: var(--white-500);
-    --button-positive-background: var(--green-430);
-    --button-positive-background-active: var(--green-530);
-    --button-positive-background-disabled: var(--green-430);
-    --button-positive-background-hover: var(--green-530);
+  --button-positive-background: var(--legacy-positive);
+  --button-positive-background-active: var(--legacy-positive-active);
+  --button-positive-background-disabled: var(--legacy-positive);
+  --button-positive-background-hover: var(--legacy-positive-hover);
     --button-secondary-background: var(--primary-430);
     --button-secondary-background-active: var(--primary-530);
     --button-secondary-background-disabled: var(--primary-430);
@@ -8705,12 +8829,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --autocomplete-bg: var(--primary-630);
   --background-accent: var(--plum-17);
   --background-floating: var(--plum-23);
-  --background-mentioned: hsl(var(--yellow-260-hsl) / 0.08);
-  --background-mentioned-hover: hsl(var(--yellow-300-hsl) / 0.08);
-  --background-message-automod: hsl(var(--red-345-hsl) / 0.08);
-  --background-message-automod-hover: hsl(var(--red-400-hsl) / 0.1);
-  --background-message-highlight: hsl(var(--brand-360-hsl) / 0.08);
-  --background-message-highlight-hover: hsl(var(--brand-360-hsl) / 0.06);
+  --background-mentioned: var(--legacy-warning-10a);
+  --background-mentioned-hover: var(--legacy-warning-10a);
+  --background-message-automod: var(--legacy-danger-05a);
+  --background-message-automod-hover: var(--legacy-danger-05a);
+  --background-message-highlight: var(--brand-20a);
+  --background-message-highlight-hover: var(--brand-20a);
   --background-message-hover: var(--plum-21);
   --background-mobile-primary: var(--black-500);
   --background-mobile-secondary: var(--black-500);
@@ -8744,50 +8868,50 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --border-subtle: hsl(var(--plum-11-hsl) / 0.12);
   --bug-reporter-modal-submitting-background: hsl(var(--plum-23-hsl) / 0.6);
   --button-creator-revenue-background: var(--teal-430);
-  --button-danger-background: var(--red-430);
-  --button-danger-background-active: var(--red-530);
-  --button-danger-background-disabled: var(--red-430);
-  --button-danger-background-hover: var(--red-500);
+  --button-danger-background: var(--legacy-danger);
+  --button-danger-background-active: var(--legacy-danger-active);
+  --button-danger-background-disabled: var(--legacy-danger);
+  --button-danger-background-hover: var(--legacy-danger-hover);
   --button-outline-brand-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-brand-background-active: var(--brand-560);
-  --button-outline-brand-background-hover: var(--brand-500);
-  --button-outline-brand-border: var(--brand-500);
-  --button-outline-brand-border-active: var(--brand-560);
-  --button-outline-brand-border-hover: var(--brand-500);
-  --button-outline-brand-text: var(--white-500);
-  --button-outline-brand-text-active: var(--white-500);
-  --button-outline-brand-text-hover: var(--white-500);
+  --button-outline-brand-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-border: var(--brand-30a);
+  --button-outline-brand-border-active: var(--brand-500);
+  --button-outline-brand-border-hover: var(--brand-60a);
+  --button-outline-brand-text: var(--brand-500);
+  --button-outline-brand-text-active: var(--brand-500);
+  --button-outline-brand-text-hover: var(--brand-500);
   --button-outline-danger-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-danger-background-active: var(--red-460);
-  --button-outline-danger-background-hover: var(--red-430);
-  --button-outline-danger-border: var(--red-400);
-  --button-outline-danger-border-active: var(--red-430);
-  --button-outline-danger-border-hover: var(--red-430);
-  --button-outline-danger-text: var(--white-500);
-  --button-outline-danger-text-active: var(--white-500);
-  --button-outline-danger-text-hover: var(--white-500);
+  --button-outline-danger-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-border: var(--legacy-danger-30a);
+  --button-outline-danger-border-active: var(--legacy-danger);
+  --button-outline-danger-border-hover: var(--legacy-danger-60a);
+  --button-outline-danger-text: var(--legacy-danger);
+  --button-outline-danger-text-active: var(--legacy-danger);
+  --button-outline-danger-text-hover: var(--legacy-danger);
   --button-outline-positive-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-positive-background-active: var(--green-530);
-  --button-outline-positive-background-hover: var(--green-430);
-  --button-outline-positive-border: var(--green-360);
-  --button-outline-positive-border-active: var(--green-530);
-  --button-outline-positive-border-hover: var(--green-430);
-  --button-outline-positive-text: var(--white-500);
-  --button-outline-positive-text-active: var(--white-500);
-  --button-outline-positive-text-hover: var(--white-500);
+  --button-outline-positive-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-border: var(--legacy-positive-30a);
+  --button-outline-positive-border-active: var(--legacy-positive);
+  --button-outline-positive-border-hover: var(--legacy-positive-60a);
+  --button-outline-positive-text: var(--legacy-positive);
+  --button-outline-positive-text-active: var(--legacy-positive);
+  --button-outline-positive-text-hover: var(--legacy-positive);
   --button-outline-primary-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-primary-background-active: var(--plum-11);
-  --button-outline-primary-background-hover: var(--plum-13);
+  --button-outline-primary-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-primary-background-hover: hsl(var(--white-500-hsl) / 0);
   --button-outline-primary-border: var(--primary-500);
   --button-outline-primary-border-active: var(--plum-11);
   --button-outline-primary-border-hover: var(--plum-13);
   --button-outline-primary-text: var(--white-500);
   --button-outline-primary-text-active: var(--white-500);
   --button-outline-primary-text-hover: var(--white-500);
-  --button-positive-background: var(--green-430);
-  --button-positive-background-active: var(--green-530);
-  --button-positive-background-disabled: var(--green-430);
-  --button-positive-background-hover: var(--green-530);
+  --button-positive-background: var(--legacy-positive);
+  --button-positive-background-active: var(--legacy-positive-active);
+  --button-positive-background-disabled: var(--legacy-positive);
+  --button-positive-background-hover: var(--legacy-positive-hover);
   --button-secondary-background: var(--plum-13);
   --button-secondary-background-active: var(--plum-10);
   --button-secondary-background-disabled: var(--plum-13);
@@ -9029,12 +9153,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --autocomplete-bg: var(--primary-630);
   --background-accent: var(--plum-15);
   --background-floating: var(--plum-18);
-  --background-mentioned: hsl(var(--yellow-260-hsl) / 0.08);
-  --background-mentioned-hover: hsl(var(--yellow-300-hsl) / 0.08);
-  --background-message-automod: hsl(var(--red-345-hsl) / 0.08);
-  --background-message-automod-hover: hsl(var(--red-400-hsl) / 0.1);
-  --background-message-highlight: hsl(var(--brand-360-hsl) / 0.08);
-  --background-message-highlight-hover: hsl(var(--brand-360-hsl) / 0.06);
+  --background-mentioned: var(--legacy-warning-10a);
+  --background-mentioned-hover: var(--legacy-warning-10a);
+  --background-message-automod: var(--legacy-danger-05a);
+  --background-message-automod-hover: var(--legacy-danger-05a);
+  --background-message-highlight: var(--brand-20a);
+  --background-message-highlight-hover: var(--brand-20a);
   --background-message-hover: var(--plum-21);
   --background-mobile-primary: var(--plum-20);
   --background-mobile-secondary: var(--plum-20);
@@ -9068,50 +9192,50 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --border-subtle: hsl(var(--plum-11-hsl) / 0.12);
   --bug-reporter-modal-submitting-background: hsl(var(--plum-23-hsl) / 0.6);
   --button-creator-revenue-background: var(--teal-430);
-  --button-danger-background: var(--red-430);
-  --button-danger-background-active: var(--red-530);
-  --button-danger-background-disabled: var(--red-430);
-  --button-danger-background-hover: var(--red-500);
+  --button-danger-background: var(--legacy-danger);
+  --button-danger-background-active: var(--legacy-danger-active);
+  --button-danger-background-disabled: var(--legacy-danger);
+  --button-danger-background-hover: var(--legacy-danger-hover);
   --button-outline-brand-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-brand-background-active: var(--brand-560);
-  --button-outline-brand-background-hover: var(--brand-500);
-  --button-outline-brand-border: var(--brand-500);
-  --button-outline-brand-border-active: var(--brand-560);
-  --button-outline-brand-border-hover: var(--brand-500);
-  --button-outline-brand-text: var(--white-500);
-  --button-outline-brand-text-active: var(--white-500);
-  --button-outline-brand-text-hover: var(--white-500);
+  --button-outline-brand-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-brand-border: var(--brand-30a);
+  --button-outline-brand-border-active: var(--brand-500);
+  --button-outline-brand-border-hover: var(--brand-60a);
+  --button-outline-brand-text: var(--brand-500);
+  --button-outline-brand-text-active: var(--brand-500);
+  --button-outline-brand-text-hover: var(--brand-500);
   --button-outline-danger-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-danger-background-active: var(--red-460);
-  --button-outline-danger-background-hover: var(--red-430);
-  --button-outline-danger-border: var(--red-400);
-  --button-outline-danger-border-active: var(--red-430);
-  --button-outline-danger-border-hover: var(--red-430);
-  --button-outline-danger-text: var(--white-500);
-  --button-outline-danger-text-active: var(--white-500);
-  --button-outline-danger-text-hover: var(--white-500);
+  --button-outline-danger-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-danger-border: var(--legacy-danger-30a);
+  --button-outline-danger-border-active: var(--legacy-danger);
+  --button-outline-danger-border-hover: var(--legacy-danger-60a);
+  --button-outline-danger-text: var(--legacy-danger);
+  --button-outline-danger-text-active: var(--legacy-danger);
+  --button-outline-danger-text-hover: var(--legacy-danger);
   --button-outline-positive-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-positive-background-active: var(--green-530);
-  --button-outline-positive-background-hover: var(--green-430);
-  --button-outline-positive-border: var(--green-360);
-  --button-outline-positive-border-active: var(--green-530);
-  --button-outline-positive-border-hover: var(--green-430);
-  --button-outline-positive-text: var(--white-500);
-  --button-outline-positive-text-active: var(--white-500);
-  --button-outline-positive-text-hover: var(--white-500);
+  --button-outline-positive-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-background-hover: hsl(var(--white-500-hsl) / 0);
+  --button-outline-positive-border: var(--legacy-positive-30a);
+  --button-outline-positive-border-active: var(--legacy-positive);
+  --button-outline-positive-border-hover: var(--legacy-positive-60a);
+  --button-outline-positive-text: var(--legacy-positive);
+  --button-outline-positive-text-active: var(--legacy-positive);
+  --button-outline-positive-text-hover: var(--legacy-positive);
   --button-outline-primary-background: hsl(var(--white-500-hsl) / 0);
-  --button-outline-primary-background-active: var(--plum-11);
-  --button-outline-primary-background-hover: var(--plum-13);
+  --button-outline-primary-background-active: hsl(var(--white-500-hsl) / 0);
+  --button-outline-primary-background-hover: hsl(var(--white-500-hsl) / 0);
   --button-outline-primary-border: var(--primary-500);
   --button-outline-primary-border-active: var(--plum-11);
   --button-outline-primary-border-hover: var(--plum-13);
   --button-outline-primary-text: var(--white-500);
   --button-outline-primary-text-active: var(--white-500);
   --button-outline-primary-text-hover: var(--white-500);
-  --button-positive-background: var(--green-430);
-  --button-positive-background-active: var(--green-530);
-  --button-positive-background-disabled: var(--green-430);
-  --button-positive-background-hover: var(--green-500);
+  --button-positive-background: var(--legacy-positive);
+  --button-positive-background-active: var(--legacy-positive-active);
+  --button-positive-background-disabled: var(--legacy-positive);
+  --button-positive-background-hover: var(--legacy-positive-hover);
   --button-secondary-background: var(--plum-13);
   --button-secondary-background-active: var(--plum-10);
   --button-secondary-background-disabled: var(--plum-13);
@@ -9541,7 +9665,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-badge-dtm18: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='hsl(154,calc(var(--saturation-factor, 1)*49.6%25),47.5%25)' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
 }
 
-.userProfileOuter_c69a7b {
+.userProfileOuter_c69a7b, .accountProfilePopoutWrapper_b2ca13 .userProfileOuter_c69a7b.userProfileOuter_c69a7b {
   --userPopout-outer-padding: 0;
   --userPopout-outer-width: 250px;
   --userPopout-banner-width: var(--userPopout-outer-width);
@@ -9651,7 +9775,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-play: var(--crunchyroll);
 }
 
-.userPopoutOuter_c69a7b:has([src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
+.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");'],[src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
   --userPopout-play: var(--youtube);
 }
 .userPopoutOuter_c69a7b:has([src*="/app-icons/832025144389533716/6fe6e3dda7657b83758693205a833aa1.webp"]) {

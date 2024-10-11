@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.27 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.0.28 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -741,8 +741,9 @@ body {
   }
 }
 .bar_b66418.bar_b66418 {
-  width: fit-content;
+  display: flex;
   margin-top: -4px;
+  width: fit-content;
 }
 .sidebar_b66418.sidebar_b66418, .center_b66418.center_b66418 {
   display: none;
@@ -6578,7 +6579,7 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 {
   overflow: hidden;
   border-radius: var(--radius-xsa);
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 5px 0 hsl(var(--black-500-hsl) / .3);
 }
 .connection_e2a436:has([alt="Battle.net"]) {
   background-color: var(--battlenet);
@@ -9083,7 +9084,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --you-bar-bg: var(--white-500);
 }
 
-.theme-darker {
+.theme-darker.theme-darker {
   --action-sheet-gradient-bg: var(--plum-20);
   --activity-card-background: var(--primary-700);
   --activity-card-icon-overlay: hsl(var(--primary-600-hsl) / 0.85);
@@ -9407,7 +9408,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --you-bar-bg: var(--plum-17);
 }
 
-.theme-midnight {
+.theme-midnight.theme-midnight {
   --action-sheet-gradient-bg: var(--black-500);
   --activity-card-background: var(--primary-700);
   --activity-card-icon-overlay: hsl(var(--primary-600-hsl) / 0.85);

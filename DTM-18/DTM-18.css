@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.0.29 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.0 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -129,7 +129,7 @@
 .h4_c46f6a {
 
 }
-.h5_c46f6a {
+.h5_c46f6a, .title_f45ea6 [data-text-variant] {
   color: var(--header-secondary);
   font-size: 12px;
   font-weight: 600;
@@ -193,9 +193,6 @@
 
 .lookBlank_dd4f85 {
   padding: 0;
-}
-.colorBrand_dd4f85:is(.lookFilled_dd4f85, .lookOutlined_dd4f85) {
-  transition: var(--custom-button-transition-duration) ease !important;
 }
 
 .lookFilled_dd4f85.colorBrand_dd4f85 {
@@ -262,7 +259,7 @@
   width: 170px;
 }
 .theme-light .menu_d90b3d {
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .menu_d90b3d .scroller_d90b3d {
@@ -289,7 +286,7 @@
 }
 .theme-dark .item_d90b3d:is(.focused_d90b3d,:active) {
   background: #040405;
-  color: #fff;
+  color: var(--white);
 }
 .menu_d90b3d .scroller_d90b3d .colorDanger_d90b3d {
   color: var(--text-danger) !important;
@@ -320,7 +317,7 @@
   width: 220px;
 }
 .theme-light .menu_d90b3d:is(#guild-header-popout, #favorites-header-popout) {
-  background: #fff;
+  background: var(--white);
 }
 .menu_d90b3d:is(#guild-header-popout, #favorites-header-popout) .label_d90b3d {
   margin-left: 38px;
@@ -498,7 +495,7 @@
 }
 #channel-attach .item_d90b3d {
   opacity: 0;
-  color: #fff;
+  color: var(--white);
   border-radius: 3px;
   cursor: pointer;
   padding: 8px;
@@ -708,10 +705,10 @@
 
 /*Outside Content*/
 body {
-  background: var(--bg-overlay-2,var(--background-tertiary)) !important;
+  background: var(--guild-bg) !important;
 }
 .bg_d4b6c5 {
-  background: var(--bg-overlay-app-frame,var(--guild-bg)) !important;
+  background: var(--guild-bg) !important;
 }
 .overlay body {
   background: transparent !important;
@@ -1150,7 +1147,7 @@ body {
   border-radius: 3px;
   transition: 0.3s;
   background: var(--background-secondary-alt);
-  color: #fff;
+  color: var(--white);
 }
 .theme-light .peopleColumn_c2739c .peopleListItem_d51464 .actionButton_e01b91 {
   background: var(--button-secondary-background);
@@ -1163,7 +1160,7 @@ body {
 }
 .peopleColumn_c2739c .peopleListItem_d51464 .actionButton_e01b91.actionAccept_e01b91:hover {
   background: var(--status-positive);
-  color: #fff;
+  color: var(--white);
 }
 #pending-tab .actionButton_e01b91:is(.actionAccept_e01b91, .actionDeny_e01b91) svg,
 #blocked-tab .actionButton_e01b91 svg {
@@ -1286,7 +1283,7 @@ body {
   }
 }
 .theme-light .section_cd82a7 {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .voiceSection_cd82a7 {
@@ -1482,10 +1479,13 @@ body {
   margin-bottom: var(--custom-app-panels-height);
 }
 .footer_aa1bff.footer_aa1bff {
-  background: var(--bg-overlay-app-frame,var(--guild-bg));
+  background: transparent;
   width: 70px;
 }
 
+.scroller_fea3ef {
+  background: transparent !important;
+}
 html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   padding-top: 10px;
 }
@@ -1498,7 +1498,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   width: 70px;
 }
 .upperBadge_c5f96a {
-  background: var(--bg-overlay-app-frame,var(--guild-bg));
+  background: var(--guild-bg);
   border-radius: var(--radius-round);
   right: -6px;
   top: -6px;
@@ -1521,7 +1521,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   color: var(--status-positive);
 }
 .pauseBackground_fdcfe0 {
-  background: var(--bg-overlay-app-frame,var(--background-tertiary));
+  background: var(--background-tertiary);
   bottom: -4px;
   box-sizing: border-box;
   height: 24px;
@@ -1668,7 +1668,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
 }
 .listItem_c96c45:has(.selected_a5ad63):before,
 .wrapper_bc7085:has(.item_c4cd66[style*="40"]):before {
-  background: #fff;
+  background: var(--white);
   height: 40px !important;
   margin-top: -20px !important;
   transition-delay: 0s !important;
@@ -1799,7 +1799,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   margin-bottom: var(--custom-app-panels-height);
 }
 .container_ee69e0.container_ee69e0 {
-  background: var(--bg-overlay-3,var(--background-secondary));
+  background: var(--background-secondary);
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -1902,7 +1902,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   right: 17px;
   top: 11px;
   width: 18px;
-  color: #fff;
+  color: var(--white);
 }
 .liveIndicator_a6cd4e {
   background-color: var(--status-positive);
@@ -1941,7 +1941,7 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 }
 
 .privateChannels_f0963d.privateChannels_f0963d {
-  background: var(--bg-overlay-3,var(--background-secondary));
+  background: var(--background-secondary);
 }
 .privateChannelsHeaderContainer_c47fa9.privateChannelsHeaderContainer_c47fa9 {
   color: var(--header-primary);
@@ -2153,7 +2153,7 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 
 /*Panels*/
 .panels_a4d4d9.panels_a4d4d9 {
-  background: var(--bg-overlay-3,var(--background-secondary-alt));
+  background: var(--background-secondary-alt);
   border: 0;
   border-radius: unset;
   border-bottom-left-radius: var(--radius-xsa);
@@ -2174,7 +2174,7 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
   width: var(--custom-guild-sidebar-width);
 }
 .listeningAlong_d4626d {
-  background: var(--bg-overlay-1,var(--background-secondary-alt));
+  background: var(--background-secondary-alt);
   border-bottom: none;
   border-top: none;
   margin-bottom: 2px;
@@ -2202,7 +2202,8 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 .wrapper_adcaac {
   order: 2;
 }
-.container_adcaac {
+.container_adcaac.container_adcaac.container_adcaac {
+  background: var(--background-secondary-alt);
   padding: 10px;
 }
 .connection_adcaac {
@@ -2279,7 +2280,7 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 }
 
 .container_b2ca13.container_b2ca13 {
-  background: var(--bg-overlay-1,var(--background-secondary-alt));
+  background: var(--background-secondary-alt);
   padding: 0 10px;
   justify-content: space-between;
   order: 4;
@@ -2350,9 +2351,9 @@ button.button_adca65.button_adca65 {
 
 /*TopToolbar*/
 .container_fc4f04.container_fc4f04 {
+  background: var(--background-primary);
   padding: 0 8px 0 12px;
   min-height: 48px;
-  --__header-bar-background: var(--background-primary);
 }
 .upperContainer_fc4f04 {
   align-items: center;
@@ -2428,7 +2429,7 @@ button.button_adca65.button_adca65 {
   content: unset;
 }
 .searchBar_a46bef.searchBar_a46bef {
-  background: var(--bg-overlay-5, hsl(var(--white-500-hsl) / .1));
+  background: hsl(var(--white-500-hsl) / .1);
   border-radius: 3px;
   height: 28px;
   padding: 0;
@@ -2847,7 +2848,7 @@ button.button_adca65.button_adca65 {
   border-top-left-radius: var(--radius-xsa);
 }
 .chatContent_a7d72e.chatContent_a7d72e {
-  background: var(--bg-overlay-chat,var(--background-primary));
+  background: var(--background-primary);
 }
 .scrollerContent_e2e187 {
   justify-content: unset;
@@ -2976,7 +2977,7 @@ button.button_adca65.button_adca65 {
   border-color: var(--legacy-danger-40a);
 }
 .unreadPill_c2654d {
-  background: var(--bg-overlay-chat,var(--background-primary));
+  background: var(--background-primary);
   border-radius: 3px;
   color: var(--legacy-danger-80a);
   font-size: 14px;
@@ -2999,6 +3000,7 @@ button.button_adca65.button_adca65 {
   visibility: hidden;
 }
 .content_c2654d {
+  background: var(--background-primary);
   color: rgb(153 170 181 / .5);
   font-size: 14px;
   font-weight: 500;
@@ -4114,7 +4116,9 @@ button.button_adca65.button_adca65 {
   padding-top: 0;
   margin-top: 0;
 }
-.replyBar_b11c5e {
+.replyBar_b11c5e.replyBar_b11c5e.replyBar_b11c5e {
+  background: unset;
+  background-color: var(--background-secondary);
   border-radius: 3px 3px 0 0;
   border-top: 4px solid var(--brand-500);
   position: relative;
@@ -4129,7 +4133,7 @@ button.button_adca65.button_adca65 {
   right: 0;
   top: 0;
 }
-.replyBar_b11c5e:has([aria-checked=true]) {
+.replyBar_b11c5e.replyBar_b11c5e:has([aria-checked=true]) {
   background-color: var(--background-mentioned);
   border-color: var(--info-warning-foreground);
 }
@@ -4568,7 +4572,7 @@ button.button_adca65.button_adca65 {
 
 /*Memberlist*/
 .container_cbd271, .members_cbd271 {
-  background: var(--bg-overlay-chat,var(--background-secondary));
+  background: var(--background-secondary);
 }
 .membersGroup_cbd271.membersGroup_cbd271 {
   color: var(--channels-default);
@@ -4668,7 +4672,7 @@ button.button_adca65.button_adca65 {
 }
 
 .searchBar_e06425 {
-  background: var(--bg-overlay-5, hsl(var(--white-500-hsl) / .1));
+  background: hsl(var(--white-500-hsl) / .1);
 }
 
 /*Avatar, Wrapper*/
@@ -4813,7 +4817,7 @@ button.button_adca65.button_adca65 {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: #fff;
+  background: var(--white);
   border-radius: var(--radius-round);
   animation: legacy_spinner-pulsing-ellipsis 1.4s infinite ease;
   opacity: .3;
@@ -5111,7 +5115,7 @@ svg+.botText_a9e77f:before {
   background: var(--redesign-button-secondary-overlay-background);
 }
 .nicknameIcons_c32acf button path {
-  fill: #fff;
+  fill: var(--white);
 }
 
 .wrapper_cb78f1.wrapper_cb78f1 {
@@ -5580,7 +5584,7 @@ svg+.botText_a9e77f:before {
     border-color: #ffffff99;
   }
   &:not(:disabled):active {
-    border-color: #fff;
+    border-color: var(--white);
   }
 }
 
@@ -5782,7 +5786,7 @@ section > .root_e6f2d0 {
     border-color: #ffffff99;
   }
   &:active {
-    border-color: #fff;
+    border-color: var(--white);
   }
 }
 .theme-light .headerButtons_b9fccc button {
@@ -5932,73 +5936,80 @@ section > .root_e6f2d0 {
 
 /*RadioBar*/
 .item_eb92a8 {
-  color: var(--interactive-active) !important;
   background: #0000 !important;
+  color: var(--interactive-active) !important;
 }
-.item_eb92a8 .title-1yyp9V {
-  font-weight: 500;
-}
-.item_eb92a8[aria-checked=false] .title-1yyp9V {
-  color: var(--radio-bar-accent-color);
-}
-.item_eb92a8 .radioBar_eb92a8 {
-  border: solid 1px var(--background-tertiary);
+.radioBar_eb92a8 {
   background: var(--deprecated-card-editable-bg);
+  border: 1px solid var(--background-tertiary);
+  border-radius: 3px;
   grid-gap: 10px;
+  position: relative;
   --radio-bar-accent-color: var(--interactive-active);
-  border-radius: 3px;
-}
-.item_eb92a8 .radioBar_eb92a8 > div:not([class]) {
-  height: 24px;
-
-  path {
-    d: path("");
-  }
-}
-.item_eb92a8 .radioBar_eb92a8 circle {
-  display: none;
-}
-.item_eb92a8 .radioBar_eb92a8 > div:not([class*="-"]) > svg:not(.icon-NDLBMG),
-.item_eb92a8 .radioBar_eb92a8 > .radioBarIcon-EiCq-C > svg:not(.icon-NDLBMG) {
-  border: 1px solid hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
-  border-radius: 3px;
-}
-.item_eb92a8 .radioBar_eb92a8[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"] {
-  --radio-bar-accent-color: var(--status-positive) !important ;
-}
-.item_eb92a8 .radioBar_eb92a8[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"] {
-  --radio-bar-accent-color: var(--status-warning) !important ;
 }
 .item_eb92a8[aria-checked=true] .radioBar_eb92a8 {
   --radio-bar-accent-color: var(--brand-500);
   background-color: var(--radio-bar-accent-color);
   border-color: var(--radio-bar-accent-color);
 }
-.item_eb92a8[aria-checked=true] .radioBar_eb92a8 .colorHeaderSecondary-g5teka,
-.item-2idW98[aria-checked=true] .radioBar_eb92a8 .colorStandard-21JIj7 {
-  color: #fff;
+.radioBar_eb92a8[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"] {
+  --radio-bar-accent-color: var(--legacy-positive) !important ;
 }
-.item_eb92a8[aria-checked=true] path {
-  d: path("M5.85 12.45 9.7 16.3 18.5 7.5") !important;
-  stroke: var(--radio-bar-accent-color);
-  stroke-width: 2.2;
+.radioBar_eb92a8[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"] {
+  --radio-bar-accent-color: var(--legacy-warning) !important ;
 }
-.item_eb92a8[aria-checked=true] .radioBar_eb92a8 > div:not([class*="-"]) > svg:not(.icon-NDLBMG),
-.item_eb92a8[aria-checked=true] .radioBar_eb92a8 > .radioBarIcon-EiCq-C > svg:not(.icon-NDLBMG) {
+
+.radioBar_eb92a8 > div:not([class]) {
+  height: 24px;
+
+  path {
+    d: path("");
+  }
+}
+.radioBar_eb92a8 circle {
+  display: none;
+}
+[aria-checked=true] .radioBar_eb92a8:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 19px;
+  display: table;
+  width: 4px;
+  height: 10px;
+  border-radius: 0px;
+  border: 2px solid var(--radio-bar-accent-color);
+  border-top-width: 0;
+  border-left-width: 0;
+  transform: rotate(45deg);
+}
+
+.radioBar_eb92a8 > div:not([class*="-"]) > svg:not(.icon-NDLBMG),
+.radioBar_eb92a8 > .radioIndicator_eb92a8 {
+  border: 1px solid hsl(218,calc(var(--saturation-factor, 1)*4.6%),46.9%);
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+.item_eb92a8[aria-checked=true] .radioBar_eb92a8 > div:not([class*="-"]) > svg:not(.icon-NDLBMG) {
   border: 0;
   border-radius: 2px;
   margin-right: 2px;
   width: 22px;
   height: 22px;
   transform: translate(1px, 1px);
-  background-color: #fff;
+  background-color: var(--white);
 }
-.item_eb92a8[aria-checked=false] .radioBar_eb92a8 .size14-3fJ-ot {
-  color: var(--interactive-normal);
+.item_eb92a8[aria-checked=true] .radioBar_eb92a8 > .radioIndicator_eb92a8 {
+  border: 0;
+  border-radius: 2px;
+  margin: 1px;
+  width: 22px;
+  height: 22px;
+  background-color: var(--white);
 }
 .theme-dark .item_eb92a8[aria-checked=false] .radioBar_eb92a8:hover {
-  border-color: #000;
-  background: rgba(0, 0, 0, 0.2);
+  border-color: var(--black);
+  background: hsl(var(--black-500-hsl) / .2);
 }
 .theme-light .item_eb92a8[aria-checked=false] .radioBar_eb92a8:hover {
   border-color: #b9bbbe;
@@ -6008,9 +6019,13 @@ section > .root_e6f2d0 {
   border: solid 1px var(--background-tertiary) !important;
   background: var(--deprecated-card-editable-bg) !important;
 }
+
+.item_eb92a8[aria-checked=true] .radioBar_eb92a8 .colorHeaderSecondary-g5teka,
+.item-2idW98[aria-checked=true] .radioBar_eb92a8 .colorStandard-21JIj7 {
+  color: var(--white);
+}
 .item_eb92a8[aria-checked=false] .radioBar_eb92a8 [data-text-variant="text-sm/normal"] {
-  font-weight: 400;
-  color: var(--text-muted) !important;
+  color: var(--text-muted);
 }
 .info_eb92a8 [data-text-variant="text-md/medium"] {
   line-height: unset;
@@ -6020,21 +6035,23 @@ section > .root_e6f2d0 {
 .item_eb92a8[aria-checked=true] .radioBar_eb92a8 [data-text-variant="text-sm/normal"] {
   color: #fff !important;
 }
-
 .item_eb92a8[aria-checked=false] .radioBar_eb92a8[style="--radio-bar-accent-color: var(--green-360); padding: 10px;"] [data-text-variant="text-md/medium"] {
-  color: var(--status-positive) !important ;
+  color: var(--status-positive) !important;
 }
 .item_eb92a8[aria-checked=false] .radioBar_eb92a8[style="--radio-bar-accent-color: var(--yellow-360); padding: 10px;"] [data-text-variant="text-md/medium"] {
-  color: var(--status-warning) !important ;
+  color: var(--status-warning) !important;
 }
 .item_eb92a8[aria-checked=false] .radioBar_eb92a8[style="--radio-bar-accent-color: var(--red-400); padding: 10px;"] [data-text-variant="text-md/medium"] {
-  color: var(--status-danger) !important ;
+  color: var(--status-danger) !important;
 }
 
 /*On Off Toggle*/
 .container_cebd1c {
   background: #0000 !important;
+  border: 0;
+  height: 24px;
   pointer-events: none;
+  width: 40px;
 }
 .container_cebd1c .input_cebd1c {
   opacity: 1;
@@ -6067,7 +6084,7 @@ section > .root_e6f2d0 {
   height: 18px;
   top: 3px;
   left: -3px;
-  background: #fff;
+  background: var(--white);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .container_cebd1c .input_cebd1c:checked:before {
@@ -6077,7 +6094,7 @@ section > .root_e6f2d0 {
   background: var(--button-positive-background);
 }
 .container_cebd1c .input_cebd1c:checked:hover:before {
-  background: var(--brand-460);
+  background: var(--brand-530) /*non-halloween 460*/;;
 }
 .permissionsWrapper_a73849 .container_cebd1c .input_cebd1c:checked:hover:before {
   background: var(--button-positive-background-hover);
@@ -6132,7 +6149,7 @@ section > .root_e6f2d0 {
   transform: rotate(45deg);
 }
 .checkbox_f6cde8.checked_f6cde8:after {
-  border-color: #fff;
+  border-color: var(--white);
 }
 .checkbox_f6cde8 svg {
   display: none;
@@ -6146,7 +6163,7 @@ section > .root_e6f2d0 {
   transition: .2s;
 }
 .item_d90b3d[aria-checked] .iconContainer_d90b3d:before {
-  border-color: #fff;
+  border-color: var(--white);
   border-style: solid;
   border-width: 0 2px 2px 0;
   content: "";
@@ -6703,7 +6720,7 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 .connectionAccountValue_e2a436 .connectionAccountLabelContainer_e2a436 {
   font-size: 16px;
   margin-top: 4px;
-  color: #fff;
+  color: var(--white);
   font-weight: 400;
 }
 .connection_e2a436 .metadataContainer_e2a436,
@@ -6735,11 +6752,11 @@ h2.title_c46f6a, .title_a26362 {
   opacity: 0.9;
 }
 .connection_e2a436 .connectionAccountValue_e2a436 {
-  color: #fff;
+  color: var(--white);
 }
 .connection_e2a436 .subEnabledTitle-2YpsZq {
   position: relative;
-  color: #fff;
+  color: var(--white);
 }
 .connection_e2a436 .slider-32CRPX {
   display: none;
@@ -6810,7 +6827,7 @@ h2.title_c46f6a, .title_a26362 {
   left: 6px;
 }
 .connection_e2a436 .connectionDelete_e2a436 > svg path {
-  fill: #fff;
+  fill: var(--white);
   transform: scale(1.1);
 }
 .connection_e2a436 .container_cebd1c {
@@ -6825,9 +6842,96 @@ h2.title_c46f6a, .title_a26362 {
   box-shadow: none;
 }
 
-.themeTitle_a614a7 > button, .basicThemeSelectors_ + section, .selectionGroup_bde965 {
+.preview_a614a7 {
+  background: var(--background-secondary) !important;
+}
+.themeTitle_a614a7 > button, .selectionGroup_bde965 {
   display: none;
 }
+
+[role="radiogroup"]:has(>.presets_f45ea6) {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
+}
+.basicThemeSelectors_ {
+  margin-bottom: 0;
+  width: 60px;
+
+  + section {
+    margin-top: -65px;
+    margin-left: 24px;
+    overflow: hidden;
+    padding: 40px 0 25px 60px;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: 0;
+      bottom: 15px;
+      width: 0;
+      box-shadow: 0 0 20px 2px black;
+    }
+  }
+}
+
+.themeSelection_cb7c27 {
+  border-radius: var(--radius-xsa);
+  box-shadow: 0 0 0 0 var(--brand-500), 0 0 0 black;
+  position: relative;
+  transition: .2s ease;
+  z-index: 0;
+}
+.darkIcon_cb7c27, .lightIcon_cb7c27 {
+  box-shadow: 0 0 0 1px var(--interactive-muted), 0 0 0 black;
+}
+.themeSelection_cb7c27[aria-checked=true], .themeSelection_cb7c27:hover {
+  box-shadow: 0 0 0 2px var(--brand-500), 0 0 20px 0 black;
+}
+.themeSelection_cb7c27[aria-checked=true] {
+  border-radius: 0 var(--radius-xsa) var(--radius-xsa) 0;
+}
+.themeSelection_cb7c27:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: -18px;
+  background: var(--brand-500);
+  border-radius: var(--radius-xsa) 0 0 var(--radius-xsa);
+  pointer-events: none;
+  transition: .2s;
+  width: 18px;
+  z-index: -1;
+}
+.themeSelection_cb7c27:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 7px);
+  left: -12px;
+  width: 4px;
+  height: 10px;
+  border-radius: 0px;
+  border: 2px solid var(--white);
+  border-top-width: 0;
+  border-left-width: 0;
+  pointer-events: none;
+  transform: rotate(45deg);
+  transition: .2s;
+  z-index: -1;
+}
+.themeSelection_cb7c27[aria-checked=false] {
+  &:before, &:after {
+    opacity: 0;
+  }
+}
+.selectionCircle_cb7c27 {
+  display: none;
+}
+
 .slider_c7a159[aria-valuemin="12"] {
   margin-left: 26px;
   margin-right: 37px;
@@ -7935,13 +8039,13 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --bg-gradient-forest-1: hsl(var(--bg-gradient-forest-1-hsl) / 1);
     --bg-gradient-forest-1-hsl: 124 calc(var(--saturation-factor, 1) * 25.9%) 10.6%;
     --bg-gradient-forest-2: hsl(var(--bg-gradient-forest-2-hsl) / 1);
-    --bg-gradient-forest-2-hsl: 143 calc(var(--saturation-factor, 1) * 26.2%) 23.9%;
+    --bg-gradient-forest-2-hsl: 124 calc(var(--saturation-factor, 1) * 25.9%) 10.6%;
     --bg-gradient-forest-3: hsl(var(--bg-gradient-forest-3-hsl) / 1);
-    --bg-gradient-forest-3-hsl: 76 calc(var(--saturation-factor, 1) * 20.6%) 24.7%;
+    --bg-gradient-forest-3-hsl: 124 calc(var(--saturation-factor, 1) * 25.9%) 10.6%;
     --bg-gradient-forest-4: hsl(var(--bg-gradient-forest-4-hsl) / 1);
-    --bg-gradient-forest-4-hsl: 117 calc(var(--saturation-factor, 1) * 17%) 41.6%;
+    --bg-gradient-forest-4-hsl: 124 calc(var(--saturation-factor, 1) * 25.9%) 10.6%;
     --bg-gradient-forest-5: hsl(var(--bg-gradient-forest-5-hsl) / 1);
-    --bg-gradient-forest-5-hsl: 43 calc(var(--saturation-factor, 1) * 38.5%) 47.8%;
+    --bg-gradient-forest-5-hsl: 124 calc(var(--saturation-factor, 1) * 25.9%) 10.6%;
     --bg-gradient-hanami-1: hsl(var(--bg-gradient-hanami-1-hsl) / 1);
     --bg-gradient-hanami-1-hsl: 352 calc(var(--saturation-factor, 1) * 68.3%) 80.2%;
     --bg-gradient-hanami-2: hsl(var(--bg-gradient-hanami-2-hsl) / 1);
@@ -8003,7 +8107,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --bg-gradient-sunset-1: hsl(var(--bg-gradient-sunset-1-hsl) / 1);
     --bg-gradient-sunset-1-hsl: 259 calc(var(--saturation-factor, 1) * 55.6%) 35.3%;
     --bg-gradient-sunset-2: hsl(var(--bg-gradient-sunset-2-hsl) / 1);
-    --bg-gradient-sunset-2-hsl: 22 calc(var(--saturation-factor, 1) * 66.7%) 57.6%;
+    --bg-gradient-sunset-2-hsl: 259 calc(var(--saturation-factor, 1) * 55.6%) 35.3%;
     --bg-gradient-under-the-sea-1: hsl(var(--bg-gradient-under-the-sea-1-hsl) / 1);
     --bg-gradient-under-the-sea-1-hsl: 115 calc(var(--saturation-factor, 1) * 10.5%) 42.9%;
     --bg-gradient-under-the-sea-2: hsl(var(--bg-gradient-under-the-sea-2-hsl) / 1);
@@ -8448,7 +8552,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --brand-560-hsl: var(--temporary-halloween-active-hsl);
 }
 
-.theme-dark {
+.theme-dark.theme-dark {
   --action-sheet-gradient-bg: var(--primary-630);
   --activity-card-background: var(--primary-700);
   --activity-card-icon-overlay: hsl(var(--primary-600-hsl) / 0.85);
@@ -9744,6 +9848,119 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --you-bar-bg: var(--plum-19);
 }
 
+.custom-theme-background.theme-dark, .custom-theme-background .theme-dark {
+  --action-sheet-gradient-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --activity-card-background: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --activity-card-icon-overlay: color-mix(in oklab, hsl(223 calc(1 * 6.7%) 20.6% / 0.85) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.85) var(--theme-base-color-amount, 0%));
+  --alert-bg: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --android-navigation-bar-background: color-mix(in oklab, var(--primary-830) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --android-navigation-scrim-background: color-mix(in oklab, hsl(240 calc(1 * 4%) 4.9% / 0.5) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.5) var(--theme-base-color-amount, 0%));
+  --android-ripple: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.07) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.07) var(--theme-base-color-amount, 0%));
+  --autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-accent: color-mix(in oklab, var(--primary-530) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-floating: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-message-automod: color-mix(in oklab, hsl(359 calc(1 * 87.3%) 59.8% / 0.05) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.05) var(--theme-base-color-amount, 0%));
+  --background-message-automod-hover: color-mix(in oklab, hsl(359 calc(1 * 87.3%) 59.8% / 0.1) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.1) var(--theme-base-color-amount, 0%));
+  --background-mobile-primary: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-mobile-secondary: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-modifier-accent: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.48) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%));
+  --background-modifier-accent-2: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.48) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%));
+  --background-modifier-active: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.48) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%));
+  --background-modifier-hover: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.3) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%));
+  --background-modifier-selected: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.6) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.6) var(--theme-base-color-amount, 0%));
+  --background-nested-floating: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-primary: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-secondary: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-secondary-alt: color-mix(in oklab, var(--primary-660) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --background-tertiary: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-backdrop: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.7) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.7) var(--theme-base-color-amount, 0%));
+  --bg-backdrop-no-opacity: color-mix(in oklab, var(--black) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-base-primary: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-base-secondary: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-base-tertiary: color-mix(in oklab, var(--primary-660) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-mod-faint: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.3) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%));
+  --bg-mod-strong: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.54) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.54) var(--theme-base-color-amount, 0%));
+  --bg-mod-subtle: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.48) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%));
+  --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-surface-overlay-tmp: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --bg-surface-raised: color-mix(in oklab, var(--primary-560) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --blur-fallback: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.96) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.96) var(--theme-base-color-amount, 0%));
+  --blur-fallback-pressed: color-mix(in oklab, hsl(225 calc(1 * 7.1%) 11% / 0.96) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.96) var(--theme-base-color-amount, 0%));
+  --border-faint: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.03) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.03) var(--theme-base-color-amount, 0%));
+  --border-strong: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.16) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.16) var(--theme-base-color-amount, 0%));
+  --border-subtle: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.08) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.08) var(--theme-base-color-amount, 0%));
+  --bug-reporter-modal-submitting-background: color-mix(in oklab, hsl(220 calc(1 * 8.1%) 7.3% / 0.6) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.6) var(--theme-base-color-amount, 0%));
+  --card-gradient-bg: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.4) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.4) var(--theme-base-color-amount, 0%));
+  --card-gradient-pressed-bg: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.5) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.5) var(--theme-base-color-amount, 0%));
+  --card-primary-bg: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --card-primary-pressed-bg: color-mix(in oklab, var(--primary-645) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --card-secondary-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --card-secondary-pressed-bg: color-mix(in oklab, var(--primary-645) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --channel-icon: color-mix(in oklab, var(--primary-400) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+  --channel-text-area-placeholder: color-mix(in oklab, var(--primary-430) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+  --channels-default: color-mix(in oklab, var(--primary-360) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+  --channeltextarea-background: color-mix(in oklab, var(--primary-560) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --chat-background: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --chat-banner-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --chat-border: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --chat-input-container-background: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --chat-swipe-to-reply-background: color-mix(in oklab, var(--primary-660) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --chat-swipe-to-reply-gradient-background: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.1) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.1) var(--theme-base-color-amount, 0%));
+  --coachmark-bg: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --custom-status-bubble-bg: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --deprecated-card-bg: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.6) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.6) var(--theme-base-color-amount, 0%));
+  --deprecated-card-editable-bg: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.3) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%));
+  --deprecated-quickswitcher-input-background: color-mix(in oklab, var(--primary-400) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --deprecated-quickswitcher-input-placeholder: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.3) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%));
+  --deprecated-store-bg: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --deprecated-text-input-bg: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --deprecated-text-input-border: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.3) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.3) var(--theme-base-color-amount, 0%));
+  --deprecated-text-input-border-disabled: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --deprecated-text-input-border-hover: color-mix(in oklab, var(--primary-900) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --deprecated-text-input-prefix: color-mix(in oklab, var(--primary-200) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --display-banner-overflow-background: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.5) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.5) var(--theme-base-color-amount, 0%));
+  --divider-strong: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.16) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.16) var(--theme-base-color-amount, 0%));
+  --divider-subtle: color-mix(in oklab, hsl(0 calc(1 * 0%) 100% / 0.08) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.08) var(--theme-base-color-amount, 0%));
+  --embed-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --embed-background-alternate: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --embed-title: color-mix(in oklab, var(--primary-130) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+  --expression-picker-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --focus-primary: color-mix(in oklab, var(--blue-345) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --forum-post-extra-media-count-container-background: color-mix(in oklab, hsl(228 calc(1 * 6.7%) 14.7% / 0.8) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.8) var(--theme-base-color-amount, 0%));
+  --forum-post-tag-background: color-mix(in oklab, hsl(228 calc(1 * 6.7%) 14.7% / 0.9) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.9) var(--theme-base-color-amount, 0%));
+  --guild-icon-inactive-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --guild-icon-inactive-nested-bg: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --guild-notifications-bottom-sheet-pill-background: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --home-background: color-mix(in oklab, var(--primary-645) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --home-card-resting-border: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0) var(--theme-base-color-amount, 0%));
+  --info-box-background: color-mix(in oklab, hsl(200 calc(1 * 100%) 49.4% / 0.1) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.1) var(--theme-base-color-amount, 0%));
+  --input-background: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --input-border: color-mix(in oklab, hsl(229 calc(1 * 6.9%) 45.5% / 0.32) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.32) var(--theme-base-color-amount, 0%));
+  --input-placeholder-text: color-mix(in oklab, var(--input-placeholder-text-dark) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+  --legacy-android-blur-overlay-default: color-mix(in oklab, hsl(228 calc(1 * 6.7%) 14.7% / 0.5) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.5) var(--theme-base-color-amount, 0%));
+  --legacy-android-blur-overlay-ultra-thin: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.025) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.025) var(--theme-base-color-amount, 0%));
+  --legacy-blur-fallback-default: color-mix(in oklab, hsl(228 calc(1 * 6.7%) 14.7% / 0.975) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.975) var(--theme-base-color-amount, 0%));
+  --legacy-blur-fallback-ultra-thin: color-mix(in oklab, hsl(0 calc(1 * 0%) 0% / 0.95) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.95) var(--theme-base-color-amount, 0%));
+  --live-stage-tile-border: color-mix(in oklab, hsl(228 calc(1 * 6%) 32.5% / 0.6) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.6) var(--theme-base-color-amount, 0%));
+  --logo-primary: color-mix(in oklab, var(--white) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --modal-background: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --navigator-header-tint: color-mix(in oklab, var(--white) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --panel-bg: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --spoiler-hidden-background: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --spoiler-revealed-background: color-mix(in oklab, var(--primary-660) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --stage-card-pill-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --textbox-markdown-syntax: color-mix(in oklab, var(--primary-360) 100%, var(--theme-text-color, black) var(--theme-text-color-amount, 0%));
+  --theme-locked-blur-fallback: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.96) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.96) var(--theme-base-color-amount, 0%));
+  --thread-channel-spine: color-mix(in oklab, var(--primary-500) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --toast-bg: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --typing-indicator-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --user-profile-header-overflow-background: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.5) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.5) var(--theme-base-color-amount, 0%));
+  --voice-video-video-tile-background: color-mix(in oklab, hsl(233 calc(1 * 9.3%) 19% / 0.4) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.4) var(--theme-base-color-amount, 0%));
+  --voice-video-video-tile-blur-fallback: color-mix(in oklab, hsl(225 calc(1 * 6.3%) 12.5% / 0.48) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.48) var(--theme-base-color-amount, 0%));
+  --you-bar-bg: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+}
+
 .theme-dark {
     --shadow-border: 0 0 0 1px hsla(0, 0%, 100%, 0.08);
     --shadow-border-filter: drop-shadow(0 0 1px hsla(0, 0%, 100%, 0.08));
@@ -9838,11 +10055,11 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 .theme-dark {
-  --guild-bg: var(--primary-700);
-  --guild-separator: var(--primary-630);
-  --guild-folderBg: var(--primary-630);
-  --guild-folderBgActive: var(--primary-600);
-  --guild-iconBg: var(--primary-630);
+  --guild-bg: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --guild-separator: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --guild-folderBg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --guild-folderBgActive: color-mix(in oklab, var(--primary-600) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
+  --guild-iconBg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
   --guild-iconBgActive: var(--brand-500);
   --guild-iconColor: var(--white);
 }

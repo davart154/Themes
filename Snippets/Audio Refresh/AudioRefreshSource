@@ -39,13 +39,16 @@
     margin-left: 40px;
     margin-right: 12px;
     .mediaBarWrapper_d12f5a {
+      box-shadow: unset;
       margin-top: 3px;
       height: 3px;
     }
   }
   .durationTimeWrapper_f72aac {
+    margin-left: -4px;
     margin-top: -30px;
     order: 1;
+    transition: .2s;
     span {
       font-family: var(--font-primary);
     }
@@ -103,4 +106,7 @@
 }
 .mediaBarProgress_d12f5a, .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
   transition: background-color .2s;
+}
+.theme-light .wrapperAudio_f72aac:not(:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"])) .durationTimeWrapper_f72aac {
+  color: #000;
 }

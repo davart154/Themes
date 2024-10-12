@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.0 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.1 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -10308,6 +10308,9 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 .userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");'],[src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
   --userPopout-play: var(--youtube);
 }
+.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");']) :is(.imagePosition_fa854f, .heading-sm\/semibold_dc00ef) {
+  display: none;
+}
 .userPopoutOuter_c69a7b:has([src*="/app-icons/832025144389533716/6fe6e3dda7657b83758693205a833aa1.webp"]) {
   --userPopout-play: var(--blazing8s);
 }
@@ -10943,3 +10946,4 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --font-display: var(--font-primary);
   --font-code: Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
+

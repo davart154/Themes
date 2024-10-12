@@ -1,0 +1,105 @@
+.wrapperAudio_f72aac.wrapperAudio_f72aac {
+  border: 0;
+  border-radius: 32px;
+  background-color: var(--background-secondary);
+  height: 56px !important;
+  padding: 12px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: 12px;
+    width: 32px;
+    height: 32px;
+    transition: .2s;
+    background: var(--brand-500);
+    border-radius: 32px;
+  }
+
+  >* {
+    z-index: 1;
+  }
+  .videoButton_f72aac {
+    background-color: var(--brand-500);
+    border-radius: var(--radius-round);
+    position: absolute;
+    top: -30px;
+    transition: .2s;
+  }
+  .flex_ec1a20 {
+    background-color: var(--brand-500);
+    border-radius: var(--radius-round);
+    margin-left: 4px;
+    margin-top: -34px;
+    order: 2;
+    transition: .2s;
+  }
+  .horizontal_d12f5a {
+    margin-left: 40px;
+    margin-right: 12px;
+    .mediaBarWrapper_d12f5a {
+      margin-top: 3px;
+      height: 3px;
+    }
+  }
+  .durationTimeWrapper_f72aac {
+    margin-top: -30px;
+    order: 1;
+    span {
+      font-family: var(--font-primary);
+    }
+  }
+}
+.wrapperAudio_f72aac:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) {
+  &:before {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .metadataDownload_f72aac {
+    color: var(--white);
+  }
+  .metadataSize_f72aac {
+    color: hsl(var(--white-500-hsl) / .8);
+  }
+  .videoButton_f72aac, .flex_ec1a20 {
+    background-color: var(--white);
+  }
+  .controlIcon_f72aac {
+    color: var(--brand-500);
+  }
+  .mediaBarProgress_d12f5a, .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
+    background-color: var(--white);
+  }
+  .mediaBarGrabber_d12f5a {
+    background-color: var(--white);
+  }
+}
+.wrapperAudio_f72aac + .hoverButtonGroup_d0395d {
+  right: unset;
+  left: calc(100% - 12px);
+}
+
+.audioMetadata_f72aac {
+  margin-left: 36px;
+  margin-top: -4px;
+  &:before {
+    display: none;
+  }
+}
+.metadataDownload_f72aac, .metadataSize_f72aac, .controlIcon_f72aac {
+  transition: .2s;
+}
+
+.audioControls_f72aac {
+  background: unset;
+  margin-top: 0;
+  margin-bottom: -4px;
+}
+.controlIcon_f72aac {
+  opacity: .8;
+}
+.mediaBarProgress_d12f5a, .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
+  transition: background-color .2s;
+}

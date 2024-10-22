@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.1 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.2 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -5013,6 +5013,7 @@ svg+.botText_a9e77f:before {
 
 .mask_d5fdb1 {
   position: absolute;
+  pointer-events: none;
   top: 0;
   z-index: 1;
   min-height: var(--custom-user-banner-banner-height-popout) !important;
@@ -5039,7 +5040,7 @@ svg+.botText_a9e77f:before {
 .statusPopover_a64b81 {
   display: none;
 }
-.statusBubbleOuter_d0a252, .statusBubbleOuter_e6ac4a {
+.statusBubbleOuter_d0a252, .statusBubbleOuter_d22603 {
   position: fixed;
   left: 30px;
   right: -30px;
@@ -5051,21 +5052,21 @@ svg+.botText_a9e77f:before {
   border-radius: var(--radius-xsa) /*xsa or md*/;
   box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
 }
-.fullSizeOuter_c69a7b :is(.statusBubbleOuter_d0a252, .statusBubbleOuter_e6ac4a) {
+.fullSizeOuter_c69a7b :is(.statusBubbleOuter_d0a252, .statusBubbleOuter_d22603) {
   left: -24px;
   right: calc(50% + 24px);
 }
 .statusBubbleOuter_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after,
-.statusBubbleOuter_e6ac4a, .statusBubbleOuter_e6ac4a:before, .statusBubbleOuter_e6ac4a:after {
+.statusBubbleOuter_d22603, .statusBubbleOuter_d22603:before, .statusBubbleOuter_d22603:after {
   border: 1px solid rgb(32 34 37 / 60%) !important;
 }
-.statusBubbleOuter_d0a252:before, .statusBubbleOuter_e6ac4a:before {
+.statusBubbleOuter_d0a252:before, .statusBubbleOuter_d22603:before {
   top: unset;
   bottom: -11px;
   left: 30px;
   -webkit-mask: linear-gradient(#0000 9px, #000 0);
 }
-.statusBubbleOuter_d0a252:after, .statusBubbleOuter_e6ac4a:after {
+.statusBubbleOuter_d0a252:after, .statusBubbleOuter_d22603:after {
   top: unset;
   bottom: -24px;
   left: 45px;
@@ -5807,6 +5808,7 @@ section > .root_e6f2d0 {
   height: 90px;
   justify-content: center;
   padding: 20px 20px 20px 130px;
+  z-index: 1;
 }
 .body_b9fccc .usernameRow_c32acf {
   justify-content: unset;
@@ -5932,6 +5934,181 @@ section > .root_e6f2d0 {
   bottom: -2px;
   border: 2px solid var(--background-secondary);
   transition: background .2s ease, width .2s ease, right .2s ease;
+}
+
+/*GameModal*/
+.gameProfileModal_e881fc {
+  background-color: var(--background-tertiary);
+  min-height: 412px;
+  padding-left: 221px;
+  position: relative;
+
+  >.scrollerBase_c49869 {
+    background-color: var(--background-secondary);
+    display: flex;
+    flex-direction: column;
+    overflow: visible !important;
+    width: 100%;
+  }
+}
+.headerInfo_e881fc {
+  position: unset;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.coverArtRow_e881fc {
+  display: none;
+}
+.gameArtHero_e881fc {
+  height: 310px;
+  width: auto;
+  background-position: center;
+  -webkit-mask: linear-gradient(#0003, transparent);
+  mask: linear-gradient(#0003, transparent);
+}
+.gameDetails_e881fc {
+  position: absolute;
+  top: 122px;
+  left: -221px;
+  width: 221px;
+  justify-content: stretch;
+  flex-direction: column;
+  
+  > div {
+    flex: 1;
+  }
+  .defaultColor_e42ec6 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 8px;
+    padding: 0 20px;
+  }
+  .row_e881fc {
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+
+    >[data-text-variant] {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+    }
+  }
+}
+.gameIcon_e881fc {
+  position: absolute;
+  top: -82px;
+  left: 80px;
+  width: 60px;
+  height: 60px;
+}
+.mainContent_e881fc {
+  grid-template-columns: 1fr 2fr;
+  margin: auto;
+  padding: 32px;
+  position: relative;
+}
+.sidebar_e881fc {
+  border-left: 0;
+  border-right: 1px solid var(--border-subtle);
+  justify-content: center;
+  order: -1;
+  padding-left: 0;
+  padding-right: calc(2*var(--custom-spacing));
+}
+.sidebar_e881fc>h2{
+  display: none;
+}
+.sectionHeader_e881fc {
+  color: var(--interactive-normal) !important;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.sections_e881fc {
+  gap: 16px;
+  justify-content: center;
+  >div {
+    position: relative;
+  }
+}
+.sectionHeader_e881fc {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--interactive-normal) !important;
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: "";
+    margin-left: 8px;
+    background: var(--background-modifier-accent);
+    flex: 1;
+    height: 1px;
+    display: block;
+  }
+}
+.friends_d8cab0 {
+  border-radius: 0;
+  background: none;
+  overflow: scroll hidden;
+  mask: unset !important;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(32 34 37 / .6);
+    border-radius: 2px;
+    cursor: move;
+  }
+}
+.friends_d8cab0.emptyState_d8cab0 {
+  padding: 0;
+  height: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--text-muted) !important;
+  align-content: center;
+}
+.friends_d8cab0 .column_e881fc {
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.friends_d8cab0 .profileEntryCard_f1257c {
+  padding: 0;
+  border: none;
+  gap: 0;
+}
+.friends_d8cab0 .avatar_f1257c {
+  width: 30px;
+  height: 30px;
+}
+.friends_d8cab0 .playerInfo_f1257c, .friends_d8cab0 .reactions_f1257c {
+  display: none;
+}
+.expandEntriesButton_d8cab0 {
+  position: absolute;
+  bottom: 12px;
+  right: 0;
+  background-color: var(--button-secondary-background);
+  border-radius: var(--radius-round);
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin: 0;
+  width: 30px;
+  rotate: -90deg;
+
+  >[data-text-variant] {
+    display: none;
+  }
 }
 
 /*RadioBar*/
@@ -7793,7 +7970,7 @@ svg {
   }
 }
 /*Twitter*/[d^="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.22l7.64 11.12L2.22 22h1.72l6.68-7.77L15.96 22h5.82l-7.92-11.53Zm-2.36 2.75-.78-1.11L4.57 3.3h2.65l4.97 7.11.77 1.1 6.46 9.25h-2.65l-5.27-7.54Z"] {
-  d: path("M0 21.2308 1.425 21.2308C4.0969 21.2308 6.7688 20.3077 8.7281 18.6462 6.2344 18.6462 4.0969 16.8 3.2063 14.4 3.5625 14.4 3.9187 14.5846 4.275 14.5846 4.8094 14.5846 5.3438 14.5846 5.8781 14.4 3.2063 13.8462 1.0687 11.4462 1.0687 8.4923 1.7813 8.8615 2.6719 9.2308 3.7406 9.2308 2.1375 8.1231 1.2469 6.2769 1.2469 4.0615 1.2469 2.9538 1.6031 1.8462 1.9594.9231 4.8094 4.6154 9.0844 7.0154 14.0719 7.2 13.8937 7.0154 13.8937 6.4615 13.8937 6.0923 13.8937 2.7692 16.5656 0 19.7719 0 21.375 0 22.9781.7385 24.0469 1.8462 25.2938 1.6615 26.7188 1.1077 27.7875.3692 27.4313 1.8462 26.3625 2.9538 25.2938 3.6923 26.3625 3.6923 27.4313 3.3231 28.5 2.7692 27.7875 4.0615 26.7188 4.9846 25.65 5.9077L25.65 6.6462C25.65 14.7692 19.7719 24 8.9063 24 5.5219 24 2.4938 23.0769 0 21.2308Z");
+  d: path("M-2 21.2308-.575 21.2308C2.0969 21.2308 4.7688 20.3077 6.7281 18.6462 4.2344 18.6462 2.0969 16.8 1.2063 14.4 1.5625 14.4 1.9187 14.5846 2.275 14.5846 2.8094 14.5846 3.3438 14.5846 3.8781 14.4 1.2063 13.8462-.9313 11.4462-.9313 8.4923-.2187 8.8615.6719 9.2308 1.7406 9.2308.1375 8.1231-.7531 6.2769-.7531 4.0615-.7531 2.9538-.3969 1.8462-.0406.9231 2.8094 4.6154 7.0844 7.0154 12.0719 7.2 11.8937 7.0154 11.8937 6.4615 11.8937 6.0923 11.8937 2.7692 14.5656 0 17.7719 0 19.375 0 20.9781.7385 22.0469 1.8462 23.2938 1.6615 24.7188 1.1077 25.7875.3692 25.4313 1.8462 24.3625 2.9538 23.2938 3.6923 24.3625 3.6923 25.4313 3.3231 26.5 2.7692 25.7875 4.0615 24.7188 4.9846 23.65 5.9077L23.65 6.6462C23.65 14.7692 17.7719 24 6.9063 24 3.5219 24 .4938 23.0769-2 21.2308Z");
 }
 /*Message Option*/.button_f7e168 [d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"] {
   d: path("M12 16C13.1046 16 14 16.8954 14 18C14 19.1046 13.1046 20 12 20C10.8954 20 10 19.1046 10 18C10 16.8954 10.8954 16 12 16ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10ZM12 4C13.1046 4 14 4.89543 14 6C14 7.10457 13.1046 8 12 8C10.8954 8 10 7.10457 10 6C10 4.89543 10.8954 4 12 4Z");
@@ -10946,4 +11123,3 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --font-display: var(--font-primary);
   --font-code: Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
-

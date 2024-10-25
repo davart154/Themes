@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.5 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.6 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -3766,6 +3766,35 @@ button.button_adca65.button_adca65 {
   border-color: rgb(47 49 54 / .6);
 }
 
+.column_e881fc:has(> .row_e881fc .guildIcon_c2c033) {
+  padding-top: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .sectionHeader_e881fc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  button {
+    background-color: var(--button-positive-background);
+    height: var(--custom-button-button-sm-height);
+    min-width: var(--custom-button-button-sm-width);
+    min-height: var(--custom-button-button-sm-height);
+
+    &:hover {
+      background-color: var(--button-positive-background-hover);
+    }
+    &:active {
+      background-color: var(--button-positive-background-active);
+    }
+  }
+}
+.inviteInfo_c2c033 {
+  margin: 0;
+}
+
 .header_a1531c {
   grid-template-columns: 1fr 16px;
 }
@@ -5982,7 +6011,7 @@ section > .root_e6f2d0 {
   height: 60px;
 }
 .mainContent_e881fc {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   margin: auto;
   padding: 32px;
   position: relative;

@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.6 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.7 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -619,6 +619,86 @@
 }
 .menuDivider_ad5fac {
   display: none;
+}
+
+/*Carousel*/
+.layer_c9e2da:has(.carouselModal_c319f9) {
+  padding: 0;
+}
+.carouselModal_c319f9 {
+  align-items: start;
+  justify-content: center;
+  width: fit-content;
+  z-index: 0;
+}
+.carouselModal_c319f9[style*="(1)"] {
+  transform: unset !important;
+}
+
+.topBar_bf8df0 {
+  z-index: -1;
+}
+.topBar_bf8df0 button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: unset;
+}
+.messageContents_bf8df0 {
+  display: none;
+}
+
+.wrapper_a24281 {
+  flex-grow: unset;
+  pointer-events: none;
+}
+.mediaWrapper_a24281 {
+  position: unset;
+  width: fit-content;
+}
+.imageWrapper_d4597d {
+  pointer-events: all;
+}
+
+.actionButtonContainer_c319f9 {
+  margin: 0;
+  pointer-events: none;
+}
+.actionButtons_dda074 {
+  background-color: transparent;
+  border-radius: 0;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+}
+.actionButtons_dda074 button {
+  background: transparent !important;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  pointer-events: all;
+
+  svg {
+    display: none;
+  }
+  &:after {
+    content: attr(aria-label);
+    color: var(--white-500) !important;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    transition: opacity .15s ease;
+    opacity: .5;
+  }
+  &:hover:after {
+    opacity: 1;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
 }
 
 /*Badge*/

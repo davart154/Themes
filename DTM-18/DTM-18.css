@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.7 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.8 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -1022,13 +1022,14 @@ body {
 .addFriendInput_de812f {
   padding: 0;
 }
-.inputText_de812f.inputText_de812f {
-  background: transparent;
+.inputText_de812f.inputText_de812f.inputText_de812f {
+  background: transparent !important;
   border: 0;
   border-radius: 0;
   font-size: 14px;
   font-weight: 300;
   line-height: 52px;
+  padding: 0;
 }
 
 .sectionTitle_e0840f {
@@ -6662,6 +6663,12 @@ h2.title_c46f6a, .title_a26362 {
 }
 .description_b89ec7 {
   font-weight: 500;
+}
+.error_b89ec7 {
+  color: var(--text-danger);
+}
+.success_b89ec7 {
+  color: var(--text-positive);
 }
 
 .accountProfileCard_b69b77 {

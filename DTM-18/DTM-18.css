@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.3 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.4 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -5059,27 +5059,28 @@ svg+.botText_a9e77f:before {
   top: 8px;
   left: 8px;
   background: var(--redesign-button-secondary-overlay-background);
-  min-width: 24px;
-  height: 24px;
-  padding-top: 0 !important;
-  gap: 1px;
   border-radius: var(--radius-round);
+  gap: 1px;
+  height: 24px;
+  min-width: 24px;
+  padding-top: 0 !important;
   overflow: hidden;
+  z-index: 1;
 }
 .nicknameIcons_c32acf > div {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
-  position: relative;
   min-width: 24px;
+  position: relative;
 }
 .nicknameIcons_c32acf > div:not(:first-child):before {
   content: "";
   position: absolute;
   left: -1px;
+  background: hsl(var(--white-500-hsl) / .6);
   height: 18px;
   width: 1px;
-  background: hsl(var(--white-500-hsl) / .6);
   pointer-events: none;
 }
 .nicknameIcons_c32acf button {

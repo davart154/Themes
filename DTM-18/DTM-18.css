@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.4 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.5 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -223,11 +223,6 @@
   width: auto;
   height: auto;
   padding: 4px;
-}
-
-.contents_dd4f85 {
-  display: flex;
-  justify-content: center;
 }
 
 /*Context Menus*/
@@ -5141,6 +5136,7 @@ svg+.botText_a9e77f:before {
 }
 
 .footer_b8cc6d > button {
+
   position: absolute;
   top: 8px;
   right: 8px;
@@ -5155,6 +5151,7 @@ svg+.botText_a9e77f:before {
   line-height: 0;
   opacity: 1 !important;
   overflow: hidden;
+  z-index: 1;
 
   &:before {
     content: "";
@@ -6250,8 +6247,8 @@ section > .root_e6f2d0 {
 .permissionsWrapper_a73849 .container_cebd1c .input_cebd1c:checked:before {
   background: var(--button-positive-background);
 }
-.container_cebd1c .input_cebd1c:checked:hover:before {
-  background: var(--brand-530) /*non-halloween 460*/;;
+.container_cebd1c .input_cebd1c:checked:is(:hover,:active):before {
+  background: var(--brand-530) /*non-halloween 460*/;
 }
 .permissionsWrapper_a73849 .container_cebd1c .input_cebd1c:checked:hover:before {
   background: var(--button-positive-background-hover);
@@ -6267,9 +6264,6 @@ section > .root_e6f2d0 {
 }
 .container_cebd1c .input_cebd1c:active:after {
   width: 26px;
-}
-.container_cebd1c .input_cebd1c:checked:active:before {
-  background: #6a7dc1;
 }
 .container_cebd1c .input_cebd1c:checked:active:after {
   left: -11px;

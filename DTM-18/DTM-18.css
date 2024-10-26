@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.12 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.13 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -6069,8 +6069,8 @@ section > .root_e6f2d0 {
     text-transform: uppercase;
     transition: color .1s ease-out;
     +svg {
-      height: 18px;
-      width: 18px;
+      height: 12px;
+      width: 12px;
       path {
         fill: currentColor !important;
       }
@@ -6082,10 +6082,51 @@ section > .root_e6f2d0 {
 }
 .list_a8795b {
   margin-top: 4px;
-  margin-left: -4px;
+  margin-left: -8px;
+
+  .listAvatar_d2d6cb {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .guildNick_c5a773 {
+    margin-top: -4px;
+  }
+}
+.section_d8eba3:last-child .list_a8795b {
+  margin-bottom: 20px;
 }
 .divider_e3d8a6 {
-  margin: 0 10px;
+  margin: 0;
+}
+.footer_a823cd {
+  background: var(--background-secondary);
+  border: 0;
+  padding: 10px;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    height: 20px;
+    background: linear-gradient(transparent, var(--background-secondary));
+  }
+  >button {
+    color: var(--text-muted);
+    font-size: 12px;
+    letter-spacing: .05rem;
+    height: fit-content;
+    margin: auto;
+    min-height: unset;
+    min-width: unset;
+    text-transform: uppercase;
+    width: fit-content;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 /*GameModal*/

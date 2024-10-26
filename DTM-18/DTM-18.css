@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.15 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.16 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -2560,12 +2560,12 @@ button.button_adca65.button_adca65 {
   font-weight: inherit;
 }
 
-.searchBar_a46bef .icon_a46bef.icon_a46bef {
+.iconLayout_effbe2.iconLayout_effbe2, .iconLayout_c18ec9.iconLayout_c18ec9 {
   margin: 4px 5px;
   height: unset;
   width: 18px;
 }
-.iconContainer_effbe2 {
+.iconContainer_effbe2.iconContainer_effbe2, .iconContainer_c18ec9.iconContainer_c18ec9 {
   height: 18px;
   width: 18px;
 }
@@ -2575,16 +2575,16 @@ button.button_adca65.button_adca65 {
 .theme-light .icon_effbe2 {
   color: #4F545C !important;
 }
-.icon_effbe2.visible_effbe2 {
+.icon_effbe2.visible_effbe2, .icon_c18ec9.visible_c18ec9 {
   opacity: .3;
 }
-.clear_effbe2 .icon_effbe2:hover {
+.clear_effbe2 .icon_effbe2:hover, .clear_c18ec9:hover {
   opacity: .6;
 }
-.theme-light .icon_effbe2.visible_effbe2 {
+.theme-light .icon_effbe2.visible_effbe2, .theme-light .icon_c18ec9.visible_c18ec9 {
   opacity: .6;
 }
-.theme-light .clear_effbe2 .icon_effbe2:hover {
+.theme-light .clear_effbe2 .icon_effbe2:hover, .theme-light .clear_c18ec9:hover {
   opacity: 1;
 }
 
@@ -4685,6 +4685,116 @@ button.button_adca65.button_adca65 {
     background-image: var(--colorblind-offline);
     transform: rotate(45deg);
   }
+}
+
+/*ExpressionPicker*/
+.expressionPickerPositionLayer_bdf0de {
+  left: 330px;
+}
+.positionContainer_af5dbb {
+  height: 325px;
+}
+.drawerSizingWrapper_af5dbb {
+  width: 346px !important;
+  &:has(#gif-picker-tab-panel) {
+    width: 100% !important;
+  }
+}
+.resizeHandle_af5dbb {
+  display: none;
+}
+.contentWrapper_af5dbb {
+  background-color: var(--background-primary);
+  border: 1px solid hsl(0 0% 74.9% / .2);
+  border-radius: var(--radius-xsa);
+  box-shadow: 0 0 6px 0 hsl(var(--black-500-hsl) / .1);
+  display: flex;
+  padding: 0;
+}
+.nav_af5dbb {
+  display: none;
+}
+.wrapper_c6ee36, .wrapper_d8cdac {
+  width: 100%;
+}
+
+.header_c6ee36.header_c6ee36, .header_d8cdac, .header_b56bbc {
+  border-bottom: 1px solid hsl(var(--white-500-hsl) / .1);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 12px;
+}
+.theme-light :is(.header_c6ee36.header_c6ee36, .header_d8cdac, .header_b56bbc) {
+  border-color: hsl(var(--black-500-hsl) / .1);
+}
+.searchBar_c6ee36, .container_effbe2, .searchBar_b56bbc {
+  background-color: hsl(var(--white-500-hsl) / .1);
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 2px;
+}
+.theme-light :is(.searchBar_c6ee36, .container_effbe2, .searchBar_b56bbc) {
+  background-color: rgba(199,209,216,.3);
+}
+.inner_effbe2, .inner_c18ec9 {
+  overflow: unset !important;
+  padding: 0;
+}
+.input_effbe2.input_effbe2, .input_c18ec9.input_c18ec9 {
+  font-size: 14px;
+  font-weight: 500;
+  height: 26px;
+  line-height: 15px;
+  margin: 0;
+  min-width: 50px !important;
+  padding: 5px 7px;
+}
+
+.categoryList_c6ee36.categoryList_c6ee36, .categoryList_a7a485.categoryList_a7a485 {
+  top: 55px;
+  background: var(--background-primary);
+  border-radius: 0;
+
+  .listItems_d53d65 {
+    left: 0 !important;
+    right: 0 !important;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    bottom: 12px;
+    right: 0;
+    background-color: hsl(var(--white-500-hsl) / .1);
+    pointer-events: none;
+    width: 1px;
+  }
+}
+.theme-light :is(.categoryList_c6ee36.categoryList_c6ee36, .categoryList_a7a485.categoryList_a7a485):before {
+    background-color: hsl(var(--black-500-hsl) / .1);
+}
+.categoryItemDefaultCategory_dfa278, .categoryItemGuildCategory_dfa278, .stickerCategory_a7a485 {
+  align-items: center;
+  background-color: transparent !important;
+  border-left: 3px solid transparent;
+  border-radius: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  padding: 0;
+  transition: border-color .1s ease-in-out;
+  width: 100%;
+}
+.categoryItemDefaultCategorySelected_dfa278, :is(.categoryItemGuildCategory_dfa278, .stickerCategory_a7a485):has([mask*="squircle"]), .stickerCategoryGenericSelected_a7a485 {
+  border-color: var(--brand-500);
+}
+
+.wrapper_e06857 {
+  background-color: transparent;
+}
+.unicodeShortcut_dfa278, .standardStickerShortcut_a7a485, .inspector_c3120f {
+  display: none;
 }
 
 /*Memberlist*/

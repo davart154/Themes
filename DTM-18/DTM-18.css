@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.13 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.14 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -698,6 +698,53 @@
     opacity: 1;
     -webkit-text-decoration: underline;
     text-decoration: underline;
+  }
+}
+
+/*PopoutContainer*/
+.popoutContainer_cf58b5 {
+  background-color: var(--background-secondary);
+  border-radius: 5px;
+  box-shadow: var(--legacy-elevation-high), var(--legacy-elevation-border);
+  position: relative;
+  overflow: visible;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: var(--background-secondary);
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+  }
+}
+.animatorRight_f88ae3 .popoutContainer_cf58b5 {
+  margin-left: 4px;
+  &:before {
+    top: 50%;
+    margin-top: -6px;
+    right: -6px;
+  }
+}
+.animatorRight_f88ae3 .popoutContainer_cf58b5 {
+  margin-right: 4px;
+  &:before {
+   top: 50%;
+   margin-top: -6px;
+   left: -6px;
+  }
+}
+
+.emojiSection_e58351 {
+  padding: 8px 12px;
+  .overflow_a82120 {
+    font-weight: 500;
+  }
+  [data-text-variant="text-sm/normal"] {
+    color: var(--text-muted);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 2px;
   }
 }
 
@@ -3313,6 +3360,7 @@ button.button_adca65.button_adca65 {
     bottom: 0;
     content: "";
     background-color: var(--background-mentioned);
+    /*background-image: linear-gradient(270deg,rgba(255,0,0,.2),rgba(255,255,0,.2),rgba(0,255,0,.2),rgba(0,0,255,.2));*/
     border-radius: 0 3px 3px 0;
     z-index: -1;
   }
@@ -5229,7 +5277,6 @@ svg+.botText_a9e77f:before {
 }
 
 .footer_b8cc6d > button {
-
   position: absolute;
   top: 8px;
   right: 8px;
@@ -5562,10 +5609,10 @@ svg+.botText_a9e77f:before {
 .contentImage_fa854f {
   flex-shrink: 0;
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) svg.contentImage_fa854f {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) svg.contentImage_fa854f {
   display: none;
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) .details_ae1fa2 [data-text-variant="text-xs/normal"] > .overflow_a82120 {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) .details_ae1fa2 [data-text-variant="text-xs/normal"] > .overflow_a82120 {
     overflow: visible;
     text-wrap: wrap;
 }
@@ -6015,6 +6062,9 @@ section > .root_e6f2d0 {
   .nicknameIcons_c32acf {
     top: -112px;
   }
+  .avatar_f94206 + div {
+    display: none;
+  }
 }
 .userPanelInner_c69a7b {
   border-radius: 0;
@@ -6085,9 +6135,13 @@ section > .root_e6f2d0 {
   margin-left: -8px;
 
   .listAvatar_d2d6cb {
-    width: 30px;
-    height: 30px;
+    width: 30px !important;
+    height: 30px !important;
     border-radius: 5px;
+    foreignObject {
+      width: 30px;
+      height: 30px;
+    }
   }
   .guildNick_c5a773 {
     margin-top: -4px;
@@ -6100,7 +6154,7 @@ section > .root_e6f2d0 {
   margin: 0;
 }
 .footer_a823cd {
-  background: var(--background-secondary);
+  background: var(--userPopout-play);
   border: 0;
   padding: 10px;
   position: relative;
@@ -6111,7 +6165,7 @@ section > .root_e6f2d0 {
     right: 0;
     bottom: 100%;
     height: 20px;
-    background: linear-gradient(transparent, var(--background-secondary));
+    background: linear-gradient(transparent, var(--userPopout-play));
   }
   >button {
     color: var(--text-muted);
@@ -10710,127 +10764,127 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-badge-dtm18: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23fff' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
 }
 
-.userPopoutOuter_c69a7b:has(.assetsHangStatus_c1d9fd) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has(.assetsHangStatus_c1d9fd) {
   --userPopout-play: var(--status-positive);
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
   --userPopout-play: var(--spotify);
 }
-.userPopoutOuter_c69a7b:has([mask="url(#svg-mask-status-streaming)"], .live_ec1c2d) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([mask="url(#svg-mask-status-streaming)"], .live_ec1c2d) {
   --userPopout-play: var(--twitch);
 }
-.userPopoutOuter_c69a7b:has([src="/assets/9109430b0f2514a0c674.png"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src="/assets/9109430b0f2514a0c674.png"]) {
   --userPopout-play: var(--xbox);
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/8fca7fcefaac64787658.svg");']) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/8fca7fcefaac64787658.svg");']) {
   --userPopout-play: var(--playstation) !important;
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/24ff5d6c720b110d2792.svg");']) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/24ff5d6c720b110d2792.svg");']) {
   --userPopout-play: var(--crunchyroll);
 }
 
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");'],[src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");'],[src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
   --userPopout-play: var(--youtube);
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");']) :is(.imagePosition_fa854f, .heading-sm\/semibold_dc00ef) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");']) :is(.imagePosition_fa854f, .heading-sm\/semibold_dc00ef) {
   display: none;
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/832025144389533716/6fe6e3dda7657b83758693205a833aa1.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/832025144389533716/6fe6e3dda7657b83758693205a833aa1.webp"]) {
   --userPopout-play: var(--blazing8s);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1107689944685748377/fa0a41650eec35aae523f02ea818ab0e.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1107689944685748377/fa0a41650eec35aae523f02ea818ab0e.webp"]) {
   --userPopout-play: var(--bobblebash);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/947957217959759964/b485f75e95e6486a758a4aa5db3352f4.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/947957217959759964/b485f75e95e6486a758a4aa5db3352f4.webp"]) {
   --userPopout-play: var(--bobbleleague);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/832013003968348200/97e50fed67f44802dbb4901d74a6f9a1.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/832013003968348200/97e50fed67f44802dbb4901d74a6f9a1.webp"]) {
   --userPopout-play: var(--checkers);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/832012774040141894/3b3981ddf67c8702920fae10b5f123ed.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/832012774040141894/3b3981ddf67c8702920fae10b5f123ed.webp"]) {
   --userPopout-play: var(--chess);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1106787098452832296/2f15038b8c83e221182c3c6fb6ea0814.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1106787098452832296/2f15038b8c83e221182c3c6fb6ea0814.webp"]) {
   --userPopout-play: var(--colonist);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1078728822972764312/6f547114b2979b8bc83e4ba91b4d770d.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1078728822972764312/6f547114b2979b8bc83e4ba91b4d770d.webp"]) {
   --userPopout-play: var(--kwim);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/903769130790969345/0a6b8f4795c66ba12afbc766dd920bfb.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/903769130790969345/0a6b8f4795c66ba12afbc766dd920bfb.webp"]) {
   --userPopout-play: var(--landio);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/879863686565621790/0096355142a9b00bc2676ec09b9c8dbc.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/879863686565621790/0096355142a9b00bc2676ec09b9c8dbc.webp"]) {
   --userPopout-play: var(--letterleague);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/755827207812677713/e594da3ca4520c7edde5b59948e97cdc.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/755827207812677713/e594da3ca4520c7edde5b59948e97cdc.webp"]) {
   --userPopout-play: var(--pokernight);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/945737671223947305/12ee915c2f75d7f2c7d551819534f158.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/945737671223947305/12ee915c2f75d7f2c7d551819534f158.webp"]) {
   --userPopout-play: var(--puttparty);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/235088799074484224/8bbffb0f3547424baf6798ecf632831e.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/235088799074484224/8bbffb0f3547424baf6798ecf632831e.webp"]) {
   --userPopout-play: var(--rythm);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/902271654783242291/05f3ad2c91d157cd1a0bd8e904a3182e.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/902271654783242291/05f3ad2c91d157cd1a0bd8e904a3182e.webp"]) {
   --userPopout-play: var(--sketchheads);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/852509694341283871/9a4a52c760994654a416740ae0b19fbb.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/852509694341283871/9a4a52c760994654a416740ae0b19fbb.webp"]) {
   --userPopout-play: var(--spellcast);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1196535986226745437/dc0e398eabc17c23b36961825851ed91.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1196535986226745437/dc0e398eabc17c23b36961825851ed91.webp"]) {
   --userPopout-play: var(--tunein);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1070087967294631976/9a04eab3b9f50302006577b769354520.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1070087967294631976/9a04eab3b9f50302006577b769354520.webp"]) {
   --userPopout-play: var(--whiteboard);
 }
 
-.userPopoutOuter_c69a7b:has([src*="/app-icons/504605035162763294/0553b1f1dea19ec0d0cc1bf7d3614330.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/504605035162763294/0553b1f1dea19ec0d0cc1bf7d3614330.webp"]) {
   --userPopout-play: var(--aseprite);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/787443973538971748/e1042cfe3bb845f3c1f4fffd6227f4cf.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/787443973538971748/e1042cfe3bb845f3c1f4fffd6227f4cf.webp"]) {
   --userPopout-play: var(--cyberpunk2077);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/946609449680908348/0a0c0a0be069dddfc3f1fbede4e34bfd.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/946609449680908348/0a0c0a0be069dddfc3f1fbede4e34bfd.webp"]) {
   --userPopout-play: var(--eldenring);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/425437484735004682/af77eebc7437a63c53969dc197eed6b6.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/425437484735004682/af77eebc7437a63c53969dc197eed6b6.webp"]) {
   --userPopout-play: var(--f-e-a-r);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/356889262362329098/8fbbc6725f295195c8dd4f390ccd8611.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/356889262362329098/8fbbc6725f295195c8dd4f390ccd8611.webp"]) {
   --userPopout-play: var(--finalfantasyxiv);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/432980957394370572/c1864b38910c209afd5bf6423b672022.webp"], [src*="/app-assets/432980957394370572/1169923443119116288.png"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/432980957394370572/c1864b38910c209afd5bf6423b672022.webp"], [src*="/app-assets/432980957394370572/1169923443119116288.png"]) {
   --userPopout-play: var(--fortnite);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/356876176465199104/069d9f4871b5ebd2f62bd342ce6ba77f.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/356876176465199104/069d9f4871b5ebd2f62bd342ce6ba77f.webp"]) {
   --userPopout-play: var(--gtav);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1167674267748540516/9a953e0b1e69c913af3d8354e855de41.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1167674267748540516/9a953e0b1e69c913af3d8354e855de41.webp"]) {
   --userPopout-play: var(--lethalcompany);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/356875570916753438/166fbad351ecdd02d11a3b464748f66b.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/356875570916753438/166fbad351ecdd02d11a3b464748f66b.webp"]) {
   --userPopout-play: var(--minecraft);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/356869127241072640/5a15a24a3931880801709a32accd0a1d.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/356869127241072640/5a15a24a3931880801709a32accd0a1d.webp"]) {
   --userPopout-play: var(--lol);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/1116835216464543946/da31ba4cb53774d3cad25780244ee813.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/1116835216464543946/da31ba4cb53774d3cad25780244ee813.webp"]) {
   --userPopout-play: var(--phasmophobia);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-assets/445956193924546560/446301881636225042.png"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-assets/445956193924546560/446301881636225042.png"]) {
   --userPopout-play: var(--rainbowsixsiege);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/643897785271189524/7a1ea902d81d392bfc057e3507498863.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/643897785271189524/7a1ea902d81d392bfc057e3507498863.webp"]) {
   --userPopout-play: var(--rdr2);
 }
-.userPopoutOuter_c69a7b:has([style='mask-image: url("/assets/936f353828eb5a16cd39.svg");']) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([style='mask-image: url("/assets/936f353828eb5a16cd39.svg");']) {
   --userPopout-play: var(--roblox);
 }
-.userPopoutOuter_c69a7b:has([src*="/app-icons/700136079562375258/e55fc8259df1548328f977d302779ab7.webp"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src*="/app-icons/700136079562375258/e55fc8259df1548328f977d302779ab7.webp"]) {
   --userPopout-play: var(--valorant);
 }
 
-.userPopoutOuter_c69a7b:has([src="https://i.scdn.co/image/ab67616d0000b273a9916ac15c83a9f0438216cf"],[src="https://i.scdn.co/image/ab67616d0000b2731e869a1d333210eaa2bfe670"],[src="https://i.scdn.co/image/ab67616d0000b2731c6a41bcf5f9d91cbada11a7"]) {
+:is(.userPopoutOuter_c69a7b, .userPanelOuter_c69a7b):has([src="https://i.scdn.co/image/ab67616d0000b273a9916ac15c83a9f0438216cf"],[src="https://i.scdn.co/image/ab67616d0000b2731e869a1d333210eaa2bfe670"],[src="https://i.scdn.co/image/ab67616d0000b2731c6a41bcf5f9d91cbada11a7"]) {
   --userPopout-play: var(--black) !important;
 
   .card_ae1fa2 {

@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.14 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.15 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -3804,15 +3804,19 @@ button.button_adca65.button_adca65 {
   &:hover {
     border-color: hsl(var(--white-500-hsl) / .6);
   }
-  .contents_dd4f85:after {
-    background-color: var(--white);
-    content: "";
-    display: block;
-    height: 18px;
-    margin-left: 8px;
-    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none'%3E%3Cpolyline stroke='currentColor' stroke-width='2' points='3.5 9.5 7 13 15 5'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none'%3E%3Cpolyline stroke='currentColor' stroke-width='2' points='3.5 9.5 7 13 15 5'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
-    width: 18px;
+  .contents_dd4f85 {
+    align-items: center;
+    display: flex;
+    &:after {
+      background-color: var(--white);
+      content: "";
+      display: block;
+      height: 18px;
+      margin-left: 8px;
+      -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none'%3E%3Cpolyline stroke='currentColor' stroke-width='2' points='3.5 9.5 7 13 15 5'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
+      mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18'%3E%3Cg fill='none'%3E%3Cpolyline stroke='currentColor' stroke-width='2' points='3.5 9.5 7 13 15 5'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
+      width: 18px;
+    }
   }
 }
 
@@ -6168,7 +6172,7 @@ section > .root_e6f2d0 {
     background: linear-gradient(transparent, var(--userPopout-play));
   }
   >button {
-    color: var(--text-muted);
+    color: var(--userPopout-play-secondary);
     font-size: 12px;
     letter-spacing: .05rem;
     height: fit-content;

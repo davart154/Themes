@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.16 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.17 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -4755,10 +4755,6 @@ button.button_adca65.button_adca65 {
   background: var(--background-primary);
   border-radius: 0;
 
-  .listItems_d53d65 {
-    left: 0 !important;
-    right: 0 !important;
-  }
   &:before {
     content: "";
     position: absolute;
@@ -4768,6 +4764,13 @@ button.button_adca65.button_adca65 {
     background-color: hsl(var(--white-500-hsl) / .1);
     pointer-events: none;
     width: 1px;
+  }
+  .listItems_d53d65 {
+    left: 0 !important;
+    right: 0 !important;
+  }
+  .svg_afd438 foreignObject {
+    mask: none;
   }
 }
 .theme-light :is(.categoryList_c6ee36.categoryList_c6ee36, .categoryList_a7a485.categoryList_a7a485):before {
@@ -4783,13 +4786,26 @@ button.button_adca65.button_adca65 {
   height: 32px;
   justify-content: center;
   padding: 0;
-  transition: border-color .1s ease-in-out;
+  transition: .1s ease-in-out;
   width: 100%;
 }
 .categoryItemDefaultCategorySelected_dfa278, :is(.categoryItemGuildCategory_dfa278, .stickerCategory_a7a485):has([mask*="squircle"]), .stickerCategoryGenericSelected_a7a485 {
   border-color: var(--brand-500);
 }
+.categoryIcon_dfa278, .stickerCategoryGenericIcon_a7a485 {
+  transition: inherit;
+}
+.guildIcon_bfabc4 {
+  border-radius: 16px;
+  transition: border-radius .2s ease-out;
+}
+[mask*="squircle"] > .guildIcon_bfabc4 {
+  border-radius: 5px;
+}
 
+.bodyWrapper_c6ee36 {
+  margin-left: 12px;
+}
 .wrapper_e06857 {
   background-color: transparent;
 }

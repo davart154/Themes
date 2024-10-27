@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.18 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.19 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -741,10 +741,24 @@
     font-weight: 500;
   }
   [data-text-variant="text-sm/normal"] {
-    color: var(--text-muted);
+    color: var(--global-1);
     font-size: 12px;
     line-height: 14px;
     margin-top: 2px;
+  }
+}
+.guildSection_e58351 {
+  background-color: transparent;
+  padding: 12px;
+  position: relative;
+  &:before {
+    background-color: hsl(var(--white-200-hsl) / .1);
+    content: "";
+    height: 1px;
+    left: 12px;
+    right: 12px;
+    position: absolute;
+    top: 0;
   }
 }
 
@@ -1740,7 +1754,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
 .wrapper_bc7085:has(.collapsed_bc7085):before {
   content: "";
   position: absolute;
-  background: var(--global-alternate-260);
+  background: var(--global-alt-3);
   border-radius: var(--radius-round);
   height: 0;
   left: -5px;
@@ -2462,7 +2476,7 @@ button.button_adca65.button_adca65 {
   margin: 0 3px 0 0;
 }
 .children_fc4f04 .icon_fc4f04.icon_fc4f04 {
-  color: var(--global-alternate-260);
+  color: var(--global-alt-3);
   height: 16px;
   width: 16px;
 }
@@ -2875,7 +2889,7 @@ button.button_adca65.button_adca65 {
   transition: background-color .2s;
 }
 .jumpToPresentBar_cf58b5 {
-  background-color: var(--global-300);
+  background-color: var(--global-4);
   border-radius: 5px 5px 0 0;
 }
 .newMessagesBar_cf58b5 {
@@ -2886,7 +2900,7 @@ button.button_adca65.button_adca65 {
   background-color: var(--brand-500);
 }
 .topicsPillContainer_cf58b5 {
-  background-color: var(--global-300);
+  background-color: var(--global-4);
   border-radius: 0 0 5px 5px;
 }
 .barButtonBase_cf58b5 {
@@ -4681,7 +4695,7 @@ button.button_adca65.button_adca65 {
     background-image: var(--colorblind-dnd);
   }
   &:has([mask="url(#svg-mask-status-offline)"]):before {
-    background-color: var(--global-alternate-300);
+    background-color: var(--global-alt-4);
     background-image: var(--colorblind-offline);
     transform: rotate(45deg);
   }
@@ -4822,6 +4836,30 @@ button.button_adca65.button_adca65 {
   display: none;
 }
 
+/*Activitylist*/
+.container_c64476 {
+  background: transparent;
+  border-radius: 0;
+  margin-left: 0;
+  padding-left: 16px;
+  max-width: unset;
+}
+.container_c64476:hover {
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.05) 90%, hsla(0, 0%, 100%, 0));
+  .badgesContainerCard_d60c6d {
+    opacity: 1;
+  }
+}
+.theme-light .container_c64476:hover {
+  background: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
+}
+.badgesContainerCard_d60c6d {
+  opacity: .8;
+  [data-text-variant] {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
 /*Memberlist*/
 .container_cbd271, .members_cbd271 {
   background: var(--background-secondary);
@@ -4901,7 +4939,7 @@ button.button_adca65.button_adca65 {
 }
 .tabs_a853ca .item_a0.item_a0 {
   padding-bottom: 15px;
-  color: var(--global-260);
+  color: var(--global-3);
   font-size: 14px;
   font-weight: 500;
   height: fit-content;
@@ -5127,7 +5165,7 @@ button.button_adca65.button_adca65 {
   background-image: var(--colorblind-dnd);
 }
 .wrapper_c51b4e:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
-  background-color: var(--global-alternate-300);
+  background-color: var(--global-alt-4);
   background-image: var(--colorblind-offline);
 }
 
@@ -5763,9 +5801,12 @@ svg+.botText_a9e77f:before {
     fill: currentColor;
   }
 }
-.badgeContainer_d60c6d svg {
-  width: 16px;
-  height: 16px;
+.badgeContainer_d60c6d {
+  gap: 2px;
+  svg {
+    width: 16px;
+    height: 16px;
+  }
 }
 .timestamp_c5d1c1 {
   font-family: var(--font-primary);
@@ -6972,7 +7013,7 @@ section > .root_e6f2d0 {
 }
 .layer_d4b6c5:not(.baseLayer_d4b6c5) .top_a0 .item_a0 {
   padding-bottom: 15px;
-  color: var(--global-260);
+  color: var(--global-3);
   font-size: 14px;
   line-height: 14px;
   font-weight: 500;
@@ -8064,6 +8105,12 @@ svg {
 /*Headset*/[d^="M12 3a9 9 0 0 0-8.95 10h1.87a5 5 0 0 1 4.1 2.13l1.37 1.97a3.1 3.1 0 0 1-.17 3.78 2.85 2.85 0 0 1-3.55.74 11 11 0 1 1 10.66 0c-1.27.71-2.73.23-3.55-.74a3.1 3.1 0 0 1-.17-3.78l1.38-1.97a5 5 0 0 1 4.1-2.13h1.86A9 9 0 0 0 12 3Z"] {
   d: path("M3 11C3 6 7 2 12 2V4C8.13401 4 5 7.13401 5 11V13H9V21H6C4.34315 21 3 19.6569 3 18V11ZM21 11V18C21 19.6569 19.6569 21 18 21H15V13H19V11C19 7.13401 15.866 4 12 4V2C17 2 21 6 21 11Z");
 }
+[d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"] {
+  d: path("M3 11C3 6 7 2 12 2V4C8.13401 4 5 7.13401 5 11V13H9V21H6C4.34315 21 3 19.6569 3 18V11ZM21 11V18C21 19.6569 19.6569 21 18 21H15V13H19V11C19 7.13401 15.866 4 12 4V2C17 2 21 6 21 11Z");
+  + path {
+    display: none;
+  }
+}
 /*HeadsetSlash*/[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1 1 0 1 0 1.4 1.4l20-20ZM17.06 2.94a.48.48 0 0 0-.11-.77A11 11 0 0 0 2.18 16.94c.14.3.53.35.76.12l3.2-3.2c.25-.25.15-.68-.2-.76a5 5 0 0 0-1.02-.1H3.05a9 9 0 0 1 12.66-9.2c.2.09.44.05.59-.1l.76-.76ZM20.2 8.28a.52.52 0 0 1 .1-.58l.76-.76a.48.48 0 0 1 .77.11 11 11 0 0 1-4.5 14.57c-1.27.71-2.73.23-3.55-.74a3.1 3.1 0 0 1-.17-3.78l1.38-1.97a5 5 0 0 1 4.1-2.13h1.86a9.1 9.1 0 0 0-.75-4.72ZM10.1 17.9c.25-.25.65-.18.74.14a3.1 3.1 0 0 1-.62 2.84 2.85 2.85 0 0 1-3.55.74.16.16 0 0 1-.04-.25l3.48-3.48Z"] {
   d: path("M12 2C9.47 2 7.18 3.04 5.55 4.72L6.96 6.14C8.23 4.82 10 4 12 4 15.866 4 19 7.134 19 11V13H15V14.18L20.5 19.67C20.81 19.19 21 18.62 21 18V11C21 6.029 16.971 2 12 2ZM1 5.77 3.447 8.217C3.161 9.093 3 10.029 3 11V19C3 20.657 5 21 5 21H9V13.77L15 19.77V21H16.23L18.73 23.5 20 22.22 2.28 4.5 1 5.77ZM5 13V11C5 10.612 5.041 10.237 5.099 9.869L8.23 13H5Z");
 }
@@ -8577,19 +8624,19 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 :root /*Work on these*/ {
-  --global-200: hsl(var(--global-200-hsl) / 1);
-  --global-200-hsl: 204 calc(var(--saturation-factor, 1) * 15.9%) 65.5%;
-  --global-230: hsl(var(--global-230-hsl) / 1);
-  --global-230-hsl: 204 calc(var(--saturation-factor, 1) * 12.0%) 59.0%;
-  --global-260: hsl(var(--global-260-hsl) / 1);
-  --global-260-hsl: 214.3 calc(var(--saturation-factor, 1) * 9.6%) 57.1%;
-  --global-300: hsl(var(--global-300-hsl) / 1);
-  --global-300-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 50.4%;
+  --global-1: hsl(var(--global-1-hsl) / 1);
+  --global-1-hsl: 204 calc(var(--saturation-factor, 1) * 15.9%) 65.5%;
+  --global-2: hsl(var(--global-2-hsl) / 1);
+  --global-2-hsl: 204 calc(var(--saturation-factor, 1) * 12.0%) 59.0%;
+  --global-3: hsl(var(--global-3-hsl) / 1);
+  --global-3-hsl: 214.3 calc(var(--saturation-factor, 1) * 9.6%) 57.1%;
+  --global-4: hsl(var(--global-4-hsl) / 1);
+  --global-4-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 50.4%;
 
-  --global-alternate-300: hsl(var(--global-alternate-300-hsl) / 1);
-  --global-alternate-300-hsl: 223 calc(var(--saturation-factor, 1) * 5.8%) 52.9%;
-  --global-alternate-260: hsl(var(--global-alternate-260-hsl) / 1);
-  --global-alternate-260-hsl: 216 calc(var(--saturation-factor, 1) * 4.5%) 56.1%;
+  --global-alt-3: hsl(var(--global-alt-3-hsl) / 1);
+  --global-alt-3-hsl: 216 calc(var(--saturation-factor, 1) * 4.5%) 56.1%;
+  --global-alt-4: hsl(var(--global-alt-4-hsl) / 1);
+  --global-alt-4-hsl: 223 calc(var(--saturation-factor, 1) * 5.8%) 52.9%;
 }
 
 :root {

@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.24 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.25 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -4768,9 +4768,10 @@ button.button_adca65.button_adca65 {
 }
 
 .categoryList_c6ee36.categoryList_c6ee36, .categoryList_a7a485.categoryList_a7a485 {
-  top: 55px;
   background: var(--background-primary);
   border-radius: 0;
+  top: 57px;
+  width: 44px;
 
   &:before {
     content: "";
@@ -4785,6 +4786,9 @@ button.button_adca65.button_adca65 {
   .listItems_d53d65 {
     left: 0 !important;
     right: 0 !important;
+  }
+  .categoryIcon_dfa278, .stickerCategoryGenericIcon_a7a485, .svg_afd438 {
+    margin-left: -3px;
   }
   .svg_afd438 foreignObject {
     mask: none;
@@ -4821,13 +4825,27 @@ button.button_adca65.button_adca65 {
 }
 
 .bodyWrapper_c6ee36 {
-  margin-left: -8px;
+  margin-left: -10px;
 }
 .wrapper_e06857 {
   background-color: var(--background-primary);
 }
-.header_a3bc57 {
-  margin-left: 8px;
+.headerIcon_e06857 {
+  display: none;
+}
+.headerLabel_e06857 {
+  font-weight: 500;
+  margin: 0;
+}
+.newlyAddedHighlight_fbfedd {
+  background: var(--info-warning-background);
+  border-color: var(--info-warning-foreground);
+}
+.newlyAddedBadge_fbfedd {
+  background-color: var(--info-warning-foreground);
+}
+.topEmojiSectionContainer_fbfedd {
+  padding-left: 8px;
 }
 .lockedEmoji_bcf389 {
   border-radius: 0;
@@ -6184,6 +6202,23 @@ section > .root_e6f2d0 {
   }
 }
 
+.connectedAccountContainer_ab12c6 {
+  border-radius: 3px;
+  padding: 8px 14px 8px 8px;
+}
+.connectedAccount_ab12c6 {
+  gap: 10px;
+}
+.connectedAccountIcon_ab12c6 {
+  width: 30px;
+  height: 30px;
+}
+.connectedAccountNameText_ab12c6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: unset;
+}
+
 .note_d53fbd textarea {
   border: 0;
   background: transparent;
@@ -7529,8 +7564,14 @@ h2.title_c46f6a, .title_a26362 {
 [style*="/assets/be4e3bd0e52a34d50d12.svg"] {
   background-image: var(--iconTwitch) !important;
 }
+[src="/assets/be4e3bd0e52a34d50d12.svg"] {
+  content: var(--iconTwitch);
+}
 [style*="/assets/5acee125603dfb394f47.svg"] {
   background-image: var(--iconYouTube) !important;
+}
+[src="/assets/5acee125603dfb394f47.svg"] {
+  content: var(--iconYouTube);
 }
 
 :root {

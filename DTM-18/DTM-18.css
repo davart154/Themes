@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.19 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.24 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -7380,8 +7380,8 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 .connectionHeader_e2a436 [alt=Steam] {
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/930531764575805510/baf4bdd36b7ef74e8f34b402e66f81f4.png);
 }
-.connection_e2a436 .connectionHeader_e2a436 [alt=Twitch] {
-  content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532037541109810/4c1bab3f945269a5c1be0b3a2c177141.png);
+.connectionHeader_e2a436 [alt=Twitch] {
+  content: var(--iconWhiteTwitch);
 }
 .connection_e2a436 .connectionHeader_e2a436 :is([alt="Twitter"],[alt="X"]) {
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532038363217970/2ac50d286a1c883f28b5149239a8ad36.png);
@@ -7398,8 +7398,8 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 .connectionHeader_e2a436 [alt=Xbox] {
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039139147826/850ed4fcf5839b7a32651f5959e8511e.png);
 }
-.connection_e2a436 .connectionHeader_e2a436 [alt=YouTube] {
-  content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532039340466276/0ef81742942677bcef0bebdfb7061d29.png);
+.connectionHeader_e2a436 [alt=YouTube] {
+  content: var(--iconWhiteYouTube);
 }
 .connection_e2a436 .connectionAccountValue_e2a436 .connectionAccountLabelContainer_e2a436 {
   font-size: 16px;
@@ -7524,6 +7524,34 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 .container_cebd1c .input_cebd1c:checked:before {
   background: rgba(255, 255, 255, 0.3);
   box-shadow: none;
+}
+
+[style*="/assets/be4e3bd0e52a34d50d12.svg"] {
+  background-image: var(--iconTwitch) !important;
+}
+[style*="/assets/5acee125603dfb394f47.svg"] {
+  background-image: var(--iconYouTube) !important;
+}
+
+:root {
+  --iconBattlenet: ;
+  --iconFacebook: ;
+  --iconReddit: ;
+  --iconSpotify: ;
+  --iconSteam: ;
+  --iconTwitch: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 85 85'%3E%3Cpolygon points='52.2051 64.8893 20.3863 64.8893 20.3863 15.1542 68.579 15.1542 68.579 48.1345 52.2051 64.8893' fill='%23fff'/%3E%3Cpath d='M16.1549,10.8085l-4.1607,11.0955v44.3767h15.2488v8.3256h8.3252l8.3169-8.3256h12.4789l16.6419-16.6359V10.8085H16.1549ZM21.6981,16.3528h45.7622v30.5126l-9.7092,9.7098h-15.2511l-8.3146,8.3141v-8.3141h-12.4874V16.3528ZM36.9529,44.0952h5.547v-16.641h-5.547v16.641ZM52.2051,44.0952h5.5459v-16.641h-5.5459v16.641Z' fill='%235a3e85'/%3E%3C/svg%3E");
+  --iconTwitter: ;
+  --iconXBOX: ;
+  --iconYouTube: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 85 85'%3E%3Cpath d='M77.4604,37.3039c0,2.9976-.0286,5.9955.0121,8.9925.0203,1.4962-.6008,2.5058-1.8916,3.2381-10.3684,5.8818-20.7316,11.7727-31.0747,17.6987-1.4162.8114-2.6433.7571-4.042-.0447-10.1984-5.8461-20.4111-11.6677-30.6493-17.4438-1.6506-.9312-2.349-2.2001-2.3381-4.0444.0328-5.5508.0292-11.1021.0019-16.653-.0088-1.7828.6724-3.0216,2.2769-3.9034,4.4703-2.4566,8.9057-4.9783,13.3185-7.5369,1.3527-.7843,2.5483-.7839,3.8918-.0067,4.511,2.6096,9.0721,5.1328,13.576,7.7544,1.4604.85,2.7548.8377,4.2039-.0104,4.4498-2.6042,8.9536-5.1161,13.404-7.7193,1.3399-.7838,2.5381-.8241,3.8931-.0415,4.5132,2.6068,9.0504,5.1728,13.6034,7.7095,1.4287.796,1.9622,1.8439,1.8662,3.5204-.1615,2.8218-.0443,5.6595-.0443,8.4905h-.008ZM60.5726,36.2873c5.2071-3.0556,10.184-5.9761,15.4429-9.0621-5.2883-3.0003-10.261-5.8215-15.4429-8.7613v17.8234Z' fill='red'/%3E%3Cpath d='M60.5726,36.2873v-17.8234c5.1819,2.9399,10.1546,5.7611,15.4429,8.7613-5.2589,3.086-10.2358,6.0065-15.4429,9.0621Z' fill='%23fff'/%3E%3C/svg%3E");
+  --iconWhiteBattlenet: ;
+  --iconWhiteFacebook: ;
+  --iconWhiteReddit: ;
+  --iconWhiteSpotify: ;
+  --iconWhiteSteam: ;
+  --iconWhiteTwitch: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 85 85'%3E%3Cpath d='M16.1549,10.8085l-4.1607,11.0955v44.3767h15.2488v8.3256h8.3252l8.3169-8.3256h12.4789l16.6419-16.6359V10.8085H16.1549ZM21.6981,16.3528h45.7622v30.5126l-9.7092,9.7098h-15.2511l-8.3146,8.3141v-8.3141h-12.4874V16.3528ZM36.9529,44.0952h5.547v-16.641h-5.547v16.641ZM52.2051,44.0952h5.5459v-16.641h-5.5459v16.641Z' fill='%23fff'/%3E%3C/svg%3E");
+  --iconWhiteTwitter: ;
+  --iconWhiteXBOX: ;
+  --iconWhiteYouTube: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 85 85'%3E%3Cpath d='M77.4604,37.3039c0,2.9976-.0286,5.9955.0121,8.9925.0203,1.4962-.6008,2.5058-1.8916,3.2381-10.3684,5.8818-20.7316,11.7727-31.0747,17.6987-1.4162.8114-2.6433.7571-4.042-.0447-10.1984-5.8461-20.4111-11.6677-30.6493-17.4438-1.6506-.9312-2.349-2.2001-2.3381-4.0444.0328-5.5508.0292-11.1021.0019-16.653-.0088-1.7828.6724-3.0216,2.2769-3.9034,4.4703-2.4566,8.9057-4.9783,13.3185-7.5369,1.3527-.7843,2.5483-.7839,3.8918-.0067,4.511,2.6096,9.0721,5.1328,13.576,7.7544,1.4604.85,2.7548.8377,4.2039-.0104,4.4498-2.6042,8.9536-5.1161,13.404-7.7193,1.3399-.7838,2.5381-.8241,3.8931-.0415,4.5132,2.6068,9.0504,5.1728,13.6034,7.7095,1.4287.796,1.9622,1.8439,1.8662,3.5204-.1615,2.8218-.0443,5.6595-.0443,8.4905h-.008ZM60.5726,36.2873c5.2071-3.0556,10.184-5.9761,15.4429-9.0621-5.2883-3.0003-10.261-5.8215-15.4429-8.7613v17.8234Z' fill='%23fff'/%3E%3C/svg%3E");
 }
 
 .preview_a614a7 {

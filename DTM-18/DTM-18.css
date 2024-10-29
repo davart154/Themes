@@ -996,6 +996,9 @@ body {
 .peopleColumn_c2739c {
   margin-top: 8px;
 }
+.searchBar_e0840f {
+  margin: 16px 30px 8px;
+}
 
 /*Add Friend Header*/
 .header_c96274 {
@@ -4741,13 +4744,13 @@ button.button_adca65.button_adca65 {
 .theme-light :is(.header_c6ee36.header_c6ee36, .header_d8cdac, .header_b56bbc) {
   border-color: hsl(var(--black-500-hsl) / .1);
 }
-.searchBar_c6ee36, .container_effbe2, .searchBar_b56bbc {
+.searchBar_c6ee36, .container_effbe2, .searchBar_b56bbc, .searchBar_e0840f {
   background-color: hsl(var(--white-500-hsl) / .1);
   border: 1px solid transparent;
   border-radius: 3px;
   padding: 2px;
 }
-.theme-light :is(.searchBar_c6ee36, .container_effbe2, .searchBar_b56bbc) {
+.theme-light :is(.searchBar_c6ee36, .container_effbe2, .searchBar_b56bbc, .searchBar_e0840f) {
   background-color: rgba(199,209,216,.3);
 }
 .inner_effbe2, .inner_c18ec9 {
@@ -4818,10 +4821,13 @@ button.button_adca65.button_adca65 {
 }
 
 .bodyWrapper_c6ee36 {
-  margin-left: 12px;
+  margin-left: -8px;
 }
 .wrapper_e06857 {
   background-color: var(--background-primary);
+}
+.header_a3bc57 {
+  margin-left: 8px;
 }
 .lockedEmoji_bcf389 {
   border-radius: 0;
@@ -4834,6 +4840,23 @@ button.button_adca65.button_adca65 {
 }
 .unicodeShortcut_dfa278, .standardStickerShortcut_a7a485, .inspector_c3120f {
   display: none;
+}
+
+.packHeader_de4721 {
+  margin-left: -8px;
+}
+.inspectedIndicator_a708c4 {
+  mask: none;
+  border-radius: 5px;
+  transition: background-color .25s ease;
+}
+.assetWrapper_cb3343 {
+  mask: none;
+  overflow: hidden;
+  transition: border-radius .25s ease;
+}
+.assetWrapperMasked_cb3343 {
+  border-radius: 3px;
 }
 
 /*Activitylist*/
@@ -6237,6 +6260,7 @@ section > .root_e6f2d0 {
 .userPanelOuter_c69a7b {
   background-color: var(--background-secondary);
   box-shadow: none;
+  min-width: var(--userPopout-outer-width);
   padding: 0 !important;
 
   .nicknameIcons_c32acf {
@@ -9631,10 +9655,10 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --button-positive-background-active: var(--legacy-positive-active);
   --button-positive-background-disabled: var(--legacy-positive);
   --button-positive-background-hover: var(--legacy-positive-hover);
-    --button-secondary-background: var(--primary-430);
-    --button-secondary-background-active: var(--primary-530);
-    --button-secondary-background-disabled: var(--primary-430);
-    --button-secondary-background-hover: var(--primary-500);
+  --button-secondary-background: #99aab5;
+  --button-secondary-background-hover: #8a99a3;
+  --button-secondary-background-active: hsl(213,calc(var(--saturation-factor, 1)*9.7%),40.4%);
+  --button-secondary-background-disabled: #99aab5;
     --card-gradient-bg: hsl(var(--white-500-hsl) / 0.7);
     --card-gradient-pressed-bg: hsl(var(--white-500-hsl) / 0.5);
     --card-primary-bg: var(--white-500);

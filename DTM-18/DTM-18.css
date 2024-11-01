@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.25 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.26 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -4740,6 +4740,7 @@ button.button_adca65.button_adca65 {
   border-radius: 0;
   box-shadow: none;
   padding: 12px;
+  position: unset;
 }
 .theme-light :is(.header_c6ee36.header_c6ee36, .header_d8cdac, .header_b56bbc) {
   border-color: hsl(var(--black-500-hsl) / .1);
@@ -4765,6 +4766,65 @@ button.button_adca65.button_adca65 {
   margin: 0;
   min-width: 50px !important;
   padding: 5px 7px;
+}
+
+[style*='/assets/fdee0474e6bf2bbdd6c4.svg'] {
+  background-image: var(--okHand) !important;
+}
+[style*='/assets/60b58016aa5142234891.svg'] {
+  background-image: var(--okHand_tone1) !important;
+}
+[style*='/assets/ab6e84ebc214777e1539.svg'] {
+  background-image: var(--okHand_tone2) !important;
+}
+[style*='/assets/b86a168ed763270e2f40.svg'] {
+  background-image: var(--okHand_tone3) !important;
+}
+[style*='/assets/da2a4b565d9a4ffa3407.svg'] {
+  background-image: var(--okHand_tone4) !important;
+}
+[style*='/assets/e927f84a96c37bacc992.svg'] {
+  background-image: var(--okHand_tone5) !important;
+}
+
+.diversityEmojiItemImage_cce80d {
+  width: 22px;
+  height: 22px;
+}
+:root {
+  --okHand: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 45 45'%3E%3Cdefs%3E%3CclipPath id='a' clipPathUnits='userSpaceOnUse'%3E%3Cpath d='M0 36h36V0H0v36Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)' transform='matrix(1.25 0 0 -1.25 0 45)'%3E%3Cpath fill='%23ef9645' d='M24.997 7.5a2.501 2.501 0 0 0-2.457 2.053l-4 22a2.499 2.499 0 0 0 2.013 2.906 2.496 2.496 0 0 0 2.907-2.012l4-22A2.5 2.5 0 0 0 24.997 7.5'/%3E%3Cpath fill='%23ffdc5d' d='M28.375 11.235c.239.745.13 1.591-.375 2.265-.059.078-.439.585-1.017 1.34.005.051.017.112.017.16 0 .458-1.913 2.623-3.74 4.586-1.587 1.964-3.261 3.95-4.492 5.181l-1.274 1.275-1.612-.807c-5.718-2.858-8.647-3.855-8.673-3.864a2.5 2.5 0 1 1 1.582-4.743c.117.04 2.666.9 7.649 3.31 1.095-1.23 2.378-2.795 3.575-4.296l.704-1.174a.784.784 0 0 0-.061-.895l-3.513-4.392a.787.787 0 0 0-.365-.255l-2.531-.843a.786.786 0 0 0-.498 0L9.022 9.66c-.676 2.082-.533 4.102-.531 4.124a2.5 2.5 0 0 1-2.275 2.707 2.496 2.496 0 0 1-2.707-2.274c-.022-.26-.51-6.423 3.313-10.593C9.03 1.214 12.118-.007 16-.007c.66 0 1.283-.009 1.871-.018a102.68 102.68 0 0 1 1.537-.015c2.764 0 5.004.231 6.738 1.941 1.65 1.626 2.354 4.195 2.354 8.592 0 .261-.051.506-.125.742'/%3E%3Cpath fill='%23ef9645' d='M27.001 15a1 1 0 0 0-.915.594l-4 9a1 1 0 0 0 1.828.812l4-9A1 1 0 0 0 27.001 15'/%3E%3Cpath fill='%23ffdc5d' d='m24.766 1.62-1.531 4.76s-.067-.01-.175-.067c.018.01 1.82.995 2.46 6.003.776 6.075-.774 9.6-.79 9.635l-.092.23-3.5 10.105a2.5 2.5 0 1 0 4.725 1.636l3.469-10.012c.376-.887 2.035-5.286 1.148-12.227-1.042-8.163-4.943-9.815-5.714-10.063'/%3E%3C/g%3E%3C/svg%3E");
+  --okHand_tone1: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 45 45'%3E%3Cdefs%3E%3CclipPath id='a' clipPathUnits='userSpaceOnUse'%3E%3Cpath d='M0 36h36V0H0v36Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)' transform='matrix(1.25 0 0 -1.25 0 45)'%3E%3Cpath fill='%23e0aa94' d='M24.997 7.5a2.501 2.501 0 0 0-2.457 2.053l-4 22a2.499 2.499 0 0 0 2.013 2.906 2.496 2.496 0 0 0 2.907-2.012l4-22A2.5 2.5 0 0 0 24.997 7.5'/%3E%3Cpath fill='%23f7dece' d='M28.375 11.235c.239.745.13 1.591-.375 2.265-.059.078-.439.585-1.017 1.34.005.051.017.112.017.16 0 .458-1.913 2.623-3.74 4.586-1.587 1.964-3.261 3.95-4.492 5.181l-1.274 1.275-1.612-.807c-5.718-2.858-8.647-3.855-8.673-3.864a2.5 2.5 0 1 1 1.582-4.743c.117.04 2.666.9 7.649 3.31 1.095-1.23 2.378-2.795 3.575-4.296l.704-1.174a.784.784 0 0 0-.061-.895l-3.513-4.392a.787.787 0 0 0-.365-.255l-2.531-.843a.786.786 0 0 0-.498 0L9.022 9.66c-.676 2.082-.533 4.102-.531 4.124a2.5 2.5 0 0 1-2.275 2.707 2.496 2.496 0 0 1-2.707-2.274c-.022-.26-.51-6.423 3.313-10.593C9.03 1.214 12.118-.007 16-.007c.66 0 1.283-.009 1.871-.018a102.68 102.68 0 0 1 1.537-.015c2.764 0 5.004.231 6.738 1.941 1.65 1.626 2.354 4.195 2.354 8.592 0 .261-.051.506-.125.742'/%3E%3Cpath fill='%23e0aa94' d='M27.001 15a1 1 0 0 0-.915.594l-4 9a1 1 0 0 0 1.828.812l4-9A1 1 0 0 0 27.001 15'/%3E%3Cpath fill='%23f7dece' d='m24.766 1.62-1.531 4.76s-.067-.01-.175-.067c.018.01 1.82.995 2.46 6.003.776 6.075-.774 9.6-.79 9.635l-.092.23-3.5 10.105a2.5 2.5 0 1 0 4.725 1.636l3.469-10.012c.376-.887 2.035-5.286 1.148-12.227-1.042-8.163-4.943-9.815-5.714-10.063'/%3E%3C/g%3E%3C/svg%3E");
+  --okHand_tone2: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 45 45'%3E%3Cdefs%3E%3CclipPath id='a' clipPathUnits='userSpaceOnUse'%3E%3Cpath d='M0 36h36V0H0v36Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)' transform='matrix(1.25 0 0 -1.25 0 45)'%3E%3Cpath fill='%23d2a077' d='M24.997 7.5a2.501 2.501 0 0 0-2.457 2.053l-4 22a2.499 2.499 0 0 0 2.013 2.906 2.496 2.496 0 0 0 2.907-2.012l4-22A2.5 2.5 0 0 0 24.997 7.5'/%3E%3Cpath fill='%23f3d2a2' d='M28.375 11.235c.239.745.13 1.591-.375 2.265-.059.078-.439.585-1.017 1.34.005.051.017.112.017.16 0 .458-1.913 2.623-3.74 4.586-1.587 1.964-3.261 3.95-4.492 5.181l-1.274 1.275-1.612-.807c-5.718-2.858-8.647-3.855-8.673-3.864a2.5 2.5 0 1 1 1.582-4.743c.117.04 2.666.9 7.649 3.31 1.095-1.23 2.378-2.795 3.575-4.296l.704-1.174a.784.784 0 0 0-.061-.895l-3.513-4.392a.787.787 0 0 0-.365-.255l-2.531-.843a.786.786 0 0 0-.498 0L9.022 9.66c-.676 2.082-.533 4.102-.531 4.124a2.5 2.5 0 0 1-2.275 2.707 2.496 2.496 0 0 1-2.707-2.274c-.022-.26-.51-6.423 3.313-10.593C9.03 1.214 12.118-.007 16-.007c.66 0 1.283-.009 1.871-.018a102.68 102.68 0 0 1 1.537-.015c2.764 0 5.004.231 6.738 1.941 1.65 1.626 2.354 4.195 2.354 8.592 0 .261-.051.506-.125.742'/%3E%3Cpath fill='%23d2a077' d='M27.001 15a1 1 0 0 0-.915.594l-4 9a1 1 0 0 0 1.828.812l4-9A1 1 0 0 0 27.001 15'/%3E%3Cpath fill='%23f3d2a2' d='m24.766 1.62-1.531 4.76s-.067-.01-.175-.067c.018.01 1.82.995 2.46 6.003.776 6.075-.774 9.6-.79 9.635l-.092.23-3.5 10.105a2.5 2.5 0 1 0 4.725 1.636l3.469-10.012c.376-.887 2.035-5.286 1.148-12.227-1.042-8.163-4.943-9.815-5.714-10.063'/%3E%3C/g%3E%3C/svg%3E");
+  --okHand_tone3: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 45 45'%3E%3Cdefs%3E%3CclipPath id='a' clipPathUnits='userSpaceOnUse'%3E%3Cpath d='M0 36h36V0H0v36Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)' transform='matrix(1.25 0 0 -1.25 0 45)'%3E%3Cpath fill='%23b78b60' d='M24.997 7.5a2.501 2.501 0 0 0-2.457 2.053l-4 22a2.499 2.499 0 0 0 2.013 2.906 2.496 2.496 0 0 0 2.907-2.012l4-22A2.5 2.5 0 0 0 24.997 7.5'/%3E%3Cpath fill='%23d5ab88' d='M28.375 11.235c.239.745.13 1.591-.375 2.265-.059.078-.439.585-1.017 1.34.005.051.017.112.017.16 0 .458-1.913 2.623-3.74 4.586-1.587 1.964-3.261 3.95-4.492 5.181l-1.274 1.275-1.612-.807c-5.718-2.858-8.647-3.855-8.673-3.864a2.5 2.5 0 1 1 1.582-4.743c.117.04 2.666.9 7.649 3.31 1.095-1.23 2.378-2.795 3.575-4.296l.704-1.174a.784.784 0 0 0-.061-.895l-3.513-4.392a.787.787 0 0 0-.365-.255l-2.531-.843a.786.786 0 0 0-.498 0L9.022 9.66c-.676 2.082-.533 4.102-.531 4.124a2.5 2.5 0 0 1-2.275 2.707 2.496 2.496 0 0 1-2.707-2.274c-.022-.26-.51-6.423 3.313-10.593C9.03 1.214 12.118-.007 16-.007c.66 0 1.283-.009 1.871-.018a102.68 102.68 0 0 1 1.537-.015c2.764 0 5.004.231 6.738 1.941 1.65 1.626 2.354 4.195 2.354 8.592 0 .261-.051.506-.125.742'/%3E%3Cpath fill='%23b78b60' d='M27.001 15a1 1 0 0 0-.915.594l-4 9a1 1 0 0 0 1.828.812l4-9A1 1 0 0 0 27.001 15'/%3E%3Cpath fill='%23d5ab88' d='m24.766 1.62-1.531 4.76s-.067-.01-.175-.067c.018.01 1.82.995 2.46 6.003.776 6.075-.774 9.6-.79 9.635l-.092.23-3.5 10.105a2.5 2.5 0 1 0 4.725 1.636l3.469-10.012c.376-.887 2.035-5.286 1.148-12.227-1.042-8.163-4.943-9.815-5.714-10.063'/%3E%3C/g%3E%3C/svg%3E");
+  --okHand_tone4: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 45 45'%3E%3Cdefs%3E%3CclipPath id='a' clipPathUnits='userSpaceOnUse'%3E%3Cpath d='M0 36h36V0H0v36Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)' transform='matrix(1.25 0 0 -1.25 0 45)'%3E%3Cpath fill='%2390603e' d='M24.997 7.5a2.501 2.501 0 0 0-2.457 2.053l-4 22a2.499 2.499 0 0 0 2.013 2.906 2.496 2.496 0 0 0 2.907-2.012l4-22A2.5 2.5 0 0 0 24.997 7.5'/%3E%3Cpath fill='%23af7e57' d='M28.375 11.235c.239.745.13 1.591-.375 2.265-.059.078-.439.585-1.017 1.34.005.051.017.112.017.16 0 .458-1.913 2.623-3.74 4.586-1.587 1.964-3.261 3.95-4.492 5.181l-1.274 1.275-1.612-.807c-5.718-2.858-8.647-3.855-8.673-3.864a2.5 2.5 0 1 1 1.582-4.743c.117.04 2.666.9 7.649 3.31 1.095-1.23 2.378-2.795 3.575-4.296l.704-1.174a.784.784 0 0 0-.061-.895l-3.513-4.392a.787.787 0 0 0-.365-.255l-2.531-.843a.786.786 0 0 0-.498 0L9.022 9.66c-.676 2.082-.533 4.102-.531 4.124a2.5 2.5 0 0 1-2.275 2.707 2.496 2.496 0 0 1-2.707-2.274c-.022-.26-.51-6.423 3.313-10.593C9.03 1.214 12.118-.007 16-.007c.66 0 1.283-.009 1.871-.018a102.68 102.68 0 0 1 1.537-.015c2.764 0 5.004.231 6.738 1.941 1.65 1.626 2.354 4.195 2.354 8.592 0 .261-.051.506-.125.742'/%3E%3Cpath fill='%2390603e' d='M27.001 15a1 1 0 0 0-.915.594l-4 9a1 1 0 0 0 1.828.812l4-9A1 1 0 0 0 27.001 15'/%3E%3Cpath fill='%23af7e57' d='m24.766 1.62-1.531 4.76s-.067-.01-.175-.067c.018.01 1.82.995 2.46 6.003.776 6.075-.774 9.6-.79 9.635l-.092.23-3.5 10.105a2.5 2.5 0 1 0 4.725 1.636l3.469-10.012c.376-.887 2.035-5.286 1.148-12.227-1.042-8.163-4.943-9.815-5.714-10.063'/%3E%3C/g%3E%3C/svg%3E");
+  --okHand_tone5: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' viewBox='0 0 45 45'%3E%3Cdefs%3E%3CclipPath id='a' clipPathUnits='userSpaceOnUse'%3E%3Cpath d='M0 36h36V0H0v36Z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg clip-path='url(%23a)' transform='matrix(1.25 0 0 -1.25 0 45)'%3E%3Cpath fill='%23583529' d='M24.997 7.5a2.501 2.501 0 0 0-2.457 2.053l-4 22a2.499 2.499 0 0 0 2.013 2.906 2.496 2.496 0 0 0 2.907-2.012l4-22A2.5 2.5 0 0 0 24.997 7.5'/%3E%3Cpath fill='%237c533e' d='M28.375 11.235c.239.745.13 1.591-.375 2.265-.059.078-.439.585-1.017 1.34.005.051.017.112.017.16 0 .458-1.913 2.623-3.74 4.586-1.587 1.964-3.261 3.95-4.492 5.181l-1.274 1.275-1.612-.807c-5.718-2.858-8.647-3.855-8.673-3.864a2.5 2.5 0 1 1 1.582-4.743c.117.04 2.666.9 7.649 3.31 1.095-1.23 2.378-2.795 3.575-4.296l.704-1.174a.784.784 0 0 0-.061-.895l-3.513-4.392a.787.787 0 0 0-.365-.255l-2.531-.843a.786.786 0 0 0-.498 0L9.022 9.66c-.676 2.082-.533 4.102-.531 4.124a2.5 2.5 0 0 1-2.275 2.707 2.496 2.496 0 0 1-2.707-2.274c-.022-.26-.51-6.423 3.313-10.593C9.03 1.214 12.118-.007 16-.007c.66 0 1.283-.009 1.871-.018a102.68 102.68 0 0 1 1.537-.015c2.764 0 5.004.231 6.738 1.941 1.65 1.626 2.354 4.195 2.354 8.592 0 .261-.051.506-.125.742'/%3E%3Cpath fill='%23583529' d='M27.001 15a1 1 0 0 0-.915.594l-4 9a1 1 0 0 0 1.828.812l4-9A1 1 0 0 0 27.001 15'/%3E%3Cpath fill='%237c533e' d='m24.766 1.62-1.531 4.76s-.067-.01-.175-.067c.018.01 1.82.995 2.46 6.003.776 6.075-.774 9.6-.79 9.635l-.092.23-3.5 10.105a2.5 2.5 0 1 0 4.725 1.636l3.469-10.012c.376-.887 2.035-5.286 1.148-12.227-1.042-8.163-4.943-9.815-5.714-10.063'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.diversitySelector_c6ee36 {
+  width: 28px;
+  height: 28px;
+}
+.diversitySelectorButton_cce80d, .diversityEmojiItem_cce80d {
+  height: 22px;
+  padding: 4px;
+  width: 22px;
+}
+.diversitySelectorButton_cce80d:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--background-primary);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+.diversitySelectorButton_cce80d:has(+ div):before {
+  opacity: 0.6;
+}
+.diversitySelectorOptionsHasTabWrapper_cce80d {
+  top: 13px;
+  right: 9px;
+  height: 180px !important;
 }
 
 .categoryList_c6ee36.categoryList_c6ee36, .categoryList_a7a485.categoryList_a7a485 {
@@ -4825,24 +4885,24 @@ button.button_adca65.button_adca65 {
 }
 
 .bodyWrapper_c6ee36 {
-  margin-left: -10px;
+  margin-left: -8px;
+}
+.emojiPickerListWrapper_c6ee36 .list_a3bc57::-webkit-scrollbar {
+    display: none;
 }
 .wrapper_e06857 {
   background-color: var(--background-primary);
+}
+.packHeader_de4721 {
+  margin-left: -16px;
 }
 .headerIcon_e06857 {
   display: none;
 }
 .headerLabel_e06857 {
   font-weight: 500;
-  margin: 0;
-}
-.newlyAddedHighlight_fbfedd {
-  background: var(--info-warning-background);
-  border-color: var(--info-warning-foreground);
-}
-.newlyAddedBadge_fbfedd {
-  background-color: var(--info-warning-foreground);
+  margin-left: 4px !important;
+  margin-right: 0;
 }
 .topEmojiSectionContainer_fbfedd {
   padding-left: 8px;
@@ -4860,9 +4920,14 @@ button.button_adca65.button_adca65 {
   display: none;
 }
 
-.packHeader_de4721 {
-  margin-left: -8px;
+.newlyAddedHighlight_fbfedd {
+  background: var(--info-warning-background);
+  border-color: var(--info-warning-foreground);
 }
+.newlyAddedBadge_fbfedd {
+  background-color: var(--info-warning-foreground);
+}
+
 .inspectedIndicator_a708c4 {
   mask: none;
   border-radius: 5px;
@@ -6827,7 +6892,7 @@ section > .root_e6f2d0 {
   background: var(--button-positive-background);
 }
 .container_cebd1c .input_cebd1c:checked:is(:hover,:active):before {
-  background: var(--brand-530) /*non-halloween 460*/;
+  background: var(--brand-460);
 }
 .permissionsWrapper_a73849 .container_cebd1c .input_cebd1c:checked:hover:before {
   background: var(--button-positive-background-hover);
@@ -7377,12 +7442,6 @@ h2.title_c46f6a, .title_a26362 {
 .connection_e2a436 .connectionHeader_e2a436 [alt="Battle.net"] {
   background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763309125742/3a257c4cab129e956b05bd50047eb0f9.png);
 }
-.connection_e2a436 .connectionHeader_e2a436 [alt=Crunchyroll] {
-  background-color: var(--crunchyroll);
-}
-.connection_e2a436 .connectionHeader_e2a436 [alt=eBay] {
-  background-color: var(--ebay);
-}
 .connection_e2a436 .connectionHeader_e2a436 [alt="Epic Games"] {
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/992547546570428466/db9e2406158133f91e1fe24bb56425c2.svg?);
 }
@@ -7393,14 +7452,12 @@ h2.title_c46f6a, .title_a26362 {
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763602739321/9e2893717851c493b4bff518f8b63ee7.png);
 }
 .connection_e2a436 .connectionHeader_e2a436 [alt="League of Legends"] {
-  background-color: #ae914b;
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/930532208224112750/fbbd224a0d94747c102515090682bbe1.png);
 }
 .connection_e2a436 .connectionHeader_e2a436 [alt="PlayStation Network"] {
   content: url(https://cdn.discordapp.com/attachments/733624227378495488/931884586940657664/4282c3f55c9c6d0c310ebc927d8a278c.png);
 }
 .connection_e2a436 .connectionHeader_e2a436 [alt=Reddit] {
-  background-color: #5f99cf;
   background-image: url(https://cdn.discordapp.com/attachments/733624227378495488/930531763938275428/bcc7bc0c0b27f9cbadaa1a47ea79db22.png);
 }
 .connection_e2a436 .connectionHeader_e2a436 [alt="Riot Games"] {
@@ -9291,19 +9348,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --tunein-hsl: 177 calc(var(--saturation-factor, 1) * 71.7%) 47.1%;
   --whiteboard: hsl(var(--whiteboard-hsl) / 1);
   --whiteboard-hsl: 236 calc(var(--saturation-factor, 1) * 74.7%) 61.2%;
-}
-
-:root {
-  --temporary-halloween-orange: hsl(var(--temporary-halloween-orange-hsl) / 1);
-  --temporary-halloween-orange-hsl: 19 calc(var(--saturation-factor, 1) * 88.9%) 54.1%;
-  --temporary-halloween-hover: hsl(var(--temporary-halloween-hover-hsl) / 1);
-  --temporary-halloween-hover-hsl: 19 calc(var(--saturation-factor, 1) * 79.8%) 51.4%;
-  --temporary-halloween-active: hsl(var(--temporary-halloween-active-hsl) / 1);
-  --temporary-halloween-active-hsl: 19 calc(var(--saturation-factor, 1) * 75.7%) 43.5%;
-
-  --brand-500-hsl: var(--temporary-halloween-orange-hsl);
-  --brand-530-hsl: var(--temporary-halloween-hover-hsl);
-  --brand-560-hsl: var(--temporary-halloween-active-hsl);
 }
 
 .theme-dark.theme-dark {

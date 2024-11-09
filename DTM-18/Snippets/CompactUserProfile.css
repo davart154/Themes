@@ -1,4 +1,4 @@
-.animatorRight_f88ae3 .userPopoutOuter_c69a7b {
+.animatorRight_f88ae3 .outer_c69a7b.biteSize_c69a7b {
   margin-left: 6px;
   margin-top: -16px;
   &:before {
@@ -6,7 +6,7 @@
     rotate: 180deg;
   }
 }
-.userPopoutOuter_c69a7b {
+.outer_c69a7b.biteSize_c69a7b {
   &:before {
     content: "";
     position: absolute;
@@ -25,8 +25,8 @@
   .header_b8cc6d {
     min-height: 0 !important;
   }
-  .userProfileInner_c69a7b:after {
-    height: 0;
+  .inner_c69a7b:after {
+    display: none;
   }
   .avatar_f94206.avatar_f94206 {
     top: 8px;
@@ -117,7 +117,7 @@
     }
   }
 }
-.userPopoutOuter_c69a7b:has(.card_ae1fa2) {
+.outer_c69a7b.biteSize_c69a7b:has(.card_ae1fa2) {
   .userTagUsername_c32acf, .userTagDiscriminator_c32acf {
     transform: translateY(107%);
   }
@@ -138,10 +138,10 @@
   }
 }
 
-.biteSizeOverlayBackground_c69a7b .platformIcon_ae1fa2, .headerContextMenu_ae1fa2 {
+.biteSize_c69a7b.card_ae1fa2 .platformIcon_ae1fa2, .headerContextMenu_ae1fa2 {
   display: none;
 }
-.biteSizeOverlayBackground_c69a7b {
+.biteSize_c69a7b.card_ae1fa2 {
   .header_ae1fa2 {
     position: absolute;
     top: -22px;
@@ -159,7 +159,7 @@
     }
   }
 }
-.userPopoutOuter_c69a7b:has(.container_c32acf.container_c32acf:hover) .header_ae1fa2 > [data-text-variant] {
+.outer_c69a7b.biteSize_c69a7b:has(.container_c32acf.container_c32acf:hover) .header_ae1fa2 > [data-text-variant] {
   transform: translateY(-107%);
 }
 .imagePosition_fa854f {

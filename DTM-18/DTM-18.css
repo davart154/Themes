@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.28 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.29 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -1039,6 +1039,7 @@ body {
 }
 .theme-dark.custom-theme-background .header_c96274 {
   background: -webkit-gradient(linear,left top,left bottom,from(rgb(0 0 0 / 0)),to(rgb(0 0 0 / .2)));
+  background: linear-gradient(-180deg,(rgb(0 0 0 / 0)),(rgb(0 0 0 / .2)));
 }
 
 .addFriendInputWrapper_de812f {
@@ -5353,17 +5354,16 @@ svg+.botText_a9e77f:before {
 }
 .outer_c69a7b, .panel_c69a7b {
   border-radius: var(--radius-xsa);
-  box-shadow: var(--legacy-elevation-high), var(--legacy-elevation-border);
   overflow: visible;
   padding: var(--userPopout-outer-padding) !important;
   transform: translatez(0);
   width: var(--userPopout-outer-width);
 }
+.outer_c69a7b.biteSize_c69a7b {
+  box-shadow: var(--legacy-elevation-high), var(--legacy-elevation-border);
+}
 .accountProfilePopoutWrapper_b2ca13 .outer_c69a7b {
   transform: none;
-}
-.biteSize_c69a7b.outer_c69a7b:not(.custom-theme-background) {
-  background: var(--background-secondary);
 }
 
 .profileEffects_f867f9 {
@@ -5372,7 +5372,7 @@ svg+.botText_a9e77f:before {
 
 .inner_c69a7b.inner_c69a7b {
   position: relative;
-  background: var(--profile-gradient-overlay-color) !important;
+  background: var(--userPopout-inner-bg) !important;
   border-radius: var(--radius-xs);
   gap: 0;
   padding-bottom: 0;
@@ -5626,7 +5626,7 @@ svg+.botText_a9e77f:before {
   height: 92px !important;
 }
 
-.biteSize_c69a7b.outer_c69a7b .avatarDecoration_c51b4e {
+.outer_c69a7b.biteSize_c69a7b .avatarDecoration_c51b4e {
   width: 124px;
   height: unset;
   contain: none;
@@ -6048,7 +6048,7 @@ section > .root_e6f2d0 {
   gap: 0;
 }
 .expandButton_e6f2d0, .collapseButton_e6f2d0 {
-  background: var(--userPopout-biteSized-roleHeader-bgColor) !important;
+  background: var(--userPopout-biteSize-roleHeader-bgColor) !important;
   border: 1px solid var(--userPopout-role-BorderColor) !important;
   border-radius: var(--radius-round);
   min-width: 22px;
@@ -6060,7 +6060,7 @@ section > .root_e6f2d0 {
   justify-content: center;
 }
 .button_edead5 {
-  background: var(--userPopout-biteSized-roleHeader-bgColor) !important;
+  background: var(--userPopout-biteSize-roleHeader-bgColor) !important;
   border: 1px solid var(--userPopout-role-BorderColor) !important;
   border-radius: var(--radius-round);
   height: 22px;
@@ -6080,7 +6080,7 @@ section > .root_e6f2d0 {
 .footer_b8cc6d .channelTextArea_bdf0de {
   box-sizing: border-box;
   padding: 10px;
-  background-color: var(--userPopout-biteSized-footer-bgColor);
+  background-color: var(--userPopout-biteSize-footer-bgColor);
   border-top: 1px solid var(--userPopout-footer-borderColor);
   border-radius: 0px;
 }
@@ -6090,13 +6090,16 @@ section > .root_e6f2d0 {
   border: 1px solid var(--userPopout-footer-input-borderColor);
   border-radius: 3px;
 }
-.biteSize_c69a7b.outer_c69a7b .inner_bdf0de .markup_f8f345, .biteSize_c69a7b.outer_c69a7b .placeholder_a552a6 {
+.outer_c69a7b.biteSize_c69a7b .inner_bdf0de .markup_f8f345, .outer_c69a7b.biteSize_c69a7b .placeholder_a552a6 {
   font-size: 14px;
   line-height: 18px;
   padding: 8px 10px;
 }
-.custom-theme-background .inner_bdf0de .markup_f8f345, .custom-theme-background .placeholder_a552a6 {
-  color: var(--header-primary);
+.outer_c69a7b.biteSize_c69a7b .inner_bdf0de .markup_f8f345 {
+  color: var(--userPopout-footer-input-color);
+}
+.outer_c69a7b.biteSize_c69a7b .placeholder_a552a6 {
+  color: var(--userPopout-footer-input-placeholder);
 }
 .footer_b8cc6d .buttons_bdf0de {
   display: none;
@@ -6194,7 +6197,7 @@ section > .root_e6f2d0 {
   border: 1px solid transparent;
   transition: border .2s ease !important;
 }
-.fullSize_c69a7b.theme-dark .headerButtons_b9fccc button {
+.headerButtons_b9fccc button {
   border-color: #ffffff4d;
 
   &:hover {
@@ -6340,13 +6343,12 @@ section > .root_e6f2d0 {
   color: #b9bbbe;
 }
 .listRow_d2d6cb:hover {
-  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.05) 90%, hsla(0, 0%, 100%, 0));
+  background: var(--userPopout-fullSize-listRow-bgGrad);
 }
 .theme-light .listRow_d2d6cb {
   color: hsl(218,calc(var(--saturation-factor, 1) * 4.6%),46.9%);
 }
 .theme-light .listRow_d2d6cb:hover {
-  background: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
   color: #36393f;
 }
 .listRow_d2d6cb .wrapper_c51b4e foreignObject {
@@ -6369,8 +6371,6 @@ section > .root_e6f2d0 {
 
 /*SideProfile*/
 .outer_c69a7b.panel_c69a7b {
-  background-color: var(--background-secondary);
-  box-shadow: none;
   min-width: var(--userPopout-outer-width);
   padding: 0 !important;
 
@@ -7290,7 +7290,7 @@ h2.title_c46f6a, .title_a26362 {
 .header_f4c122 {
   min-height: 120px !important;
 }
-.preview_bad983 .biteSize_c69a7b.outer_c69a7b {
+.preview_bad983 .outer_c69a7b.biteSize_c69a7b {
   margin-top: 40px;
 }
 .avatar_f18fcb {
@@ -8805,6 +8805,8 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 :root {
+  --applemusic: hsl(var(--applemusic-hsl) / 1);
+  --applemusic-hsl: 353 calc(var(--saturation-factor, 1) * 95.5%) 56.5%;
   --application-subscription-end: hsl(var(--application-subscription-end-hsl) / 1);
   --application-subscription-end-hsl: 197 calc(var(--saturation-factor, 1) * 98.8%) 32.4%;
   --application-subscription-start: hsl(var(--application-subscription-start-hsl) / 1);
@@ -9117,14 +9119,14 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --hypesquad-house-3-hsl: 169 calc(var(--saturation-factor, 1) * 69.1%) 56.9%;
     --input-placeholder-text-dark: hsl(var(--input-placeholder-text-dark-hsl) / 1);
     --input-placeholder-text-dark-hsl: 216 calc(var(--saturation-factor, 1) * 2.1%) 53.9%;
-    --lol: hsl(var(--lol-hsl) / 1);
-    --lol-hsl: 190 calc(var(--saturation-factor, 1) * 89.7%) 7.6%;
+  --lol: hsl(var(--lol-hsl) / 1);
+  --lol-hsl: 190 calc(var(--saturation-factor, 1) * 89.7%) 7.6%;
     --partner: hsl(var(--partner-hsl) / 1);
     --partner-hsl: 215 calc(var(--saturation-factor, 1) * 82.8%) 59%;
-    --paypal: hsl(var(--paypal-hsl) / 1);
-    --paypal-hsl: 230 calc(var(--saturation-factor, 1) * 69.8%) 24.7%;
-    --playstation: hsl(var(--playstation-hsl) / 1);
-    --playstation-hsl: 220 calc(var(--saturation-factor, 1) * 95.7%) 27.1%;
+  --paypal: hsl(var(--paypal-hsl) / 1);
+  --paypal-hsl: 230 calc(var(--saturation-factor, 1) * 69.8%) 24.7%;
+  --playstation: hsl(var(--playstation-hsl) / 1);
+  --playstation-hsl: 220 calc(var(--saturation-factor, 1) * 95.7%) 27.1%;
     --plum-23-alpha: hsl(var(--plum-23-alpha-hsl) / 0.09);
     --plum-23-alpha-hsl: 230 calc(var(--saturation-factor, 1) * 60.7%) 78%;
   --plum-0: hsl(var(--plum-0-hsl) / 1);
@@ -9295,26 +9297,26 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --primary-860-hsl: 210 calc(var(--saturation-factor, 1) * 7.7%) 5.1%;
   --primary-900: hsl(var(--primary-900-hsl) / 1);
   --primary-900-hsl: 240 calc(var(--saturation-factor, 1) * 11.1%) 1.8%;
-    --reddit: hsl(var(--reddit-hsl) / 1);
-    --reddit-hsl: 16 calc(var(--saturation-factor, 1) * 100%) 50%;
-    --riot-games: hsl(var(--riot-games-hsl) / 1);
-    --riot-games-hsl: 349 calc(var(--saturation-factor, 1) * 100%) 45.9%;
-    --samsung: hsl(var(--samsung-hsl) / 1);
-    --samsung-hsl: 231 calc(var(--saturation-factor, 1) * 77.8%) 35.3%;
-    --skype: hsl(var(--skype-hsl) / 1);
-    --skype-hsl: 196 calc(var(--saturation-factor, 1) * 100%) 42.2%;
-    --spotify: hsl(var(--spotify-hsl) / 1);
-    --spotify-hsl: 141 calc(var(--saturation-factor, 1) * 72.9%) 42%;
-    --steam: hsl(var(--steam-hsl) / 1);
-    --steam-hsl: 215 calc(var(--saturation-factor, 1) * 35.1%) 14.5%;
-    --twitch: hsl(var(--twitch-hsl) / 1);
-    --twitch-hsl: 262 calc(var(--saturation-factor, 1) * 46.8%) 39.8%;
-    --twitter: hsl(var(--twitter-hsl) / 1);
-    --twitter-hsl: 203 calc(var(--saturation-factor, 1) * 89.1%) 53.1%;
-    --xbox: hsl(var(--xbox-hsl) / 1);
-    --xbox-hsl: 120 calc(var(--saturation-factor, 1) * 77.1%) 27.5%;
-    --youtube: hsl(var(--youtube-hsl) / 1);
-    --youtube-hsl: 0 calc(var(--saturation-factor, 1) * 72.8%) 46.1%
+  --reddit: hsl(var(--reddit-hsl) / 1);
+  --reddit-hsl: 16 calc(var(--saturation-factor, 1) * 100%) 50%;
+  --riot-games: hsl(var(--riot-games-hsl) / 1);
+  --riot-games-hsl: 349 calc(var(--saturation-factor, 1) * 100%) 45.9%;
+  --samsung: hsl(var(--samsung-hsl) / 1);
+  --samsung-hsl: 231 calc(var(--saturation-factor, 1) * 77.8%) 35.3%;
+  --skype: hsl(var(--skype-hsl) / 1);
+  --skype-hsl: 196 calc(var(--saturation-factor, 1) * 100%) 42.2%;
+  --spotify: hsl(var(--spotify-hsl) / 1);
+  --spotify-hsl: 141 calc(var(--saturation-factor, 1) * 72.9%) 42%;
+  --steam: hsl(var(--steam-hsl) / 1);
+  --steam-hsl: 215 calc(var(--saturation-factor, 1) * 35.1%) 14.5%;
+  --twitch: hsl(var(--twitch-hsl) / 1);
+  --twitch-hsl: 262 calc(var(--saturation-factor, 1) * 46.8%) 39.8%;
+  --twitter: hsl(var(--twitter-hsl) / 1);
+  --twitter-hsl: 203 calc(var(--saturation-factor, 1) * 89.1%) 53.1%;
+  --xbox: hsl(var(--xbox-hsl) / 1);
+  --xbox-hsl: 120 calc(var(--saturation-factor, 1) * 77.1%) 27.5%;
+  --youtube: hsl(var(--youtube-hsl) / 1);
+  --youtube-hsl: 0 calc(var(--saturation-factor, 1) * 72.8%) 46.1%
 }
 
 :root {
@@ -10660,7 +10662,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --you-bar-bg: var(--plum-19);
 }
 
-.custom-theme-background.theme-dark, .custom-theme-background .theme-dark {
+.custom-theme-background.theme-dark:not(.outer_c69a7b), .custom-theme-background .theme-dark {
   --action-sheet-gradient-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
   --activity-card-background: color-mix(in oklab, var(--primary-700) 100%, var(--theme-base-color, black) var(--theme-base-color-amount, 0%));
   --activity-card-icon-overlay: color-mix(in oklab, hsl(223 calc(1 * 6.7%) 20.6% / 0.85) 100%, hsl(var(--theme-base-color-hsl, 0 0% 0%) / 0.85) var(--theme-base-color-amount, 0%));
@@ -11014,18 +11016,18 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 .outer_c69a7b {
   --userPopout-outer-padding: 0;
   --userPopout-outer-width: 250px;
+  --userPopout-inner-bg: var(--background-secondary);
   --userPopout-banner-width: var(--userPopout-outer-width);
   --userPopout-scroller-bgColor: var(--background-secondary);
   --userPopout-header-color: var(--text-muted);
-  --userPopout-biteSized-roleHeader-padding: 0;
-  --userPopout-biteSized-roleHeader-color: var(--header-secondary);
-  --userPopout-biteSized-roleHeader-bgColor: unset;
+  --userPopout-biteSize-roleHeader-padding: 0;
+  --userPopout-biteSize-roleHeader-color: var(--header-secondary);
+  --userPopout-biteSize-roleHeader-bgColor: unset;
   --userPopout-role-bgColor: unset;
   --userPopout-role-BorderColor: var(--primary-500);
   --userPopout-note-bgColor: var(--background-tertiary);
-  --userPopout-footer-borderColor: rgb(185 187 190 / 0.3);
-  --userPopout-footer-input-bgColor: #fbfbfb;
-  --userPopout-footer-input-borderColor: #dcddde;
+  --userPopout-footer-input-color: var(--text-normal);
+  --userPopout-footer-input-placeholder: var(--text-muted);
 
   --userPopout-play: var(--background-tertiary);
   --userPopout-play-primary: var(--header-primary);
@@ -11038,28 +11040,38 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 .fullSize_c69a7b {
   --userPopout-outer-width: 600px;
 }
-.theme-dark.outer_c69a7b:not(.custom-theme-background) {
-  --userPopout-footer-borderColor: rgb(32 34 37 / .3);
-  --userPopout-footer-input-bgColor: #36393f;
-  --userPopout-footer-input-borderColor: #23262a;
+.theme-light.outer_c69a7b, .theme-light .outer_c69a7b.outer_c69a7b {
+  --userPopout-footer-borderColor: rgb(185 187 190 / 0.3);
+  --userPopout-footer-input-bgColor: #fbfbfb;
+  --userPopout-footer-input-borderColor: #dcddde;
+  --userPopout-fullSize-listRow-bgGrad: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
 }
-.theme-midnight.outer_c69a7b:not(.custom-theme-background) {
-  --userPopout-footer-input-bgColor: rgb(32 34 37 / .3);
+.theme-dark.outer_c69a7b, .theme-dark .outer_c69a7b {
+  --userPopout-footer-borderColor: hsl(var(--primary-700-hsl) / .3);
+  --userPopout-footer-input-bgColor: var(--background-primary);
+  --userPopout-footer-input-borderColor: #23262a;
+  --userPopout-fullSize-listRow-bgGrad: linear-gradient(90deg, hsla(0, 0%, 100%, 0.05) 90%, hsla(0, 0%, 100%, 0));
+}
+.theme-midnight.outer_c69a7b, .theme-midnight .outer_c69a7b {
+  --userPopout-footer-input-bgColor: hsl(var(--primary-700-hsl) / .3);
 }
 .outer_c69a7b.custom-theme-background {
   --userPopout-outer-padding: 1px;
+  --userPopout-inner-bg: var(--profile-gradient-overlay-color);
   --userPopout-scroller-bgColor: unset;
   --userPopout-header-color: var(--header-primary);
-  --userPopout-biteSized-roleHeader-padding: 2px 4px;
-  --userPopout-biteSized-roleHeader-color: var(--header-primary);
-  --userPopout-biteSized-roleHeader-bgColor: var(--profile-body-background-color);
+  --userPopout-biteSize-roleHeader-padding: 2px 4px;
+  --userPopout-biteSize-roleHeader-color: var(--header-primary);
+  --userPopout-biteSize-roleHeader-bgColor: var(--profile-body-background-color);
   --userPopout-role-bgColor: var(--profile-body-background-color);
   --userPopout-role-BorderColor: var(--header-primary);
   --userPopout-note-bgColor: var(--profile-note-background-color);
   --userPopout-footer-borderColor: var(--profile-body-background-hover);
-  --userPopout-biteSized-footer-bgColor: var(--profile-body-background-color);
+  --userPopout-biteSize-footer-bgColor: var(--profile-body-background-color);
   --userPopout-footer-input-bgColor: var(--profile-body-background-hover);
   --userPopout-footer-input-borderColor: var(--profile-body-background-hover);
+  --userPopout-footer-input-color: var(--header-primary);
+  --userPopout-footer-input-placeholder: var(--header-primary);
 
   --userPopout-play: var(--profile-body-background-color);
   --userPopout-play-primary: var(--white-500);
@@ -11070,7 +11082,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-play-primary: var(--black-500);
   --userPopout-play-secondary: var(--black-500);
   --userPopout-play-tertiary: hsl(var(--black-500-hsl) / .8);
-}
+}/**/
 :is(.biteSize_c69a7b, .panel_c69a7b):has(.card_ae1fa2) {
   --userPopout-play: var(--brand-500);
   --userPopout-play-primary: var(--white-500) !important;
@@ -11114,6 +11126,9 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 :is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
   --userPopout-play: var(--spotify);
+}
+:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="is1-ssl.mzstatic.com/"]) {
+  --userPopout-play: var(--applemusic) !important;
 }
 :is(.biteSize_c69a7b, .panel_c69a7b):has([mask="url(#svg-mask-status-streaming)"], .live_ec1c2d) {
   --userPopout-play: var(--twitch);

@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.30 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.31 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -741,7 +741,7 @@
     font-weight: 500;
   }
   [data-text-variant="text-sm/normal"] {
-    color: var(--status-grey-360);
+    color: var(--grey-360);
     font-size: 12px;
     line-height: 14px;
     margin-top: 2px;
@@ -1758,7 +1758,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
 .wrapper_bc7085:has(.collapsed_bc7085):before {
   content: "";
   position: absolute;
-  background: var(--global-alt-3);
+  background: var(--grey-415);
   border-radius: var(--radius-round);
   height: 0;
   left: -5px;
@@ -2381,14 +2381,14 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
   order: 3;
   padding: 10px;
 }
-.gameIcon_bf1a22 {
+.gameIcon_aa73eb {
   border-radius: 3px;
 }
-.gameName_bf1a22 {
+.gameName_aa73eb {
   color: var(--header-primary);
   font-size: 16px;
 }
-.activityName_bf1a22 {
+.activityName_aa73eb {
   line-height: 16px;
 }
 
@@ -2480,7 +2480,7 @@ button.button_adca65.button_adca65 {
   margin: 0 3px 0 0;
 }
 .children_fc4f04 .icon_fc4f04.icon_fc4f04 {
-  color: var(--global-alt-3);
+  color: var(--grey-415);
   height: 16px;
   width: 16px;
 }
@@ -3132,7 +3132,7 @@ button.button_adca65.button_adca65 {
   transition: background-color .2s;
 }
 .jumpToPresentBar_cf58b5 {
-  background-color: var(--status-grey-500);
+  background-color: var(--grey-500);
   border-radius: 5px 5px 0 0;
 }
 .newMessagesBar_cf58b5 {
@@ -3143,7 +3143,7 @@ button.button_adca65.button_adca65 {
   background-color: var(--brand-500);
 }
 .topicsPillContainer_cf58b5 {
-  background-color: var(--status-grey-500);
+  background-color: var(--grey-500);
   border-radius: 0 0 5px 5px;
 }
 .barButtonBase_cf58b5 {
@@ -4963,7 +4963,7 @@ button.button_adca65.button_adca65 {
     background-image: var(--colorblind-dnd);
   }
   &:has([mask="url(#svg-mask-status-offline)"]):before {
-    background-color: var(--global-alt-4);
+    background-color: var(--grey-445);
     background-image: var(--colorblind-offline);
     transform: rotate(45deg);
   }
@@ -5309,7 +5309,7 @@ button.button_adca65.button_adca65 {
 }
 .tabs_a853ca .item_a0.item_a0 {
   padding-bottom: 15px;
-  color: var(--status-grey-430);
+  color: var(--grey-430);
   font-size: 14px;
   font-weight: 500;
   height: fit-content;
@@ -5535,7 +5535,7 @@ button.button_adca65.button_adca65 {
   background-image: var(--colorblind-dnd);
 }
 .wrapper_c51b4e:is([aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Desconectado"],[aria-label$="Hors ligne"],[aria-label$="Izvan mreže"],[aria-label$="Offline"],[aria-label$="Neprisijungęs"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Frakoblet"],[aria-label$="Niedostępny"],[aria-label$="Offline"],[aria-label$="Offline"],[aria-label$="Ei paikalla"],[aria-label$="Offline"],[aria-label$="Ngoại tuyến"],[aria-label$="Çevrimdışı"],[aria-label$="Offline"],[aria-label$="Αποσυνδεδεμένος"],[aria-label$="Извън линия"],[aria-label$="Не в сети"],[aria-label$="Не в мережі"],[aria-label$="ऑफ़लाइन"],[aria-label$="ออฟไลน์"],[aria-label$="离线"],[aria-label$="オフライン"],[aria-label$="離線"],[aria-label$="오프라인"],[aria-label$="Usynlig"],[aria-label$="Unsichtbar"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Invisible"],[aria-label$="Nevidljiv/a"],[aria-label$="Invisibile"],[aria-label$="Nematomas"],[aria-label$="Láthatatlan"],[aria-label$="Onzichtbaar"],[aria-label$="Usynlig"],[aria-label$="Niewidoczny"],[aria-label$="Invisível"],[aria-label$="Invizibil"],[aria-label$="Näkymätön"],[aria-label$="Osynlig"],[aria-label$="Vô hình"],[aria-label$="Görünmez"],[aria-label$="Neviditelný"],[aria-label$="Αόρατος"],[aria-label$="Невидим"],[aria-label$="Невидимый"],[aria-label$="Невидимий"],[aria-label$="इनविजिबल"],[aria-label$="ไม่ระบุ"],[aria-label$="隐身"],[aria-label$="オンライン状態を隠す"],[aria-label$="隱形"],[aria-label$="오프라인 표시"]):before {
-  background-color: var(--global-alt-4);
+  background-color: var(--grey-445);
   background-image: var(--colorblind-offline);
 }
 
@@ -7403,7 +7403,7 @@ section > .root_e6f2d0 {
 }
 .layer_d4b6c5:not(.baseLayer_d4b6c5) .top_a0 .item_a0 {
   padding-bottom: 15px;
-  color: var(--status-grey-430);
+  color: var(--grey-430);
   font-size: 14px;
   line-height: 14px;
   font-weight: 500;
@@ -9060,61 +9060,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 :root {
-  --status-grey-100: hsl(var(--status-grey-100-hsl) / 1);
-  --status-grey-100-hsl: 180 calc(var(--saturation-factor, 1) * 7.7%) 97.5%;
-  --status-grey-130: hsl(var(--status-grey-130-hsl) / 1);
-  --status-grey-130-hsl: 220 calc(var(--saturation-factor, 1) * 13%) 95.5%;
-  --status-grey-160: hsl(var(--status-grey-160-hsl) / 1);
-  --status-grey-160-hsl: 210 calc(var(--saturation-factor, 1) * 11.1%) 92.9%;
-  --status-grey-200: hsl(var(--status-grey-200-hsl) / 1);
-  --status-grey-200-hsl: 216 calc(var(--saturation-factor, 1) * 9.8%) 90%;
-  --status-grey-230: hsl(var(--status-grey-230-hsl) / 1);
-  --status-grey-230-hsl: 210 calc(var(--saturation-factor, 1) * 9.1%) 87.1%;
-  --status-grey-260: hsl(var(--status-grey-260-hsl) / 1);
-  --status-grey-260-hsl: 210 calc(var(--saturation-factor, 1) * 9.8%) 83.9%;
-  --status-grey-300: hsl(var(--status-grey-300-hsl) / 1);
-  --status-grey-300-hsl: 210 calc(var(--saturation-factor, 1) * 9.8%) 80%;
-  --status-grey-330: hsl(var(--status-grey-330-hsl) / 1);
-  --status-grey-330-hsl: 214 calc(var(--saturation-factor, 1) * 10.6%) 74.1%;
-  --status-grey-345: hsl(var(--status-grey-345-hsl) / 1);
-  --status-grey-345-hsl: 216 calc(var(--saturation-factor, 1) * 9.9%) 70.4%;
-  --status-grey-360: hsl(var(--status-grey-360-hsl) / 1);
-  --status-grey-360-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 68.2%;
-  --status-grey-400: hsl(var(--status-grey-400-hsl) / 1);
-  --status-grey-400-hsl: 213 calc(var(--saturation-factor, 1) * 9.9%) 60.4%;
-  --status-grey-430: hsl(var(--status-grey-430-hsl) / 1);
-  --status-grey-430-hsl: 214 calc(var(--saturation-factor, 1) * 9.7%) 57.5%;
-  --status-grey-460: hsl(var(--status-grey-460-hsl) / 1);
-  --status-grey-460-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 54.3%;
-  --status-grey-500: hsl(var(--status-grey-500-hsl) / 1);
-  --status-grey-500-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 50.4%;
-  --status-grey-530: hsl(var(--status-grey-530-hsl) / 1);
-  --status-grey-530-hsl: 213 calc(var(--saturation-factor, 1) * 9.4%) 45.9%;
-  --status-grey-560: hsl(var(--status-grey-560-hsl) / 1);
-  --status-grey-560-hsl: 213 calc(var(--saturation-factor, 1) * 9.6%) 40.8%;
-  --status-grey-600: hsl(var(--status-grey-600-hsl) / 1);
-  --status-grey-600-hsl: 215 calc(var(--saturation-factor, 1) * 9.7%) 34.3%;
-  --status-grey-630: hsl(var(--status-grey-630-hsl) / 1);
-  --status-grey-630-hsl: 212 calc(var(--saturation-factor, 1) * 9.9%) 29.6%;
-  --status-grey-660: hsl(var(--status-grey-660-hsl) / 1);
-  --status-grey-660-hsl: 217 calc(var(--saturation-factor, 1) * 9.8%) 26.1%;
-  --status-grey-700: hsl(var(--status-grey-700-hsl) / 1);
-  --status-grey-700-hsl: 210 calc(var(--saturation-factor, 1) * 9.8%) 20%;
-  --status-grey-730: hsl(var(--status-grey-730-hsl) / 1);
-  --status-grey-730-hsl: 216 calc(var(--saturation-factor, 1) * 10.4%) 18.8%;
-  --status-grey-760: hsl(var(--status-grey-760-hsl) / 1);
-  --status-grey-760-hsl: 213 calc(var(--saturation-factor, 1) * 10.1%) 17.5%;
-  --status-grey-800: hsl(var(--status-grey-800-hsl) / 1);
-  --status-grey-800-hsl: 214 calc(var(--saturation-factor, 1) * 9.1%) 15.1%;
-  --status-grey-830: hsl(var(--status-grey-830-hsl) / 1);
-  --status-grey-830-hsl: 216 calc(var(--saturation-factor, 1) * 8.5%) 11.6%;
-  --status-grey-860: hsl(var(--status-grey-860-hsl) / 1);
-  --status-grey-860-hsl: 210 calc(var(--saturation-factor, 1) * 10.5%) 7.5%;
-  --status-grey-900: hsl(var(--status-grey-900-hsl) / 1);
-  --status-grey-900-hsl: 240 calc(var(--saturation-factor, 1) * 7.7%) 2.5%;
-}
-
-:root {
   --applemusic: hsl(var(--applemusic-hsl) / 1);
   --applemusic-hsl: 353 calc(var(--saturation-factor, 1) * 95.5%) 56.5%;
   --application-subscription-end: hsl(var(--application-subscription-end-hsl) / 1);
@@ -9336,6 +9281,62 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --github-hsl: 0 calc(var(--saturation-factor, 1) * 4.2%) 9.4%;
     --gold: hsl(var(--gold-hsl) / 1);
     --gold-hsl: 46 calc(var(--saturation-factor, 1) * 100%) 54.9%;
+  --grey-100: hsl(var(--grey-100-hsl) / 1);
+  --grey-100-hsl: 180 calc(var(--saturation-factor, 1) * 7.7%) 97.5%;
+  --grey-130: hsl(var(--grey-130-hsl) / 1);
+  --grey-130-hsl: 220 calc(var(--saturation-factor, 1) * 13%) 95.5%;
+  --grey-160: hsl(var(--grey-160-hsl) / 1);
+  --grey-160-hsl: 210 calc(var(--saturation-factor, 1) * 11.1%) 92.9%;
+  --grey-200: hsl(var(--grey-200-hsl) / 1);
+  --grey-200-hsl: 216 calc(var(--saturation-factor, 1) * 9.8%) 90%;
+  --grey-230: hsl(var(--grey-230-hsl) / 1);
+  --grey-230-hsl: 210 calc(var(--saturation-factor, 1) * 9.1%) 87.1%;
+  --grey-260: hsl(var(--grey-260-hsl) / 1);
+  --grey-260-hsl: 210 calc(var(--saturation-factor, 1) * 9.8%) 83.9%;
+  --grey-300: hsl(var(--grey-300-hsl) / 1);
+  --grey-300-hsl: 210 calc(var(--saturation-factor, 1) * 9.8%) 80%;
+  --grey-330: hsl(var(--grey-330-hsl) / 1);
+  --grey-330-hsl: 214 calc(var(--saturation-factor, 1) * 10.6%) 74.1%;
+  --grey-345: hsl(var(--grey-345-hsl) / 1);
+  --grey-345-hsl: 216 calc(var(--saturation-factor, 1) * 9.9%) 70.4%;
+  --grey-360: hsl(var(--grey-360-hsl) / 1);
+  --grey-360-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 68.2%;
+  --grey-400: hsl(var(--grey-400-hsl) / 1);
+  --grey-400-hsl: 213 calc(var(--saturation-factor, 1) * 9.9%) 60.4%;
+  --grey-415: hsl(var(--grey-415-hsl) / 1);
+  --grey-415-hsl: 216 calc(var(--saturation-factor, 1) * 4.5%) 56.1%;
+  --grey-430: hsl(var(--grey-430-hsl) / 1);
+  --grey-430-hsl: 214 calc(var(--saturation-factor, 1) * 9.7%) 57.5%;
+  --grey-445: hsl(var(--grey-445-hsl) / 1);
+  --grey-445-hsl: 223 calc(var(--saturation-factor, 1) * 5.8%) 52.9%;
+  --grey-460: hsl(var(--grey-460-hsl) / 1);
+  --grey-460-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 54.3%;
+  --grey-500: hsl(var(--grey-500-hsl) / 1);
+  --grey-500-hsl: 214 calc(var(--saturation-factor, 1) * 9.9%) 50.4%;
+  --grey-530: hsl(var(--grey-530-hsl) / 1);
+  --grey-530-hsl: 213 calc(var(--saturation-factor, 1) * 9.4%) 45.9%;
+  --grey-560: hsl(var(--grey-560-hsl) / 1);
+  --grey-560-hsl: 213 calc(var(--saturation-factor, 1) * 9.6%) 40.8%;
+  --grey-600: hsl(var(--grey-600-hsl) / 1);
+  --grey-600-hsl: 215 calc(var(--saturation-factor, 1) * 9.7%) 34.3%;
+  --grey-630: hsl(var(--grey-630-hsl) / 1);
+  --grey-630-hsl: 212 calc(var(--saturation-factor, 1) * 9.9%) 29.6%;
+  --grey-660: hsl(var(--grey-660-hsl) / 1);
+  --grey-660-hsl: 217 calc(var(--saturation-factor, 1) * 9.8%) 26.1%;
+  --grey-700: hsl(var(--grey-700-hsl) / 1);
+  --grey-700-hsl: 210 calc(var(--saturation-factor, 1) * 9.8%) 20%;
+  --grey-730: hsl(var(--grey-730-hsl) / 1);
+  --grey-730-hsl: 216 calc(var(--saturation-factor, 1) * 10.4%) 18.8%;
+  --grey-760: hsl(var(--grey-760-hsl) / 1);
+  --grey-760-hsl: 213 calc(var(--saturation-factor, 1) * 10.1%) 17.5%;
+  --grey-800: hsl(var(--grey-800-hsl) / 1);
+  --grey-800-hsl: 214 calc(var(--saturation-factor, 1) * 9.1%) 15.1%;
+  --grey-830: hsl(var(--grey-830-hsl) / 1);
+  --grey-830-hsl: 216 calc(var(--saturation-factor, 1) * 8.5%) 11.6%;
+  --grey-860: hsl(var(--grey-860-hsl) / 1);
+  --grey-860-hsl: 210 calc(var(--saturation-factor, 1) * 10.5%) 7.5%;
+  --grey-900: hsl(var(--grey-900-hsl) / 1);
+  --grey-900-hsl: 240 calc(var(--saturation-factor, 1) * 7.7%) 2.5%;
   --legacy-positive: hsl(var(--legacy-positive-hsl) / 1);
   --legacy-positive-hsl: 153 calc(var(--saturation-factor, 1) * 46%) 48.6%;
   --legacy-positive-hover: hsl(var(--legacy-positive-hover-hsl) / 1);

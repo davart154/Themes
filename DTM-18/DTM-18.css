@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.34 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.35 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -7224,6 +7224,14 @@ section > .root_e6f2d0 {
     border: 1px solid var(--userPopout-footer-input-borderColor);
     border-radius: 3px;
   }
+}
+.shareToChannelButton_a35965 {
+  padding: 4px;
+  border-right: 1px solid;
+  border-image: linear-gradient(hsl(var(--white-500-hsl) / 0) 10%, hsl(var(--white-500-hsl) / 0.1) 10%, hsl(var(--white-500-hsl) / 0.1) 90%, hsl(var(--white-500-hsl) / 0) 90%) 1;
+}
+.theme-light .shareToChannelButton_a35965 {
+  border-image: linear-gradient(hsl(var(--white-500-hsl) / 0) 10%, #e8e8e9 10%, #e8e8e9 90%, hsl(var(--white-500-hsl) / 0) 90%) 1;
 }
 
 /*GameModal*/

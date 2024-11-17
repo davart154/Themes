@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.33 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.34 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -4797,6 +4797,7 @@ button.button_adca65.button_adca65 {
 }
 
 .scrollableContainer_bdf0de {
+  background: var(--channeltextarea-background);
   border-radius: 5px;
   opacity: unset !important;
   overflow: unset;
@@ -5426,9 +5427,14 @@ button.button_adca65.button_adca65 {
 .offline_a31c43 {
   opacity: unset;
   &:not(:hover) {
-    filter: grayscale(1);
+    .wrapper_c51b4e {
+      filter: grayscale(1);
+    }
+    .nameAndDecorators_d808b0 {
+      filter: grayscale(.5);
+    }
   }
-  .name_a31c43 {
+  .username_a31c43 {
     font-weight: 300;
   }
 }
@@ -5504,7 +5510,8 @@ button.button_adca65.button_adca65 {
   padding: 0;
 }
 .overlayTitle_ba4b17 {
-  display: none;
+  margin-right: auto;
+  padding: 4px 8px;
 }
 .content_ba4b17 {
   overflow: visible;
@@ -5655,15 +5662,22 @@ div + .cta_cdef0d:not(:last-child):before {
     width: 100%;
     height: 100%;
   }
-  .lottieIcon_f73ef7 {
-    width: 56px !important;
-    height: 56px !important;
+  .controlIcon_ef18ee {
+    width: 42.0029168px !important;
+    height: 42.0029168px !important;
+    margin: 7px auto;
+    align-self: center;
+  }
+  &.green_ef18ee {
+    background-color: var(--button-positive-background) !important;
+    border-radius: 3px;
+    &:hover {
+      background-color: var(--button-positive-background-hover) !important;
+    }
   }
 }
 
-.controlButton_b6e2f9:not(:first-child) {
-  order: 1;
-}
+
 .controlButton_b6e2f9:has(.contextMenuNub_ef18ee) {
   margin-right: 32px !important;
 }
@@ -6508,7 +6522,7 @@ svg+.botText_a9e77f:before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgb(0 0 0 / .05);
+  background: hsl(var(--black-500-hsl) / .05);
   pointer-events: none;
   z-index: -1;
 }
@@ -7150,6 +7164,65 @@ section > .root_e6f2d0 {
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+/*GamePopout*/
+.popout_a35965 {
+  background-color: var(--background-secondary);
+  border-radius: 5px;
+  box-shadow: var(--legacy-elevation-border), var(--legacy-elevation-high);
+  filter: unset;
+  overflow: hidden;
+  width: 250px;
+  --userPopout-footer-input-bgColor: var(--background-primary);
+  --userPopout-footer-input-borderColor: #23262a;
+  >* {
+    background: transparent;
+    border-radius: 0 !important;
+  }
+}
+.theme-light .popout_a35965 {
+  --userPopout-footer-input-bgColor: #fbfbfb;
+  --userPopout-footer-input-borderColor: #dcddde;
+}
+.popoutContentWrapper_a35965 {
+  background-color: var(--brand-500);
+  padding: 0;
+}
+.popoutContentHeader_a35965 {
+  padding: 10px;
+  margin: 0;
+}
+.popoutTextPrimary_a35965 {
+  color: var(--white) !important;
+}
+.popoutTextSecondary_a35965 {
+  color: hsl(var(--white-500-hsl) / .8);
+}
+.hero_a35965 {
+  background: hsl(var(--black-500-hsl) / .05) !important;
+  border-radius: 0;
+  padding: 10px;
+}
+.maybeClickable_a35965 [data-text-variant] {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.maybeClickable_a35965 + span {
+  display: none !important;
+}
+.interactionsContainerHeader_a35965, .emojiHotrailShareToChannel_a35965 {
+  display: none;
+}
+.interactionsContainer_a35965 {
+  background-color: var(--background-secondary);
+  padding: 10px;
+  .scrollableContainer_bdf0de {
+    background-color: var(--userPopout-footer-input-bgColor);
+    border: 1px solid var(--userPopout-footer-input-borderColor);
+    border-radius: 3px;
   }
 }
 
@@ -9580,6 +9653,10 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 /*Video*/.lottieIcon_f73ef7 svg:has([d=" M-5.5,-8 C-5.5,-8 -1.253999948501587,-8 -1.253999948501587,-8 C-1.253999948501587,-8 5.5,-8 5.5,-8 C7.1570000648498535,-8 8.5,-6.6570000648498535 8.5,-5 C8.5,-5 8.5,5 8.5,5 C8.5,6.6570000648498535 7.1570000648498535,8 5.5,8 C5.5,8 0.13199999928474426,8 0.13199999928474426,8 C0.13199999928474426,8 -5.5,8 -5.5,8 C-7.1570000648498535,8 -8.5,6.6570000648498535 -8.5,5 C-8.5,5 -8.5,-5 -8.5,-5 C-8.5,-6.6570000648498535 -7.1570000648498535,-8 -5.5,-8z"]) {
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M 13.5 12 L 10.5 9.6 V 12 H 4.5 V 6 H 10.5 V 8.4 L 13.5 6 M 15 3 H 3 A 1.5 1.5 90 0 0 1.5 4.5 V 13.5 A 1.5 1.5 90 0 0 3 15 H 15 A 1.5 1.5 90 0 0 16.5 13.5 V 4.5 C 16.5 3.6675 15.825 3 15 3 Z' fill='%23000'/%3E%3C/svg%3E") center no-repeat;
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M 13.5 12 L 10.5 9.6 V 12 H 4.5 V 6 H 10.5 V 8.4 L 13.5 6 M 15 3 H 3 A 1.5 1.5 90 0 0 1.5 4.5 V 13.5 A 1.5 1.5 90 0 0 3 15 H 15 A 1.5 1.5 90 0 0 16.5 13.5 V 4.5 C 16.5 3.6675 15.825 3 15 3 Z' fill='%23000'/%3E%3C/svg%3E") center no-repeat;
+}
+.controlIcon_ef18ee.lottieIcon_f73ef7 svg:has([d=" M-5.5,-8 C-5.5,-8 -1.253999948501587,-8 -1.253999948501587,-8 C-1.253999948501587,-8 5.5,-8 5.5,-8 C7.1570000648498535,-8 8.5,-6.6570000648498535 8.5,-5 C8.5,-5 8.5,5 8.5,5 C8.5,6.6570000648498535 7.1570000648498535,8 5.5,8 C5.5,8 0.13199999928474426,8 0.13199999928474426,8 C0.13199999928474426,8 -5.5,8 -5.5,8 C-7.1570000648498535,8 -8.5,6.6570000648498535 -8.5,5 C-8.5,5 -8.5,-5 -8.5,-5 C-8.5,-6.6570000648498535 -7.1570000648498535,-8 -5.5,-8z"]) {
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M 13.5 12 L 10.5 9.6 V 12 H 4.5 V 6 H 10.5 V 8.4 L 13.5 6 M 15 3 H 3 A 1.5 1.5 90 0 0 1.5 4.5 V 13.5 A 1.5 1.5 90 0 0 3 15 H 15 A 1.5 1.5 90 0 0 16.5 13.5 V 4.5 C 16.5 3.6675 15.825 3 15 3 Z' fill='%23000'/%3E%3C/svg%3E") center/32px no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M 13.5 12 L 10.5 9.6 V 12 H 4.5 V 6 H 10.5 V 8.4 L 13.5 6 M 15 3 H 3 A 1.5 1.5 90 0 0 1.5 4.5 V 13.5 A 1.5 1.5 90 0 0 3 15 H 15 A 1.5 1.5 90 0 0 16.5 13.5 V 4.5 C 16.5 3.6675 15.825 3 15 3 Z' fill='%23000'/%3E%3C/svg%3E") center/32px no-repeat;
 }
 /*Screen*/.panels_a4d4d9 .container_adcaac .actionButtons_adcaac > .button_adcaac:not(.fullWidth_dd4f85) .lottieIcon_f73ef7 {
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18'%3E%3Cpath d='M 15.75 12.75 H 2.25 V 3.75 H 15.75 M 15.75 2.25 H 2.25 A 1.5 1.5 90 0 0 0.75 3.75 V 12.75 A 1.5 1.5 90 0 0 2.25 14.25 H 6 V 15.75 H 12 V 14.25 H 15.75 A 1.5 1.5 90 0 0 17.25 12.75 V 3.75 A 1.5 1.5 90 0 0 15.75 2.25 Z' fill='%23000'fill-rule='evenodd' /%3E%3C/svg%3E") center no-repeat;

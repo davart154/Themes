@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.38 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.39 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -4617,9 +4617,9 @@ button.button_adca65.button_adca65 {
   margin-top: 4px;
 }
 .wrapper_f7e168 {
-  background-color: transparent;
+  background-color: var(--background-primary);
   border: 0 !important;
-  box-shadow: none !important;
+  box-shadow: var(--background-primary) !important;
   height: unset;
   border-radius: 0;
 }

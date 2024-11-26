@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.47 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.48 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -5511,7 +5511,7 @@ button.button_adca65.button_adca65 {
   --participantTitle-tooltipPointer-pos-left: calc(100% - 5px);
   --participantTitle-tooltipPointer-pos-top: calc(50% - 4px);
 }
-html:has(.pictureInPictureWindow_e0c856 > div[style*="width"]) {
+/*html:has(.pictureInPictureWindow_e0c856 > div[style*="width"]) {
   --actionRow-pos-bottom: -36px;
   --actionRow-pos-right: calc(50% - 30px);
   --actionRow-pos-top: unset;
@@ -5530,7 +5530,7 @@ html:has(.pictureInPictureWindow_e0c856 > div[style*="width"]) {
   --participantTitle-pos-top: -42px;
   --participantTitle-tooltipPointer-pos-left: calc(100% - 15px);
   --participantTitle-tooltipPointer-pos-top: calc(100% - 5px);
-}
+}*/
 
 .wrapper_d880dc.wrapper_d880dc {
   background-color: var(--background-tertiary);
@@ -5543,24 +5543,24 @@ html:has(.pictureInPictureWindow_e0c856 > div[style*="width"]) {
   display: none;
 }
 
-html:not(:has(.pictureInPictureWindow_e0c856 > div[style*="width"])) .tileWrapper_f8a4f3 {
+.tileWrapper_f8a4f3 {
   height: 100%;
 }
-html:not(:has(.pictureInPictureWindow_e0c856 > div[style*="width"])) .videoFrame_f8a4f3 {
+.videoFrame_f8a4f3 {
   height: 100%;
   width: 100%;
   top: 0 !important;
   display: flex;
   align-items: center;
 }
-html:not(:has(.pictureInPictureWindow_e0c856 > div[style*="width"])) .videoWrapper_f8a4f3 {
+.videoWrapper_f8a4f3 {
   width: 100% !important;
   height: 100%;
 }
 .videoWrapper_ba4b17 {
   background-color: var(--black);
 }
-html:not(:has(.pictureInPictureWindow_e0c856 > div[style*="width"])) .videoSizer_bae578 {
+.videoSizer_bae578 {
   height: 100%;
   width: 100%;
   aspect-ratio: unset !important;

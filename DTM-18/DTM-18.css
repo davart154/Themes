@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.45 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.46 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -9094,7 +9094,7 @@ section > .root_e6f2d0 {
 }
 
 /*PiP*/
-.pictureInPictureWindow_e0c856:has(>div[style*="width"]) {
+.pictureInPictureWindow_e0c856:not(.borderRadius_e0c856):has(>div[style*="width"]) {
   transform: unset !important;
   left: 370px;
   top: calc(var(--platformWin_topSpacing) + 84px);
@@ -9102,10 +9102,10 @@ section > .root_e6f2d0 {
   height: calc(100vh - 180px);
   overflow: hidden;
 }
-html:has(.chatSidebarOpen_d880dc) .pictureInPictureWindow_e0c856:has(>div[style*="width"]) {
+html:has(.chatSidebarOpen_d880dc) .pictureInPictureWindow_e0c856:not(.borderRadius_e0c856):has(>div[style*="width"]) {
   height: calc(50vh - 180px);
 }
-.pictureInPictureWindow_e0c856 >div[style*="width"] {
+.pictureInPictureWindow_e0c856:not(.borderRadius_e0c856) > div[style*="width"] {
   width: 100% !important;
   height: 100% !important;
 }

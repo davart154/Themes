@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.43 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.44 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -5834,9 +5834,9 @@ div + .cta_cdef0d:not(:last-child):before {
 .leftDivider_d8c748 {
   display: none;
 }
-.volumeButtonSlider_ea7ad5 {
+.bottomControls_dd069c .volumeButtonSlider_ea7ad5 {
   bottom: calc(100% + 24px);
-  left: -69px;
+  left: -71px;
 }
 
 .videoControls_dd069c {
@@ -8147,6 +8147,9 @@ section > .root_e6f2d0 {
 .slider_c7a159 {
   height: 40px;
 }
+.mini_c7a159 {
+  height: 20px;
+}
 .mark_c7a159.mark_c7a159 {
   height: unset;
   &.markAbove_c7a159 {
@@ -8179,6 +8182,13 @@ section > .root_e6f2d0 {
   border-radius: 3px;
   border: 1px solid var(--border-strong);
   box-shadow: var(--shadow-border),var(--shadow-ledge),var(--shadow-low);
+}
+.mini_c7a159 .grabber_c7a159 {
+  width: 12px;
+  height: 12px;
+  margin-left: -7px;
+  margin-top: 3px;
+  border-radius: 50%;
 }
 
 .side_a0 > div[style]:not([class]) {
@@ -9093,6 +9103,51 @@ h2.vc-m-bottom-16 {
 }
 .top_a0 + .vc-settings-card {
   margin-top: 20px;
+}
+
+/*SpotifyControls*/
+#vc-spotify-player {
+  padding: 13px 10px 10px;
+  .bar_c7a159 {
+    background-color: hsl(var(--spotify-hsl) / .2);
+    border-radius: var(--radius-round);
+    height: 4px;
+  }
+  .barFill_c7a159 {
+    background-color: var(--spotify);
+    border-radius: var(--radius-round);
+  }
+  .grabber_c7a159.grabber_c7a159 {
+    background-color: var(--spotify);
+    border-color: var(--spotify);
+    margin-top: 2px;
+    opacity: 1;
+    scale: 0;
+    transition: .1s;
+  }
+  #vc-spotify-progress-bar:hover .grabber_c7a159 {
+    scale: 1;
+  }
+}
+.vc-spotify-button {
+  border-radius: 3px;
+  color: var(--interactive-active);
+  opacity: .6;
+  &:hover, &:active {
+    background-color: rgb(24 25 28 / .3) !important;
+    color: var(--spotify);
+    opacity: 1;
+  }
+  &:is(.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track, .vc-spotify-shuffle-on:hover, .vc-spotify-repeat-context:hover, .vc-spotify-repeat-track:hover) {
+    color: var(--spotify);
+    opacity: 1;
+  }
+}
+.vc-spotify-play path {
+  d: path("M7 5 7 19 18 12Z");
+}
+.vc-spotify-pause path {
+  d: path("M6 19 10 19 10 5 6 5 6 19 6 19ZM14 5 14 19 18 19 18 5 14 5 14 5Z");
 }
 
 /*ShowTwitter*/

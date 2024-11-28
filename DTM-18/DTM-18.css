@@ -555,7 +555,7 @@ h2.title_c46f6a {
 .accountProfilePopoutWrapper_b2ca13 {
   left: unset;
 }
-.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_d0a252, .container_b64375, .card_ae1fa2, .mask_d5fdb1) {
+.accountProfilePopoutWrapper_b2ca13 :is(.visibleContainer_a82ccc, .container_b64375, .card_ae1fa2, .mask_d5fdb1) {
   display: none;
 }
 .accountProfilePopoutWrapper_b2ca13 .outer_c69a7b {
@@ -2316,7 +2316,7 @@ div:is(.channelNotice_f013f3, .channelNotice_a6cd4e) button:active {
 }
 .listeningAlong_d4626d {
   background: var(--background-secondary-alt);
-  border-bottom: none;
+  border-bottom: 2px solid var(--background-secondary);
   border-top: none;
   margin-bottom: 2px;
   padding: 12px 10px;
@@ -6437,7 +6437,7 @@ svg+.botText_a9e77f:before {
 .statusPopover_a64b81 {
   display: none;
 }
-.statusBubbleOuter_d0a252, .statusBubbleOuter_d22603 {
+.statusBubbleOuter_a82ccc, .statusBubbleOuter_d22603 {
   position: fixed;
   left: 30px;
   right: -30px;
@@ -6449,21 +6449,21 @@ svg+.botText_a9e77f:before {
   border-radius: var(--radius-xsa) /*xsa or md*/;
   box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%);
 }
-.fullSize_c69a7b :is(.statusBubbleOuter_d0a252, .statusBubbleOuter_d22603) {
+.fullSize_c69a7b :is(.statusBubbleOuter_a82ccc, .statusBubbleOuter_d22603) {
   left: -24px;
   right: calc(50% + 24px);
 }
-.statusBubbleOuter_d0a252, .statusBubbleOuter_d0a252:before, .statusBubbleOuter_d0a252:after,
+.statusBubbleOuter_a82ccc, .statusBubbleOuter_a82ccc:before, .statusBubbleOuter_a82ccc:after,
 .statusBubbleOuter_d22603, .statusBubbleOuter_d22603:before, .statusBubbleOuter_d22603:after {
   border: 1px solid rgb(32 34 37 / 60%) !important;
 }
-.statusBubbleOuter_d0a252:before, .statusBubbleOuter_d22603:before {
+.statusBubbleOuter_a82ccc:before, .statusBubbleOuter_d22603:before {
   top: unset;
   bottom: -11px;
   left: 30px;
   -webkit-mask: linear-gradient(#0000 9px, #000 0);
 }
-.statusBubbleOuter_d0a252:after, .statusBubbleOuter_d22603:after {
+.statusBubbleOuter_a82ccc:after, .statusBubbleOuter_d22603:after {
   top: unset;
   bottom: -24px;
   left: 45px;

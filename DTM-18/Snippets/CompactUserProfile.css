@@ -1,24 +1,4 @@
-.animatorRight_f88ae3 .outer_c69a7b.biteSize_c69a7b {
-  margin-left: 6px;
-  margin-top: -16px;
-  &:before {
-    left: -5px;
-    rotate: 180deg;
-  }
-}
 .outer_c69a7b.biteSize_c69a7b {
-  &:before {
-    content: "";
-    position: absolute;
-    background: var(--userPopout-play);
-    height: 12px;
-    width: 12px;
-    right: -5px;
-    top: 18px;
-    transform: rotate(45deg);
-    mask-image: linear-gradient(45deg, transparent 50%, black 50%);
-  }
-
   .mask_d5fdb1, .avatar_f94206 + div, .nicknameIcons_c32acf, .pronounsTooltip_c32acf, .container_b64375, .mutuals_fc9b46, .buttons_ce21cc, .body_b8cc6d > div:not([class], [style]), .live_ec1c2d {
     display: none;
   }

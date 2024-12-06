@@ -1,4 +1,13 @@
 .outer_c69a7b.biteSize_c69a7b {
+  --userPopout-avatar-pos-left: 12px;
+  --userPopout-avatar-pos-top: 8px;
+  --userPopout-avatarWrapper-sizer: 30px;
+  --userPopout-statusCircle-pos-offset: -3px;
+  --userPopout-statusCircle-sizer: 10px;
+  --userPopout-statusCircle-colorblind-sizer: calc(var(--colorblind-status) * 100%);
+  --userPopout-statusCircle-colorblind-pos: 50%;
+}
+.outer_c69a7b.biteSize_c69a7b {
   .mask_d5fdb1, .avatar_f94206 ~ div, .nicknameIcons_c32acf, .pronounsTooltip_c32acf, .container_b64375, .mutuals_fc9b46, .buttons_ce21cc, .body_b8cc6d > div:not([class], [style]), .live_ec1c2d {
     display: none;
   }
@@ -9,22 +18,9 @@
     display: none;
   }
   .avatar_f94206.avatar_f94206 {
-    top: 8px;
-    left: 12px;
     pointer-events: none;
-
-    .wrapper_c51b4e {
-      width: 30px !important;
-      height: 30px !important;
-
-      &:before {
-        right: -4px;
-        bottom: -3px;
-        width: 10px;
-        height: 10px;
-        background-size: calc(var(--colorblind-status) * 100%);
-        background-position: 50%;
-      }
+    .wrapper_c51b4e:before {
+      right: -4px;
     }
     foreignObject {
       clip-path: none !important;

@@ -22,7 +22,7 @@
   --activity-bar-progress: hsl(var(--white-500-hsl) / .6);
 }
 .outer_c69a7b.biteSize_c69a7b {
-  .mask_d5fdb1, .avatar_f94206 ~ div, .nicknameIcons_c32acf, .pronounsTooltip_c32acf, .container_b64375, .mutuals_fc9b46, .buttons_ce21cc, .body_b8cc6d > div:not([class], [style]), .live_ec1c2d {
+  .mask_d5fdb1, .avatar_f94206 ~ div, .nicknameIcons_c32acf, .pronounsTooltip_c32acf, .container_b64375, .buttons_ce21cc, .live_ec1c2d {
     display: none;
   }
   .header_b8cc6d {

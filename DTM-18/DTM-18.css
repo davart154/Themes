@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.56 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.57 \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -6301,24 +6301,13 @@ svg+.botText_a9e77f:before {
   gap: 0;
   padding-bottom: 0;
   overflow: hidden;
-
-  &:before {
-    width: 100%;
-    min-height: 120px;
-    position: unset;
-    background: var(--userPopout-play);
-    border-radius: 0px;
-  }
-  &:after {
+  &.fullSize_c69a7b:after {
     background: var(--userPopout-play);
     content: "";
     width: 100%;
-    height: 120px;
+    height: 130px;
     position: absolute;
     pointer-events: none;
-  }
-  &.fullSize_c69a7b:after {
-    height: 130px;
   }
 }
 
@@ -6327,6 +6316,7 @@ svg+.botText_a9e77f:before {
 }
 
 .header_b8cc6d, .header_a823cd {
+  background: var(--userPopout-play);
   min-height: 120px !important;
   margin: 0;
 }
@@ -6685,6 +6675,7 @@ svg+.botText_a9e77f:before {
 
 .mutuals_fc9b46 {
   background: var(--userPopout-play);
+  display: none;
   padding: 0 10px 10px;
   justify-content: center;
 }
@@ -6695,7 +6686,7 @@ svg+.botText_a9e77f:before {
   display: none;
 }
 .mutuals_fc9b46 [data-text-variant] {
-  color: var(--userPopout-play-secondary) !important;
+  color: var(--userPopout-play-tertiary) !important;
   font-size: 12px;
   font-weight: 700;
   padding: 0;
@@ -6738,6 +6729,7 @@ svg+.botText_a9e77f:before {
 
 .body_b8cc6d > div:not([class], [style]) {
   background: var(--userPopout-play);
+  display: none;
   padding: 0 10px 10px;
 }
 .descriptionClamp_abaf7d [data-text-variant] {
@@ -6787,7 +6779,7 @@ svg+.botText_a9e77f:before {
   display: none !important;
 }
 .platformIcon_ae1fa2 {
-  background-color: var(--white);
+  background-color: var(--activity-eyebrow);
 }
 .gameIcon_c1d9fd, .assetsLargeImage_c1d9fd {
   border-radius: var(--radius-xs);
@@ -7065,6 +7057,9 @@ section > .root_e6f2d0 {
     margin-left: 0;
     pointer-events: none;
   }
+  [data-text-variant] {
+    color: var(--userPopout-role-color);
+  }
 }
 .roleRemoveButton_f9575e {
   position: static;
@@ -7236,9 +7231,11 @@ section > .root_e6f2d0 {
 }
 
 .scroller_c0721c {
+  background: var(--userPopout-section-bg);
   padding: 20px !important;
 }
 .scroller_c0721c>.section_ba4d80 {
+  background: transparent;
   padding: 0;
   gap: 0;
 }
@@ -12579,7 +12576,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 .outer_c69a7b {
   --userPopout-outer-padding: 0;
   --userPopout-outer-width: 250px;
-  --userPopout-bg: var(--background-tertiary);
+  --userPopout-bg: transparent;
   --userPopout-section-bg: var(--background-secondary);
   --userPopout-banner-width: var(--userPopout-outer-width);
   --userPopout-avatar-pos-left: calc(50% - 90px / 2);
@@ -12590,9 +12587,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-statusCircle-colorblind-sizer: calc(12px / var(--colorblind-status));
   --userPopout-statusCircle-colorblind-pos: 50%;
   --userPopout-header-color: var(--text-muted);
-  --userPopout-biteSize-roleHeader-padding: 0;
-  --userPopout-biteSize-roleHeader-color: var(--header-secondary);
-  --userPopout-biteSize-roleHeader-bgColor: unset;
   --userPopout-role-bgColor: unset;
   --userPopout-role-BorderColor: var(--primary-500);
   --userPopout-note-bgColor: var(--background-tertiary);
@@ -12613,29 +12607,47 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-avatar-pos-left: 20px;
   --userPopout-statusCircle-pos-offset: 5px;
 }
-.theme-light.outer_c69a7b, .theme-light .outer_c69a7b.outer_c69a7b {
+html.theme-light .outer_c69a7b {
+  --userPopout-section-bg: var(--white);
+  --userPopout-header-color: var(--primary-400);
+  --userPopout-role-color: hsl(var(--primary-500-hsl) / .8);
+  --userPopout-role-BorderColor: var(--primary-500);
+  --userPopout-note-bgColor: var(--white);
+  --userPopout-biteSize-footer-bgColor: var(--white);
   --userPopout-footer-borderColor: rgb(185 187 190 / 0.3);
   --userPopout-footer-input-bgColor: #fbfbfb;
   --userPopout-footer-input-borderColor: #dcddde;
   --userPopout-fullSize-listRow-bgGrad: linear-gradient(90deg,rgba(185, 187, 190, 0.05) 90%, rgba(185, 187, 190, 0));
+  --userPopout-play: var(--primary-100);
+  --userPopout-play-primary: var(--primary-500);
+  --userPopout-play-secondary: var(--primary-300);
+  --userPopout-play-tertiary: var(--primary-600);
 }
-.theme-dark.outer_c69a7b, .theme-dark .outer_c69a7b {
+html.theme-dark .outer_c69a7b {
+  --userPopout-section-bg: var(--primary-630);
+  --userPopout-header-color: var(--primary-400);
+  --userPopout-role-color: var(--primary-230);
+  --userPopout-role-BorderColor: var(--primary-500);
+  --userPopout-note-bgColor: var(--primary-700);
+  --userPopout-biteSize-footer-bgColor: var(--primary-630);
   --userPopout-footer-borderColor: hsl(var(--primary-700-hsl) / .3);
-  --userPopout-footer-input-bgColor: var(--background-primary);
+  --userPopout-footer-input-bgColor: var(--primary-600);
   --userPopout-footer-input-borderColor: #23262a;
   --userPopout-fullSize-listRow-bgGrad: linear-gradient(90deg, hsla(0, 0%, 100%, 0.05) 90%, hsla(0, 0%, 100%, 0));
+  --userPopout-play: var(--primary-700);
+  --userPopout-play-primary: var(--white);
+  --userPopout-play-secondary: var(--primary-300);
+  --userPopout-play-tertiary: var(--primary-230);
 }
 .theme-midnight.outer_c69a7b, .theme-midnight .outer_c69a7b {
   --userPopout-footer-input-bgColor: hsl(var(--primary-700-hsl) / .3);
 }
-.outer_c69a7b.custom-theme-background {
+.outer_c69a7b.custom-theme-background.custom-theme-background {
   --userPopout-outer-padding: 1px;
   --userPopout-bg: var(--profile-gradient-overlay-color);
   --userPopout-section-bg: transparent;
   --userPopout-header-color: var(--header-primary);
-  --userPopout-biteSize-roleHeader-padding: 2px 4px;
-  --userPopout-biteSize-roleHeader-color: var(--header-primary);
-  --userPopout-biteSize-roleHeader-bgColor: var(--profile-body-background-color);
+  --userPopout-role-color: var(--header-primary);
   --userPopout-role-bgColor: var(--profile-body-background-color);
   --userPopout-role-BorderColor: var(--header-primary);
   --userPopout-note-bgColor: var(--profile-note-background-color);
@@ -12655,7 +12667,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-play-primary: var(--black-500);
   --userPopout-play-secondary: var(--black-500);
   --userPopout-play-tertiary: hsl(var(--black-500-hsl) / .8);
-}
+}/**/
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has(.card_ae1fa2) {
   --userPopout-play: var(--brand-500);
   --userPopout-play-primary: var(--white) !important;

@@ -6813,10 +6813,10 @@ svg+.botText_a9e77f:before {
 .contentImage_fa854f {
   flex-shrink: 0;
 }
-:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) svg.contentImage_fa854f {
+.outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) svg.contentImage_fa854f {
   display: none;
 }
-:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) .details_ae1fa2 [data-text-variant="text-xs/normal"] > .overflow_a82120 {
+.outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) .details_ae1fa2 [data-text-variant="text-xs/normal"] > .overflow_a82120 {
     overflow: visible;
     text-wrap: wrap;
 }
@@ -10257,6 +10257,8 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 :root {
+  --applemusic: hsl(var(--applemusic-hsl) / 1);
+  --applemusic-hsl: 353 calc(var(--saturation-factor, 1) * 95.5%) 56.5%;
   --battlenet: hsl(var(--battlenet-hsl) / 1);
   --battlenet-hsl: 200 calc(var(--saturation-factor, 1) * 100%) 44.9%;
   --bsky: hsl(var(--bsky-hsl) / 1);
@@ -10273,6 +10275,8 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --facebook-hsl: 221 calc(var(--saturation-factor, 1) * 44.2%) 37.3%;
   --github: hsl(var(--github-hsl) / 1);
   --github-hsl: 0 calc(var(--saturation-factor, 1) * 4.2%) 9.4%;
+  --lastfm: hsl(var(--lastfm-hsl) / 1);
+  --lastfm-hsl: 0 calc(var(--saturation-factor, 1) * 100%) 36.3%;
   --lol: hsl(var(--lol-hsl) / 1);
   --lol-hsl: 190 calc(var(--saturation-factor, 1) * 89.7%) 7.6%;
   --paypal: hsl(var(--paypal-hsl) / 1);
@@ -10329,8 +10333,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 
 :root {
-  --applemusic: hsl(var(--applemusic-hsl) / 1);
-  --applemusic-hsl: 353 calc(var(--saturation-factor, 1) * 95.5%) 56.5%;
   --application-subscription-end: hsl(var(--application-subscription-end-hsl) / 1);
   --application-subscription-end-hsl: 197 calc(var(--saturation-factor, 1) * 98.8%) 32.4%;
   --application-subscription-start: hsl(var(--application-subscription-start-hsl) / 1);
@@ -12716,123 +12718,126 @@ html.theme-dark .outer_c69a7b {
   --userPopout-play: var(--status-positive);
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/3912b83ecf89f78097ab.svg");']) {
-  --userPopout-play: var(--spotify);
+  --userPopout-play: var(--spotify) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="is1-ssl.mzstatic.com/"]) {
   --userPopout-play: var(--applemusic) !important;
 }
+.outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="https/lastfm."]) {
+  --userPopout-play: var(--lastfm) !important;
+}
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([mask="url(#svg-mask-status-streaming)"], .live_ec1c2d) {
-  --userPopout-play: var(--twitch);
+  --userPopout-play: var(--twitch) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src="/assets/9109430b0f2514a0c674.png"]) {
-  --userPopout-play: var(--xbox);
+  --userPopout-play: var(--xbox) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/8fca7fcefaac64787658.svg");']) {
   --userPopout-play: var(--playstation) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/24ff5d6c720b110d2792.svg");']) {
-  --userPopout-play: var(--crunchyroll);
+  --userPopout-play: var(--crunchyroll) !important;
 }
 
-.outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");'],[src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"]) {
-  --userPopout-play: var(--youtube);
+.outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");'],[src*="/app-icons/880218394199220334/ec48acbad4c32efab4275cb9f3ca3a58.webp"],[src*="https/lh3.googleusercontent.com"]) {
+  --userPopout-play: var(--youtube) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/47a991297510f0baef5b.svg");']) :is(.imagePosition_fa854f, .heading-sm\/semibold_dc00ef) {
   display: none;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/832025144389533716/6fe6e3dda7657b83758693205a833aa1.webp"]) {
-  --userPopout-play: var(--blazing8s);
+  --userPopout-play: var(--blazing8s) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1107689944685748377/fa0a41650eec35aae523f02ea818ab0e.webp"]) {
-  --userPopout-play: var(--bobblebash);
+  --userPopout-play: var(--bobblebash) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/947957217959759964/b485f75e95e6486a758a4aa5db3352f4.webp"]) {
-  --userPopout-play: var(--bobbleleague);
+  --userPopout-play: var(--bobbleleague) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/832013003968348200/97e50fed67f44802dbb4901d74a6f9a1.webp"]) {
-  --userPopout-play: var(--checkers);
+  --userPopout-play: var(--checkers) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/832012774040141894/3b3981ddf67c8702920fae10b5f123ed.webp"]) {
-  --userPopout-play: var(--chess);
+  --userPopout-play: var(--chess) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1106787098452832296/2f15038b8c83e221182c3c6fb6ea0814.webp"]) {
-  --userPopout-play: var(--colonist);
+  --userPopout-play: var(--colonist) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1078728822972764312/6f547114b2979b8bc83e4ba91b4d770d.webp"]) {
-  --userPopout-play: var(--kwim);
+  --userPopout-play: var(--kwim) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/903769130790969345/0a6b8f4795c66ba12afbc766dd920bfb.webp"]) {
-  --userPopout-play: var(--landio);
+  --userPopout-play: var(--landio) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/879863686565621790/0096355142a9b00bc2676ec09b9c8dbc.webp"]) {
-  --userPopout-play: var(--letterleague);
+  --userPopout-play: var(--letterleague) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/755827207812677713/e594da3ca4520c7edde5b59948e97cdc.webp"]) {
-  --userPopout-play: var(--pokernight);
+  --userPopout-play: var(--pokernight) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/945737671223947305/12ee915c2f75d7f2c7d551819534f158.webp"]) {
-  --userPopout-play: var(--puttparty);
+  --userPopout-play: var(--puttparty) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/235088799074484224/8bbffb0f3547424baf6798ecf632831e.webp"]) {
-  --userPopout-play: var(--rythm);
+  --userPopout-play: var(--rythm) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/902271654783242291/05f3ad2c91d157cd1a0bd8e904a3182e.webp"]) {
-  --userPopout-play: var(--sketchheads);
+  --userPopout-play: var(--sketchheads) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/852509694341283871/9a4a52c760994654a416740ae0b19fbb.webp"]) {
-  --userPopout-play: var(--spellcast);
+  --userPopout-play: var(--spellcast) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1196535986226745437/dc0e398eabc17c23b36961825851ed91.webp"]) {
-  --userPopout-play: var(--tunein);
+  --userPopout-play: var(--tunein) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1070087967294631976/9a04eab3b9f50302006577b769354520.webp"]) {
-  --userPopout-play: var(--whiteboard);
+  --userPopout-play: var(--whiteboard) !important;
 }
 
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/504605035162763294/0553b1f1dea19ec0d0cc1bf7d3614330.webp"]) {
-  --userPopout-play: var(--aseprite);
+  --userPopout-play: var(--aseprite) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/787443973538971748/e1042cfe3bb845f3c1f4fffd6227f4cf.webp"]) {
-  --userPopout-play: var(--cyberpunk2077);
+  --userPopout-play: var(--cyberpunk2077) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/946609449680908348/0a0c0a0be069dddfc3f1fbede4e34bfd.webp"]) {
-  --userPopout-play: var(--eldenring);
+  --userPopout-play: var(--eldenring) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/425437484735004682/af77eebc7437a63c53969dc197eed6b6.webp"]) {
-  --userPopout-play: var(--f-e-a-r);
+  --userPopout-play: var(--f-e-a-r) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/356889262362329098/8fbbc6725f295195c8dd4f390ccd8611.webp"]) {
-  --userPopout-play: var(--finalfantasyxiv);
+  --userPopout-play: var(--finalfantasyxiv) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/432980957394370572/c1864b38910c209afd5bf6423b672022.webp"], [src*="/app-assets/432980957394370572/1169923443119116288.png"]) {
-  --userPopout-play: var(--fortnite);
+  --userPopout-play: var(--fortnite) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/356876176465199104/069d9f4871b5ebd2f62bd342ce6ba77f.webp"]) {
-  --userPopout-play: var(--gtav);
+  --userPopout-play: var(--gtav) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1167674267748540516/9a953e0b1e69c913af3d8354e855de41.webp"]) {
-  --userPopout-play: var(--lethalcompany);
+  --userPopout-play: var(--lethalcompany) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/356875570916753438/166fbad351ecdd02d11a3b464748f66b.webp"]) {
-  --userPopout-play: var(--minecraft);
+  --userPopout-play: var(--minecraft) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/356869127241072640/5a15a24a3931880801709a32accd0a1d.webp"]) {
-  --userPopout-play: var(--lol);
+  --userPopout-play: var(--lol) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/1116835216464543946/da31ba4cb53774d3cad25780244ee813.webp"]) {
-  --userPopout-play: var(--phasmophobia);
+  --userPopout-play: var(--phasmophobia) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-assets/445956193924546560/446301881636225042.png"]) {
-  --userPopout-play: var(--rainbowsixsiege);
+  --userPopout-play: var(--rainbowsixsiege) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/643897785271189524/7a1ea902d81d392bfc057e3507498863.webp"]) {
-  --userPopout-play: var(--rdr2);
+  --userPopout-play: var(--rdr2) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([style='mask-image: url("/assets/936f353828eb5a16cd39.svg");']) {
-  --userPopout-play: var(--roblox);
+  --userPopout-play: var(--roblox) !important;
 }
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src*="/app-icons/700136079562375258/e55fc8259df1548328f977d302779ab7.webp"]) {
-  --userPopout-play: var(--valorant);
+  --userPopout-play: var(--valorant) !important;
 }
 
 .outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has([src="https://i.scdn.co/image/ab67616d0000b273a9916ac15c83a9f0438216cf"],[src="https://i.scdn.co/image/ab67616d0000b2731e869a1d333210eaa2bfe670"],[src="https://i.scdn.co/image/ab67616d0000b2731c6a41bcf5f9d91cbada11a7"]) {

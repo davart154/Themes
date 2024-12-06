@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.55 Beta \a Designs are not final \a \a";
+  content: "DTM-18 Public V2.1.56 Beta \a Designs are not final \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -630,83 +630,12 @@ h2.title_c46f6a {
 }
 
 /*Carousel*/
-.layer_c9e2da:has(.carouselModal_c319f9) {
-  padding: 0;
-}
-.carouselModal_c319f9 {
-  align-items: start;
-  justify-content: center;
-  width: fit-content;
-  z-index: 0;
-}
-.carouselModal_c319f9[style*="(1)"] {
-  transform: unset !important;
-}
-
-.topBar_bf8df0 {
-  z-index: -1;
-}
-.topBar_bf8df0 button {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0;
-  opacity: 0;
-  cursor: unset;
-}
-.messageContents_bf8df0 {
-  display: none;
-}
-
-.wrapper_a24281 {
-  flex-grow: unset;
-  pointer-events: none;
-}
-.mediaWrapper_a24281 {
-  position: unset;
-  width: fit-content;
-}
-.imageWrapper_d4597d {
-  pointer-events: all;
-}
-
-.actionButtonContainer_c319f9 {
-  margin: 0;
-  pointer-events: none;
-}
 .actionButtons_dda074 {
-  background-color: transparent;
-  border-radius: 0;
-  flex-direction: column;
-  gap: 0;
-  padding: 0;
+  border-radius: 5px;
+  box-shadow: var(--legacy-elevation-high), var(--legacy-elevation-border);
 }
-.actionButtons_dda074 button {
-  background: transparent !important;
-  margin: 0;
-  padding: 0;
-  width: fit-content;
-  pointer-events: all;
-
-  svg {
-    display: none;
-  }
-  &:after {
-    content: attr(aria-label);
-    color: var(--white-500) !important;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    transition: opacity .15s ease;
-    opacity: .5;
-  }
-  &:hover:after {
-    opacity: 1;
-    -webkit-text-decoration: underline;
-    text-decoration: underline;
-  }
+.fadeInWrapper:first-child {
+  display: none;
 }
 
 /*PopoutContainer*/
@@ -1601,7 +1530,7 @@ body {
   
   >path {
     d: path("M 13 4 L 11 4 L 11 16 L 5.5 10.5 L 4.08 11.92 L 12 19.84 L 19.92 11.92 L 18.5 10.5 L 13 16");
-    fill: white;
+    fill: var(--white);
   }
 }
 .voiceChannelsUsers_eba0ba {
@@ -2680,7 +2609,7 @@ button.button_adca65.button_adca65 {
   width: 18px;
 }
 .icon_effbe2 {
-  color: var(--white-500) !important;
+  color: var(--white) !important;
 }
 .theme-light .icon_effbe2 {
   color: #4F545C !important;
@@ -6128,7 +6057,7 @@ div + .cta_cdef0d:not(:last-child):before {
   width: 48px !important;
 }
 .container_e85446 {
-  background: var(--white-500);
+  background: var(--white);
   border-radius: var(--radius-round);
   height: 30px !important;
   width: 30px !important;
@@ -6337,7 +6266,7 @@ svg+.botText_a9e77f:before {
   margin-right: 2px;
 }
 .outer_c69a7b .botTagRegular_a9e77f {
-  background: var(--white-500);
+  background: var(--white);
   color: var(--brand-500);
   display: inline;
 }
@@ -6367,7 +6296,7 @@ svg+.botText_a9e77f:before {
 
 .inner_c69a7b.inner_c69a7b {
   position: relative;
-  background: var(--userPopout-inner-bg) !important;
+  background: var(--userPopout-bg) !important;
   border-radius: var(--radius-xs);
   gap: 0;
   padding-bottom: 0;
@@ -6838,15 +6767,18 @@ svg+.botText_a9e77f:before {
   pointer-events: none;
   z-index: -1;
 }
+.headerContextMenu_ae1fa2.absolute_ae1fa2 {
+  z-index: 1;
+}
 .headerText_ae1fa2 {
-  color: var(--white-500);
+  color: var(--activity-eyebrow);
   font-size: 12px;
   line-height: 16px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .headerText_ae1fa2 {
-  color: var(--userPopout-play-primary) !important;
+  color: var(--activity-eyebrow) !important;
 }
 .contextMenu_ae1fa2 path {
   fill: var(--userPopout-play-secondary) !important;
@@ -6855,7 +6787,7 @@ svg+.botText_a9e77f:before {
   display: none !important;
 }
 .platformIcon_ae1fa2 {
-  background-color: var(--white-500);
+  background-color: var(--white);
 }
 .gameIcon_c1d9fd, .assetsLargeImage_c1d9fd {
   border-radius: var(--radius-xs);
@@ -6875,10 +6807,15 @@ svg+.botText_a9e77f:before {
     flex-direction: column;
     justify-content: center;
   }
-  * {
-    color: var(--userPopout-play-tertiary) !important;
-    font-size: 14px;
-    line-height: 16px;
+  [data-text-variant="heading-sm/semibold"] {
+    color: var(--activity-sub) !important;
+    font-size: var(--activity-sub-fontSize);
+    line-height: var(--activity-sub-lineHeight);
+  }
+  [data-text-variant="text-xs/normal"] {
+    color: var(--activity-dim) !important;
+    font-size: var(--activity-dim-fontSize);
+    line-height: var(--activity-dim-lineHeight);
   }
 }
 .contentImage_fa854f {
@@ -6902,13 +6839,17 @@ svg+.botText_a9e77f:before {
 .badgeContainer_d60c6d {
   gap: 2px;
   svg {
+    color: var(--activity-badge-iconColor) !important;
     width: 16px;
     height: 16px;
   }
-}
-.timestamp_c5d1c1 {
-  font-family: var(--font-primary);
-  font-weight: 400 !important;
+  div {
+    color: var(--activity-badge-textColor) !important;
+    font-family: var(--font-primary);
+    font-size: var(--activity-badge-fontSize);
+    font-weight: 400 !important;
+    line-height: var(--activity-badge-lineHeight);
+  }
 }
 
 .container_b5cd55 {
@@ -6918,32 +6859,35 @@ svg+.botText_a9e77f:before {
   left: 0;
 }
 .bar_b5cd55 {
-  background-color: hsl(var(--white-500-hsl) / .2);
+  background-color: var(--activity-bar-normal);
   border-radius: var(--radius-round);
   height: 4px;
   margin-bottom: 16px;
 }
 .progress_b5cd55 {
-  background-color: hsl(var(--white-500-hsl) / .6);
+  background-color: var(--activity-bar-progress);
 }
-.text_b5cd55 {
+.text_b5cd55.text_b5cd55 {
   bottom: 0;
   font-family: inherit;
-  font-size: 12px;
+  font-size: var(--activity-timestamp-fontSize);
   font-weight: 500;
-  line-height: 12px;
+  line-height: var(--activity-timestamp-lineHeight);
   position: absolute;
-
   &:last-child {
     right: 0;
   }
 }
 
-.content_c1d9fd,
-.content_c1d9fd * {
-  color: var(--userPopout-play-tertiary) !important;
-  font-size: 14px !important;
-  line-height: 16px !important;
+.activityName_c1d9fd, .nameNormal_c1d9fd, .nameWrap_c1d9fd {
+  color: var(--activity-sub) !important;
+  font-size: var(--activity-sub-fontSize) !important;
+  line-height: var(--activity-sub-lineHeight) !important;
+}
+.activityVoiceChannel_c1d9fd :is(.content_c1d9fd, .details_c1d9fd, .timestamp_c1d9fd, .playTime_c1d9fd, .state_c1d9fd) {
+  color: var(--activity-dim) !important;
+  font-size: var(--activity-dim-fontSize) !important;
+  line-height: var(--activity-dim-lineHeight) !important;
 }
 .textRow_c1d9fd {
   margin-bottom: 2px;
@@ -6955,10 +6899,10 @@ svg+.botText_a9e77f:before {
   font-weight: 600;
 }
 .bar_ec2fa7 {
-  background-color: hsl(var(--white-500-hsl) / .2) !important;
+  background-color: var(--activity-bar-normal) !important;
 }
 .barInner_ec2fa7 {
-  background-color: hsl(var(--white-500-hsl) / .6) !important;
+  background-color: var(--activity-bar-progress) !important;
 }
 .text_ec2fa7 {
   color: var(--userPopout-play-tertiary) !important;
@@ -7009,6 +6953,7 @@ svg+.botText_a9e77f:before {
   overflow: hidden;
 }
 .section_ba4d80 {
+  background: var(--userPopout-section-bg);
   padding: 10px;
   gap: 8px;
 }
@@ -7020,9 +6965,11 @@ svg+.botText_a9e77f:before {
   text-transform: uppercase;
 }
 .root_e6f2d0 {
+  background: var(--userPopout-section-bg);
   padding: 10px;
 }
 section > .root_e6f2d0 {
+  background: transparent;
   padding: 0;
 }
 .root_e6f2d0, .root_d1ae73 {
@@ -7230,7 +7177,7 @@ section > .root_e6f2d0 {
   border-radius: 0;
 }
 .tabBar_ecc04c {
-  background-color: var(--userPopout-play);
+  background: var(--userPopout-play);
   border-bottom: 0;
   border-top: 1px solid hsl(var(--white-500-hsl) / .1);
   flex-shrink: 0;
@@ -7253,6 +7200,7 @@ section > .root_e6f2d0 {
 }
 
 .scroller_d53fbd {
+  background: var(--userPopout-section-bg);
   gap: 0;
   min-height: 240px;
   padding: 20px 10px;
@@ -7308,6 +7256,7 @@ section > .root_e6f2d0 {
 }
 
 .listScroller_d2d6cb {
+  background: var(--userPopout-section-bg);
   min-height: 240px;
   padding: 20px 0;
 }
@@ -8301,7 +8250,7 @@ section > .root_e6f2d0 {
 }
 .side_a0.side_a0.side_a0 .themed_a0.selected_a0.item_a0 {
   background-color: var(--brand-500);
-  color: var(--white-500) !important;
+  color: var(--white) !important;
 
   .premiumLabel_ae3c77 {
     color: inherit;
@@ -11049,9 +10998,9 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --button-outline-primary-border: var(--primary-500);
     --button-outline-primary-border-active: var(--primary-430);
     --button-outline-primary-border-hover: var(--primary-500);
-    --button-outline-primary-text: var(--white-500);
-    --button-outline-primary-text-active: var(--white-500);
-    --button-outline-primary-text-hover: var(--white-500);
+    --button-outline-primary-text: var(--white);
+    --button-outline-primary-text-active: var(--white);
+    --button-outline-primary-text-hover: var(--white);
   --button-positive-background: var(--legacy-positive);
   --button-positive-background-active: var(--legacy-positive-active);
   --button-positive-background-disabled: var(--legacy-positive);
@@ -11127,20 +11076,20 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --info-box-background: hsl(var(--blue-345-hsl) / 0.1);
   --info-danger-background: var(--legacy-danger-10a);
   --info-danger-foreground: var(--legacy-danger);
-  --info-danger-text: var(--white-500);
+  --info-danger-text: var(--white);
   --info-help-background: hsl(var(--blue-345-hsl) / 0.1);
   --info-help-foreground: var(--blue-345);
-  --info-help-text: var(--white-500);
+  --info-help-text: var(--white);
   --info-positive-background: var(--legacy-positive-10a);
   --info-positive-foreground: var(--legacy-positive);
-  --info-positive-text: var(--white-500);
+  --info-positive-text: var(--white);
   --info-warning-background: var(--legacy-warning-10a);
   --info-warning-foreground: var(--legacy-warning);
-  --info-warning-text: var(--white-500);
+  --info-warning-text: var(--white);
   --input-background: var(--primary-700);
   --input-focused-border: hsl(var(--white-500-hsl) / 0.16);
   --input-placeholder-text: var(--input-placeholder-text-dark);
-  --interactive-active: var(--white-500);
+  --interactive-active: var(--white);
   --interactive-hover: hsl(var(--white-500-hsl) / 0.8);
   --interactive-muted: hsl(var(--white-500-hsl) / 0.3);
   --interactive-normal: hsl(var(--white-500-hsl) / 0.6);
@@ -11149,12 +11098,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --legacy-blur-fallback-default: hsl(var(--primary-660-hsl) / 0.975);
   --legacy-blur-fallback-ultra-thin: hsl(var(--black-500-hsl) / 0.95);
   --live-stage-tile-border: hsl(var(--primary-500-hsl) / 0.6);
-  --logo-primary: var(--white-500);
+  --logo-primary: var(--white);
   --mention-background: var(--brand-10a);
   --mention-foreground: var(--brand-500);
   --modal-background: var(--primary-600);
   --modal-footer-background: var(--primary-630);
-  --navigator-header-tint: var(--white-500);
+  --navigator-header-tint: var(--white);
   --panel-bg: var(--primary-600);
   --polls-normal-fill-hover: var(--primary-600);
   --polls-normal-image-background: var(--primary-660);
@@ -11176,45 +11125,45 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --redesign-activity-card-overflow-background: var(--primary-630);
   --redesign-button-active-background: var(--legacy-positive);
   --redesign-button-active-pressed-background: var(--legacy-positive-active);
-  --redesign-button-active-text: var(--white-500);
+  --redesign-button-active-text: var(--white);
   --redesign-button-danger-background: var(--legacy-danger);
   --redesign-button-danger-pressed-background: var(--legacy-danger-active);
-  --redesign-button-danger-text: var(--white-500);
+  --redesign-button-danger-text: var(--white);
   --redesign-button-destructive-background: var(--legacy-danger);
   --redesign-button-destructive-pressed-background: var(--legacy-danger-active);
-  --redesign-button-destructive-text: var(--white-500);
+  --redesign-button-destructive-text: var(--white);
   --redesign-button-overlay-alpha-background: hsl(var(--black-500-hsl) / 0.54);
   --redesign-button-overlay-alpha-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-  --redesign-button-overlay-alpha-text: var(--white-500);
-  --redesign-button-overlay-background: var(--white-500);
+  --redesign-button-overlay-alpha-text: var(--white);
+  --redesign-button-overlay-background: var(--white);
   --redesign-button-overlay-pressed-background: var(--primary-230);
   --redesign-button-overlay-text: var(--primary-860);
   --redesign-button-positive-background: var(--legacy-positive);
   --redesign-button-positive-pressed-background: var(--legacy-positive-active);
-  --redesign-button-positive-text: var(--white-500);
+  --redesign-button-positive-text: var(--white);
   --redesign-button-primary-alt-background: hsl(var(--brand-500-hsl) / 0);
   --redesign-button-primary-alt-border: var(--brand-360);
   --redesign-button-primary-alt-on-blurple-background: hsl(var(--brand-530-hsl) / 0);
-  --redesign-button-primary-alt-on-blurple-border: var(--white-500);
+  --redesign-button-primary-alt-on-blurple-border: var(--white);
   --redesign-button-primary-alt-on-blurple-pressed-background: var(--brand-530);
   --redesign-button-primary-alt-on-blurple-pressed-border: var(--brand-360);
-  --redesign-button-primary-alt-on-blurple-text: var(--white-500);
+  --redesign-button-primary-alt-on-blurple-text: var(--white);
   --redesign-button-primary-alt-pressed-background: hsl(var(--brand-700-hsl) / 0.16);
   --redesign-button-primary-alt-pressed-border: hsl(var(--brand-400-hsl) / 0.5);
   --redesign-button-primary-alt-pressed-text: var(--brand-360);
   --redesign-button-primary-alt-text: var(--brand-360);
   --redesign-button-primary-background: var(--brand-500);
   --redesign-button-primary-on-blurple-pressed-text: var(--brand-530);
-  --redesign-button-primary-overlay-background: var(--white-500);
+  --redesign-button-primary-overlay-background: var(--white);
   --redesign-button-primary-overlay-pressed-background: var(--primary-230);
   --redesign-button-primary-overlay-text: var(--primary-860);
   --redesign-button-primary-pressed-background: var(--brand-560);
-  --redesign-button-primary-text: var(--white-500);
+  --redesign-button-primary-text: var(--white);
   --redesign-button-secondary-background: var(--primary-460);
   --redesign-button-secondary-border: hsl(var(--white-500-hsl) / 0.08);
   --redesign-button-secondary-overlay-background: hsl(var(--black-500-hsl) / 0.54);
   --redesign-button-secondary-overlay-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-  --redesign-button-secondary-overlay-text: var(--white-500);
+  --redesign-button-secondary-overlay-text: var(--white);
   --redesign-button-secondary-pressed-background: var(--primary-500);
   --redesign-button-secondary-pressed-border: hsl(var(--transparent-hsl) / 0);
   --redesign-button-secondary-text: var(--primary-230);
@@ -11249,14 +11198,14 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --stage-card-pill-bg: var(--primary-630);
   --status-danger: var(--legacy-danger);
   --status-danger-background: var(--legacy-danger);
-  --status-danger-text: var(--white-500);
+  --status-danger-text: var(--white);
   --status-dnd: var(--legacy-danger);
   --status-idle: var(--legacy-warning);
   --status-offline: var(--primary-360);
   --status-online: var(--legacy-positive);
   --status-positive: var(--legacy-positive);
   --status-positive-background: var(--legacy-positive);
-  --status-positive-text: var(--white-500);
+  --status-positive-text: var(--white);
   --status-speaking: var(--legacy-positive);
   --status-warning: var(--legacy-warning);
   --status-warning-background: var(--legacy-warning);
@@ -11288,15 +11237,15 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 
 .theme-light {
     --action-sheet-gradient-bg: var(--primary-130);
-    --activity-card-background: var(--white-500);
+    --activity-card-background: var(--white);
     --activity-card-icon-overlay: hsl(var(--primary-600-hsl) / 0.85);
-    --alert-bg: var(--white-500);
+    --alert-bg: var(--white);
     --android-navigation-bar-background: var(--primary-100);
     --android-navigation-scrim-background: hsl(var(--primary-100-hsl) / 0.5);
     --android-ripple: hsl(var(--black-500-hsl) / 0.12);
     --autocomplete-bg: var(--primary-100);
     --background-accent: var(--primary-430);
-    --background-floating: var(--white-500);
+    --background-floating: var(--white);
   --background-mentioned: var(--legacy-warning-10a);
   --background-mentioned-hover: var(--legacy-warning-10a);
   --background-message-automod: var(--legacy-danger-05a);
@@ -11305,29 +11254,29 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --background-message-highlight-hover: var(--brand-20a);
   --background-message-hover: transparent;
     --background-mobile-primary: var(--primary-100);
-    --background-mobile-secondary: var(--white-500);
+    --background-mobile-secondary: var(--white);
     --background-modifier-accent: hsl(var(--primary-400-hsl) / 0.24);
     --background-modifier-accent-2: hsl(var(--primary-400-hsl) / 0.16);
     --background-modifier-active: hsl(var(--primary-400-hsl) / 0.2);
     --background-modifier-hover: hsl(var(--primary-400-hsl) / 0.16);
     --background-modifier-selected: hsl(var(--primary-400-hsl) / 0.24);
-    --background-nested-floating: var(--white-500);
-    --background-primary: var(--white-500);
+    --background-nested-floating: var(--white);
+    --background-primary: var(--white);
     --background-secondary: var(--primary-130);
     --background-secondary-alt: var(--primary-160);
     --background-tertiary: var(--primary-200);
     --bg-backdrop: hsl(var(--black-500-hsl) / 0.54);
     --bg-backdrop-no-opacity: var(--black-500);
-    --bg-base-primary: var(--white-500);
+    --bg-base-primary: var(--white);
     --bg-base-secondary: var(--primary-130);
     --bg-base-tertiary: var(--primary-160);
     --bg-brand: var(--brand-500);
     --bg-mod-faint: hsl(var(--primary-400-hsl) / 0.08);
     --bg-mod-strong: hsl(var(--primary-400-hsl) / 0.24);
     --bg-mod-subtle: hsl(var(--primary-400-hsl) / 0.16);
-    --bg-surface-overlay: var(--white-500);
+    --bg-surface-overlay: var(--white);
     --bg-surface-overlay-tmp: var(--primary-130);
-    --bg-surface-raised: var(--white-500);
+    --bg-surface-raised: var(--white);
     --black: var(--black-500);
     --blur-fallback: hsl(var(--primary-530-hsl) / 0.96);
     --blur-fallback-pressed: hsl(var(--primary-560-hsl) / 0.96);
@@ -11374,8 +11323,8 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --button-outline-primary-border-active: var(--primary-600);
     --button-outline-primary-border-hover: var(--primary-530);
     --button-outline-primary-text: var(--black-500);
-    --button-outline-primary-text-active: var(--white-500);
-    --button-outline-primary-text-hover: var(--white-500);
+    --button-outline-primary-text-active: var(--white);
+    --button-outline-primary-text-hover: var(--white);
   --button-positive-background: var(--legacy-positive);
   --button-positive-background-active: var(--legacy-positive-active);
   --button-positive-background-disabled: var(--legacy-positive);
@@ -11386,21 +11335,21 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --button-secondary-background-disabled: #99aab5;
     --card-gradient-bg: hsl(var(--white-500-hsl) / 0.7);
     --card-gradient-pressed-bg: hsl(var(--white-500-hsl) / 0.5);
-    --card-primary-bg: var(--white-500);
+    --card-primary-bg: var(--white);
     --card-primary-pressed-bg: var(--primary-160);
-    --card-secondary-bg: var(--white-500);
+    --card-secondary-bg: var(--white);
     --card-secondary-pressed-bg: var(--primary-160);
     --channel-icon: var(--primary-430);
     --channel-text-area-placeholder: var(--primary-400);
     --channels-default: var(--primary-460);
     --channeltextarea-background: var(--primary-160);
-    --chat-background: var(--white-500);
+    --chat-background: var(--white);
     --chat-banner-bg: var(--primary-130);
     --chat-border: var(--primary-200);
-    --chat-input-container-background: var(--white-500);
+    --chat-input-container-background: var(--white);
     --chat-swipe-to-reply-background: var(--primary-160);
     --chat-swipe-to-reply-gradient-background: hsl(var(--white-500-hsl) / 0.4);
-    --coachmark-bg: var(--white-500);
+    --coachmark-bg: var(--white);
     --content-inventory-media-seekbar-container: hsl(var(--plum-6-hsl) / 0.24);
     --content-inventory-overlay-text-primary: hsl(var(--white-500-hsl) / 0.85);
     --content-inventory-overlay-text-secondary: hsl(var(--white-500-hsl) / 0.7);
@@ -11417,7 +11366,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --creator-revenue-progress-bar: var(--teal-345);
     --deprecated-card-bg: var(--primary-100);
     --deprecated-card-editable-bg: hsl(var(--primary-100-hsl) / 0.6);
-    --deprecated-quickswitcher-input-background: var(--white-500);
+    --deprecated-quickswitcher-input-background: var(--white);
     --deprecated-quickswitcher-input-placeholder: hsl(var(--primary-500-hsl) / 0.3);
     --deprecated-store-bg: var(--primary-100);
     --deprecated-text-input-bg: var(--primary-200);
@@ -11436,8 +11385,8 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --forum-post-extra-media-count-container-background: hsl(var(--primary-160-hsl) / 0.8);
     --forum-post-tag-background: hsl(var(--primary-160-hsl) / 0.9);
     --guild-icon-inactive-bg: var(--primary-130);
-    --guild-icon-inactive-nested-bg: var(--white-500);
-    --guild-notifications-bottom-sheet-pill-background: var(--white-500);
+    --guild-icon-inactive-nested-bg: var(--white);
+    --guild-notifications-bottom-sheet-pill-background: var(--white);
     --halo-positive: hsl(var(--green-360-hsl) / 0.24);
     --header-muted: var(--primary-460);
     --header-primary: var(--primary-500);
@@ -11476,12 +11425,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --logo-primary: var(--brand-500);
   --mention-background: var(--brand-10a);
   --mention-foreground: var(--brand-500);
-    --modal-background: var(--white-500);
+    --modal-background: var(--white);
     --modal-footer-background: var(--primary-130);
     --navigator-header-tint: var(--primary-500);
-    --panel-bg: var(--white-500);
+    --panel-bg: var(--white);
     --polls-normal-fill-hover: var(--primary-230);
-    --polls-normal-image-background: var(--white-500);
+    --polls-normal-image-background: var(--white);
     --polls-victor-fill: hsl(var(--green-400-hsl) / 0.2);
     --polls-voted-fill: hsl(var(--brand-500-hsl) / 0.2);
     --profile-gradient-card-background: hsl(var(--white-500-hsl) / 0.7);
@@ -11493,52 +11442,52 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --profile-gradient-role-pill-background: hsl(var(--white-500-hsl) / 0.5);
     --profile-gradient-role-pill-border: hsl(var(--primary-660-hsl) / 0.2);
     --profile-gradient-section-box: hsl(var(--white-500-hsl) / 0.45);
-    --redesign-activity-card-background: var(--white-500);
+    --redesign-activity-card-background: var(--white);
     --redesign-activity-card-background-pressed: var(--primary-160);
     --redesign-activity-card-badge-icon: var(--primary-400);
     --redesign-activity-card-border: hsl(var(--primary-400-hsl) / 0.24);
     --redesign-activity-card-overflow-background: var(--primary-230);
     --redesign-button-active-background: var(--green-430);
     --redesign-button-active-pressed-background: var(--green-460);
-    --redesign-button-active-text: var(--white-500);
+    --redesign-button-active-text: var(--white);
     --redesign-button-danger-background: var(--red-430);
     --redesign-button-danger-pressed-background: var(--red-460);
-    --redesign-button-danger-text: var(--white-500);
+    --redesign-button-danger-text: var(--white);
     --redesign-button-destructive-background: var(--red-430);
     --redesign-button-destructive-pressed-background: var(--red-460);
-    --redesign-button-destructive-text: var(--white-500);
+    --redesign-button-destructive-text: var(--white);
     --redesign-button-overlay-alpha-background: hsl(var(--black-500-hsl) / 0.54);
     --redesign-button-overlay-alpha-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-    --redesign-button-overlay-alpha-text: var(--white-500);
-    --redesign-button-overlay-background: var(--white-500);
+    --redesign-button-overlay-alpha-text: var(--white);
+    --redesign-button-overlay-background: var(--white);
     --redesign-button-overlay-pressed-background: var(--primary-230);
     --redesign-button-overlay-text: var(--primary-860);
     --redesign-button-positive-background: var(--green-430);
     --redesign-button-positive-pressed-background: var(--green-460);
-    --redesign-button-positive-text: var(--white-500);
+    --redesign-button-positive-text: var(--white);
     --redesign-button-primary-alt-background: hsl(var(--brand-500-hsl) / 0);
     --redesign-button-primary-alt-border: var(--brand-500);
     --redesign-button-primary-alt-on-blurple-background: hsl(var(--brand-530-hsl) / 0);
-    --redesign-button-primary-alt-on-blurple-border: var(--white-500);
+    --redesign-button-primary-alt-on-blurple-border: var(--white);
     --redesign-button-primary-alt-on-blurple-pressed-background: var(--brand-530);
     --redesign-button-primary-alt-on-blurple-pressed-border: var(--brand-360);
-    --redesign-button-primary-alt-on-blurple-text: var(--white-500);
+    --redesign-button-primary-alt-on-blurple-text: var(--white);
     --redesign-button-primary-alt-pressed-background: hsl(var(--brand-500-hsl) / 0.06);
     --redesign-button-primary-alt-pressed-border: var(--brand-330);
     --redesign-button-primary-alt-pressed-text: var(--brand-560);
     --redesign-button-primary-alt-text: var(--brand-500);
     --redesign-button-primary-background: var(--brand-500);
     --redesign-button-primary-on-blurple-pressed-text: var(--brand-530);
-    --redesign-button-primary-overlay-background: var(--white-500);
+    --redesign-button-primary-overlay-background: var(--white);
     --redesign-button-primary-overlay-pressed-background: var(--primary-230);
     --redesign-button-primary-overlay-text: var(--primary-860);
     --redesign-button-primary-pressed-background: var(--brand-560);
-    --redesign-button-primary-text: var(--white-500);
-    --redesign-button-secondary-background: var(--white-500);
+    --redesign-button-primary-text: var(--white);
+    --redesign-button-secondary-background: var(--white);
     --redesign-button-secondary-border: hsl(var(--black-500-hsl) / 0.08);
     --redesign-button-secondary-overlay-background: hsl(var(--black-500-hsl) / 0.54);
     --redesign-button-secondary-overlay-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-    --redesign-button-secondary-overlay-text: var(--white-500);
+    --redesign-button-secondary-overlay-text: var(--white);
     --redesign-button-secondary-pressed-background: var(--primary-130);
     --redesign-button-secondary-pressed-border: hsl(var(--black-500-hsl) / 0.04);
     --redesign-button-secondary-text: var(--primary-600);
@@ -11555,10 +11504,10 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --redesign-channel-name-text: var(--primary-860);
     --redesign-chat-input-background: hsl(var(--black-500-hsl) / 0.08);
     --redesign-image-button-pressed-background: hsl(var(--black-500-hsl) / 0.08);
-    --redesign-input-control-active-bg: var(--white-500);
+    --redesign-input-control-active-bg: var(--white);
     --redesign-input-control-selected: var(--brand-500);
     --redesign-only-background-active: var(--primary-430);
-    --redesign-only-background-default: var(--white-500);
+    --redesign-only-background-default: var(--white);
     --redesign-only-background-overlay: var(--primary-160);
     --redesign-only-background-raised: var(--primary-130);
     --redesign-only-background-sunken: var(--primary-200);
@@ -11570,21 +11519,21 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --scrollbar-thin-track: hsl(var(--black-500-hsl) / 0);
     --spoiler-hidden-background: var(--primary-200);
     --spoiler-revealed-background: var(--primary-160);
-    --stage-card-pill-bg: var(--white-500);
+    --stage-card-pill-bg: var(--white);
     --status-danger: var(--legacy-danger);
     --status-danger-background: var(--legacy-danger);
-    --status-danger-text: var(--white-500);
+    --status-danger-text: var(--white);
     --status-dnd: var(--legacy-danger);
     --status-idle: var(--legacy-warning);
     --status-offline: var(--primary-460);
     --status-online: var(--legacy-positive);
     --status-positive: var(--legacy-positive);
     --status-positive-background: var(--legacy-positive);
-    --status-positive-text: var(--white-500);
+    --status-positive-text: var(--white);
     --status-speaking: var(--legacy-positive);
     --status-warning: var(--legacy-warning);
     --status-warning-background: var(--legacy-warning);
-    --status-warning-text: var(--white-500);
+    --status-warning-text: var(--white);
     --text-brand: var(--brand-500);
     --text-danger: var(--legacy-danger);
     --text-link: var(--blue-430);
@@ -11601,13 +11550,13 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
     --textbox-markdown-syntax: var(--primary-530);
     --theme-locked-blur-fallback: hsl(var(--primary-700-hsl) / 0.96);
     --thread-channel-spine: var(--primary-300);
-    --toast-bg: var(--white-500);
+    --toast-bg: var(--white);
     --typing-indicator-bg: var(--primary-130);
     --user-profile-header-overflow-background: hsl(var(--white-200-hsl) / 0.5);
     --voice-video-video-tile-background: hsl(var(--plum-17-hsl) / 0.4);
     --voice-video-video-tile-blur-fallback: hsl(var(--primary-700-hsl) / 0.48);
     --white: var(--white-500);
-    --you-bar-bg: var(--white-500);
+    --you-bar-bg: var(--white);
 }
 
 .theme-darker.theme-darker {
@@ -11697,9 +11646,9 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --button-outline-primary-border: var(--primary-500);
   --button-outline-primary-border-active: var(--plum-11);
   --button-outline-primary-border-hover: var(--plum-13);
-  --button-outline-primary-text: var(--white-500);
-  --button-outline-primary-text-active: var(--white-500);
-  --button-outline-primary-text-hover: var(--white-500);
+  --button-outline-primary-text: var(--white);
+  --button-outline-primary-text-active: var(--white);
+  --button-outline-primary-text-hover: var(--white);
   --button-positive-background: var(--legacy-positive);
   --button-positive-background-active: var(--legacy-positive-active);
   --button-positive-background-disabled: var(--legacy-positive);
@@ -11775,20 +11724,20 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --info-box-background: hsl(var(--blue-345-hsl) / 0.1);
   --info-danger-background: hsl(var(--red-400-hsl) / 0.1);
   --info-danger-foreground: var(--red-400);
-  --info-danger-text: var(--white-500);
+  --info-danger-text: var(--white);
   --info-help-background: hsl(var(--blue-345-hsl) / 0.1);
   --info-help-foreground: var(--blue-345);
-  --info-help-text: var(--white-500);
+  --info-help-text: var(--white);
   --info-positive-background: hsl(var(--green-360-hsl) / 0.1);
   --info-positive-foreground: var(--green-360);
-  --info-positive-text: var(--white-500);
+  --info-positive-text: var(--white);
   --info-warning-background: hsl(var(--yellow-300-hsl) / 0.1);
   --info-warning-foreground: var(--yellow-300);
-  --info-warning-text: var(--white-500);
+  --info-warning-text: var(--white);
   --input-background: hsl(var(--plum-24-hsl) / 0.85);
   --input-focused-border: hsl(var(--plum-11-hsl) / 0.32);
   --input-placeholder-text: var(--plum-10);
-  --interactive-active: var(--white-500);
+  --interactive-active: var(--white);
   --interactive-hover: hsl(var(--white-500-hsl) / 0.8);
   --interactive-muted: hsl(var(--white-500-hsl) / 0.3);
   --interactive-normal: hsl(var(--white-500-hsl) / 0.6);
@@ -11797,12 +11746,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --legacy-blur-fallback-default: hsl(var(--primary-660-hsl) / 0.975);
   --legacy-blur-fallback-ultra-thin: hsl(var(--black-500-hsl) / 0.95);
   --live-stage-tile-border: hsl(var(--plum-13-hsl) / 0.6);
-  --logo-primary: var(--white-500);
+  --logo-primary: var(--white);
   --mention-background: var(--brand-10a);
   --mention-foreground: var(--brand-500);
   --modal-background: var(--plum-16);
   --modal-footer-background: var(--plum-17);
-  --navigator-header-tint: var(--white-500);
+  --navigator-header-tint: var(--white);
   --panel-bg: var(--plum-20);
   --polls-normal-fill-hover: var(--primary-600);
   --polls-normal-image-background: var(--primary-660);
@@ -11824,45 +11773,45 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --redesign-activity-card-overflow-background: var(--plum-17);
   --redesign-button-active-background: var(--green-430);
   --redesign-button-active-pressed-background: var(--green-460);
-  --redesign-button-active-text: var(--white-500);
+  --redesign-button-active-text: var(--white);
   --redesign-button-danger-background: var(--red-430);
   --redesign-button-danger-pressed-background: var(--red-460);
-  --redesign-button-danger-text: var(--white-500);
+  --redesign-button-danger-text: var(--white);
   --redesign-button-destructive-background: var(--red-430);
   --redesign-button-destructive-pressed-background: var(--red-460);
-  --redesign-button-destructive-text: var(--white-500);
+  --redesign-button-destructive-text: var(--white);
   --redesign-button-overlay-alpha-background: hsl(var(--black-500-hsl) / 0.54);
   --redesign-button-overlay-alpha-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-  --redesign-button-overlay-alpha-text: var(--white-500);
-  --redesign-button-overlay-background: var(--white-500);
+  --redesign-button-overlay-alpha-text: var(--white);
+  --redesign-button-overlay-background: var(--white);
   --redesign-button-overlay-pressed-background: var(--primary-230);
   --redesign-button-overlay-text: var(--primary-860);
   --redesign-button-positive-background: var(--green-430);
   --redesign-button-positive-pressed-background: var(--green-460);
-  --redesign-button-positive-text: var(--white-500);
+  --redesign-button-positive-text: var(--white);
   --redesign-button-primary-alt-background: hsl(var(--brand-500-hsl) / 0);
   --redesign-button-primary-alt-border: var(--brand-360);
   --redesign-button-primary-alt-on-blurple-background: hsl(var(--brand-530-hsl) / 0);
-  --redesign-button-primary-alt-on-blurple-border: var(--white-500);
+  --redesign-button-primary-alt-on-blurple-border: var(--white);
   --redesign-button-primary-alt-on-blurple-pressed-background: var(--brand-530);
   --redesign-button-primary-alt-on-blurple-pressed-border: var(--brand-360);
-  --redesign-button-primary-alt-on-blurple-text: var(--white-500);
+  --redesign-button-primary-alt-on-blurple-text: var(--white);
   --redesign-button-primary-alt-pressed-background: hsl(var(--brand-700-hsl) / 0.16);
   --redesign-button-primary-alt-pressed-border: hsl(var(--brand-400-hsl) / 0.5);
   --redesign-button-primary-alt-pressed-text: var(--brand-360);
   --redesign-button-primary-alt-text: var(--brand-360);
   --redesign-button-primary-background: var(--brand-500);
   --redesign-button-primary-on-blurple-pressed-text: var(--brand-530);
-  --redesign-button-primary-overlay-background: var(--white-500);
+  --redesign-button-primary-overlay-background: var(--white);
   --redesign-button-primary-overlay-pressed-background: var(--plum-4);
   --redesign-button-primary-overlay-text: var(--plum-25);
   --redesign-button-primary-pressed-background: var(--brand-560);
-  --redesign-button-primary-text: var(--white-500);
+  --redesign-button-primary-text: var(--white);
   --redesign-button-secondary-background: var(--plum-15);
   --redesign-button-secondary-border: hsl(var(--plum-11-hsl) / 0.12);
   --redesign-button-secondary-overlay-background: hsl(var(--black-500-hsl) / 0.54);
   --redesign-button-secondary-overlay-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-  --redesign-button-secondary-overlay-text: var(--white-500);
+  --redesign-button-secondary-overlay-text: var(--white);
   --redesign-button-secondary-pressed-background: var(--plum-13);
   --redesign-button-secondary-pressed-border: hsl(var(--plum-11-hsl) / 0.06);
   --redesign-button-secondary-text: var(--plum-6);
@@ -11897,14 +11846,14 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --stage-card-pill-bg: var(--plum-19);
   --status-danger: var(--legacy-danger);
   --status-danger-background: var(--legacy-danger);
-  --status-danger-text: var(--white-500);
+  --status-danger-text: var(--white);
   --status-dnd: var(--legacy-danger);
   --status-idle: var(--legacy-warning);
   --status-offline: var(--plum-9);
   --status-online: var(--legacy-positive);
   --status-positive: var(--legacy-positive);
   --status-positive-background: var(--legacy-positive);
-  --status-positive-text: var(--white-500);
+  --status-positive-text: var(--white);
   --status-speaking: var(--legacy-warning);
   --status-warning: var(--legacy-warning);
   --status-warning-background: var(--legacy-warning);
@@ -12021,9 +11970,9 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --button-outline-primary-border: var(--primary-500);
   --button-outline-primary-border-active: var(--plum-11);
   --button-outline-primary-border-hover: var(--plum-13);
-  --button-outline-primary-text: var(--white-500);
-  --button-outline-primary-text-active: var(--white-500);
-  --button-outline-primary-text-hover: var(--white-500);
+  --button-outline-primary-text: var(--white);
+  --button-outline-primary-text-active: var(--white);
+  --button-outline-primary-text-hover: var(--white);
   --button-positive-background: var(--legacy-positive);
   --button-positive-background-active: var(--legacy-positive-active);
   --button-positive-background-disabled: var(--legacy-positive);
@@ -12099,20 +12048,20 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --info-box-background: hsl(var(--blue-345-hsl) / 0.1);
   --info-danger-background: hsl(var(--red-400-hsl) / 0.1);
   --info-danger-foreground: var(--red-400);
-  --info-danger-text: var(--white-500);
+  --info-danger-text: var(--white);
   --info-help-background: hsl(var(--blue-345-hsl) / 0.1);
   --info-help-foreground: var(--blue-345);
-  --info-help-text: var(--white-500);
+  --info-help-text: var(--white);
   --info-positive-background: hsl(var(--green-360-hsl) / 0.1);
   --info-positive-foreground: var(--green-360);
-  --info-positive-text: var(--white-500);
+  --info-positive-text: var(--white);
   --info-warning-background: hsl(var(--yellow-300-hsl) / 0.1);
   --info-warning-foreground: var(--yellow-300);
-  --info-warning-text: var(--white-500);
+  --info-warning-text: var(--white);
   --input-background: hsl(var(--plum-23-alpha-hsl) / 0.09);
   --input-focused-border: hsl(var(--plum-11-hsl) / 0.24);
   --input-placeholder-text: var(--plum-9);
-  --interactive-active: var(--white-500);
+  --interactive-active: var(--white);
   --interactive-hover: hsl(var(--white-500-hsl) / 0.8);
   --interactive-muted: hsl(var(--white-500-hsl) / 0.3);
   --interactive-normal: hsl(var(--white-500-hsl) / 0.6);
@@ -12121,12 +12070,12 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --legacy-blur-fallback-default: hsl(var(--primary-660-hsl) / 0.975);
   --legacy-blur-fallback-ultra-thin: hsl(var(--black-500-hsl) / 0.95);
   --live-stage-tile-border: hsl(var(--plum-13-hsl) / 0.6);
-  --logo-primary: var(--white-500);
+  --logo-primary: var(--white);
   --mention-background: var(--brand-10a);
   --mention-foreground: var(--brand-500);
   --modal-background: var(--plum-16);
   --modal-footer-background: var(--plum-17);
-  --navigator-header-tint: var(--white-500);
+  --navigator-header-tint: var(--white);
   --panel-bg: var(--plum-24);
   --polls-normal-fill-hover: var(--primary-600);
   --polls-normal-image-background: var(--primary-660);
@@ -12148,45 +12097,45 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --redesign-activity-card-overflow-background: var(--primary-630);
   --redesign-button-active-background: var(--green-430);
   --redesign-button-active-pressed-background: var(--green-460);
-  --redesign-button-active-text: var(--white-500);
+  --redesign-button-active-text: var(--white);
   --redesign-button-danger-background: var(--red-430);
   --redesign-button-danger-pressed-background: var(--red-460);
-  --redesign-button-danger-text: var(--white-500);
+  --redesign-button-danger-text: var(--white);
   --redesign-button-destructive-background: var(--red-430);
   --redesign-button-destructive-pressed-background: var(--red-460);
-  --redesign-button-destructive-text: var(--white-500);
+  --redesign-button-destructive-text: var(--white);
   --redesign-button-overlay-alpha-background: hsl(var(--black-500-hsl) / 0.54);
   --redesign-button-overlay-alpha-pressed-background: hsl(var(--black-500-hsl) /0.64);
-  --redesign-button-overlay-alpha-text: var(--white-500);
-  --redesign-button-overlay-background: var(--white-500);
+  --redesign-button-overlay-alpha-text: var(--white);
+  --redesign-button-overlay-background: var(--white);
   --redesign-button-overlay-pressed-background: var(--primary-230);
   --redesign-button-overlay-text: var(--primary-860);
   --redesign-button-positive-background: var(--green-430);
   --redesign-button-positive-pressed-background: var(--green-460);
-  --redesign-button-positive-text: var(--white-500);
+  --redesign-button-positive-text: var(--white);
   --redesign-button-primary-alt-background: hsl(var(--brand-500-hsl) / 0);
   --redesign-button-primary-alt-border: var(--brand-400);
   --redesign-button-primary-alt-on-blurple-background: hsl(var(--brand-530-hsl) / 0);
-  --redesign-button-primary-alt-on-blurple-border: var(--white-500);
+  --redesign-button-primary-alt-on-blurple-border: var(--white);
   --redesign-button-primary-alt-on-blurple-pressed-background: var(--brand-530);
   --redesign-button-primary-alt-on-blurple-pressed-border: var(--brand-360);
-  --redesign-button-primary-alt-on-blurple-text: var(--white-500);
+  --redesign-button-primary-alt-on-blurple-text: var(--white);
   --redesign-button-primary-alt-pressed-background: hsl(var(--brand-700-hsl) / 0.16);
   --redesign-button-primary-alt-pressed-border: hsl(var(--brand-400-hsl) / 0.5);
   --redesign-button-primary-alt-pressed-text: var(--brand-360);
   --redesign-button-primary-alt-text: var(--brand-400);
   --redesign-button-primary-background: var(--brand-500);
   --redesign-button-primary-on-blurple-pressed-text: var(--brand-530);
-  --redesign-button-primary-overlay-background: var(--white-500);
+  --redesign-button-primary-overlay-background: var(--white);
   --redesign-button-primary-overlay-pressed-background: var(--plum-4);
   --redesign-button-primary-overlay-text: var(--plum-25);
   --redesign-button-primary-pressed-background: var(--brand-560);
-  --redesign-button-primary-text: var(--white-500);
+  --redesign-button-primary-text: var(--white);
   --redesign-button-secondary-background: var(--plum-17);
   --redesign-button-secondary-border: hsl(var(--plum-11-hsl) / 0.12);
   --redesign-button-secondary-overlay-background: hsl(var(--black-500-hsl) / 0.54);
   --redesign-button-secondary-overlay-pressed-background: hsl(var(--black-500-hsl) / 0.64);
-  --redesign-button-secondary-overlay-text: var(--white-500);
+  --redesign-button-secondary-overlay-text: var(--white);
   --redesign-button-secondary-pressed-background: var(--plum-15);
   --redesign-button-secondary-pressed-border: hsl(var(--plum-11-hsl) / 0.06);
   --redesign-button-secondary-text: var(--plum-4);
@@ -12221,14 +12170,14 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --stage-card-pill-bg: var(--plum-25);
   --status-danger: var(--legacy-danger);
   --status-danger-background: var(--legacy-danger);
-  --status-danger-text: var(--white-500);
+  --status-danger-text: var(--white);
   --status-dnd: var(--legacy-danger);
   --status-idle: var(--legacy-warning);
   --status-offline: var(--plum-9);
   --status-online: var(--legacy-positive);
   --status-positive: var(--legacy-positive);
   --status-positive-background: var(--legacy-positive);
-  --status-positive-text: var(--white-500);
+  --status-positive-text: var(--white);
   --status-speaking: var(--legacy-positive);
   --status-warning: var(--legacy-warning);
   --status-warning-background: var(--legacy-warning);
@@ -12609,10 +12558,29 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-badge-dtm18: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='hsl(154,calc(var(--saturation-factor, 1)*49.6%25),47.5%25)' class='bd-icon'%3E%3Cpath d='M11.0833 1.0417c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H15.0833c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S4.7533 7.0417 5.5834 7.0417 7.0834 7.7116 7.0834 8.5417 6.4133 10.0417 5.5834 10.0417zm3-4C7.7533 6.0417 7.0834 5.3716 7.0834 4.5417S7.7533 3.0417 8.5834 3.0417s1.5.67 1.5 1.5S9.4133 6.0417 8.5834 6.0417zm5 0c-.83 0-1.5-.67-1.5-1.5S12.7534 3.0417 13.5833 3.0417s1.5.67 1.5 1.5S14.4133 6.0417 13.5833 6.0417zm3 4c-.83 0-1.5-.67-1.5-1.5S15.7534 7.0417 16.5833 7.0417s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/%3E%3C/svg%3E");
 }
 
+:root {
+  --activity-eyebrow: var(--text-muted);
+  --activity-sub: var(--header-primary);
+  --activity-sub-fontSize: 14px;
+  --activity-sub-lineHeight: 16px;
+  --activity-dim: var(--header-secondary);
+  --activity-dim-fontSize: 14px;
+  --activity-dim-lineHeight: 16px;
+  --activity-timestamp-fontSize: 12px;
+  --activity-timestamp-lineHeight: 12px;
+  --activity-badge-iconColor: var(--interactive-normal);
+  --activity-badge-textColor: var(--interactive-normal);
+  --activity-badge-fontSize: 14px;
+  --activity-badge-lineHeight: 16px;
+  --activity-bar-normal: var(--interactive-muted);
+  --activity-bar-progress: var(--interactive-active);
+}
+
 .outer_c69a7b {
   --userPopout-outer-padding: 0;
   --userPopout-outer-width: 250px;
-  --userPopout-inner-bg: var(--background-secondary);
+  --userPopout-bg: var(--background-tertiary);
+  --userPopout-section-bg: var(--background-secondary);
   --userPopout-banner-width: var(--userPopout-outer-width);
   --userPopout-avatar-pos-left: calc(50% - 90px / 2);
   --userPopout-avatar-pos-top: 20px;
@@ -12621,7 +12589,6 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-statusCircle-sizer: 14px;
   --userPopout-statusCircle-colorblind-sizer: calc(12px / var(--colorblind-status));
   --userPopout-statusCircle-colorblind-pos: 50%;
-  --userPopout-scroller-bgColor: var(--background-secondary);
   --userPopout-header-color: var(--text-muted);
   --userPopout-biteSize-roleHeader-padding: 0;
   --userPopout-biteSize-roleHeader-color: var(--header-secondary);
@@ -12629,6 +12596,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-role-bgColor: unset;
   --userPopout-role-BorderColor: var(--primary-500);
   --userPopout-note-bgColor: var(--background-tertiary);
+  --userPopout-biteSize-footer-bgColor: var(--background-secondary);
   --userPopout-footer-input-color: var(--text-normal);
   --userPopout-footer-input-placeholder: var(--text-muted);
   --userPopout-play: var(--background-tertiary);
@@ -12662,8 +12630,8 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 }
 .outer_c69a7b.custom-theme-background {
   --userPopout-outer-padding: 1px;
-  --userPopout-inner-bg: var(--profile-gradient-overlay-color);
-  --userPopout-scroller-bgColor: unset;
+  --userPopout-bg: var(--profile-gradient-overlay-color);
+  --userPopout-section-bg: transparent;
   --userPopout-header-color: var(--header-primary);
   --userPopout-biteSize-roleHeader-padding: 2px 4px;
   --userPopout-biteSize-roleHeader-color: var(--header-primary);
@@ -12678,22 +12646,29 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   --userPopout-footer-input-color: var(--header-primary);
   --userPopout-footer-input-placeholder: var(--header-primary);
   --userPopout-play: var(--profile-body-background-color);
-  --userPopout-play-primary: var(--white-500);
+  --userPopout-play-primary: var(--white);
   --userPopout-play-secondary: hsl(var(--white-500-hsl) / .8);
   --userPopout-play-tertiary: hsl(var(--white-500-hsl) / .6);
+  --activity-eyebrow: var(--header-primary);
 }
 .theme-light.outer_c69a7b.custom-theme-background {
   --userPopout-play-primary: var(--black-500);
   --userPopout-play-secondary: var(--black-500);
   --userPopout-play-tertiary: hsl(var(--black-500-hsl) / .8);
-}/**/
-:is(.biteSize_c69a7b, .panel_c69a7b):has(.card_ae1fa2) {
+}
+.outer_c69a7b:is(.biteSize_c69a7b, .panel_c69a7b):has(.card_ae1fa2) {
   --userPopout-play: var(--brand-500);
-  --userPopout-play-primary: var(--white-500) !important;
+  --userPopout-play-primary: var(--white) !important;
   --userPopout-play-secondary: hsl(var(--white-500-hsl) / .6) !important;
   --userPopout-play-tertiary: hsl(var(--white-500-hsl) / .8);
-  --userPopout-header-color: var(--white-500) !important;
-  --text-link: var(--white-500) !important;
+  --text-link: var(--white) !important;
+  --activity-eyebrow: var(--white);
+  --activity-sub: hsl(var(--white-500-hsl) / .8);
+  --activity-dim: hsl(var(--white-500-hsl) / .8);
+  --activity-badge-iconColor: hsl(var(--white-500-hsl) / .8);
+  --activity-badge-textColor: hsl(var(--white-500-hsl) / .8);
+  --activity-bar-normal: hsl(var(--white-500-hsl) / .2);
+  --activity-bar-progress: hsl(var(--white-500-hsl) / .6);
 
   --userPopout-badge-staff: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='23' viewBox='0 0 22 23'%3E%3Cg fill='%23FFF'%3E%3Cpath d='M4.3231,4.4332 C4.3231,4.4332 4.5811,4.0472 4.6881,3.8762 C4.7951,3.7052 4.4111,3.3012 4.2621,3.1732 C4.1131,3.0452 3.8781,3.1092 3.8781,3.1092 C2.0031,3.9402 1.0651,5.6452 0.9371,5.9862 C0.8091,6.3272 1.2631,6.6992 1.5981,6.8812 C1.7521,6.9652 1.9971,6.7792 2.1481,6.6412 L2.1991,6.5892 L2.2781,6.5092 L2.2791,6.5082 L7.3801,11.5892 L8.0771,10.8922 L9.3581,9.6112 L4.3161,4.4402 L4.3231,4.4332 Z'/%3E%3Cpath d='M16.3738,9.7931 L16.6428,9.5371 L19.0598,11.9311 C19.0768,11.9461 19.0948,11.9521 19.1108,11.9521 C19.1568,11.9521 19.1948,11.9101 19.1948,11.9101 C19.1948,11.9101 21.8708,9.2551 21.8798,9.2461 C21.9588,9.1681 21.8798,9.1251 21.8798,9.1251 L19.8158,7.0471 L19.8128,7.0501 L19.5298,6.7731 L19.6878,6.6211 L20.0258,6.6601 L19.9618,6.2121 L20.0468,6.1261 L19.9198,5.4801 C19.4788,4.8551 18.2708,3.8541 18.2708,3.8541 L17.6388,3.7401 L17.5748,3.8251 L17.0988,3.7541 L17.1448,4.1601 L17.1748,4.1901 L17.0338,4.3321 L16.2538,3.5691 C16.2538,3.5691 11.7278,1.1111 11.4868,0.9971 C11.3508,0.9341 11.2508,0.8921 11.1548,0.8921 C11.0808,0.8921 11.0088,0.9171 10.9258,0.9761 C10.7338,1.1111 10.8468,1.3831 10.8468,1.3831 L13.6608,6.5831 L14.2238,7.1411 L14.0478,7.3171 L14.0478,7.3171 L13.9828,7.3821 L13.5328,7.3201 L13.6018,7.7661 L13.4718,7.8961 L13.4488,7.8731 C13.4278,7.8521 13.3988,7.8411 13.3708,7.8411 C13.3428,7.8411 13.3148,7.8521 13.2928,7.8731 C13.2498,7.9161 13.2498,7.9861 13.2928,8.0291 L13.3158,8.0521 L13.2538,8.1151 L13.2378,8.0981 C13.2158,8.0771 13.1878,8.0661 13.1598,8.0661 C13.1308,8.0661 13.1028,8.0771 13.0818,8.0981 C13.0388,8.1411 13.0388,8.2111 13.0818,8.2541 L13.0988,8.2711 L11.9148,9.4611 L11.8878,9.4341 C11.8658,9.4131 11.8378,9.4021 11.8098,9.4021 C11.7818,9.4021 11.7538,9.4131 11.7318,9.4341 C11.6888,9.4771 11.6888,9.5471 11.7318,9.5901 L11.7598,9.6171 L11.6968,9.6801 L11.6758,9.6601 C11.6548,9.6381 11.6258,9.6271 11.5988,9.6271 C11.5698,9.6271 11.5418,9.6381 11.5198,9.6601 C11.4778,9.7031 11.4778,9.7721 11.5198,9.8151 L11.5408,9.8361 L11.3868,9.9921 L11.3658,10.1901 L11.4468,10.2731 L11.4448,10.2741 L11.3468,10.3741 L4.9578,16.7621 L4.8748,16.6931 L4.6098,16.7311 L4.4598,16.8831 L4.4498,16.8731 C4.4278,16.8511 4.3998,16.8401 4.3718,16.8401 C4.3438,16.8401 4.3148,16.8511 4.2938,16.8731 C4.2508,16.9161 4.2508,16.9851 4.2938,17.0281 L4.3058,17.0401 L4.2438,17.1041 L4.2378,17.0981 C4.2168,17.0761 4.1878,17.0651 4.1598,17.0651 C4.1318,17.0651 4.1038,17.0761 4.0818,17.0981 C4.0398,17.1411 4.0398,17.2101 4.0818,17.2531 L4.0888,17.2611 L2.9198,18.4501 L2.8958,18.4261 C2.8738,18.4041 2.8468,18.3941 2.8178,18.3941 C2.7898,18.3941 2.7618,18.4041 2.7398,18.4261 C2.6968,18.4691 2.6968,18.5391 2.7398,18.5821 L2.7658,18.6071 L2.7038,18.6701 L2.6848,18.6511 C2.6628,18.6301 2.6348,18.6191 2.6058,18.6191 C2.5788,18.6191 2.5498,18.6301 2.5288,18.6511 C2.4858,18.6941 2.4858,18.7641 2.5288,18.8071 L2.5488,18.8281 L2.4618,18.9171 L2.0088,18.8361 L2.0428,19.3421 L1.8998,19.4881 L2.0238,20.1701 C2.0238,20.1701 2.2138,20.7641 2.6048,21.1581 C2.9838,21.5401 3.5618,21.7231 3.5868,21.7421 L4.2398,21.8561 L4.4008,21.6981 L4.8508,21.7711 L4.7768,21.3261 L4.9138,21.1921 L4.9768,21.2551 C4.9978,21.2761 5.0258,21.2871 5.0538,21.2871 C5.0818,21.2871 5.1108,21.2761 5.1318,21.2551 C5.1748,21.2111 5.1748,21.1421 5.1318,21.0991 L5.0698,21.0371 L5.1338,20.9751 L5.1878,21.0291 C5.2088,21.0511 5.2378,21.0621 5.2658,21.0621 C5.2938,21.0621 5.3218,21.0511 5.3438,21.0291 C5.3868,20.9861 5.3868,20.9171 5.3438,20.8741 L5.2908,20.8201 L6.4778,19.6491 L6.5298,19.7011 C6.5508,19.7231 6.5798,19.7331 6.6078,19.7331 C6.6358,19.7331 6.6638,19.7231 6.6858,19.7011 C6.7278,19.6581 6.7278,19.5881 6.6858,19.5451 L6.6348,19.4951 L6.6978,19.4321 L6.7418,19.4761 C6.7628,19.4971 6.7908,19.5081 6.8188,19.5081 C6.8478,19.5081 6.8758,19.4971 6.8968,19.4761 C6.9398,19.4331 6.9398,19.3631 6.8968,19.3201 L6.8538,19.2771 L6.9868,19.1471 L7.0348,18.8621 L6.9638,18.7911 L6.9648,18.7901 L7.0938,18.6621 L13.4398,12.3141 L13.4368,12.3081 L13.5608,12.4361 L13.7598,12.4141 L13.9388,12.2341 L13.9678,12.2631 C13.9898,12.2841 14.0178,12.2951 14.0458,12.2951 C14.0738,12.2951 14.1028,12.2841 14.1238,12.2631 C14.1668,12.2201 14.1668,12.1501 14.1238,12.1071 L14.0948,12.0781 L14.1578,12.0161 L14.1798,12.0381 C14.2008,12.0591 14.2288,12.0701 14.2578,12.0701 C14.2858,12.0701 14.3138,12.0591 14.3348,12.0381 C14.3778,11.9951 14.3778,11.9251 14.3348,11.8821 L14.3128,11.8591 L15.4988,10.6711 L15.5298,10.7021 C15.5508,10.7231 15.5788,10.7341 15.6068,10.7341 C15.6358,10.7341 15.6638,10.7231 15.6848,10.7021 C15.7278,10.6591 15.7278,10.5891 15.6848,10.5461 L15.6538,10.5151 L15.7168,10.4521 L15.7408,10.4771 C15.7628,10.4981 15.7908,10.5091 15.8188,10.5091 C15.8468,10.5091 15.8748,10.4981 15.8968,10.4771 C15.9398,10.4331 15.9398,10.3641 15.8968,10.3211 L15.8728,10.2961 L16.0048,10.1641 L16.4458,10.2331 L16.3738,9.7931 Z'/%3E%3Cpolygon points='17.255 16.968 14.442 14.836 13.941 14.32 12 16.261 12.488 16.727 14.321 19.476 16.793 22.183 19.642 19.525'/%3E%3C/g%3E%3C/svg%3E");
   --userPopout-badge-partner: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='42' height='32' viewBox='0 0 42 32'%3E%3Cdefs%3E%3Cpolygon id='ic_profile_badge_partner_color_32px-a' points='0 10.394 0 0 41.981 0 41.981 10.394 41.981 20.787 0 20.787'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd' transform='translate(0 6)'%3E%3Cmask id='ic_profile_badge_partner_color_32px-b' fill='%23fff'%3E%3Cuse xlink:href='%23ic_profile_badge_partner_color_32px-a'/%3E%3C/mask%3E%3Cpath fill='%23fff' d='M32.0225581,-3.33333333e-05 C26.8744651,-3.33333333e-05 23.8293023,2.7953 22.8229302,3.87163333 C22.6386512,4.06896667 22.6539535,4.3833 22.8525581,4.56596667 L27.4562791,8.78463333 C27.6376279,8.95063333 27.9124186,8.95196667 28.0905116,8.7823 C28.6342326,8.26296667 29.9349302,7.28263333 32.0225581,7.28263333 C34.8935349,7.28263333 34.866186,10.5873 34.866186,10.5873 C34.866186,10.6166333 34.8339535,13.4979667 32.0225581,13.4979667 C30.7010233,13.4979667 29.1515814,13.0629667 26.8712093,11.0769667 C25.5441395,9.92163333 25.2950698,9.6453 23.6863721,8.09796667 C22.0776744,6.55063333 16.1361395,-3.33333333e-05 9.95823256,-3.33333333e-05 C3.72497674,-3.33333333e-05 0,5.18296667 0,10.1936333 C0,11.6056333 0.256232558,14.3426333 1.97139535,16.8073 C3.7555814,19.3696333 6.59204651,20.7806333 9.95823256,20.7806333 C15.1043721,20.7806333 18.1433488,18.1816333 19.1552558,17.1506333 C19.3444186,16.9579667 19.3359535,16.6426333 19.1412558,16.4556333 L14.7260465,12.2263 C14.5586977,12.0659667 14.3050698,12.0536333 14.1194884,12.1909667 C13.5269302,12.6296333 12.0973023,13.4883 9.99502326,13.4979667 C9.96995349,13.4979667 9.94716279,13.4969667 9.9224186,13.4936333 C9.5935814,13.4499667 7.12502326,13.0259667 7.11493023,10.2116333 C7.11460465,10.1976333 7.11493023,10.1859667 7.1155814,10.1719667 C7.12665116,9.9053 7.3044186,7.28263333 9.95823256,7.28263333 C13.0818605,7.28263333 16.1452558,10.6749667 18.4285581,13.0046333 C21.7354884,16.3776333 25.6828372,20.9866333 32.0225581,20.7806333 C38.2528837,20.5783 41.9811163,15.5979667 41.9811163,10.5873 C41.9811163,9.17496667 41.7248837,6.43763333 40.0093953,3.97363333 C38.2255349,1.41096667 35.3890698,-3.33333333e-05 32.0225581,-3.33333333e-05' mask='url(%23ic_profile_badge_partner_color_32px-b)'/%3E%3C/g%3E%3C/svg%3E");
@@ -12877,7 +12852,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
   
   .progress_b5cd55 {
     position: relative;
-    background-image: linear-gradient(#2e77d0, white, #2e77d0);
+    background-image: linear-gradient(#2e77d0, var(--white), #2e77d0);
 
     &:before {
       content: "";

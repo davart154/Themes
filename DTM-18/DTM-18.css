@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.61 \a \a";
+  content: "DTM-18 Public V2.1.62 \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -145,6 +145,9 @@ h2.title_c46f6a {
 .faded_c46f6a {
   color: hsl(var(--primary-200-hsl) / .3);
   opacity: unset;
+}
+.theme-light .faded_c46f6a {
+  color: hsl(var(--primary-400-hsl) / .6);
 }
 .legend_c46f6a {
 
@@ -8376,6 +8379,10 @@ section > .root_e6f2d0 {
   background-color: var(--legacy-danger-10a);
 }
 
+.settingsPage_a2c19a > h3 {
+  display: none;
+}
+
 .layer_d4b6c5:not(.baseLayer_d4b6c5) .top_a0 {
   border-bottom: 1px solid var(--settings-tabBar-border);
   gap: 12px;
@@ -8583,12 +8590,18 @@ section > .root_e6f2d0 {
   background-color: hsl(var(--primary-700-hsl) / .6);
   border: 1px solid var(--background-tertiary);
 }
+.theme-light .card_a298b8.card_a298b8 {
+  background-color: var(--grey-100);
+}
 .authedApp_f0135d.authedApp_f0135d {
-  background-color: transparent;
+  background-color: transparent !important;
   border-color: hsl(var(--primary-700-hsl) / .6);
   &:not(&:hover) button {
     opacity: 0;
   }
+}
+.theme-light .authedApp_f0135d.authedApp_f0135d {
+  border-color: hsl(var(--primary-200-hsl) / .6);
 }
 .headerText_f0135d {
   font-size: unset;
@@ -8605,6 +8618,9 @@ section > .root_e6f2d0 {
   border-radius: var(--radius-xsa);
   padding: 20px 62px 20px 20px;
   position: relative;
+}
+.theme-light .connectContainer_e2a436 {
+  background-color: var(--grey-100);
 }
 #connections-tab .inner_c36ce4,
 .connectionsContainer-crWFPm {

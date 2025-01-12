@@ -2,8 +2,11 @@
   border: 0;
   border-radius: 32px;
   background-color: var(--background-secondary);
-  height: 56px !important;
+  height: 32px !important;
   padding: 12px;
+  padding-right: 88px;
+  box-sizing: content-box;
+  transition: padding .2s;
 
   &:before {
     content: "";
@@ -15,6 +18,9 @@
     transition: margin .1s .2s, height .1s .2s, width .3s;
     background: var(--brand-500);
     border-radius: 32px;
+  }
+  &:last-child {
+    padding-right: 12px;
   }
 
   >* {
@@ -43,6 +49,12 @@
       margin-top: 3px;
       height: 3px;
     }
+    .mediaBarProgress_d12f5a, .mediaBarGrabber_d12f5a {
+      background-color: var(--text-normal);
+    }
+  }
+  .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
+    background: inherit;
   }
   .durationTimeWrapper_f72aac {
     margin-left: -4px;
@@ -51,6 +63,35 @@
     transition: .2s;
     span {
       font-family: var(--font-primary);
+    }
+  }
+}
+.mosaicItem_e5c1dc:has(a:first-child:last-child) {
+  .wrapperAudio_f72aac {
+    padding-right: 50px;
+    + .hoverButtonGroup_d0395d {
+      margin-left: -44px;
+    }
+  }
+}
+.wrapperAudio_f72aac + .hoverButtonGroup_d0395d {
+  background: transparent;
+  margin-left: -82px;
+  flex-direction: row-reverse;
+  gap: 6px;
+  position: unset;
+  opacity: 1 !important;
+  outline: unset;
+  > * {
+    background: var(--brand-500);
+    border-radius: var(--radius-round);
+    color: var(--white);
+    transition: .2s;
+    > svg {
+      opacity: .8;
+    }
+    &:hover > svg {
+      opacity: 1;
     }
   }
 }
@@ -73,16 +114,15 @@
   .controlIcon_f72aac {
     color: var(--brand-500);
   }
-  .mediaBarProgress_d12f5a, .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
-    background-color: var(--white);
+  .horizontal_d12f5a {
+    .mediaBarProgress_d12f5a, .mediaBarGrabber_d12f5a {
+      background-color: var(--white);
+    }
   }
-  .mediaBarGrabber_d12f5a {
-    background-color: var(--white);
+  + .hoverButtonGroup_d0395d > * {
+    background: var(--white);
+    color: var(--brand-500);
   }
-}
-.wrapperAudio_f72aac + .hoverButtonGroup_d0395d {
-  right: unset;
-  left: calc(100% - 12px);
 }
 
 .audioMetadata_f72aac {

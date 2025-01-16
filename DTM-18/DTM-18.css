@@ -9,7 +9,7 @@
 
 /*Version*/
 .info_c5a741:before {
-  content: "DTM-18 Public V2.1.63 \a \a";
+  content: "DTM-18 Public V2.1.64 \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -1699,6 +1699,7 @@ html:is(.platform-win, .platform-osx) .scroller_fea3ef {
   background: var(--guild-folderBg);
   border-radius: 15px;
   left: 10px;
+  bottom: 10px;
   width: 50px;
 }
 .expandedFolderBackground_bc7085.hover_bc7085 {
@@ -5133,15 +5134,6 @@ button.button_adca65.button_adca65 {
 }
 .positionContainer_af5dbb {
   height: 325px;
-}
-.drawerSizingWrapper_af5dbb {
-  width: 346px !important;
-  &:has(#gif-picker-tab-panel) {
-    width: 100% !important;
-  }
-}
-.resizeHandle_af5dbb {
-  display: none;
 }
 .contentWrapper_af5dbb {
   background-color: var(--background-primary);

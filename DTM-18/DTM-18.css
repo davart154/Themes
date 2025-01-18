@@ -5015,6 +5015,9 @@ button.button_adca65.button_adca65 {
   opacity: 1 !important;
   transform: scale(1.15) !important;
 }
+.buttons_bdf0de>:not(:has(>.emojiButton_d91a75), .vc-chatbar-button) {
+  display: none;
+}
 
 .emojiButton_d91a75 {
   opacity: 0.3;
@@ -5036,39 +5039,27 @@ button.button_adca65.button_adca65 {
 }
 
 .channelAppLauncher_df39bd {
-  position: absolute;
-  display: flex;
-  margin: 0;
-  right: -16px;
-  top: 0;
-  bottom: 0;
-  width: 16px;
-  height: 100%;
-  overflow: hidden;
+  border-top: 1px solid hsl(var(--black-500-hsl) / 0.1);
+  margin-bottom: 30px;
+  margin-left: 0;
+  padding-left: 8px;
+  padding-top: 20px;
+  max-height: 100%;
+}
+.theme-dark .channelAppLauncher_df39bd {
+  border-color: hsl(var(--white-500-hsl) / 0.06);
 }
 .buttonContainer_df39bd {
-  margin-top: 20px;
-  margin-left: -16px;
-  margin-bottom: 30px;
-  transition: margin .2s ease;
-}
-.channelAppLauncher_df39bd:hover .buttonContainer_df39bd {
-  margin-left: 0;
-}
-.button_df39bd {
-  background: var(--background-secondary);
-  border-radius: 0 5px 5px 0;
-  width: 16px;
   height: 100%;
 }
 .buttonContents_df39bd {
   background: currentColor;
-  clip-path: path("M9 1.74 7.8848 1.5 3 10.26 4.1152 10.5");
+  clip-path: path("M18 3.48 15.7696 3 6 20.52 8.2304 21");
   color: inherit;
-  height: 12px;
+  height: 24px;
   opacity: 0.3;
   transition: 0.1s;
-  width: 12px;
+  width: 24px;
 
   >div {
     display: none !important;
@@ -5145,6 +5136,11 @@ button.button_adca65.button_adca65 {
   gap: 0;
   padding: 0;
 }
+.navList_af5dbb {
+  justify-content: start;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
 .nav_af5dbb {
   border-bottom: 1px solid hsl(var(--white-500-hsl) / .1);
   padding: 12px 12px 0;
@@ -5157,6 +5153,7 @@ button.button_adca65.button_adca65 {
   font-size: 14px;
   line-height: 14px;
   font-weight: 500;
+  margin: 0 !important;
   padding-bottom: 8px;
   transition: none;
   &:hover {
@@ -10324,7 +10321,7 @@ svg:has([d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-
 /*Sticker*/.stickerButton_bdf0de > .buttonWrapper_f9af59 {
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M18.5 2H5.5C3.6 2 2 3.6 2 5.5V18.5C2 20.4 3.6 22 5.5 22H16L22 16V5.5C22 3.6 20.4 2 18.5 2M15 20V18.5C15 16.6 16.6 15 18.5 15H20L15 20ZM14.44,6.77C14.28,6.77 14.12,6.79 13.97,6.83C13.03,7.09 12.5,8.05 12.74,9C12.79,9.15 12.86,9.3 12.95,9.44L16.18,8.56C16.18,8.39 16.16,8.22 16.12,8.05C15.91,7.3 15.22,6.77 14.44,6.77M8.17,8.5C8,8.5 7.85,8.5 7.7,8.55C6.77,8.81 6.22,9.77 6.47,10.7C6.5,10.86 6.59,11 6.68,11.16L9.91,10.28C9.91,10.11 9.89,9.94 9.85,9.78C9.64,9 8.95,8.5 8.17,8.5M16.72,11.26L7.59,13.77C8.91,15.3 11,15.94 12.95,15.41C14.9,14.87 16.36,13.25 16.72,11.26Z' fill-rule='evenodd'/%3E%3C/svg%3E") no-repeat center/24px !important;
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M18.5 2H5.5C3.6 2 2 3.6 2 5.5V18.5C2 20.4 3.6 22 5.5 22H16L22 16V5.5C22 3.6 20.4 2 18.5 2M15 20V18.5C15 16.6 16.6 15 18.5 15H20L15 20ZM14.44,6.77C14.28,6.77 14.12,6.79 13.97,6.83C13.03,7.09 12.5,8.05 12.74,9C12.79,9.15 12.86,9.3 12.95,9.44L16.18,8.56C16.18,8.39 16.16,8.22 16.12,8.05C15.91,7.3 15.22,6.77 14.44,6.77M8.17,8.5C8,8.5 7.85,8.5 7.7,8.55C6.77,8.81 6.22,9.77 6.47,10.7C6.5,10.86 6.59,11 6.68,11.16L9.91,10.28C9.91,10.11 9.89,9.94 9.85,9.78C9.64,9 8.95,8.5 8.17,8.5M16.72,11.26L7.59,13.77C8.91,15.3 11,15.94 12.95,15.41C14.9,14.87 16.36,13.25 16.72,11.26Z' fill-rule='evenodd'/%3E%3C/svg%3E") no-repeat center/24px !important;
-}
+}*/
 
 .panels_a4d4d9 .actionButtons_adcaac button svg {
   width: 18px;

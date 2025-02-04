@@ -1,4 +1,4 @@
-.wrapperAudio_f72aac.wrapperAudio_f72aac {
+.wrapperAudio_cf09d8.wrapperAudio_cf09d8 {
   border: 0;
   border-radius: 32px;
   background-color: var(--background-secondary);
@@ -26,14 +26,14 @@
   >* {
     z-index: 1;
   }
-  .videoButton_f72aac {
+  .videoButton_cf09d8 {
     background-color: var(--brand-500);
     border-radius: var(--radius-round);
     position: absolute;
     top: -30px;
     transition: .2s;
   }
-  .flex_ec1a20 {
+  .flex_abf706 {
     background-color: var(--brand-500);
     border-radius: var(--radius-round);
     margin-left: 4px;
@@ -41,22 +41,22 @@
     order: 2;
     transition: .2s;
   }
-  .horizontal_d12f5a {
+  .horizontal_b26b79 {
     margin-left: 40px;
     margin-right: 12px;
-    .mediaBarWrapper_d12f5a {
+    .mediaBarWrapper_b26b79 {
       box-shadow: unset;
       margin-top: 3px;
       height: 3px;
     }
-    .mediaBarProgress_d12f5a, .mediaBarGrabber_d12f5a {
+    .mediaBarProgress_b26b79, .mediaBarGrabber_b26b79 {
       background-color: var(--text-normal);
     }
   }
-  .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
+  .mediaBarProgress_b26b79:before, .mediaBarProgress_b26b79:after {
     background: inherit;
   }
-  .durationTimeWrapper_f72aac {
+  .durationTimeWrapper_cf09d8 {
     margin-left: -4px;
     margin-top: -30px;
     order: 1;
@@ -66,15 +66,15 @@
     }
   }
 }
-.mosaicItem_e5c1dc:has(a:first-child:last-child) {
-  .wrapperAudio_f72aac {
+.mosaicItem__6c706:has(a:first-child:last-child) {
+  .wrapperAudio_cf09d8 {
     padding-right: 50px;
-    + .hoverButtonGroup_d0395d {
+    + .hoverButtonGroup__06ab4 {
       margin-left: -44px;
     }
   }
 }
-.wrapperAudio_f72aac + .hoverButtonGroup_d0395d {
+.wrapperAudio_cf09d8 + .hoverButtonGroup__06ab4 {
   background: transparent;
   margin-left: -82px;
   flex-direction: row-reverse;
@@ -95,58 +95,58 @@
     }
   }
 }
-.wrapperAudio_f72aac:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) {
+.wrapperAudio_cf09d8:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) {
   &:before {
     margin: 0;
     width: 100%;
     height: 100%;
     transition: margin .1s, height .1s, width .3s;
   }
-  .metadataDownload_f72aac {
+  .metadataDownload_cf09d8 {
     color: var(--white);
   }
-  .metadataSize_f72aac {
+  .metadataSize_cf09d8 {
     color: hsl(var(--white-500-hsl) / .8);
   }
-  .videoButton_f72aac, .flex_ec1a20 {
+  .videoButton_cf09d8, .flex_abf706 {
     background-color: var(--white);
   }
-  .controlIcon_f72aac {
+  .controlIcon_cf09d8 {
     color: var(--brand-500);
   }
-  .horizontal_d12f5a {
-    .mediaBarProgress_d12f5a, .mediaBarGrabber_d12f5a {
+  .horizontal_b26b79 {
+    .mediaBarProgress_b26b79, .mediaBarGrabber_b26b79 {
       background-color: var(--white);
     }
   }
-  + .hoverButtonGroup_d0395d > * {
+  + .hoverButtonGroup__06ab4 > * {
     background: var(--white);
     color: var(--brand-500);
   }
 }
 
-.audioMetadata_f72aac {
+.audioMetadata_cf09d8 {
   margin-left: 36px;
   margin-top: -4px;
   &:before {
     display: none;
   }
 }
-.metadataDownload_f72aac, .metadataSize_f72aac, .controlIcon_f72aac {
+.metadataDownload_cf09d8, .metadataSize_cf09d8, .controlIcon_cf09d8 {
   transition: .2s;
 }
 
-.audioControls_f72aac {
+.audioControls_cf09d8 {
   background: unset;
   margin-top: 0;
   margin-bottom: -4px;
 }
-.controlIcon_f72aac {
+.controlIcon_cf09d8 {
   opacity: .8;
 }
-.mediaBarProgress_d12f5a, .mediaBarProgress_d12f5a:before, .mediaBarProgress_d12f5a:after {
+.mediaBarProgress_b26b79, .mediaBarProgress_b26b79:before, .mediaBarProgress_b26b79:after {
   transition: background-color .2s;
 }
-.theme-light .wrapperAudio_f72aac:not(:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"])) .durationTimeWrapper_f72aac {
+.theme-light .wrapperAudio_cf09d8:not(:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"])) .durationTimeWrapper_cf09d8 {
   color: #000;
 }

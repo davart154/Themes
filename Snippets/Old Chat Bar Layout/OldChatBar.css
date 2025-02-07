@@ -22,7 +22,7 @@ html.density-compact .container_c48ade {
 
 .channelTextArea__74017.channelTextArea__74017 {
   display: grid;
-  grid-template-areas: "floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars" "stickers stickers stickers" "stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight";
+  grid-template-areas: "floatingBars floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars stackedBars" "stickers stickers stickers stickers" "stickerSep stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight sendButton";
   grid-template-columns: [start] min-content [textBar-start] 1fr [textBar-end] min-content [end];
   margin-bottom: var(--custom-chat-input-margin-bottom);
 }
@@ -71,13 +71,17 @@ html.density-compact .container_c48ade {
 }
 
 .inner__74017 {
-  grid-area: textBar;
-  padding-left: 12px;
+  display: contents;
 }
 .textArea__74017 {
+  grid-area: textBar;
   max-height: 144px;
   overflow: hidden scroll;
   margin-right: 4px;
+  padding-left: 12px;
+}
+.placeholder__1b31f {
+  padding-left: 12px !important;
 }
 .textArea__74017::-webkit-scrollbar {
   width: 4px;
@@ -107,6 +111,19 @@ html.density-compact .container_c48ade {
   --custom-emoji-sprite-size: 24px !important;
 }
 
+.rightAccessories__74017 {
+  grid-area: sendButton;
+  &:empty {
+    display: none;
+  }
+  .buttonContainer_aa63ab {
+    margin-right: 8px;
+  }
+}
+.separator_aa63ab.separator_aa63ab {
+  margin: 0;
+}
+
 .base_b88801.base_b88801 {
   position: absolute;
   bottom: calc(var(--custom-chat-input-margin-bottom) * -1);
@@ -129,6 +146,21 @@ html.density-compact .container_c48ade {
     d: path("m13.1 7.1-1.42 1.42-3.58-3.5899v9.1699h10v2h-12v-11.1699l-3.58 3.5899-1.42-1.42 6-6z");
     fill: currentColor;
   }
+}
+.cooldownWrapper_b21699 {
+  position: absolute;
+  bottom: calc(var(--custom-chat-input-margin-bottom) * -1);
+  right: 0;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  overflow-y: hidden;
+  color: var(--text-normal);
+  margin: 0;
+}
+.cooldownText_b21699 {
+  color: inherit !important;
 }
 
 .operations_bab751 {

@@ -1,3 +1,10 @@
+html.density-cozy {
+  --custom-chat-input-bottom-spacing: 30px;
+}
+html.density-compact {
+  --custom-chat-input-bottom-spacing: 24px;
+}
+
 .scrollerSpacer__36d07.scrollerSpacer__36d07 {
   height: 30px;
 }
@@ -10,14 +17,14 @@
   padding-right: 16px;
 }
 .channelBottomBarArea_f75fb0.channelBottomBarArea_f75fb0 {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
+
 .channelTextArea__74017.channelTextArea__74017 {
   display: grid;
   grid-template-areas: "floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars" "stickers stickers stickers" "stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight";
   grid-template-columns: [start] min-content [textBar-start] 1fr [textBar-end] min-content [end];
-  margin-bottom: var(--custom-chat-input-margin-bottom);
+  margin-bottom: var(--custom-chat-input-bottom-spacing);
 }
 .floatingBars__74017 {
   grid-area: floatingBars;
@@ -101,7 +108,7 @@
 
 .base_b88801.base_b88801 {
   position: absolute;
-  bottom: -30px;
+  bottom: calc(var(--custom-chat-input-bottom-spacing) * -1);
   left: 0;
   right: 0;
   height: 24px;

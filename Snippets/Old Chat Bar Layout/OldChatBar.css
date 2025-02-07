@@ -42,11 +42,12 @@
 .accessoryBarLeft__74017.accessoryBarLeft__74017 {
   grid-area: accessoryLeft;
   margin-left: 16px;
-  margin-right: -12px;
+  margin-right: 4px;
   position: unset;
 }
 
 .attachButton__0923f.attachButton__0923f {
+  margin-right: -16px;
   padding: 10px 16px;
   position: sticky;
   top: 0;

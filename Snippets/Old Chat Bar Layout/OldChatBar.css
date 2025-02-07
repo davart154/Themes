@@ -1,8 +1,8 @@
-html.density-cozy {
-  --custom-chat-input-bottom-spacing: 30px;
+.container_c48ade {
+  --custom-chat-input-margin-bottom: 30px;
 }
-html.density-compact {
-  --custom-chat-input-bottom-spacing: 24px;
+html.density-compact .container_c48ade {
+  --custom-chat-input-margin-bottom: 24px;
 }
 
 .scrollerSpacer__36d07.scrollerSpacer__36d07 {
@@ -24,8 +24,9 @@ html.density-compact {
   display: grid;
   grid-template-areas: "floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars" "stickers stickers stickers" "stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight";
   grid-template-columns: [start] min-content [textBar-start] 1fr [textBar-end] min-content [end];
-  margin-bottom: var(--custom-chat-input-bottom-spacing);
+  margin-bottom: var(--custom-chat-input-margin-bottom);
 }
+
 .floatingBars__74017 {
   grid-area: floatingBars;
 }

@@ -31,9 +31,11 @@
 .channelAttachmentArea_b77158 {
   grid-area: attachmentBar;
 }
+
 .accessoryBarLeft__74017.accessoryBarLeft__74017 {
   grid-area: accessoryLeft;
   margin-left: 16px;
+  margin-right: -12px;
   position: unset;
 }
 
@@ -52,7 +54,7 @@
 
 .inner__74017 {
   grid-area: textBar;
-  padding-left: 0;
+  padding-left: 12px;
 }
 .textArea__74017 {
   max-height: 144px;

@@ -109,7 +109,7 @@ html.density-compact .container_c48ade {
 
 .base_b88801.base_b88801 {
   position: absolute;
-  bottom: calc(var(--custom-chat-input-bottom-spacing) * -1);
+  bottom: calc(var(--custom-chat-input-margin-bottom) * -1);
   left: 0;
   right: 0;
   height: 24px;

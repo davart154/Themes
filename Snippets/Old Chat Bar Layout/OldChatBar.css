@@ -1,0 +1,119 @@
+.scrollerSpacer__36d07.scrollerSpacer__36d07 {
+  height: 30px;
+}
+
+.form_f75fb0.form_f75fb0 {
+  margin-top: -8px;
+}
+.formWithLoadedChatInput_f75fb0.formWithLoadedChatInput_f75fb0 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.channelBottomBarArea_f75fb0.channelBottomBarArea_f75fb0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.channelTextArea__74017.channelTextArea__74017 {
+  display: grid;
+  grid-template-areas: "floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars" "attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight";
+  grid-template-columns: [start] min-content [textBar-start] 1fr [textBar-end] min-content [end];
+  margin-bottom: var(--custom-chat-input-margin-bottom);
+}
+.floatingBars__74017 {
+  grid-area: floatingBars;
+}
+.stackedBars__74017 {
+  grid-area: stackedBars;
+}
+.scrollableContainer__74017, .accessoryBar__74017.accessoryBar__74017 {
+  display: contents;
+}
+.channelAttachmentArea_b77158 {
+  grid-area: attachmentBar;
+}
+.accessoryBarLeft__74017.accessoryBarLeft__74017 {
+  grid-area: accessoryLeft;
+  margin-left: 16px;
+  position: unset;
+}
+
+.attachButton__0923f.attachButton__0923f {
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+}
+.attachButtonInner__0923f {
+  height: 24px;
+  > svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.inner__74017 {
+  grid-area: textBar;
+  padding-left: 0;
+}
+.textArea__74017 {
+  max-height: 144px;
+  overflow: hidden scroll;
+  margin-right: 4px;
+}
+.textArea__74017::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.textArea__74017::-webkit-scrollbar-track {
+  margin: 8px 0;
+}
+.textArea__74017::-webkit-scrollbar-thumb {
+  background-color: var(--interactive-normal);
+  border-radius: 2px;
+  cursor: move;
+}
+
+.accessoryBarRight__74017.accessoryBarRight__74017 {
+  grid-area: accessoryRight;
+  width: fit-content;
+  display: flex;
+  margin-right: 12px;
+}
+
+.buttonWrapper__24af7 > .lottieIcon__5eb9b, .buttonContents_e6e74f > .lottieIcon__5eb9b {
+  width: 24px !important;
+  height: 24px !important;
+}
+.spriteContainer__04eed {
+  --custom-emoji-sprite-size: 24px !important;
+}
+
+.base_b88801.base_b88801 {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  overflow-y: hidden;
+  color: var(--text-normal);
+  margin: 0;
+}
+.activityInviteEducationLeftArrow_b88801.activityInviteEducationLeftArrow_b88801 {
+  margin: 0 2px 0 24px;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+  > path {
+    d: path("m13.1 7.1-1.42 1.42-3.58-3.5899v9.1699h10v2h-12v-11.1699l-3.58 3.5899-1.42-1.42 6-6z");
+    fill: currentColor;
+  }
+}
+
+.operations_bab751 {
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+  right: 0;
+}

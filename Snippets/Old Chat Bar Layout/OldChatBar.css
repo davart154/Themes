@@ -15,7 +15,7 @@
 }
 .channelTextArea__74017.channelTextArea__74017 {
   display: grid;
-  grid-template-areas: "floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars" "attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight";
+  grid-template-areas: "floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars" "stickers stickers stickers" "stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight";
   grid-template-columns: [start] min-content [textBar-start] 1fr [textBar-end] min-content [end];
   margin-bottom: var(--custom-chat-input-margin-bottom);
 }
@@ -27,6 +27,13 @@
 }
 .scrollableContainer__74017, .accessoryBar__74017.accessoryBar__74017 {
   display: contents;
+}
+.stickerPreviews_a4cf0b {
+  grid-area: stickers;
+}
+.stickerPreviewDivider_a4cf0b {
+  grid-area: stickerSep;
+  margin-right: 16px;
 }
 .channelAttachmentArea_b77158 {
   grid-area: attachmentBar;

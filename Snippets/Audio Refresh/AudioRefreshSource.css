@@ -1,7 +1,7 @@
 .wrapperAudio_cf09d8.wrapperAudio_cf09d8 {
   border: 0;
   border-radius: 32px;
-  background-color: var(--background-secondary);
+  background-color: var(--background-surface-high, var(--background-secondary));
   height: 32px !important;
   padding: 12px;
   padding-right: 88px;
@@ -137,7 +137,7 @@
 }
 
 .audioControls_cf09d8 {
-  background: unset;
+  background: transparent !important;
   margin-top: 0;
   margin-bottom: -4px;
 }

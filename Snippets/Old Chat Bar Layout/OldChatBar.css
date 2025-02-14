@@ -75,6 +75,8 @@ html.density-compact .container_c48ade {
 }
 .textArea__74017 {
   grid-area: textBar;
+  min-height: 48px;
+  height: unset !important;
   max-height: 144px;
   overflow: hidden scroll;
   margin-right: 4px;
@@ -111,8 +113,9 @@ html.density-compact .container_c48ade {
   --custom-emoji-sprite-size: 24px !important;
 }
 
-.rightAccessories__74017 {
+.rightAccessories__74017.rightAccessories__74017 {
   grid-area: sendButton;
+  max-height: unset;
   &:empty {
     display: none;
   }

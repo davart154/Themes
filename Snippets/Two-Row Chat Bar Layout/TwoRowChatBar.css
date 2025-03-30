@@ -124,9 +124,6 @@
   right: 74px !important;
   bottom: 74px;
 }
-.expression-picker-chat-input-button:not(:nth-last-child(-n+2)) {
-  display: none;
-}
 
 .wrapper__44df5.wrapper__44df5 {
   grid-area: floatingBars;

@@ -9,7 +9,7 @@
 
 /*Version*/
 .info__2debe:before {
-  content: "DTM-18 Public V2.1.68 \a \a";
+  content: "DTM-18 Public V2.1.69 \a \a";
   white-space: pre-wrap;
   color: var(--status-warning);
   text-transform: none;
@@ -17,28 +17,6 @@
   font-size: 12px;
   line-height: 16px;
   font-weight: 400;
-}
-
-body:before {
-    content: "The theme will be temporarily broken for users with desktop visual refresh. Do not bother me about this, I will not respond.";
-    position: fixed;
-    top: 8px;
-    left: 12px;
-    padding: 8px 12px;
-    background-color: var(--info-warning-background);
-    border: 1px solid var(--info-warning-foreground);
-    border-radius: 5px;
-    color: var(--info-warning-text);
-    font-size: 14px;
-    font-weight: 600;
-    z-index: 9999;
-    pointer-events: none;
-    animation: hide 0s 10s forwards;
-}
-@keyframes hide {
-    to {
-        opacity: 0;
-    }
 }
 
 /*Scaling*/

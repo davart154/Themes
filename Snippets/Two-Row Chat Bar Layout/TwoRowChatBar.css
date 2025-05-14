@@ -13,7 +13,7 @@
   &:focus-within {
     border-color: var(--border-subtle);
   }
-  .channelBottomBarArea_f75fb0, .channelTextArea__74017, .scrollableContainer__74017, .inner__74017 {
+  > div:not([class]), .channelBottomBarArea_f75fb0, .channelTextArea__74017, .scrollableContainer__74017, .inner__74017 {
     display: contents;
   }
   .floatingBars__74017 {

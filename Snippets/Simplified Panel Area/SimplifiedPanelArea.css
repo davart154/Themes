@@ -108,6 +108,7 @@
   background: unset;
   border-radius: 0;
   box-sizing: border-box;
+  display: flex;
   min-height: 56px;
   padding: var(--space-xs) var(--space-sm);
   transition: background-color .2s ease;
@@ -123,11 +124,11 @@
     }
   }
 }
-.body__5dec7 {
-  height: 38px;
-}
 .gameWrapper__5dec7 {
-  gap: 12px;
+  gap: var(--space-8);
+}
+.wrapper_a629d4 {
+  margin-right: 4px;
 }
 .info__8c6c2, .info__5dec7 {
   margin-left: 0;
@@ -165,7 +166,10 @@
   }
 }
 .container_e131a9.container_e131a9 {
+  align-items: center;
   box-sizing: border-box;
+  flex-direction: unset;
+  gap: var(--space-8);
   padding: var(--space-xs) var(--space-md);
   margin: 0;
   min-height: 56px;
@@ -176,7 +180,7 @@
 .ping__06d62 {
   height: 24px;
   margin-left: -40px;
-  margin-top: 12.5px;
+  margin-top: 13.5px;
   position: absolute;
   pointer-events: all;
   width: 24px;
@@ -206,6 +210,31 @@
     inset: 0;
   }
 }
+/*.voiceUsers_e131a9 {
+  display: contents;
+}
+.voiceUsers__68617 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  width: fit-content;
+  z-index: 1;
+}
+.avatarContainer__68617:not(:last-of-type) {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100' viewBox='0 0 20 20' width='100'%3E%3Cpath d='m18 0h-18v20h18c-2.8526705-2.3846085-4.6687684-5.979124-4.6687684-10 0-4.02087599 1.8160979-7.6153915 4.6687684-10z' fill-rule='evenodd'/%3E%3C/svg%3E");
+  mask-size: 100%;
+  margin-right: -4px;
+}
+.avatar__68617 {
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.avatarIconOverlay__68617 {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+}*/
 .actionButtons_e131a9.actionButtons_e131a9.actionButtons_e131a9.actionButtons_e131a9 {
   right: 72px;
   .disabledButtonWrapper__201d5 {
@@ -224,8 +253,11 @@
     padding: 4px;
     width: unset;
     &.buttonActive_e131a9 {
-      color: var(--green-360);
+      color: var(--green-360) !important;
       background-color: hsl(var(--green-360-hsl) / .1);
+      &:hover {
+        background-color: hsl(var(--green-360-hsl) / .2);
+      }
     }
     &:first-child {
       border-top-left-radius: var(--radius-round);

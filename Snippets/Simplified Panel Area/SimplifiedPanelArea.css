@@ -379,3 +379,11 @@
     }
   }
 }
+
+/*[PLUGIN / BETTERDISCORD / Game Activity Toggle]*/
+.buttons__37e49:not(:last-child) {
+  right: 98px;
+}
+.gameActivityToggleButton_fd3fb5.gameActivityToggleButton_fd3fb5 {
+  margin: 0;
+}

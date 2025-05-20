@@ -125,6 +125,10 @@
   width: 20px;
   height: 20px;
 }
+.moreUsers_b2d72f {
+  background-color: hsl(var(--spotify-hsl) / .5);
+  color: var(--white);
+}
 /*ActivityPanel*/
 .activityPanel_c48ade.activityPanel_c48ade {
   background: unset;
@@ -146,10 +150,10 @@
     }
   }
 }
-.gameWrapper__5dec7 {
+.gameWrapper__5dec7, .gameWrapper__8c6c2 {
   gap: var(--space-8);
 }
-.wrapper_a629d4, .gameIcon__5dec7 {
+.wrapper_a629d4, .gameIcon__5dec7, .gameIconWrapper__8c6c2 {
   margin-left: var(--panel-activityIcon-marginLeft);
   margin-right: var(--panel-activityIcon-marginRight);
 }
@@ -353,6 +357,12 @@
   border-radius: 7px;
   padding: var(--space-xs);
   padding-right: var(--space-md);
+}
+.density-compact .avatarWrapper__37e49.avatarWrapper__37e49 {
+  padding-left: var(--space-4);
+}
+.density-cozy .avatarWrapper__37e49.avatarWrapper__37e49 {
+  padding-left: var(--space-12);
 }
 .container__37e49.container__37e49 {
   border-bottom-left-radius: 7px;

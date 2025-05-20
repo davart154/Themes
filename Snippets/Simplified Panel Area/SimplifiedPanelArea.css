@@ -126,7 +126,7 @@
   height: 20px;
 }
 .moreUsers_b2d72f {
-  background-color: hsl(var(--spotify-hsl) / .5);
+  background: linear-gradient(315deg, hsl(var(--spotify-hsl) / .35), hsl(var(--spotify-hsl) / .75));
   color: var(--white);
 }
 /*ActivityPanel*/
@@ -211,7 +211,7 @@
 .ping__06d62 {
   height: 24px;
   margin-left: var(--panel-pingOffset);
-  margin-top: 13.5px;
+  top: calc(50% - 12px);
   position: absolute;
   pointer-events: all;
   width: 24px;
@@ -269,6 +269,9 @@
       box-shadow: var(--shadow-border), var(--shadow-low);
       z-index: 3;
     }
+    .voiceUsers__68617 {
+      justify-content: unset;
+    }
   }
 }
 .voiceUsers__68617 {
@@ -276,6 +279,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0;
+  justify-content: flex-end;
   max-width: 132px;
   min-height: 100%;
   row-gap: 4px;

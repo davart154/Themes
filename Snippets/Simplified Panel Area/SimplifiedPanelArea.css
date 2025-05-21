@@ -396,6 +396,8 @@
 
 /*[PLUGIN / VENCORD / SpotifyControls]*/
 #vc-spotify-player#vc-spotify-player {
+  background: unset;
+  border-radius: 0;
   box-sizing: border-box;
   min-height: 56px;
   padding: var(--space-sm) var(--space-xs);
@@ -516,6 +518,7 @@
     display: flex;
     grid-area: vcSpotifySlash;
     justify-content: center;
+    transition: opacity .15s ease;
   }
   &:hover {
     right: 6px;

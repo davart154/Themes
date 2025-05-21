@@ -510,6 +510,10 @@
     opacity: 0;
     transition: .15s ease;
   }
+  .track_a562c8 {
+    right: 15px;
+    left: 0;
+  }
   .barFill_a562c8 {
     background-color: var(--spotify);
   }

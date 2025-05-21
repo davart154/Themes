@@ -395,8 +395,7 @@
 #vc-spotify-player#vc-spotify-player {
   box-sizing: border-box;
   min-height: 56px;
-  padding: var(--space-sm);
-  padding-left: var(--space-xs);
+  padding: var(--space-sm) var(--space-xs);
   position: relative;
   &:hover {
     .vc-spotify-button-row {
@@ -407,7 +406,7 @@
     #vc-spotify-progress-bar {
       animation: pointerDelay .15s ease forwards;
       opacity: 1;
-      bottom: calc(100% - 14px);
+      top: -14px;
     }
   }
 }
@@ -497,7 +496,7 @@
   padding: 2px 6px;
   pointer-events: none;
   position: absolute;
-  bottom: calc(100% - 28px);
+  top: 0;
   transition: .15s ease, max-width .4s ease;
   width: unset;
   .slider_a562c8 {

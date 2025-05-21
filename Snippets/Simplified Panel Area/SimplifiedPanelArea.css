@@ -358,7 +358,7 @@
 /*UserPanel*/
 .avatarWrapper__37e49.avatarWrapper__37e49 {
   background: transparent !important;
-  border-radius: 7px;
+  border-radius: inherit;
   padding: var(--space-xs);
   padding-right: var(--space-md);
 }
@@ -369,8 +369,7 @@
   padding-left: var(--space-12);
 }
 .container__37e49.container__37e49 {
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  border-radius: 0 0 7px 7px;
   padding: 0 !important;
   margin: 0;
   transition: background-color .2s ease;
@@ -390,4 +389,153 @@
 }
 .gameActivityToggleButton_fd3fb5.gameActivityToggleButton_fd3fb5 {
   margin: 0;
+}
+
+/*[PLUGIN / VENCORD / SpotifyControls]*/
+#vc-spotify-player#vc-spotify-player {
+  box-sizing: border-box;
+  min-height: 56px;
+  padding: var(--space-sm);
+  padding-left: var(--space-xs);
+  position: relative;
+  &:hover {
+    .vc-spotify-button-row {
+      animation: pointerDelay .15s ease forwards;
+      opacity: 1;
+      top: -14px;
+    }
+    #vc-spotify-progress-bar {
+      animation: pointerDelay .15s ease forwards;
+      opacity: 1;
+      bottom: calc(100% - 14px);
+    }
+  }
+}
+#vc-spotify-info-wrapper {
+  gap: var(--space-8);
+  height: fit-content;
+}
+#vc-spotify-album-image {
+  height: 40px;
+}
+#vc-spotify-album-expanded-wrapper #vc-spotify-album-image {
+  height: unset;
+}
+#vc-spotify-titles {
+  padding: 0;
+}
+#vc-spotify-song-title {
+  font-weight: 500;
+  line-height: 18px;
+}
+.vc-spotify-secondary-song-info {
+  line-height: 13px;
+}
+.vc-spotify-artist, .vc-spotify-album {
+  color: var(--text-secondary) !important;
+}
+.vc-spotify-button-row.vc-spotify-button-row {
+  background-color: var(--background-surface-highest);
+  border-radius: var(--radius-round);
+  box-shadow: var(--shadow-border), var(--shadow-low);
+  display: flex;
+  gap: 2px !important;
+  height: unset;
+  margin: 0;
+  padding: 2px;
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  right: 6px;
+  top: 0;
+  transition: .15s ease;
+  z-index: 2;
+}
+.vc-spotify-button.vc-spotify-button {
+  border-radius: 0;
+  height: unset;
+  margin: 0;
+  padding: 4px;
+  transition: background-color .2s ease;
+  width: unset;
+  &:first-child {
+    border-top-left-radius: var(--radius-round);
+    border-bottom-left-radius: var(--radius-round);
+    padding-left: 6px;
+  }
+  &:last-child {
+    border-top-right-radius: var(--radius-round);
+    border-bottom-right-radius: var(--radius-round);
+    padding-right: 6px;
+  }
+  &:hover {
+    .vc-spotify-button-icon.vc-spotify-button-icon {
+      scale: 1.1;
+    }
+  }
+}
+.vc-spotify-button-icon.vc-spotify-button-icon {
+  height: 16px;
+  width: 16px;
+  transition: scale .4s cubic-bezier(.16,1,.3,1);
+}
+.vc-spotify-repeat-1 {
+  left: calc(50% - 1px);
+}
+#vc-spotify-progress-bar#vc-spotify-progress-bar {
+  background-color: var(--background-surface-highest);
+  border-radius: 14px;
+  box-shadow: var(--shadow-border), var(--shadow-low);
+  box-sizing: border-box;
+  column-gap: 2px;
+  display: grid;
+  grid-template-areas: "vcSpotifySlider vcSpotifySlider vcSpotifySlider" "vcSpotifyProgress vcSpotifySlash vcSpotifyDuration";
+  left: 6px;
+  margin: 0;
+  min-height: 28px;
+  opacity: 0;
+  padding: 2px 6px;
+  pointer-events: none;
+  position: absolute;
+  bottom: calc(100% - 28px);
+  transition: .15s ease, max-width .4s ease;
+  width: unset;
+  .slider_a562c8 {
+    grid-area: vcSpotifySlider;
+    margin-bottom: -24px;
+    opacity: 0;
+    transition: .15s ease;
+  }
+  .barFill_a562c8 {
+    background-color: var(--spotify);
+  }
+  &:after {
+    content: "/";
+    display: flex;
+    grid-area: vcSpotifySlash;
+    justify-content: center;
+  }
+  &:hover {
+    right: 6px;
+    z-index: 3;
+    .slider_a562c8 {
+      opacity: 1;
+    }
+    .vc-spotify-progress-time, &:after {
+      opacity: 0;
+    }
+  }
+}
+.vc-spotify-progress-time.vc-spotify-progress-time {
+  display: flex;
+  position: unset;
+  margin: 0;
+  transition: .15s ease;
+}
+.vc-spotify-time-left {
+  grid-area: vcSpotifyProgress;
+}
+.vc-spotify-time-right {
+  grid-area: vcSpotifyDuration;
+  justify-content: end;
 }

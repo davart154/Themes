@@ -359,18 +359,6 @@
   }
 }
 /*UserPanel*/
-.avatarWrapper__37e49.avatarWrapper__37e49 {
-  background: transparent !important;
-  border-radius: inherit;
-  padding: var(--space-xs);
-  padding-right: var(--space-md);
-}
-.density-compact .avatarWrapper__37e49.avatarWrapper__37e49 {
-  padding-left: var(--space-4);
-}
-.density-cozy .avatarWrapper__37e49.avatarWrapper__37e49 {
-  padding-left: var(--space-12);
-}
 .container__37e49.container__37e49 {
   border-radius: 0 0 7px 7px;
   padding: 0 !important;
@@ -384,6 +372,21 @@
       top: -14px;
     }
   }
+}
+.wrapper_e131a9:first-child:empty + .container__37e49 {
+  border-radius: 7px;
+}
+.avatarWrapper__37e49.avatarWrapper__37e49 {
+  background: transparent !important;
+  border-radius: inherit;
+  padding: var(--space-xs);
+  padding-right: var(--space-md);
+}
+.density-compact .avatarWrapper__37e49.avatarWrapper__37e49 {
+  padding-left: var(--space-4);
+}
+.density-cozy .avatarWrapper__37e49.avatarWrapper__37e49 {
+  padding-left: var(--space-12);
 }
 
 /*[PLUGIN / BETTERDISCORD / Game Activity Toggle]*/

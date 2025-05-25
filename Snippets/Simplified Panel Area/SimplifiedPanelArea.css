@@ -375,7 +375,7 @@
       top: -14px;
     }
   }
-  &:has(.redGlow__67645) .title_b6c092:before {
+  &:has(.micButtonParent__37e49 .redGlow__67645) .title_b6c092:before {
     order: 1;
     background-color: var(--status-danger);
     content: "";

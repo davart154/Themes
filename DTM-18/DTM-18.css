@@ -7681,6 +7681,9 @@ h2.title_b717a1 {
 .svg__44b0c > :is(rect, svg, g) {
   opacity: 0;
 }
+.svg__44b0c > g {
+  transform: unset !important;
+}
 .pointerEvents__44b0c {
   width: 10px;
   height: 10px;
@@ -7701,8 +7704,8 @@ h2.title_b717a1 {
 .cursorDefault__44b0c rect {
   width: 10px;
   height: 10px;
-  x: 7.5;
-  y: 5;
+  x: 22;
+  y: 22;
   rx: 0;
   mask: none;
 }

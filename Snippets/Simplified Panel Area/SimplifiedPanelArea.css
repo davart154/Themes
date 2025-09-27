@@ -11,16 +11,12 @@
   --panel-spotify-marginRight: 8px;
   --panel-activityIcon-marginLeft: 0;
   --panel-activityIcon-marginRight: 4px;
-  --panel-voiceOffset: 40px;
-  --panel-pingOffset: -40px;
 }
 :root.refresh-fast-follow-avatars {
   --panel-spotify-marginLeft: 2px;
   --panel-spotify-marginRight: 10px;
   --panel-activityIcon-marginLeft: 2px;
   --panel-activityIcon-marginRight: 6px;
-  --panel-voiceOffset: 48px;
-  --panel-pingOffset: -38px;
 }
 :root.align-chat-input {
   --panel-activityIcon-marginRight: 0;
@@ -233,24 +229,8 @@
   flex: unset !important;
   min-width: 40px;
 }
-.rtcConnectionStatusWrapper__06d62 {
-  padding-left: var(--panel-voiceOffset);
-}
-.align-chat-input .rtcConnectionStatusWrapper__06d62 {
-  padding-left: 0;
-}
-.ping__06d62 {
-  height: 24px;
-  margin-left: var(--panel-pingOffset);
-  top: calc(50% - 12px);
-  position: absolute;
-  pointer-events: all;
-  width: 24px;
-  z-index: 1;
-}
 .largePing__06d62 {
   margin: 0 !important;
-  position: unset;
 }
 .rtcConnectionStatus__06d62 {
   column-gap: var(--space-8);

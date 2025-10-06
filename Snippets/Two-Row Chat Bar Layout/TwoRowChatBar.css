@@ -126,13 +126,17 @@
 }
 .cooldownWrapper_b21699 {
   padding: 0;
-  :after {
+  margin: 0 var(--space-xs);
+  &:after {
     content: "";
     background-color: var(--border-faint);
     height: var(--chat-markup-line-height);
-    margin: 0 var(--space-xs);
+    margin-left: var(--space-xs);
     width: 1px;
+  }
 }
+.form_f75fb0:has(.channelTextAreaDisabled__74017) .cooldownWrapper_b21699:after {
+  display: none;
 }
 
 .uploadInput__0923f {

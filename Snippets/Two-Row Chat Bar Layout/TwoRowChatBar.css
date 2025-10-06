@@ -70,15 +70,19 @@
   .attachWrapper__0923f, .attachButton__74017 {
     grid-area: accessoryBarLeft;
   }
+  .attachWrapper__0923f {
+    display: flex;
+    padding: 0;
+    padding-left: 12px;
+  }
   .attachButton__74017 {
+    background: transparent !important;
     grid-area: accessoryBarLeft;
     margin: 0;
+    pointer-events: none;
   }
-  .attachButton__0923f.attachButton__0923f {
-    height: var(--accessoryHeight);
-    min-height: 100%;
-    margin-left: 0;
-    padding: var(--space-4) var(--space-12) var(--space-4) var(--space-md);
+  .attachButtonInner__0923f {
+    pointer-events: all;
   }
   .icon__4d3a9 {
     align-items: center;
@@ -102,17 +106,21 @@
     }
   }
 }
-.base_b88801 {
+.base_b88801.base_b88801 {
   grid-area: accessoryBarText;
   height: var(--accessoryHeight);
   min-height: 100%;
+  padding-left: var(--space-xs);
   position: unset;
+}
+.text_b88801.text_b88801 {
+  margin-left: var(--space-xs);
 }
 .cooldownWrapper_b21699:after {
   content: "";
   background-color: var(--border-faint);
   height: var(--chat-markup-line-height);
-  margin: 0 var(--space-8);
+  margin: 0 var(--space-xs);
   width: 1px;
 }
 
@@ -132,7 +140,7 @@
 }
 
 .density-compact {
-  --accessoryHeight: 32px;
+  --accessoryHeight: 36px;
 }
 .density-default {
   --accessoryHeight: 44px;

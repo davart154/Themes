@@ -116,12 +116,15 @@
 .text_b88801.text_b88801 {
   margin-left: var(--space-xs);
 }
-.cooldownWrapper_b21699:after {
-  content: "";
-  background-color: var(--border-faint);
-  height: var(--chat-markup-line-height);
-  margin: 0 var(--space-xs);
-  width: 1px;
+.cooldownWrapper_b21699 {
+  padding: 0;
+  :after {
+    content: "";
+    background-color: var(--border-faint);
+    height: var(--chat-markup-line-height);
+    margin: 0 var(--space-xs);
+    width: 1px;
+}
 }
 
 .uploadInput__0923f {

@@ -134,3 +134,6 @@ body:active:not(:has(.inner__74017:hover,.buttons__74017:hover)) .channelTextAre
     background-color: var(--header-primary);
   }
 }
+.separator_aa63ab, .container_aa63ab {
+  display: none;
+}

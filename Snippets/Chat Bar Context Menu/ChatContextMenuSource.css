@@ -1,4 +1,10 @@
-/*Textarea Patch*/
+/*Textarea Patches*/
+.form_f75fb0 {
+  z-index: 0;
+}
+.base_b88801 {
+  z-index: -1;
+}
 .channelTextArea_f75fb0 .scrollableContainer__74017 {
   overflow: visible;
 }
@@ -84,7 +90,7 @@
   top: unset;
   bottom: calc(100% - 4px);
   right: 12px;
-  z-index: 0;
+  z-index: 1;
   > div {
     width: 100%;
   }

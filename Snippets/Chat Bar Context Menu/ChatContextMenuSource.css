@@ -89,6 +89,9 @@
     width: 100%;
   }
 }
+.custom-theme-background .channelTextArea_f75fb0 .buttons__74017 {
+  border-color: var(--border-strong);
+}
 .inner__74017:active:not(:has(:hover)) .buttons__74017 {
   visibility: visible;
   pointer-events: all;

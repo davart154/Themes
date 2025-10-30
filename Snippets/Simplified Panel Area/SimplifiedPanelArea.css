@@ -6,7 +6,7 @@
     pointer-events: all;
   }
 }
-.panels_c48ade > div {
+.panels__5e434 > div {
   z-index: 0;
 }
 .wrapperVisible__0d616 {
@@ -52,7 +52,7 @@
   border-radius: unset !important;
   padding: 4px !important;
 }
-.panels_c48ade.panels_c48ade button {
+.panels__5e434.panels__5e434 button {
   background: transparent;
   border: 0;
   border-radius: unset;
@@ -132,7 +132,7 @@
   color: var(--white);
 }
 /*ActivityPanel*/
-.activityPanel_c48ade.activityPanel_c48ade {
+.activityPanel__5e434.activityPanel__5e434 {
   background: unset;
   border-color: var(--border-faint);
   border-radius: 0;

@@ -9,7 +9,6 @@
   overflow: visible;
 }
 .channelTextArea_f75fb0 .textArea__74017 {
-  grid-area: textArea;
   height: unset !important;
   > div {
     max-height: 144px;

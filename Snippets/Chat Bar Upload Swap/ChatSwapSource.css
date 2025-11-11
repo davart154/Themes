@@ -66,10 +66,19 @@
   order: 11;
 }
 
+@keyframes positionPatch {
+  0% {display: contents;}
+  0.001% {display: unset;}
+}
+@keyframes transformPatch {
+  0%, to {transform: translateX(-100%);}
+}
+.layer__59d0d:has(#channel-attach) {
+  animation: positionPatch 1ms forwards;
+}
 #channel-attach {
-  margin-left: -100%;
-  margin-right: 100%;
-  transform: translateX(32px);
+  transform: translateX(calc(-100% + 32px));
+  animation: transformPatch 1ms;
 }
 .hiddenAppLauncherAnchor__74017 {
   position: absolute;

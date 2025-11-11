@@ -89,10 +89,3 @@
   margin-right: 100%;
   transform: translateX(32px);
 }
-
-.micButtonWithMenu__37e49.micButtonWithMenu__37e49 {
-  border-radius: var(--radius-sm) !important;
-}
-.buttonChevron__37e49 {
-  display: none !important;
-}

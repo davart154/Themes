@@ -20,7 +20,7 @@
   margin: var(--space-12) 0;
   top: var(--space-12);
 }
-.buttonContainer__74017 + .button__74017 {
+.buttonContainer__74017 + .button__74017:not([aria-haspopup]) {
   order: 1;
   margin-right: var(--space-12);
   path {
@@ -45,7 +45,7 @@
 .button_e6e74f {
   order: 7;
 }
-span + .button__74017, .buttonContainer_e6e74f + .button__74017, .spacer__74017 + .button__74017 {
+.button__74017[aria-haspopup] {
   order: 8;
 }
 .attachButton__0923f {

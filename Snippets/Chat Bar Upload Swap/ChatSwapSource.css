@@ -45,7 +45,7 @@
 /*Apps*/.button_e6e74f {
   order: 7;
 }
-/*Gift*/span + .button__74017, .buttonContainer__74017 + .button__74017, .buttonContainer_e6e74f + .button__74017, .spacer__74017 + .button__74017 {
+/*Gift*/span + .button__74017, .buttonContainer__74017 + .button__74017, .buttonContainer_e6e74f + .button__74017, .spacer__74017 + .button__74017, .buttons__74017 > .button__74017:first-child {
   order: 8;
 }
 /*More*/.attachButton__0923f {

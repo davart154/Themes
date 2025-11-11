@@ -44,6 +44,10 @@
 }
 /*Apps*/.button_e6e74f {
   order: 7;
+  transition: .2s ease;
+  &:hover {
+    background-color: var(--background-modifier-selected);
+  }
 }
 /*Gift*/span + .button__74017, .buttonContainer__74017 + .button__74017, .buttonContainer_e6e74f + .button__74017, .spacer__74017 + .button__74017, .buttons__74017 > .button__74017:first-child {
   order: 8;

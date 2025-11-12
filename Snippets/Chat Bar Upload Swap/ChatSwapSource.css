@@ -41,6 +41,9 @@
 }
 .spacer__74017 {
   order: 6;
+  align-self: unset;
+  position: sticky;
+  top: 17px;
 }
 /*Apps*/.button_e6e74f {
   order: 7;
@@ -61,9 +64,13 @@
 }
 .separator_aa63ab {
   order: 10;
+  align-self: unset;
+  position: sticky;
+  top: 17px;
 }
 /*Send*/.container_aa63ab {
   order: 11;
+  align-items: unset;
 }
 
 @keyframes positionPatch {

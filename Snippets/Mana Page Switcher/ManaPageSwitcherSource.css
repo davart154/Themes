@@ -126,3 +126,10 @@
 .container__72c38 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
+.paginationLimitHeader_a9e706 {
+  margin-inline: var(--space-xs);
+  margin-top: var(--space-xs);
+  margin-bottom: 0;
+  width: unset;
+}

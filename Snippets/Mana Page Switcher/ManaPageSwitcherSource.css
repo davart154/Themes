@@ -1,3 +1,5 @@
+/*@import url(https://davart154.github.io/Themes/Snippets/Chat%20Bar%20Upload%20Swap/ChatSwapSource.css);*/
+
 .scroller_a9e706 {
   display: contents;
 }
@@ -45,7 +47,7 @@
   height: 32px;
   min-height: 32px;
   min-width: 32px;
-  padding: 0 !important;
+  padding: 0 var(--space-8) !important;
   margin: 0 !important;
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
@@ -96,6 +98,7 @@
   }
 }
 .endButton_c15210 {
+  padding: 0 !important;
   &:first-child {
     margin-right: auto !important;
   }

@@ -1,5 +1,3 @@
-/*@import url(https://davart154.github.io/Themes/Snippets/Chat%20Bar%20Upload%20Swap/ChatSwapSource.css);*/
-
 .scroller_a9e706 {
   display: contents;
 }
@@ -51,50 +49,50 @@
   margin: 0 !important;
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
-  background-color: var(--control-background-secondary-default);
-  border-color: var(--control-border-secondary-default);
-  color: var(--control-text-secondary-default);
+  background-color: var(--control-secondary-background-default);
+  border-color: var(--control-secondary-border-default);
+  color: var(--control-secondary-text-default);
   transition: .17s ease;
   &:hover {
-    background-color: var(--control-background-secondary-hover);
-    border-color: var(--control-border-secondary-hover);
-    color: var(--control-text-secondary-hover);
+    background-color: var(--control-secondary-background-hover);
+    border-color: var(--control-secondary-border-hover);
+    color: var(--control-secondary-text-hover);
   }
   &:active {
-    background-color: var(--control-background-secondary-active);
-    border-color: var(--control-border-secondary-active);
-    color: var(--control-text-secondary-active);
+    background-color: var(--control-secondary-background-active);
+    border-color: var(--control-secondary-border-active);
+    color: var(--control-secondary-text-active);
   }
   &.activeButton_c15210 {
-    background-color: var(--control-background-primary-default);
-    border-color: var(--control-border-primary-default);
-    color: var(--control-text-primary-default);
+    background-color: var(--control-primary-background-default);
+    border-color: var(--control-primary-border-default);
+    color: var(--control-primary-text-default);
   }
   &.activeButton_c15210:hover {
-    background-color: var(--control-background-primary-hover);
-    border-color: var(--control-border-primary-hover);
-    color: var(--control-text-primary-hover);
+    background-color: var(--control-primary-background-hover);
+    border-color: var(--control-primary-border-hover);
+    color: var(--control-primary-text-hover);
   }
   &.activeButton_c15210:active {
-    background-color: var(--control-background-primary-active);
-    border-color: var(--control-border-primary-active);
-    color: var(--control-text-primary-active);
+    background-color: var(--control-primary-background-active);
+    border-color: var(--control-primary-border-active);
+    color: var(--control-primary-text-active);
   }
   &:is(h2) {
     background-color: var(--input-background-default);
     border-color: var(--input-border-default);
-    color: var(--input-foreground-default);
+    color: var(--custom-input-text-color);
     min-width: 64px;
   }
   &:is(h2):hover {
     background-color: var(--input-background-default);
-    border-color: var(--input-border-default-hover);
-    color: var(--input-foreground-default);
+    border-color: var(--input-border-hover);
+    color: var(--custom-input-text-color);
   }
   &:is(h2):active {
     background-color: var(--input-background-default);
     border: 2px solid var(--input-border-active);
-    color: var(--input-foreground-default);
+    color: var(--custom-input-text-color);
   }
 }
 .endButton_c15210 {

@@ -52,7 +52,7 @@
     background-color: var(--background-modifier-selected);
   }
 }
-/*Gift*/span + .button__74017, .buttonContainer__74017 + .button__74017, .buttonContainer_e6e74f + .button__74017, .spacer__74017 + .button__74017, .buttons__74017 > .button__74017:first-child {
+/*Gift*/span + .button__74017, .buttonContainer__74017 + .button__74017, .buttonContainer_e6e74f + .button__74017, .spacer__74017 + .button__74017, .buttons__74017 > .button__74017:first-child, .container_c0c49a {
   order: 8;
 }
 /*More*/.attachButton__0923f {

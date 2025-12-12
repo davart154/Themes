@@ -10,7 +10,7 @@
     width: 8px;
   }
   &::-webkit-scrollbar-track {
-    margin-bottom: 16px;
+    margin-bottom: 4px;
   }
   &::-webkit-scrollbar-thumb {
     background-clip: padding-box;
@@ -19,6 +19,9 @@
     border-radius: 4px;
     min-height: 40px;
   }
+}
+.searchResultGroup_c68065:last-child {
+  margin-bottom: 0;
 }
 
 .container__86c0f {

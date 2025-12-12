@@ -23,7 +23,7 @@
 
 .container__86c0f {
   background: var(--background-gradient-highest,var(--background-base-low));
-  border: 1px solid var(--border-faint);
+  border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
   margin-inline: var(--space-xs);
   margin-bottom: var(--space-xs);
@@ -151,7 +151,7 @@
 
 .container__3379f {
   background: var(--background-gradient-highest,var(--background-base-low));
-  border: 1px solid var(--border-faint);
+  border: 1px solid var(--border-muted);
   border-top: 0;
   border-radius: 0 0 var(--radius-sm) var(--radius-sm);
   box-sizing: border-box;

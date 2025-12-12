@@ -27,6 +27,9 @@
   border-radius: var(--radius-sm);
   margin-inline: var(--space-xs);
   margin-bottom: var(--space-xs);
+  &:empty {
+    display: none;
+  }
 }
 .pageControlContainer_c15210 {
   display: contents;
@@ -163,7 +166,7 @@
   padding-inline: var(--space-md);
 }
 
-.paginationLimitHeader_a9e706 {
+.paginationLimitHeader_a9e706, .helpMessageContainer_a9e706 {
   margin-inline: var(--space-xs);
   margin-top: var(--space-xs);
   margin-bottom: 0;

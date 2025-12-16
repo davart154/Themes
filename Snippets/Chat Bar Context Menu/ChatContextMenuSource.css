@@ -36,7 +36,7 @@
     pointer-events: all;
   }
   &:before {
-    background-color: var(--interactive-normal);
+    background-color: var(--interactive-text-default);
     content: "";
     position: absolute;
     top: 12px;
@@ -63,10 +63,10 @@
 }
 .f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-inner:hover:not(:has(:hover)) {
   &:before {
-    background-color: var(--icon-primary);
+    background-color: var(--icon-strong);
   }
   &:after {
-    background-color: var(--background-modifier-selected);
+    background-color: var(--interactive-background-selected);
   }
 }
 
@@ -115,7 +115,7 @@ body:active:not(:has(._740174f3d6a2c8fe-inner:hover,._740174f3d6a2c8fe-buttons:h
 .f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-button, .e6e74fd4d1221f53-button {
   border-radius: 4px;
   box-sizing: border-box;
-  color: var(--header-primary);
+  color: var(--text-strong);
   justify-content: left;
   flex: 1 1 auto;
   padding: 8px;
@@ -139,7 +139,7 @@ body:active:not(:has(._740174f3d6a2c8fe-inner:hover,._740174f3d6a2c8fe-buttons:h
     --custom-emoji-sprite-size: 24px !important;
   }
   ._04eede68d145ae81-spriteGreyscale {
-    background-color: var(--header-primary);
+    background-color: var(--text-strong);
   }
 }
 .aa63abf63dbd9cce-separator, .aa63abf63dbd9cce-container {

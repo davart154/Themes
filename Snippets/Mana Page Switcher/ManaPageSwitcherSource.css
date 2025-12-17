@@ -156,15 +156,13 @@
 }
 
 ._3379fb83a901b3f2-container {
-  background: var(--background-gradient-highest,var(--background-base-low));
-  border: 1px solid var(--border-muted);
-  border-top: 0;
-  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  background: var(--background-feedback-info);
+  border: 1px solid var(--icon-feedback-info);
+  border-radius: var(--radius-sm);
+  color: var(--text-feedback-info);
   box-sizing: border-box;
   min-height: 56px;
-  margin-bottom: var(--space-xs);
-  margin-inline: var(--space-xs);
-  margin-top: calc(var(--space-md) * -1);
+  margin: var(--space-xs);
   padding-block: unset;
   padding-inline: var(--space-md);
 }

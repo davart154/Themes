@@ -56,7 +56,7 @@
   background: transparent;
   border: 0;
   border-radius: unset;
-  color: var(--icon-secondary);
+  color: var(--icon-default);
   height: unset;
   margin: unset;
   min-height: unset;
@@ -81,8 +81,7 @@
     padding-right: 6px !important;
   }
   &:hover {
-    background-color: var(--custom-nameplate, var(--background-modifier-hover));
-    color: var(--interactive-hover);
+    background-color: var(--custom-nameplate, var(--background-mod-normal)) !important;
     ._201d5e8a3c09670a-contents {
       scale: 1.1;
     }

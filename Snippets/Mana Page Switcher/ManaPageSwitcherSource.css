@@ -34,6 +34,9 @@
     display: none;
   }
 }
+.custom-theme-background .container_b82a71 {
+  border-color: var(--app-frame-border);
+}
 .pageControlContainer_c15210 {
   display: contents;
 }

@@ -1,14 +1,14 @@
 /*Textarea Patches*/
-.f75fb00fb7356cbe-form {
+.form_f75fb0 {
   z-index: 0;
 }
-.b8880176888cc928-base {
+.base_b88801 {
   z-index: -1;
 }
-.f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-scrollableContainer {
+.channelTextArea_f75fb0 .scrollableContainer__74017 {
   overflow: visible;
 }
-.f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-textArea {
+.channelTextArea_f75fb0 .textArea__74017 {
   height: unset !important;
   > div {
     max-height: 144px;
@@ -29,7 +29,7 @@
 }
 
 /*More Button*/
-.f75fb00fb7356cbe-channelTextArea:not(._740174f3d6a2c8fe-channelTextAreaDisabled) ._740174f3d6a2c8fe-inner {
+.channelTextArea_f75fb0:not(.channelTextAreaDisabled__74017) .inner__74017 {
   padding-right: 12px;
   pointer-events: none;
   > div {
@@ -61,7 +61,7 @@
     transition-duration: .2s;
   }
 }
-.f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-inner:hover:not(:has(:hover)) {
+.channelTextArea_f75fb0 .inner__74017:hover:not(:has(:hover)) {
   &:before {
     background-color: var(--icon-strong);
   }
@@ -71,7 +71,7 @@
 }
 
 /*Context Menu*/
-.f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-buttons {
+.channelTextArea_f75fb0 .buttons__74017 {
   position: absolute;
   background: var(--background-surface-high);
   background-color: var(--background-surface-higher);
@@ -94,25 +94,25 @@
     width: 100%;
   }
 }
-.custom-theme-background .f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-buttons {
+.custom-theme-background .channelTextArea_f75fb0 .buttons__74017 {
   border-color: var(--border-strong);
 }
-._740174f3d6a2c8fe-inner:active:not(:has(:hover)) ._740174f3d6a2c8fe-buttons {
+.inner__74017:active:not(:has(:hover)) .buttons__74017 {
   visibility: visible;
   pointer-events: all;
   transition-delay: 0s;
 }
-body:active:not(:has(._740174f3d6a2c8fe-inner:hover,._740174f3d6a2c8fe-buttons:hover)) .f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-buttons {
+body:active:not(:has(.inner__74017:hover,.buttons__74017:hover)) .channelTextArea_f75fb0 .buttons__74017 {
   display: none;
   pointer-events: none;
   transition-delay: 0s;
 }
 /*Context Buttons*/
-.e6e74fd4d1221f53-buttonContainer {
+.buttonContainer_e6e74f {
   width: 100%;
   background: none !important;
 }
-.f75fb00fb7356cbe-channelTextArea ._740174f3d6a2c8fe-button, .e6e74fd4d1221f53-button {
+.channelTextArea_f75fb0 .button__74017, .button_e6e74f {
   border-radius: 4px;
   box-sizing: border-box;
   color: var(--text-strong);
@@ -131,17 +131,17 @@ body:active:not(:has(._740174f3d6a2c8fe-inner:hover,._740174f3d6a2c8fe-buttons:h
     -webkit-margin-start: 8px;
     margin-inline-start: 8px;
   }
-  ._5eb9b3cc7c2b1ce8-lottieIcon, .c0c49a3e5c8626ac-iconContainer {
+  .lottieIcon__5eb9b, .iconContainer_c0c49a {
     width: 24px !important;
     height: 24px !important;
   }
-  ._04eede68d145ae81-spriteContainer {
+  .spriteContainer__04eed {
     --custom-emoji-sprite-size: 24px !important;
   }
-  ._04eede68d145ae81-spriteGreyscale {
+  .spriteGreyscale__04eed {
     background-color: var(--text-strong);
   }
 }
-.aa63abf63dbd9cce-separator, .aa63abf63dbd9cce-container {
+.separator_aa63ab, .container_aa63ab {
   display: none;
 }

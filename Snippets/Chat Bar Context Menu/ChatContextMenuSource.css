@@ -82,7 +82,6 @@
   flex-direction: column;
   height: fit-content;
   gap: 0;
-  min-width: 200px;
   visibility: hidden;
   padding: 8px;
   transition-delay: 99999s;
@@ -115,16 +114,18 @@ body:active:not(:has(.inner__74017:hover,.buttons__74017:hover)) .channelTextAre
 .channelTextArea_f75fb0 .button__74017, .button_e6e74f {
   border-radius: 4px;
   box-sizing: border-box;
-  color: var(--text-strong);
+  color: var(--interactive-text-default);
   justify-content: left;
   flex: 1 1 auto;
   padding: 8px;
   transition: none;
   &:hover {
     background: var(--background-mod-subtle);
+    color: var(--text-strong);
   }
   &:after {
     content: attr(aria-label);
+    color: var(--text-strong);
     font-size: 14px;
     font-weight: var(--font-weight-medium);
     line-height: 18px;
@@ -132,14 +133,17 @@ body:active:not(:has(.inner__74017:hover,.buttons__74017:hover)) .channelTextAre
     margin-inline-start: 8px;
   }
   .lottieIcon__5eb9b, .iconContainer_c0c49a {
-    width: 24px !important;
-    height: 24px !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+  svg {
+    scale: unset;
   }
   .spriteContainer__04eed {
-    --custom-emoji-sprite-size: 24px !important;
+    --custom-emoji-sprite-size: 20px !important;
   }
   .spriteGreyscale__04eed {
-    background-color: var(--text-strong);
+    background-color: currentColor;
   }
 }
 .separator_aa63ab, .container_aa63ab {

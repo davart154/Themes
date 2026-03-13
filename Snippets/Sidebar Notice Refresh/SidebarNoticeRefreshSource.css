@@ -93,6 +93,7 @@
 .textBlock_e2d7b8 + .textBlock_e2d7b8 {
   grid-area: eventParty;
   margin-top: 0;
+  margin-bottom: var(--space-xs);
 }
 
 .eventName_e2d7b8 + .textBlock_e2d7b8 {

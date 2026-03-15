@@ -14,16 +14,21 @@
     inset-inline: 8px;
 }
 
-.channelNotice_e2d7b8 {
+.channelNotice__4c43d, .channelNotice_e2d7b8 {
   background-color: var(--background-surface-higher);
-  border: 1px solid var(--status-positive-background);
+  border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
-  display: grid;
-  grid-template-areas: "eventHeader eventHeader" "eventName eventName" "eventParty eventParty" "eventDivider eventDivider" "eventLocation eventAction";
-  grid-template-columns: 1fr min-content;
+  box-shadow: unset;
   gap: 4px;
   margin: 8px 8px 0 8px;
   padding: var(--space-sm);
+}
+
+.channelNotice_e2d7b8 {
+  border-color: var(--status-positive-background);
+  display: grid;
+  grid-template-areas: "eventHeader eventHeader" "eventName eventName" "eventParty eventParty" "eventDivider eventDivider" "eventLocation eventAction";
+  grid-template-columns: 1fr min-content;
   &:has(button) {
     border-color: var(--border-subtle);
   }
@@ -62,7 +67,7 @@
   line-height: 1.3333333333333333;
   color: var(--green-360) !important;
 }
-.closeIcon_e2d7b8 {
+.closeIcon_e2d7b8, .closeIcon__4c43d {
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
   transition: .17s ease;

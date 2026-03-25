@@ -1,0 +1,91 @@
+.inner__74017 {
+  &:has(.editor__1b31f:only-child) {
+    --chatButton-opac: 0;
+    --chatButton-margin: calc((var(--space-32) + var(--space-8)) * -1);
+    --chatButton-clickable: none;
+  }
+}
+
+.attachButtonInner__0923f, .container_aa63ab, .buttonContainer_aa63ab {
+  display: contents;
+}
+.separator_aa63ab {
+  display: none;
+}
+.expression-picker-chat-input-button[aria-describedby] {
+  display: none;
+  + span + div {
+    display: none;
+  }
+}
+
+.button__24af7.button__24af7, .button_e6e74f.button_e6e74f {
+  min-width: var(--space-32);
+  min-height: var(--space-32);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  transition: .15s ease;
+}
+
+.app-launcher-entrypoint {
+  border-radius: unset;
+  background: unset !important;
+  margin-inline-end: var(--chatButton-margin);
+  opacity: var(--chatButton-opac);
+  order: 1;
+  pointer-events: var(--chatButton-clickable);
+}
+.buttons__74017 > .button__74017 {
+  margin-inline-end: var(--chatButton-margin);
+  opacity: var(--chatButton-opac);
+  pointer-events: var(--chatButton-clickable);
+  order: 2;
+}
+.expression-picker-chat-input-button {
+  order: 3;
+}
+
+.button__24af7.button__24af7, .button__74017.button__74017, .button_e6e74f.button_e6e74f {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--control-icon-only-icon-default);
+  &:hover {
+    background-color: var(--control-icon-only-background-hover);
+    border-color: var(--control-icon-only-border-hover);
+    color: var(--control-icon-only-icon-hover);
+  }
+  &:active {
+    background-color: var(--control-icon-only-background-active);
+    border-color: var(--control-icon-only-border-active);
+    color: var(--control-icon-only-icon-active);
+  }
+}
+
+.button_aa63ab.button_aa63ab {
+  background-color: var(--control-primary-background-default);
+  border-color: var(--control-primary-border-default);
+  color: var(--control-primary-text-default);
+  order: 4;
+  &:hover {
+    background-color: var(--control-primary-background-hover);
+    border-color: var(--control-primary-border-hover);
+    color: var(--control-primary-text-hover);
+  }
+  &:active {
+    background-color: var(--control-primary-background-active);
+    border-color: var(--control-primary-border-active);
+    color: var(--control-primary-text-active);
+  }
+}
+.button_aa63ab.disabled__24af7 {
+  pointer-events: none;
+  opacity: 0;
+  margin-inline-start: calc((var(--space-32) + var(--space-8)) * -1);
+}
+
+.buttonChild_aa63ab {
+  color: inherit !important;
+}
+.spriteGreyscale__04eed {
+  background-color: currentColor;
+}

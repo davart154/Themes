@@ -19,14 +19,6 @@
   }
 }
 
-.button__24af7.button__24af7, .button_e6e74f.button_e6e74f {
-  min-width: var(--space-32);
-  min-height: var(--space-32);
-  border: 1px solid transparent;
-  border-radius: var(--radius-sm);
-  transition: .15s ease;
-}
-
 .app-launcher-entrypoint {
   border-radius: unset;
   background: unset !important;
@@ -47,8 +39,13 @@
 
 .button__24af7.button__24af7, .button__74017.button__74017, .button_e6e74f.button_e6e74f {
   background-color: transparent;
+  border: 1px solid;
+  border-radius: var(--radius-sm);
   border-color: transparent;
   color: var(--control-icon-only-icon-default);
+  min-width: var(--space-32);
+  min-height: var(--space-32);
+  transition: .15s ease;
   &:hover {
     background-color: var(--control-icon-only-background-hover);
     border-color: var(--control-icon-only-border-hover);

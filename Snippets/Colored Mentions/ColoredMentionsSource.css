@@ -1,57 +1,42 @@
-._5126c0cd07f243a0-mentioned {
-  background: none;
-  z-index: 0;
-}
-._5126c0cd07f243a0-message:hover, ._5126c0cd07f243a0-message._5126c0cd07f243a0-selected {
-  background-color: var(--bg-overlay-1,var(--background-message-hover)) !important;
-}
-.c19a557985eb7793-messageContent, .c19a557985eb7793-compact .c19a557985eb7793-contents {
+.messageContent_c19a55, .compact_c19a55 .contents_c19a55 {
   position: unset !important;
 }
-.mention, ._752971923a1e6683-roleMention {
+.mention, .roleMention__75297 {
   position: unset;
   filter: none;
 }
-.c19a557985eb7793-hasReply._5126c0cd07f243a0-mentioned:not(:has([class*="ention"])):before,
-._5126c0cd07f243a0-mentioned .mention:before,
-._5126c0cd07f243a0-mentioned ._752971923a1e6683-roleMention:before {
+.mentioned__5126c .interactive:is(.roleMention__75297, .mention):before, .mentioned__5126c .interactive:is(.roleMention__75297, .mention):after {
   content: "";
   position: absolute;
+  background-color: var(--icon-feedback-warning);
+  filter: saturate(var(--saturation-factor,1));
+  pointer-events: none;
+}
+.mentioned__5126c .interactive:is(.roleMention__75297, .mention):before {
   top: 0;
   left: 0;
   bottom: 0;
   width: 2px;
-  background-color: var(--info-warning-foreground);
-  filter: saturate(var(--saturation-factor,1));
-  pointer-events: none;
 }
-.c19a557985eb7793-hasReply._5126c0cd07f243a0-mentioned:not(:has([class*="ention"])):after,
-._5126c0cd07f243a0-mentioned .mention:after,
-._5126c0cd07f243a0-mentioned ._752971923a1e6683-roleMention:after {
-  content: "";
-  position: absolute;
+.mentioned__5126c .interactive:is(.roleMention__75297, .mention):after {
   inset: 0;
-  background-color: var(--background-mentioned);
+  opacity: 8%;
   z-index: -1;
-  filter: saturate(var(--saturation-factor,1));
-  pointer-events: none;
 }
-._752971923a1e6683-roleMention[style]:before {
-  background-color: currentColor;
+.roleMention__75297[style]:before, .roleMention__75297[style]:after {
+  background-color: currentColor !important;
 }
-._752971923a1e6683-roleMention[style]:after {
-  background: currentColor;
-  opacity: 0.1;
+.interactive:is(.roleMention__75297, .mention) ~ .interactive, .repliedTextPreview_c19a55 .interactive {
+  &:before, &:after {
+    content: unset;
+  }
 }
-._5126c0cd07f243a0-mentioned:before,
-._5126c0cd07f243a0-mentioned:after,
-.c19a557985eb7793-repliedMessage [class*="ention"]:before,
-.c19a557985eb7793-repliedMessage [class*="ention"]:after,
-.mention ~ [class*="ention"]:before,
-.mention ~ [class*="ention"]:after,
-._752971923a1e6683-roleMention ~ [class*="ention"]:before,
-._752971923a1e6683-roleMention ~ [class*="ention"]:after,
-._5126c0cd07f243a0-mentioned:before,
-._5126c0cd07f243a0-mentioned:after {
-  content: unset;
+.mentioned__5126c {
+  background: none !important;
+  z-index: 0;
+  &:hover, &.selected__5126c {
+    .mention:after, .roleMention__75297:after {
+      opacity: 4%;
+    }
+  }
 }

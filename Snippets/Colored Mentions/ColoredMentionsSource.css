@@ -19,6 +19,7 @@
   width: 2px;
 }
 .mentioned__5126c .interactive:is(.roleMention__75297, .mention):after {
+  border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
   inset: 0;
   opacity: 8%;
   z-index: -1;

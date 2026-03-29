@@ -32,7 +32,7 @@
     content: unset;
   }
 }
-.mentioned__5126c:has(.roleMention__75297, .mention) {
+.mentioned__5126c:has(.contents_c19a55 .interactive:is(.roleMention__75297, .mention)) {
   background: none !important;
   z-index: 0;
   &:hover, &.selected__5126c {

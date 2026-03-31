@@ -5,12 +5,17 @@
   position: unset;
   filter: none;
 }
-.mentioned__5126c .interactive:is(.roleMention__75297, .mention):before, .mentioned__5126c .interactive:is(.roleMention__75297, .mention):after {
-  content: "";
-  position: absolute;
-  background-color: var(--icon-feedback-warning);
-  filter: saturate(var(--saturation-factor,1));
-  pointer-events: none;
+.mentioned__5126c .interactive:is(.roleMention__75297, .mention) {
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    background-color: var(--icon-feedback-warning);
+    filter: saturate(var(--saturation-factor,1));
+    pointer-events: none;
+  }
+  &[style]:before, &[style]:after {
+    background-color: currentColor !important;
+  }
 }
 .mentioned__5126c .interactive:is(.roleMention__75297, .mention):before {
   top: 0;
@@ -23,9 +28,6 @@
   inset: 0;
   opacity: 8%;
   z-index: -1;
-}
-.roleMention__75297[style]:before, .roleMention__75297[style]:after {
-  background-color: currentColor !important;
 }
 .interactive:is(.roleMention__75297, .mention) ~ .interactive, .repliedTextPreview_c19a55 .interactive {
   &:before, &:after {

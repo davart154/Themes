@@ -36,7 +36,7 @@
   opacity: 8%;
   z-index: -1;
 }
-.interactive:is(.roleMention__75297, .mention) ~ .interactive, .interactive:is(.roleMention__75297, .mention) ~ .obscured .interactive, .obscured:has(.interactive) ~ .interactive, .repliedTextPreview_c19a55 .interactive {
+.interactive:is(.roleMention__75297, .mention) ~ .interactive, .interactive:is(.roleMention__75297, .mention) ~ .obscured .interactive, .obscured:has(.interactive) ~ .interactive, .obscured:has(.interactive) ~ .obscured .interactive, .repliedTextPreview_c19a55 .interactive {
   &:before, &:after {
     content: unset;
   }

@@ -42,9 +42,6 @@
 .body__5be3e {
   gap: var(--space-sm);
   padding: var(--space-md);
-  section:has(.descriptionClamp_f5f93a) {
-    display: none;
-  }
 }
 .footer__5be3e {
   padding: 0 var(--space-md) var(--space-md);
@@ -58,6 +55,14 @@
 }
 .container__8061a {
   display: contents;
+  div {
+    display: flex;
+  }
+  a {
+    background-color: var(--user-profile-overlay-background);
+    border: 1px solid var(--border-muted);
+    border-radius: var(--radius-xs);
+  }
 }
 .body__5be3e .container__8061a {
   > :first-child {
@@ -70,8 +75,17 @@
 .usernameAndPronounsRow__26b1f div:is(.clickable__26b1f, .info_f4bc97) {
   order: -2;
 }
+.nameTag__05e81, .userTag__26b1f {
+  background-color: var(--user-profile-overlay-background);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-xs);
+  margin: unset;
+  padding: 1px 4px;
+}
 .container__8061a a[aria-label*="#"] {
   background-color: var(--icon-default);
+  border: 0;
+  border-radius: 0;
   display: flex !important;
   height: 16px;
   order: -1 !important;
@@ -80,6 +94,9 @@
   img {
     display: none;
   }
+}
+.dotSpacer__26b1f {
+  display: none;
 }
 .container__8061a a[aria-label*="HypeSquad"] {
   display: none;
@@ -162,6 +179,49 @@
 }
 .displayCountText_c2a763 {
   border-radius: inherit;
+}
+
+.body__5be3e > section:not([class]) {
+  background: var(--user-profile-overlay-background);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-sm);
+  padding: var(--space-xs);
+}
+.viewFullBio_f5f93a {
+  display: flex;
+  button {
+    align-items: center;
+    background-color: var(--control-secondary-background-default);
+    border: 1px solid var(--control-secondary-border-default);
+    color: var(--control-secondary-text-default);
+    display: flex;
+    flex: 1;
+    gap: var(--space-4);
+    height: 32px;
+    justify-content: center;
+    min-height: var(--space-32);
+    min-width: var(--space-32);
+    padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px) !important;
+    margin: 0 !important;
+    border-radius: var(--radius-sm);
+    transition: .15s ease;
+    &:hover {
+      background-color: var(--control-secondary-background-hover);
+      border-color: var(--control-secondary-border-hover);
+      color: var(--control-secondary-text-hover);
+    }
+    &:active {
+      background-color: var(--control-secondary-background-active);
+      border-color: var(--control-secondary-border-active);
+      color: var(--control-secondary-text-active);
+    }
+    span {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.2857142857142858;
+      text-decoration: unset !important;
+    }
+  }
 }
 
 .body__5be3e .section_bf424d, .body__5be3e > .roleListContainer_af3987 {

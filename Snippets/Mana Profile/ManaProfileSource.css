@@ -50,8 +50,9 @@
   }
 }
 
-.usernameAndPronounsRow__26b1f {
-  gap: 4px !important;
+.usernameAndPronounsRow__26b1f.usernameAndPronounsRow__26b1f {
+  gap: 4px;
+  margin-top: var(--space-4);
 }
 .container__8061a {
   display: contents;
@@ -62,6 +63,7 @@
     background-color: var(--user-profile-overlay-background);
     border: 1px solid var(--border-muted);
     border-radius: var(--radius-xs);
+    box-sizing: border-box;
   }
 }
 .body__5be3e .container__8061a {
@@ -82,15 +84,24 @@
   margin: unset;
   padding: 1px 4px;
 }
+.info_f4bc97:before {
+  color: var(--text-muted);
+  content: "@";
+}
 .container__8061a a[aria-label*="#"] {
-  background-color: var(--icon-default);
-  border: 0;
-  border-radius: 0;
+  align-items: center;
   display: flex !important;
-  height: 16px;
+  height: 22px;
+  justify-content: center;
   order: -1 !important;
-  width: 16px;
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M13.5 10.5h-3v3h3v-3Zm-4.6875-6h1.125c.1492 0 .2922.0593.3977.1648.1054.1055.1648.2485.1648.3977V8.25h3V5.0625c0-.1492.0593-.2922.1648-.3977.1055-.1055.2486-.1648.3977-.1648h1.125c.1492 0 .2923.0593.3977.1648.1055.1055.1648.2485.1648.3977V8.25h3.1875c.1492 0 .2923.0593.3977.1648.1055.1055.1648.2486.1648.3977v1.125c0 .3075-.255.5625-.5625.5625H15.75v3h3.1875c.1492 0 .2923.0593.3977.1648.1055.1055.1648.2486.1648.3977v1.125c0 .3075-.255.5625-.5625.5625H15.75v3.1875c0 .3075-.255.5625-.5625.5625h-1.125c-.3075 0-.5625-.255-.5625-.5625V15.75h-3v3.1875c0 .3075-.255.5625-.5625.5625H8.8125c-.3075 0-.5625-.255-.5625-.5625V15.75H5.0625c-.3075 0-.5625-.255-.5625-.5625v-1.125c0-.1492.0593-.2923.1648-.3977.1055-.1055.2485-.1648.3977-.1648H8.25v-3H5.0625c-.3075 0-.5625-.255-.5625-.5625V8.8125c0-.1492.0593-.2922.1648-.3977.1055-.1054.2485-.1648.3977-.1648H8.25V5.0625c0-.1492.0593-.2922.1648-.3977.1055-.1055.2486-.1648.3977-.1648ZM18 0H6C2.6863 0 0 2.6863 0 6V18c0 3.3137 2.6863 6 6 6H18c3.3137 0 6-2.6863 6-6V6c0-3.3137-2.6863-6-6-6Z' clip-rule='evenodd' class=''/%3E%3C/svg%3E") center/contain no-repeat;
+  width: 22px;
+  &:before {
+    background-color: var(--icon-default);
+    content: "";
+    height: 14px;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M7.75 2C7.55109 2 7.36032 2.07902 7.21967 2.21967C7.07902 2.36032 7 2.55109 7 2.75V7H2.75C2.55109 7 2.36032 7.07902 2.21967 7.21967C2.07902 7.36032 2 7.55109 2 7.75V9.25C2 9.66 2.34 10 2.75 10H7V14H2.75C2.55109 14 2.36032 14.079 2.21967 14.2197C2.07902 14.3603 2 14.5511 2 14.75V16.25C2 16.66 2.34 17 2.75 17H7V21.25C7 21.66 7.34 22 7.75 22H9.25C9.66 22 10 21.66 10 21.25V17H14V21.25C14 21.66 14.34 22 14.75 22H16.25C16.66 22 17 21.66 17 21.25V17H21.25C21.66 17 22 16.66 22 16.25V14.75C22 14.5511 21.921 14.3603 21.7803 14.2197C21.6397 14.079 21.4489 14 21.25 14H17V10H21.25C21.66 10 22 9.66 22 9.25V7.75C22 7.55109 21.921 7.36032 21.7803 7.21967C21.6397 7.07902 21.4489 7 21.25 7H17V2.75C17 2.55109 16.921 2.36032 16.7803 2.21967C16.6397 2.07902 16.4489 2 16.25 2H14.75C14.5511 2 14.3603 2.07902 14.2197 2.21967C14.079 2.36032 14 2.55109 14 2.75V7H10V2.75C10 2.55109 9.92098 2.36032 9.78033 2.21967C9.63968 2.07902 9.44891 2 9.25 2H7.75ZM14 14V10H10V14H14Z' clip-rule='evenodd' class=''/%3E%3C/svg%3E") center/contain no-repeat;
+    width: 14px;
+  }
   img {
     display: none;
   }
@@ -108,6 +119,7 @@
 .overlay_c0bea0 {
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
+  gap: var(--space-sm);
   padding: var(--space-xs);
   &:has(.banner__24928) {
     display: none;
@@ -185,10 +197,14 @@
   background: var(--user-profile-overlay-background);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
   padding: var(--space-xs);
 }
 .viewFullBio_f5f93a {
   display: flex;
+  margin: unset;
   button {
     align-items: center;
     background-color: var(--control-secondary-background-default);

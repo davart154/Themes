@@ -134,8 +134,12 @@
     line-height: 1.3333333333333333;
   }
 }
-.container__82fb2 {
+.container__82fb2, .container__43a4b {
   padding: 0;
+}
+
+.buttonContainer__43a4b button {
+  flex: 1;
 }
 
 .mutuals__530ce {

@@ -83,11 +83,12 @@
   border-radius: var(--radius-xs);
   margin: unset;
   padding: 1px 4px;
+  &.info_f4bc97:before {
+    color: var(--text-muted);
+    content: "@";
+  }
 }
-.info_f4bc97:before {
-  color: var(--text-muted);
-  content: "@";
-}
+
 .container__8061a a[aria-label*="#"] {
   align-items: center;
   display: flex !important;

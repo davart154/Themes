@@ -23,20 +23,37 @@
   top: calc(var(--custom-user-profile-banner-top, 0px) + var(--space-8));
 }
 .bannerButton_fb7f94 {
-  background: var(--control-overlay-primary-background-default);
-  border-color: var(--control-overlay-primary-border-default);
+  background: var(--control-overlay-secondary-background-default);
+  border-color: var(--control-overlay-secondary-border-default);
   border-radius: var(--radius-sm);
-  color: var(--control-overlay-primary-text-default);
+  color: var(--control-overlay-secondary-text-default);
   transition: .15s ease !important;
   &:hover {
-    background-color: var(--control-overlay-primary-background-hover);
-    border-color: var(--control-overlay-primary-border-hover);
-    color: var(--control-overlay-primary-text-hover);
+    background-color: var(--control-overlay-secondary-background-hover);
+    border-color: var(--control-overlay-secondary-border-hover);
+    color: var(--control-overlay-secondary-text-hover);
   }
   &:active {
-    background-color: var(--control-overlay-primary-background-active);
-    border-color: var(--control-overlay-primary-border-active);
-    color: var(--control-overlay-primary-text-active);
+    background-color: var(--control-overlay-secondary-background-active);
+    border-color: var(--control-overlay-secondary-border-active);
+    color: var(--control-overlay-secondary-text-active);
+  }
+}
+.custom-theme-background .bannerButton_fb7f94 {
+  background: var(--control-primary-background-default);
+  border-color: var(--control-primary-border-default);
+  border-radius: var(--radius-sm);
+  color: var(--control-primary-text-default);
+  transition: .15s ease !important;
+  &:hover {
+    background-color: var(--control-primary-background-hover);
+    border-color: var(--control-primary-border-hover);
+    color: var(--control-primary-text-hover);
+  }
+  &:active {
+    background-color: var(--control-primary-background-active);
+    border-color: var(--control-primary-border-active);
+    color: var(--control-primary-text-active);
   }
 }
 .body__5be3e {
@@ -59,12 +76,16 @@
   div {
     display: flex;
   }
-  a {
+  a, .vc-platform-indicator {
     background-color: var(--user-profile-overlay-background);
     border: 1px solid var(--border-muted);
     border-radius: var(--radius-xs);
     box-sizing: border-box;
   }
+}
+.vc-platform-indicator {
+  height: 22px;
+  width: 22px;
 }
 .body__5be3e .container__8061a {
   > :first-child {

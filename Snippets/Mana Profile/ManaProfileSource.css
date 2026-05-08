@@ -82,10 +82,10 @@
     border-radius: var(--radius-xs);
     box-sizing: border-box;
   }
-}
-.vc-platform-indicator {
-  height: 22px;
-  width: 22px;
+  .vc-platform-indicator {
+    height: 22px;
+    width: 22px;
+  }
 }
 .body__5be3e .container__8061a {
   > :first-child {

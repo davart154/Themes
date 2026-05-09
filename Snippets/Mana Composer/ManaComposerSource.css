@@ -18,6 +18,9 @@
     display: none;
   }
 }
+.fm-buttonContainer {
+  display: none;
+}
 
 .app-launcher-entrypoint {
   border-radius: unset;

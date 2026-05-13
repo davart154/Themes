@@ -87,6 +87,11 @@
     width: 22px;
   }
 }
+.badgeList_a9178b {
+  background: transparent;
+  display: flex;
+  padding: 0;
+}
 .body__5be3e .container__8061a {
   > :first-child {
     order: -3;

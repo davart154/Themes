@@ -14,7 +14,7 @@
     inset-inline: 8px;
 }
 
-.channelNotice__4c43d, .channelNotice_e2d7b8 {
+.channelNotice_e88f3f, .channelNotice_e2d7b8 {
   background-color: var(--background-surface-higher);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
@@ -67,7 +67,7 @@
   line-height: 1.3333333333333333;
   color: var(--green-360) !important;
 }
-.closeIcon_e2d7b8, .closeIcon__4c43d {
+.closeIcon_e2d7b8, .closeIcon_e88f3f {
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
   transition: .17s ease;

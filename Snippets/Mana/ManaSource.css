@@ -28,6 +28,7 @@
   border-radius: var(--radius-sm);
   box-sizing: border-box;
   color: var(--custom-notice-background) !important;
+  display: flex;
   font-size: 14px;
   font-weight: 500;
   height: unset;

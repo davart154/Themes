@@ -17,6 +17,9 @@
   line-height: unset;
   padding-inline: var(--space-xs);
 }
+.notice__29487 {
+  border-top: 1px solid transparent;
+}
 .button__6e2b9.button__6e2b9, .closeButton__6e2b9.closeButton__6e2b9, .closeButton__29487.closeButton__29487 {
   align-items: center;
   background-color: var(--control-overlay-primary-background-default);

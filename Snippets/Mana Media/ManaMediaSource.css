@@ -272,6 +272,6 @@
     width: 32px;
   }
 }
-.obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706 {
+.obscured__6c706.hiddenMosaicItem__6c706.hiddenSpoiler__6c706, .spoiler__41ea0 {
   filter: blur(44px) saturate(2) brightness(.5);
 }

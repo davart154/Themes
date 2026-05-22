@@ -13,6 +13,7 @@
   display: flex;
 }
 .wrapper_cb9592:has(.join_f1ceac) {
+  min-height: unset !important;
   height: var(--custom-channel-header-height) !important;
   .resizeHandle__4b144 {
     display: none;

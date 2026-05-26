@@ -81,11 +81,12 @@
   cursor: pointer;
   box-sizing: border-box;
   justify-content: center;
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-overlay-secondary-background-hover);
     border-color: var(--control-overlay-secondary-border-hover);
     color: var(--control-overlay-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-overlay-secondary-background-active);
@@ -160,11 +161,12 @@
   color: var(--control-icon-only-icon-default);
   box-sizing: border-box;
   justify-content: center;
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-icon-only-background-hover) !important;
     border-color: var(--control-icon-only-border-hover) !important;
     color: var(--control-icon-only-icon-hover) !important;
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-icon-only-background-active) !important;
@@ -214,11 +216,12 @@
   min-width: 40px;
   padding: 0 !important;
   justify-content: center;
-  transition: .15s ease !important;
+  transition: 50ms ease !important;
   &:hover {
     background-color: var(--control-overlay-secondary-background-hover);
     border-color: var(--control-overlay-secondary-border-hover);
     color: var(--control-overlay-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-overlay-secondary-background-active);

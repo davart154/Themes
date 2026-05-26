@@ -29,12 +29,13 @@
   justify-content: center;
   min-height: 32px;
   min-width: 32px;
-  transition: .15s ease;
+  transition: 50ms ease;
   width: unset;
   &:hover {
     background-color: var(--control-overlay-primary-background-hover);
     border-color: var(--control-overlay-primary-border-hover);
     color: var(--control-overlay-primary-icon-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-overlay-primary-background-active);
@@ -120,12 +121,13 @@
   height: unset;
   min-width: var(--space-32);
   min-height: var(--space-32);
-  transition: .15s ease;
+  transition: 50ms ease;
   width: unset;
   &:hover {
     background-color: var(--control-secondary-background-hover);
     border-color: var(--control-secondary-border-hover);
     color: var(--control-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-secondary-background-active);

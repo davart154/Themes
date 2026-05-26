@@ -61,11 +61,12 @@
   background-color: var(--control-secondary-background-default);
   border-color: var(--control-secondary-border-default);
   color: var(--control-secondary-text-default);
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-secondary-background-hover);
     border-color: var(--control-secondary-border-hover);
     color: var(--control-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-secondary-background-active);

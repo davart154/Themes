@@ -27,11 +27,12 @@
   border-color: var(--control-overlay-secondary-border-default);
   border-radius: var(--radius-sm);
   color: var(--control-overlay-secondary-text-default);
-  transition: .15s ease !important;
+  transition: 50ms ease !important;
   &:hover {
     background-color: var(--control-overlay-secondary-background-hover);
     border-color: var(--control-overlay-secondary-border-hover);
     color: var(--control-overlay-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-overlay-secondary-background-active);
@@ -44,11 +45,12 @@
   border-color: var(--control-primary-border-default);
   border-radius: var(--radius-sm);
   color: var(--control-primary-text-default);
-  transition: .15s ease !important;
+  transition: 50ms ease !important;
   &:hover {
     background-color: var(--control-primary-background-hover);
     border-color: var(--control-primary-border-hover);
     color: var(--control-primary-text-hover);
+    transition: .15s ease !important;
   }
   &:active {
     background-color: var(--control-primary-background-active);
@@ -275,11 +277,12 @@
     padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px) !important;
     margin: 0 !important;
     border-radius: var(--radius-sm);
-    transition: .15s ease;
+    transition: 50ms ease;
     &:hover {
       background-color: var(--control-secondary-background-hover);
       border-color: var(--control-secondary-border-hover);
       color: var(--control-secondary-text-hover);
+      transition: .15s ease;
     }
     &:active {
       background-color: var(--control-secondary-background-active);
@@ -352,12 +355,13 @@
   min-width: var(--space-32);
   padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px) !important;
   margin: 0 !important;
-  transition: .15s ease;
+  transition: 50ms ease;
   width: unset;
   &:hover {
     background-color: var(--control-secondary-background-hover);
     border-color: var(--control-secondary-border-hover);
     color: var(--control-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-secondary-background-active);

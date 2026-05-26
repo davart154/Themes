@@ -48,11 +48,12 @@
   color: var(--control-icon-only-icon-default);
   min-width: var(--space-32);
   min-height: var(--space-32);
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-icon-only-background-hover);
     border-color: var(--control-icon-only-border-hover);
     color: var(--control-icon-only-icon-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-icon-only-background-active);
@@ -112,11 +113,12 @@
     min-width: var(--space-32);
     min-height: var(--space-32);
     padding: 0;
-    transition: .15s ease;
+    transition: 50ms ease;
     &:hover {
       background-color: var(--control-icon-only-background-hover);
       border-color: var(--control-icon-only-border-hover);
       color: var(--control-icon-only-icon-hover);
+      transition: .15s ease;
     }
     &:active {
       background-color: var(--control-icon-only-background-active);
@@ -175,11 +177,12 @@
   min-height: var(--space-32);
   padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
   text-transform: lowercase;
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-secondary-background-hover);
     border-color: var(--control-secondary-border-hover);
     --text-muted: var(--control-secondary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-secondary-background-active);
@@ -216,11 +219,12 @@
   min-width: var(--space-32);
   min-height: var(--space-32);
   padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-primary-background-hover);
     border-color: var(--control-primary-border-hover);
     --text-link: var(--control-primary-text-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-primary-background-active);

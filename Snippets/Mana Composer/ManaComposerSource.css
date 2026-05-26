@@ -247,11 +247,12 @@
   min-height: var(--space-32);
   padding: 0;
   text-transform: lowercase;
-  transition: .15s ease;
+  transition: 50ms ease;
   &:hover {
     background-color: var(--control-icon-only-background-hover);
     border-color: var(--control-icon-only-border-hover);
     color: var(--control-icon-only-icon-hover);
+    transition: .15s ease;
   }
   &:active {
     background-color: var(--control-icon-only-background-active);

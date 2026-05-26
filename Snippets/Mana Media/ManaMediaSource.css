@@ -216,12 +216,12 @@
   min-width: 40px;
   padding: 0 !important;
   justify-content: center;
-  transition: 50ms ease !important;
+  transition: 50ms ease, opacity .15s ease, transform .15s ease !important;
   &:hover {
     background-color: var(--control-overlay-secondary-background-hover);
     border-color: var(--control-overlay-secondary-border-hover);
     color: var(--control-overlay-secondary-text-hover);
-    transition: .15s ease;
+    transition: .15s ease !important;
   }
   &:active {
     background-color: var(--control-overlay-secondary-background-active);

@@ -1,16 +1,18 @@
 .panels__5e434.panels__5e434 button {
-  background-color: var(--control-secondary-background-default) !important;
+  background: var(--control-secondary-background-default) !important;
   border: 1px solid var(--control-secondary-border-default);
   color: var(--control-secondary-text-default);
+  min-height: 32px;
+  min-width: 32px;
   transition: 50ms ease;
   &:hover {
-    background-color: var(--control-secondary-background-hover) !important;
+    background: var(--control-secondary-background-hover) !important;
     border-color: var(--control-secondary-border-hover);
     color: var(--control-secondary-text-hover);
     transition: .15s ease;
   }
   &:active {
-    background-color: var(--control-secondary-background-active) !important;
+    background: var(--control-secondary-background-active) !important;
     border-color: var(--control-secondary-border-active);
     color: var(--control-secondary-text-active);
   }

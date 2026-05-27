@@ -58,17 +58,13 @@
   .container__5a838 {
     margin-inline-end: var(--space-md);
   }
-  &:after {
-    background: linear-gradient(to bottom, var(--background-base-lower), transparent);
-    content: "";
-    height: var(--space-20);
-    position: absolute;
-    top: 100%;
-    inset-inline: calc(var(--space-16) * -1) 0;
-    z-index: 1;
+}
+.peopleList__5ec2f {
+  -webkit-mask: linear-gradient(180deg, transparent, black var(--space-20));
+  &::-webkit-scrollbar-track {
+    margin-top: var(--space-20);
   }
 }
-
 .title__1472a {
   margin-inline: var(--space-xl);
 }

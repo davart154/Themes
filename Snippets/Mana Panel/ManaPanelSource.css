@@ -125,7 +125,10 @@
   column-gap: var(--space-8);
   row-gap: 0;
 }
-.container_e131a9:only-child {
+.connection_e131a9 {
+  display: contents;
+}
+.container_e131a9:has(.connection_e131a9:only-child) {
   display: flex;
   button {
     margin: 0 !important;
@@ -133,9 +136,6 @@
   .voiceButtonsContainer_e131a9 > button:not(:first-child,:last-child) {
     display: flex;
   }
-}
-.connection_e131a9 {
-  display: contents;
 }
 .inner_e131a9 {
   grid-area: vcConnection;

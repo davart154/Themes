@@ -37,7 +37,7 @@
   border-radius: var(--radius-md);
   overflow: hidden;
   &:before {
-    box-shadow: inset 0 0 0 0 var(--background-brand), inset 0 0 0 0 var(--background-base-lowest);
+    box-shadow: inset 0 0 0 0 var(--background-brand), inset 0 0 0 0 var(--app-frame-background);
     border-radius: inherit;
     content: "";
     inset: 0;
@@ -47,7 +47,7 @@
     z-index: 1;
   }
   &:is(.selected__6e9f8, .selected__5bc7e):before {
-    box-shadow: inset 0 0 0 2px var(--background-brand), inset 0 0 0 3px var(--background-base-lowest);
+    box-shadow: inset 0 0 0 2px var(--background-brand), inset 0 0 0 3px var(--app-frame-background);
   }
 }
 div[style]:not([class]) .wrapper__6e9f8 {

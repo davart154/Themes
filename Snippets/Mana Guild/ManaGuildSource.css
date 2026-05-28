@@ -26,7 +26,7 @@
 .folderGroupBackground__48112 {
   inset-inline-start: unset;
 }
-.shiftSVG_cc5dd2 defs path {
+.blobContainer_e5445c:not(.wobble_e5445c) defs > path {
   d: path("M0 0H40V40H0V0Z");
 }
 .overlay__58105 {
@@ -51,6 +51,9 @@
 }
 .listItem__650eb:has(.discoveryIcon_ef3116) .item__58105 {
   display: none;
+}
+.centerTarget_d144f8.dragOver_d144f8:before {
+  inset-inline-start: -8px;
 }
 .wrapper__6e9f8, .circleIconButton__5bc7e {
   border-radius: var(--radius-md);

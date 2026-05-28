@@ -111,8 +111,11 @@
   display: contents;
 }
 
-.buttonChevron__5e764.buttonChevron__5e764 {
+.buttons__37e49 .buttonChevron__5e764.buttonChevron__5e764.buttonChevron__5e764 {
   display: none;
+}
+.buttonChevron__5e764 {
+  min-width: 16px !important;
 }
 .audioButtonParent__5e764 + .audioButtonParent__5e764 {
   margin-inline-start: calc(var(--space-8) * -1 + 1px);
@@ -135,10 +138,10 @@
 }
 .container_e131a9:has(.connection_e131a9:only-child) {
   display: flex;
-  button {
-    margin: 0 !important;
+  button, div {
+    margin-top: 0 !important;
   }
-  .voiceButtonsContainer_e131a9 > button:not(:first-child,:last-child) {
+  .voiceButtonsContainer_e131a9 > div + button {
     display: flex;
   }
 }
@@ -147,22 +150,20 @@
 }
 .voiceButtonsContainer_e131a9 {
   display: contents;
-  > button:first-child {
+  > div, > button:first-child {
     grid-area: vcNoise;
     margin-top: var(--space-8);
   }
   > button:last-child {
+    color: var(--red-new-46) !important;
     grid-area: vcLeave;
+    width: 100%;
+    path {
+      fill: currentColor !important;
+    }
   }
-  > button:not(:first-child,:last-child) {
+  > div + button {
     display: none;
-    grid-area: vcActions;
-  }
-}
-.voiceButtonsContainer_e131a9 > button:last-child {
-  color: var(--red-new-46) !important;
-  path {
-    fill: currentColor !important;
   }
 }
 .rtcConnectionStatus__06d62 {

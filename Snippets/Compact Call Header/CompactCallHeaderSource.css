@@ -1,5 +1,5 @@
-.children__9293f {
-  order: -1;
+.toolbar__9293f {
+  order: 1;
 }
 .wrapper_cb9592 {
   border-bottom: 1px solid var(--border-subtle);
@@ -7,6 +7,14 @@
   &.noChat_cb9592 {
     border-bottom-width: 0;
     border-top: 1px solid var(--border-subtle);
+  }
+  &.sidebarOpen_cb9592 {
+    border: 0;
+    .callContainer_cb9592 {
+      border-bottom-right-radius: 0;
+      border-top: 1px solid var(--border-subtle);
+      border-inline-end: 1px solid var(--border-subtle);
+    }
   }
 }
 .callContainer_cb9592 {

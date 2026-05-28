@@ -118,9 +118,6 @@
 }
 
 /* Header */
-.children__9293f {
-  order: -1;
-}
 .clickable__9293f {
   background-color: transparent;
   border: 1px solid;
@@ -657,4 +654,10 @@
 }
 .instructions__7641b {
   color: var(--channels-default) !important;
+}
+.container__01ae2 {
+  border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+  &.floating__01ae2 {
+    border-bottom-left-radius: var(--radius-sm);
+  }
 }

@@ -1,3 +1,22 @@
+.theme-light {
+  --app-frame-background: color-mix(in oklab,var(--neutral-6) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
+}
+.theme-dark {
+  --app-frame-background: color-mix(in oklab,var(--neutral-78) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
+}
+.theme-darker {
+  --app-frame-background: color-mix(in oklab,var(--neutral-94) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
+}
+.theme-midnight {
+  --app-frame-background: color-mix(in oklab,var(--neutral-100) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
+}
+.bg__960e4 {
+  background: var(--background-gradient-app-frame,var(--app-frame-background));
+}
+.wrapper_ef3116, .itemsContainer_ef3116 {
+  background: transparent !important;
+}
+
 .itemsContainer_ef3116 .stack_dbd263 {
   align-items: center;
 }

@@ -40,7 +40,7 @@
     color: var(--control-overlay-secondary-text-active);
   }
 }
-.custom-theme-background .bannerButton_fb7f94 {
+.custom-user-profile-theme .bannerButton_fb7f94 {
   background: var(--control-primary-background-default);
   border-color: var(--control-primary-border-default);
   border-radius: var(--radius-sm);

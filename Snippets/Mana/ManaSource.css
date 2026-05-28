@@ -643,6 +643,12 @@
 :root {
   --background-feedback-notification: var(--background-brand);
 }
+.sidebar__5e434:after {
+  content: unset;
+}
+.themed__9293f.themed__9293f {
+  background: var(--background-gradient-chat,var(--background-base-lower));
+}
 .private__7641b {
   font-size: 14px;
   font-weight: 500;

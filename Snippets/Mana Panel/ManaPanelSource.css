@@ -315,7 +315,7 @@
     color: var(--control-secondary-text-active);
   }
 }
-.gameIconWrapper__8c6c2 {
+.gameIconWrapper__8c6c2, .wrapper_a629d4 {
   align-items: center;
   display: flex;
   flex-shrink: 0;
@@ -323,7 +323,7 @@
   justify-content: center;
   width: 32px;
 }
-.gameIcon__8c6c2, .gameIcon__5dec7 {
+.gameIcon__8c6c2, .gameIcon__5dec7, .wrapper_a629d4 > .svg__2338f {
   border-radius: var(--radius-xs);
   height: 20px;
   width: 20px;
@@ -331,6 +331,12 @@
 .gameIcon__5dec7 {
   margin: 6px;
   pointer-events: none;
+}
+.badge_a629d4 {
+  bottom: 3px;
+  height: 10px;
+  inset-inline-end: 4px;
+  width: 10px;
 }
 .info__8c6c2, .info__5dec7 {
   align-items: center;
@@ -379,6 +385,18 @@
   }
   &:active:before {
     background-color: var(--interactive-icon-active);
+  }
+  div {
+    display: none;
+  }
+}
+.perksDemoContainer__5dec7 {
+  min-height: 32px;
+  min-width: 32px;
+  justify-content: center;
+  svg {
+    height: 16px;
+    width: 16px;
   }
   div {
     display: none;

@@ -15,6 +15,9 @@
     "notice notice notice"
     "guildsList channelsList page";
 }
+.content__5e434 {
+  grid-row: noticeEnd / end;
+}
 .base__5e434:has(.notice__6e2b9) .bar_c38106 {
   --background-mod-normal: var(--opacity-white-8);
   --border-subtle: var(--opacity-white-8);

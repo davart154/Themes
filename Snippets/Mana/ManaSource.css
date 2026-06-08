@@ -8,18 +8,120 @@
 @import url(https://davart154.github.io/Themes/Snippets/Mana%20Profile/ManaProfileSource.css);
 @import url(https://davart154.github.io/Themes/Snippets/Sidebar%20Notice%20Refresh/SidebarNoticeRefreshSource.css);
 
+/* Base */
+.base__5e434 {
+  grid-template-areas: 
+    "titleBar titleBar titleBar"
+    "notice notice notice"
+    "guildsList channelsList page";
+}
+.base__5e434:has(.notice__6e2b9) .bar_c38106 {
+  --background-mod-normal: var(--opacity-white-8);
+  --border-subtle: var(--opacity-white-8);
+  --icon-muted: var(--opacity-white-60);
+  --interactive-icon-active: var(--white);
+  --interactive-icon-default: var(--opacity-white-60);
+  --interactive-icon-hover: var(--white);
+  --interactive-text-default: var(--opacity-white-60);
+  --interactive-text-hover: var(--white);
+  --text-default: var(--white);
+}
+
+.sidebar__5e434 {
+  padding-right: 8px;
+  &:after {
+    content: unset;
+  }
+}
+.sidebarResizeHandle__5e434 {
+  background: unset !important;
+  width: 8px;
+  &:after {
+    background: var(--background-mod-strong);
+    border-radius: var(--radius-round);
+    content: "";
+    inset: 4px 2px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 50ms ease;
+  }
+  &:hover:after, &:active:after {
+    opacity: 1;
+    transition: opacity .15s .4s ease;
+  }
+}
+.sidebarList__5e434 {
+  border-inline-end: 1px solid var(--app-frame-border);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+.panels__5e434 {
+  width: calc(100% - var(--custom-panels-spacing)*2 - 8px);
+}
+
+.page__5e434 {
+  border: 0 !important;
+}
+.applicationStore_f07d62 {
+  background-color: unset;
+}
+.chat_f75fb0, .container__133bf, .page__1add6, .homeWrapper__0920e, .shop__6db1d, .container__955a3, .container_a592e1, .noChannelFavorites__01d5c {
+  border-inline-start: 1px solid var(--app-frame-border);
+  border-radius: var(--radius-sm) 0 0 0;
+  border-top: 1px solid var(--app-frame-border);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.chat_f75fb0.threadSidebarOpen_f75fb0 {
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+.container__01ae2 {
+  border-radius: var(--radius-sm) 0 0 0;
+  &.floating__01ae2 {
+    border-bottom-left-radius: var(--radius-sm);
+  }
+}
+
 /* Notice */
+.bar_c38106:not(.systemBar_c38106) {
+  z-index: 102;
+}
 .notice__6e2b9, .notice__29487 {
   align-items: center;
+  border: 0;
+  border-radius: 0;
   display: flex;
   gap: var(--space-8);
   height: 44px !important;
   justify-content: center;
   line-height: unset;
+  margin-bottom: var(--space-8);
   padding-inline: var(--space-xs);
+  --notice-background-critical: var(--red-new-86);
+  --notice-background-info: var(--blue-new-86);
+  --notice-background-positive: var(--green-new-88);
+  --notice-background-warning: var(--yellow-new-92);
+  --notice-text-critical: var(--red-new-9);
+  --notice-text-info: var(--blue-new-13);
+  --notice-text-positive: var(--green-new-14);
+  --notice-text-warning: var(--yellow-new-28);
+  &:before {
+    background: inherit;
+    content: "";
+    height: var(--custom-app-top-bar-height);
+    left: 0;
+    opacity: .9;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: calc(var(--custom-app-top-bar-height) * -1);
+    z-index: -2;
+  }
 }
-.notice__29487 {
-  border-top: 1px solid transparent;
+.bg__960e4.theme-dark + div .notice__6e2b9:before {
+  opacity: .5;
+}
+.errorCodeNoticeText_b68a35 {
+  margin: 0;
 }
 .button__6e2b9.button__6e2b9, .closeButton__6e2b9.closeButton__6e2b9, .closeButton__29487.closeButton__29487 {
   align-items: center;
@@ -640,18 +742,7 @@
 :root {
   --background-feedback-notification: var(--background-brand);
 }
-.sidebar__5e434:after {
-  content: unset;
-}
-.chat_f75fb0.threadSidebarOpen_f75fb0 {
-  border-radius: 0 var(--radius-sm) 0 0;
-}
-.container__01ae2 {
-  border-radius: var(--radius-sm) 0 0 0;
-  &.floating__01ae2 {
-    border-bottom-left-radius: var(--radius-sm);
-  }
-}
+
 .themed__9293f.themed__9293f {
   background: var(--background-gradient-chat,var(--background-base-lower));
 }

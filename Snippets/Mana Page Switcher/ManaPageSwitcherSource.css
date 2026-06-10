@@ -28,6 +28,7 @@
   background: var(--background-gradient-highest,var(--background-base-low));
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
+  display: flex;
   margin-inline: var(--space-xs);
   margin-bottom: var(--space-xs);
   &:empty {
@@ -42,12 +43,12 @@
 }
 .pageControl_c15210 {
   box-sizing: border-box;
+  flex: 1;
   gap: var(--space-8);
   height: 56px;
   justify-content: center;
   padding: 0 var(--space-sm);
   margin: 0;
-  width: 100%;
 }
 .pageButton_c15210 {
   font-weight: 500;

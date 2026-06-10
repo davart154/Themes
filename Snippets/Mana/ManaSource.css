@@ -142,7 +142,7 @@
 .bg__960e4.theme-dark + div :is(.notice__6e2b9, .notice__29487):before {
   opacity: .5;
 }
-.errorCodeNoticeText_b68a35 {
+.icon_b68a35, .errorCodeNoticeText_b68a35 {
   margin: 0;
 }
 .button__6e2b9.button__6e2b9, .closeButton__6e2b9.closeButton__6e2b9, .closeButton__29487.closeButton__29487 {

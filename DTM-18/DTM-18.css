@@ -858,7 +858,10 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
 .search__49676.search__49676 {
   align-items: center;
   display: flex;
+  flex: unset;
   margin: 0 4px 0 8px;
+  max-width: unset;
+  width: unset;
   &:after {
     content: "";
     border-right: 1px solid hsla(0,0%,85%,.1);

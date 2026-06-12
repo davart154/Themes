@@ -24,22 +24,19 @@
   margin-bottom: 0;
 }
 
-.container_b82a71 {
+.paginationDock_a98f3b {
   background: var(--background-gradient-highest,var(--background-base-low));
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
-  display: flex;
+  box-shadow: unset;
   margin-inline: var(--space-xs);
   margin-bottom: var(--space-xs);
-  &:empty {
-    display: none;
+  > div {
+    display: flex;
   }
 }
-.custom-theme-background .container_b82a71 {
+.custom-theme-background .paginationDock_a98f3b {
   border-color: var(--app-frame-border);
-}
-.pageControlContainer_c15210 {
-  display: contents;
 }
 .pageControl_c15210 {
   box-sizing: border-box;
@@ -47,7 +44,7 @@
   gap: var(--space-8);
   height: 56px;
   justify-content: center;
-  padding: 0 var(--space-sm);
+  padding: 0;
   margin: 0;
 }
 .pageButton_c15210 {

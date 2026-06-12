@@ -1,43 +1,15 @@
-.inner__74017 {
-  &:has(.editor__1b31f:only-child) {
-    --chatButton-opac: 0;
-    --chatButton-margin: calc((var(--space-32) + var(--space-8)) * -1);
-    --chatButton-clickable: none;
-  }
-}
-
 .attachButtonInner__0923f, .container_aa63ab, .buttonContainer_aa63ab {
   display: contents;
 }
 .separator_aa63ab {
   display: none;
 }
-.expression-picker-chat-input-button[aria-describedby] {
-  display: none;
-  + span + div {
-    display: none;
-  }
-}
 .fm-buttonContainer {
   display: none;
 }
-
 .app-launcher-entrypoint {
   border-radius: unset;
   background: unset !important;
-  margin-inline-end: var(--chatButton-margin);
-  opacity: var(--chatButton-opac);
-  order: 1;
-  pointer-events: var(--chatButton-clickable);
-}
-.buttons__74017 > .button__74017 {
-  margin-inline-end: var(--chatButton-margin);
-  opacity: var(--chatButton-opac);
-  pointer-events: var(--chatButton-clickable);
-  order: 2;
-}
-.expression-picker-chat-input-button {
-  order: 3;
 }
 
 .button__24af7.button__24af7, .button__74017.button__74017, .button_e6e74f.button_e6e74f {
@@ -66,7 +38,7 @@
   background-color: var(--control-primary-background-default);
   border-color: var(--control-primary-border-default);
   color: var(--control-primary-text-default);
-  order: 4;
+  transition: 50ms ease, margin .15s ease, opacity .15s ease;
   &:hover {
     background-color: var(--control-primary-background-hover);
     border-color: var(--control-primary-border-hover);

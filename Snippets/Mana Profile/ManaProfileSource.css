@@ -1,10 +1,12 @@
 .user-profile-popout {
   border-radius: var(--radius-md);
+  --profileButtonOffset: var(--space-8);
   .inner_c0bea0 {
     padding: 0;
   }
   &.custom-user-profile-theme {
     padding: 1px;
+    --profileButtonOffset: calc(var(--space-8) + 1px);
     .inner_c0bea0 {
       border-radius: calc(var(--radius-md) - 1px);
     }
@@ -16,12 +18,10 @@
 .inner_c0bea0.inner_c0bea0 {
   border-radius: inherit;
   gap: 0;
-  overflow: visible;
-  position: relative;
 }
 .wrapper_da5890.wrapper_da5890 {
-  right: var(--space-8);
-  top: calc(var(--custom-user-profile-banner-top, 0px) + var(--space-8));
+  right: var(--profileButtonOffset);
+  top: var(--profileButtonOffset);
 }
 .bannerButton_fb7f94 {
   background: var(--control-overlay-secondary-background-default);

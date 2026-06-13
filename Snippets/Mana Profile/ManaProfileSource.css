@@ -1,15 +1,19 @@
 .user-profile-popout {
   border-radius: var(--radius-md);
-  --profileButtonOffset: var(--space-8);
   .inner_c0bea0 {
     padding: 0;
   }
   &.custom-user-profile-theme {
     padding: 1px;
-    --profileButtonOffset: calc(var(--space-8) + 1px);
     .inner_c0bea0 {
       border-radius: calc(var(--radius-md) - 1px);
     }
+  }
+}
+.outer_c0bea0 {
+  --profileButtonOffset: var(--space-8);
+    &.custom-user-profile-theme {
+    --profileButtonOffset: calc(var(--space-8) + 1px);
   }
 }
 .isPrivate_c0bea0 {
@@ -21,7 +25,7 @@
 }
 .wrapper_da5890.wrapper_da5890 {
   right: var(--profileButtonOffset);
-  top: var(--profileButtonOffset);
+  top: calc(var(--custom-user-profile-banner-top, 0px) + var(--profileButtonOffset));
 }
 .bannerButton_fb7f94 {
   background: var(--control-overlay-secondary-background-default);

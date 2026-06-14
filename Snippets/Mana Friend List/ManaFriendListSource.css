@@ -188,3 +188,9 @@
   margin: 0 !important;
   flex-shrink: 0;
 }
+.card__2eab1 {
+  background: var(--background-base-low);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}

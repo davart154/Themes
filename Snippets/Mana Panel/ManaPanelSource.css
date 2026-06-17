@@ -64,7 +64,6 @@
   position: unset;
   transition: .2s ease;
   width: 32px;
-
 }
 .accountPopoutButton__37e49[aria-expanded="true"] {
   transform: scaleY(-1);
@@ -137,15 +136,6 @@
 }
 .connection_e131a9 {
   display: contents;
-}
-.container_e131a9:has(.connection_e131a9:only-child) {
-  display: flex;
-  button, div {
-    margin-top: 0 !important;
-  }
-  .voiceButtonsContainer_e131a9 > div + button {
-    display: flex;
-  }
 }
 .inner_e131a9 {
   grid-area: vcConnection;

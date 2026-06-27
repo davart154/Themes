@@ -131,7 +131,7 @@
   top: 6px;
   transform: translateY(-16px);
   transition: transform .15s ease, opacity .15s ease;
-  &:has(div:only-of-type) {
+  &:has(:nth-child(1 of :not(span)):nth-last-child(1 of :not(span))) {
     border-width: 0;
     padding: 0;
   }

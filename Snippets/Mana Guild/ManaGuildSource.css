@@ -13,13 +13,13 @@
 .bg__960e4, .resizeHandle__01ae2 {
   background: var(--background-gradient-app-frame,var(--app-frame-background));
 }
-.wrapper_ef3116, .itemsContainer_ef3116 {
+.wrapper_ef3116 {
   background: transparent !important;
+  .stack_dbd263 {
+    align-items: center;
+  }
 }
 
-.itemsContainer_ef3116 .stack_dbd263 {
-  align-items: center;
-}
 .listItem__650eb, .folderGroup__48112 {
   width: fit-content;
 }

@@ -10,7 +10,7 @@
 /* Loading */
 .problems_a2f514 {
   background-color: var(--background-surface-high);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-border),var(--shadow-high);
   flex-direction: row;
   gap: var(--space-sm);

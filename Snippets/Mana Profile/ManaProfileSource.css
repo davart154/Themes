@@ -1,4 +1,4 @@
-.user-profile-popout {
+.user-profile-popout, .user-profile-sidebar {
   border-radius: var(--radius-md);
   .inner_c0bea0 {
     padding: 0;
@@ -68,8 +68,11 @@
   padding: var(--space-md);
 }
 .body_b32ca4 {
-  gap: var(--space-sm);
+  gap: var(--space-sm) !important;
   margin: 0 var(--space-md);
+}
+.profileBody__9c3be {
+  gap: var(--space-sm);
 }
 .footer__5be3e {
   padding: 0 var(--space-md) var(--space-md);
@@ -176,6 +179,14 @@
 .user-profile-sidebar .overlay_c0bea0 {
   padding: var(--space-sm);
 }
+
+section > .markup__75297, .section_bf424d {
+  background: var(--user-profile-overlay-background);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm);
+}
+
 .container__581dd {
   height: 24px;
   gap: 4px;
@@ -243,6 +254,13 @@
     line-height: 1.3333333333333333;
     order: -1;
     text-decoration: none !important;
+  }
+}
+.user-profile-sidebar .section__530ce {
+  padding: var(--space-sm);
+  [data-text-variant] {
+    font-size: 14px;
+    line-height: 1.2857142857142858;
   }
 }
 .icon_c2a763 {
@@ -335,45 +353,5 @@
     background-color: var(--control-secondary-background-active);
     border-color: var(--control-secondary-border-active);
     color: var(--control-secondary-text-active);
-  }
-}
-
-.footer__272c7 {
-  border: 0;
-  padding: var(--space-sm);
-}
-.footerButton__272c7 {
-  align-items: center;
-  background-color: var(--control-secondary-background-default);
-  border: 1px solid var(--control-secondary-border-default);
-  border-radius: var(--radius-sm);
-  color: var(--control-secondary-text-default);
-  display: flex;
-  flex: 1;
-  font-size: 14px;
-  font-weight: 500;
-  gap: var(--space-4);
-  height: 32px;
-  justify-content: center;
-  line-height: 1.2857142857142858;
-  min-height: var(--space-32);
-  min-width: var(--space-32);
-  padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px) !important;
-  margin: 0 !important;
-  transition: 50ms ease;
-  width: unset;
-  &:hover {
-    background-color: var(--control-secondary-background-hover);
-    border-color: var(--control-secondary-border-hover);
-    color: var(--control-secondary-text-hover);
-    transition: .15s ease;
-  }
-  &:active {
-    background-color: var(--control-secondary-background-active);
-    border-color: var(--control-secondary-border-active);
-    color: var(--control-secondary-text-active);
-  }
-  &:before, &:after {
-    display: none;
   }
 }

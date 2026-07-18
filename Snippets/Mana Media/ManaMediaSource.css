@@ -118,10 +118,9 @@
 }
 
 .hoverButtonGroup__06ab4 {
-  backdrop-filter: blur(2px);
-  background-color: var(--control-overlay-secondary-background-default);
+  background-color: var(--background-surface-highest);
   border: 1px solid;
-  border-color: var(--control-overlay-secondary-border-default);
+  border-color: var(--border-muted);
   border-radius: var(--radius-md);
   gap: 4px;
   inset-inline-end: 6px;
@@ -136,9 +135,6 @@
     padding: 0;
   }
   &.nonMediaMosaicItem__06ab4 {
-    backdrop-filter: unset;
-    background-color: var(--background-surface-highest);
-    border-color: var(--border-muted);
     inset-inline-end: -10px;
     top: -10px;
     transform: unset;
@@ -204,42 +200,57 @@
     }
   }
 }
+
 .gifFavoriteButton__43deb {
   align-items: center;
-  backdrop-filter: blur(2px);
-  background-color: var(--control-overlay-secondary-background-default);
-  border: 1px solid var(--control-overlay-secondary-border-default);
+  background-color: var(--background-surface-highest);
+  border: 1px solid var(--border-muted);
   border-radius: var(--radius-md);
-  color: var(--control-overlay-secondary-text-default);
+  color: var(--interactive-text-default);
   display: flex;
   min-height: 40px;
   min-width: 40px;
   padding: 0 !important;
   justify-content: center;
   transition: 50ms ease, opacity .15s ease, transform .15s ease !important;
+  &:before {
+    border-radius: inherit;
+    content: "";
+    inset: -1px;
+    pointer-events: none;
+    position: absolute;
+    transition: inherit;
+    z-index: -1;
+  }
   &:hover {
-    background-color: var(--control-overlay-secondary-background-hover);
-    border-color: var(--control-overlay-secondary-border-hover);
-    color: var(--control-overlay-secondary-text-hover);
+    color: var(--interactive-text-hover);
     transition: .15s ease !important;
+    &:before {
+      background-color: var(--background-mod-muted);
+    }
   }
   &:active {
-    background-color: var(--control-overlay-secondary-background-active);
-    border-color: var(--control-overlay-secondary-border-active);
-    color: var(--control-overlay-secondary-text-active);
+    color: var(--interactive-text-active);
+    &:before {
+      background-color: var(--background-mod-subtle);
+    }
   }
   &.selected__43deb {
-    background-color: var(--yellow-300);
-    border-color: var(--control-primary-border-default);
+    background-color: transparent;
+    border-color: transparent;
     color: var(--white);
-  }
-  &.selected__43deb:hover {
-    background-color: var(--yellow-360);
-    border-color: var(--control-primary-border-hover);
-  }
-  &.selected__43deb:active {
-    background-color: var(--yellow-400);
-    border-color: var(--control-primary-border-active);
+    &:before {
+      background-color: var(--yellow-300);
+      border-color: var(--control-primary-border-default);
+    }
+    &:hover:before {
+      background-color: var(--yellow-360);
+      border-color: var(--control-primary-border-hover);
+    }
+    &:active:before {
+      background-color: var(--yellow-400);
+      border-color: var(--control-primary-border-active);
+    }
   }
 }
 .icon__43deb {

@@ -76,11 +76,12 @@
 }
 .avatar__37e49 mask, .avatar__37e49 .svg__44b0c foreignObject {
   height: 20px !important;
+  mask: url(#svg-mask-avatar-status-round-20);
   width: 20px !important;
 }
 .avatar__37e49 .avatarDecorationContainer__44b0c foreignObject {
   height: 24px !important;
-  mask: url(#svg-mask-avatar-decoration-status-round-20);
+  mask: url(#svg-mask-avatar-decoration-status-round-32);
   width: 24px !important;
 }
 .avatar__37e49 > svg > mask {

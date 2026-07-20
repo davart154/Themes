@@ -7,6 +7,12 @@
     display: contents;
   }
 }
+.galleryItem_d75751 {
+  overflow: hidden;
+  .imageWrapper_af017a {
+    border-radius: unset;
+  }
+}
 .media_a22bfd {
   border-radius: 0;
 }

@@ -6,6 +6,9 @@
   .theme-dark {
     display: contents;
   }
+  &[data-fullscreen="true"] {
+    border-radius: unset;
+  }
 }
 .galleryItem_d75751 {
   overflow: hidden;

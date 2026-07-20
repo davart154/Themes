@@ -639,7 +639,7 @@
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-high);
 }
-#gif-picker-tab-panel, .picker__09f65 {
+#gif-picker-tab-panel, .picker__09f65.inExpressionPicker__09f65 {
   background-color: transparent;
 }
 .nav__08434 {

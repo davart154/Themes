@@ -260,9 +260,10 @@
 .voiceUsers_e131a9 {
   border-top: 1px solid var(--border-muted);
   grid-area: vcUsers;
-  margin-inline: unset;
+  margin-inline: calc(var(--space-sm) * -1 + 1px) calc(var(--space-sm) * -1);
   margin-top: var(--space-8);
   padding-block-start: var(--space-8);
+  padding-inline: var(--space-sm);
 }
 .actionButtons_e131a9 {
   grid-area: vcActions;

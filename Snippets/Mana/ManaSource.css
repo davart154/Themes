@@ -627,9 +627,11 @@
   padding: 0;
   pointer-events: all;
 }
+.resizeHandle__08434 {
+  pointer-events: all;
+}
 #emoji-picker-tab-panel, #sticker-picker-tab-panel, #gif-picker-tab-panel, [aria-labelledby="kaomoji-picker-tab"], .soundboardContainer__08434 {
   flex: 1;
-  overflow: hidden;
   border-radius: var(--custom-emoji-picker-border-radius);
 }
 [data-popout-animating] > #emoji-picker-tab-panel {

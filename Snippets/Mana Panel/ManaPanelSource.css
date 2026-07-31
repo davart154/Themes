@@ -289,9 +289,6 @@
   flex: 1;
   height: 32px;
   transition: 50ms ease;
-  > div[role] {
-    flex: 1;
-  }
 }
 .gameWrapper__5dec7 {
   position: relative;

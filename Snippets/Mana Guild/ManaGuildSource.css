@@ -42,14 +42,12 @@
   margin-inline-start: -2px;
   max-height: 8px;
   transform: unset !important;
-  transition: width .1s ease, margin .1s ease, box-shadow .2s ease;
+  transition: .1s ease;
 }
-.listItem__650eb:has(.selected__6e9f8) .item__58105 {
-  width: 0px;
-  margin-inline-start: 2px;
-  box-shadow: 0 0 0 0 var(--background-base-lowest);
+.selected__58105, .listItem__650eb:has(.selected__6e9f8) .item__58105 {
+  opacity: 0 !important;
 }
-.listItem__650eb:has(.discoveryIcon_ef3116) .item__58105 {
+.tutorialContainer__1f388 .item__58105, .listItem__650eb:has(.discoveryIcon_ef3116) .item__58105 {
   display: none;
 }
 .centerTarget_d144f8.dragOver_d144f8:before {
@@ -78,4 +76,11 @@ div[style]:not([class]) .wrapper__6e9f8 {
 .circleIconButton__5bc7e, .childWrapperNoHoverBg__6e9f8 {
   background-color: var(--background-mod-subtle) !important;
   color: var(--text-default) !important;
+}
+.folderPreviewWrapper__48112 {
+  box-shadow: inset 0 0 0 0 var(--background-brand), inset 0 0 0 0 var(--app-frame-background);
+  transition: box-shadow .2s ease;
+}
+.listItem__650eb:has(.selected__58105) .folderPreviewWrapper__48112 {
+  box-shadow: inset 0 0 0 2px var(--background-brand), inset 0 0 0 3px var(--app-frame-background);
 }

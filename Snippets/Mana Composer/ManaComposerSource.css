@@ -144,6 +144,14 @@
     padding: var(--space-8) var(--space-12);
   }
 }
+.floatingBars__74017:empty+.stackedBars__74017:nth-child(2) {
+  border-start-end-radius: var(--radius-md);
+  border-start-start-radius: var(--radius-md);
+}
+.replyBar__841c8 {
+  border-start-end-radius: inherit;
+  border-start-start-radius: inherit;
+}
 .threadSuggestionBar__841c8 {
   justify-content: space-between;
 }

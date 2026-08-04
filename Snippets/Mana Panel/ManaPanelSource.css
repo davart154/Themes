@@ -1,3 +1,6 @@
+.panels__5e434 {
+  border-radius: var(--radius-md);
+}
 .panels__5e434.panels__5e434 button {
   background: var(--control-secondary-background-default) !important;
   border: 1px solid var(--control-secondary-border-default);

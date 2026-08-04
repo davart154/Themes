@@ -641,13 +641,16 @@
 }
 .membersWrap_c8ffbb {
   border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-md);
   margin: var(--space-xs) var(--space-xs) var(--space-xs) 0;
   overflow: hidden;
   height: unset;
 }
 .members_c8ffbb::-webkit-scrollbar-track {
   margin-block: 8px;
+}
+.container__0f2e8 {
+  border-radius: var(--radius-sm);
 }
 .emptyStateHeader__7641b {
   font-size: 14px;

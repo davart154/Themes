@@ -1,5 +1,8 @@
 .channelTextArea_f75fb0 {
   border-radius: var(--radius-md);
+  .scrollableContainer__74017 {
+    border-radius: inherit;
+  }
 }
 
 .attachButtonInner__0923f, .container_aa63ab, .buttonContainer_aa63ab {

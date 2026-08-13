@@ -31,6 +31,7 @@
   box-shadow: unset;
   margin-inline: var(--space-xs);
   margin-bottom: var(--space-xs);
+  padding-inline: var(--space-12);
   > div {
     display: flex;
   }

@@ -160,7 +160,7 @@
 .applicationStore_f07d62 {
   background-color: unset;
 }
-.chat_f75fb0, .container__133bf, .page__1add6, .homeWrapper__0920e, .shop__6db1d, .container__955a3, .container_a592e1, .noChannelFavorites__01d5c, .wrapper_cb9592.noChat_cb9592 .callContainer_cb9592 {
+.chat_f75fb0, .container__133bf, .page__1add6, .homeWrapper__0920e, .shop__6db1d, .container__955a3, .container_a592e1, .noChannelFavorites__01d5c, .container__89463, .wrapper_cb9592.noChat_cb9592 .callContainer_cb9592 {
   background: var(--background-gradient-chat,var(--background-base-lowest));
   border-bottom: 0;
   border-inline-start: 1px solid var(--app-frame-border);
@@ -628,6 +628,7 @@
 
 .themed__9293f.themed__9293f, .content_f75fb0 {
   background: var(--background-gradient-chat,var(--background-base-lower));
+  border-top: unset;
 }
 .search__49676 {
   flex: 0 1 266px;

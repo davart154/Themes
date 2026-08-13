@@ -34,6 +34,13 @@
 }
 
 /* User Panel */
+.container__37e49 {
+  border-radius: calc(var(--radius-md) - 1px);
+  &.containerRtcOpened__37e49 {
+    border-start-end-radius: 0;
+    border-start-start-radius: 0;
+  }
+}
 .accountPopoutButtonWrapper__37e49 {
   margin-inline-start: unset;
   background-color: var(--control-secondary-background-default) !important;
@@ -352,6 +359,9 @@
   }
   div {
     text-decoration: none !important;
+  }
+  .subtext__339d0 {
+    margin-inline-end: 8px;
   }
 }
 .clickableGameName__8c6c2 {

@@ -60,7 +60,7 @@
   }
 }
 .peopleList__5ec2f {
-  -webkit-mask: linear-gradient(180deg, transparent, black var(--space-20));
+  mask: linear-gradient(180deg, transparent, black var(--space-20));
   &::-webkit-scrollbar-track {
     margin-top: var(--space-20);
   }

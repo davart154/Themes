@@ -19,7 +19,10 @@
 [id^="message-reminder-"]:before {
   content: unset;
 }
-.item_c1e9c4:has(.icon_c1e9c4, .container__5a838, .sliderContainer__65039, .standaloneRadioIndicator__64e61, .wrapper__44b0c):before {
+.item_c1e9c4:has(.icon_c1e9c4, .poggermodeIcon_bd9912, .container__5a838, .sliderContainer__65039, .standaloneRadioIndicator__64e61, .wrapper__44b0c):before {
+  content: unset;
+}
+[id^="settings-menu-vencord"]:before {
   content: unset;
 }
 

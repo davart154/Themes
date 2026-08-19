@@ -148,6 +148,10 @@
   border-start-end-radius: var(--radius-md);
   border-start-start-radius: var(--radius-md);
 }
+.banner__183e8 {
+  border-start-end-radius: var(--radius-md);
+  border-start-start-radius: var(--radius-md);
+}
 .replyBar__841c8 {
   border-start-end-radius: inherit;
   border-start-start-radius: inherit;

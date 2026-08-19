@@ -305,7 +305,7 @@
 }
 
 /* Roles */
-[id^="user-context-roles-"]:before {
+:is([id^="user-context-roles-"], [id^="guild-moderation-roles-"]):before {
   content: unset;
 }
 .roleDotAccessory_c1e9c4 > span {

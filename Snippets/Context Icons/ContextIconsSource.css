@@ -695,26 +695,17 @@
 }
 
 /* Vencord Plugins */
-:is(#message-vc-trans, #textarea-context-vc-chat-buttons--vc-chat-button-Translate):before {
+#textarea-context-vc-chat-buttons--vc-chat-button-Translate:before {
   mask-image: var(--maskIcon-language);
-}
-:is(#guild-context-vc-rdb-server-reviews, #guild-header-popout-vc-rdb-server-reviews, #user-context-vc-rdb-user-reviews, #user-profile-overflow-menu-vc-rdb-user-reviews):before {
-  mask-image: var(--maskIcon-thumbUp);
 }
 :is(#channel-context-perm-viewer-permissions, #guild-context-perm-viewer-permissions, #guild-header-popout-perm-viewer-permissions, #user-context-perm-viewer-permissions):before {
   mask-image: var(--maskIcon-shield);
 }
-:is(#guild-context-vc-newguildsettings-apply, #guild-header-popout-vc-newguildsettings-apply):before {
+#guild-context-vc-newguildsettings-apply:before {
   mask-image: var(--maskIcon-settingsUpArrow);
 }
 :is(#guild-context-vc-server-info, #guild-header-popout-vc-server-info):before {
   mask-image: var(--maskIcon-circleInformation);
-}
-:is(#channel-context-vc-view-channel-raw, #gdm-context-vc-view-channel-raw, #guild-context-vc-view-guild-raw, #message-vc-view-message-raw, #thread-context-vc-view-channel-raw, #user-context-vc-view-user-raw, #user-profile-overflow-menu-vc-view-profile-raw):before {
-  mask-image: var(--maskIcon-angledBrackets);
-}
-:is(#gdm-context-view-group-channel-icon, #guild-context-view-icon, #guild-context-view-banner, #user-context-view-avatar, #user-context-view-avatar-decoration, #user-context-view-server-avatar):before {
-  mask-image: var(--maskIcon-image);
 }
 
 [id="settings-menu-User Settings"]:before {

@@ -280,8 +280,6 @@
 /*UserPanel*/
 .container__37e49.container__37e49 {
   border-radius: 0 0 7px 7px;
-  height: unset;
-  padding: 0 !important;
   margin: 0;
   transition: background-color .2s ease;
   &:hover {

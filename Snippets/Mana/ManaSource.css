@@ -606,7 +606,7 @@
   justify-content: end;
 }
 
-/* Context Menu */
+/* Context Menu
 .menu_c1e9c4 {
   background: var(--background-surface-highest);
   border-color: var(--background-surface-highest);
@@ -647,6 +647,7 @@
     outline: unset !important;
   }
 }
+*/
 
 .labelContainer_c1e9c4 {
   min-height: 44px;

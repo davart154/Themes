@@ -1,31 +1,28 @@
-.user-profile-popout, .user-profile-sidebar {
-  border-radius: var(--radius-md);
-  .inner_c0bea0 {
-    padding: 0;
-  }
-  &.custom-user-profile-theme {
-    padding: 1px;
-    .inner_c0bea0 {
-      border-radius: calc(var(--radius-md) - 1px);
-    }
-  }
+:root {
+  --custom-user-profile-theme-padding: 0px;
 }
-.outer_c0bea0 {
-  --profileButtonOffset: var(--space-8);
-    &.custom-user-profile-theme {
-    --profileButtonOffset: calc(var(--space-8) + 1px);
-  }
+:root .custom-user-profile-theme.custom-user-profile-theme:is(.user-profile-popout, .user-profile-sidebar, .user-profile-embed) {
+  --custom-user-profile-theme-padding: 1px;
 }
 .isPrivate_c0bea0 {
   --custom-user-profile-banner-top: 32px;
 }
-.inner_c0bea0.inner_c0bea0 {
-  border-radius: inherit;
-  gap: 0;
+.outer_c0bea0:not(.user-profile-modal-v2) {
+  border-radius: var(--radius-md);
+  .inner_c0bea0 {
+    border-radius: calc(var(--radius-md) - var(--custom-user-profile-theme-padding)) !important;
+  }
+}
+.user-profile-popout .inner_c0bea0 {
+  gap: unset;
+  padding-bottom: unset;
 }
 .wrapper_da5890.wrapper_da5890 {
-  right: var(--profileButtonOffset);
-  top: calc(var(--custom-user-profile-banner-top, 0px) + var(--profileButtonOffset));
+  right: calc(var(--space-8) - var(--custom-user-profile-theme-padding));
+  top: calc(var(--space-8) - var(--custom-user-profile-theme-padding));
+}
+.user-profile-popout .wrapper_da5890.wrapper_da5890 {
+  top: calc(var(--custom-user-profile-banner-top, 0px) + calc(8px - var(--custom-user-profile-theme-padding)));
 }
 .bannerButton_fb7f94 {
   background: var(--control-overlay-secondary-background-default);
@@ -84,6 +81,13 @@
 .usernameAndPronounsRow__26b1f.usernameAndPronounsRow__26b1f {
   gap: 4px;
   margin-top: var(--space-4);
+}
+.badges_b4a4b2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  padding: var(--space-4) var(--space-4) 0;
 }
 .container__8061a {
   display: contents;
@@ -180,11 +184,16 @@
   padding: var(--space-sm);
 }
 
-section > .markup__75297, .section_bf424d {
+.section_bf424d {
   background: var(--user-profile-overlay-background);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
   padding: var(--space-sm);
+}
+
+.tabPanelScroller__37bfc > .section_bf424d {
+  background: unset;
+  padding: unset;
 }
 
 .container__581dd {

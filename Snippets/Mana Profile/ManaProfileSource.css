@@ -229,7 +229,7 @@
   }
   .avatar__9ac28, .size16_a05532 {
     height: 24px;
-    margin: 0;
+    margin: 0 !important;
     mask: unset;
     width: 24px;
     svg {
@@ -237,6 +237,9 @@
       width: 24px;
       image-rendering: pixelated;
     }
+  }
+  .size16_a05532 foreignObject {
+    mask: unset;
   }
   .avatar__9ac28 .icon_f34534 {
     border-radius: var(--radius-xs);

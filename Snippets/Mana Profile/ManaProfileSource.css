@@ -224,22 +224,25 @@
   align-items: unset;
   flex-direction: column;
   gap: var(--space-sm);
-  .avatars__9ac28 {
+  .avatars__9ac28, .avatars_a05532 {
     gap: 4px;
   }
-  .avatar__9ac28 {
+  .avatar__9ac28, .size16_a05532 {
     height: 24px;
     margin: 0;
     mask: unset;
     width: 24px;
-    svg, .icon_f34534 {
+    svg {
       height: 24px;
       width: 24px;
       image-rendering: pixelated;
     }
-    .icon_f34534 {
-      border-radius: var(--radius-xs);
-    }
+  }
+  .avatar__9ac28 .icon_f34534 {
+    border-radius: var(--radius-xs);
+    height: 24px;
+    image-rendering: pixelated;
+    width: 24px;
   }
 }
 .spacer__530ce {

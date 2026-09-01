@@ -713,7 +713,7 @@
   color: var(--control-icon-only-icon-default);
   min-width: var(--space-24);
   min-height: var(--space-24);
-  padding: 0;
+  padding: 0 !important;
   transition: 50ms ease;
   &:hover {
     background-color: var(--control-icon-only-background-hover);
@@ -740,6 +740,9 @@
     background-color: var(--control-critical-primary-background-active);
     border-color: var(--control-critical-primary-border-active);
     color: var(--control-critical-primary-text-active);
+  }
+  &.disabled_f7ecac {
+    background-color: transparent !important;
   }
 }
 .icon_f84418.icon_f84418, .actionBarIcon_a7e304 {

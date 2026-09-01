@@ -693,6 +693,69 @@
   width: clamp(var(--space-64),100cqi - 320px,266px);
 }
 
+.popover_f84418.popover_f84418, .actionBarContainer_aa605f {
+  background-color: var(--background-surface-highest);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-sm);
+  display: flex;
+  gap: 4px;
+  padding: 3px !important;
+}
+.actionBar_aa605f, .wrapper_f7ecac {
+  display: contents;
+}
+.button_f7ecac.button_f7ecac {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: var(--radius-xs);
+  border-color: transparent;
+  box-sizing: border-box;
+  color: var(--control-icon-only-icon-default);
+  min-width: var(--space-24);
+  min-height: var(--space-24);
+  padding: 0;
+  transition: 50ms ease;
+  &:hover {
+    background-color: var(--control-icon-only-background-hover);
+    border-color: var(--control-icon-only-border-hover);
+    color: var(--control-icon-only-icon-hover);
+    transition: .15s ease;
+  }
+  &:active {
+    background-color: var(--control-icon-only-background-active);
+    border-color: var(--control-icon-only-border-active);
+    color: var(--control-icon-only-icon-active);
+  }
+  &.dangerous_f7ecac {
+    background-color: var(--control-critical-primary-background-default);
+    border-color: var(--control-critical-primary-border-default);
+    color: var(--control-critical-primary-text-default);
+  }
+  &.dangerous_f7ecac:hover {
+    background-color: var(--control-critical-primary-background-hover);
+    border-color: var(--control-critical-primary-border-hover);
+    color: var(--control-critical-primary-text-hover);
+  }
+  &.dangerous_f7ecac:active {
+    background-color: var(--control-critical-primary-background-active);
+    border-color: var(--control-critical-primary-border-active);
+    color: var(--control-critical-primary-text-active);
+  }
+}
+.icon_f84418.icon_f84418, .actionBarIcon_a7e304 {
+  height: 16px;
+  transform: unset !important;
+  width: 16px;
+  .emoji {
+    height: inherit;
+    width: inherit;
+  }
+}
+.separator_f84418 {
+  width: 4px;
+  height: 4px;
+}
+
 .container_c8ffbb {
   display: contents;
 }

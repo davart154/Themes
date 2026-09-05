@@ -301,13 +301,6 @@
     color: currentColor !important;
   }
 }
-.iconBadge__9293f {
-  background-color: var(--background-brand);
-}
-.iconBadgeBottom__9293f {
-  bottom: 5px;
-  right: 5px;
-}
 
 /* Sidebar */
 .privateChannelRecipientsInviteButtonIconContainer__99e7c {

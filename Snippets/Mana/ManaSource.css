@@ -122,6 +122,9 @@
   --text-default: var(--white);
 }
 
+.sidebar__5e434:after {
+  content: unset;
+}
 .sidebarResizeHandle__5e434 {
   background: unset !important;
   width: 8px;

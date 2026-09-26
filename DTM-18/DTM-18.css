@@ -2455,7 +2455,11 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
   border: 1px solid var(--legacy-bg-tertiary);
   border-radius: 3px;
   color: var(--legacy-text-primary);
-  grid-gap: 10px;
+  column-gap: var(--space-8);
+  display: grid;
+  grid-template-areas: "radioPseudo radioTitle" "radioPseudo radioDesc";
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: min-content min-content;
   padding: 10px !important;
   position: relative;
   --radio-bar-accent-color: var(--legacy-text-primary);
@@ -2464,6 +2468,8 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
     border: 1px solid var(--legacy-primary-400);
     box-sizing: border-box;
     content: "";
+    display: flex;
+    grid-area: radioPseudo;
     flex-shrink: 0;
     height: 24px;
     width: 24px;
@@ -2492,25 +2498,24 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
       width: 4px;
     }
   }
-  > div {
-    justify-content: center !important;
+  > span[data-text-variant] {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    grid-area: radioTitle;
+    line-height: 24px;
   }
 }
-.radioIndicator__64e61 {
-  display: none;
-}
-.label__64e61 [data-text-variant] {
-  color: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-.label__64e61 + [data-text-variant] {
+.description__64e61 {
   color: var(--legacy-text-muted) !important;
-  line-height: unset;
+  grid-area: radioDesc;
+  line-height: 1;
 }
 .radioGroupOption__64e61[data-selected="true"] [data-text-variant] {
   color: inherit !important;
+}
+.radioIndicator__64e61 {
+  display: none;
 }
 
 /* Scrollbar */
@@ -2549,15 +2554,18 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
   height: unset;
   top: -6px;
 }
-.markValue__4c059.markValue__4c059 {
-  color: var(--legacy-text-muted);
+.markValue__4c059.markValue__4c059, .markValue__4c059 > div {
+  color: var(--legacy-text-muted) !important;
   font-size: 10px;
   font-weight: 700;
   line-height: unset;
   margin-bottom: 4px;
 }
-.defaultValue__4c059 .markValue__4c059.markValue__4c059 {
-  color: var(--legacy-positive);
+.markValue__4c059 > div {
+  margin-bottom: unset;
+}
+.defaultValue__4c059 .markValue__4c059.markValue__4c059, .markValue__4c059 > div[style="color: var(--text-feedback-positive);"] {
+  color: var(--legacy-positive) !important;
 }
 .markDash__4c059.markDash__4c059 {
   background-color: var(--legacy-mod-light-solid);

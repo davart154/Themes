@@ -1,0 +1,166 @@
+/* Layer Modal */
+[data-mana-component="layer-modal"] {
+  border: 0;
+  border-radius: 0;
+  max-width: unset;
+  height: 100%;
+  width: 100%;
+}
+.platform-win [data-mana-component="layer-modal"] {
+  background: var(--background-gradient-app-frame,var(--background-base-lowest));
+  padding-top: var(--custom-app-top-bar-height);
+}
+
+/* Game Profile */
+.heroContent__8e688, .twoColumnMainContent__8e830 {
+  margin: var(--space-20) auto;
+  max-width: 1200px;
+  padding-block: unset;
+  padding-inline: var(--space-20);
+}
+
+/* Settings */
+.sidebar__409aa {
+  align-items: flex-end;
+  flex: 1 0 auto;
+  overflow: hidden scroll;
+  padding: 0;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    visibility: hidden;
+  }
+  &::-webkit-scrollbar-track, &::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: var(--radius-round);
+    visibility: hidden;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-auto-thumb);
+  }
+  &:hover::-webkit-scrollbar, &:hover::-webkit-scrollbar-track, &:hover::-webkit-scrollbar-thumb {
+    visibility: visible !important;
+  }
+}
+.fixedContent__409aa {
+  background: var(--background-base-lower);
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 60px 8px 0 20px;
+  width: 300px;
+  &:after {
+    height: var(--space-20);
+    opacity: 1;
+    pointer-events: none;
+    right: 0;
+  }
+}
+.nav__409aa {
+  box-sizing: border-box;
+  height: fit-content;
+  padding: 20px 8px 0 20px;
+  width: 300px;
+}
+.navScroller__409aa {
+  margin-inline-end: 0;
+  max-height: unset;
+  overflow: visible !important;
+  padding: 0 !important;
+  > div {
+    padding-bottom: 60px;
+  }
+}
+
+.content_e9e3ed {
+  flex: 1 1 900px;
+}
+.contentHeader_e9e3ed {
+  background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  height: fit-content;
+  justify-content: end;
+  max-width: 900px;
+  min-width: 500px;
+  padding-inline: var(--space-32) var(--space-20) !important;
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 16px;
+  z-index: 2;
+  button {
+    background-color: var(--control-overlay-secondary-background-default);
+    border-color: var(--control-overlay-secondary-border-default);
+    color: var(--control-overlay-secondary-icon-default);
+    min-height: var(--space-40);
+    min-width: var(--space-40);
+    overflow: visible;
+    position: relative;
+    pointer-events: all;
+    &:hover {
+      background-color: var(--control-overlay-secondary-background-hover);
+      border-color: var(--control-overlay-secondary-border-hover);
+      color: var(--control-overlay-secondary-icon-hover);
+    }
+    &:active {
+      background-color: var(--control-overlay-secondary-background-active);
+      border-color: var(--control-overlay-secondary-border-active);
+      color: var(--control-overlay-secondary-icon-active);
+    }
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+.contentHeaderLeft_e9e3ed {
+  overflow: visible;
+  + button {
+    &:after {
+      background-color: var(--background-mod-muted);
+      border: 1px solid var(--border-subtle);
+      border-radius: 4px;
+      box-shadow: inset 0 -4px 0 var(--background-mod-muted);
+      box-sizing: border-box;
+      color: var(--interactive-text-active);
+      content: "Esc";
+      font-size: 12px;
+      font-weight: var(--font-weight-semibold);
+      height: 23px;
+      line-height: 12px;
+      margin-top: 8px;
+      min-height: 14px;
+      min-width: 14px;
+      padding: 3px 6px 4px;
+      pointer-events: none;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      top: 100%;
+    }
+  }
+}
+.breadcrumbsNav__6989f {
+  display: none;
+}
+
+.scroller__6131a {
+  align-items: flex-start;
+  scrollbar-gutter: unset;
+}
+.panel__6131a {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  max-width: 820px;
+  min-width: 460px;
+  padding: 60px 40px 80px;
+  margin: 0;
+  margin-inline-end: 81px;
+}
+.hasButton_e9e3ed + div .panel__6131a {
+  padding-inline-start: 100px;
+}

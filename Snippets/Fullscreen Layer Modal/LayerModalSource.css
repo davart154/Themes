@@ -18,6 +18,9 @@
   padding-block: unset;
   padding-inline: var(--space-20);
 }
+.platform-osx .navRow_d9667a {
+  padding-inline-start: calc(100/var(--custom-zoom, 100)*(var(--custom-guild-list-width) + var(--custom-spacing) * 2));
+}
 
 /* Settings */
 .sidebar__409aa {

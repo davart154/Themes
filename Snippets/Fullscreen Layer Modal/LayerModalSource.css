@@ -80,6 +80,10 @@
 .content_e9e3ed {
   flex: 1 1 900px;
 }
+.streamerModeEnabled_aa3ffd {
+  max-width: 900px;
+  min-width: 500px;
+}
 .contentHeader_e9e3ed {
   background: transparent;
   border: 0;
@@ -166,4 +170,14 @@
 }
 .hasButton_e9e3ed + div .panel__6131a {
   padding-inline-start: 100px;
+}
+
+.bd-settings-page-title-children:has(.bd-search-wrapper) {
+  box-shadow: 0 0 12px 6px var(--background-base-low);
+  margin-inline: unset;
+  top: -40px;
+  left: 40px;
+  pointer-events: all;
+  position: absolute;
+  right: 120px;
 }

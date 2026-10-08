@@ -443,7 +443,6 @@
     font-size: 0;
     height: var(--space-4);
     line-height: 0;
-    margin-inline-end: var(--space-4);
     width: var(--space-4); 
   } 
   .focusTarget__54e4b, span {

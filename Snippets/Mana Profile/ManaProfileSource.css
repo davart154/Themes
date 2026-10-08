@@ -17,11 +17,11 @@
   gap: unset;
   padding-bottom: unset;
 }
-.wrapper__0c74f.wrapper__0c74f {
+.wrapper_da5890.wrapper_da5890 {
   inset-inline-end: calc(var(--space-8) - var(--custom-user-profile-theme-padding));
   inset-block-start: calc(var(--space-8) - var(--custom-user-profile-theme-padding));
 }
-.user-profile-popout .wrapper__0c74f.wrapper__0c74f {
+.user-profile-popout .wrapper_da5890.wrapper_da5890 {
   inset-block-start: calc(var(--custom-user-profile-banner-top, 0px) + calc(8px - var(--custom-user-profile-theme-padding)));
 }
 .bannerButton_fb7f94 {

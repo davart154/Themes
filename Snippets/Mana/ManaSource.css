@@ -538,6 +538,9 @@
   &:after {
     content: unset !important;
   }
+  .bar__1add6 {
+    width: 14px !important;
+  }
   &:has(.bar__1add6):before {
     content: unset;
   }
@@ -590,9 +593,6 @@
   .tabLabel__06f80 {
     line-height: inherit;
   }
-}
-.bar__1add6 {
-  width: 14px !important;
 }
 
 .friendRequestsButton_c7a32c {

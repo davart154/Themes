@@ -444,19 +444,15 @@
     font-size: 0;
     height: var(--space-4);
     line-height: 0;
-    margin-inline-end: var(--space-4);
     width: var(--space-4); 
   } 
   .focusTarget__54e4b, span {
+    display: contents;
+  }
+  .hiddenVisually_b18fe2 {
     display: none;
   }
-  &:has(button) {
-    display: flex;
-    &:after {
-      content: unset;
-    }
-  }
-  &:after {
+  > span:nth-child(2):after {
     background-color: var(--input-background-default);
     border: 1px solid var(--input-border-default);
     border-radius: var(--radius-sm);
@@ -591,6 +587,9 @@
     opacity: 1;
     transform: unset;
   }
+  .tabLabel__06f80 {
+    line-height: inherit;
+  }
 }
 .bar__1add6 {
   width: 14px !important;
@@ -598,6 +597,7 @@
 
 .friendRequestsButton_c7a32c {
   box-sizing: border-box;
+  display: none;
   justify-content: center;
   padding: 0 6px;
   min-width: 32px;

@@ -417,6 +417,7 @@
   display: flex;
   gap: var(--space-8);
   padding: var(--space-xs) var(--space-xs) var(--space-xs) var(--space-md);
+  z-index: 11;
 }
 .headerTitle__06f80 {
   display: contents;
@@ -497,6 +498,7 @@
   margin: unset;
   min-width: var(--space-32);
   min-height: var(--space-32);
+  overflow: visible;
   padding: unset;
   transition: 50ms ease;
   &:hover {
@@ -517,6 +519,7 @@
     border-color: var(--togglebutton-border-selected);
     border-bottom-color: var(--togglebutton-border-selected) !important;
     color: var(--togglebutton-icon-selected);
+    pointer-events: none;
   }
   &:before {
     background-color: currentColor;
@@ -543,7 +546,50 @@
     content: unset;
   }
   [data-text-variant] {
-    display: none;
+    align-items: center;
+    background-color: var(--background-surface-high);
+    border-radius: var(--radius-sm);
+    box-shadow: inset 0 0 0 1px var(--border-subtle), var(--shadow-high);
+    box-sizing: border-box;
+    color: var(--text-default);
+    display: flex;
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    gap: var(--space-8);
+    line-height: 1.2857142857142858;
+    max-width: 200px;
+    opacity: 0;
+    padding: var(--space-8) var(--space-12);
+    position: absolute;
+    pointer-events: none;
+    top: calc(100% + 12px);
+    transform: scale(.95);
+    transform-origin: 50% 0;
+    transition: .125s cubic-bezier(.25,.25,.315,1.35);
+    width: auto;
+    will-change: opacity, transform;
+    &:before {
+      --caret-width: 16px;
+      --caret-height: 14px;
+      --caret-overlap: calc(var(--caret-width) / 2 + 1px);
+      --caret-mask-top: -45deg;
+      background-color: var(--background-surface-high);
+      border-radius: 3px;
+      box-shadow: inset 0 0 0 1px var(--border-subtle), var(--shadow-high);
+      content: "";
+      height: var(--caret-height);
+      left: 50%;
+      position: absolute;
+      margin-left: calc((var(--caret-width) * -1) / 2);
+      mask: linear-gradient(var(--caret-mask-top), transparent calc(100% - var(--caret-overlap)), black calc(100% - var(--caret-overlap)));
+      top: calc((var(--caret-width) * -1) / 4);
+      transform: rotateZ(45deg);
+      width: var(--caret-width);
+    }
+  }
+  &:hover [data-text-variant] {
+    opacity: 1;
+    transform: unset;
   }
 }
 .bar__1add6 {

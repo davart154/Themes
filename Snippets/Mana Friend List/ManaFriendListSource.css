@@ -88,14 +88,14 @@
 }
 .subtext__0a06e {
   line-height: 1.2;
+  * {
+    font-size: 12px;
+  }
 }
 .text__0a06e .icon_c9d15c, .text__0a06e .emoji {
   height: 12px;
   vertical-align: middle;
   width: 12px;
-}
-.text__19b6d, .container_c9d15c > [data-text-variant] {
-  font-size: 12px;
 }
 .actions_fc004c {
   gap: var(--space-8);

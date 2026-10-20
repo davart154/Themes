@@ -135,6 +135,7 @@
 
 /* Stacked Bars*/
 .stackedBars__74017 {
+  background: unset;
   box-sizing: border-box;
 }
 .clipContainer__841c8 {
@@ -156,10 +157,12 @@
   border-start-start-radius: var(--radius-md);
 }
 .replyBar__841c8 {
-  border-start-end-radius: inherit;
-  border-start-start-radius: inherit;
+  background: unset;
+  border-start-end-radius: var(--radius-md);
+  border-start-start-radius: var(--radius-md);
 }
 .threadSuggestionBar__841c8 {
+  background: unset;
   justify-content: space-between;
 }
 .text__841c8 {
@@ -172,14 +175,14 @@
 .mentionButton__841c8 {
   background-color: var(--control-secondary-background-default);
   border: 1px solid var(--control-secondary-border-default);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-xs);
   box-sizing: border-box;
   --text-muted: var(--control-secondary-text-default);
   font-weight: 500;
-  min-width: var(--space-32);
-  min-height: var(--space-32);
-  padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
-  text-transform: lowercase;
+  min-width: var(--space-24);
+  min-height: var(--space-24);
+  padding: calc(var(--space-4) - 1px) calc(var(--space-8) - 1px);
+  text-transform: lowercase !important;
   transition: 50ms ease;
   &:hover {
     background-color: var(--control-secondary-background-hover);
@@ -189,49 +192,49 @@
   }
   &:active {
     background-color: var(--control-secondary-background-active);
-    border-color: var(--control-secondary-border-active);
+    border-color: var(--togglebutton-border-selected);
     --text-muted: var(--control-secondary-text-active);
   }
 }
 [aria-checked="true"] .mentionButton__841c8 {
-  background-color: var(--control-primary-background-default);
-  border-color: var(--control-primary-border-default);
-  --text-link: var(--control-primary-text-default);
+  background-color: var(--togglebutton-background-selected);
+  border-color: var(--togglebutton-border-selected);
+  --text-link: var(--control-secondary-text-default);
   &:hover {
-    background-color: var(--control-primary-background-hover);
-    border-color: var(--control-primary-border-hover);
-    --text-link: var(--control-primary-text-hover);
+    background-color: var(--togglebutton-background-selected hover);
+    border-color: var(--togglebutton-border-selected hover);
+    --text-link: var(--control-secondary-text-default);
   }
   &:active {
-    background-color: var(--control-primary-background-active);
-    border-color: var(--control-primary-border-active);
+    background-color: var(--control-secondary-background-active);
+    border-color: var(--togglebutton-border-selected);
     --text-link: var(--control-primary-text-active);
   }
 }
 .createThreadButton__841c8 {
   align-items: center;
-  background-color: var(--control-primary-background-default);
-  border-color: var(--control-primary-border-default);
-  border-radius: var(--radius-sm);
+  background-color: var(--control-secondary-background-default);
+  border-color: var(--control-secondary-border-default);
+  border-radius: var(--radius-xs);
   box-sizing: border-box;
-  --text-link: var(--control-primary-text-default);
+  --text-link: var(--control-secondary-text-default);
   display: flex;
   font-weight: 500;
   flex-shrink: 0;
   margin-inline-end: 0;
-  min-width: var(--space-32);
-  min-height: var(--space-32);
-  padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
+  min-width: var(--space-24);
+  min-height: var(--space-24);
+  padding: calc(var(--space-4) - 1px) calc(var(--space-8) - 1px);
   transition: 50ms ease;
   &:hover {
-    background-color: var(--control-primary-background-hover);
-    border-color: var(--control-primary-border-hover);
-    --text-link: var(--control-primary-text-hover);
+    background-color: var(--control-secondary-background-hover);
+    border-color: var(--control-secondary-border-hover);
+    --text-link: var(--control-secondary-text-hover);
     transition: .15s ease;
   }
   &:active {
-    background-color: var(--control-primary-background-active);
-    border-color: var(--control-primary-border-active);
+    background-color: var(--control-secondary-background-active);
+    border-color: var(--control-secondary-border-active);
     --text-link: var(--control-primary-text-active);
   }
 }
@@ -239,15 +242,15 @@
   align-items: center;
   background-color: transparent;
   border: 1px solid;
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius-xs);
   border-color: transparent;
   box-sizing: border-box;
   color: var(--control-icon-only-icon-default);
   display: flex;
   font-weight: 500;
   justify-content: center;
-  min-width: var(--space-32);
-  min-height: var(--space-32);
+  min-width: var(--space-24);
+  min-height: var(--space-24);
   padding: 0;
   text-transform: lowercase;
   transition: 50ms ease;
@@ -261,6 +264,10 @@
     background-color: var(--control-icon-only-background-active);
     border-color: var(--control-icon-only-border-active);
     color: var(--control-icon-only-icon-active);
+  }
+  svg {
+    height: 12px;
+    width: 12px;
   }
   path {
     d: path("M19.3 20.7a1 1 0 0 0 1.4-1.4L13.42 12l7.3-7.3a1 1 0 0 0-1.42-1.4L12 10.58l-7.3-7.3a1 1 0 0 0-1.4 1.42L10.58 12l-7.3 7.3a1 1 0 1 0 1.42 1.4L12 13.42l7.3 7.3Z");

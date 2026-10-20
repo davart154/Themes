@@ -85,12 +85,32 @@
 .badges_b4a4b2 {
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 4px;
+  gap: var(--space-4);
   justify-content: center;
   padding: var(--space-4) var(--space-4) 0;
+  width: 100%;
 }
 .container__8061a {
-  display: contents;
+  background: var(--user-profile-overlay-background);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-sm);
+  gap: var(--space-4);
+  height: unset;
+  margin: calc(var(--space-sm) - var(--space-4)) 0 0;
+  padding: var(--space-xs);
+  width: 100%;
+  &:before {
+    content: unset;
+  }
+  &:after {
+    color: var(--text-default) !important;
+    content: attr(aria-label);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3333333333333333;
+    margin-inline-end: auto;
+    order: -1;
+  }
   div {
     display: flex;
   }
@@ -101,25 +121,14 @@
     box-sizing: border-box;
   }
   .vc-platform-indicator {
-    height: 22px;
-    width: 22px;
+    height: 24px;
+    width: 24px;
   }
 }
 .badgeList_a9178b {
   background: transparent;
   display: flex;
   padding: 0;
-}
-.body__5be3e .container__8061a {
-  > :first-child {
-    order: -3;
-  }
-  > :not(:first-child) {
-    display: none;
-  }
-}
-.usernameAndPronounsRow__26b1f div:is(.clickable__26b1f, .info_f4bc97) {
-  order: -2;
 }
 .nameTag__05e81, .userTag__26b1f {
   background-color: var(--user-profile-overlay-background);
@@ -132,29 +141,12 @@
     content: "@";
   }
 }
-
-.container__8061a a[aria-label*="#"] {
-  align-items: center;
-  display: flex !important;
-  height: 22px;
-  justify-content: center;
-  order: -1 !important;
+.badge__8061a {
   width: 22px;
-  &:before {
-    background-color: var(--icon-default);
-    content: "";
-    height: 14px;
-    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M7.75 2C7.55109 2 7.36032 2.07902 7.21967 2.21967C7.07902 2.36032 7 2.55109 7 2.75V7H2.75C2.55109 7 2.36032 7.07902 2.21967 7.21967C2.07902 7.36032 2 7.55109 2 7.75V9.25C2 9.66 2.34 10 2.75 10H7V14H2.75C2.55109 14 2.36032 14.079 2.21967 14.2197C2.07902 14.3603 2 14.5511 2 14.75V16.25C2 16.66 2.34 17 2.75 17H7V21.25C7 21.66 7.34 22 7.75 22H9.25C9.66 22 10 21.66 10 21.25V17H14V21.25C14 21.66 14.34 22 14.75 22H16.25C16.66 22 17 21.66 17 21.25V17H21.25C21.66 17 22 16.66 22 16.25V14.75C22 14.5511 21.921 14.3603 21.7803 14.2197C21.6397 14.079 21.4489 14 21.25 14H17V10H21.25C21.66 10 22 9.66 22 9.25V7.75C22 7.55109 21.921 7.36032 21.7803 7.21967C21.6397 7.07902 21.4489 7 21.25 7H17V2.75C17 2.55109 16.921 2.36032 16.7803 2.21967C16.6397 2.07902 16.4489 2 16.25 2H14.75C14.5511 2 14.3603 2.07902 14.2197 2.21967C14.079 2.36032 14 2.55109 14 2.75V7H10V2.75C10 2.55109 9.92098 2.36032 9.78033 2.21967C9.63968 2.07902 9.44891 2 9.25 2H7.75ZM14 14V10H10V14H14Z' clip-rule='evenodd' class=''/%3E%3C/svg%3E") center/contain no-repeat;
-    width: 14px;
-  }
-  img {
-    display: none;
-  }
+  height: 22px;
 }
+
 .dotSpacer__26b1f {
-  display: none;
-}
-.container__8061a a[aria-label*="HypeSquad"] {
   display: none;
 }
 .guildTagContainer__26b1f {

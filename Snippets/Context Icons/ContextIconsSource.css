@@ -566,6 +566,9 @@
 #textarea-context-languages:before {
   mask-image: var(--maskIcon-language);
 }
+#textarea-context-copy:before {
+  mask-image: var(--maskIcon-copy);
+}
 #textarea-context-paste:before {
   mask-image: var(--maskIcon-clipboard);
 }

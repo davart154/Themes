@@ -563,8 +563,8 @@
     pointer-events: none;
     top: calc(100% + 12px);
     transform: scale(.95);
-    transform-origin: 50% 0;
-    transition: .125s cubic-bezier(.25,.25,.315,1.35);
+    transform-origin: center;
+    transition: transform .125s cubic-bezier(.25,.25,.315,1.35), opacity 75ms ease;
     width: auto;
     will-change: opacity, transform;
     &:before {

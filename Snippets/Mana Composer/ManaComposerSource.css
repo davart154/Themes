@@ -181,7 +181,7 @@
   font-weight: 500;
   min-width: var(--space-24);
   min-height: var(--space-24);
-  padding: calc(var(--space-4) - 1px) calc(var(--space-8) - 1px);
+  padding: calc(var(--space-4) - 2px) calc(var(--space-8) - 1px);
   text-transform: lowercase !important;
   transition: 50ms ease;
   &:hover {
@@ -224,7 +224,7 @@
   margin-inline-end: 0;
   min-width: var(--space-24);
   min-height: var(--space-24);
-  padding: calc(var(--space-4) - 1px) calc(var(--space-8) - 1px);
+  padding: calc(var(--space-4) - 2px) calc(var(--space-8) - 1px);
   transition: 50ms ease;
   &:hover {
     background-color: var(--control-secondary-background-hover);
@@ -235,17 +235,16 @@
   &:active {
     background-color: var(--control-secondary-background-active);
     border-color: var(--control-secondary-border-active);
-    --text-link: var(--control-primary-text-active);
+    --text-link: var(--control-secondary-text-active);
   }
 }
 .closeButton_e876a8 {
   align-items: center;
-  background-color: transparent;
-  border: 1px solid;
+  background-color: var(--control-secondary-background-default);
+  border: 1px solid var(--control-secondary-border-default);
   border-radius: var(--radius-xs);
-  border-color: transparent;
   box-sizing: border-box;
-  color: var(--control-icon-only-icon-default);
+  color: var(--control-secondary-text-default);
   display: flex;
   font-weight: 500;
   justify-content: center;
@@ -255,15 +254,15 @@
   text-transform: lowercase;
   transition: 50ms ease;
   &:hover {
-    background-color: var(--control-icon-only-background-hover);
-    border-color: var(--control-icon-only-border-hover);
-    color: var(--control-icon-only-icon-hover);
+    background-color: var(--control-secondary-background-hover);
+    border-color: var(--control-secondary-border-hover);
+    color: var(--control-secondary-text-hover);
     transition: .15s ease;
   }
   &:active {
-    background-color: var(--control-icon-only-background-active);
-    border-color: var(--control-icon-only-border-active);
-    color: var(--control-icon-only-icon-active);
+    background-color: var(--control-secondary-background-active);
+    border-color: var(--control-secondary-border-active);
+    color: var(--control-secondary-text-active);
   }
   svg {
     height: 12px;

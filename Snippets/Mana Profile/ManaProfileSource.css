@@ -69,7 +69,11 @@
   margin: 0 var(--space-md);
 }
 .profileHeader__9c3be {
+  pointer-events: none;
   z-index: 1;
+  > div {
+    pointer-events: all;
+  }
 }
 .profileBody__9c3be {
   gap: var(--space-sm);

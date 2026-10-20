@@ -1198,24 +1198,13 @@
 
 /* Popout Animation Test*/
 @keyframes manaPopoutOpen {
-  0% {
-    opacity: 0;
-  }
-  1% {
-    opacity: 0;
-    transform: scale(var(--manaPopoutScaleX), var(--manaPopoutScaleY));
-  }
-  to {
-    transform: none;
-  }
+  0%, 1% {opacity: 0;}
+  1% {transform: scale(var(--manaPopoutScaleX), var(--manaPopoutScaleY));}
+  to {transform: none;}
 }
 @keyframes manaFrameFade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  0% {opacity: 0;}
+  to {opacity: 1;}
 }
 
 /* Generic Popout */

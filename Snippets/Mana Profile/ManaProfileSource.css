@@ -68,8 +68,17 @@
   gap: var(--space-sm) !important;
   margin: 0 var(--space-md);
 }
+.profileHeader__9c3be {
+  z-index: 1;
+}
 .profileBody__9c3be {
   gap: var(--space-sm);
+  padding-block-start: calc(var(--space-32) + var(--space-4));
+  margin-block-start: calc(var(--space-32) * -1);
+  mask: linear-gradient(transparent, var(--black) var(--space-32));
+  &::-webkit-scrollbar-track {
+    margin-top: var(--space-32);
+  }
 }
 .footer__5be3e {
   padding: 0 var(--space-md) var(--space-md);

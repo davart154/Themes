@@ -1138,18 +1138,19 @@
 }
 
 .container_c8ffbb {
-  all: unset;
+  background: unset;
+  border: unset;
 }
 .container__25dca {
-  margin: var(--space-xs) var(--space-xs) var(--space-xs) 0;
+  margin: var(--space-xs) var(--space-xs) 0 0;
   min-width: var(--custom-member-list-width);
 }
 .membersWrap_c8ffbb {
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
+  height: 100%;
   margin: var(--space-xs) var(--space-xs) var(--space-xs) 0;
   overflow: hidden;
-  height: unset;
 }
 .members_c8ffbb::-webkit-scrollbar-track {
   margin-block: 8px;

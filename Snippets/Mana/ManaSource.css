@@ -1191,3 +1191,74 @@
 .instructions__7641b {
   color: var(--channels-default) !important;
 }
+
+/* Popout Animation Test*/
+@keyframes manaPopoutOpen {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 0;
+    transform: scale(var(--manaPopoutScaleX), var(--manaPopoutScaleY));
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes manaFrameFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Generic Popout */
+.translate_faf9c0:not(#\#) {
+  transform: none;
+  transition: none;
+}
+[id^="popout_"] {
+  animation: manaPopoutOpen .15s ease;
+  transform-origin: top center;
+  --manaPopoutScaleX: 1;
+  --manaPopoutScaleY: .975;
+  &:has(.animatorLeft_faf9c0) {
+    transform-origin: right center;
+    --manaPopoutScaleX: .975;
+    --manaPopoutScaleY: 1;
+  }
+  &:has(.animatorRight_faf9c0) {
+    transform-origin: left center;
+    --manaPopoutScaleX: .975;
+    --manaPopoutScaleY: 1;
+  }
+  &:has(.animatorTop_faf9c0) {
+    transform-origin: bottom center;
+  }
+}
+[data-floating-ui-focusable] > * {
+  animation: manaPopoutOpen .15s ease;
+  transform-origin: top center;
+  --manaPopoutScaleX: 1;
+  --manaPopoutScaleY: .975;
+}
+.profileFrame__7d80f {
+  transition: opacity 15s .15s ease;
+}
+:is(.translate_faf9c0, .didRender_faf9c0) .profileFrame__7d80f {
+  opacity: 0;
+}
+.didRender_faf9c0 .profileFrame__7d80f {
+  opacity: 0;
+  animation: manaFrameFade .15s .15s ease forwards;
+}
+
+/* Chat Bar Popouts */
+.autocomplete__13533, .positionLayer__08434 {
+  animation: manaPopoutOpen .15s ease;
+  transform-origin: bottom center;
+  --manaPopoutScaleX: 1;
+  --manaPopoutScaleY: .975;
+}

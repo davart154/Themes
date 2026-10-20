@@ -1148,7 +1148,7 @@
 .membersWrap_c8ffbb {
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  height: 100%;
+  height: unset;
   margin: var(--space-xs) var(--space-xs) var(--space-xs) 0;
   overflow: hidden;
 }

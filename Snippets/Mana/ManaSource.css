@@ -1237,6 +1237,9 @@
   --manaPopoutScaleX: 1;
   --manaPopoutScaleY: .975;
 }
+.translate_faf9c0, .fade_faf9c0 {
+  opacity: 1;
+}
 .profileFrame__7d80f {
   transition: opacity 15s .15s ease;
 }

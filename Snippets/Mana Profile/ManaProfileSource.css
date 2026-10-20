@@ -82,6 +82,18 @@
   gap: 4px;
   margin-top: var(--space-4);
 }
+.nameTag__05e81, .userTag__26b1f {
+  background-color: var(--user-profile-overlay-background);
+  border: 1px solid var(--border-muted);
+  border-radius: var(--radius-xs);
+  margin: unset;
+  padding: 1px 4px;
+  &.info_f4bc97:before {
+    color: var(--text-muted);
+    content: "@";
+  }
+}
+
 .badges_b4a4b2 {
   flex-direction: row;
   flex-wrap: wrap;
@@ -94,8 +106,10 @@
   background: var(--user-profile-overlay-background);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
+  flex-wrap: unset;
   gap: var(--space-4);
   height: unset;
+  justify-content: end;
   margin: calc(var(--space-sm) - var(--space-4)) 0 0;
   padding: var(--space-xs);
   width: 100%;
@@ -103,7 +117,7 @@
     content: unset;
   }
   &:after {
-    color: var(--text-default) !important;
+    color: var(--text-default);
     content: attr(aria-label);
     font-size: 12px;
     font-weight: 500;
@@ -115,7 +129,7 @@
     display: flex;
   }
   a, .vc-platform-indicator {
-    background-color: var(--user-profile-overlay-background);
+    background-color: var(--background-mod-normal);
     border: 1px solid var(--border-muted);
     border-radius: var(--radius-xs);
     box-sizing: border-box;
@@ -130,16 +144,12 @@
   display: flex;
   padding: 0;
 }
-.nameTag__05e81, .userTag__26b1f {
-  background-color: var(--user-profile-overlay-background);
+.overflowSlot__8061a {
+  background-color: var(--background-mod-normal);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-xs);
-  margin: unset;
-  padding: 1px 4px;
-  &.info_f4bc97:before {
-    color: var(--text-muted);
-    content: "@";
-  }
+  height: 24px;
+  min-width: 24px;
 }
 .badge__8061a {
   width: 22px;

@@ -1170,6 +1170,9 @@
 .icon_c9d15c + .truncated_c9d15c {
   color: var(--text-voice-connected);
 }
+.activityCounter_c9d15c {
+  color: var(--text-voice-connected);
+}
 
 .emptyStateHeader__7641b {
   font-size: 14px;

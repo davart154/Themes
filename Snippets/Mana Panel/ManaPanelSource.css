@@ -290,13 +290,22 @@
   height: 16px;
   z-index: 1;
 }
-.voiceUsers_e131a9 {
+.voiceUsers_e131a9.voiceUsers_e131a9 {
   border-top: 1px solid var(--border-muted);
   grid-area: vcUsers;
   margin-inline: calc(var(--space-sm) * -1 + 1px) calc(var(--space-sm) * -1);
   margin-top: var(--space-8);
   padding-block-start: var(--space-8);
   padding-inline: var(--space-sm);
+  button {
+    border-radius: var(--radius-xs);
+    min-height: unset;
+    min-width: unset;
+    > div {
+      min-height: 22px;
+      min-width: 22px;
+    }
+  }
 }
 .actionButtons_e131a9 {
   grid-area: vcActions;

@@ -264,6 +264,9 @@
     width: 24px;
   }
 }
+.mutuals_b4a4b2 {
+  margin-block-start: var(--space-sm);
+}
 .spacer__6aa84 {
   display: none;
 }

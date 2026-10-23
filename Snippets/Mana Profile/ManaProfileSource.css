@@ -172,18 +172,13 @@
 .dotSpacer__26b1f {
   display: none;
 }
-.guildTagContainer__26b1f {
-  display: contents;
-}
-.guildTag__26b1f {
+.guildTagPill__26b1f.guildTagPill__26b1f {
   background-color: var(--user-profile-overlay-background);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-xs);
+  height: 22px;
   margin: unset;
-  padding: 2px 4px;
-}
-.user-profile-popout .guildTagContainer__26b1f {
-  display: none;
+  padding-inline: var(--space-4);
 }
 
 .overlay_c0bea0 {
@@ -563,4 +558,44 @@
 }
 .container_d1d9f3 .row__0a95c {
   margin: 0 var(--space-20);
+}
+
+.popout_af3b89 {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.popoutContentWrapper_af3b89 {
+  background: unset;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+.popoutContentHeader_af3b89 {
+  margin-bottom: unset;
+}
+.hero_af3b89 {
+  display: contents;
+  padding: unset;
+}
+.hero_af3b89:before {
+  background-image: inherit;
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: -1;
+}
+.popoutHeroInner_af3b89 {
+  padding: var(--space-8);
+  background-color: var(--background-mod-subtle);
+  border-radius: var(--radius-sm);
+}
+.popoutHeaderIcons_af3b89 {
+  inset-inline-end: var(--space-8);
+  top: var(--space-8);
+}
+.interactionsContainer_af3b89 {
+  display: none;
+}
+.emojiHotrailShareToChannel_af3b89 {
+  display: none;
 }

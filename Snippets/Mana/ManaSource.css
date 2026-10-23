@@ -552,20 +552,39 @@
 /* Searching */
 .container__16eb0 {
   border-radius: var(--radius-md);
+  width: 298px;
 }
+
 .groupHeader__971b5 {
   box-sizing: border-box;
   min-height: var(--space-32);
   padding: 0 var(--space-8);
 }
+.itemContainer__971b5 {
+  color: var(--text-default);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm) !important;
+  transition: 50ms ease;
+  &:hover, &[aria-selected="true"] {
+    background-color: var(--background-mod-subtle);
+    border-color: var(--border-subtle);
+    transition: .15s ease;
+  }
+  &:active {
+    background-color: var(--background-mod-normal);
+  }
+}
 
 /* Date Picker */
-.container__16eb0 {
-  width: 298px;
+.datePickerContainer__16eb0 {
+  width: unset;
 }
-.react-datepicker:not(#\#) {
+.calendar__16eb0:not(#\#) {
   background: unset;
   border: unset;
+}
+.react-datepicker:not(#\#) {
+  border-radius: var(--radius-md);
   color: var(--text-default);
   padding: var(--space-12) var(--space-8);
   width: unset;
@@ -1153,19 +1172,27 @@
   overflow: hidden;
 }
 .item_c1e9c4 {
+  color: var(--text-default);
   border: 1px solid transparent;
   border-radius: var(--radius-sm) !important;
   transition: 50ms ease;
   &:hover, &.focused_c1e9c4 {
-    background-color: var(--control-icon-only-background-hover);
-    border-color: var(--control-icon-only-border-hover);
-    color: var(--control-icon-only-icon-hover);
+    background-color: var(--background-mod-subtle);
+    border-color: var(--border-subtle);
     transition: .15s ease;
   }
   &:active:not(.hideInteraction_c1e9c4) {
-    background-color: var(--control-icon-only-background-active);
-    border-color: var(--control-icon-only-border-active);
-    color: var(--control-icon-only-icon-active);
+    background-color: var(--background-mod-normal);
+  }
+  &.colorDanger_c1e9c4 {
+    color: var(--text-feedback-critical);
+    &:hover, &.focused_c1e9c4 {
+      background-color: var(--opacity-red-12);
+      border-color: var(--opacity-red-12);
+    }
+    &:active:not(.hideInteraction_c1e9c4) {
+      background-color: var(--opacity-red-24);
+    }
   }
 }
 
@@ -1330,7 +1357,7 @@
   color: var(--channels-default) !important;
 }
 
-/* Popout Animation Test*/
+/* Popout Animation */
 @keyframes manaPopoutOpen {
   0%, 1% {opacity: 0;}
   1% {transform: scale(var(--popout-scale-x), var(--popout-scale-y));}

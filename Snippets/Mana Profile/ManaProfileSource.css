@@ -122,7 +122,7 @@
   flex-wrap: unset;
   gap: var(--space-4);
   height: unset;
-  justify-content: end;
+  justify-content: start;
   margin: calc(var(--space-sm) - var(--space-4)) 0 0;
   padding: var(--space-xs);
   width: 100%;
@@ -134,9 +134,12 @@
     content: attr(aria-label);
     font-size: 12px;
     font-weight: 500;
+    min-width: 0;
+    mask: linear-gradient(90deg, var(--black) calc(100% - var(--space-8)), transparent);
     line-height: 1.3333333333333333;
-    margin-inline-end: auto;
     order: -1;
+    white-space: pre;
+    width: 100%;
   }
   div {
     display: flex;

@@ -1194,11 +1194,36 @@
       background-color: var(--opacity-red-24);
     }
   }
+  &.colorSuccess_c1e9c4 {
+    color: var(--text-feedback-positive);
+    &:hover, &.focused_c1e9c4 {
+      background-color: var(--opacity-green-12);
+      border-color: var(--opacity-green-12);
+    }
+    &:active:not(.hideInteraction_c1e9c4) {
+      background-color: var(--opacity-green-24);
+    }
+  }
+  &.colorPremium_c1e9c4 {
+    color: var(--guild-boosting-pink);
+    &:hover, &.focused_c1e9c4 {
+      background-color: hsl(var(--guild-boosting-pink-hsl) / .12);
+      border-color: hsl(var(--guild-boosting-pink-hsl) / .12);
+    }
+    &:active:not(.hideInteraction_c1e9c4) {
+      background-color: hsl(var(--guild-boosting-pink-hsl) / .24);
+    }
+  }
 }
-
 .labelContainer_c1e9c4 {
   min-height: var(--space-32);
   padding: var(--space-xs);
+}
+.label_c1e9c4, .icon_c1e9c4 {
+  color: currentColor !important;
+}
+.icon_c1e9c4 path {
+  fill: currentColor !important;
 }
 .sliderContainer__65039 {
   padding-inline: var(--space-xs);

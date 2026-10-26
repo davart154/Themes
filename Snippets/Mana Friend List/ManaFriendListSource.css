@@ -8,7 +8,7 @@
   border-radius: var(--radius-sm);
   color: var(--icon-feedback-info);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   line-height: 1.2857142857142858;
   margin: var(--space-md) calc(var(--space-md) * 2) 0 var(--space-md);
   padding: var(--space-12);
@@ -189,7 +189,7 @@
 .header__7d20c {
   color: var(--text-default);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   line-height: 1.2857142857142858;
   margin-block: var(--space-4) var(--space-12);
 }

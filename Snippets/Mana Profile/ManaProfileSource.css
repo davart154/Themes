@@ -133,7 +133,7 @@
     color: var(--text-default);
     content: attr(aria-label);
     font-size: 12px;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     min-width: 0;
     mask: linear-gradient(90deg, var(--black) calc(100% - var(--space-8)), transparent);
     line-height: 1.3333333333333333;
@@ -215,7 +215,7 @@
   gap: 4px;
   > div {
     font-size: 12px;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     line-height: 1.3333333333333333;
   }
 }
@@ -281,7 +281,7 @@
   [data-text-variant] {
     color: var(--text-default) !important;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     line-height: 1.3333333333333333;
     order: -1;
     text-decoration: none !important;
@@ -345,7 +345,7 @@
     }
     span {
       font-size: 14px;
-      font-weight: 500;
+      font-weight: var(--font-weight-medium);
       line-height: 1.2857142857142858;
       text-decoration: unset !important;
     }

@@ -35,7 +35,7 @@
   align-items: center;
   display: flex;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   gap: var(--space-xs);
   line-height: 1.2857142857142858;
   margin: 0;
@@ -67,7 +67,7 @@
   color: var(--control-secondary-text-default);
   display: flex;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   gap: var(--space-4);
   line-height: 1.25;
   margin: unset;
@@ -195,7 +195,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   box-sizing: border-box;
   display: inline-flex;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
   gap: var(--space-4);
   line-height: 1.3333333333333333;
   max-width: 100%;
@@ -283,7 +283,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   [data-text-variant] {
     color: inherit !important;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: var(--font-weight-semibold);
     line-height: 1.3333333333333333;
     text-transform: unset;
   }
@@ -400,7 +400,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   cursor: pointer;
   display: flex;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   height: unset;
   justify-content: center;
   line-height: 1.2857142857142858;
@@ -584,7 +584,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   color: var(--control-icon-only-icon-default);
   cursor: pointer;
   display: flex;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   justify-content: center;
   min-width: var(--space-24);
   min-height: var(--space-24);
@@ -690,7 +690,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   color: var(--text-strong);
   display: flex;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   height: 32px;
   justify-content: center;
   line-height: 1.25;
@@ -707,7 +707,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 .react-datepicker__day-name:not(#\#) {
   color: var(--text-muted);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   line-height: 1.2857142857142858;
   text-transform: unset;
 }
@@ -795,7 +795,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 .inboxTitle__06f80 {
   color: var(--text-strong) !important;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   line-height: 1.25;
 }
 .controls__06f80 {
@@ -985,7 +985,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   div {
     color: var(--text-strong) !important;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     line-height: 1.25;
   }
 }
@@ -1034,7 +1034,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 .tip__30cbe {
   color: var(--text-strong);
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   line-height: 1.2857142857142858;
 }
 .messageGroupWrapper__432f4 {
@@ -1098,7 +1098,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   color: var(--control-overlay-primary-text-default);
   flex-direction: row-reverse;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   gap: var(--space-4);
   line-height: 1.2857142857142858;
   min-height: 32px;
@@ -1133,7 +1133,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   border: 1px solid;
   border-radius: var(--radius-sm);
   box-sizing: border-box;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   gap: var(--space-4);
   min-height: 32px;
   min-width: 32px;
@@ -1282,8 +1282,12 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 }
 
 /* Misc */
-:root {
-  --background-feedback-notification: var(--background-brand);
+.divider__908e2 {
+  --divider-color: var(--background-brand);
+}
+.endCap__908e2 {
+  font-weight: var(--font-weight-semibold);
+  text-transform: unset;
 }
 
 .layer__59d0d:has(#guild-header-popout, #favorites-header-popout) {
@@ -1304,12 +1308,12 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 }
 .botText__82f07:not(#\#) {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semibold);
   line-height: 1;
   text-transform: lowercase ;
 }
 
-.popover_f84418.popover_f84418, .actionBarContainer_aa605f {
+.popover_f84418.popover_f84418 {
   background-color: var(--background-surface-highest);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
@@ -1414,7 +1418,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 
 .emptyStateHeader__7641b {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   line-height: 1.2857142857142858;
   text-transform: none; 
 }
@@ -1480,7 +1484,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   margin: unset;
   + div {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: var(--font-weight-normal);
     line-height: 1.3333333333333333;
   }
 }
@@ -1559,7 +1563,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   }
   h4 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--font-weight-medium);
     line-height: 1.25;
   }
   svg {

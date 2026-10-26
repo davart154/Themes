@@ -143,7 +143,8 @@
   }
 }
 
-.containerDefault_c69b6d > div:not(:only-child, [class]) {
+li.containerDefault_c69b6d > div:first-child:not(:only-child) {
+  position: unset;
   &:before {
     background: var(--text-voice-connected);
     content: "";

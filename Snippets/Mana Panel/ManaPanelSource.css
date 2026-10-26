@@ -158,7 +158,7 @@
 .container_e131a9 {
   display: grid;
   flex-direction: row;
-  grid-template-areas: "vcConnection vcLeave" "vcActions vcNoise" "vcUsers vcUsers";
+  grid-template-areas: "vcConnection vcButtons" "vcActions vcButtons" "vcUsers vcUsers";
   grid-template-columns: 1fr min-content;
   column-gap: var(--space-8);
   row-gap: 0;
@@ -170,19 +170,19 @@
   grid-area: vcConnection;
 }
 .voiceButtonsContainer_e131a9 {
-  display: contents;
-  > button:first-child {
-    grid-area: vcNoise;
-    margin-top: var(--space-8);
-  }
+  display: flex;
+  gap: var(--space-8);
+  grid-area: vcButtons;
+  margin: unset !important;
   > button:last-child {
     color: var(--red-new-46) !important;
-    grid-area: vcLeave;
-    width: 100%;
     path {
       fill: currentColor !important;
     }
   }
+}
+.container_e131a9:has(.actionButtons_e131a9) .voiceButtonsContainer_e131a9 {
+  flex-direction: column-reverse;
 }
 .rtcConnectionStatus__06d62 {
   background-color: var(--opacity-green-12);
@@ -294,8 +294,8 @@
   border-top: 1px solid var(--border-muted);
   grid-area: vcUsers;
   margin-inline: calc(var(--space-sm) * -1 + 1px) calc(var(--space-sm) * -1);
-  margin-top: var(--space-8);
-  padding-block-start: var(--space-8);
+  margin-top: calc(var(--custom-guild-list-padding) - var(--custom-panels-spacing) + 4px);
+  padding-block-start: calc(var(--custom-guild-list-padding) - var(--custom-panels-spacing) + 4px);
   padding-inline: var(--space-sm);
   button {
     border-radius: var(--radius-xs);

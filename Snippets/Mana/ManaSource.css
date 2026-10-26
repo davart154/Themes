@@ -1314,11 +1314,8 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
   display: flex;
-  gap: 4px;
-  padding: 3px !important;
-}
-.actionBar_aa605f, .wrapper_f7ecac {
-  display: contents;
+  gap: var(--space-4);
+  padding: calc(var(--space-4) - 1px) !important;
 }
 .button_f7ecac.button_f7ecac {
   background-color: transparent;

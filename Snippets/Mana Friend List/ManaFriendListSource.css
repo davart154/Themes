@@ -29,17 +29,34 @@
 }
 .closeButton__9536c {
   align-items: center;
+  background-color: var(--control-icon-only-background-default);
+  border: 1px solid var(--control-icon-only-border-default);
+  border-radius: var(--radius-sm);
   box-sizing: border-box;
-  color: var(--text-strong) !important;
-  cursor: default !important;
+  color: var(--control-icon-only-icon-default) !important;
   display: flex;
   justify-content: center;
+  margin-block: -.5lh;
+  min-height: 32px;
+  min-width: 32px;
+  transition: 50ms ease;
+  &:hover {
+    background-color: var(--control-icon-only-background-hover);
+    border-color: var(--control-icon-only-border-hover);
+    color: var(--control-icon-only-icon-hover);
+    transition: .15s ease;
+  }
+  &:active {
+    background-color: var(--control-icon-only-background-active);
+    border-color: var(--control-icon-only-border-active);
+    color: var(--control-icon-only-icon-active);
+  }
   svg {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
   }
   path {
-    d: path("M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 12l5.3-5.3a1 1 0 0 0-1.42-1.4L12 10.58l-5.3-5.3a1 1 0 0 0-1.4 1.42L10.58 12l-5.3 5.3a1 1 0 1 0 1.42 1.4L12 13.42l5.3 5.3Z");
+    d: path("M19.3 20.7a1 1 0 0 0 1.4-1.4L13.42 12l7.3-7.3a1 1 0 0 0-1.42-1.4L12 10.58l-7.3-7.3a1 1 0 0 0-1.4 1.42L10.58 12l-7.3 7.3a1 1 0 1 0 1.42 1.4L12 13.42l7.3 7.3Z");
     fill: currentColor !important;
   }
 }

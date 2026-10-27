@@ -1313,7 +1313,7 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
   text-transform: lowercase ;
 }
 
-.popover_f84418.popover_f84418 {
+.popover_f84418.popover_f84418, .wrapper_f7ecac {
   background-color: var(--background-surface-highest);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);

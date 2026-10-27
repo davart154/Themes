@@ -78,7 +78,6 @@
   background-color: var(--background-surface-highest);
   border: 1px solid var(--border-muted);
   border-radius: var(--radius-sm);
-  box-shadow: unset;
   display: flex;
   gap: 4px;
   height: unset;

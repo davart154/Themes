@@ -91,6 +91,29 @@
   }
 }
 
+.helperTextContainer__5a838:not(#\#) {
+  background: var(--background-feedback-warning);
+  border: 1px solid var(--inlinenotice-border-warning);
+  border-radius: var(--radius-sm);
+  opacity: 1;
+  margin-inline: calc(var(--custom-preview-inline-padding) + 1px);
+  padding: var(--space-12);
+  &:before {
+    content: "";
+    background-color: var(--icon-feedback-warning);
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath fill='currentColor' fill-rule='evenodd' d='M10 3.1a2.37 2.37 0 0 1 4 0l8.71 14.75c.84 1.41-.26 3.15-2 3.15H3.29c-1.74 0-2.84-1.74-2-3.15L9.99 3.1Zm3.25 14.65a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM13.06 14l.37-5.94a1 1 0 0 0-1-1.06h-.87a1 1 0 0 0-1 1.06l.38 5.94a1.06 1.06 0 0 0 2.12 0Z' clip-rule='evenodd' class=''/%3E%3C/svg%3E") center/contain no-repeat;
+    flex-shrink: 0;
+    height: 16px;
+    width: 16px;
+  }
+  div {
+    color: var(--text-strong) !important;
+    font-size: 14px;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.2857142857142858;
+  }
+}
+
 .usernameAndPronounsRow__26b1f.usernameAndPronounsRow__26b1f {
   gap: 4px;
   margin-top: var(--space-4);

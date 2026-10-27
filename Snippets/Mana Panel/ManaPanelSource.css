@@ -23,6 +23,12 @@
     width: 16px !important;
     height: 16px !important;
   }
+  .lottieIconColors__5eb9b :not(defs *)[fill][fill-opacity] {
+    fill: currentColor;
+  }
+  .lottieIconColors__5eb9b :not(defs *)[stroke][stroke-opacity] {
+    stroke: currentColor;
+  }
 }
 .title_b6c092 {
   color: var(--text-strong);
@@ -176,9 +182,6 @@
   margin: unset !important;
   > button:last-child {
     color: var(--red-new-46) !important;
-    path {
-      fill: currentColor !important;
-    }
   }
 }
 .container_e131a9:has(.actionButtons_e131a9) .voiceButtonsContainer_e131a9 {

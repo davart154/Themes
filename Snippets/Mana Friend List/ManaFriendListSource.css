@@ -197,7 +197,7 @@
   margin: 0 !important;
   flex-shrink: 0;
 }
-.card__2eab1 {
+.card__2eab1, .emptyCard__7e549 {
   background: var(--background-base-low);
   border: 1px solid var(--border-subtle);
   border-radius: 16px;

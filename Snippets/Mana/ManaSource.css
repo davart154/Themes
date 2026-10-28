@@ -1282,6 +1282,13 @@ li.containerDefault_c69b6d > div:first-child:not(:only-child) {
 }
 
 /* Misc */
+:root {
+  --badge-border-width: 1px;
+}
+.badge_c2b88c {
+  text-transform: none;
+}
+
 .divider__908e2 {
   --divider-color: var(--background-brand);
 }

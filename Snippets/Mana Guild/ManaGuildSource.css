@@ -68,6 +68,9 @@ div[style]:not([class]) .wrapper__6e9f8 {
   background-color: var(--background-mod-subtle) !important;
   color: var(--text-default) !important;
 }
+.childWrapperNoHoverBg__6e9f8 > img {
+  width: 100%;
+}
 .folderPreviewWrapper__48112 {
   box-shadow: inset 0 0 0 0 var(--background-brand), inset 0 0 0 0 var(--app-frame-background);
   transition: box-shadow .2s ease;

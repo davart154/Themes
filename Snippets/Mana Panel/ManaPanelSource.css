@@ -419,6 +419,10 @@
     flex: 1 1 0%;
   }
 }
+.clickableGameIcon__8c6c2 + [role] {
+  display: flex;
+  flex: 1;
+}
 .container__2ee44 {
   &:before {
     background-color: var(--interactive-icon-default);

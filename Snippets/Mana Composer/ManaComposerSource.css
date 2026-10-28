@@ -136,13 +136,6 @@
 .clipContainer__841c8 {
   padding: 0;
 }
-.container__841c8 {
-  display: contents;
-  > div {
-    align-items: center;
-    padding: var(--space-8) var(--space-12);
-  }
-}
 .floatingBars__74017:empty+.stackedBars__74017:nth-child(2) {
   border-start-end-radius: var(--radius-md);
   border-start-start-radius: var(--radius-md);
@@ -151,14 +144,30 @@
   border-start-end-radius: var(--radius-md);
   border-start-start-radius: var(--radius-md);
 }
+.bar__84522 {
+  padding: var(--space-8) var(--space-12);
+}
+.commandInfo__84522 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2857142857142858;
+  [data-text-variant] {
+    font-size: inherit;
+    line-height: inherit;
+  }
+}
 .replyBar__841c8 {
+  align-items: center;
   background: unset;
   border-start-end-radius: var(--radius-md);
   border-start-start-radius: var(--radius-md);
+  padding: var(--space-8) var(--space-12);
 }
 .threadSuggestionBar__841c8 {
+  align-items: center;
   background: unset;
   justify-content: space-between;
+  padding: var(--space-8) var(--space-12);
 }
 .text__841c8 {
   margin: 0;

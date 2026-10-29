@@ -205,9 +205,10 @@
 /* Base */
 .base__5e434 {
   grid-template-areas: 
-    "titleBar titleBar titleBar"
-    "notice notice notice"
-    "guildsList channelsList page";
+    "titleBar titleBar titleBar titleBar"
+    "notice notice notice notice"
+    "guildsList betterFoldersSidebar channelsList page";
+  grid-template-columns: [start] min-content [guildsEnd] min-content [foldersEnd] min-content [channelsEnd] 1fr [end];
 }
 .content__5e434 {
   grid-row: noticeEnd / end;

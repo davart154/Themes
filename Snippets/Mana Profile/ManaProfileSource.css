@@ -153,6 +153,9 @@
   margin: calc(var(--space-sm) - var(--space-4)) 0 0;
   padding: var(--space-xs);
   width: 100%;
+  &:not(.managed__8061a) {
+    flex-wrap: wrap;
+  }
   &:before {
     content: unset;
   }

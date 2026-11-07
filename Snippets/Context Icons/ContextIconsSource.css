@@ -1,4 +1,4 @@
-.item_c1e9c4:before {
+.item_M3qk4j:before {
   background-color: currentColor;
   bottom: 0;
   content: "";
@@ -19,7 +19,7 @@
 [id^="message-reminder-"]:before {
   content: unset;
 }
-.item_c1e9c4:has(.icon_c1e9c4, .poggermodeIcon_bd9912, .container__5a838, .sliderContainer__65039, .standaloneRadioIndicator__64e61, img):before {
+.item_M3qk4j:has(.icon_M3qk4j, .poggermodeIcon_bd9912, .container_VhFsFg, .sliderContainer_6wXI3L, .standaloneRadioIndicator_oJuRbG, img):before {
   content: unset;
 }
 :is([id^="settings-menu-vencord"], [id^="settings-menu-Vencord Settings--vencord"]):before {
@@ -211,7 +211,7 @@
   &:before {
     mask-image: var(--maskIcon-star);
   }
-  &.colorDanger_c1e9c4:before {
+  &.colorDanger_M3qk4j:before {
     mask-image: var(--maskIcon-starOutline);
   }
 }
@@ -261,7 +261,7 @@
   &:before {
     mask-image: var(--maskIcon-star);
   }
-  &.colorDanger_c1e9c4:before {
+  &.colorDanger_M3qk4j:before {
     mask-image: var(--maskIcon-starOutline);
   }
 }
@@ -398,7 +398,7 @@
 :is([id^="user-context-roles-"], [id^="guild-moderation-roles-"]):before {
   content: unset;
 }
-.roleDotAccessory_c1e9c4 > span {
+.roleDotAccessory_M3qk4j > span {
   border-radius: unset;
   height: inherit;
   margin: unset;
@@ -698,7 +698,7 @@
   &:before {
     mask-image: var(--maskIcon-star);
   }
-  &.colorDanger_c1e9c4:before {
+  &.colorDanger_M3qk4j:before {
     mask-image: var(--maskIcon-starOutline);
   }
 }

@@ -12,18 +12,18 @@
 }
 
 /* Game Profile */
-.heroContent_f651bf, .twoColumnMainContent__12335 {
+.heroContent_3tF3Yo, .twoColumnMainContent_3u6YzT {
   margin: var(--space-20) auto;
   max-width: 1200px;
   padding-block: unset;
   padding-inline: var(--space-20);
 }
-.platform-osx .navRow_d9667a {
+.platform-osx .navRow_fv75R2 {
   padding-inline-start: calc(100/var(--custom-zoom, 100)*(var(--custom-guild-list-width) + var(--custom-spacing) * 2));
 }
 
 /* Settings */
-.sidebar__409aa {
+.sidebar_cR4ic2 {
   align-items: flex-end;
   flex: 1 0 auto;
   overflow: hidden scroll;
@@ -46,7 +46,7 @@
     visibility: visible !important;
   }
 }
-.fixedContent__409aa {
+.fixedContent_cR4ic2 {
   background: var(--background-base-lower);
   box-sizing: border-box;
   position: sticky;
@@ -61,13 +61,13 @@
     right: 0;
   }
 }
-.nav__409aa {
+.nav_cR4ic2 {
   box-sizing: border-box;
   height: fit-content;
   padding: 20px 8px 0 20px;
   width: 300px;
 }
-.navScroller__409aa {
+.navScroller_cR4ic2 {
   margin-inline-end: 0;
   max-height: unset;
   overflow: visible !important;
@@ -77,14 +77,14 @@
   }
 }
 
-.content_e9e3ed {
+.content_3Rvb29 {
   flex: 1 1 900px;
 }
-.streamerModeEnabled_aa3ffd {
+.streamerModeEnabled_yz0Tww {
   max-width: 900px;
   min-width: 500px;
 }
-.contentHeader_e9e3ed {
+.contentHeader_3Rvb29 {
   background: transparent;
   border: 0;
   box-sizing: border-box;
@@ -124,7 +124,7 @@
     }
   }
 }
-.contentHeaderLeft_e9e3ed {
+.contentHeaderLeft_3Rvb29 {
   overflow: visible;
   + button {
     &:after {
@@ -151,15 +151,15 @@
     }
   }
 }
-.breadcrumbsNav__6989f {
+.breadcrumbsNav_56C_TT {
   display: none;
 }
 
-.scroller__6131a {
+.scroller_nNq2Vb {
   align-items: flex-start;
   scrollbar-gutter: unset;
 }
-.panel__6131a {
+.panel_nNq2Vb {
   box-sizing: border-box;
   flex: 1 1 auto;
   max-width: 820px;
@@ -168,7 +168,7 @@
   margin: 0;
   margin-inline-end: 81px;
 }
-.hasButton_e9e3ed + div .panel__6131a {
+.hasButton_3Rvb29 + div .panel_nNq2Vb {
   padding-inline-start: 100px;
 }
 

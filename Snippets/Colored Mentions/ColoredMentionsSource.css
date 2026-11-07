@@ -1,4 +1,4 @@
-.messageContent_c19a55, .compact_c19a55 .contents_c19a55 {
+.messageContent_2i8Bfm, .compact_2i8Bfm .contents_2i8Bfm {
   position: unset !important;
 }
 .obscured.obscured {
@@ -7,11 +7,11 @@
     visibility: hidden;
   }
 }
-.mention, .roleMention__75297 {
+.mention, .roleMention_ku1OHH {
   position: unset;
   filter: none;
 }
-.mentioned__5126c .interactive:is(.roleMention__75297, .mention) {
+.mentioned_SY_P2T .interactive:is(.roleMention_ku1OHH, .mention) {
   &:before, &:after {
     content: "";
     position: absolute;
@@ -24,28 +24,28 @@
     background-color: currentColor !important;
   }
 }
-.mentioned__5126c .interactive:is(.roleMention__75297, .mention):before {
+.mentioned_SY_P2T .interactive:is(.roleMention_ku1OHH, .mention):before {
   top: 0;
   left: 0;
   bottom: 0;
   width: 2px;
 }
-.mentioned__5126c .interactive:is(.roleMention__75297, .mention):after {
+.mentioned_SY_P2T .interactive:is(.roleMention_ku1OHH, .mention):after {
   border-radius: 0 var(--radius-xs) var(--radius-xs) 0;
   inset: 0;
   opacity: 8%;
   z-index: -1;
 }
-.interactive:is(.roleMention__75297, .mention) ~ .interactive, .interactive:is(.roleMention__75297, .mention) ~ .obscured .interactive, .obscured:has(.interactive) ~ .interactive, .obscured:has(.interactive) ~ .obscured .interactive, .repliedTextPreview_c19a55 .interactive {
+.interactive:is(.roleMention_ku1OHH, .mention) ~ .interactive, .interactive:is(.roleMention_ku1OHH, .mention) ~ .obscured .interactive, .obscured:has(.interactive) ~ .interactive, .obscured:has(.interactive) ~ .obscured .interactive, .repliedTextPreview_2i8Bfm .interactive {
   &:before, &:after {
     content: unset;
   }
 }
-.mentioned__5126c:has(.contents_c19a55 .interactive:is(.roleMention__75297, .mention)) {
+.mentioned_SY_P2T:has(.contents_2i8Bfm .interactive:is(.roleMention_ku1OHH, .mention)) {
   background: none !important;
   z-index: 0;
-  &:hover, &.selected__5126c {
-    .mention:after, .roleMention__75297:after {
+  &:hover, &.selected_SY_P2T {
+    .mention:after, .roleMention_ku1OHH:after {
       opacity: 4%;
     }
   }

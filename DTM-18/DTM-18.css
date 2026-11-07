@@ -14,19 +14,24 @@
 
 /*Badges*/
 .base__463b7 {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  border-width: unset;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
   height: unset;
+  justify-content: center;
 }
 .baseShapeRound__463b7, .badge_c2b88c {
   border-radius: 3px !important;
 }
-.eyebrow_cf4812 {
+.label_c2b88c {
   font-size: 12px;
   font-weight: 500;
   line-height: 12px;
 }
+
 .numberBadge__463b7 {
   box-shadow: 0 1px 0 rgb(0 0 0 / .25), inset 0 1px 0 rgb(255 255 255 / .15);
   min-width: 16px !important;
@@ -39,6 +44,10 @@
   padding: 3px 4px;
   text-shadow: 0 1px 0 rgb(0 0 0 / .25);
 }
+.primary_c2b88c {
+  background-color: var(--legacy-brand-500);
+}
+
 .live_a7acae {
   background-color: var(--legacy-bg-primary) !important;
   border-radius: 3px !important;
@@ -343,6 +352,9 @@ svg~.botText__82f07:before {
   -webkit-mask: unset;
   mask: unset;
 }
+.guilds__5e434 .scroller_ef3116::-webkit-scrollbar {
+  display: none;
+}
 
 .guilds__5e434 .stack_dbd263 {
   gap: 10px !important;
@@ -370,6 +382,21 @@ ul.stack_dbd263 {
 
 #guild-list-unread-dms > div {
   padding-bottom: 10px;
+}
+
+.item__58105 {
+  background-color: var(--legacy-guild-pill);
+  border-radius: 5px;
+  height: 10px;
+  margin-inline-start: -5px;
+  width: 10px;
+  &.hovered__58105 {
+    height: 10px;
+  }
+  &.selected__58105 {
+    background-color: var(--legacy-guild-pill-selected);
+    height: 40px;
+  }
 }
 
 .wrapper_cc5dd2 {
@@ -474,7 +501,7 @@ ul.stack_dbd263 {
   height: 50px;
   margin: 0;
 }
-.hiddenVisually_b18fe2, .folderPreviewWrapper__48112, .folderPreviewWrapper__48112 {
+.folderPreviewWrapper__48112, .folderPreviewWrapper__48112 {
   border-radius: 15px;
   width: 50px;
   height: 50px;
@@ -853,10 +880,12 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
 }
 
 .dot__9293f {
-  width: 1px;
-  height: 24px;
   background: hsla(0,0%,85%,.1);;
+  height: 24px;
   margin: 0 8px;
+  min-height: unset;
+  min-width: unset;
+  width: 1px;
   circle {
     display: none;
   }
@@ -2075,8 +2104,14 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
 
 
 /*Members*/
+.membersWrap_c8ffbb {
+  min-width: 240px;
+}
 .container_c8ffbb {
   border: 0;
+}
+.members_c8ffbb, .membersListNotices_c8ffbb {
+  width: 240px;
 }
 .members_c8ffbb {
   background: var(--legacy-bg-secondary);
@@ -2895,6 +2930,10 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
   font-size: 150% !important;
 }
 
+/*DiscordLogo*/[d="M19.73 4.87a18.2 18.2 0 0 0-4.6-1.44c-.21.4-.4.8-.58 1.21-1.69-.25-3.4-.25-5.1 0-.18-.41-.37-.82-.59-1.2-1.6.27-3.14.75-4.6 1.43A19.04 19.04 0 0 0 .96 17.7a18.43 18.43 0 0 0 5.63 2.87c.46-.62.86-1.28 1.2-1.98-.65-.25-1.29-.55-1.9-.92.17-.12.32-.24.47-.37 3.58 1.7 7.7 1.7 11.28 0l.46.37c-.6.36-1.25.67-1.9.92.35.7.75 1.35 1.2 1.98 2.03-.63 3.94-1.6 5.64-2.87.47-4.87-.78-9.09-3.3-12.83ZM8.3 15.12c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.89 2.27-2 2.27Zm7.4 0c-1.1 0-2-1.02-2-2.27 0-1.24.88-2.26 2-2.26s2.02 1.02 2 2.26c0 1.25-.88 2.27-2 2.27Z"] {
+	d: path('M17.7123 20.4774C17.7123 20.4774 16.9727 19.6095 16.3562 18.8425 19.0479 18.0957 20.0754 16.4406 20.0754 16.4406 19.2329 16.9856 18.4316 17.3691 17.7123 17.6315 16.685 18.0553 15.6987 18.3379 14.7329 18.4994 12.7603 18.8627 10.9521 18.7618 9.411 18.4792 8.2398 18.2572 7.2329 17.9343 6.3904 17.6113 5.9178 17.4297 5.4041 17.2076 4.8904 16.925 4.8288 16.8846 4.7671 16.8644 4.7055 16.8241 4.6644 16.8039 4.6439 16.7837 4.6233 16.7636 4.2534 16.5617 4.048 16.4204 4.048 16.4204 4.048 16.4204 5.0343 18.0351 7.6439 18.8022 7.0274 19.5692 6.2672 20.4774 6.2672 20.4774 1.726 20.3362 0 17.4094 0 17.4094 0 10.91 2.9588 5.642 2.9588 5.642 5.9178 3.462 8.7329 3.5225 8.7329 3.5225L8.9383 3.7648C5.2398 4.8144 3.5343 6.4089 3.5343 6.4089 3.5343 6.4089 3.9864 6.1668 4.7466 5.8236 6.9452 4.8749 8.6918 4.6125 9.411 4.552 9.5343 4.5318 9.637 4.5116 9.7603 4.5116 11.0137 4.3501 12.4316 4.3098 13.911 4.4713 15.8631 4.6933 17.9589 5.2584 20.0959 6.4089 20.0959 6.4089 18.4726 4.8951 14.9794 3.8455L15.2671 3.5225C15.2671 3.5225 18.0822 3.462 21.0411 5.642 21.0411 5.642 24 10.91 24 17.4094 24 17.4094 22.2534 20.3362 17.7123 20.4774ZM8.1575 11.0513C6.9863 11.0513 6.0616 12.0606 6.0616 13.2918 6.0616 14.5231 7.0068 15.5323 8.1575 15.5323 9.3288 15.5323 10.2534 14.5231 10.2534 13.2918 10.2739 12.0606 9.3288 11.0513 8.1575 11.0513M15.6576 11.0513C14.4863 11.0513 13.5617 12.0606 13.5617 13.2918 13.5617 14.5231 14.5068 15.5323 15.6576 15.5323 16.8288 15.5323 17.7534 14.5231 17.7534 13.2918 17.7534 12.0606 16.8288 11.0513 15.6576 11.0513');
+}
+
 .theme-dark {
   --background-feedback-notification: var(--legacy-danger);
   --badge-background-brand: var(--legacy-brand-500);
@@ -2938,6 +2977,8 @@ div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
   --custom-folder-color: var(--legacy-brand-500);
   --legacy-guild-separator: hsl(var(--white-500-hsl) / 0.2);
   --legacy-guild-iconBG: hsl(var(--legacy-primary-630));
+  --legacy-guild-pill: var(--legacy-grey-415);
+  --legacy-guild-pill-selected: var(--white);
 
   --legacy-chat-bg: hsl(var(--legacy-primary-400-hsl) / 0.3);
 

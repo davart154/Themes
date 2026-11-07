@@ -13,8 +13,22 @@
 .bg_Fd0FEH {
   background: var(--background-gradient-app-frame,var(--app-frame-background));
 }
-.wrapper_5dqHTG {
+.sidebar_pog62O {
+  overflow: visible;
+}
+.guilds_pog62O {
   background: transparent !important;
+  overflow: visible;
+  mask: unset;
+}
+.guilds_pog62O .scroller_5dqHTG {
+  margin-top: calc(var(--space-12) * -1);
+  padding-top: var(--space-12) !important;
+  mask: linear-gradient(transparent, var(--black) var(--space-12), var(--black) calc(100% - var(--space-16)), transparent);
+  &::-webkit-scrollbar-track {
+    margin-top: var(--space-12);
+    margin-bottom: var(--space-20);
+  }
 }
 
 .blobContainer_IaPwK5:not(.wobble_IaPwK5) defs > path {

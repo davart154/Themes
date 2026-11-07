@@ -3,7 +3,7 @@
 }
 
 .blockedIgnoredSettingsNotice_YgJORb {
-  background: var(--background-feedback-info);
+  background: var(--background-feedback-mod-info);
   border: 1px solid var(--inlinenotice-border-info);
   border-radius: var(--radius-sm);
   color: var(--icon-feedback-info);

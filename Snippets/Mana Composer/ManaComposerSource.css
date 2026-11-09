@@ -144,8 +144,14 @@
   border-start-end-radius: var(--radius-md);
   border-start-start-radius: var(--radius-md);
 }
-.bar_AqTeBa {
+.clipContainer_u2vyAM {
+  padding: unset;
+}
+.bar_AqTeBa, .scheduledMessageBar_u2vyAM {
   padding: var(--space-8) var(--space-12);
+}
+.text_u2vyAM, .actions_u2vyAM {
+  margin: unset;
 }
 .commandInfo_AqTeBa {
   font-size: 14px;

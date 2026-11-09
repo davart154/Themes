@@ -22,12 +22,12 @@
   mask: unset;
 }
 .guilds_pog62O .scroller_5dqHTG {
-  margin-top: calc(var(--space-12) * -1);
-  padding-top: var(--space-12) !important;
-  mask: linear-gradient(transparent, var(--black) var(--space-12), var(--black) calc(100% - var(--space-16)), transparent);
+  margin-top: calc(var(--custom-app-top-bar-height) * -1);
+  padding-top: var(--custom-app-top-bar-height) !important;
+  mask: linear-gradient(transparent, hsl(var(--black-hsl) / .1) var(--space-20), var(--black) var(--space-32), var(--black) calc(100% - var(--space-16)), transparent);
   &::-webkit-scrollbar-track {
-    margin-top: var(--space-12);
-    margin-bottom: var(--space-20);
+    margin-top: var(--custom-app-top-bar-height);
+    margin-bottom: var(--space-16);
   }
 }
 

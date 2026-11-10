@@ -1454,7 +1454,7 @@ li.containerDefault_Wx6SnQ > div:first-child:not(:only-child) {
     padding: 0 6px;
   }
 }
-.row__-eZlF:nth-child(2):before {
+.row__-eZlF:last-child:not(:only-child):before {
   background: linear-gradient(270deg in oklab, var(--expressive-gradient-green-start) 0, var(--expressive-gradient-green-end) 100%);
   border-radius: var(--radius-sm);
   bottom: 0;

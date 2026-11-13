@@ -766,15 +766,20 @@ li.containerDefault_Wx6SnQ > div:first-child:not(:only-child) {
 }
 
 /* Sidebar */
-.privateChannelRecipientsInviteButtonIconContainer_Bce46W {
+.privateChannelRecipientsInviteButtonIconContainer_Bce46W.privateChannelRecipientsInviteButtonIconContainer_Bce46W {
   border-radius: var(--radius-xs);
-  min-width: 16px;
-  min-height: 16px;
+  min-width: 24px;
+  min-height: 24px;
+  padding: unset;
 }
-.addButton_yOdhm_ {
+.addButton_yOdhm_.addButton_yOdhm_ {
+  align-items: center;
   border: 1px solid transparent;
   border-radius: var(--radius-xs);
   color: var(--control-icon-only-icon-default);
+  display: flex !important;
+  justify-content: center;
+  padding: unset;
   transition: 50ms ease;
   &:hover {
     background-color: var(--control-icon-only-background-hover);

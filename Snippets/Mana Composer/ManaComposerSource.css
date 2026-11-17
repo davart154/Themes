@@ -286,6 +286,43 @@
   display: none;
 }
 
+/* Autocomplete */
+.autocomplete_CAMiwx {
+  background: var(--background-surface-high);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: unset;
+  inset-inline: 0;
+}
+.base_CAMiwx {
+  color: var(--text-default);
+  border-radius: var(--radius-sm) !important;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+  transition: 50ms ease;
+}
+[role="option"] .base_CAMiwx {
+  &:hover {
+    background-color: var(--background-mod-subtle);
+    outline-color: var(--border-subtle);
+    transition: .15s ease;
+  }
+  &:active {
+    background-color: var(--background-mod-normal);
+  }
+}
+.clickable_CAMiwx[aria-selected=true]>.base_CAMiwx {
+  background-color: var(--background-mod-subtle);
+  outline-color: var(--border-subtle);
+  transition: .15s ease;
+}
+.autocompleteRow_CAMiwx {
+  padding: unset;
+}
+.scroller_rg6La1 {
+  padding-inline-start: var(--space-8);
+}
+
 /* Expression Picker */
 :root {
   --custom-emoji-picker-border-radius: var(--radius-md);

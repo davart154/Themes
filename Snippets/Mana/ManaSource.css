@@ -500,6 +500,24 @@ input[aria-expanded="true"] + .resultsArea_a1DYes {
 .dmIconContainer_hm_rAU .guildIcon_hm_rAU, .guildIconContainer_hm_rAU .guildIcon_hm_rAU {
   border-radius: var(--radius-xs);
 }
+.wrapper_t2U4kv {
+  align-items: center;
+  border-radius: var(--radius-round);
+  box-shadow: unset;
+  color: var(--white);
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  height: 16px;
+  justify-content: center;
+  line-height: 1.3333333333333333;
+  min-height: 16px;
+  min-width: 16px;
+  padding-block: unset;
+  padding-inline: 4px;
+  text-shadow: unset;
+  text-transform: unset;
+}
 
 .protip_a1DYes.protip_a1DYes {
   align-items: center;

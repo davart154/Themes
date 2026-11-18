@@ -476,6 +476,7 @@
   border-radius: var(--radius-lg);
   padding: var(--space-16);
 }
-.cozy_2i8Bfm.hasThread_2i8Bfm:after {
+.cozy_2i8Bfm.hasThread_2i8Bfm:after, .spine_g2fiji {
+  border-end-start-radius: var(--radius-md);
   bottom: 38px;
 }

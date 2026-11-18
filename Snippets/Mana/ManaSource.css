@@ -252,6 +252,20 @@ li.containerDefault_Wx6SnQ > div:first-child:not(:only-child) {
   padding-inline: var(--space-4);
 }
 
+.spine_reDhww {
+  display: none;
+}
+.spineBorder_reDhww ~ .containerDefault_Wx6SnQ:before {
+  border-bottom: 2px solid var(--spine-default);
+  border-inline-start: 2px solid var(--spine-default);
+  border-end-start-radius: var(--radius-sm);
+  content: "";
+  height: calc(50% - 1px);
+  inset-inline-start: var(--channels-spine-offset-left);
+  position: absolute;
+  width: 8px;
+}
+
 .applicationStore_6U3jXZ {
   background-color: unset;
 }
